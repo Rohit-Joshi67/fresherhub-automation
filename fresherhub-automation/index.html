@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FresherHub — Fresher IT Jobs &amp; Prep, Tracked Daily</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#16233F;
+    --ink-soft:#4A5568;
+    --paper:#ECEEE6;
+    --card:#FBFBF8;
+    --teal:#146B64;
+    --teal-deep:#0D4F4A;
+    --amber:#C97A0C;
+    --maroon:#7A2E2E;
+    --line:#CBCFC0;
+    --line-soft:#DCDFD2;
+    --focus:#146B64;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'IBM Plex Sans',sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit;}
+  .serif{font-family:'Fraunces',serif;}
+  .mono{font-family:'IBM Plex Mono',monospace;}
+  button{font-family:inherit;cursor:pointer;}
+  :focus-visible{outline:2px solid var(--focus);outline-offset:2px;}
+
+  /* ===== Top ticker ===== */
+  .ticker-bar{
+    background:var(--ink);
+    color:#EAEFEA;
+    overflow:hidden;
+    white-space:nowrap;
+    position:relative;
+    border-bottom:1px solid #0B1830;
+  }
+  .ticker-label{
+    position:absolute;left:0;top:0;bottom:0;
+    display:flex;align-items:center;gap:8px;
+    padding:0 14px;
+    background:var(--maroon);
+    font-family:'IBM Plex Mono',monospace;
+    font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+    z-index:2;
+  }
+  .ticker-track{
+    display:inline-flex;
+    padding-left:180px;
+    animation:scroll-left 34s linear infinite;
+  }
+  @keyframes scroll-left{
+    0%{transform:translateX(0);}
+    100%{transform:translateX(-50%);}
+  }
+  .ticker-item{
+    display:inline-flex;align-items:center;gap:8px;
+    padding:8px 28px;font-size:13px;
+    border-right:1px solid rgba(255,255,255,.15);
+  }
+  .ticker-item .dot{width:6px;height:6px;border-radius:50%;background:var(--amber);}
+
+  /* ===== Header ===== */
+  header.site{
+    padding:28px 6vw 20px;
+    display:flex;justify-content:space-between;align-items:flex-end;
+    flex-wrap:wrap;gap:16px;
+    border-bottom:2px solid var(--ink);
+  }
+  .logo-block{display:flex;flex-direction:column;gap:2px;}
+  .logo{
+    font-family:'Fraunces',serif;font-weight:600;font-size:30px;letter-spacing:-.01em;
+  }
+  .logo em{font-style:normal;color:var(--teal);}
+  .tagline{font-size:12.5px;color:var(--ink-soft);font-family:'IBM Plex Mono',monospace;letter-spacing:.02em;}
+  .header-stats{display:flex;gap:26px;}
+  .stat{text-align:right;}
+  .stat b{display:block;font-family:'Fraunces',serif;font-size:22px;line-height:1;}
+  .stat span{font-size:11px;color:var(--ink-soft);text-transform:uppercase;letter-spacing:.08em;}
+
+  /* ===== Hero ===== */
+  .hero{
+    padding:44px 6vw 30px;
+    display:grid;grid-template-columns:1.3fr 1fr;gap:40px;
+    align-items:start;
+  }
+  .hero h1{
+    font-family:'Fraunces',serif;font-weight:600;
+    font-size:clamp(28px,3.6vw,46px);
+    line-height:1.08;margin:0 0 16px;
+    max-width:14ch;
+  }
+  .hero h1 .accent{color:var(--teal);}
+  .hero p.lead{font-size:16px;color:var(--ink-soft);max-width:52ch;line-height:1.55;margin:0 0 22px;}
+  .search-panel{
+    background:var(--card);border:1px solid var(--ink);
+    padding:18px;
+  }
+  .search-row{display:flex;gap:0;border:1px solid var(--line);background:#fff;}
+  .search-row input{
+    flex:1;border:none;padding:12px 14px;font-size:14.5px;font-family:inherit;background:transparent;
+  }
+  .search-row input:focus{outline:none;}
+  .search-row button{
+    background:var(--ink);color:#fff;border:none;padding:0 20px;font-size:13px;
+    text-transform:uppercase;letter-spacing:.06em;font-weight:600;
+  }
+  .search-row button:hover{background:var(--teal-deep);}
+  .filter-chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px;}
+  .chip{
+    border:1px solid var(--line);background:#fff;padding:7px 13px;font-size:12.5px;
+    color:var(--ink-soft);border-radius:2px;
+  }
+  select.chip{appearance:none;-webkit-appearance:none;font-family:inherit;}
+
+  .source-note{
+    grid-column:1/-1;font-size:12px;color:var(--ink-soft);
+    border-top:1px dashed var(--line);padding-top:14px;margin-top:6px;
+    font-family:'IBM Plex Mono',monospace;
+  }
+
+  /* ===== Tabs ===== */
+  .tabs-bar{
+    padding:0 6vw;display:flex;align-items:center;gap:4px;
+    border-bottom:2px solid var(--ink);
+  }
+  .tab-btn{
+    background:none;border:none;border-bottom:3px solid transparent;
+    padding:12px 18px;font-size:13.5px;font-weight:600;color:var(--ink-soft);
+    text-transform:uppercase;letter-spacing:.05em;margin-bottom:-2px;
+  }
+  .tab-btn.active{color:var(--ink);border-bottom-color:var(--teal);}
+  .tab-count{
+    font-family:'IBM Plex Mono',monospace;font-weight:400;font-size:11px;
+    background:var(--paper);padding:1px 6px;margin-left:6px;border-radius:8px;
+  }
+  .results-meta{
+    margin-left:auto;font-size:12px;color:var(--ink-soft);font-family:'IBM Plex Mono',monospace;
+  }
+
+  /* ===== Grid ===== */
+  .grid-wrap{padding:26px 6vw 60px;}
+  .job-grid{
+    display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:18px;
+  }
+  .empty-state{
+    padding:60px 20px;text-align:center;color:var(--ink-soft);
+    border:1px dashed var(--line);
+  }
+
+  /* ===== Ticket-style job card ===== */
+  .job-card{
+    display:flex;background:var(--card);border:1px solid var(--ink);
+    position:relative;text-align:left;padding:0;overflow:visible;
+    transition:transform .12s ease, box-shadow .12s ease;
+  }
+  .job-card:hover{transform:translateY(-2px);box-shadow:4px 4px 0 rgba(22,35,63,.12);}
+  .card-main{flex:1;padding:16px 16px 14px;min-width:0;}
+  .card-top-row{display:flex;justify-content:space-between;align-items:flex-start;gap:8px;margin-bottom:10px;}
+  .stamp{
+    font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:600;letter-spacing:.1em;
+    padding:3px 8px;border:1.5px solid currentColor;border-radius:2px;
+    transform:rotate(-3deg);display:inline-block;
+  }
+  .stamp.govt{color:var(--maroon);}
+  .stamp.private{color:var(--teal-deep);}
+  .new-flag{
+    font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--amber);font-weight:600;
+  }
+  .card-title{font-family:'Fraunces',serif;font-size:18px;font-weight:600;line-height:1.25;margin:0 0 4px;}
+  .card-org{font-size:13px;color:var(--ink-soft);margin-bottom:10px;}
+  .card-meta{display:flex;flex-wrap:wrap;gap:10px 16px;font-size:12px;color:var(--ink-soft);}
+  .card-meta span{display:flex;align-items:center;gap:5px;}
+  .card-meta b{color:var(--ink);font-weight:600;}
+
+  .card-stub{
+    width:108px;flex-shrink:0;border-left:2px dashed var(--line);
+    display:flex;flex-direction:column;align-items:center;justify-content:center;
+    gap:6px;padding:10px 8px;position:relative;background:var(--paper);
+  }
+  .card-stub::before, .card-stub::after{
+    content:"";position:absolute;left:-8px;width:16px;height:16px;
+    background:var(--paper);border-radius:50%;
+  }
+  .card-stub::before{top:-8px;}
+  .card-stub::after{bottom:-8px;}
+  .stub-label{font-size:9px;text-transform:uppercase;letter-spacing:.08em;color:var(--ink-soft);}
+  .stub-date{font-family:'IBM Plex Mono',monospace;font-size:14px;font-weight:600;text-align:center;}
+  .stub-arrow{font-size:18px;color:var(--teal-deep);margin-top:2px;}
+
+  /* ===== Detail / Article view ===== */
+  .article-view{display:none;padding:0 6vw 70px;}
+  .back-btn{
+    background:none;border:none;font-family:'IBM Plex Mono',monospace;font-size:12.5px;
+    color:var(--ink-soft);padding:22px 0 10px;display:flex;align-items:center;gap:6px;
+  }
+  .back-btn:hover{color:var(--ink);}
+  .article-head{
+    border-bottom:2px solid var(--ink);padding-bottom:22px;margin-bottom:26px;
+    display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;
+  }
+  .article-head h2{font-family:'Fraunces',serif;font-size:clamp(24px,3vw,36px);margin:10px 0 8px;line-height:1.15;}
+  .article-org{font-size:14.5px;color:var(--ink-soft);}
+  .article-layout{display:grid;grid-template-columns:1.5fr 1fr;gap:34px;align-items:start;}
+
+  .info-table{width:100%;border-collapse:collapse;margin-bottom:26px;}
+  .info-table tr{border-bottom:1px solid var(--line-soft);}
+  .info-table td{padding:10px 4px;font-size:13.5px;vertical-align:top;}
+  .info-table td:first-child{
+    color:var(--ink-soft);width:38%;font-family:'IBM Plex Mono',monospace;font-size:11.5px;
+    text-transform:uppercase;letter-spacing:.04em;
+  }
+  .info-table td:last-child{font-weight:500;}
+
+  .section-label{
+    font-family:'IBM Plex Mono',monospace;font-size:11px;text-transform:uppercase;
+    letter-spacing:.1em;color:var(--teal-deep);margin:26px 0 10px;display:flex;align-items:center;gap:10px;
+  }
+  .section-label::after{content:"";flex:1;height:1px;background:var(--line);}
+  .article-body p{font-size:14.5px;line-height:1.65;color:var(--ink);margin:0 0 14px;}
+  .article-body ul{padding-left:20px;margin:0 0 14px;font-size:14.5px;line-height:1.65;}
+
+  /* Apply stub - ticket tear-off */
+  .apply-panel{
+    background:var(--ink);color:#EAEFEA;padding:22px 20px;position:relative;
+    clip-path:polygon(0 0,100% 0,100% 96%,96% 100%,92% 96%,88% 100%,84% 96%,80% 100%,76% 96%,72% 100%,68% 96%,64% 100%,60% 96%,56% 100%,52% 96%,48% 100%,44% 96%,40% 100%,36% 96%,32% 100%,28% 96%,24% 100%,20% 96%,16% 100%,12% 96%,8% 100%,4% 96%,0 100%);
+    margin-bottom:24px;
+  }
+  .apply-panel .lbl{font-family:'IBM Plex Mono',monospace;font-size:10.5px;text-transform:uppercase;letter-spacing:.1em;color:#9FB0AC;}
+  .apply-panel .deadline{font-family:'Fraunces',serif;font-size:24px;margin:6px 0 16px;}
+  .apply-btn{
+    display:block;width:100%;text-align:center;background:var(--teal);color:#fff;
+    padding:13px;text-decoration:none;font-weight:600;font-size:14px;
+    letter-spacing:.02em;border:none;margin-bottom:10px;
+  }
+  .apply-btn:hover{background:#0F5A54;}
+  .apply-sub{font-size:11.5px;color:#9FB0AC;line-height:1.5;}
+
+  /* Accordion for prep guide */
+  .accordion-item{border:1px solid var(--line);margin-bottom:8px;background:var(--card);}
+  .accordion-head{
+    width:100%;background:none;border:none;padding:14px 16px;
+    display:flex;justify-content:space-between;align-items:center;text-align:left;
+    font-weight:600;font-size:14px;
+  }
+  .accordion-head .plus{font-family:'IBM Plex Mono',monospace;color:var(--teal-deep);font-size:16px;}
+  .accordion-body{max-height:0;overflow:hidden;transition:max-height .25s ease;padding:0 16px;}
+  .accordion-body.open{padding-bottom:16px;}
+  .accordion-body ul{margin:0;padding-left:18px;font-size:13.5px;line-height:1.6;color:var(--ink-soft);}
+  .accordion-body ul li{margin-bottom:6px;}
+  .accordion-body a{color:var(--teal-deep);text-decoration:underline;}
+
+  footer{
+    border-top:2px solid var(--ink);padding:24px 6vw;
+    display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;
+    font-size:12px;color:var(--ink-soft);font-family:'IBM Plex Mono',monospace;
+  }
+
+  @media (max-width:820px){
+    .hero{grid-template-columns:1fr;}
+    .article-layout{grid-template-columns:1fr;}
+    .header-stats{display:none;}
+    .job-card{flex-direction:row;}
+    .card-stub{width:88px;}
+  }
+  @media (prefers-reduced-motion: reduce){
+    .ticker-track{animation:none;}
+    html{scroll-behavior:auto;}
+  }
+</style>
+</head>
+<body>
+
+<div class="ticker-bar">
+  <div class="ticker-label">Latest</div>
+  <div class="ticker-track" id="tickerTrack"></div>
+</div>
+
+<header class="site">
+  <div class="logo-block">
+    <div class="logo">Fresher<em>Hub</em></div>
+    <div class="tagline">JOBS &amp; PREPARATION — FOR FIRST-TIME JOB SEEKERS IN IT</div>
+  </div>
+  <div class="header-stats">
+    <div class="stat"><b>4</b><span>Govt Portals</span></div>
+    <div class="stat"><b>50+</b><span>IT Companies</span></div>
+    <div class="stat" id="openCountStat"><b>0</b><span>Open Now</span></div>
+  </div>
+</header>
+<div id="updatedBanner" style="display:none;padding:8px 6vw;font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:var(--ink-soft);background:var(--card);border-bottom:1px solid var(--line);"></div>
+
+<section class="hero">
+  <div>
+    <h1>Every fresher opening, <span class="accent">tracked in one place.</span></h1>
+    <p class="lead">We watch 4 government recruitment portals and 50+ private IT company career pages so you don't have to. Every listing comes with the original apply link and a preparation guide built for that exact role.</p>
+  </div>
+  <div class="search-panel">
+    <div class="search-row">
+      <input type="text" id="searchInput" placeholder="Search role, company, or location…">
+      <button id="searchBtn">Search</button>
+    </div>
+    <div class="filter-chips">
+      <select class="chip" id="locationFilter">
+        <option value="">All locations</option>
+      </select>
+      <select class="chip" id="batchFilter">
+        <option value="">Any passing year</option>
+      </select>
+    </div>
+    <div class="source-note">Sample dataset for prototype — connect a live scraper/API to replace with real-time postings.</div>
+  </div>
+</section>
+
+<div class="tabs-bar">
+  <button class="tab-btn active" data-tab="all">All <span class="tab-count" id="countAll">0</span></button>
+  <button class="tab-btn" data-tab="govt">Government <span class="tab-count" id="countGovt">0</span></button>
+  <button class="tab-btn" data-tab="private">Private <span class="tab-count" id="countPrivate">0</span></button>
+  <div class="results-meta" id="resultsMeta"></div>
+</div>
+
+<main class="grid-wrap">
+  <div class="job-grid" id="jobGrid"></div>
+  <div class="empty-state" id="emptyState" style="display:none;">No postings match your filters. Try clearing the search or filters above.</div>
+</main>
+
+<section class="article-view" id="articleView">
+  <button class="back-btn" id="backBtn">&larr; Back to all listings</button>
+  <div class="article-head">
+    <div>
+      <span class="stamp" id="artStamp"></span>
+      <h2 id="artTitle"></h2>
+      <div class="article-org" id="artOrg"></div>
+    </div>
+  </div>
+  <div class="article-layout">
+    <div>
+      <table class="info-table" id="infoTable"></table>
+      <div class="section-label">About the role</div>
+      <div class="article-body" id="artAbout"></div>
+      <div class="section-label">Eligibility</div>
+      <div class="article-body" id="artEligibility"></div>
+    </div>
+    <div>
+      <div class="apply-panel">
+        <div class="lbl">Last date to apply</div>
+        <div class="deadline" id="artDeadline"></div>
+        <a href="#" target="_blank" rel="noopener" class="apply-btn" id="artApplyLink">Apply on official site &#8599;</a>
+        <div class="apply-sub" id="artApplySub"></div>
+      </div>
+      <div class="section-label">Preparation guide</div>
+      <div id="prepAccordion"></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span>FresherHub — a prototype interface. No data collected.</span>
+  <span>Built for demonstration purposes</span>
+</footer>
+
+<script>
+// This array is bundled sample data only — used as a fallback so the page
+// never looks empty (e.g. if data/jobs.json hasn't been generated yet, or
+// you're previewing this file locally by double-clicking it). Once this
+// site is hosted on GitHub Pages, loadJobs() below replaces this with the
+// live output of the automated scraper.
+let JOBS = [
+  {
+    id:"g1", sector:"govt", org:"Staff Selection Commission (SSC)", title:"Combined Higher Secondary Level (CHSL) — Data Entry Operator",
+    location:"All India", batch:"2023–2026", salary:"₹25,500 – ₹81,100 (7th CPC)", posted:"3 days ago", isNew:true,
+    lastDate:"12 Aug 2026", vacancies:"~3,200", applyUrl:"https://ssc.nic.in",
+    about:"SSC CHSL recruits for Data Entry Operator and Lower Division Clerk roles across central government ministries and departments. The role involves data entry, record maintenance, and routine office administration, and is a common entry point for freshers into central government service.",
+    eligibility:"Open to graduates from any recognized university, aged 18–27 (with standard SC/ST/OBC/PwBD relaxations). No prior work experience required. Selection is via Tier-I (objective), Tier-II (descriptive), and a typing/skill test for DEO posts.",
+    prep:[
+      {t:"Aptitude & Reasoning", items:["Practice quantitative aptitude: percentages, ratios, profit-loss, time-speed-distance.","General intelligence & reasoning: series, coding-decoding, analogies.","Time yourself — Tier-I is 60 minutes for 100 questions."]},
+      {t:"General Awareness & English", items:["Current affairs from the last 6 months, especially government schemes.","English: cloze test, error spotting, sentence improvement.","Static GK: Indian polity, geography, history basics."]},
+      {t:"Typing / Skill Test", items:["DEO posts require a typing speed test — practice on the actual exam typing software if possible.","Accuracy matters as much as speed; errors are penalized."]},
+      {t:"Resources", items:["Official syllabus and previous papers: <a href='https://ssc.nic.in' target='_blank' rel='noopener'>ssc.nic.in</a>","Practice mock tests through any reputed SSC coaching platform."]}
+    ]
+  },
+  {
+    id:"g2", sector:"govt", org:"National Informatics Centre (NIC)", title:"Scientist-B (Computer Science / IT)",
+    location:"New Delhi + Regional Centres", batch:"2024–2026", salary:"Level 10, ₹56,100 – ₹1,77,500", posted:"1 week ago", isNew:false,
+    lastDate:"29 Aug 2026", vacancies:"~140", applyUrl:"https://www.nic.in",
+    about:"NIC is the technology arm of the Government of India, building and maintaining e-governance platforms used across ministries and states. Scientist-B is an entry-level technical role for engineering graduates interested in large-scale public sector software systems.",
+    eligibility:"B.E./B.Tech in Computer Science, IT, or Electronics, or equivalent, from a recognized institute. Typically requires a minimum qualifying score in GATE (CS/IT) for this cycle. Age limit up to 30 years, with standard relaxations.",
+    prep:[
+      {t:"Core CS Subjects", items:["Data structures & algorithms, DBMS, operating systems, computer networks.","Software engineering fundamentals and system design basics.","Revise your GATE CS syllabus thoroughly if the recruitment cycle requires a GATE score."]},
+      {t:"Coding Practice", items:["Practice implementing common data structures from scratch, not just using library calls.","Focus on correctness and edge cases over speed for written tests."]},
+      {t:"Interview Rounds", items:["Technical interview on CS fundamentals and any projects/internships listed on your resume.","Be ready to discuss public-sector technology and e-governance in general terms."]},
+      {t:"Resources", items:["Recruitment notices and eligibility circulars: <a href='https://www.nic.in' target='_blank' rel='noopener'>nic.in</a>"]}
+    ]
+  },
+  {
+    id:"g3", sector:"govt", org:"Institute of Banking Personnel Selection (IBPS)", title:"IT Officer — Specialist Officer (Scale I)",
+    location:"Pan-India (Public Sector Banks)", batch:"2023–2026", salary:"₹48,480 – ₹85,920 + allowances", posted:"5 days ago", isNew:true,
+    lastDate:"05 Sep 2026", vacancies:"~610", applyUrl:"https://www.ibps.in",
+    about:"IBPS conducts a common recruitment process for IT Officer positions across participating public sector banks. Successful candidates handle core banking software, network infrastructure, and information security within a bank's IT department.",
+    eligibility:"Degree in Computer Science/IT/Electronics or MCA from a recognized university. Freshers are eligible; no prior banking experience is required. Age 20–30 years, with standard category relaxations. Selection: online test, followed by interview.",
+    prep:[
+      {t:"Professional Knowledge (IT)", items:["DBMS, computer networks, operating systems, software engineering.","Basics of information security and core banking systems (CBS).","Object-oriented programming concepts, commonly tested via MCQs."]},
+      {t:"Reasoning & English", items:["Standard banking-exam reasoning: puzzles, seating arrangement, syllogisms.","English comprehension and grammar at a moderate difficulty level."]},
+      {t:"Interview Rounds", items:["Group discussion (in some cycles) followed by a personal interview.","Expect questions on banking sector awareness and your technical background."]},
+      {t:"Resources", items:["Official notification and exam calendar: <a href='https://www.ibps.in' target='_blank' rel='noopener'>ibps.in</a>"]}
+    ]
+  },
+  {
+    id:"g4", sector:"govt", org:"Railway Recruitment Board (RRB)", title:"Junior Engineer (IT) — RRB JE",
+    location:"Zone-wise, All India", batch:"2023–2026", salary:"Level 6, ₹35,400 – ₹1,12,400", posted:"2 weeks ago", isNew:false,
+    lastDate:"18 Sep 2026", vacancies:"~260", applyUrl:"https://www.rrbcdg.gov.in",
+    about:"Indian Railways recruits Junior Engineers for its IT cadre to support signalling software, ticketing systems, and internal digital infrastructure across railway zones. This is a stable, pensionable entry-level engineering role.",
+    eligibility:"Diploma or B.E./B.Tech in Computer Science, IT, or a related engineering discipline. Age 18–33 years with standard relaxations. Selection via Computer Based Test (CBT) stages followed by document verification.",
+    prep:[
+      {t:"Technical Subjects", items:["Programming fundamentals, DBMS basics, networking concepts.","General engineering topics common to the JE syllabus, even outside your core branch."]},
+      {t:"General Awareness & Reasoning", items:["Current affairs, general science, and basic reasoning — CBT-1 covers all branches together.","CBT-2 goes deeper into your specific engineering discipline."]},
+      {t:"Resources", items:["Zone-wise notifications: <a href='https://www.rrbcdg.gov.in' target='_blank' rel='noopener'>rrbcdg.gov.in</a>"]}
+    ]
+  },
+  {
+    id:"p1", sector:"private", org:"TCS (Tata Consultancy Services)", title:"TCS Ninja / Digital — National Qualifier Test (NQT)",
+    location:"Multiple cities, India", batch:"2025 & 2026 graduates", salary:"₹3.36 – ₹7 LPA (role dependent)", posted:"Today", isNew:true,
+    lastDate:"10 Aug 2026", vacancies:"Bulk hiring", applyUrl:"https://www.tcs.com/careers",
+    about:"TCS's National Qualifier Test is one of the largest fresher hiring drives in Indian IT, feeding into Ninja (entry-level developer) and Digital (specialist) tracks. Roles span application development, testing, and support across TCS's client engagements.",
+    eligibility:"B.E./B.Tech/MCA/M.Sc in any stream with no active backlogs, minimum aggregate as specified per drive (commonly 60%). Open to 2025 and 2026 batch graduates. No prior experience required.",
+    prep:[
+      {t:"Aptitude & Reasoning", items:["Quantitative aptitude, logical reasoning, and verbal ability — the NQT foundation section.","Practice under strict time limits; sectional cutoffs apply."]},
+      {t:"Coding Round", items:["Two coding questions, typically easy-to-medium, in any language of your choice.","Focus on writing clean, compiling code over attempting the most optimal solution first."]},
+      {t:"Advanced / Specialist Track", items:["For the Digital track, brush up on one specialization: cloud, data engineering, or full-stack.","Be ready to justify your specialization choice in the interview."]},
+      {t:"Interview Rounds", items:["Technical interview on projects, academics, and basic CS fundamentals.","HR/MR round on communication, flexibility on location, and career expectations."]}
+    ]
+  },
+  {
+    id:"p2", sector:"private", org:"Infosys", title:"Digital Specialist Engineer / Systems Engineer",
+    location:"Mysuru, Pune, Bengaluru + others", batch:"2025 & 2026 graduates", salary:"₹3.6 – ₹9.5 LPA (role dependent)", posted:"2 days ago", isNew:true,
+    lastDate:"20 Aug 2026", vacancies:"Bulk hiring", applyUrl:"https://www.infosys.com/careers",
+    about:"Infosys hires freshers into Systems Engineer and Digital Specialist Engineer tracks, starting with a foundation training program at its Mysuru campus before project allocation across domains like cloud, testing, and application development.",
+    eligibility:"B.E./B.Tech/MCA/M.Sc in any discipline, consistent academic record, no standing backlogs at the time of joining. Both 2025 and 2026 pass-outs are typically eligible depending on the drive.",
+    prep:[
+      {t:"Aptitude & Reasoning", items:["Quant, logical reasoning, and verbal sections similar to most IT service-company tests.","Pseudocode and basic programming logic questions are common."]},
+      {t:"Coding Round", items:["Coding questions on arrays, strings, and basic logic — usually 1–2 problems.","Practice writing solutions without an IDE's autocomplete to simulate exam conditions."]},
+      {t:"Interview Rounds", items:["Technical interview covering your final-year project and core subjects (DBMS, OS, OOP).","HR round focused on relocation flexibility and long-term commitment."]},
+      {t:"Resources", items:["Official careers portal: <a href='https://www.infosys.com/careers' target='_blank' rel='noopener'>infosys.com/careers</a>"]}
+    ]
+  },
+  {
+    id:"p3", sector:"private", org:"Wipro", title:"Wipro Elite National Talent Hunt (WE NLTH)",
+    location:"Multiple cities, India", batch:"2026 graduates", salary:"₹3.5 – ₹6.5 LPA", posted:"4 days ago", isNew:false,
+    lastDate:"15 Aug 2026", vacancies:"Bulk hiring", applyUrl:"https://careers.wipro.com",
+    about:"WE NLTH is Wipro's flagship fresher hiring program, recruiting engineering graduates into project engineer roles across application development, infrastructure, and testing streams.",
+    eligibility:"B.E./B.Tech in any branch, or MCA/M.Sc (Computer Science), with a minimum 50% aggregate and no active backlogs. Open to the specified graduating batch as per the drive.",
+    prep:[
+      {t:"Online Assessment", items:["Verbal, quantitative, and logical reasoning sections.","One or two essay/written communication questions in some drives."]},
+      {t:"Coding Round", items:["Basic to intermediate coding problems; focus on correctness and readable code."]},
+      {t:"Interview Rounds", items:["Technical round on programming fundamentals and your area of interest.","HR round on adaptability, teamwork, and willingness to relocate."]}
+    ]
+  },
+  {
+    id:"p4", sector:"private", org:"Cognizant", title:"GenC / GenC Next / GenC Pro — Fresher Programs",
+    location:"Chennai, Pune, Hyderabad, Kolkata", batch:"2025 & 2026 graduates", salary:"₹4 – ₹6.5 LPA (track dependent)", posted:"1 day ago", isNew:true,
+    lastDate:"22 Aug 2026", vacancies:"Bulk hiring", applyUrl:"https://careers.cognizant.com",
+    about:"Cognizant's GenC family of programs onboards freshers at different skill levels — GenC for entry-level, GenC Next for stronger technical profiles, and GenC Pro for candidates ready to join niche/specialized teams directly.",
+    eligibility:"B.E./B.Tech/MCA/M.Sc in relevant disciplines, 60% aggregate through academics (varies by drive), no active backlog at joining. Track (GenC / Next / Pro) is typically decided by assessment performance.",
+    prep:[
+      {t:"Aptitude & Reasoning", items:["Quant, logical reasoning, and verbal ability sections, similar difficulty to other IT service exams."],},
+      {t:"Coding Round", items:["1–2 coding problems; GenC Next/Pro tracks may include slightly harder problems or a short technical MCQ set."]},
+      {t:"Interview Rounds", items:["Technical interview on your resume, projects, and fundamentals.","HR round on relocation, shift flexibility, and communication."]}
+    ]
+  },
+  {
+    id:"p5", sector:"private", org:"Capgemini", title:"Analyst / Associate Software Engineer",
+    location:"Pune, Bengaluru, Mumbai, Chennai", batch:"2025 & 2026 graduates", salary:"₹4 – ₹7 LPA", posted:"6 days ago", isNew:false,
+    lastDate:"28 Aug 2026", vacancies:"Bulk hiring", applyUrl:"https://www.capgemini.com/careers",
+    about:"Capgemini recruits freshers into Analyst and Associate Software Engineer roles across application development, testing, and cloud teams, with structured onboarding training before client project allocation.",
+    eligibility:"B.E./B.Tech/MCA in any branch with consistent academics and no active backlogs. Specific percentage cutoffs vary by hiring cycle.",
+    prep:[
+      {t:"Assessment", items:["Aptitude, logical reasoning, and a coding test (usually on an online judge)."]},
+      {t:"Interview Rounds", items:["Technical interview on OOP, DBMS basics, and your final-year project.","HR round on career goals and flexibility."]}
+    ]
+  },
+  {
+    id:"p6", sector:"private", org:"Accenture", title:"Associate Software Engineer (ASE)",
+    location:"Multiple cities, India", batch:"2025 & 2026 graduates", salary:"₹4.5 – ₹6.5 LPA", posted:"3 days ago", isNew:true,
+    lastDate:"25 Aug 2026", vacancies:"Bulk hiring", applyUrl:"https://www.accenture.com/careers",
+    about:"Accenture's ASE role is an entry point for freshers into software development and delivery teams, spanning multiple industries and technology stacks, with a formal training academy before deployment.",
+    eligibility:"B.E./B.Tech/MCA/M.Sc in relevant streams, minimum aggregate as specified per drive, no active backlogs at the time of onboarding.",
+    prep:[
+      {t:"Cognitive Assessment", items:["Verbal, numerical, and logical reasoning sections, plus a coding simulation."]},
+      {t:"Interview Rounds", items:["Technical interview on core CS fundamentals and communication skills.","HR round emphasizing adaptability and Accenture's values framework."]}
+    ]
+  },
+  {
+    id:"p7", sector:"private", org:"HCLTech", title:"HCL TechBee / Graduate Engineer Trainee",
+    location:"Noida, Chennai, Bengaluru", batch:"2025 & 2026 graduates", salary:"₹3.2 – ₹5.5 LPA", posted:"1 week ago", isNew:false,
+    lastDate:"30 Aug 2026", vacancies:"Bulk hiring", applyUrl:"https://www.hcltech.com/careers",
+    about:"HCLTech's Graduate Engineer Trainee program brings freshers into a structured learning path across infrastructure, applications, and engineering R&D teams, with rotational training in the initial months.",
+    eligibility:"B.E./B.Tech/Diploma/MCA depending on track, minimum aggregate as per drive, no active academic backlogs.",
+    prep:[
+      {t:"Assessment", items:["Aptitude and reasoning test, followed by a technical MCQ or short coding round depending on track."]},
+      {t:"Interview Rounds", items:["Technical interview focused on fundamentals relevant to the specific track applied for.","HR discussion on relocation and training commitment."]}
+    ]
+  },
+  {
+    id:"p8", sector:"private", org:"Tech Mahindra", title:"Associate Software Engineer — TechM Fresher Hiring",
+    location:"Pune, Hyderabad, Noida", batch:"2025 & 2026 graduates", salary:"₹3.25 – ₹5 LPA", posted:"5 days ago", isNew:false,
+    lastDate:"14 Aug 2026", vacancies:"Bulk hiring", applyUrl:"https://careers.techmahindra.com",
+    about:"Tech Mahindra hires freshers into application development, network, and telecom-adjacent software roles, with an initial training bootcamp before project allocation.",
+    eligibility:"B.E./B.Tech/MCA in relevant streams, minimum aggregate as specified per hiring cycle, no active backlogs.",
+    prep:[
+      {t:"Assessment", items:["Aptitude, reasoning, and basic coding/logic test."]},
+      {t:"Interview Rounds", items:["Technical round on fundamentals and any internship/project experience.","HR round on flexibility and communication."]}
+    ]
+  },
+  {
+    id:"p9", sector:"private", org:"LTIMindtree", title:"Graduate Engineer Trainee (GET)",
+    location:"Pune, Mumbai, Bengaluru, Chennai", batch:"2025 & 2026 graduates", salary:"₹3.6 – ₹6 LPA", posted:"2 days ago", isNew:true,
+    lastDate:"18 Aug 2026", vacancies:"Bulk hiring", applyUrl:"https://www.ltimindtree.com/careers",
+    about:"LTIMindtree's GET program onboards engineering and MCA graduates into development, testing, and cloud teams, following a foundational technical training period.",
+    eligibility:"B.E./B.Tech/MCA in relevant disciplines, minimum aggregate as per drive, no active backlogs at joining.",
+    prep:[
+      {t:"Assessment", items:["Aptitude and reasoning test plus a coding round on an online judge."]},
+      {t:"Interview Rounds", items:["Technical interview on programming fundamentals and projects.","HR round on relocation and career expectations."]}
+    ]
+  },
+  {
+    id:"p10", sector:"private", org:"Mindtree Services (Product Engineering Arm)", title:"Junior Software Engineer — Product Engineering",
+    location:"Bengaluru, Pune", batch:"2025 & 2026 graduates", salary:"₹4 – ₹6.5 LPA", posted:"today", isNew:true,
+    lastDate:"08 Aug 2026", vacancies:"Limited", applyUrl:"https://www.ltimindtree.com/careers",
+    about:"A smaller product-engineering focused fresher intake, working on internal tooling and client product teams rather than typical service-delivery projects — a good fit for freshers who enjoy hands-on coding from day one.",
+    eligibility:"B.E./B.Tech/MCA with strong programming fundamentals demonstrated via the coding round; minimum aggregate as per drive.",
+    prep:[
+      {t:"Coding Round", items:["Expect a slightly harder coding round than typical service-company drives — practice data structures and basic algorithms.","Be comfortable explaining time and space complexity of your solution."]},
+      {t:"Interview Rounds", items:["Technical interview with a live coding or design discussion component.","HR round on product-team expectations and ownership mindset."]}
+    ]
+  }
+];
+
+// Shared prep resources appended to every job's accordion
+const COMMON_PREP_SECTION = {
+  t:"General Fresher Resources", items:[
+    "Practice coding daily on any judge — consistency matters more than binge sessions before a deadline.",
+    "Keep one polished project ready to explain in depth: what you built, why, and what you'd improve.",
+    "Prepare a 60-second self-introduction and rehearse it out loud, not just in your head."
+  ]
+};
+
+let currentTab = "all";
+let currentSearch = "";
+let currentLocation = "";
+let currentBatch = "";
+
+function uniqueValues(key){
+  return [...new Set(JOBS.map(j=>j[key]))];
+}
+
+function populateFilters(){
+  const locSel = document.getElementById('locationFilter');
+  uniqueValues('location').forEach(loc=>{
+    const opt = document.createElement('option');
+    opt.value = loc; opt.textContent = loc;
+    locSel.appendChild(opt);
+  });
+  const batchSel = document.getElementById('batchFilter');
+  uniqueValues('batch').forEach(b=>{
+    const opt = document.createElement('option');
+    opt.value = b; opt.textContent = b;
+    batchSel.appendChild(opt);
+  });
+}
+
+function buildTicker(){
+  const track = document.getElementById('tickerTrack');
+  const newest = [...JOBS].filter(j=>j.isNew);
+  const listHtml = newest.map(j=>`<span class="ticker-item"><span class="dot"></span>${j.org} — ${j.title} (Last date: ${j.lastDate})</span>`).join('');
+  track.innerHTML = listHtml + listHtml; // duplicate for seamless loop
+}
+
+function filteredJobs(){
+  return JOBS.filter(j=>{
+    if(currentTab !== 'all' && j.sector !== currentTab) return false;
+    if(currentLocation && j.location !== currentLocation) return false;
+    if(currentBatch && j.batch !== currentBatch) return false;
+    if(currentSearch){
+      const q = currentSearch.toLowerCase();
+      const hay = (j.title+" "+j.org+" "+j.location).toLowerCase();
+      if(!hay.includes(q)) return false;
+    }
+    return true;
+  });
+}
+
+function renderCounts(){
+  document.getElementById('countAll').textContent = JOBS.length;
+  document.getElementById('countGovt').textContent = JOBS.filter(j=>j.sector==='govt').length;
+  document.getElementById('countPrivate').textContent = JOBS.filter(j=>j.sector==='private').length;
+  document.getElementById('openCountStat').querySelector('b').textContent = JOBS.length;
+}
+
+function renderGrid(){
+  const grid = document.getElementById('jobGrid');
+  const jobs = filteredJobs();
+  document.getElementById('resultsMeta').textContent = `${jobs.length} posting${jobs.length===1?'':'s'} shown`;
+  document.getElementById('emptyState').style.display = jobs.length ? 'none' : 'block';
+  grid.innerHTML = jobs.map(j=>`
+    <button class="job-card" data-id="${j.id}">
+      <div class="card-main">
+        <div class="card-top-row">
+          <span class="stamp ${j.sector}">${j.sector==='govt'?'Government':'Private'}</span>
+          ${j.isNew?'<span class="new-flag">● NEW</span>':''}
+        </div>
+        <div class="card-title">${j.title}</div>
+        <div class="card-org">${j.org} · ${j.location}</div>
+        <div class="card-meta">
+          <span>Batch <b>${j.batch}</b></span>
+          <span>Pkg <b>${j.salary.split('(')[0].trim()}</b></span>
+        </div>
+      </div>
+      <div class="card-stub">
+        <div class="stub-label">Last date</div>
+        <div class="stub-date">${j.lastDate}</div>
+        <div class="stub-arrow">→</div>
+      </div>
+    </button>
+  `).join('');
+}
+
+function openArticle(id){
+  const j = JOBS.find(x=>x.id===id);
+  if(!j) return;
+  document.getElementById('artStamp').textContent = j.sector==='govt'?'Government':'Private';
+  document.getElementById('artStamp').className = 'stamp ' + j.sector;
+  document.getElementById('artTitle').textContent = j.title;
+  document.getElementById('artOrg').textContent = `${j.org} · ${j.location}`;
+  document.getElementById('artDeadline').textContent = j.lastDate;
+  document.getElementById('artApplyLink').href = j.applyUrl;
+  document.getElementById('artApplySub').textContent = `You'll be taken to ${j.org}'s official site to complete your application.`;
+  document.getElementById('artAbout').innerHTML = j.articleHtml ? j.articleHtml : `<p>${j.about}</p>`;
+  document.getElementById('artEligibility').innerHTML = `<p>${j.eligibility}</p>`;
+
+  document.getElementById('infoTable').innerHTML = `
+    <tr><td>Organization</td><td>${j.org}</td></tr>
+    <tr><td>Location</td><td>${j.location}</td></tr>
+    <tr><td>Eligible batch</td><td>${j.batch}</td></tr>
+    <tr><td>Salary / Stipend</td><td>${j.salary}</td></tr>
+    <tr><td>Vacancies</td><td>${j.vacancies}</td></tr>
+    <tr><td>Posted</td><td>${j.posted}</td></tr>
+  `;
+
+  const sections = [...j.prep, COMMON_PREP_SECTION];
+  document.getElementById('prepAccordion').innerHTML = sections.map((s,idx)=>`
+    <div class="accordion-item">
+      <button class="accordion-head" data-idx="${idx}">
+        <span>${s.t}</span><span class="plus">${idx===0?'−':'+'}</span>
+      </button>
+      <div class="accordion-body ${idx===0?'open':''}" data-body="${idx}">
+        <ul>${s.items.map(i=>`<li>${i}</li>`).join('')}</ul>
+      </div>
+    </div>
+  `).join('');
+
+  // set open max-height for the initially-open one after render
+  requestAnimationFrame(()=>{
+    document.querySelectorAll('.accordion-body.open').forEach(b=>{
+      b.style.maxHeight = b.scrollHeight + 20 + 'px';
+    });
+  });
+
+  document.querySelector('main.grid-wrap').style.display = 'none';
+  document.querySelector('.hero').style.display = 'none';
+  document.querySelector('.tabs-bar').style.display = 'none';
+  document.getElementById('articleView').style.display = 'block';
+  window.scrollTo({top:0, behavior:'smooth'});
+}
+
+function closeArticle(){
+  document.getElementById('articleView').style.display = 'none';
+  document.querySelector('main.grid-wrap').style.display = 'block';
+  document.querySelector('.hero').style.display = 'grid';
+  document.querySelector('.tabs-bar').style.display = 'flex';
+}
+
+document.addEventListener('click', (e)=>{
+  const card = e.target.closest('.job-card');
+  if(card){ openArticle(card.dataset.id); return; }
+
+  const tabBtn = e.target.closest('.tab-btn');
+  if(tabBtn){
+    document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
+    tabBtn.classList.add('active');
+    currentTab = tabBtn.dataset.tab;
+    renderGrid();
+    return;
+  }
+
+  const accHead = e.target.closest('.accordion-head');
+  if(accHead){
+    const idx = accHead.dataset.idx;
+    const body = document.querySelector(`.accordion-body[data-body="${idx}"]`);
+    const isOpen = body.classList.contains('open');
+    body.classList.toggle('open');
+    accHead.querySelector('.plus').textContent = isOpen ? '+' : '−';
+    body.style.maxHeight = isOpen ? '0px' : (body.scrollHeight + 20) + 'px';
+    return;
+  }
+
+  if(e.target.id === 'backBtn'){ closeArticle(); return; }
+  if(e.target.id === 'searchBtn'){ currentSearch = document.getElementById('searchInput').value.trim(); renderGrid(); return; }
+});
+
+document.getElementById('searchInput').addEventListener('keydown', (e)=>{
+  if(e.key === 'Enter'){
+    currentSearch = e.target.value.trim();
+    renderGrid();
+  }
+});
+document.getElementById('locationFilter').addEventListener('change', (e)=>{
+  currentLocation = e.target.value; renderGrid();
+});
+document.getElementById('batchFilter').addEventListener('change', (e)=>{
+  currentBatch = e.target.value; renderGrid();
+});
+
+async function loadJobs(){
+  try{
+    const res = await fetch('data/jobs.json', {cache:'no-store'});
+    if(res.ok){
+      const remote = await res.json();
+      if(Array.isArray(remote) && remote.length){ JOBS = remote; }
+    }
+  }catch(e){
+    console.warn('Live data/jobs.json not reachable — showing bundled sample data instead.', e);
+  }
+  try{
+    const metaRes = await fetch('data/jobs-meta.json', {cache:'no-store'});
+    if(metaRes.ok){
+      const meta = await metaRes.json();
+      const banner = document.getElementById('updatedBanner');
+      if(meta.updatedAt){
+        const d = new Date(meta.updatedAt);
+        banner.textContent = `Data last refreshed automatically: ${d.toLocaleString()} · ${meta.totalJobs} posting(s) found` + (meta.sitesWithErrors ? ` · ${meta.sitesWithErrors} source(s) unreachable this run` : '') + (meta.sitesSkippedByRobots ? ` · ${meta.sitesSkippedByRobots} source(s) skipped (robots.txt)` : '');
+        banner.style.display = 'block';
+      }
+    }
+  }catch(e){ /* meta file optional — fine if missing */ }
+
+  populateFilters();
+  buildTicker();
+  renderCounts();
+  renderGrid();
+}
+
+loadJobs();
+</script>
+</body>
+</html>
