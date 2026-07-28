@@ -26,18 +26,38 @@ const JOBS_OUT_PATH = path.join(ROOT, "data", "jobs.json");
 const REVIEW_OUT_PATH = path.join(ROOT, "data", "jobs-review.json");
 const META_OUT_PATH = path.join(ROOT, "data", "jobs-meta.json");
 
-// Titles must match one of these to be considered "fresher-relevant"
+// Titles must match one of these to be considered "fresher-relevant".
+// Matched with word boundaries (\b) — plain .includes() caused false
+// positives like "ge " matching inside "pa-ge " (from "Job Search page").
 const FRESHER_KEYWORDS = [
   "fresher", "freshers", "graduate trainee", "trainee", "entry level",
-  "entry-level", "campus", "associate engineer", "junior", "ge ", "get ",
-  "0-1 year", "0-2 year", "no experience", "early career", "new grad",
-  "data entry", "junior engineer", "systems engineer", "specialist engineer"
+  "entry-level", "campus placement", "associate engineer", "junior engineer",
+  "0-1 year", "0-2 years", "no experience required", "early career",
+  "new grad", "new graduate", "data entry operator", "systems engineer",
+  "specialist engineer", "graduate engineer trainee"
 ];
 
-// Titles containing these are excluded even if they matched above
+// Titles containing these are excluded even if they matched above —
+// seniority signals, and generic nav/footer/legal text that isn't an
+// actual job listing.
 const EXCLUDE_KEYWORDS = [
   "senior", "sr.", "lead", "manager", "principal", "architect",
-  "5+ years", "7+ years", "10+ years", "director", "head of"
+  "5+ years", "7+ years", "10+ years", "director", "head of",
+  "please visit", "explore", "accessible format", "search page",
+  "job search", "cookie", "privacy", "terms of", "sign in", "log in",
+  "subscribe", "newsletter", "view all", "see all", "learn more",
+  "read more", "find out", "our culture", "about us", "contact us",
+];
+
+// A real job title almost always contains one of these role words.
+// This is the main quality gate: it filters out generic hub/nav links
+// (like "Early Careers" or "Students and new grads") that happen to
+// contain a fresher keyword but aren't an actual posting.
+const ROLE_WORDS = [
+  "engineer", "developer", "officer", "trainee", "associate", "analyst",
+  "executive", "operator", "clerk", "specialist", "technician", "programmer",
+  "scientist", "consultant", "administrator", "coordinator", "assistant",
+  "intern", "internship",
 ];
 
 const REQUEST_TIMEOUT_MS = 25000;
@@ -50,10 +70,32 @@ function loadCompanies() {
   return [...govt, ...priv];
 }
 
+function hasWordBoundaryMatch(text, keyword) {
+  // Escape regex special characters in the keyword, then require it to
+  // not be glued to letters on either side (so "ge" in "page" doesn't
+  // count, but "GE" as its own word, or "graduate trainee", does).
+  const escaped = keyword.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const re = new RegExp(`(^|[^a-z])${escaped}([^a-z]|$)`, "i");
+  return re.test(text);
+}
+
 function isFresherRelevant(text) {
-  const t = text.toLowerCase();
+  const t = text.toLowerCase().trim();
+  if (t.length < 6) return false;
   if (EXCLUDE_KEYWORDS.some((k) => t.includes(k))) return false;
-  return FRESHER_KEYWORDS.some((k) => t.includes(k));
+
+  const matchesFresherKeyword = FRESHER_KEYWORDS.some((k) => hasWordBoundaryMatch(t, k));
+  if (!matchesFresherKeyword) return false;
+
+  // Require it to also look like an actual role title, not a generic
+  // link. "fresher" and "graduate" on their own are exempted from this
+  // check since they're unambiguous even without a role word attached
+  // (e.g. a link literally titled "Freshers 2026").
+  const explicitlyFresherWorded = /\bfresher|graduate\b/i.test(t);
+  const looksLikeARole = ROLE_WORDS.some((w) => t.includes(w));
+  if (!explicitlyFresherWorded && !looksLikeARole) return false;
+
+  return true;
 }
 
 function slugId(org, title) {
