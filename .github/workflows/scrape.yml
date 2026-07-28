@@ -33,10 +33,11 @@ jobs:
         working-directory: scraper
         run: node scrape.js
 
-      - name: Generate AI articles & reel scripts
+      -- name: Generate AI articles & reel scripts
         working-directory: scraper
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: node generate-content.js
 
       - name: Commit updated data (if anything changed)
