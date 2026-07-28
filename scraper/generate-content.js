@@ -1,16 +1,21 @@
 // generate-content.js
 // Second pipeline step (runs after scrape.js). Reads data/jobs.json,
 // and for every job that doesn't already have AI-written content, asks
-// Claude to write:
+// an AI model to write:
 //   1) a real article body (about the role + why it's worth applying)
 //   2) a short vertical-video script: hook, body, and a CTA telling
 //      viewers to comment the company name for the link
 //
-// Requires an Anthropic API key in the ANTHROPIC_API_KEY environment
-// variable (set as a GitHub secret — see SETUP.md). If it's missing, this
-// step is skipped entirely and the site falls back to the template-based
-// content from templates.js — nothing breaks, you just don't get the
-// AI-written version until you add the key.
+// Supports two providers, checked in this order:
+//   1. ANTHROPIC_API_KEY  — Claude Sonnet 5, paid (a fraction of a cent
+//      per posting). Use this once you're ready to pay for the best
+//      quality writing.
+//   2. GEMINI_API_KEY     — Google Gemini 2.5 Flash, genuinely free
+//      (no credit card, no time limit — get a key at aistudio.google.com).
+//      Good for testing everything end-to-end at zero cost before you
+//      commit to Claude.
+// If neither is set, this step is skipped entirely and the site falls
+// back to the template-based content from templates.js — nothing breaks.
 
 const fs = require("fs");
 const path = require("path");
@@ -19,8 +24,10 @@ const ROOT = path.join(__dirname, "..");
 const JOBS_PATH = path.join(ROOT, "data", "jobs.json");
 const REELS_PATH = path.join(ROOT, "data", "reel-scripts.json");
 
-const MODEL = "claude-sonnet-5";
-const API_KEY = process.env.ANTHROPIC_API_KEY;
+const ANTHROPIC_KEY = process.env.ANTHROPIC_API_KEY;
+const GEMINI_KEY = process.env.GEMINI_API_KEY;
+const CLAUDE_MODEL = "claude-sonnet-5";
+const GEMINI_MODEL = "gemini-2.5-flash";
 
 function buildPrompt(job) {
   return `You are writing content for a fresher job-listing website. Here is a scraped job posting:
@@ -43,16 +50,21 @@ Write two things and return ONLY valid JSON, nothing else, no markdown fences:
 }`;
 }
 
+function parseJsonFromModelText(text) {
+  const clean = text.replace(/^```json\s*/i, "").replace(/```$/, "").trim();
+  return JSON.parse(clean);
+}
+
 async function callClaude(job) {
   const res = await fetch("https://api.anthropic.com/v1/messages", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "x-api-key": API_KEY,
+      "x-api-key": ANTHROPIC_KEY,
       "anthropic-version": "2023-06-01",
     },
     body: JSON.stringify({
-      model: MODEL,
+      model: CLAUDE_MODEL,
       max_tokens: 700,
       messages: [{ role: "user", content: buildPrompt(job) }],
     }),
@@ -64,21 +76,44 @@ async function callClaude(job) {
 
   const data = await res.json();
   const text = (data.content || []).map((b) => b.text || "").join("").trim();
-  const clean = text.replace(/^```json\s*/i, "").replace(/```$/, "").trim();
-  return JSON.parse(clean);
+  return parseJsonFromModelText(text);
+}
+
+async function callGemini(job) {
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent?key=${GEMINI_KEY}`;
+  const res = await fetch(url, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      contents: [{ parts: [{ text: buildPrompt(job) }] }],
+      generationConfig: { maxOutputTokens: 700 },
+    }),
+  });
+
+  if (!res.ok) {
+    throw new Error(`Gemini API error ${res.status}: ${await res.text()}`);
+  }
+
+  const data = await res.json();
+  const text = data.candidates?.[0]?.content?.parts?.map((p) => p.text || "").join("").trim() || "";
+  return parseJsonFromModelText(text);
+}
+
+async function generateForJob(job) {
+  if (ANTHROPIC_KEY) return callClaude(job);
+  if (GEMINI_KEY) return callGemini(job);
+  throw new Error("No API key configured"); // shouldn't reach here — checked in main()
 }
 
 async function main() {
-  if (!API_KEY) {
-    console.log("ANTHROPIC_API_KEY not set — skipping AI content generation. Site will use the template-based fallback content.");
+  if (!ANTHROPIC_KEY && !GEMINI_KEY) {
+    console.log("No ANTHROPIC_API_KEY or GEMINI_API_KEY set — skipping AI content generation. Site will use the template-based fallback content.");
     return;
   }
+  console.log(`Using provider: ${ANTHROPIC_KEY ? "Claude (Anthropic)" : "Gemini (Google, free tier)"}`);
 
   const jobs = JSON.parse(fs.readFileSync(JOBS_PATH, "utf8"));
 
-  // Reel scripts persist in their own private file, independent of
-  // jobs.json (which is public-facing). Load whatever's already there so
-  // we don't lose past scripts for jobs we're about to skip re-generating.
   let reelScripts = [];
   if (fs.existsSync(REELS_PATH)) {
     try {
@@ -92,22 +127,18 @@ async function main() {
 
   for (const job of jobs) {
     if (job.contentGenerated) {
-      continue; // article already written; its reel script (if any) is already in reelScripts
+      continue;
     }
     try {
       console.log(`Writing content for ${job.org} — ${job.title}...`);
-      const result = await callClaude(job);
+      const result = await generateForJob(job);
       job.articleHtml = `<p>${result.article}</p>`;
       job.contentGenerated = true;
-      // Note: the reel script is intentionally NOT attached to `job` here.
-      // `job` gets written to data/jobs.json, which is what the public
-      // website fetches — reel scripts stay private, in reel-scripts.json
-      // only, per your request.
       if (!existingReelIds.has(job.id)) {
         reelScripts.push({ id: job.id, org: job.org, title: job.title, ...result.reel });
       }
       generated++;
-      await new Promise((r) => setTimeout(r, 800)); // gentle rate limiting
+      await new Promise((r) => setTimeout(r, 800));
     } catch (err) {
       console.warn(`  failed for ${job.org} — ${job.title}: ${err.message}`);
     }
@@ -120,5 +151,5 @@ async function main() {
 
 main().catch((err) => {
   console.error(err);
-  process.exit(1); // fails only this step; scrape.js data is already committed separately if this errors before writing
+  process.exit(1);
 });
