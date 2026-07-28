@@ -1,4 +1,60 @@
 {
   "loadErrors": [],
-  "robotsSkipped": []
+  "robotsSkipped": [
+    {
+      "company": "Staff Selection Commission (SSC)",
+      "url": "https://ssc.nic.in",
+      "reason": "could not verify robots.txt (site unreachable or blocking requests)"
+    },
+    {
+      "company": "Institute of Banking Personnel Selection (IBPS)",
+      "url": "https://www.ibps.in",
+      "reason": "could not verify robots.txt (site unreachable or blocking requests)"
+    },
+    {
+      "company": "Railway Recruitment Board (RRB)",
+      "url": "https://www.rrbcdg.gov.in",
+      "reason": "could not verify robots.txt (site unreachable or blocking requests)"
+    },
+    {
+      "company": "Coforge",
+      "url": "https://www.coforge.com/careers",
+      "reason": "could not verify robots.txt (site unreachable or blocking requests)"
+    },
+    {
+      "company": "Hexaware Technologies",
+      "url": "https://hexaware.com/careers/",
+      "reason": "could not verify robots.txt (site unreachable or blocking requests)"
+    },
+    {
+      "company": "Newgen Software",
+      "url": "https://newgensoft.com/careers/",
+      "reason": "could not verify robots.txt (site unreachable or blocking requests)"
+    },
+    {
+      "company": "SAP Labs India",
+      "url": "https://www.sap.com/about/careers.html",
+      "reason": "disallowed by robots.txt"
+    },
+    {
+      "company": "VMware India",
+      "url": "https://careers.vmware.com",
+      "reason": "could not verify robots.txt (site unreachable or blocking requests)"
+    },
+    {
+      "company": "Intel India",
+      "url": "https://jobs.intel.com",
+      "reason": "could not verify robots.txt (site unreachable or blocking requests)"
+    },
+    {
+      "company": "Paytm",
+      "url": "https://jobs.paytm.com",
+      "reason": "could not verify robots.txt (site unreachable or blocking requests)"
+    },
+    {
+      "company": "Zomato",
+      "url": "https://www.zomato.com/careers",
+      "reason": "disallowed by robots.txt"
+    }
+  ]
 }
