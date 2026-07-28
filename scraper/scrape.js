@@ -27,14 +27,23 @@ const REVIEW_OUT_PATH = path.join(ROOT, "data", "jobs-review.json");
 const META_OUT_PATH = path.join(ROOT, "data", "jobs-meta.json");
 
 // Titles must match one of these to be considered "fresher-relevant".
-// Matched with word boundaries (\b) — plain .includes() caused false
+// Split into two tiers:
+//   SPECIFIC  — already unambiguous on their own (e.g. "graduate trainee",
+//               "data entry operator") — accepted immediately.
+//   AMBIGUOUS — common generic hub-link labels (e.g. "early career",
+//               "new grad") that also show up on non-listing nav links —
+//               these additionally require a real role word or explicit
+//               "fresher"/"graduate" wording before being accepted.
+// All matches use word boundaries (\b) — plain .includes() caused false
 // positives like "ge " matching inside "pa-ge " (from "Job Search page").
-const FRESHER_KEYWORDS = [
-  "fresher", "freshers", "graduate trainee", "trainee", "entry level",
-  "entry-level", "campus placement", "associate engineer", "junior engineer",
-  "0-1 year", "0-2 years", "no experience required", "early career",
-  "new grad", "new graduate", "data entry operator", "systems engineer",
-  "specialist engineer", "graduate engineer trainee"
+const SPECIFIC_KEYWORDS = [
+  "fresher", "freshers", "graduate trainee", "graduate engineer trainee",
+  "entry level", "entry-level", "associate engineer", "junior engineer",
+  "0-1 year", "0-2 years", "no experience required", "data entry operator",
+  "systems engineer", "specialist engineer",
+];
+const AMBIGUOUS_KEYWORDS = [
+  "trainee", "campus placement", "early career", "new grad", "new graduate",
 ];
 
 // Titles containing these are excluded even if they matched above —
@@ -49,10 +58,10 @@ const EXCLUDE_KEYWORDS = [
   "read more", "find out", "our culture", "about us", "contact us",
 ];
 
-// A real job title almost always contains one of these role words.
-// This is the main quality gate: it filters out generic hub/nav links
-// (like "Early Careers" or "Students and new grads") that happen to
-// contain a fresher keyword but aren't an actual posting.
+// Used only to validate AMBIGUOUS_KEYWORDS matches, not applied globally
+// (an earlier version required this everywhere, which cut real postings
+// like "TCS Ninja" or "Wipro Elite NLTH" that don't use standard role
+// words — dropped results to zero, overcorrecting for the junk).
 const ROLE_WORDS = [
   "engineer", "developer", "officer", "trainee", "associate", "analyst",
   "executive", "operator", "clerk", "specialist", "technician", "programmer",
@@ -84,18 +93,17 @@ function isFresherRelevant(text) {
   if (t.length < 6) return false;
   if (EXCLUDE_KEYWORDS.some((k) => t.includes(k))) return false;
 
-  const matchesFresherKeyword = FRESHER_KEYWORDS.some((k) => hasWordBoundaryMatch(t, k));
-  if (!matchesFresherKeyword) return false;
+  // Specific keywords are unambiguous enough to accept on their own.
+  if (SPECIFIC_KEYWORDS.some((k) => hasWordBoundaryMatch(t, k))) return true;
 
-  // Require it to also look like an actual role title, not a generic
-  // link. "fresher" and "graduate" on their own are exempted from this
-  // check since they're unambiguous even without a role word attached
-  // (e.g. a link literally titled "Freshers 2026").
+  // Ambiguous keywords need extra confirmation — either explicit
+  // "fresher"/"graduate" wording, or a genuine role word alongside them.
+  const matchedAmbiguous = AMBIGUOUS_KEYWORDS.some((k) => hasWordBoundaryMatch(t, k));
+  if (!matchedAmbiguous) return false;
+
   const explicitlyFresherWorded = /\bfresher|graduate\b/i.test(t);
   const looksLikeARole = ROLE_WORDS.some((w) => t.includes(w));
-  if (!explicitlyFresherWorded && !looksLikeARole) return false;
-
-  return true;
+  return explicitlyFresherWorded || looksLikeARole;
 }
 
 function slugId(org, title) {
@@ -185,10 +193,6 @@ async function main() {
 
   await browser.close();
 
-  // Split into "published" (site shows these) vs "review" (kept aside,
-  // e.g. if you later add stricter confidence rules). For now everything
-  // that matched the keyword filter is published — tune FRESHER_KEYWORDS /
-  // EXCLUDE_KEYWORDS in this file over time as you see false positives.
   fs.mkdirSync(path.dirname(JOBS_OUT_PATH), { recursive: true });
   fs.writeFileSync(JOBS_OUT_PATH, JSON.stringify(allJobs, null, 2));
   fs.writeFileSync(REVIEW_OUT_PATH, JSON.stringify({ loadErrors: errors, robotsSkipped }, null, 2));
