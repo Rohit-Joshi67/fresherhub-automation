@@ -17,6 +17,16 @@
       "reason": "could not verify robots.txt (site unreachable or blocking requests)"
     },
     {
+      "company": "TCS",
+      "url": "https://www.tcs.com/careers",
+      "reason": "could not verify robots.txt (site unreachable or blocking requests)"
+    },
+    {
+      "company": "Infosys",
+      "url": "https://www.infosys.com/careers.html",
+      "reason": "could not verify robots.txt (site unreachable or blocking requests)"
+    },
+    {
       "company": "Coforge",
       "url": "https://www.coforge.com/careers",
       "reason": "could not verify robots.txt (site unreachable or blocking requests)"
@@ -29,6 +39,11 @@
     {
       "company": "Newgen Software",
       "url": "https://newgensoft.com/careers/",
+      "reason": "could not verify robots.txt (site unreachable or blocking requests)"
+    },
+    {
+      "company": "Virtusa",
+      "url": "https://www.virtusa.com/careers",
       "reason": "could not verify robots.txt (site unreachable or blocking requests)"
     },
     {
@@ -55,6 +70,11 @@
       "company": "Zomato",
       "url": "https://www.zomato.com/careers",
       "reason": "disallowed by robots.txt"
+    },
+    {
+      "company": "Nykaa",
+      "url": "https://www.nykaa.com/careers",
+      "reason": "could not verify robots.txt (site unreachable or blocking requests)"
     }
   ]
 }
