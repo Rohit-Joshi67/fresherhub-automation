@@ -9,7 +9,7 @@
     "salary": "See official listing",
     "lastDate": "See official listing",
     "vacancies": "See official listing",
-    "posted": "2026-08-01",
+    "posted": "2026-08-02",
     "isNew": true,
     "applyUrl": "https://www.ibm.com/careers/career-opportunities",
     "about": "IBM India is hiring for Entry-Level Opportunities, a fresher-eligible opening on IBM India's official careers page. This summary was generated automatically — confirm exact eligibility criteria, compensation, and deadlines on the official listing before applying.",
@@ -27,6 +27,53 @@
         "items": [
           "Expect 1–2 coding problems, typically easy-to-medium, in a language of your choice.",
           "Prioritize writing clean, compiling code over the most optimal solution first."
+        ]
+      },
+      {
+        "t": "HR Round",
+        "items": [
+          "Prepare a 60-second self-introduction and rehearse it out loud.",
+          "Be clear and honest about location flexibility and joining timelines — this comes up often."
+        ]
+      }
+    ],
+    "confidence": "auto"
+  },
+  {
+    "id": "qualcomm-india-camera-systems-engineer-haifa-haifa-haifa-dis",
+    "sector": "private",
+    "org": "Qualcomm India",
+    "title": "Camera Systems Engineer - Haifa\nHaifa, Haifa District, Israel\nSystems Engineering\nPosted 17 days ago",
+    "location": "See official listing",
+    "batch": "See official listing",
+    "salary": "See official listing",
+    "lastDate": "See official listing",
+    "vacancies": "See official listing",
+    "posted": "2026-08-02",
+    "isNew": true,
+    "applyUrl": "https://careers.qualcomm.com/careers/job/446717730169",
+    "about": "Qualcomm India is hiring for Camera Systems Engineer - Haifa\nHaifa, Haifa District, Israel\nSystems Engineering\nPosted 17 days ago, a fresher-eligible opening on Qualcomm India's official careers page. This summary was generated automatically — confirm exact eligibility criteria, compensation, and deadlines on the official listing before applying.",
+    "eligibility": "Eligibility typically requires a relevant degree (B.E./B.Tech/MCA/M.Sc or equivalent) with no active academic backlogs. Exact cutoffs and batch eligibility vary by company and drive — confirm on the official posting.",
+    "prep": [
+      {
+        "t": "Aptitude & Reasoning",
+        "items": [
+          "Quantitative aptitude, logical reasoning, and verbal ability — standard across most IT service company tests.",
+          "Practice under strict time limits; sectional cutoffs are common."
+        ]
+      },
+      {
+        "t": "Coding Round",
+        "items": [
+          "Expect 1–2 coding problems, typically easy-to-medium, in a language of your choice.",
+          "Prioritize writing clean, compiling code over the most optimal solution first."
+        ]
+      },
+      {
+        "t": "Technical Interview",
+        "items": [
+          "Be ready to discuss OOP concepts, DBMS, operating systems, and your final-year project in depth.",
+          "Practice explaining the time/space complexity of your code."
         ]
       },
       {
