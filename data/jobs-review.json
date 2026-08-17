@@ -72,6 +72,11 @@
       "reason": "disallowed by robots.txt"
     },
     {
+      "company": "Flipkart",
+      "url": "https://www.flipkartcareers.com",
+      "reason": "could not verify robots.txt (site unreachable or blocking requests)"
+    },
+    {
       "company": "Nykaa",
       "url": "https://www.nykaa.com/careers",
       "reason": "could not verify robots.txt (site unreachable or blocking requests)"
