@@ -42,6 +42,11 @@
       "reason": "could not verify robots.txt (site unreachable or blocking requests)"
     },
     {
+      "company": "DXC Technology",
+      "url": "https://dxc.com/us/en/careers",
+      "reason": "could not verify robots.txt (site unreachable or blocking requests)"
+    },
+    {
       "company": "Fujitsu India",
       "url": "https://www.fujitsu.com/in/about/careers/",
       "reason": "could not verify robots.txt (site unreachable or blocking requests)"
