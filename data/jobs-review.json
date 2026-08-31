@@ -27,11 +27,6 @@
       "reason": "could not verify robots.txt (site unreachable or blocking requests)"
     },
     {
-      "company": "Hexaware Technologies",
-      "url": "https://hexaware.com/careers/",
-      "reason": "could not verify robots.txt (site unreachable or blocking requests)"
-    },
-    {
       "company": "Newgen Software",
       "url": "https://newgensoft.com/careers/",
       "reason": "could not verify robots.txt (site unreachable or blocking requests)"
@@ -59,6 +54,11 @@
     {
       "company": "Intel India",
       "url": "https://jobs.intel.com",
+      "reason": "could not verify robots.txt (site unreachable or blocking requests)"
+    },
+    {
+      "company": "Samsung R&D India",
+      "url": "https://www.samsung.com/in/careers/",
       "reason": "could not verify robots.txt (site unreachable or blocking requests)"
     },
     {
