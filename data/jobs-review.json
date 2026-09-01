@@ -57,11 +57,6 @@
       "reason": "could not verify robots.txt (site unreachable or blocking requests)"
     },
     {
-      "company": "Samsung R&D India",
-      "url": "https://www.samsung.com/in/careers/",
-      "reason": "could not verify robots.txt (site unreachable or blocking requests)"
-    },
-    {
       "company": "Paytm",
       "url": "https://jobs.paytm.com",
       "reason": "could not verify robots.txt (site unreachable or blocking requests)"
