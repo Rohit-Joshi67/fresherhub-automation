@@ -27,6 +27,11 @@
       "reason": "could not verify robots.txt (site unreachable or blocking requests)"
     },
     {
+      "company": "NIIT",
+      "url": "https://www.niit.com/careers",
+      "reason": "could not verify robots.txt (site unreachable or blocking requests)"
+    },
+    {
       "company": "Newgen Software",
       "url": "https://newgensoft.com/careers/",
       "reason": "could not verify robots.txt (site unreachable or blocking requests)"
