@@ -1,18 +1,18 @@
 [
   {
-    "id": "cognizant-systems-engineer",
+    "id": "ibm-india-entry-level-opportunities",
     "sector": "private",
-    "org": "Cognizant",
-    "title": "Systems Engineer",
+    "org": "IBM India",
+    "title": "Entry-Level Opportunities",
     "location": "See official listing",
     "batch": "See official listing",
     "salary": "See official listing",
     "lastDate": "See official listing",
     "vacancies": "See official listing",
-    "posted": "2026-09-04",
+    "posted": "2026-09-05",
     "isNew": true,
-    "applyUrl": "https://careers.cognizant.com/global-en/jobs/00070255191/systems-engineer/",
-    "about": "Cognizant is hiring for Systems Engineer, a fresher-eligible opening on Cognizant's official careers page. This summary was generated automatically — confirm exact eligibility criteria, compensation, and deadlines on the official listing before applying.",
+    "applyUrl": "https://www.ibm.com/careers/career-opportunities",
+    "about": "IBM India is hiring for Entry-Level Opportunities, a fresher-eligible opening on IBM India's official careers page. This summary was generated automatically — confirm exact eligibility criteria, compensation, and deadlines on the official listing before applying.",
     "eligibility": "Eligibility typically requires a relevant degree (B.E./B.Tech/MCA/M.Sc or equivalent) with no active academic backlogs. Exact cutoffs and batch eligibility vary by company and drive — confirm on the official posting.",
     "prep": [
       {
@@ -27,13 +27,6 @@
         "items": [
           "Expect 1–2 coding problems, typically easy-to-medium, in a language of your choice.",
           "Prioritize writing clean, compiling code over the most optimal solution first."
-        ]
-      },
-      {
-        "t": "Technical Interview",
-        "items": [
-          "Be ready to discuss OOP concepts, DBMS, operating systems, and your final-year project in depth.",
-          "Practice explaining the time/space complexity of your code."
         ]
       },
       {
