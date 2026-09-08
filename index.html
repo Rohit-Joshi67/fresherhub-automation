@@ -361,7 +361,46 @@
     </div>
   </div>
 </section>
+<section class="job-grid" id="job-feed">
+  <!-- Dynamic Cards Injected Here -->
+</section>
 
+<script>
+  async function loadJobListings() {
+    const feed = document.getElementById('job-feed');
+    try {
+      const res = await fetch('/data/jobs.json');
+      if (!res.ok) throw new Error("Data feed not found");
+      const jobs = await res.json();
+
+      if (jobs.length === 0) {
+        feed.innerHTML = "<p>No active openings found today. Check back tomorrow morning!</p>";
+        return;
+      }
+
+      feed.innerHTML = jobs.map(job => `
+        <article class="job-card">
+          <div class="card-header">
+            <span class="badge-private">Direct ATS Opening</span>
+            <span class="batch-badge">${job.eligibleBatch}</span>
+          </div>
+          <h3 class="card-title">
+            <a href="${job.slug}">${job.title}</a>
+          </h3>
+          <p class="company-name">${job.company}</p>
+          <div class="card-meta">
+            <span><strong>Loc:</strong> ${job.location}</span>
+            <span><strong>Est:</strong> ${job.salary}</span>
+          </div>
+          <a href="${job.slug}" class="view-btn">View Prep Guide & Apply &rarr;</a>
+        </article>
+      `).join('');
+    } catch (e) {
+      feed.innerHTML = "<p>Unable to load listings right now. Please refresh the page.</p>";
+    }
+  }
+  loadJobListings();
+</script>
 <footer>
   <span>FresherHub — a prototype interface. No data collected.</span>
   <span>Built for demonstration purposes</span>
