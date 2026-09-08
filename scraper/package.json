@@ -1,13 +1,9 @@
 {
   "name": "fresherhub-scraper",
   "version": "1.0.0",
-  "private": true,
-  "description": "Scheduled scraper that finds fresher-relevant IT job postings across government and private career pages.",
-  "scripts": {
-    "scrape": "node scrape.js"
-  },
+  "type": "module",
   "dependencies": {
-    "playwright": "^1.47.0",
-    "robots-parser": "^3.0.1"
+    "@google/genai": "^0.1.1",
+    "node-fetch": "^3.3.2"
   }
 }
