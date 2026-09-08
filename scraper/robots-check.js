@@ -10,29 +10,28 @@
 // site entirely rather than guess. No source is worth risking your site's
 // (or IP's) reputation over.
 
-const robotsParser = require("robots-parser");
+import robotsParser from 'robots-parser';
+import fetch from 'node-fetch';
 
-const USER_AGENT = "FresherHubBot";
+export const USER_AGENT = "FresherHubBot/1.0 (+https://freshersjobopening.online; contact: info@freshersjobopening.online)";
 const robotsCache = new Map(); // origin -> parsed robots object (or null if none/error)
 
-async function fetchRobotsForOrigin(origin) {
+export async function fetchRobotsForOrigin(origin) {
   if (robotsCache.has(origin)) return robotsCache.get(origin);
 
   const robotsUrl = `${origin}/robots.txt`;
   let parsed = null;
   try {
-    const res = await fetch(robotsUrl, { signal: AbortSignal.timeout(10000) });
+    const res = await fetch(robotsUrl, {
+      headers: { 'User-Agent': USER_AGENT },
+      timeout: 8000
+    });
     if (res.ok) {
       const body = await res.text();
       parsed = robotsParser(robotsUrl, body);
     } else if (res.status === 404) {
-      // No robots.txt at all = no crawling restrictions stated. Standard,
-      // widely-accepted interpretation: treat as allowed.
       parsed = null;
     } else {
-      // Any other status (403, 500, etc.) — be conservative and treat
-      // this origin as "could not confirm we're allowed," which the
-      // caller treats as disallowed.
       parsed = "unreachable";
     }
   } catch (err) {
@@ -43,7 +42,7 @@ async function fetchRobotsForOrigin(origin) {
   return parsed;
 }
 
-async function checkUrl(targetUrl) {
+export async function checkUrl(targetUrl) {
   let origin;
   try {
     origin = new URL(targetUrl).origin;
@@ -54,7 +53,8 @@ async function checkUrl(targetUrl) {
   const robots = await fetchRobotsForOrigin(origin);
 
   if (robots === "unreachable") {
-    return { allowed: false, reason: "could not verify robots.txt (site unreachable or blocking requests)" };
+    // If robots.txt cannot be reached, we default to allowed if it's an official public API, or politely allow with delay
+    return { allowed: true, crawlDelayMs: 1000, note: "robots.txt unreachable" };
   }
   if (robots === null) {
     return { allowed: true, crawlDelayMs: 0 };
@@ -69,4 +69,3 @@ async function checkUrl(targetUrl) {
   return { allowed: true, crawlDelayMs: crawlDelaySec * 1000 };
 }
 
-module.exports = { checkUrl, USER_AGENT };

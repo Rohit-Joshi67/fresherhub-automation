@@ -1,6 +1,7 @@
 {
-  "updatedAt": "2026-09-08T10:54:25.447Z",
-  "totalJobs": 3,
-  "sitesWithErrors": 0,
-  "sitesSkippedByRobots": 14
+  "updatedAt": "2026-09-08T12:09:40.111Z",
+  "totalJobs": 64,
+  "privateCount": 60,
+  "govtCount": 4,
+  "status": "healthy"
 }

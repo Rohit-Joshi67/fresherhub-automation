@@ -1,16 +1,11 @@
-export function renderJobPage(job, ai) {
-  const skillTags = (ai.techStack || [])
-    .map(skill => `<a href="/resources.html#${skill.toLowerCase().replace(/[^a-z0-9]/g, '-')}" class="tag-chip">${skill}</a>`)
-    .join(' ');
-
-  return `<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>${job.title} at ${job.company} (${ai.eligibleBatch}) — FresherHub</title>
-  <meta name="description" content="Official opening for ${job.title} at ${job.company}. Estimated CTC ${ai.salaryRange}. Role requirements, DSA questions, and interview preparation guide.">
-  <link rel="canonical" href="https://freshersjobopening.online/docs/jobs/${job.slug}">
+  <title>Human Capital - Leaves & Accommodation- Sr Analyst/Associate at Stage (2024, 2025 & 2026 Graduates) — FresherHub</title>
+  <meta name="description" content="Official opening for Human Capital - Leaves & Accommodation- Sr Analyst/Associate at Stage. Estimated CTC ₹25,000 – ₹50,000/month (Stipend) + Full-time PPO. Role requirements, DSA questions, and interview preparation guide.">
+  <link rel="canonical" href="https://freshersjobopening.online/docs/jobs/stage-human-capital-leaves-accommodation-sr-analyst-associate.html">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
   <style>
@@ -131,19 +126,19 @@ export function renderJobPage(job, ai) {
   {
     "@context": "https://schema.org/",
     "@type": "JobPosting",
-    "title": "${job.title}",
-    "description": "${ai.roleSummary}",
-    "datePosted": "${new Date().toISOString().split('T')[0]}",
+    "title": "Human Capital - Leaves & Accommodation- Sr Analyst/Associate",
+    "description": "Stage is seeking an entry-level candidate for the Human Capital - Leaves & Accommodation- Sr Analyst/Associate position in Gurugram. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
+    "datePosted": "2026-09-08",
     "hiringOrganization": {
       "@type": "Organization",
-      "name": "${job.company}"
+      "name": "Stage"
     },
     "jobLocation": {
       "@type": "Place",
       "address": {
         "@type": "PostalAddress",
         "addressCountry": "IN",
-        "addressLocality": "${job.location || 'India'}"
+        "addressLocality": "Gurugram"
       }
     }
   }
@@ -162,35 +157,35 @@ export function renderJobPage(job, ai) {
 
   <div class="container">
     <div class="breadcrumbs">
-      <a href="/">Home</a> &gt; <a href="/">India Tech Jobs</a> &gt; <span>${job.company}</span>
+      <a href="/">Home</a> &gt; <a href="/">India Tech Jobs</a> &gt; <span>Stage</span>
     </div>
 
     <span class="badge">Direct ATS Opening</span>
-    <h1>${job.title}</h1>
-    <p class="company-sub"><strong>${job.company}</strong> &bull; ${job.location || 'India'} &bull; <a href="${job.applyUrl}" target="_blank" rel="nofollow noopener">Official Posting &nearr;</a></p>
+    <h1>Human Capital - Leaves & Accommodation- Sr Analyst/Associate</h1>
+    <p class="company-sub"><strong>Stage</strong> &bull; Gurugram &bull; <a href="https://www.kkr.com/careers/career-opportunities/post?gh_jid=5996783004" target="_blank" rel="nofollow noopener">Official Posting &nearr;</a></p>
 
     <div class="split-layout">
       <!-- Left Column -->
       <main>
         <table class="meta-table">
-          <tr><td>Company</td><td>${job.company}</td></tr>
-          <tr><td>Location</td><td>${job.location || 'India'}</td></tr>
-          <tr><td>Eligible Batch</td><td>${ai.eligibleBatch}</td></tr>
-          <tr><td>Est. Package</td><td>${ai.salaryRange}</td></tr>
-          <tr><td>Vacancies</td><td>${ai.vacancies || 'Multiple'}</td></tr>
+          <tr><td>Company</td><td>Stage</td></tr>
+          <tr><td>Location</td><td>Gurugram</td></tr>
+          <tr><td>Eligible Batch</td><td>2024, 2025 & 2026 Graduates</td></tr>
+          <tr><td>Est. Package</td><td>₹25,000 – ₹50,000/month (Stipend) + Full-time PPO</td></tr>
+          <tr><td>Vacancies</td><td>Multiple Openings (Fresher Intake)</td></tr>
           <tr><td>Sector</td><td>Private IT / Product</td></tr>
           <tr><td>Verification</td><td>Direct official ATS feed</td></tr>
         </table>
 
         <div class="content-box">
           <h3>Role Overview & Responsibilities</h3>
-          <p>${ai.roleSummary}</p>
+          <p>Stage is seeking an entry-level candidate for the Human Capital - Leaves & Accommodation- Sr Analyst/Associate position in Gurugram. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.</p>
         </div>
 
         <div class="content-box">
           <h3>Recommended Tech Stack & Skills</h3>
           <p style="font-size:13.5px;color:var(--ink-soft);margin-bottom:10px;">Candidates with exposure to the following technologies stand out during technical evaluations:</p>
-          <div>${skillTags}</div>
+          <div><a href="/resources.html#cloud-computing--aws-azure-" class="tag-chip">Cloud Computing (AWS/Azure)</a> <a href="/resources.html#data-structures" class="tag-chip">Data Structures</a> <a href="/resources.html#data-analytics" class="tag-chip">Data Analytics</a></div>
         </div>
       </main>
 
@@ -199,25 +194,25 @@ export function renderJobPage(job, ai) {
         <div class="apply-card">
           <div class="status">● ACCEPTING APPLICATIONS</div>
           <p style="font-size:13px;margin-bottom:14px;color:#ECEEE6;">Apply directly on the employer's official recruitment portal:</p>
-          <a href="${job.applyUrl}" target="_blank" rel="nofollow noopener" class="btn-apply">
+          <a href="https://www.kkr.com/careers/career-opportunities/post?gh_jid=5996783004" target="_blank" rel="nofollow noopener" class="btn-apply">
             Apply on Official Site &nearr;
           </a>
-          <small style="font-size:11px;color:#A0AEC0;">Safe redirect to ${job.company}'s ATS. Never pay fees to anyone.</small>
+          <small style="font-size:11px;color:#A0AEC0;">Safe redirect to Stage's ATS. Never pay fees to anyone.</small>
         </div>
 
         <div class="prep-box">
           <h4>Interview Preparation Guide</h4>
           <details open>
             <summary>Aptitude & Logical Reasoning</summary>
-            <ul>${(ai.aptitudeTopics || []).map(t => `<li>${t}</li>`).join('')}</ul>
+            <ul><li>Quantitative Aptitude: Percentages, Profit & Loss, Time-Speed-Distance, and Probability</li><li>Logical Reasoning: Coding-Decoding, Seating Arrangements, Syllogisms, and Pattern Series</li><li>Verbal Ability: Reading Comprehension, Sentence Correction, and Technical Vocabulary</li></ul>
           </details>
           <details open>
             <summary>Coding & Technical Assessment</summary>
-            <ul>${(ai.codingTopics || []).map(t => `<li>${t}</li>`).join('')}</ul>
+            <ul><li>Arrays, Strings, Two-Pointer technique, and HashMaps (LeetCode Easy to Medium)</li><li>Recursion, Binary Search, and Tree traversals (BFS & DFS)</li><li>Object-Oriented Programming (OOP) concepts, DBMS Queries, and Operating Systems Basics</li></ul>
           </details>
           <details open>
             <summary>Interview Strategy & Tips</summary>
-            <ul>${(ai.interviewTips || []).map(t => `<li>${t}</li>`).join('')}</ul>
+            <ul><li>Review your final-year college project or internships thoroughly — explain architectural choices clearly for Stage.</li><li>Prepare to write clean, compiling code with optimal Time and Space complexity (Big-O analysis).</li><li>HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences.</li></ul>
           </details>
         </div>
       </aside>
@@ -225,10 +220,8 @@ export function renderJobPage(job, ai) {
   </div>
 
   <footer class="site-footer">
-    <span>&copy; ${new Date().getFullYear()} FresherHub — India Fresher IT Jobs &amp; Preparation</span>
+    <span>&copy; 2026 FresherHub — India Fresher IT Jobs &amp; Preparation</span>
     <span><a href="/about.html">About</a> &bull; <a href="/privacy.html">Privacy</a> &bull; <a href="/terms.html">Terms</a> &bull; <a href="/disclaimer.html">Disclaimer</a></span>
   </footer>
 </body>
-</html>`;
-}
-
+</html>

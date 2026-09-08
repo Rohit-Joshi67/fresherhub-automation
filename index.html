@@ -287,9 +287,15 @@
 
 <header class="site">
   <div class="logo-block">
-    <div class="logo">Fresher<em>Hub</em></div>
+    <div class="logo"><a href="/" style="text-decoration:none;">Fresher<em>Hub</em></a></div>
     <div class="tagline">JOBS &amp; PREPARATION — FOR FIRST-TIME JOB SEEKERS IN IT</div>
   </div>
+  <nav style="display:flex;gap:18px;align-items:center;font-family:'IBM Plex Mono',monospace;font-size:12.5px;font-weight:600;">
+    <a href="/" style="color:var(--teal);text-decoration:none;">Job Openings</a>
+    <a href="/resources.html" style="color:var(--ink-soft);text-decoration:none;">Learning Hub</a>
+    <a href="/about.html" style="color:var(--ink-soft);text-decoration:none;">About Us</a>
+    <a href="/privacy.html" style="color:var(--ink-soft);text-decoration:none;">Privacy Policy</a>
+  </nav>
   <div class="header-stats">
     <div class="stat"><b>4</b><span>Govt Portals</span></div>
     <div class="stat"><b>50+</b><span>IT Companies</span></div>
@@ -354,6 +360,7 @@
         <div class="lbl">Last date to apply</div>
         <div class="deadline" id="artDeadline"></div>
         <a href="#" target="_blank" rel="noopener" class="apply-btn" id="artApplyLink">Apply on official site &#8599;</a>
+        <a href="#" class="apply-btn" id="artStaticLink" style="background:#0D4F4A;margin-top:6px;display:none;">View Full Guide Page &rarr;</a>
         <div class="apply-sub" id="artApplySub"></div>
       </div>
       <div class="section-label">Preparation guide</div>
@@ -361,49 +368,18 @@
     </div>
   </div>
 </section>
-<section class="job-grid" id="job-feed">
-  <!-- Dynamic Cards Injected Here -->
-</section>
-
-<script>
-  async function loadJobListings() {
-    const feed = document.getElementById('job-feed');
-    try {
-      const res = await fetch('/data/jobs.json');
-      if (!res.ok) throw new Error("Data feed not found");
-      const jobs = await res.json();
-
-      if (jobs.length === 0) {
-        feed.innerHTML = "<p>No active openings found today. Check back tomorrow morning!</p>";
-        return;
-      }
-
-      feed.innerHTML = jobs.map(job => `
-        <article class="job-card">
-          <div class="card-header">
-            <span class="badge-private">Direct ATS Opening</span>
-            <span class="batch-badge">${job.eligibleBatch}</span>
-          </div>
-          <h3 class="card-title">
-            <a href="${job.slug}">${job.title}</a>
-          </h3>
-          <p class="company-name">${job.company}</p>
-          <div class="card-meta">
-            <span><strong>Loc:</strong> ${job.location}</span>
-            <span><strong>Est:</strong> ${job.salary}</span>
-          </div>
-          <a href="${job.slug}" class="view-btn">View Prep Guide & Apply &rarr;</a>
-        </article>
-      `).join('');
-    } catch (e) {
-      feed.innerHTML = "<p>Unable to load listings right now. Please refresh the page.</p>";
-    }
-  }
-  loadJobListings();
-</script>
-<footer>
-  <span>FresherHub — a prototype interface. No data collected.</span>
-  <span>Built for demonstration purposes</span>
+<footer style="border-top:2px solid var(--ink);padding:26px 6vw;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;font-size:12.5px;color:var(--ink-soft);font-family:'IBM Plex Mono',monospace;">
+  <div>
+    <strong>FresherHub</strong> — India Fresher IT Jobs, ATS Aggregator & Prep Roadmaps.
+    <br><small style="color:#718096;">All brand names, logos, and job listings belong to their respective corporate entities. We never charge job seekers.</small>
+  </div>
+  <div style="display:flex;gap:16px;">
+    <a href="/about.html" style="color:var(--teal-deep);text-decoration:none;">About Us</a>
+    <a href="/privacy.html" style="color:var(--teal-deep);text-decoration:none;">Privacy Policy</a>
+    <a href="/terms.html" style="color:var(--teal-deep);text-decoration:none;">Terms & Conditions</a>
+    <a href="/disclaimer.html" style="color:var(--teal-deep);text-decoration:none;">Disclaimer</a>
+    <a href="/resources.html" style="color:var(--teal-deep);text-decoration:none;">Learning Hub</a>
+  </div>
 </footer>
 
 <script>
@@ -681,6 +657,13 @@ function openArticle(id){
   document.getElementById('artDeadline').textContent = j.lastDate;
   document.getElementById('artApplyLink').href = j.applyUrl;
   document.getElementById('artApplySub').textContent = `You'll be taken to ${j.org}'s official site to complete your application.`;
+  const staticBtn = document.getElementById('artStaticLink');
+  if(j.slug){
+    staticBtn.href = j.slug;
+    staticBtn.style.display = 'block';
+  } else {
+    staticBtn.style.display = 'none';
+  }
   document.getElementById('artAbout').innerHTML = j.articleHtml ? j.articleHtml : `<p>${j.about}</p>`;
   document.getElementById('artEligibility').innerHTML = `<p>${j.eligibility}</p>`;
 
