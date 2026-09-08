@@ -27,11 +27,6 @@
       "reason": "could not verify robots.txt (site unreachable or blocking requests)"
     },
     {
-      "company": "Zensar Technologies",
-      "url": "https://www.zensar.com/careers",
-      "reason": "could not verify robots.txt (site unreachable or blocking requests)"
-    },
-    {
       "company": "Newgen Software",
       "url": "https://newgensoft.com/careers/",
       "reason": "could not verify robots.txt (site unreachable or blocking requests)"
@@ -49,7 +44,7 @@
     {
       "company": "SAP Labs India",
       "url": "https://www.sap.com/about/careers.html",
-      "reason": "could not verify robots.txt (site unreachable or blocking requests)"
+      "reason": "disallowed by robots.txt"
     },
     {
       "company": "VMware India",
