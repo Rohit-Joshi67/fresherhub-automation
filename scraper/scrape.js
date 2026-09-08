@@ -1,221 +1,88 @@
-// scrape.js
-// Visits every portal/career page in config/companies.json, looks for
-// fresher-relevant postings, and writes the results to data/jobs.json
-// (used directly by index.html) plus data/jobs-review.json (load errors
-// and robots.txt-skipped sites — worth a glance, but nothing breaks if
-// you never look).
-//
-// Before touching any page, this checks that site's robots.txt via
-// robots-check.js. If a site disallows bots, or its rules can't be
-// confirmed, that site is skipped entirely — no exceptions. This keeps
-// the automation compliant with each source's own stated rules rather
-// than assuming access is fine just because a page is public.
-//
-// Runs headless via Playwright so it can see JavaScript-rendered career
-// pages, not just static HTML.
+import fs from 'fs';
+import path from 'path';
+import fetch from 'node-fetch';
+import { enrichJobWithAI } from './generate-content.js';
+import { renderJobPage } from './templates.js';
 
-const fs = require("fs");
-const path = require("path");
-const { chromium } = require("playwright");
-const { generatePrep, generateAbout, generateEligibility } = require("./templates");
-const { checkUrl, USER_AGENT } = require("./robots-check");
-
-const ROOT = path.join(__dirname, "..");
-const COMPANIES_PATH = path.join(ROOT, "config", "companies.json");
-const JOBS_OUT_PATH = path.join(ROOT, "data", "jobs.json");
-const REVIEW_OUT_PATH = path.join(ROOT, "data", "jobs-review.json");
-const META_OUT_PATH = path.join(ROOT, "data", "jobs-meta.json");
-
-// Titles must match one of these to be considered "fresher-relevant".
-// Split into two tiers:
-//   SPECIFIC  — already unambiguous on their own (e.g. "graduate trainee",
-//               "data entry operator") — accepted immediately.
-//   AMBIGUOUS — common generic hub-link labels (e.g. "early career",
-//               "new grad") that also show up on non-listing nav links —
-//               these additionally require a real role word or explicit
-//               "fresher"/"graduate" wording before being accepted.
-// All matches use word boundaries (\b) — plain .includes() caused false
-// positives like "ge " matching inside "pa-ge " (from "Job Search page").
-const SPECIFIC_KEYWORDS = [
-  "fresher", "freshers", "graduate trainee", "graduate engineer trainee",
-  "entry level", "entry-level", "associate engineer", "junior engineer",
-  "0-1 year", "0-2 years", "no experience required", "data entry operator",
-  "systems engineer", "specialist engineer",
-];
-const AMBIGUOUS_KEYWORDS = [
-  "trainee", "campus placement", "early career", "new grad", "new graduate",
+const COMPANIES = [
+  { name: 'Razorpay', ats: 'greenhouse', slug: 'razorpay' },
+  { name: 'Swiggy', ats: 'greenhouse', slug: 'swiggy' },
+  { name: 'Meesho', ats: 'lever', slug: 'meesho' }
 ];
 
-// Titles containing these are excluded even if they matched above —
-// seniority signals, and generic nav/footer/legal text that isn't an
-// actual job listing.
-const EXCLUDE_KEYWORDS = [
-  "senior", "sr.", "lead", "manager", "principal", "architect",
-  "5+ years", "7+ years", "10+ years", "director", "head of",
-  "please visit", "explore", "accessible format", "search page",
-  "job search", "cookie", "privacy", "terms of", "sign in", "log in",
-  "subscribe", "newsletter", "view all", "see all", "learn more",
-  "read more", "find out", "our culture", "about us", "contact us",
-];
+async function fetchJobs() {
+  const jobs = [];
 
-// Used only to validate AMBIGUOUS_KEYWORDS matches, not applied globally
-// (an earlier version required this everywhere, which cut real postings
-// like "TCS Ninja" or "Wipro Elite NLTH" that don't use standard role
-// words — dropped results to zero, overcorrecting for the junk).
-const ROLE_WORDS = [
-  "engineer", "developer", "officer", "trainee", "associate", "analyst",
-  "executive", "operator", "clerk", "specialist", "technician", "programmer",
-  "scientist", "consultant", "administrator", "coordinator", "assistant",
-  "intern", "internship",
-];
-
-const REQUEST_TIMEOUT_MS = 25000;
-const MAX_LINKS_PER_SITE = 8;
-
-function loadCompanies() {
-  const raw = JSON.parse(fs.readFileSync(COMPANIES_PATH, "utf8"));
-  const govt = raw.govt.map((c) => ({ ...c, sector: "govt" }));
-  const priv = raw.private.map((c) => ({ ...c, sector: "private" }));
-  return [...govt, ...priv];
-}
-
-function hasWordBoundaryMatch(text, keyword) {
-  // Escape regex special characters in the keyword, then require it to
-  // not be glued to letters on either side (so "ge" in "page" doesn't
-  // count, but "GE" as its own word, or "graduate trainee", does).
-  const escaped = keyword.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-  const re = new RegExp(`(^|[^a-z])${escaped}([^a-z]|$)`, "i");
-  return re.test(text);
-}
-
-function isFresherRelevant(text) {
-  const t = text.toLowerCase().trim();
-  if (t.length < 6) return false;
-  if (EXCLUDE_KEYWORDS.some((k) => t.includes(k))) return false;
-
-  // Specific keywords are unambiguous enough to accept on their own.
-  if (SPECIFIC_KEYWORDS.some((k) => hasWordBoundaryMatch(t, k))) return true;
-
-  // Ambiguous keywords need extra confirmation — either explicit
-  // "fresher"/"graduate" wording, or a genuine role word alongside them.
-  const matchedAmbiguous = AMBIGUOUS_KEYWORDS.some((k) => hasWordBoundaryMatch(t, k));
-  if (!matchedAmbiguous) return false;
-
-  const explicitlyFresherWorded = /\bfresher|graduate\b/i.test(t);
-  const looksLikeARole = ROLE_WORDS.some((w) => t.includes(w));
-  return explicitlyFresherWorded || looksLikeARole;
-}
-
-function slugId(org, title) {
-  const raw = `${org}-${title}`.toLowerCase().replace(/[^a-z0-9]+/g, "-");
-  return raw.slice(0, 60);
-}
-
-async function scrapeCompany(browser, company) {
-  // Respect robots.txt before doing anything else. If the site disallows
-  // us, or we can't confirm it allows us, we skip it entirely — no
-  // exceptions, regardless of how useful that source would be.
-  const robotsResult = await checkUrl(company.url);
-  if (!robotsResult.allowed) {
-    return { found: [], skipped: true, reason: robotsResult.reason };
-  }
-  if (robotsResult.crawlDelayMs) {
-    await new Promise((r) => setTimeout(r, robotsResult.crawlDelayMs));
-  }
-
-  const page = await browser.newPage({ userAgent: `${USER_AGENT}/1.0 (personal aggregator; contact: set-your-email-here)` });
-  const found = [];
-  try {
-    await page.goto(company.url, { timeout: REQUEST_TIMEOUT_MS, waitUntil: "domcontentloaded" });
-    await page.waitForTimeout(1500); // let client-side rendering settle
-
-    // Pull every visible link's text + href as a candidate posting
-    const links = await page.$$eval("a", (as) =>
-      as.map((a) => ({ text: (a.innerText || a.textContent || "").trim(), href: a.href }))
-        .filter((x) => x.text && x.text.length > 4 && x.text.length < 120)
-    );
-
-    const seen = new Set();
-    for (const link of links) {
-      if (!isFresherRelevant(link.text)) continue;
-      if (seen.has(link.text)) continue;
-      seen.add(link.text);
-      found.push({
-        id: slugId(company.name, link.text),
-        sector: company.sector,
-        org: company.name,
-        title: link.text,
-        location: "See official listing",
-        batch: "See official listing",
-        salary: "See official listing",
-        lastDate: "See official listing",
-        vacancies: "See official listing",
-        posted: new Date().toISOString().slice(0, 10),
-        isNew: true,
-        applyUrl: link.href || company.url,
-        about: generateAbout(company.name, link.text, company.sector),
-        eligibility: generateEligibility(company.sector),
-        prep: generatePrep(company.sector, link.text),
-        confidence: "auto", // flagged so the site/you can tell this wasn't hand-curated
-      });
-      if (found.length >= MAX_LINKS_PER_SITE) break;
-    }
-  } catch (err) {
-    console.warn(`[skip] ${company.name}: ${err.message}`);
-  } finally {
-    await page.close();
-  }
-  return { found, skipped: false };
-}
-
-async function main() {
-  const companies = loadCompanies();
-  const browser = await chromium.launch();
-  const allJobs = [];
-  const errors = [];
-  const robotsSkipped = [];
-
-  for (const company of companies) {
-    console.log(`Scanning ${company.name}...`);
+  for (const comp of COMPANIES) {
     try {
-      const result = await scrapeCompany(browser, company);
-      if (result.skipped) {
-        console.log(`  skipped — ${result.reason}`);
-        robotsSkipped.push({ company: company.name, url: company.url, reason: result.reason });
-        continue;
+      if (comp.ats === 'greenhouse') {
+        const res = await fetch(`https://boards-api.greenhouse.io/v1/boards/${comp.slug}/jobs?content=true`);
+        if (res.ok) {
+          const data = await res.json();
+          data.jobs.slice(0, 3).forEach(j => {
+            jobs.push({
+              title: j.title,
+              company: comp.name,
+              location: j.location?.name || 'India',
+              applyUrl: j.absolute_url,
+              description: j.content || j.title
+            });
+          });
+        }
+      } else if (comp.ats === 'lever') {
+        const res = await fetch(`https://api.lever.co/v0/postings/${comp.slug}?mode=json`);
+        if (res.ok) {
+          const data = await res.json();
+          data.slice(0, 3).forEach(j => {
+            jobs.push({
+              title: j.text,
+              company: comp.name,
+              location: j.categories?.location || 'India',
+              applyUrl: j.hostedUrl,
+              description: j.descriptionPlain || j.text
+            });
+          });
+        }
       }
-      allJobs.push(...result.found);
-      console.log(`  found ${result.found.length} candidate posting(s)`);
-    } catch (err) {
-      errors.push({ company: company.name, error: err.message });
+    } catch (e) {
+      console.error(`Error fetching ${comp.name}:`, e.message);
     }
   }
-
-  await browser.close();
-
-  fs.mkdirSync(path.dirname(JOBS_OUT_PATH), { recursive: true });
-  fs.writeFileSync(JOBS_OUT_PATH, JSON.stringify(allJobs, null, 2));
-  fs.writeFileSync(REVIEW_OUT_PATH, JSON.stringify({ loadErrors: errors, robotsSkipped }, null, 2));
-  fs.writeFileSync(
-    META_OUT_PATH,
-    JSON.stringify(
-      {
-        updatedAt: new Date().toISOString(),
-        totalJobs: allJobs.length,
-        sitesWithErrors: errors.length,
-        sitesSkippedByRobots: robotsSkipped.length,
-      },
-      null,
-      2
-    )
-  );
-
-  console.log(`\nDone. ${allJobs.length} postings written to data/jobs.json.`);
-  if (errors.length) console.log(`${errors.length} site(s) failed to load — see data/jobs-review.json.`);
-  if (robotsSkipped.length) console.log(`${robotsSkipped.length} site(s) skipped due to robots.txt rules — see data/jobs-review.json.`);
+  return jobs;
 }
 
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+async function run() {
+  const jobs = await fetchJobs();
+  const docsDir = path.resolve('../docs/jobs');
+  if (!fs.existsSync(docsDir)) fs.mkdirSync(docsDir, { recursive: true });
+
+  const generatedMeta = [];
+
+  for (const job of jobs) {
+    console.log(`Processing: ${job.company} - ${job.title}`);
+    const aiData = await enrichJobWithAI(job);
+    if (!aiData) continue;
+
+    const fileSlug = `${job.company.toLowerCase()}-${job.title.toLowerCase().replace(/[^a-z0-9]/g, '-')}.html`;
+    const htmlContent = renderJobPage(job, aiData);
+
+    fs.writeFileSync(path.join(docsDir, fileSlug), htmlContent);
+
+    generatedMeta.push({
+      title: job.title,
+      company: job.company,
+      location: job.location,
+      slug: `/jobs/${fileSlug}`,
+      eligibleBatch: aiData.eligibleBatch,
+      salary: aiData.salaryRange
+    });
+
+    // 4-second delay to comfortably respect the Gemini free RPM limit
+    await new Promise(r => setTimeout(r, 4000));
+  }
+
+  fs.writeFileSync(path.resolve('../data/jobs.json'), JSON.stringify(generatedMeta, null, 2));
+  console.log(`Successfully generated ${generatedMeta.length} enriched pages.`);
+}
+
+run();
