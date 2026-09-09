@@ -817,6 +817,49 @@
     ]
   },
   {
+    "id": "paytm-internship-talent-acquisition",
+    "sector": "private",
+    "org": "Paytm",
+    "title": "Internship - Talent Acquisition",
+    "location": "Noida, Uttar Pradesh",
+    "batch": "2024, 2025 & 2026 Graduates",
+    "salary": "₹25,000 – ₹50,000/month (Stipend) + Full-time PPO",
+    "posted": "Today",
+    "isNew": true,
+    "lastDate": "Accepting Applications",
+    "vacancies": "Multiple Openings (Fresher Intake)",
+    "applyUrl": "https://jobs.lever.co/paytm/a2f53649-1fe8-4a0d-97ee-24dab719a9e8",
+    "slug": "/docs/jobs/paytm-internship-talent-acquisition.html",
+    "about": "Paytm is seeking an entry-level candidate for the Internship - Talent Acquisition position in Noida, Uttar Pradesh. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
+    "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in SQL, Relational DBs, Data Structures preferred.",
+    "prep": [
+      {
+        "t": "Aptitude & Reasoning Focus",
+        "items": [
+          "Quantitative Aptitude: Percentages, Profit & Loss, Time-Speed-Distance, and Probability",
+          "Logical Reasoning: Coding-Decoding, Seating Arrangements, Syllogisms, and Pattern Series",
+          "Verbal Ability: Reading Comprehension, Sentence Correction, and Technical Vocabulary"
+        ]
+      },
+      {
+        "t": "Technical Assessment & Coding",
+        "items": [
+          "Arrays, Strings, Two-Pointer technique, and HashMaps (LeetCode Easy to Medium)",
+          "Recursion, Binary Search, and Tree traversals (BFS & DFS)",
+          "Object-Oriented Programming (OOP) concepts, DBMS Queries, and Operating Systems Basics"
+        ]
+      },
+      {
+        "t": "Interview Strategy",
+        "items": [
+          "Review your final-year college project or internships thoroughly — explain architectural choices clearly for Paytm.",
+          "Prepare to write clean, compiling code with optimal Time and Space complexity (Big-O analysis).",
+          "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
+        ]
+      }
+    ]
+  },
+  {
     "id": "paytm-product-management-intern-telco",
     "sector": "private",
     "org": "Paytm",
@@ -1949,49 +1992,6 @@
     "applyUrl": "https://job-boards.eu.greenhouse.io/groww/jobs/4880153101",
     "slug": "/docs/jobs/groww-associate-content-digest.html",
     "about": "Groww is seeking an entry-level candidate for the Associate - Content (Digest) position in Bengaluru-VTP, India. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
-    "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in Data Structures, Data Analytics preferred.",
-    "prep": [
-      {
-        "t": "Aptitude & Reasoning Focus",
-        "items": [
-          "Quantitative Aptitude: Percentages, Profit & Loss, Time-Speed-Distance, and Probability",
-          "Logical Reasoning: Coding-Decoding, Seating Arrangements, Syllogisms, and Pattern Series",
-          "Verbal Ability: Reading Comprehension, Sentence Correction, and Technical Vocabulary"
-        ]
-      },
-      {
-        "t": "Technical Assessment & Coding",
-        "items": [
-          "Arrays, Strings, Two-Pointer technique, and HashMaps (LeetCode Easy to Medium)",
-          "Recursion, Binary Search, and Tree traversals (BFS & DFS)",
-          "Object-Oriented Programming (OOP) concepts, DBMS Queries, and Operating Systems Basics"
-        ]
-      },
-      {
-        "t": "Interview Strategy",
-        "items": [
-          "Review your final-year college project or internships thoroughly — explain architectural choices clearly for Groww.",
-          "Prepare to write clean, compiling code with optimal Time and Space complexity (Big-O analysis).",
-          "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "groww-equity-research-analyst-amc",
-    "sector": "private",
-    "org": "Groww",
-    "title": "Equity Research Analyst (AMC)",
-    "location": "Mumbai-Lower Parel, India",
-    "batch": "2024, 2025 & 2026 Graduates",
-    "salary": "₹8.0 – ₹16.0 LPA (Role Dependent)",
-    "posted": "Today",
-    "isNew": true,
-    "lastDate": "Accepting Applications",
-    "vacancies": "Multiple Openings (Fresher Intake)",
-    "applyUrl": "https://job-boards.eu.greenhouse.io/groww/jobs/4588364101",
-    "slug": "/docs/jobs/groww-equity-research-analyst-amc.html",
-    "about": "Groww is seeking an entry-level candidate for the Equity Research Analyst (AMC) position in Mumbai-Lower Parel, India. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
     "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in Data Structures, Data Analytics preferred.",
     "prep": [
       {
