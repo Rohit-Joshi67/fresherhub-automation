@@ -172,49 +172,6 @@
     ]
   },
   {
-    "id": "paytm-campaign-operations-specialist-dv360-paytm",
-    "sector": "private",
-    "org": "Paytm",
-    "title": "Campaign Operations Specialist (DV360) - Paytm",
-    "location": "Noida, Uttar Pradesh",
-    "batch": "2024, 2025 & 2026 Graduates",
-    "salary": "₹8.0 – ₹16.0 LPA (Role Dependent)",
-    "posted": "Today",
-    "isNew": true,
-    "lastDate": "Accepting Applications",
-    "vacancies": "Multiple Openings (Fresher Intake)",
-    "applyUrl": "https://jobs.lever.co/paytm/eb6549d8-0e20-4ca1-ac22-c1ca201ee7a0",
-    "slug": "/docs/jobs/paytm-campaign-operations-specialist-dv360-paytm.html",
-    "about": "Paytm is seeking an entry-level candidate for the Campaign Operations Specialist (DV360) - Paytm position in Noida, Uttar Pradesh. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
-    "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in SQL, Relational DBs, Automation Testing preferred.",
-    "prep": [
-      {
-        "t": "Aptitude & Reasoning Focus",
-        "items": [
-          "Quantitative Aptitude: Percentages, Profit & Loss, Time-Speed-Distance, and Probability",
-          "Logical Reasoning: Coding-Decoding, Seating Arrangements, Syllogisms, and Pattern Series",
-          "Verbal Ability: Reading Comprehension, Sentence Correction, and Technical Vocabulary"
-        ]
-      },
-      {
-        "t": "Technical Assessment & Coding",
-        "items": [
-          "Arrays, Strings, Two-Pointer technique, and HashMaps (LeetCode Easy to Medium)",
-          "Recursion, Binary Search, and Tree traversals (BFS & DFS)",
-          "Object-Oriented Programming (OOP) concepts, DBMS Queries, and Operating Systems Basics"
-        ]
-      },
-      {
-        "t": "Interview Strategy",
-        "items": [
-          "Review your final-year college project or internships thoroughly — explain architectural choices clearly for Paytm.",
-          "Prepare to write clean, compiling code with optimal Time and Space complexity (Big-O analysis).",
-          "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
-        ]
-      }
-    ]
-  },
-  {
     "id": "paytm-credit-risk-analyst",
     "sector": "private",
     "org": "Paytm",
@@ -1520,6 +1477,92 @@
     "slug": "/docs/jobs/razorpay-associate-startup-accounts.html",
     "about": "Razorpay is seeking an entry-level candidate for the Associate, Startup Accounts position in Bengaluru. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
     "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in Automation Testing, Selenium, Data Structures preferred.",
+    "prep": [
+      {
+        "t": "Aptitude & Reasoning Focus",
+        "items": [
+          "Quantitative Aptitude: Percentages, Profit & Loss, Time-Speed-Distance, and Probability",
+          "Logical Reasoning: Coding-Decoding, Seating Arrangements, Syllogisms, and Pattern Series",
+          "Verbal Ability: Reading Comprehension, Sentence Correction, and Technical Vocabulary"
+        ]
+      },
+      {
+        "t": "Technical Assessment & Coding",
+        "items": [
+          "Arrays, Strings, Two-Pointer technique, and HashMaps (LeetCode Easy to Medium)",
+          "Recursion, Binary Search, and Tree traversals (BFS & DFS)",
+          "Object-Oriented Programming (OOP) concepts, DBMS Queries, and Operating Systems Basics"
+        ]
+      },
+      {
+        "t": "Interview Strategy",
+        "items": [
+          "Review your final-year college project or internships thoroughly — explain architectural choices clearly for Razorpay.",
+          "Prepare to write clean, compiling code with optimal Time and Space complexity (Big-O analysis).",
+          "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "razorpay-associate-technical-consultant",
+    "sector": "private",
+    "org": "Razorpay",
+    "title": "Associate Technical Consultant",
+    "location": "Bengaluru",
+    "batch": "2024, 2025 & 2026 Graduates",
+    "salary": "₹25,000 – ₹50,000/month (Stipend) + Full-time PPO",
+    "posted": "Today",
+    "isNew": true,
+    "lastDate": "Accepting Applications",
+    "vacancies": "Multiple Openings (Fresher Intake)",
+    "applyUrl": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4731682005",
+    "slug": "/docs/jobs/razorpay-associate-technical-consultant.html",
+    "about": "Razorpay is seeking an entry-level candidate for the Associate Technical Consultant position in Bengaluru. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
+    "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in Python, Java, Spring Boot preferred.",
+    "prep": [
+      {
+        "t": "Aptitude & Reasoning Focus",
+        "items": [
+          "Quantitative Aptitude: Percentages, Profit & Loss, Time-Speed-Distance, and Probability",
+          "Logical Reasoning: Coding-Decoding, Seating Arrangements, Syllogisms, and Pattern Series",
+          "Verbal Ability: Reading Comprehension, Sentence Correction, and Technical Vocabulary"
+        ]
+      },
+      {
+        "t": "Technical Assessment & Coding",
+        "items": [
+          "Arrays, Strings, Two-Pointer technique, and HashMaps (LeetCode Easy to Medium)",
+          "Recursion, Binary Search, and Tree traversals (BFS & DFS)",
+          "Object-Oriented Programming (OOP) concepts, DBMS Queries, and Operating Systems Basics"
+        ]
+      },
+      {
+        "t": "Interview Strategy",
+        "items": [
+          "Review your final-year college project or internships thoroughly — explain architectural choices clearly for Razorpay.",
+          "Prepare to write clean, compiling code with optimal Time and Space complexity (Big-O analysis).",
+          "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "razorpay-data-analyst-business-finance",
+    "sector": "private",
+    "org": "Razorpay",
+    "title": "Data Analyst, Business Finance",
+    "location": "Bengaluru",
+    "batch": "2024, 2025 & 2026 Graduates",
+    "salary": "₹25,000 – ₹50,000/month (Stipend) + Full-time PPO",
+    "posted": "Today",
+    "isNew": true,
+    "lastDate": "Accepting Applications",
+    "vacancies": "Multiple Openings (Fresher Intake)",
+    "applyUrl": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4729959005",
+    "slug": "/docs/jobs/razorpay-data-analyst-business-finance.html",
+    "about": "Razorpay is seeking an entry-level candidate for the Data Analyst, Business Finance position in Bengaluru. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
+    "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in Python, SQL, Relational DBs preferred.",
     "prep": [
       {
         "t": "Aptitude & Reasoning Focus",
