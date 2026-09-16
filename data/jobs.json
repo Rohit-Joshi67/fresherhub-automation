@@ -1,44 +1,42 @@
 [
   {
-    "id": "software-development-software-trainee-fresher-role",
+    "id": "paytm-accounts-payable-specialist-mumbai",
     "sector": "private",
-    "org": "Software Development",
-    "title": "Software Trainee / Fresher Role",
-    "location": "Bangalore",
-    "batch": "2024 Graduates",
-    "salary": " 6.5 LPA",
-    "posted": "Just Now",
-    "postedAt": "2026-09-16T10:37:27.775Z",
+    "org": "Paytm",
+    "title": "Accounts Payable  Specialist - Mumbai",
+    "location": "Mumbai, Maharashtra",
+    "batch": "2020 - 2022 Batches (2-4 Years Experience)",
+    "salary": "₹4.5 - ₹7.0 LPA",
+    "posted": "Today",
     "isNew": true,
     "lastDate": "Accepting Applications",
-    "vacancies": "Multiple Openings (Fresher Intake)",
-    "applyUrl": "https://www.accenture.com/in-en/careers",
-    "slug": "/docs/jobs/software-development-software-trainee-fresher-role.html",
-    "about": "Software Development is seeking an entry-level candidate for the Software Trainee / Fresher Role position in Bangalore. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
-    "eligibility": "Open to graduates in relevant streams (2024 Graduates). Hands-on skills in Data Structures, Data Analytics preferred.",
+    "vacancies": "Multiple Openings",
+    "applyUrl": "https://jobs.lever.co/paytm/86665c39-2182-4d69-8b8c-33eac104ec2b",
+    "slug": "/docs/jobs/paytm-accounts-payable-specialist-mumbai.html",
+    "about": "Manage end-to-end vendor operations, invoice processing, and PR/PO generation using SAP. Responsible for tracking employee reimbursements, auditing expense claims, and maintaining accurate real-time trackers. Coordinate directly with finance teams to ensure timely payment cycles and policy compliance.",
+    "eligibility": "Open to graduates in relevant streams (2020 - 2022 Batches (2-4 Years Experience)). Hands-on skills in SAP ERP, MS Excel, Accounts Payable preferred.",
     "prep": [
       {
         "t": "Aptitude & Reasoning Focus",
         "items": [
-          "Quantitative Aptitude: Percentages, Profit & Loss, Time-Speed-Distance, and Probability",
-          "Logical Reasoning: Coding-Decoding, Seating Arrangements, Syllogisms, and Pattern Series",
-          "Verbal Ability: Reading Comprehension, Sentence Correction, and Technical Vocabulary"
+          "Numerical Ability",
+          "Data Interpretation",
+          "Basic Accounting Principles"
         ]
       },
       {
         "t": "Technical Assessment & Coding",
         "items": [
-          "Arrays, Strings, Two-Pointer technique, and HashMaps (LeetCode Easy to Medium)",
-          "Recursion, Binary Search, and Tree traversals (BFS & DFS)",
-          "Object-Oriented Programming (OOP) concepts, DBMS Queries, and Operating Systems Basics"
+          "Advanced Excel (VLOOKUP, Pivot Tables)",
+          "SAP MM/FI Module Operations",
+          "3-Way Invoice Matching Concepts"
         ]
       },
       {
         "t": "Interview Strategy",
         "items": [
-          "Review your final-year college project or internships thoroughly — explain architectural choices clearly for Software Development.",
-          "Prepare to write clean, compiling code with optimal Time and Space complexity (Big-O analysis).",
-          "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
+          "Highlight strong hands-on experience with SAP modules for PR/PO generation and vendor onboarding.",
+          "Be prepared to discuss past scenarios where you successfully resolved vendor payment discrepancies or audited expense claims."
         ]
       }
     ]
@@ -49,131 +47,41 @@
     "org": "Paytm",
     "title": "Associate - Motor Insurance",
     "location": "Noida, Uttar Pradesh",
-    "batch": "2024, 2025 & 2026",
-    "salary": "₹8.0 - ₹16.0 LPA",
-    "posted": "Just Now",
-    "postedAt": "2026-09-16T10:32:42.766Z",
-    "isNew": true,
-    "lastDate": "Accepting Applications",
-    "vacancies": "Multiple Openings (Fresher Intake)",
-    "applyUrl": "https://jobs.lever.co/paytm/20d54134-b6e5-4816-8da9-42e3a3ed8f57",
-    "slug": "/docs/jobs/paytm-associate-motor-insurance.html",
-    "about": "Paytm is seeking an entry-level candidate for the Associate - Motor Insurance position in Noida, Uttar Pradesh. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
-    "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026). Hands-on skills in Data Structures & Algorithms, Core CS Fundamentals, Git & GitHub preferred.",
-    "prep": [
-      {
-        "t": "Aptitude & Reasoning Focus",
-        "items": [
-          "Quantitative Aptitude: Percentages, Profit & Loss, Time-Speed-Distance, and Probability",
-          "Logical Reasoning: Coding-Decoding, Seating Arrangements, Syllogisms, and Pattern Series",
-          "Verbal Ability: Reading Comprehension, Sentence Correction, and Technical Vocabulary"
-        ]
-      },
-      {
-        "t": "Technical Assessment & Coding",
-        "items": [
-          "Arrays, Strings, Two-Pointer technique, and HashMaps (LeetCode Easy to Medium)",
-          "Recursion, Binary Search, and Tree traversals (BFS & DFS)",
-          "Object-Oriented Programming (OOP) concepts, DBMS Queries, and Operating Systems Basics"
-        ]
-      },
-      {
-        "t": "Interview Strategy",
-        "items": [
-          "Review your final-year college project or internships thoroughly — explain architectural choices clearly for Paytm.",
-          "Prepare to write clean, compiling code with optimal Time and Space complexity (Big-O analysis).",
-          "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "google-associate-cloud-engineer",
-    "sector": "private",
-    "org": "Google",
-    "title": "Associate Cloud Engineer",
-    "location": "Bengaluru, Karnataka",
-    "batch": "2024, 2025 & 2026 Graduates",
-    "salary": "₹14.0 – ₹22.0 LPA",
-    "posted": "Just Now",
-    "postedAt": "2026-09-16T10:26:56.215Z",
-    "isNew": true,
-    "lastDate": "Accepting Applications",
-    "vacancies": "Multiple Openings (Fresher Intake)",
-    "applyUrl": "https://careers.google.com/jobs/results",
-    "slug": "/docs/jobs/google-associate-cloud-engineer.html",
-    "about": "Google is seeking an entry-level candidate for the Associate Cloud Engineer position in Bengaluru, Karnataka. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
-    "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in Cloud Computing (AWS/Azure) preferred.",
-    "prep": [
-      {
-        "t": "Aptitude & Reasoning Focus",
-        "items": [
-          "Quantitative Aptitude: Percentages, Profit & Loss, Time-Speed-Distance, and Probability",
-          "Logical Reasoning: Coding-Decoding, Seating Arrangements, Syllogisms, and Pattern Series",
-          "Verbal Ability: Reading Comprehension, Sentence Correction, and Technical Vocabulary"
-        ]
-      },
-      {
-        "t": "Technical Assessment & Coding",
-        "items": [
-          "Arrays, Strings, Two-Pointer technique, and HashMaps (LeetCode Easy to Medium)",
-          "Recursion, Binary Search, and Tree traversals (BFS & DFS)",
-          "Object-Oriented Programming (OOP) concepts, DBMS Queries, and Operating Systems Basics"
-        ]
-      },
-      {
-        "t": "Interview Strategy",
-        "items": [
-          "Review your final-year college project or internships thoroughly — explain architectural choices clearly for Google.",
-          "Prepare to write clean, compiling code with optimal Time and Space complexity (Big-O analysis).",
-          "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "paytm-accounts-payable-specialist-mumbai",
-    "sector": "private",
-    "org": "Paytm",
-    "title": "Accounts Payable  Specialist - Mumbai",
-    "location": "Mumbai, Maharashtra",
-    "batch": "2024, 2025 & 2026 Graduates",
-    "salary": "₹25,000 – ₹50,000/month (Stipend) + Full-time PPO",
+    "batch": "2021, 2022, 2023 & 2024 Batches (Any Graduate)",
+    "salary": "₹2.5 - ₹4.5 LPA + Performance Incentives",
     "posted": "Today",
     "isNew": true,
     "lastDate": "Accepting Applications",
-    "vacancies": "Multiple Openings (Fresher Intake)",
-    "applyUrl": "https://jobs.lever.co/paytm/86665c39-2182-4d69-8b8c-33eac104ec2b",
-    "slug": "/docs/jobs/paytm-accounts-payable-specialist-mumbai.html",
-    "about": "Paytm is seeking an entry-level candidate for the Accounts Payable  Specialist - Mumbai position in Mumbai, Maharashtra. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
-    "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in Data Structures, Data Analytics preferred.",
+    "vacancies": "Multiple Openings",
+    "applyUrl": "https://jobs.lever.co/paytm/20d54134-b6e5-4816-8da9-42e3a3ed8f57",
+    "slug": "/docs/jobs/paytm-associate-motor-insurance.html",
+    "about": "Responsible for driving motor insurance sales by converting telesales leads for two-wheelers, four-wheelers, and commercial vehicles. Key duties include assisting customers with policy selection, issuance, and renewals while meeting daily and monthly sales targets. Additionally, you will maintain sales reports in CRM tools and analyze lead quality to optimize sales performance.",
+    "eligibility": "Open to graduates in relevant streams (2021, 2022, 2023 & 2024 Batches (Any Graduate)). Hands-on skills in MS Excel, Google Sheets, CRM Software preferred.",
     "prep": [
       {
         "t": "Aptitude & Reasoning Focus",
         "items": [
-          "Quantitative Aptitude: Percentages, Profit & Loss, Time-Speed-Distance, and Probability",
-          "Logical Reasoning: Coding-Decoding, Seating Arrangements, Syllogisms, and Pattern Series",
-          "Verbal Ability: Reading Comprehension, Sentence Correction, and Technical Vocabulary"
+          "Verbal Ability & English Comprehension",
+          "Data Interpretation & Charts",
+          "Basic Commercial Mathematics & Percentages"
         ]
       },
       {
         "t": "Technical Assessment & Coding",
         "items": [
-          "Arrays, Strings, Two-Pointer technique, and HashMaps (LeetCode Easy to Medium)",
-          "Recursion, Binary Search, and Tree traversals (BFS & DFS)",
-          "Object-Oriented Programming (OOP) concepts, DBMS Queries, and Operating Systems Basics"
+          "Excel Formulas & Data Cleaning",
+          "Sales Funnel Analytics",
+          "Motor Insurance Terms (IDV, NCB, TP vs Comprehensive)"
         ]
       },
       {
         "t": "Interview Strategy",
         "items": [
-          "Review your final-year college project or internships thoroughly — explain architectural choices clearly for Paytm.",
-          "Prepare to write clean, compiling code with optimal Time and Space complexity (Big-O analysis).",
-          "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
+          "Brush up on basic motor insurance terminology like IDV (Insured Declared Value), No Claim Bonus (NCB), Zero Dep, and IRDAI regulations.",
+          "Prepare mock pitch scenarios demonstrating strong objection handling, persuasion skills, and fluency in both English and Hindi."
         ]
       }
-    ],
-    "postedAt": "2026-09-16T10:26:09.857Z"
+    ]
   },
   {
     "id": "paytm-associate-ta-tech",
@@ -216,8 +124,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-16T09:56:09.857Z"
+    ]
   },
   {
     "id": "paytm-business-analyst",
@@ -260,8 +167,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-16T09:41:09.857Z"
+    ]
   },
   {
     "id": "paytm-business-analyst-paytm-ads",
@@ -304,8 +210,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-16T09:26:09.857Z"
+    ]
   },
   {
     "id": "paytm-credit-risk-analyst",
@@ -313,43 +218,43 @@
     "org": "Paytm",
     "title": "Credit Risk Analyst",
     "location": "Noida, Uttar Pradesh",
-    "batch": "2024, 2025 & 2026 Graduates",
-    "salary": "₹8.0 – ₹16.0 LPA (Role Dependent)",
+    "batch": "2020 - 2024 Batches (Requires 2-5 YOE in Fintech/Banks/NBFC)",
+    "salary": "₹9.0 - ₹18.0 LPA",
     "posted": "Today",
     "isNew": true,
     "lastDate": "Accepting Applications",
-    "vacancies": "Multiple Openings (Fresher Intake)",
+    "vacancies": "Multiple Openings",
     "applyUrl": "https://jobs.lever.co/paytm/ad781ae8-cd4a-44c1-a74b-2822118b7c3d",
     "slug": "/docs/jobs/paytm-credit-risk-analyst.html",
-    "about": "Paytm is seeking an entry-level candidate for the Credit Risk Analyst position in Noida, Uttar Pradesh. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
-    "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in Python, SQL, Relational DBs preferred.",
+    "about": "Responsible for monitoring, analyzing, and optimizing lending portfolios across Paytm's consumer and merchant credit products. Develop and refine credit risk strategies, loss forecasting, and risk containment frameworks using analytics. Work closely with cross-functional teams to translate complex financial data into actionable insights for business decision-making.",
+    "eligibility": "Open to graduates in relevant streams (2020 - 2024 Batches (Requires 2-5 YOE in Fintech/Banks/NBFC)). Hands-on skills in SQL, Python, R preferred.",
     "prep": [
       {
         "t": "Aptitude & Reasoning Focus",
         "items": [
-          "Quantitative Aptitude: Percentages, Profit & Loss, Time-Speed-Distance, and Probability",
-          "Logical Reasoning: Coding-Decoding, Seating Arrangements, Syllogisms, and Pattern Series",
-          "Verbal Ability: Reading Comprehension, Sentence Correction, and Technical Vocabulary"
+          "Data Interpretation",
+          "Probability & Statistics",
+          "Financial & Commercial Aptitude",
+          "Logical Reasoning"
         ]
       },
       {
         "t": "Technical Assessment & Coding",
         "items": [
-          "Arrays, Strings, Two-Pointer technique, and HashMaps (LeetCode Easy to Medium)",
-          "Recursion, Binary Search, and Tree traversals (BFS & DFS)",
-          "Object-Oriented Programming (OOP) concepts, DBMS Queries, and Operating Systems Basics"
+          "Advanced SQL Queries & Window Functions",
+          "Data Manipulation with Python/Pandas",
+          "Predictive Modeling & Classification",
+          "Exploratory Data Analysis (EDA)"
         ]
       },
       {
         "t": "Interview Strategy",
         "items": [
-          "Review your final-year college project or internships thoroughly — explain architectural choices clearly for Paytm.",
-          "Prepare to write clean, compiling code with optimal Time and Space complexity (Big-O analysis).",
-          "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
+          "Prepare to discuss core credit risk metrics like DPD (Days Past Due), Default Rates, NPA, and Scorecards.",
+          "Highlight practical experience using SQL and Python to analyze large financial datasets and credit bureau data during technical discussions."
         ]
       }
-    ],
-    "postedAt": "2026-09-16T09:11:09.857Z"
+    ]
   },
   {
     "id": "paytm-cst-associate-email-cst",
@@ -392,8 +297,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-16T08:56:09.857Z"
+    ]
   },
   {
     "id": "paytm-cst-associate-social-cst",
@@ -436,8 +340,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-16T08:41:09.857Z"
+    ]
   },
   {
     "id": "paytm-cst-executive-associate-paytm-travel-flights",
@@ -480,8 +383,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-16T08:26:09.857Z"
+    ]
   },
   {
     "id": "paytm-customer-support-agent-executive-bill-payments-cst",
@@ -524,8 +426,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-16T08:11:09.857Z"
+    ]
   },
   {
     "id": "paytm-customer-support-associate",
@@ -568,8 +469,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-16T07:56:09.857Z"
+    ]
   },
   {
     "id": "paytm-growth-operations-paytm-money",
@@ -612,8 +512,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-16T07:41:09.857Z"
+    ]
   },
   {
     "id": "paytm-hr-payroll-intern",
@@ -656,8 +555,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-16T07:26:09.857Z"
+    ]
   },
   {
     "id": "paytm-intern-ta-tech",
@@ -700,8 +598,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-16T07:11:09.857Z"
+    ]
   },
   {
     "id": "paytm-intern-talent-acquisition",
@@ -744,8 +641,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-16T06:56:09.857Z"
+    ]
   },
   {
     "id": "paytm-internal-audit-risk-advisory",
@@ -788,8 +684,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-16T06:41:09.857Z"
+    ]
   },
   {
     "id": "paytm-internship-talent-acquisition",
@@ -832,8 +727,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-16T06:26:09.857Z"
+    ]
   },
   {
     "id": "paytm-internship-talent-acquisition",
@@ -876,8 +770,50 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-16T06:11:09.857Z"
+    ]
+  },
+  {
+    "id": "paytm-product-design-intern-paytm",
+    "sector": "private",
+    "org": "Paytm",
+    "title": "Product Design Intern- Paytm",
+    "location": "Noida, Uttar Pradesh",
+    "batch": "2024, 2025 & 2026 Graduates",
+    "salary": "₹25,000 – ₹50,000/month (Stipend) + Full-time PPO",
+    "posted": "Today",
+    "isNew": true,
+    "lastDate": "Accepting Applications",
+    "vacancies": "Multiple Openings (Fresher Intake)",
+    "applyUrl": "https://jobs.lever.co/paytm/3876b70d-85d2-4128-b3b1-91f078c10eb0",
+    "slug": "/docs/jobs/paytm-product-design-intern-paytm.html",
+    "about": "Paytm is seeking an entry-level candidate for the Product Design Intern- Paytm position in Noida, Uttar Pradesh. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
+    "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in Automation Testing, Selenium, Data Structures preferred.",
+    "prep": [
+      {
+        "t": "Aptitude & Reasoning Focus",
+        "items": [
+          "Quantitative Aptitude: Percentages, Profit & Loss, Time-Speed-Distance, and Probability",
+          "Logical Reasoning: Coding-Decoding, Seating Arrangements, Syllogisms, and Pattern Series",
+          "Verbal Ability: Reading Comprehension, Sentence Correction, and Technical Vocabulary"
+        ]
+      },
+      {
+        "t": "Technical Assessment & Coding",
+        "items": [
+          "Arrays, Strings, Two-Pointer technique, and HashMaps (LeetCode Easy to Medium)",
+          "Recursion, Binary Search, and Tree traversals (BFS & DFS)",
+          "Object-Oriented Programming (OOP) concepts, DBMS Queries, and Operating Systems Basics"
+        ]
+      },
+      {
+        "t": "Interview Strategy",
+        "items": [
+          "Review your final-year college project or internships thoroughly — explain architectural choices clearly for Paytm.",
+          "Prepare to write clean, compiling code with optimal Time and Space complexity (Big-O analysis).",
+          "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
+        ]
+      }
+    ]
   },
   {
     "id": "paytm-product-management-intern-telco",
@@ -920,8 +856,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-16T05:56:09.857Z"
+    ]
   },
   {
     "id": "paytm-product-management-intern-insurance",
@@ -964,8 +899,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-16T05:41:09.857Z"
+    ]
   },
   {
     "id": "paytm-risk-analyst",
@@ -1008,8 +942,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-16T05:26:09.857Z"
+    ]
   },
   {
     "id": "paytm-sales-services-associate-health-insurance",
@@ -1052,8 +985,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-16T05:11:09.857Z"
+    ]
   },
   {
     "id": "paytm-talent-acquisition-intern",
@@ -1096,8 +1028,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-16T04:56:09.857Z"
+    ]
   },
   {
     "id": "paytm-talent-acquisition-intern-bangalore",
@@ -1140,8 +1071,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-16T04:41:09.857Z"
+    ]
   },
   {
     "id": "paytm-talent-acquisition-intern-gurgaon",
@@ -1184,8 +1114,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-16T04:26:09.857Z"
+    ]
   },
   {
     "id": "paytm-tele-caller-associate",
@@ -1228,8 +1157,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-16T04:11:09.857Z"
+    ]
   },
   {
     "id": "paytm-visual-design-intern-paytm",
@@ -1315,8 +1243,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-16T03:56:09.857Z"
+    ]
   },
   {
     "id": "zeta-associate-sr-associate-people-experience",
@@ -1359,8 +1286,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-16T03:41:09.857Z"
+    ]
   },
   {
     "id": "zeta-cloud-network-engineer-ii",
@@ -1403,8 +1329,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-16T03:26:09.857Z"
+    ]
   },
   {
     "id": "zeta-corporate-risk-and-compliance-associate-ii",
@@ -1447,8 +1372,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-16T03:11:09.857Z"
+    ]
   },
   {
     "id": "zeta-executive-it-support",
@@ -1491,14 +1415,13 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-16T02:56:09.857Z"
+    ]
   },
   {
-    "id": "zeta-intern",
+    "id": "zeta-product-management-intern",
     "sector": "private",
     "org": "Zeta",
-    "title": "Intern",
+    "title": "Product Management - Intern",
     "location": "Bangalore - EC",
     "batch": "2025 & 2026 Batch Graduates",
     "salary": "₹25,000 – ₹50,000/month (Stipend) + Full-time PPO",
@@ -1507,8 +1430,8 @@
     "lastDate": "Accepting Applications",
     "vacancies": "Multiple Openings (Fresher Intake)",
     "applyUrl": "https://jobs.lever.co/zeta/72ee1884-8e8b-447b-ab96-aa76605b5f4a",
-    "slug": "/docs/jobs/zeta-intern.html",
-    "about": "Zeta is seeking an entry-level candidate for the Intern position in Bangalore - EC. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
+    "slug": "/docs/jobs/zeta-product-management-intern.html",
+    "about": "Zeta is seeking an entry-level candidate for the Product Management - Intern position in Bangalore - EC. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
     "eligibility": "Open to graduates in relevant streams (2025 & 2026 Batch Graduates). Hands-on skills in Cloud Computing (AWS/Azure), Data Structures, Data Analytics preferred.",
     "prep": [
       {
@@ -1535,8 +1458,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-16T02:41:09.857Z"
+    ]
   },
   {
     "id": "zeta-product-security-engineer-ii",
@@ -1579,8 +1501,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-16T02:26:09.857Z"
+    ]
   },
   {
     "id": "zeta-siem-secops-engineer-ii",
@@ -1623,8 +1544,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-16T02:11:09.857Z"
+    ]
   },
   {
     "id": "zeta-specialist-people-partner",
@@ -1667,8 +1587,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-16T01:56:09.857Z"
+    ]
   },
   {
     "id": "zeta-specialist-total-rewards",
@@ -1711,8 +1630,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-16T01:41:09.857Z"
+    ]
   },
   {
     "id": "razorpay-associate-learning-business-partner",
@@ -1755,52 +1673,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-16T01:26:09.857Z"
-  },
-  {
-    "id": "razorpay-associate-startup-accounts",
-    "sector": "private",
-    "org": "Razorpay",
-    "title": "Associate, Startup Accounts",
-    "location": "Bengaluru",
-    "batch": "2024, 2025 & 2026 Graduates",
-    "salary": "₹25,000 – ₹50,000/month (Stipend) + Full-time PPO",
-    "posted": "Today",
-    "isNew": true,
-    "lastDate": "Accepting Applications",
-    "vacancies": "Multiple Openings (Fresher Intake)",
-    "applyUrl": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4724183005",
-    "slug": "/docs/jobs/razorpay-associate-startup-accounts.html",
-    "about": "Razorpay is seeking an entry-level candidate for the Associate, Startup Accounts position in Bengaluru. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
-    "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in Automation Testing, Selenium, Data Structures preferred.",
-    "prep": [
-      {
-        "t": "Aptitude & Reasoning Focus",
-        "items": [
-          "Quantitative Aptitude: Percentages, Profit & Loss, Time-Speed-Distance, and Probability",
-          "Logical Reasoning: Coding-Decoding, Seating Arrangements, Syllogisms, and Pattern Series",
-          "Verbal Ability: Reading Comprehension, Sentence Correction, and Technical Vocabulary"
-        ]
-      },
-      {
-        "t": "Technical Assessment & Coding",
-        "items": [
-          "Arrays, Strings, Two-Pointer technique, and HashMaps (LeetCode Easy to Medium)",
-          "Recursion, Binary Search, and Tree traversals (BFS & DFS)",
-          "Object-Oriented Programming (OOP) concepts, DBMS Queries, and Operating Systems Basics"
-        ]
-      },
-      {
-        "t": "Interview Strategy",
-        "items": [
-          "Review your final-year college project or internships thoroughly — explain architectural choices clearly for Razorpay.",
-          "Prepare to write clean, compiling code with optimal Time and Space complexity (Big-O analysis).",
-          "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
-        ]
-      }
-    ],
-    "postedAt": "2026-09-16T01:11:09.857Z"
+    ]
   },
   {
     "id": "razorpay-junior-associate-enterprise-partnerships",
@@ -1843,8 +1716,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-16T00:41:09.857Z"
+    ]
   },
   {
     "id": "inmobi-sr-associate-deal-desk-global-revenue-services",
@@ -1887,8 +1759,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-16T00:26:09.857Z"
+    ]
   },
   {
     "id": "inmobi-sr-associate-deal-desk-global-revenue-services",
@@ -1931,8 +1802,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-16T00:11:09.857Z"
+    ]
   },
   {
     "id": "glance-product-analyst-ii",
@@ -1975,8 +1845,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-15T23:56:09.857Z"
+    ]
   },
   {
     "id": "glance-sde-iv-backend",
@@ -2019,8 +1888,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-15T23:41:09.857Z"
+    ]
   },
   {
     "id": "glance-sde-iv-gpu-engineer",
@@ -2063,8 +1931,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-15T23:26:09.857Z"
+    ]
   },
   {
     "id": "glance-ux-design-intern",
@@ -2107,8 +1974,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-15T23:11:09.857Z"
+    ]
   },
   {
     "id": "groww-associate-content-digest",
@@ -2151,8 +2017,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-15T22:56:09.857Z"
+    ]
   },
   {
     "id": "groww-portfolio-specialist-wealth",
@@ -2195,8 +2060,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-15T22:41:09.857Z"
+    ]
   },
   {
     "id": "groww-product-research-specialist-w-from-groww",
@@ -2239,8 +2103,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-15T22:26:09.857Z"
+    ]
   },
   {
     "id": "groww-video-editor-intern",
@@ -2283,8 +2146,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-15T22:11:09.857Z"
+    ]
   },
   {
     "id": "groww-youtube-content-internship",
@@ -2327,8 +2189,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-15T21:56:09.857Z"
+    ]
   },
   {
     "id": "stage-data-engineer-sql-pyspark-snowflake-dbt-redshift-associate",
@@ -2371,8 +2232,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-15T21:41:09.857Z"
+    ]
   },
   {
     "id": "stage-finance-spv-controllership-associate",
@@ -2415,8 +2275,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-15T21:26:09.857Z"
+    ]
   },
   {
     "id": "stage-human-capital-global-workday-hris-analyst",
@@ -2459,8 +2318,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-15T21:11:09.857Z"
+    ]
   },
   {
     "id": "stage-human-capital-leaves-accommodation-sr-analyst-associate",
@@ -2503,8 +2361,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-15T20:56:09.857Z"
+    ]
   },
   {
     "id": "stage-operations-performance-analytics-avp",
@@ -2547,8 +2404,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-15T20:41:09.857Z"
+    ]
   },
   {
     "id": "stage-operations-portfolio-monitoring-unit-credit-analyst",
@@ -2591,8 +2447,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-15T20:26:09.857Z"
+    ]
   },
   {
     "id": "stage-operations-portfolio-monitoring-unit-private-markets-analys",
@@ -2635,8 +2490,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-15T20:11:09.857Z"
+    ]
   },
   {
     "id": "stage-operations-treasury-operations-avp-payments-security",
@@ -2644,43 +2498,43 @@
     "org": "Stage",
     "title": "Operations - Treasury Operations - AVP (Payments & Security)",
     "location": "Gurugram",
-    "batch": "2024, 2025 & 2026 Graduates",
-    "salary": "₹25,000 – ₹50,000/month (Stipend) + Full-time PPO",
+    "batch": "Not specified (Requires prior leadership & treasury experience)",
+    "salary": "₹20.0 - ₹35.0 LPA (Estimated for AVP level)",
     "posted": "Today",
     "isNew": true,
     "lastDate": "Accepting Applications",
-    "vacancies": "Multiple Openings (Fresher Intake)",
+    "vacancies": "1-2 Openings",
     "applyUrl": "https://www.kkr.com/careers/career-opportunities/post?gh_jid=6145049004",
     "slug": "/docs/jobs/stage-operations-treasury-operations-avp-payments-security.html",
-    "about": "Stage is seeking an entry-level candidate for the Operations - Treasury Operations - AVP (Payments & Security) position in Gurugram. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
-    "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in Cloud Computing (AWS/Azure), Automation Testing, Selenium preferred.",
+    "about": "The Assistant Vice President will lead global treasury operations, overseeing payment processing, liquidity management, and banking relationships. The role involves driving key process automation, system integration projects, and managing daily operational workflows. Additionally, the individual will mentor team members and partner across global Finance, Operations, and Technology divisions.",
+    "eligibility": "Open to graduates in relevant streams (Not specified (Requires prior leadership & treasury experience)). Hands-on skills in Treasury Management Systems (TMS), SWIFT & Payment Rails, SQL preferred.",
     "prep": [
       {
         "t": "Aptitude & Reasoning Focus",
         "items": [
-          "Quantitative Aptitude: Percentages, Profit & Loss, Time-Speed-Distance, and Probability",
-          "Logical Reasoning: Coding-Decoding, Seating Arrangements, Syllogisms, and Pattern Series",
-          "Verbal Ability: Reading Comprehension, Sentence Correction, and Technical Vocabulary"
+          "Financial Mathematics",
+          "Data Interpretation",
+          "Logical Reasoning",
+          "Numerical Ability"
         ]
       },
       {
         "t": "Technical Assessment & Coding",
         "items": [
-          "Arrays, Strings, Two-Pointer technique, and HashMaps (LeetCode Easy to Medium)",
-          "Recursion, Binary Search, and Tree traversals (BFS & DFS)",
-          "Object-Oriented Programming (OOP) concepts, DBMS Queries, and Operating Systems Basics"
+          "SQL Queries & Database Management",
+          "Process Automation (Python/VBA)",
+          "Data Analysis & Reporting",
+          "System Integration Workflows"
         ]
       },
       {
         "t": "Interview Strategy",
         "items": [
-          "Review your final-year college project or internships thoroughly — explain architectural choices clearly for Stage.",
-          "Prepare to write clean, compiling code with optimal Time and Space complexity (Big-O analysis).",
-          "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
+          "Prepare thoroughly on global treasury processes, SWIFT protocol, payment gateways, and cash management lifecycle.",
+          "Highlight experience in team leadership, stakeholder management, and successful project automation in complex financial environments."
         ]
       }
-    ],
-    "postedAt": "2026-09-15T19:56:09.857Z"
+    ]
   },
   {
     "id": "stage-operations-treasury-operations-controls-governance-avp",
@@ -2723,8 +2577,7 @@
           "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
         ]
       }
-    ],
-    "postedAt": "2026-09-15T19:41:09.857Z"
+    ]
   },
   {
     "id": "ssc-cgl-chsl",
@@ -2763,8 +2616,7 @@
           "Practice online mock tests adhering strictly to examination time limits"
         ]
       }
-    ],
-    "postedAt": "2026-09-15T19:26:09.857Z"
+    ]
   },
   {
     "id": "nic-scientist-tech",
@@ -2803,8 +2655,7 @@
           "Practice online mock tests adhering strictly to examination time limits"
         ]
       }
-    ],
-    "postedAt": "2026-09-15T19:11:09.857Z"
+    ]
   },
   {
     "id": "ibps-it-officer",
@@ -2843,8 +2694,7 @@
           "Practice online mock tests adhering strictly to examination time limits"
         ]
       }
-    ],
-    "postedAt": "2026-09-15T18:56:09.857Z"
+    ]
   },
   {
     "id": "rrb-je-it",
@@ -2883,7 +2733,6 @@
           "Practice online mock tests adhering strictly to examination time limits"
         ]
       }
-    ],
-    "postedAt": "2026-09-15T18:41:09.857Z"
+    ]
   }
 ]
