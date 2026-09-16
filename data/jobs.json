@@ -1,5 +1,49 @@
 [
   {
+    "id": "software-development-software-trainee-fresher-role",
+    "sector": "private",
+    "org": "Software Development",
+    "title": "Software Trainee / Fresher Role",
+    "location": "Bangalore",
+    "batch": "2024 Graduates",
+    "salary": " 6.5 LPA",
+    "posted": "Just Now",
+    "postedAt": "2026-09-16T10:37:27.775Z",
+    "isNew": true,
+    "lastDate": "Accepting Applications",
+    "vacancies": "Multiple Openings (Fresher Intake)",
+    "applyUrl": "https://www.accenture.com/in-en/careers",
+    "slug": "/docs/jobs/software-development-software-trainee-fresher-role.html",
+    "about": "Software Development is seeking an entry-level candidate for the Software Trainee / Fresher Role position in Bangalore. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
+    "eligibility": "Open to graduates in relevant streams (2024 Graduates). Hands-on skills in Data Structures, Data Analytics preferred.",
+    "prep": [
+      {
+        "t": "Aptitude & Reasoning Focus",
+        "items": [
+          "Quantitative Aptitude: Percentages, Profit & Loss, Time-Speed-Distance, and Probability",
+          "Logical Reasoning: Coding-Decoding, Seating Arrangements, Syllogisms, and Pattern Series",
+          "Verbal Ability: Reading Comprehension, Sentence Correction, and Technical Vocabulary"
+        ]
+      },
+      {
+        "t": "Technical Assessment & Coding",
+        "items": [
+          "Arrays, Strings, Two-Pointer technique, and HashMaps (LeetCode Easy to Medium)",
+          "Recursion, Binary Search, and Tree traversals (BFS & DFS)",
+          "Object-Oriented Programming (OOP) concepts, DBMS Queries, and Operating Systems Basics"
+        ]
+      },
+      {
+        "t": "Interview Strategy",
+        "items": [
+          "Review your final-year college project or internships thoroughly — explain architectural choices clearly for Software Development.",
+          "Prepare to write clean, compiling code with optimal Time and Space complexity (Big-O analysis).",
+          "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
+        ]
+      }
+    ]
+  },
+  {
     "id": "paytm-associate-motor-insurance",
     "sector": "private",
     "org": "Paytm",

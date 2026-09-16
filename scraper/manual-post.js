@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import readline from 'readline';
-import { enrichJobWithAI, generateHeuristicEnrichment } from './generate-content.js';
+import { enrichJobWithAI, generateHeuristicEnrichment, extractJobFromText } from './generate-content.js';
 import { renderJobPage } from './templates.js';
 
 function makeSlug(company, title) {
@@ -158,7 +158,22 @@ export async function createManualJob(jobInput = {}) {
 async function main() {
   const cliArgs = parseCliArgs();
 
-  // If parameters passed via CLI, use them directly
+  // If raw text or reel transcript is passed via CLI flag:
+  // e.g. node manual-post.js --text "Paytm is hiring Software Engineers for Noida..."
+  // or node manual-post.js --reel "Amazon fresher hiring 2024 2025 batch 12 LPA"
+  const rawText = cliArgs.text || cliArgs.reel || cliArgs.transcript;
+  if (rawText) {
+    console.log('\n📝 Analyzing raw text / reel transcript with AI...');
+    const parsedFromText = await extractJobFromText(rawText);
+    if (cliArgs.apply) parsedFromText.applyUrl = cliArgs.apply;
+    if (cliArgs.company) parsedFromText.company = cliArgs.company;
+    if (cliArgs.title) parsedFromText.title = cliArgs.title;
+    if (cliArgs.location) parsedFromText.location = cliArgs.location;
+    await createManualJob(parsedFromText);
+    return;
+  }
+
+  // If parameters passed via structured CLI flags
   if (cliArgs.company && cliArgs.title) {
     await createManualJob({
       company: cliArgs.company,
@@ -178,6 +193,9 @@ async function main() {
   console.log('==============================================');
   console.log('   FresherHub — Manual Job Listing Publisher   ');
   console.log('==============================================\n');
+  console.log('Options:');
+  console.log('1. Paste Reel Transcript / Unstructured Text (AI extracts everything)');
+  console.log('2. Enter Job Details Field-by-Field\n');
 
   const rl = readline.createInterface({
     input: process.stdin,
@@ -185,6 +203,21 @@ async function main() {
   });
 
   try {
+    const choice = await ask(rl, 'Choose Mode (1 or 2)', '1');
+
+    if (choice === '1') {
+      console.log('\nPaste your reel transcript or text below (press Enter then Ctrl+D / send input):');
+      const text = await ask(rl, 'Transcript / Text');
+      const applyUrl = await ask(rl, 'Official Application URL (optional)', 'https://careers.example.com');
+      rl.close();
+
+      console.log('\n🤖 AI is parsing your text into job details...');
+      const extracted = await extractJobFromText(text);
+      if (applyUrl) extracted.applyUrl = applyUrl;
+      await createManualJob(extracted);
+      return;
+    }
+
     const company = await ask(rl, 'Company / Organization Name');
     if (!company) {
       console.log('Company name is required. Exiting.');

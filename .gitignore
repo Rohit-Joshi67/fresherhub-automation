@@ -2,3 +2,5 @@ node_modules/
 scraper/node_modules/
 .DS_Store
 *.log
+.env
+scraper/.env

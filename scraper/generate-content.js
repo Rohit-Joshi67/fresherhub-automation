@@ -1,9 +1,30 @@
+import fs from 'fs';
+import path from 'path';
 import { GoogleGenAI } from '@google/genai';
 
+// Automatically load GEMINI_API_KEY from .env or scraper/.env if present
+function loadEnvKey() {
+  if (process.env.GEMINI_API_KEY) return process.env.GEMINI_API_KEY;
+  const envPaths = [
+    path.resolve('.env'),
+    path.resolve('../.env'),
+    path.resolve('scraper/.env')
+  ];
+  for (const p of envPaths) {
+    if (fs.existsSync(p)) {
+      const content = fs.readFileSync(p, 'utf8');
+      const match = content.match(/GEMINI_API_KEY\s*=\s*["']?([^"'\r\n]+)["']?/);
+      if (match && match[1]) return match[1].trim();
+    }
+  }
+  return null;
+}
+
+const apiKey = loadEnvKey();
 let aiClient = null;
-if (process.env.GEMINI_API_KEY) {
+if (apiKey) {
   try {
-    aiClient = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+    aiClient = new GoogleGenAI({ apiKey });
   } catch (e) {
     console.warn('Failed to initialize GoogleGenAI client:', e.message);
   }
@@ -79,7 +100,7 @@ export function generateHeuristicEnrichment(job) {
 }
 
 export async function enrichJobWithAI(job) {
-  if (!aiClient || !process.env.GEMINI_API_KEY) {
+  if (!aiClient) {
     return generateHeuristicEnrichment(job);
   }
 
@@ -120,4 +141,90 @@ ${(job.description || job.title).slice(0, 2500)}
     return generateHeuristicEnrichment(job);
   }
 }
+
+// Extract company, role, batch, salary, location from unstructured reel transcripts or captions
+export async function extractJobFromText(rawText) {
+  if (!rawText || !rawText.trim()) {
+    throw new Error('Input text/transcript cannot be empty.');
+  }
+
+  if (aiClient) {
+    const prompt = `
+You are an expert Indian tech job parser. Given this raw text / social media reel transcript / post caption, extract the exact job details into valid JSON.
+Return ONLY valid JSON with these exact keys:
+{
+  "company": "Company or startup name (e.g. Paytm, Google, TCS)",
+  "title": "Exact job title / role (e.g. Associate Software Engineer, Cloud Trainee)",
+  "location": "Job location or Remote (e.g. Bengaluru, Karnataka or Pan-India)",
+  "batch": "Eligible passing batches (e.g. 2024, 2025 & 2026 Graduates)",
+  "salary": "Package or stipend mentioned (e.g. ₹6.5 - ₹10 LPA, or ₹35,000/month)",
+  "sector": "private or govt",
+  "applyUrl": "Official application URL if mentioned (or 'https://careers.google.com' / official careers default)",
+  "lastDate": "Last date to apply or 'Accepting Applications'",
+  "description": "Clean 2-3 sentence overview of the role"
+}
+
+Raw Text / Reel Transcript:
+${rawText.slice(0, 3000)}
+`;
+    try {
+      const response = await aiClient.models.generateContent({
+        model: 'gemini-1.5-flash',
+        contents: prompt,
+        config: { responseMimeType: 'application/json' }
+      });
+      const parsed = JSON.parse(response.text);
+      if (parsed.company && parsed.title) {
+        return parsed;
+      }
+    } catch (e) {
+      console.warn('Gemini extraction failed, using heuristic regex parser:', e.message);
+    }
+  }
+
+  // Heuristic regex fallback for reel transcripts
+  const lines = rawText.split(/[\r\n]+/).map(s => s.trim()).filter(Boolean);
+  let company = 'Tech Organization';
+  let title = 'Software Trainee / Fresher Role';
+  let location = 'Bengaluru / Pan-India';
+  let batch = '2024, 2025 & 2026 Graduates';
+  let salary = '₹4.5 – ₹9.0 LPA (Fresher Band)';
+  let sector = 'private';
+  let applyUrl = 'https://freshersjobopening.online';
+
+  const lower = rawText.toLowerCase();
+
+  // Find company
+  const compMatch = rawText.match(/(?:at|company|hiring|join|in)\s+([A-Z][a-zA-Z0-9\s]{2,20})/);
+  if (compMatch && compMatch[1]) company = compMatch[1].trim();
+
+  // Find title
+  const titleMatch = rawText.match(/(software engineer|developer|intern|trainee|analyst|associate|qa engineer|data analyst)/i);
+  if (titleMatch) title = titleMatch[0].replace(/\b\w/g, c => c.toUpperCase());
+
+  // Find salary
+  const salMatch = rawText.match(/(₹?\s*\d+(?:\.\d+)?\s*(?:lpa|lakh|k|pm|\/month))/i);
+  if (salMatch) salary = salMatch[0].toUpperCase();
+
+  // Find batch
+  const batchMatch = rawText.match(/(202[3-7](?:\s*[,&/\-]\s*202[3-7])*)/);
+  if (batchMatch) batch = `${batchMatch[0]} Graduates`;
+
+  // Find location
+  const locMatch = rawText.match(/(bangalore|bengaluru|hyderabad|pune|noida|delhi|mumbai|chennai|gurgaon|remote|pan-india)/i);
+  if (locMatch) location = locMatch[0].replace(/\b\w/g, c => c.toUpperCase());
+
+  return {
+    company,
+    title,
+    location,
+    batch,
+    salary,
+    sector,
+    applyUrl,
+    lastDate: 'Accepting Applications',
+    description: rawText.slice(0, 500)
+  };
+}
+
 
