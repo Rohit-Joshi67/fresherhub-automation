@@ -1,0 +1,50 @@
+name: Post Job via Web Form
+
+on:
+  workflow_dispatch:
+    inputs:
+      reelText:
+        description: 'Reel Transcript or Job Raw Text'
+        required: true
+        type: string
+      applyUrl:
+        description: 'Official Application URL'
+        required: false
+        default: 'https://careers.google.com'
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  post-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: 'npm'
+          cache-dependency-path: scraper/package-lock.json
+
+      - name: Install scraper dependencies
+        working-directory: scraper
+        run: npm install
+
+      - name: Run Manual Post from Transcript
+        working-directory: scraper
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          node manual-post.js --reel "${{ github.event.inputs.reelText }}" --apply "${{ github.event.inputs.applyUrl }}"
+
+      - name: Commit & Push new posting
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ docs/
+          git diff --quiet && git diff --staged --quiet || git commit -m "Post new job from web action [skip ci]"
+          git push

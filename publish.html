@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Job Publisher — FreshersHub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #F8FAFC;
+      --card: #FFFFFF;
+      --primary: #00875A;
+      --primary-hover: #007048;
+      --text: #0F172A;
+      --sub: #64748B;
+      --border: #E2E8F0;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+      padding: 30px 20px;
+    }
+    .admin-wrap {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .header-box {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 24px;
+    }
+    .brand-title {
+      font-size: 22px;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .badge-icon {
+      width: 32px;
+      height: 32px;
+      background: var(--primary);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 8px;
+      font-weight: 800;
+      font-size: 14px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 28px;
+      box-shadow: 0 4px 6px -1px rgba(0,0,0,0.04);
+      margin-bottom: 20px;
+    }
+    h2 {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+    p.desc {
+      font-size: 13.5px;
+      color: var(--sub);
+      margin-bottom: 20px;
+      line-height: 1.5;
+    }
+    .field-group {
+      margin-bottom: 18px;
+    }
+    label {
+      display: block;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--sub);
+      margin-bottom: 6px;
+    }
+    textarea, input {
+      width: 100%;
+      border: 1.5px solid var(--border);
+      border-radius: 8px;
+      padding: 12px 14px;
+      font-family: inherit;
+      font-size: 14px;
+      color: var(--text);
+      outline: none;
+      transition: border-color 0.15s ease;
+    }
+    textarea:focus, input:focus {
+      border-color: var(--primary);
+    }
+    textarea {
+      min-height: 120px;
+      resize: vertical;
+    }
+    .btn-submit {
+      width: 100%;
+      background: var(--primary);
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 14px;
+      font-size: 15px;
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      transition: background 0.15s ease;
+    }
+    .btn-submit:hover {
+      background: var(--primary-hover);
+    }
+    .btn-submit:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+    .status-alert {
+      display: none;
+      margin-top: 18px;
+      padding: 14px 16px;
+      border-radius: 8px;
+      font-size: 13.5px;
+      line-height: 1.5;
+    }
+    .status-alert.info { background: #E0F2FE; color: #0369A1; border: 1px solid #BAE6FD; }
+    .status-alert.success { background: #DCFCE7; color: #15803D; border: 1px solid #BBF7D0; }
+    .status-alert.error { background: #FEE2E2; color: #B91C1C; border: 1px solid #FECACA; }
+    .nav-back {
+      font-size: 13px;
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .nav-back:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+<div class="admin-wrap">
+  <div class="header-box">
+    <div class="brand-title">
+      <div class="badge-icon">FH</div>
+      <span>FreshersHub Admin Portal</span>
+    </div>
+    <a href="/" class="nav-back">&larr; Back to Website</a>
+  </div>
+
+  <div class="card">
+    <h2>1-Click Reel & Job Web Publisher</h2>
+    <p class="desc">
+      Paste any reel transcript, LinkedIn post, or rough job text below. Click publish and GitHub Actions will automatically call Gemini AI, build the 3-column SEO page, and push the listing to the #1 spot on your homepage!
+    </p>
+
+    <div class="field-group">
+      <label>GitHub Personal Access Token (Fine-grained or Classic with repo scope)</label>
+      <input type="password" id="ghToken" placeholder="ghp_xxxxxxxxxxxxxxxxxxxx (saved securely in your browser)">
+      <small style="font-size:11px;color:var(--sub);margin-top:4px;display:block;">Only needed once so this page has permission to trigger your GitHub Action workflow.</small>
+    </div>
+
+    <div class="field-group">
+      <label>Reel Transcript / Raw Job Text</label>
+      <textarea id="reelText" placeholder="e.g. Google is hiring Cloud Engineers in Bengaluru. 2024 and 2025 graduates eligible. Package 14 LPA. Apply now before end of month."></textarea>
+    </div>
+
+    <div class="field-group">
+      <label>Official Application URL</label>
+      <input type="url" id="applyUrl" placeholder="https://careers.google.com/jobs/..." value="https://careers.google.com">
+    </div>
+
+    <button type="button" class="btn-submit" id="btnPublish" onclick="triggerWorkflow()">
+      <span>🚀 Run AI & Publish to Website</span>
+    </button>
+
+    <div class="status-alert" id="statusBox"></div>
+  </div>
+</div>
+
+<script>
+  const REPO_OWNER = 'Rohit-Joshi67';
+  const REPO_NAME = 'fresherhub-automation';
+  const WORKFLOW_FILE = 'post-job.yml';
+
+  // Load saved token
+  const savedToken = localStorage.getItem('fh_gh_token');
+  if (savedToken) {
+    document.getElementById('ghToken').value = savedToken;
+  }
+
+  async function triggerWorkflow() {
+    const token = document.getElementById('ghToken').value.trim();
+    const text = document.getElementById('reelText').value.trim();
+    const apply = document.getElementById('applyUrl').value.trim();
+    const btn = document.getElementById('btnPublish');
+    const status = document.getElementById('statusBox');
+
+    if (!token) {
+      showStatus('Please enter your GitHub Personal Access Token to trigger the workflow.', 'error');
+      return;
+    }
+    if (!text) {
+      showStatus('Please enter the reel transcript or job text.', 'error');
+      return;
+    }
+
+    // Save token locally in user browser
+    localStorage.setItem('fh_gh_token', token);
+
+    btn.disabled = true;
+    btn.textContent = 'Triggering GitHub Action...';
+    showStatus('Connecting to GitHub Actions and launching AI job generator...', 'info');
+
+    try {
+      const response = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/actions/workflows/${WORKFLOW_FILE}/dispatches`, {
+        method: 'POST',
+        headers: {
+          'Accept': 'application/vnd.github+json',
+          'Authorization': `Bearer ${token}`,
+          'X-GitHub-Api-Version': '2022-11-28',
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          ref: 'main',
+          inputs: {
+            reelText: text,
+            applyUrl: apply
+          }
+        })
+      });
+
+      if (response.status === 204) {
+        showStatus('🎉 SUCCESS! GitHub Actions has received the job text. Gemini AI is generating the page and updating your homepage right now. Check your site in ~1 minute!', 'success');
+        document.getElementById('reelText').value = '';
+      } else {
+        const data = await response.json().catch(() => ({}));
+        showStatus(`Error (${response.status}): ${data.message || 'Failed to trigger workflow. Please check your GitHub token permissions.'}`, 'error');
+      }
+    } catch (e) {
+      showStatus(`Network Error: ${e.message}`, 'error');
+    } finally {
+      btn.disabled = false;
+      btn.innerHTML = '<span>🚀 Run AI & Publish to Website</span>';
+    }
+  }
+
+  function showStatus(msg, type) {
+    const box = document.getElementById('statusBox');
+    box.className = `status-alert ${type}`;
+    box.textContent = msg;
+    box.style.display = 'block';
+  }
+</script>
+
+</body>
+</html>
