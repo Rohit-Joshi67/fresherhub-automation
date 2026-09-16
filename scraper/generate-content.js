@@ -127,7 +127,7 @@ ${(job.description || job.title).slice(0, 2500)}
 
   try {
     const response = await aiClient.models.generateContent({
-      model: 'gemini-1.5-flash',
+      model: 'gemini-3.6-flash',
       contents: prompt,
       config: { responseMimeType: 'application/json' }
     });
@@ -169,7 +169,7 @@ ${rawText.slice(0, 3000)}
 `;
     try {
       const response = await aiClient.models.generateContent({
-        model: 'gemini-1.5-flash',
+        model: 'gemini-3.6-flash',
         contents: prompt,
         config: { responseMimeType: 'application/json' }
       });
