@@ -538,69 +538,338 @@
     padding:0 8px;
   }
 
-  /* ===== Detail Article View ===== */
-  .article-view{display:none;padding:24px 5vw 70px;background:#FFFFFF;margin-top:10px;}
-  .back-btn{
-    background:none;border:none;font-size:13px;
-    color:#475569;padding:12px 0 18px;display:inline-flex;align-items:center;gap:6px;font-weight:600;
+  /* ===== Detail Job Listing / Article View (Exact match to screenshot) ===== */
+  .article-view {
+    display: none;
+    padding: 30px 4vw 60px;
+    background: #FAFAFA;
+    min-height: 80vh;
   }
-  .back-btn:hover{color:var(--text-primary);}
-  .article-head{
-    border-bottom:1px solid var(--border-color);padding-bottom:20px;margin-bottom:24px;
-    display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;
+  .job-detail-grid {
+    display: grid;
+    grid-template-columns: 240px 1fr 340px;
+    gap: 28px;
+    align-items: start;
+    max-width: 1320px;
+    margin: 0 auto;
   }
-  .article-head h2{font-family:'Fraunces',serif;font-size:clamp(24px,3vw,34px);margin:8px 0 6px;line-height:1.2;}
-  .article-org{font-size:14.5px;color:#64748B;}
-  .article-layout{display:grid;grid-template-columns:1.5fr 1fr;gap:34px;align-items:start;}
+  .job-meta-cards-col {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .job-info-card {
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    padding: 14px 16px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+  }
+  .job-info-icon-box {
+    width: 42px;
+    height: 42px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .job-info-icon-box.blue { background: #E0F2FE; color: #0284C7; }
+  .job-info-icon-box.teal { background: #CCFBF1; color: #0F766E; }
+  .job-info-icon-box.amber { background: #FEF3C7; color: #D97706; }
+  .job-info-icon-box.cyan { background: #CFFAFE; color: #0891B2; }
+  .job-info-icon-box.purple { background: #EDE9FE; color: #7C3AED; }
+  .job-info-icon-box.orange { background: #FFEDD5; color: #EA580C; }
 
-  .info-table{width:100%;border-collapse:collapse;margin-bottom:26px;}
-  .info-table tr{border-bottom:1px solid var(--border-color);}
-  .info-table td{padding:10px 4px;font-size:13.5px;vertical-align:top;}
-  .info-table td:first-child{
-    color:#64748B;width:38%;font-size:12px;
-    text-transform:uppercase;letter-spacing:.04em;font-weight:600;
+  .job-info-content {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
   }
-  .info-table td:last-child{font-weight:600;color:#0F172A;}
+  .job-info-lbl {
+    font-size: 11px;
+    font-weight: 700;
+    color: #64748B;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+  }
+  .job-info-val {
+    font-size: 14px;
+    font-weight: 700;
+    color: #0F172A;
+    white-space: normal;
+    word-break: break-word;
+    line-height: 1.3;
+  }
 
-  .section-label{
-    font-size:12px;text-transform:uppercase;
-    letter-spacing:.08em;color:#00875A;margin:24px 0 10px;display:flex;align-items:center;gap:10px;font-weight:700;
+  /* Center Column */
+  .job-detail-main-col {
+    background: transparent;
   }
-  .section-label::after{content:"";flex:1;height:1px;background:var(--border-color);}
-  .article-body p{font-size:14.5px;line-height:1.65;color:#334155;margin:0 0 14px;}
-  .article-body ul{padding-left:20px;margin:0 0 14px;font-size:14.5px;line-height:1.65;color:#334155;}
+  .job-detail-title {
+    font-size: 32px;
+    font-weight: 800;
+    color: #0F172A;
+    line-height: 1.2;
+    margin: 0 0 6px 0;
+    letter-spacing: -0.02em;
+  }
+  .job-detail-subline {
+    font-size: 14.5px;
+    color: #475569;
+    font-weight: 500;
+    margin-bottom: 24px;
+  }
+  .job-content-section-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0F172A;
+    margin: 22px 0 10px 0;
+  }
+  .job-content-desc {
+    font-size: 14.5px;
+    line-height: 1.65;
+    color: #334155;
+    margin-bottom: 14px;
+  }
+  .role-bullet-list {
+    list-style: none;
+    padding: 0;
+    margin: 12px 0 20px 0;
+  }
+  .role-bullet-list li {
+    position: relative;
+    padding-left: 24px;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #334155;
+    margin-bottom: 8px;
+  }
+  .role-bullet-list li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #0284C7;
+    font-size: 13px;
+    font-weight: 700;
+  }
+  .job-eligibility-text {
+    font-size: 14.5px;
+    line-height: 1.65;
+    color: #334155;
+  }
 
-  .apply-panel{
-    background:#153A37;color:#FFFFFF;padding:24px;border-radius:12px;margin-bottom:24px;
+  /* Right Column Action Panel */
+  .job-detail-right-col {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
-  .apply-panel .lbl{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:#86EFAC;font-weight:600;}
-  .apply-panel .deadline{font-family:'Fraunces',serif;font-size:24px;margin:6px 0 16px;}
-  .apply-btn{
-    display:block;width:100%;text-align:center;background:#22C55E;color:#052E16;
-    padding:13px;text-decoration:none;font-weight:700;font-size:14px;
-    border-radius:8px;margin-bottom:10px;transition:background .15s ease;
+  .job-action-card {
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.03);
   }
-  .apply-btn:hover{background:#4ADE80;}
-  .apply-sub{font-size:11.5px;color:#94A3B8;line-height:1.5;}
+  .job-deadline-header {
+    background: #00875A;
+    color: #FFFFFF;
+    padding: 16px 20px;
+    text-align: center;
+  }
+  .job-deadline-lbl {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    opacity: 0.9;
+    margin-bottom: 4px;
+  }
+  .job-deadline-val {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .job-action-body {
+    padding: 20px;
+    text-align: center;
+  }
+  .btn-official-apply {
+    display: block;
+    width: 100%;
+    background: #00875A;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 14.5px;
+    padding: 12px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+    transition: background 0.15s ease;
+    margin-bottom: 10px;
+  }
+  .btn-official-apply:hover {
+    background: #007048;
+    text-decoration: none;
+  }
+  .btn-full-guide {
+    display: block;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1.5px solid #00875A;
+    color: #00875A;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 11px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.15s ease;
+    margin-bottom: 12px;
+  }
+  .btn-full-guide:hover {
+    background: #E6F4EA;
+    text-decoration: none;
+  }
+  .apply-disclaimer-sub {
+    font-size: 11.5px;
+    color: #64748B;
+    line-height: 1.4;
+    margin-bottom: 16px;
+  }
+  .resource-promo-box {
+    background: #F8FAFC;
+    border: 1px dashed #CBD5E1;
+    border-radius: 8px;
+    padding: 14px;
+    text-align: center;
+  }
+  .resource-promo-lbl {
+    font-size: 10px;
+    font-weight: 700;
+    color: #64748B;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 4px;
+  }
+  .resource-promo-title {
+    font-size: 13px;
+    font-weight: 700;
+    color: #0F172A;
+    margin-bottom: 10px;
+  }
+  .btn-start-test {
+    display: inline-block;
+    background: #00875A;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 7px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background 0.15s ease;
+  }
+  .btn-start-test:hover {
+    background: #007048;
+    text-decoration: none;
+  }
 
-  .accordion-item{border:1px solid var(--border-color);margin-bottom:8px;background:#FFFFFF;border-radius:8px;overflow:hidden;}
-  .accordion-head{
-    width:100%;background:none;border:none;padding:14px 16px;
-    display:flex;justify-content:space-between;align-items:center;text-align:left;
-    font-weight:600;font-size:14px;color:#0F172A;
+  /* Preparation Guide Accordion */
+  .prep-guide-wrap {
+    margin-top: 10px;
   }
-  .accordion-head .plus{color:#00875A;font-size:16px;}
-  .accordion-body{max-height:0;overflow:hidden;transition:max-height .25s ease;padding:0 16px;}
-  .accordion-body.open{padding-bottom:16px;}
-  .accordion-body ul{margin:0;padding-left:18px;font-size:13.5px;line-height:1.6;color:#475569;}
-  .accordion-body ul li{margin-bottom:6px;}
+  .prep-guide-header-label {
+    font-size: 11px;
+    font-weight: 700;
+    color: #64748B;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 10px;
+  }
+  .accordion-item {
+    border: 1px solid #E2E8F0;
+    margin-bottom: 8px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .accordion-head {
+    width: 100%;
+    background: none;
+    border: none;
+    padding: 13px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    font-weight: 600;
+    font-size: 13.5px;
+    color: #0F172A;
+  }
+  .accordion-head .plus {
+    color: #00875A;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .accordion-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.25s ease;
+    padding: 0 16px;
+  }
+  .accordion-body.open {
+    padding-bottom: 14px;
+  }
+  .accordion-body ul {
+    margin: 0;
+    padding-left: 18px;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #475569;
+  }
+  .accordion-body ul li {
+    margin-bottom: 6px;
+  }
 
-  @media (max-width:900px){
-    .search-hero-section{grid-template-columns:1fr;gap:24px;}
-    .roadmap-banner{flex-direction:column;align-items:flex-start;}
-    .banner-image-wrap{width:100%;height:180px;}
-    .article-layout{grid-template-columns:1fr;}
-    .nav-menu{display:none;}
+  .back-btn-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    color: #475569;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 24px;
+    transition: all 0.15s ease;
+  }
+  .back-btn-pill:hover {
+    color: #0F172A;
+    border-color: #CBD5E1;
+    background: #F8FAFC;
+  }
+
+  .ai-disclaimer-footer {
+    max-width: 1320px;
+    margin: 36px auto 0;
+    font-size: 12px;
+    color: #64748B;
+    line-height: 1.6;
+  }
+
+  @media (max-width: 1050px) {
+    .job-detail-grid {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
   }
 </style>
  <script src="https://pl31246610.profitableratecpmnetwork.com/5f/64/39/5f643933e4b5609a6fea8b26e0567baa.js"></script>
@@ -703,52 +972,136 @@
 <div id="container-5dda39af7deea3e10807518d2e9983e8"></div>
 
 <section class="article-view" id="articleView">
-  <button class="back-btn" id="backBtn">&larr; Back to all listings</button>
-  <div class="article-head">
-    <div>
-      <span class="stamp" id="artStamp"></span>
-      <h2 id="artTitle"></h2>
-      <div class="article-org" id="artOrg"></div>
-    </div>
+  <div style="max-width: 1320px; margin: 0 auto 16px;">
+    <button class="back-btn-pill" id="backBtn">&larr; Back to all listings</button>
   </div>
-  <div class="article-layout">
-    <div>
-      <table class="info-table" id="infoTable"></table>
-      <div class="section-label">About the role</div>
-      <div class="article-body" id="artAbout"></div>
-      <div class="section-label">Eligibility</div>
-      <div class="article-body" id="artEligibility"></div>
-    </div>
-    <div>
-      <div class="apply-panel">
-        <div class="lbl">Last date to apply</div>
-        <div class="deadline" id="artDeadline"></div>
-        <a href="#" target="_blank" rel="noopener" class="apply-btn" id="artApplyLink">Apply on official site &#8599;</a>
-        <a href="#" class="apply-btn" id="artStaticLink" style="background:#0D4F4A;margin-top:6px;display:none;">View Full Guide Page &rarr;</a>
-        <div class="apply-sub" id="artApplySub"></div>
-      </div>
-      <div style="margin-top:16px;background:#fff;border:1px dashed var(--teal);padding:14px;border-radius:2px;text-align:center;">
-  <div style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--teal-deep);text-transform:uppercase;letter-spacing:.06em;margin-bottom:6px;">Recommended Resource</div>
-  <div style="font-size:13.5px;font-weight:600;margin-bottom:10px;">Practice Aptitude & Coding Assessments</div>
-  <a href="https://www.profitableratecpmnetwork.com/qichwj81?key=584f6b52f323c6d8d7c6e66d4de23d10" target="_blank" rel="noopener noreferrer" style="display:inline-block;background:var(--teal-deep);color:#fff;text-decoration:none;font-size:12px;font-weight:600;padding:8px 16px;border-radius:2px;">Start Free Test &#8599;</a>
-</div>
-      <script>
-  atOptions = {
-    'key' : '31fa7b0488bb3b3d5d5d070b3b366b35',
-    'format' : 'iframe',
-    'height' : 60,
-    'width' : 468,
-    'params' : {}
-  };
-</script>
-<script src="https://www.highrevenueformat.com/31fa7b0488bb3b3d5d5d070b3b366b35/invoke.js"></script>
 
-      <div class="section-label">Preparation guide</div>
-      <div id="prepAccordion"></div>
-    </div>
+  <div class="job-detail-grid">
+    <!-- Left Column: Individual Meta Info Cards -->
+    <aside class="job-meta-cards-col">
+      <!-- Organization -->
+      <div class="job-info-card">
+        <div class="job-info-icon-box blue">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect><line x1="9" y1="22" x2="9" y2="22.01"></line><line x1="15" y1="22" x2="15" y2="22.01"></line><line x1="9" y1="18" x2="9" y2="18.01"></line><line x1="15" y1="18" x2="15" y2="18.01"></line><line x1="9" y1="14" x2="9" y2="14.01"></line><line x1="15" y1="14" x2="15" y2="14.01"></line><line x1="9" y1="10" x2="9" y2="10.01"></line><line x1="15" y1="10" x2="15" y2="10.01"></line><line x1="9" y1="6" x2="9" y2="6.01"></line><line x1="15" y1="6" x2="15" y2="6.01"></line></svg>
+        </div>
+        <div class="job-info-content">
+          <div class="job-info-lbl">ORGANIZATION</div>
+          <div class="job-info-val" id="cardValOrg">Paytm</div>
+        </div>
+      </div>
+
+      <!-- Location -->
+      <div class="job-info-card">
+        <div class="job-info-icon-box teal">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+        </div>
+        <div class="job-info-content">
+          <div class="job-info-lbl">LOCATION</div>
+          <div class="job-info-val" id="cardValLoc">Noida</div>
+        </div>
+      </div>
+
+      <!-- Eligible Batch -->
+      <div class="job-info-card">
+        <div class="job-info-icon-box amber">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+        </div>
+        <div class="job-info-content">
+          <div class="job-info-lbl">ELIGIBLE BATCH</div>
+          <div class="job-info-val" id="cardValBatch">2024, 2025 & 2026</div>
+        </div>
+      </div>
+
+      <!-- Salary -->
+      <div class="job-info-card">
+        <div class="job-info-icon-box cyan">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+        </div>
+        <div class="job-info-content">
+          <div class="job-info-lbl">SALARY</div>
+          <div class="job-info-val" id="cardValSalary">₹8.0 - ₹16.0 LPA</div>
+        </div>
+      </div>
+
+      <!-- Vacancies -->
+      <div class="job-info-card">
+        <div class="job-info-icon-box purple">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+        </div>
+        <div class="job-info-content">
+          <div class="job-info-lbl">VACANCIES</div>
+          <div class="job-info-val" id="cardValVacancies">Multiple Openings</div>
+        </div>
+      </div>
+
+      <!-- Posted -->
+      <div class="job-info-card">
+        <div class="job-info-icon-box orange">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+        </div>
+        <div class="job-info-content">
+          <div class="job-info-lbl">POSTED</div>
+          <div class="job-info-val" id="cardValPosted">today</div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Center Column: Title, Subtitle, About The Role, Bullet points, Eligibility -->
+    <main class="job-detail-main-col">
+      <h1 class="job-detail-title" id="artTitle">Associate - Motor Insurance</h1>
+      <div class="job-detail-subline" id="artOrg">Paytm - Noida, Uttar Pradesh</div>
+
+      <div class="job-content-section-title">About The Role</div>
+      <div class="job-content-desc" id="artAbout"></div>
+
+      <ul class="role-bullet-list" id="roleKeySkillsList"></ul>
+
+      <div class="job-content-section-title">Eligibility</div>
+      <div class="job-eligibility-text" id="artEligibility"></div>
+    </main>
+
+    <!-- Right Column: Last date card, Actions, Promo, Preparation Guide Accordion -->
+    <aside class="job-detail-right-col">
+      <div class="job-action-card">
+        <div class="job-deadline-header">
+          <div class="job-deadline-lbl">LAST DATE TO APPLY:</div>
+          <div class="job-deadline-val" id="artDeadline">Accepting Applications</div>
+        </div>
+        <div class="job-action-body">
+          <a href="#" target="_blank" rel="noopener" class="btn-official-apply" id="artApplyLink">Apply on official site &nearr;</a>
+          <a href="#" class="btn-full-guide" id="artStaticLink" style="display:none;">View Full Guide Page &rarr;</a>
+          <div class="apply-disclaimer-sub" id="artApplySub">You'll be taken to the official site to complete your application.</div>
+
+          <div class="resource-promo-box">
+            <div class="resource-promo-lbl">RECOMMENDED RESOURCE</div>
+            <div class="resource-promo-title">Practice Aptitude & Coding Assessments</div>
+            <a href="https://www.profitableratecpmnetwork.com/qichwj81?key=584f6b52f323c6d8d7c6e66d4de23d10" target="_blank" rel="noopener noreferrer" class="btn-start-test">Start Free &nearr;</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Third-party Ad Intact -->
+      <script>
+        atOptions = {
+          'key' : '31fa7b0488bb3b3d5d5d070b3b366b35',
+          'format' : 'iframe',
+          'height' : 60,
+          'width' : 468,
+          'params' : {}
+        };
+      </script>
+      <script src="https://www.highrevenueformat.com/31fa7b0488bb3b3d5d5d070b3b366b35/invoke.js"></script>
+
+      <!-- Preparation Guide Accordion on the Right -->
+      <div class="prep-guide-wrap">
+        <div class="prep-guide-header-label">PREPARATION GUIDE</div>
+        <div id="prepAccordion"></div>
+      </div>
+    </aside>
   </div>
-  </div>
-    <div class="source-note"><h4><strong>></h4>All data is AI generated , Ai can do mistakes ! Please bare us for any inconsitency in data </strong <br> <p>( if you want something to be removed contact us )</p></div>
+
+  <div class="ai-disclaimer-footer">
+    <p>All AI generated . AI can do mistakes . Please excuse for any inconsistency in data<br>( if you want something to be removed contact us )</p>
   </div>
 </section>
 <footer style="border-top:2px solid var(--ink);padding:26px 6vw;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;font-size:12.5px;color:var(--ink-soft);font-family:'IBM Plex Mono',monospace;">
@@ -1100,13 +1453,61 @@ function renderGrid(){
 function openArticle(id, updateHistory = true){
   const j = JOBS.find(x=>x.id===id);
   if(!j) return;
-  document.getElementById('artStamp').textContent = j.sector==='govt'?'Government':'Private';
-  document.getElementById('artStamp').className = 'stamp ' + j.sector;
+
+  // Title and subtitle
   document.getElementById('artTitle').textContent = j.title;
-  document.getElementById('artOrg').textContent = `${j.org} · ${j.location}`;
-  document.getElementById('artDeadline').textContent = j.lastDate;
+  document.getElementById('artOrg').textContent = `${j.org} - ${j.location}`;
+
+  // Left Meta Cards
+  const orgEl = document.getElementById('cardValOrg');
+  if(orgEl) orgEl.textContent = j.org || 'Company';
+
+  const locEl = document.getElementById('cardValLoc');
+  if(locEl) locEl.textContent = j.location || 'India';
+
+  const batchEl = document.getElementById('cardValBatch');
+  if(batchEl) batchEl.textContent = j.batch || '2024, 2025 & 2026';
+
+  const salaryEl = document.getElementById('cardValSalary');
+  if(salaryEl) salaryEl.textContent = j.salary || 'Competitive';
+
+  const vacanciesEl = document.getElementById('cardValVacancies');
+  if(vacanciesEl) vacanciesEl.textContent = j.vacancies || 'Multiple Openings';
+
+  const postedEl = document.getElementById('cardValPosted');
+  if(postedEl) postedEl.textContent = j.posted || 'today';
+
+  // Middle column content
+  document.getElementById('artAbout').innerHTML = j.articleHtml ? j.articleHtml : `<p>${j.about}</p>`;
+  document.getElementById('artEligibility').innerHTML = `<p>${j.eligibility}</p>`;
+
+  // Key highlights / aptitude & coding topics as styled bullet points
+  const bulletListEl = document.getElementById('roleKeySkillsList');
+  if(bulletListEl){
+    let bullets = [];
+    if(Array.isArray(j.prep)){
+      j.prep.forEach(p => {
+        if(Array.isArray(p.items)){
+          bullets.push(...p.items.slice(0, 2));
+        }
+      });
+    }
+    if(bullets.length === 0){
+      bullets = [
+        'Quantitative Aptitude: Percentages, Profit & Loss, Number Systems',
+        'Logical Reasoning: Coding-Decoding, Seating Arrangements, Pattern Series',
+        'Technical Assessment: Core Computer Science Fundamentals and Problem Solving',
+        'Verbal Ability: Reading Comprehension, Sentence Correction and Communication'
+      ];
+    }
+    bulletListEl.innerHTML = bullets.slice(0, 5).map(b => `<li>${b}</li>`).join('');
+  }
+
+  // Right Column Action Card
+  document.getElementById('artDeadline').textContent = j.lastDate || 'Accepting Applications';
   document.getElementById('artApplyLink').href = j.applyUrl;
   document.getElementById('artApplySub').textContent = `You'll be taken to ${j.org}'s official site to complete your application.`;
+  
   const staticBtn = document.getElementById('artStaticLink');
   if(j.slug){
     staticBtn.href = j.slug;
@@ -1114,19 +1515,9 @@ function openArticle(id, updateHistory = true){
   } else {
     staticBtn.style.display = 'none';
   }
-  document.getElementById('artAbout').innerHTML = j.articleHtml ? j.articleHtml : `<p>${j.about}</p>`;
-  document.getElementById('artEligibility').innerHTML = `<p>${j.eligibility}</p>`;
 
-  document.getElementById('infoTable').innerHTML = `
-    <tr><td>Organization</td><td>${j.org}</td></tr>
-    <tr><td>Location</td><td>${j.location}</td></tr>
-    <tr><td>Eligible batch</td><td>${j.batch}</td></tr>
-    <tr><td>Salary / Stipend</td><td>${j.salary}</td></tr>
-    <tr><td>Vacancies</td><td>${j.vacancies}</td></tr>
-    <tr><td>Posted</td><td>${j.posted}</td></tr>
-  `;
-
-  const sections = [...j.prep, COMMON_PREP_SECTION];
+  // Right Column Preparation Guide Accordion
+  const sections = [...(j.prep || []), COMMON_PREP_SECTION];
   document.getElementById('prepAccordion').innerHTML = sections.map((s,idx)=>`
     <div class="accordion-item">
       <button class="accordion-head" data-idx="${idx}">
@@ -1144,9 +1535,13 @@ function openArticle(id, updateHistory = true){
     });
   });
 
+  const banner = document.querySelector('.roadmap-banner');
+  const metaBar = document.getElementById('updatedBanner');
   const heroSec = document.querySelector('.search-hero-section');
   const catBar = document.querySelector('.category-bar');
   const gridSec = document.querySelector('.job-grid-section');
+  if(banner) banner.style.display = 'none';
+  if(metaBar) metaBar.style.display = 'none';
   if(heroSec) heroSec.style.display = 'none';
   if(catBar) catBar.style.display = 'none';
   if(gridSec) gridSec.style.display = 'none';
@@ -1160,9 +1555,13 @@ function openArticle(id, updateHistory = true){
 
 function closeArticle(updateHistory = true){
   document.getElementById('articleView').style.display = 'none';
+  const banner = document.querySelector('.roadmap-banner');
+  const metaBar = document.getElementById('updatedBanner');
   const heroSec = document.querySelector('.search-hero-section');
   const catBar = document.querySelector('.category-bar');
   const gridSec = document.querySelector('.job-grid-section');
+  if(banner) banner.style.display = 'flex';
+  if(metaBar && metaBar.textContent.trim()) metaBar.style.display = 'block';
   if(heroSec) heroSec.style.display = 'grid';
   if(catBar) catBar.style.display = 'flex';
   if(gridSec) gridSec.style.display = 'block';

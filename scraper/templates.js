@@ -1,130 +1,466 @@
 export function renderJobPage(job, ai) {
-  const skillTags = (ai.techStack || [])
-    .map(skill => `<a href="/resources.html#${skill.toLowerCase().replace(/[^a-z0-9]/g, '-')}" class="tag-chip">${skill}</a>`)
-    .join(' ');
+  const prepTopics = [
+    ...(ai.aptitudeTopics || []),
+    ...(ai.codingTopics || []),
+    ...(ai.interviewTips || [])
+  ];
+
+  const bulletItems = prepTopics.length > 0
+    ? prepTopics.slice(0, 5)
+    : [
+        'Quantitative Aptitude: Percentages, Profit & Loss, Number Systems',
+        'Logical Reasoning: Coding-Decoding, Seating Arrangements, Pattern Series',
+        'Technical Assessment: Core Computer Science Fundamentals and Problem Solving',
+        'Verbal Ability: Reading Comprehension, Sentence Correction and Technical Vocabulary'
+      ];
+
+  const bulletListHtml = bulletItems.map(b => `<li>${b}</li>`).join('\n        ');
 
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>${job.title} at ${job.company} (${ai.eligibleBatch}) — FresherHub</title>
-  <meta name="description" content="Official opening for ${job.title} at ${job.company}. Estimated CTC ${ai.salaryRange}. Role requirements, DSA questions, and interview preparation guide.">
+  <title>${job.title} - ${job.company} | FresherHub</title>
+  <meta name="description" content="Official opening for ${job.title} at ${job.company}. Estimated CTC ${ai.salaryRange}. Role requirements, eligibility criteria, and interview preparation guide.">
   <link rel="canonical" href="https://freshersjobopening.online/docs/jobs/${job.slug}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
   <style>
     :root {
-      --ink: #16233F;
-      --ink-soft: #4A5568;
-      --paper: #ECEEE6;
-      --card: #FBFBF8;
-      --teal: #146B64;
-      --teal-deep: #0D4F4A;
-      --amber: #C97A0C;
-      --maroon: #7A2E2E;
-      --line: #CBCFC0;
+      --bg-page: #FAFAFA;
+      --card-bg: #FFFFFF;
+      --text-primary: #0F172A;
+      --text-secondary: #64748B;
+      --accent-green: #00875A;
+      --accent-green-hover: #007048;
+      --border-color: #E2E8F0;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
-      background: var(--paper);
-      color: var(--ink);
-      font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg-page);
+      color: var(--text-primary);
+      font-family: 'Plus Jakarta Sans', 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
       line-height: 1.6;
-      padding-bottom: 60px;
+      -webkit-font-smoothing: antialiased;
     }
-    a { color: var(--teal); text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    header.site-header {
-      background: #fff;
-      border-bottom: 2px solid var(--ink);
-      padding: 16px 6vw;
+    a { color: inherit; text-decoration: none; }
+    
+    /* Announcement bar */
+    .announcement-bar {
+      background: #08332E;
+      color: #E2E8F0;
+      font-size: 12.5px;
+      padding: 9px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      overflow: hidden;
+    }
+    .announcement-content {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .announcement-badge {
+      font-weight: 700;
+      color: #FFFFFF;
+    }
+    .announcement-text {
+      color: #94A3B8;
+      font-size: 12px;
+    }
+    .announcement-close {
+      cursor: pointer;
+      font-size: 15px;
+      color: #94A3B8;
+      padding-left: 12px;
+    }
+
+    /* Site Header */
+    .site-nav {
+      background: #FFFFFF;
+      border-bottom: 1px solid var(--border-color);
+      padding: 0 4vw;
+      height: 68px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .site-brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      font-weight: 800;
+      font-size: 20px;
+      color: #0F172A;
+    }
+    .brand-logo-icon {
+      width: 32px;
+      height: 32px;
+      background: var(--accent-green);
+      color: #FFFFFF;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      font-weight: 800;
+      border-radius: 6px;
+    }
+    .nav-menu {
+      display: flex;
+      align-items: center;
+      gap: 26px;
+      font-size: 14px;
+      font-weight: 600;
+      color: #334155;
+    }
+    .nav-menu a:hover { color: var(--accent-green); }
+    .nav-right-group {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      font-size: 13.5px;
+      font-weight: 600;
+      color: #475569;
+    }
+    .nav-right-group a:hover { color: #0F172A; }
+
+    /* Layout Container */
+    .job-page-container {
+      max-width: 1320px;
+      margin: 32px auto 60px;
+      padding: 0 24px;
+    }
+    .back-nav-row {
+      margin-bottom: 24px;
+    }
+    .back-btn-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: #FFFFFF;
+      border: 1px solid var(--border-color);
+      color: #475569;
+      font-size: 13px;
+      font-weight: 600;
+      padding: 8px 18px;
+      border-radius: 20px;
+      transition: all 0.15s ease;
+    }
+    .back-btn-pill:hover {
+      background: #F1F5F9;
+      color: #0F172A;
+    }
+
+    /* 3-Column Grid */
+    .job-detail-grid {
+      display: grid;
+      grid-template-columns: 240px 1fr 340px;
+      gap: 28px;
+      align-items: start;
+    }
+
+    /* Left Column Info Cards */
+    .job-meta-cards-col {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+    .job-info-card {
+      background: #FFFFFF;
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 14px 16px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+    }
+    .job-info-icon-box {
+      width: 42px;
+      height: 42px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .job-info-icon-box.blue { background: #E0F2FE; color: #0284C7; }
+    .job-info-icon-box.teal { background: #CCFBF1; color: #0F766E; }
+    .job-info-icon-box.amber { background: #FEF3C7; color: #D97706; }
+    .job-info-icon-box.cyan { background: #CFFAFE; color: #0891B2; }
+    .job-info-icon-box.purple { background: #EDE9FE; color: #7C3AED; }
+    .job-info-icon-box.orange { background: #FFEDD5; color: #EA580C; }
+
+    .job-info-content {
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    .job-info-lbl {
+      font-size: 11px;
+      font-weight: 700;
+      color: #64748B;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 2px;
+    }
+    .job-info-val {
+      font-size: 14px;
+      font-weight: 700;
+      color: #0F172A;
+      line-height: 1.3;
+      word-break: break-word;
+    }
+
+    /* Center Column */
+    .job-detail-main-col {
+      background: transparent;
+    }
+    .job-detail-title {
+      font-size: 32px;
+      font-weight: 800;
+      color: #0F172A;
+      line-height: 1.2;
+      margin-bottom: 6px;
+      letter-spacing: -0.02em;
+    }
+    .job-detail-subline {
+      font-size: 14.5px;
+      color: #475569;
+      font-weight: 500;
+      margin-bottom: 24px;
+    }
+    .job-content-section-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: #0F172A;
+      margin: 22px 0 10px 0;
+    }
+    .job-content-desc {
+      font-size: 14.5px;
+      line-height: 1.65;
+      color: #334155;
+      margin-bottom: 14px;
+    }
+    .role-bullet-list {
+      list-style: none;
+      padding: 0;
+      margin: 14px 0 22px 0;
+    }
+    .role-bullet-list li {
+      position: relative;
+      padding-left: 24px;
+      font-size: 14px;
+      line-height: 1.6;
+      color: #334155;
+      margin-bottom: 8px;
+    }
+    .role-bullet-list li::before {
+      content: "✔";
+      position: absolute;
+      left: 0;
+      top: 0;
+      color: #0284C7;
+      font-size: 13px;
+      font-weight: 700;
+    }
+    .job-eligibility-text {
+      font-size: 14.5px;
+      line-height: 1.65;
+      color: #334155;
+    }
+
+    /* Right Column Action Panel */
+    .job-detail-right-col {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .job-action-card {
+      background: #FFFFFF;
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+    }
+    .job-deadline-header {
+      background: #00875A;
+      color: #FFFFFF;
+      padding: 16px 20px;
+      text-align: center;
+    }
+    .job-deadline-lbl {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      opacity: 0.9;
+      margin-bottom: 4px;
+    }
+    .job-deadline-val {
+      font-size: 20px;
+      font-weight: 700;
+    }
+    .job-action-body {
+      padding: 20px;
+      text-align: center;
+    }
+    .btn-official-apply {
+      display: block;
+      width: 100%;
+      background: #00875A;
+      color: #FFFFFF;
+      font-weight: 700;
+      font-size: 14.5px;
+      padding: 12px 16px;
+      border-radius: 8px;
+      text-decoration: none;
+      text-align: center;
+      transition: background 0.15s ease;
+      margin-bottom: 10px;
+    }
+    .btn-official-apply:hover {
+      background: #007048;
+    }
+    .btn-full-guide {
+      display: block;
+      width: 100%;
+      background: #FFFFFF;
+      border: 1.5px solid #00875A;
+      color: #00875A;
+      font-weight: 700;
+      font-size: 14px;
+      padding: 11px 16px;
+      border-radius: 8px;
+      text-decoration: none;
+      text-align: center;
+      transition: all 0.15s ease;
+      margin-bottom: 12px;
+    }
+    .btn-full-guide:hover {
+      background: #E6F4EA;
+    }
+    .apply-disclaimer-sub {
+      font-size: 11.5px;
+      color: #64748B;
+      line-height: 1.4;
+      margin-bottom: 16px;
+    }
+    .resource-promo-box {
+      background: #F8FAFC;
+      border: 1px dashed #CBD5E1;
+      border-radius: 8px;
+      padding: 14px;
+      text-align: center;
+    }
+    .resource-promo-lbl {
+      font-size: 10px;
+      font-weight: 700;
+      color: #64748B;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 4px;
+    }
+    .resource-promo-title {
+      font-size: 13px;
+      font-weight: 700;
+      color: #0F172A;
+      margin-bottom: 10px;
+    }
+    .btn-start-test {
+      display: inline-block;
+      background: #00875A;
+      color: #FFFFFF;
+      font-size: 12px;
+      font-weight: 700;
+      padding: 7px 16px;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background 0.15s ease;
+    }
+    .btn-start-test:hover {
+      background: #007048;
+    }
+
+    /* Preparation Guide Accordion */
+    .prep-guide-wrap {
+      margin-top: 10px;
+    }
+    .prep-guide-header-label {
+      font-size: 11px;
+      font-weight: 700;
+      color: #64748B;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 10px;
+    }
+    .accordion-item {
+      border: 1px solid var(--border-color);
+      margin-bottom: 8px;
+      background: #FFFFFF;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .accordion-head {
+      width: 100%;
+      background: none;
+      border: none;
+      padding: 13px 16px;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      flex-wrap: wrap;
-      gap: 12px;
-    }
-    .brand { font-family: 'Fraunces', serif; font-size: 24px; font-weight: 700; color: var(--ink); }
-    .brand em { font-style: normal; color: var(--teal); }
-    .nav-links { display: flex; gap: 18px; font-size: 13.5px; font-family: 'IBM Plex Mono', monospace; font-weight: 500; }
-    .container { max-width: 1060px; margin: 30px auto; padding: 0 20px; }
-    .breadcrumbs { font-size: 13px; font-family: 'IBM Plex Mono', monospace; margin-bottom: 16px; color: var(--ink-soft); }
-    .badge {
-      display: inline-block;
-      background: var(--teal-deep);
-      color: #fff;
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 11px;
-      padding: 3px 8px;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      border-radius: 2px;
-      margin-bottom: 10px;
-    }
-    h1 { font-family: 'Fraunces', serif; font-size: clamp(26px, 3.5vw, 38px); line-height: 1.2; margin-bottom: 8px; }
-    .company-sub { font-size: 16px; color: var(--ink-soft); margin-bottom: 24px; font-weight: 500; }
-    .split-layout { display: grid; grid-template-columns: 1.5fr 1fr; gap: 32px; align-items: start; }
-    .meta-table { width: 100%; border-collapse: collapse; background: var(--card); border: 1px solid var(--line); margin-bottom: 24px; }
-    .meta-table td { padding: 12px 14px; border-bottom: 1px solid var(--line); font-size: 14px; }
-    .meta-table td:first-child { font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; color: var(--ink-soft); width: 38%; text-transform: uppercase; }
-    .meta-table td:last-child { font-weight: 600; }
-    .content-box { background: var(--card); border: 1px solid var(--line); padding: 22px; margin-bottom: 24px; }
-    .content-box h3 { font-family: 'Fraunces', serif; font-size: 19px; margin-bottom: 12px; color: var(--ink); }
-    .tag-chip {
-      display: inline-block;
-      background: #fff;
-      border: 1px solid var(--line);
-      padding: 4px 10px;
-      font-size: 12.5px;
-      border-radius: 3px;
-      margin: 3px;
-      color: var(--teal-deep);
-      font-family: 'IBM Plex Mono', monospace;
-    }
-    .apply-card {
-      background: var(--ink);
-      color: #fff;
-      padding: 24px;
-      border-radius: 2px;
-      margin-bottom: 24px;
-      text-align: center;
-    }
-    .apply-card .status { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: var(--amber); letter-spacing: 0.1em; margin-bottom: 12px; }
-    .btn-apply {
-      display: block;
-      background: var(--teal);
-      color: #fff;
-      padding: 14px;
+      text-align: left;
       font-weight: 600;
-      font-size: 15px;
-      text-align: center;
-      border-radius: 2px;
-      text-decoration: none;
-      margin-bottom: 10px;
+      font-size: 13.5px;
+      color: #0F172A;
+      cursor: pointer;
     }
-    .btn-apply:hover { background: #0F5A54; text-decoration: none; }
-    .prep-box { background: var(--card); border: 1px solid var(--line); padding: 20px; }
-    .prep-box h4 { font-family: 'Fraunces', serif; font-size: 18px; margin-bottom: 14px; }
-    details { border-bottom: 1px solid var(--line); padding: 10px 0; }
-    details:last-child { border-bottom: none; }
-    summary { font-weight: 600; font-size: 14px; cursor: pointer; color: var(--teal-deep); }
-    details ul { padding-left: 20px; margin-top: 10px; font-size: 13.5px; color: var(--ink-soft); }
-    details ul li { margin-bottom: 6px; }
-    footer.site-footer {
-      border-top: 2px solid var(--ink);
-      margin-top: 50px;
-      padding: 24px 6vw;
+    .accordion-head .plus {
+      color: #00875A;
+      font-size: 16px;
+      font-weight: 700;
+    }
+    .accordion-body {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.25s ease;
+      padding: 0 16px;
+    }
+    .accordion-body.open {
+      padding-bottom: 14px;
+      max-height: 400px;
+    }
+    .accordion-body ul {
+      margin: 0;
+      padding-left: 18px;
+      font-size: 13px;
+      line-height: 1.6;
+      color: #475569;
+    }
+    .accordion-body ul li {
+      margin-bottom: 6px;
+    }
+
+    .ai-disclaimer-footer {
+      max-width: 1320px;
+      margin: 40px auto 0;
       font-size: 12px;
-      font-family: 'IBM Plex Mono', monospace;
-      color: var(--ink-soft);
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 12px;
+      color: #64748B;
+      line-height: 1.6;
     }
-    @media (max-width: 800px) {
-      .split-layout { grid-template-columns: 1fr; }
+
+    @media (max-width: 1050px) {
+      .job-detail-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+      .nav-menu { display: none; }
     }
   </style>
   <script type="application/ld+json">
@@ -150,85 +486,208 @@ export function renderJobPage(job, ai) {
   </script>
 </head>
 <body>
-  <header class="site-header">
-    <a href="/" class="brand">Fresher<em>Hub</em></a>
-    <nav class="nav-links">
-      <a href="/">← All Jobs</a>
-      <a href="/resources.html">Learning Hub</a>
+  <!-- Announcement Bar -->
+  <div class="announcement-bar">
+    <div class="announcement-content">
+      <span class="announcement-badge">Announcement bar:</span>
+      <span class="announcement-text">${job.company} &bull; ${job.location || 'India'} fresher job openings &bull; ${job.title}</span>
+    </div>
+    <div class="announcement-close" onclick="this.parentElement.style.display='none'">&times;</div>
+  </div>
+
+  <!-- Main Site Nav -->
+  <header class="site-nav">
+    <a href="/" class="site-brand">
+      <div class="brand-logo-icon">FH</div>
+      <span>FreshersHub</span>
+    </a>
+    <nav class="nav-menu">
+      <a href="/" style="color:var(--accent-green);">Job Openings</a>
+      <a href="/globe.html">Roadmap Globe</a>
+      <a href="https://www.profitableratecpmnetwork.com/qichwj81?key=584f6b52f323c6d8d7c6e66d4de23d10">Learning Hub</a>
+    </nav>
+    <div class="nav-right-group">
       <a href="/about.html">About Us</a>
       <a href="/privacy.html">Privacy Policy</a>
-    </nav>
+    </div>
   </header>
 
-  <div class="container">
-    <div class="breadcrumbs">
-      <a href="/">Home</a> &gt; <a href="/">India Tech Jobs</a> &gt; <span>${job.company}</span>
+  <div class="job-page-container">
+    <div class="back-nav-row">
+      <a href="/" class="back-btn-pill">&larr; Back to all listings</a>
     </div>
 
-    <span class="badge">Direct ATS Opening</span>
-    <h1>${job.title}</h1>
-    <p class="company-sub"><strong>${job.company}</strong> &bull; ${job.location || 'India'} &bull; <a href="${job.applyUrl}" target="_blank" rel="nofollow noopener">Official Posting &nearr;</a></p>
+    <div class="job-detail-grid">
+      <!-- Left Column: Individual Meta Info Cards -->
+      <aside class="job-meta-cards-col">
+        <!-- Organization -->
+        <div class="job-info-card">
+          <div class="job-info-icon-box blue">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect><line x1="9" y1="22" x2="9" y2="22.01"></line><line x1="15" y1="22" x2="15" y2="22.01"></line><line x1="9" y1="18" x2="9" y2="18.01"></line><line x1="15" y1="18" x2="15" y2="18.01"></line><line x1="9" y1="14" x2="9" y2="14.01"></line><line x1="15" y1="14" x2="15" y2="14.01"></line><line x1="9" y1="10" x2="9" y2="10.01"></line><line x1="15" y1="10" x2="15" y2="10.01"></line><line x1="9" y1="6" x2="9" y2="6.01"></line><line x1="15" y1="6" x2="15" y2="6.01"></line></svg>
+          </div>
+          <div class="job-info-content">
+            <div class="job-info-lbl">ORGANIZATION</div>
+            <div class="job-info-val">${job.company}</div>
+          </div>
+        </div>
 
-    <div class="split-layout">
-      <!-- Left Column -->
-      <main>
-        <table class="meta-table">
-          <tr><td>Company</td><td>${job.company}</td></tr>
-          <tr><td>Location</td><td>${job.location || 'India'}</td></tr>
-          <tr><td>Eligible Batch</td><td>${ai.eligibleBatch}</td></tr>
-          <tr><td>Est. Package</td><td>${ai.salaryRange}</td></tr>
-          <tr><td>Vacancies</td><td>${ai.vacancies || 'Multiple'}</td></tr>
-          <tr><td>Sector</td><td>Private IT / Product</td></tr>
-          <tr><td>Verification</td><td>Direct official ATS feed</td></tr>
-        </table>
+        <!-- Location -->
+        <div class="job-info-card">
+          <div class="job-info-icon-box teal">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          </div>
+          <div class="job-info-content">
+            <div class="job-info-lbl">LOCATION</div>
+            <div class="job-info-val">${job.location || 'India'}</div>
+          </div>
+        </div>
 
-        <div class="content-box">
-          <h3>Role Overview & Responsibilities</h3>
+        <!-- Eligible Batch -->
+        <div class="job-info-card">
+          <div class="job-info-icon-box amber">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+          </div>
+          <div class="job-info-content">
+            <div class="job-info-lbl">ELIGIBLE BATCH</div>
+            <div class="job-info-val">${ai.eligibleBatch}</div>
+          </div>
+        </div>
+
+        <!-- Salary -->
+        <div class="job-info-card">
+          <div class="job-info-icon-box cyan">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+          </div>
+          <div class="job-info-content">
+            <div class="job-info-lbl">SALARY</div>
+            <div class="job-info-val">${ai.salaryRange}</div>
+          </div>
+        </div>
+
+        <!-- Vacancies -->
+        <div class="job-info-card">
+          <div class="job-info-icon-box purple">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+          </div>
+          <div class="job-info-content">
+            <div class="job-info-lbl">VACANCIES</div>
+            <div class="job-info-val">${ai.vacancies || 'Multiple Openings'}</div>
+          </div>
+        </div>
+
+        <!-- Posted -->
+        <div class="job-info-card">
+          <div class="job-info-icon-box orange">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          </div>
+          <div class="job-info-content">
+            <div class="job-info-lbl">POSTED</div>
+            <div class="job-info-val">today</div>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Center Column: Title, Subtitle, About The Role, Bullet points, Eligibility -->
+      <main class="job-detail-main-col">
+        <h1 class="job-detail-title">${job.title}</h1>
+        <div class="job-detail-subline">${job.company} - ${job.location || 'India'}</div>
+
+        <div class="job-content-section-title">About The Role</div>
+        <div class="job-content-desc">
           <p>${ai.roleSummary}</p>
         </div>
 
-        <div class="content-box">
-          <h3>Recommended Tech Stack & Skills</h3>
-          <p style="font-size:13.5px;color:var(--ink-soft);margin-bottom:10px;">Candidates with exposure to the following technologies stand out during technical evaluations:</p>
-          <div>${skillTags}</div>
+        <ul class="role-bullet-list">
+          ${bulletListHtml}
+        </ul>
+
+        <div class="job-content-section-title">Eligibility</div>
+        <div class="job-eligibility-text">
+          <p>Open to graduates in relevant streams (${ai.eligibleBatch}). Hands-on skills in ${(ai.techStack || ['Core CS Fundamentals']).slice(0, 3).join(', ')} preferred.</p>
         </div>
       </main>
 
-      <!-- Right Column -->
-      <aside>
-        <div class="apply-card">
-          <div class="status">● ACCEPTING APPLICATIONS</div>
-          <p style="font-size:13px;margin-bottom:14px;color:#ECEEE6;">Apply directly on the employer's official recruitment portal:</p>
-          <a href="${job.applyUrl}" target="_blank" rel="nofollow noopener" class="btn-apply">
-            Apply on Official Site &nearr;
-          </a>
-          <small style="font-size:11px;color:#A0AEC0;">Safe redirect to ${job.company}'s ATS. Never pay fees to anyone.</small>
+      <!-- Right Column: Last date card, Actions, Promo, Preparation Guide Accordion -->
+      <aside class="job-detail-right-col">
+        <div class="job-action-card">
+          <div class="job-deadline-header">
+            <div class="job-deadline-lbl">LAST DATE TO APPLY:</div>
+            <div class="job-deadline-val">Accepting Applications</div>
+          </div>
+          <div class="job-action-body">
+            <a href="${job.applyUrl}" target="_blank" rel="nofollow noopener" class="btn-official-apply">Apply on official site &nearr;</a>
+            <a href="/docs/jobs/${job.slug}" class="btn-full-guide">View Full Guide Page &rarr;</a>
+            <div class="apply-disclaimer-sub">You'll be taken to ${job.company}'s official site to complete your application.</div>
+
+            <div class="resource-promo-box">
+              <div class="resource-promo-lbl">RECOMMENDED RESOURCE</div>
+              <div class="resource-promo-title">Practice Aptitude & Coding Assessments</div>
+              <a href="https://www.profitableratecpmnetwork.com/qichwj81?key=584f6b52f323c6d8d7c6e66d4de23d10" target="_blank" rel="noopener noreferrer" class="btn-start-test">Start Free &nearr;</a>
+            </div>
+          </div>
         </div>
 
-        <div class="prep-box">
-          <h4>Interview Preparation Guide</h4>
-          <details open>
-            <summary>Aptitude & Logical Reasoning</summary>
-            <ul>${(ai.aptitudeTopics || []).map(t => `<li>${t}</li>`).join('')}</ul>
-          </details>
-          <details open>
-            <summary>Coding & Technical Assessment</summary>
-            <ul>${(ai.codingTopics || []).map(t => `<li>${t}</li>`).join('')}</ul>
-          </details>
-          <details open>
-            <summary>Interview Strategy & Tips</summary>
-            <ul>${(ai.interviewTips || []).map(t => `<li>${t}</li>`).join('')}</ul>
-          </details>
+        <!-- Preparation Guide Accordion -->
+        <div class="prep-guide-wrap">
+          <div class="prep-guide-header-label">PREPARATION GUIDE</div>
+          <div class="accordion-item">
+            <button class="accordion-head" onclick="toggleAcc(this)">
+              <span>Aptitude & Reasoning Focus</span><span class="plus">−</span>
+            </button>
+            <div class="accordion-body open">
+              <ul>
+                ${(ai.aptitudeTopics || ['Quantitative Aptitude & Problem Solving', 'Logical Reasoning Patterns']).map(t => `<li>${t}</li>`).join('\n                ')}
+              </ul>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-head" onclick="toggleAcc(this)">
+              <span>Technical Assessment & Coding</span><span class="plus">+</span>
+            </button>
+            <div class="accordion-body">
+              <ul>
+                ${(ai.codingTopics || ['Data Structures and Algorithms', 'System Fundamentals']).map(t => `<li>${t}</li>`).join('\n                ')}
+              </ul>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-head" onclick="toggleAcc(this)">
+              <span>Interview Strategy</span><span class="plus">+</span>
+            </button>
+            <div class="accordion-body">
+              <ul>
+                ${(ai.interviewTips || ['Review academic projects thoroughly', 'Focus on clear technical communication']).map(t => `<li>${t}</li>`).join('\n                ')}
+              </ul>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-head" onclick="toggleAcc(this)">
+              <span>General Fresher Resources</span><span class="plus">+</span>
+            </button>
+            <div class="accordion-body">
+              <ul>
+                <li>Practice coding problems daily to build algorithmic confidence.</li>
+                <li>Be ready to explain every design decision in your college capstone project.</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </aside>
     </div>
+
+    <div class="ai-disclaimer-footer">
+      <p>All AI generated . AI can do mistakes . Please excuse for any inconsistency in data<br>( if you want something to be removed contact us )</p>
+    </div>
   </div>
 
-  <footer class="site-footer">
-    <span>&copy; ${new Date().getFullYear()} FresherHub — India Fresher IT Jobs &amp; Preparation</span>
-    <span><a href="/about.html">About</a> &bull; <a href="/privacy.html">Privacy</a> &bull; <a href="/terms.html">Terms</a> &bull; <a href="/disclaimer.html">Disclaimer</a></span>
-  </footer>
+  <script>
+    function toggleAcc(btn) {
+      const body = btn.nextElementSibling;
+      const isOpen = body.classList.contains('open');
+      body.classList.toggle('open');
+      btn.querySelector('.plus').textContent = isOpen ? '+' : '−';
+    }
+  </script>
 </body>
 </html>`;
 }
-
