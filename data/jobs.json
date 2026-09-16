@@ -86,6 +86,49 @@
     ]
   },
   {
+    "id": "paytm-associate-ta-tech",
+    "sector": "private",
+    "org": "Paytm",
+    "title": "Associate - TA Tech",
+    "location": "Noida, Uttar Pradesh",
+    "batch": "2024, 2025 & 2026 Graduates",
+    "salary": "₹25,000 – ₹50,000/month (Stipend) + Full-time PPO",
+    "posted": "Today",
+    "isNew": true,
+    "lastDate": "Accepting Applications",
+    "vacancies": "Multiple Openings (Fresher Intake)",
+    "applyUrl": "https://jobs.lever.co/paytm/55fa4f0c-09b4-426c-bd7f-5b43140f5ed5",
+    "slug": "/docs/jobs/paytm-associate-ta-tech.html",
+    "about": "Paytm is seeking an entry-level candidate for the Associate - TA Tech position in Noida, Uttar Pradesh. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
+    "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in SQL, Relational DBs, Data Structures preferred.",
+    "prep": [
+      {
+        "t": "Aptitude & Reasoning Focus",
+        "items": [
+          "Quantitative Aptitude: Percentages, Profit & Loss, Time-Speed-Distance, and Probability",
+          "Logical Reasoning: Coding-Decoding, Seating Arrangements, Syllogisms, and Pattern Series",
+          "Verbal Ability: Reading Comprehension, Sentence Correction, and Technical Vocabulary"
+        ]
+      },
+      {
+        "t": "Technical Assessment & Coding",
+        "items": [
+          "Arrays, Strings, Two-Pointer technique, and HashMaps (LeetCode Easy to Medium)",
+          "Recursion, Binary Search, and Tree traversals (BFS & DFS)",
+          "Object-Oriented Programming (OOP) concepts, DBMS Queries, and Operating Systems Basics"
+        ]
+      },
+      {
+        "t": "Interview Strategy",
+        "items": [
+          "Review your final-year college project or internships thoroughly — explain architectural choices clearly for Paytm.",
+          "Prepare to write clean, compiling code with optimal Time and Space complexity (Big-O analysis).",
+          "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
+        ]
+      }
+    ]
+  },
+  {
     "id": "paytm-business-analyst",
     "sector": "private",
     "org": "Paytm",
@@ -488,6 +531,49 @@
     "slug": "/docs/jobs/paytm-hr-payroll-intern.html",
     "about": "Paytm is seeking an entry-level candidate for the HR Payroll-Intern position in Noida, Uttar Pradesh. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
     "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in Data Structures, Data Analytics preferred.",
+    "prep": [
+      {
+        "t": "Aptitude & Reasoning Focus",
+        "items": [
+          "Quantitative Aptitude: Percentages, Profit & Loss, Time-Speed-Distance, and Probability",
+          "Logical Reasoning: Coding-Decoding, Seating Arrangements, Syllogisms, and Pattern Series",
+          "Verbal Ability: Reading Comprehension, Sentence Correction, and Technical Vocabulary"
+        ]
+      },
+      {
+        "t": "Technical Assessment & Coding",
+        "items": [
+          "Arrays, Strings, Two-Pointer technique, and HashMaps (LeetCode Easy to Medium)",
+          "Recursion, Binary Search, and Tree traversals (BFS & DFS)",
+          "Object-Oriented Programming (OOP) concepts, DBMS Queries, and Operating Systems Basics"
+        ]
+      },
+      {
+        "t": "Interview Strategy",
+        "items": [
+          "Review your final-year college project or internships thoroughly — explain architectural choices clearly for Paytm.",
+          "Prepare to write clean, compiling code with optimal Time and Space complexity (Big-O analysis).",
+          "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "paytm-intern-ta-tech",
+    "sector": "private",
+    "org": "Paytm",
+    "title": "Intern - TA Tech",
+    "location": "Noida, Uttar Pradesh",
+    "batch": "2024, 2025 & 2026 Graduates",
+    "salary": "₹25,000 – ₹50,000/month (Stipend) + Full-time PPO",
+    "posted": "Today",
+    "isNew": true,
+    "lastDate": "Accepting Applications",
+    "vacancies": "Multiple Openings (Fresher Intake)",
+    "applyUrl": "https://jobs.lever.co/paytm/36f0fe45-a771-4f97-aac1-0a9ca1d73f18",
+    "slug": "/docs/jobs/paytm-intern-ta-tech.html",
+    "about": "Paytm is seeking an entry-level candidate for the Intern - TA Tech position in Noida, Uttar Pradesh. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
+    "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in SQL, Relational DBs, Data Structures preferred.",
     "prep": [
       {
         "t": "Aptitude & Reasoning Focus",
@@ -1247,6 +1333,49 @@
     ]
   },
   {
+    "id": "zeta-intern",
+    "sector": "private",
+    "org": "Zeta",
+    "title": "Intern",
+    "location": "Bangalore - EC",
+    "batch": "2025 & 2026 Batch Graduates",
+    "salary": "₹25,000 – ₹50,000/month (Stipend) + Full-time PPO",
+    "posted": "Today",
+    "isNew": true,
+    "lastDate": "Accepting Applications",
+    "vacancies": "Multiple Openings (Fresher Intake)",
+    "applyUrl": "https://jobs.lever.co/zeta/72ee1884-8e8b-447b-ab96-aa76605b5f4a",
+    "slug": "/docs/jobs/zeta-intern.html",
+    "about": "Zeta is seeking an entry-level candidate for the Intern position in Bangalore - EC. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
+    "eligibility": "Open to graduates in relevant streams (2025 & 2026 Batch Graduates). Hands-on skills in Cloud Computing (AWS/Azure), Data Structures, Data Analytics preferred.",
+    "prep": [
+      {
+        "t": "Aptitude & Reasoning Focus",
+        "items": [
+          "Quantitative Aptitude: Percentages, Profit & Loss, Time-Speed-Distance, and Probability",
+          "Logical Reasoning: Coding-Decoding, Seating Arrangements, Syllogisms, and Pattern Series",
+          "Verbal Ability: Reading Comprehension, Sentence Correction, and Technical Vocabulary"
+        ]
+      },
+      {
+        "t": "Technical Assessment & Coding",
+        "items": [
+          "Arrays, Strings, Two-Pointer technique, and HashMaps (LeetCode Easy to Medium)",
+          "Recursion, Binary Search, and Tree traversals (BFS & DFS)",
+          "Object-Oriented Programming (OOP) concepts, DBMS Queries, and Operating Systems Basics"
+        ]
+      },
+      {
+        "t": "Interview Strategy",
+        "items": [
+          "Review your final-year college project or internships thoroughly — explain architectural choices clearly for Zeta.",
+          "Prepare to write clean, compiling code with optimal Time and Space complexity (Big-O analysis).",
+          "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
+        ]
+      }
+    ]
+  },
+  {
     "id": "zeta-product-security-engineer-ii",
     "sector": "private",
     "org": "Zeta",
@@ -1505,10 +1634,10 @@
     ]
   },
   {
-    "id": "razorpay-associate-technical-consultant",
+    "id": "razorpay-data-analyst-business-finance",
     "sector": "private",
     "org": "Razorpay",
-    "title": "Associate Technical Consultant",
+    "title": "Data Analyst, Business Finance",
     "location": "Bengaluru",
     "batch": "2024, 2025 & 2026 Graduates",
     "salary": "₹25,000 – ₹50,000/month (Stipend) + Full-time PPO",
@@ -1516,10 +1645,10 @@
     "isNew": true,
     "lastDate": "Accepting Applications",
     "vacancies": "Multiple Openings (Fresher Intake)",
-    "applyUrl": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4731682005",
-    "slug": "/docs/jobs/razorpay-associate-technical-consultant.html",
-    "about": "Razorpay is seeking an entry-level candidate for the Associate Technical Consultant position in Bengaluru. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
-    "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in Python, Java, Spring Boot preferred.",
+    "applyUrl": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4729959005",
+    "slug": "/docs/jobs/razorpay-data-analyst-business-finance.html",
+    "about": "Razorpay is seeking an entry-level candidate for the Data Analyst, Business Finance position in Bengaluru. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
+    "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in Python, SQL, Relational DBs preferred.",
     "prep": [
       {
         "t": "Aptitude & Reasoning Focus",
@@ -1548,10 +1677,10 @@
     ]
   },
   {
-    "id": "razorpay-data-analyst-business-finance",
+    "id": "razorpay-junior-associate-enterprise-partnerships",
     "sector": "private",
     "org": "Razorpay",
-    "title": "Data Analyst, Business Finance",
+    "title": "Junior Associate, Enterprise Partnerships",
     "location": "Bengaluru",
     "batch": "2024, 2025 & 2026 Graduates",
     "salary": "₹25,000 – ₹50,000/month (Stipend) + Full-time PPO",
@@ -1559,10 +1688,10 @@
     "isNew": true,
     "lastDate": "Accepting Applications",
     "vacancies": "Multiple Openings (Fresher Intake)",
-    "applyUrl": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4729959005",
-    "slug": "/docs/jobs/razorpay-data-analyst-business-finance.html",
-    "about": "Razorpay is seeking an entry-level candidate for the Data Analyst, Business Finance position in Bengaluru. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
-    "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in Python, SQL, Relational DBs preferred.",
+    "applyUrl": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4733888005",
+    "slug": "/docs/jobs/razorpay-junior-associate-enterprise-partnerships.html",
+    "about": "Razorpay is seeking an entry-level candidate for the Junior Associate, Enterprise Partnerships position in Bengaluru. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
+    "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in Automation Testing, Selenium, Data Structures preferred.",
     "prep": [
       {
         "t": "Aptitude & Reasoning Focus",
