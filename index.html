@@ -56,7 +56,10 @@
   .ticker-track{
     display:inline-flex;
     padding-left:180px;
-    animation:scroll-left 34s linear infinite;
+    animation:scroll-left 95s linear infinite;
+  }
+  .ticker-track:hover{
+    animation-play-state:paused;
   }
   @keyframes scroll-left{
     0%{transform:translateX(0);}
@@ -336,9 +339,25 @@
     .job-card{flex-direction:row;}
     .card-stub{width:88px;}
   }
-  @media (prefers-reduced-motion: reduce){
-    .ticker-track{animation:none;}
-    html{scroll-behavior:auto;}
+  .pagination-wrap{
+    display:flex;justify-content:center;align-items:center;gap:8px;margin-top:32px;flex-wrap:wrap;
+  }
+  .page-btn{
+    background:var(--card);border:1px solid var(--ink);color:var(--ink);
+    padding:8px 14px;font-family:'IBM Plex Mono',monospace;font-size:13px;
+    font-weight:600;border-radius:2px;transition:all .15s ease;
+  }
+  .page-btn:hover:not(:disabled){
+    background:var(--ink);color:#fff;
+  }
+  .page-btn.active{
+    background:var(--teal);color:#fff;border-color:var(--teal-deep);
+  }
+  .page-btn:disabled{
+    opacity:.4;cursor:not-allowed;
+  }
+  .page-info{
+    font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--ink-soft);padding:0 8px;
   }
 </style>
  <script src="https://pl31246610.profitableratecpmnetwork.com/5f/64/39/5f643933e4b5609a6fea8b26e0567baa.js"></script>
@@ -414,6 +433,7 @@
 <main class="grid-wrap">
   <div class="job-grid" id="jobGrid"></div>
   <div class="empty-state" id="emptyState" style="display:none;">No postings match your filters. Try clearing the search or filters above.</div>
+  <div class="pagination-wrap" id="paginationWrap" style="display:none;"></div>
 </main>
 <script async="async" data-cfasync="false" src="https://pl31246611.profitableratecpmnetwork.com/5dda39af7deea3e10807518d2e9983e8/invoke.js"></script>
 <div id="container-5dda39af7deea3e10807518d2e9983e8"></div>
@@ -671,6 +691,8 @@ let currentTab = "all";
 let currentSearch = "";
 let currentLocation = "";
 let currentBatch = "";
+let currentPage = 1;
+const pageSize = 10;
 
 function uniqueValues(key){
   return [...new Set(JOBS.map(j=>j[key]))];
@@ -719,12 +741,62 @@ function renderCounts(){
   document.getElementById('openCountStat').querySelector('b').textContent = JOBS.length;
 }
 
+function renderPagination(totalJobs){
+  const wrap = document.getElementById('paginationWrap');
+  if(!wrap) return;
+  const totalPages = Math.ceil(totalJobs / pageSize);
+  if(totalPages <= 1){
+    wrap.style.display = 'none';
+    wrap.innerHTML = '';
+    return;
+  }
+  wrap.style.display = 'flex';
+  let html = `<button class="page-btn" ${currentPage === 1 ? 'disabled' : ''} data-page="${currentPage - 1}">&larr; Prev</button>`;
+  
+  let startPage = Math.max(1, currentPage - 2);
+  let endPage = Math.min(totalPages, startPage + 4);
+  if(endPage - startPage < 4){
+    startPage = Math.max(1, endPage - 4);
+  }
+
+  if(startPage > 1){
+    html += `<button class="page-btn" data-page="1">1</button>`;
+    if(startPage > 2) html += `<span class="page-info">...</span>`;
+  }
+
+  for(let i = startPage; i <= endPage; i++){
+    html += `<button class="page-btn ${i === currentPage ? 'active' : ''}" data-page="${i}">${i}</button>`;
+  }
+
+  if(endPage < totalPages){
+    if(endPage < totalPages - 1) html += `<span class="page-info">...</span>`;
+    html += `<button class="page-btn" data-page="${totalPages}">${totalPages}</button>`;
+  }
+
+  html += `<button class="page-btn" ${currentPage === totalPages ? 'disabled' : ''} data-page="${currentPage + 1}">Next &rarr;</button>`;
+  html += `<span class="page-info">Page ${currentPage} of ${totalPages} (${totalJobs} total)</span>`;
+  wrap.innerHTML = html;
+}
+
 function renderGrid(){
   const grid = document.getElementById('jobGrid');
-  const jobs = filteredJobs();
-  document.getElementById('resultsMeta').textContent = `${jobs.length} posting${jobs.length===1?'':'s'} shown`;
-  document.getElementById('emptyState').style.display = jobs.length ? 'none' : 'block';
-  grid.innerHTML = jobs.map(j=>`
+  const allFiltered = filteredJobs();
+  const totalJobs = allFiltered.length;
+  const totalPages = Math.ceil(totalJobs / pageSize);
+  if(currentPage > totalPages && totalPages > 0){
+    currentPage = totalPages;
+  }
+  if(currentPage < 1){
+    currentPage = 1;
+  }
+
+  const startIdx = (currentPage - 1) * pageSize;
+  const pageJobs = allFiltered.slice(startIdx, startIdx + pageSize);
+
+  document.getElementById('resultsMeta').textContent = `${totalJobs} posting${totalJobs===1?'':'s'} found · Showing ${pageJobs.length ? startIdx + 1 : 0}–${startIdx + pageJobs.length}`;
+  document.getElementById('emptyState').style.display = pageJobs.length ? 'none' : 'block';
+
+  grid.innerHTML = pageJobs.map(j=>`
     <button class="job-card" data-id="${j.id}">
       <div class="card-main">
         <div class="card-top-row">
@@ -745,9 +817,11 @@ function renderGrid(){
       </div>
     </button>
   `).join('');
+
+  renderPagination(totalJobs);
 }
 
-function openArticle(id){
+function openArticle(id, updateHistory = true){
   const j = JOBS.find(x=>x.id===id);
   if(!j) return;
   document.getElementById('artStamp').textContent = j.sector==='govt'?'Government':'Private';
@@ -799,17 +873,35 @@ function openArticle(id){
   document.querySelector('.hero').style.display = 'none';
   document.querySelector('.tabs-bar').style.display = 'none';
   document.getElementById('articleView').style.display = 'block';
+  if(updateHistory){
+    history.pushState({ jobId: id }, '', '#job-' + id);
+  }
   window.scrollTo({top:0, behavior:'smooth'});
 }
 
-function closeArticle(){
+function closeArticle(updateHistory = true){
   document.getElementById('articleView').style.display = 'none';
   document.querySelector('main.grid-wrap').style.display = 'block';
   document.querySelector('.hero').style.display = 'grid';
   document.querySelector('.tabs-bar').style.display = 'flex';
+  if(updateHistory && window.location.hash){
+    history.pushState(null, '', window.location.pathname + window.location.search);
+  }
 }
 
 document.addEventListener('click', (e)=>{
+  const pageBtn = e.target.closest('.page-btn');
+  if(pageBtn && !pageBtn.disabled){
+    const targetPage = parseInt(pageBtn.dataset.page, 10);
+    if(targetPage && targetPage !== currentPage){
+      currentPage = targetPage;
+      renderGrid();
+      const mainGrid = document.querySelector('.grid-wrap');
+      if(mainGrid) mainGrid.scrollIntoView({ behavior: 'smooth' });
+    }
+    return;
+  }
+
   const card = e.target.closest('.job-card');
   if(card){ openArticle(card.dataset.id); return; }
 
@@ -818,6 +910,7 @@ document.addEventListener('click', (e)=>{
     document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
     tabBtn.classList.add('active');
     currentTab = tabBtn.dataset.tab;
+    currentPage = 1;
     renderGrid();
     return;
   }
@@ -834,20 +927,40 @@ document.addEventListener('click', (e)=>{
   }
 
   if(e.target.id === 'backBtn'){ closeArticle(); return; }
-  if(e.target.id === 'searchBtn'){ currentSearch = document.getElementById('searchInput').value.trim(); renderGrid(); return; }
+  if(e.target.id === 'searchBtn'){
+    currentSearch = document.getElementById('searchInput').value.trim();
+    currentPage = 1;
+    renderGrid();
+    return;
+  }
+});
+
+window.addEventListener('popstate', ()=>{
+  const hash = window.location.hash;
+  if(hash && hash.startsWith('#job-')){
+    const jobId = hash.replace('#job-', '');
+    openArticle(jobId, false);
+  } else {
+    closeArticle(false);
+  }
 });
 
 document.getElementById('searchInput').addEventListener('keydown', (e)=>{
   if(e.key === 'Enter'){
     currentSearch = e.target.value.trim();
+    currentPage = 1;
     renderGrid();
   }
 });
 document.getElementById('locationFilter').addEventListener('change', (e)=>{
-  currentLocation = e.target.value; renderGrid();
+  currentLocation = e.target.value;
+  currentPage = 1;
+  renderGrid();
 });
 document.getElementById('batchFilter').addEventListener('change', (e)=>{
-  currentBatch = e.target.value; renderGrid();
+  currentBatch = e.target.value;
+  currentPage = 1;
+  renderGrid();
 });
 
 async function loadJobs(){
@@ -877,6 +990,12 @@ async function loadJobs(){
   buildTicker();
   renderCounts();
   renderGrid();
+
+  const initialHash = window.location.hash;
+  if(initialHash && initialHash.startsWith('#job-')){
+    const jobId = initialHash.replace('#job-', '');
+    openArticle(jobId, false);
+  }
 }
 
 loadJobs();
