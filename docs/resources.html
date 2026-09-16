@@ -3,38 +3,208 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tech Interview & Skill Roadmaps — FresherHub</title>
-  <meta name="description" content="Core technical preparation roadmaps, syntax refreshers, and aptitude guides for tech freshers.">
-  <link rel="stylesheet" href="/style.css">
+  <title>Tech & Govt Exam Preparation Hub — FresherHub</title>
+  <meta name="description" content="Free study guides, exam roadmaps, and technical topic breakdowns for IT freshers and Government exam aspirants (SSC, RRB, IBPS, NIC).">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --ink:#16233F;
+      --ink-soft:#4A5568;
+      --paper:#ECEEE6;
+      --card:#FBFBF8;
+      --teal:#146B64;
+      --teal-deep:#0D4F4A;
+      --amber:#C97A0C;
+      --maroon:#7A2E2E;
+      --line:#CBCFC0;
+      --line-soft:#DCDFD2;
+    }
+    *{box-sizing:border-box;margin:0;padding:0;}
+    body{
+      background:var(--paper);
+      color:var(--ink);
+      font-family:'IBM Plex Sans',sans-serif;
+      line-height:1.6;
+      padding-bottom:50px;
+    }
+    a{color:var(--teal);text-decoration:none;}
+    a:hover{text-decoration:underline;}
+    header.site-header{
+      background:#fff;
+      border-bottom:2px solid var(--ink);
+      padding:20px 6vw;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      flex-wrap:wrap;
+      gap:16px;
+    }
+    .brand{
+      font-family:'Fraunces',serif;
+      font-weight:700;
+      font-size:26px;
+      color:var(--ink);
+    }
+    .brand em{color:var(--teal);font-style:normal;}
+    .nav-links{
+      display:flex;
+      gap:18px;
+      font-family:'IBM Plex Mono',monospace;
+      font-size:13px;
+      font-weight:600;
+    }
+    .container{
+      max-width:1040px;
+      margin:30px auto;
+      padding:0 20px;
+    }
+    .content-body{
+      background:var(--card);
+      border:1px solid var(--ink);
+      padding:36px;
+      border-radius:2px;
+    }
+    h1{
+      font-family:'Fraunces',serif;
+      font-size:clamp(26px,3.5vw,38px);
+      margin-bottom:12px;
+      color:var(--ink);
+    }
+    .subtitle{
+      font-size:16px;
+      color:var(--ink-soft);
+      margin-bottom:30px;
+      font-family:'IBM Plex Mono',monospace;
+    }
+    .resource-block{
+      margin-bottom:32px;
+      padding-bottom:24px;
+      border-bottom:1px solid var(--line);
+    }
+    .resource-block:last-child{
+      border-bottom:none;
+      margin-bottom:0;
+      padding-bottom:0;
+    }
+    h2{
+      font-family:'Fraunces',serif;
+      font-size:22px;
+      margin-bottom:10px;
+      color:var(--teal-deep);
+      display:flex;
+      align-items:center;
+      gap:10px;
+    }
+    h2 .tag{
+      font-family:'IBM Plex Mono',monospace;
+      font-size:11px;
+      background:var(--paper);
+      padding:2px 8px;
+      border-radius:2px;
+      color:var(--ink-soft);
+      border:1px solid var(--line);
+    }
+    h2 .tag.govt{
+      color:var(--maroon);
+      border-color:var(--maroon);
+    }
+    p{margin-bottom:12px;font-size:15px;}
+    ul{margin:0 0 16px 22px;font-size:14.5px;}
+    li{margin-bottom:6px;}
+    code{
+      background:var(--paper);
+      padding:2px 6px;
+      border-radius:2px;
+      font-family:'IBM Plex Mono',monospace;
+      font-size:13px;
+    }
+    .site-footer{
+      border-top:2px solid var(--ink);
+      margin-top:50px;
+      padding:24px 6vw;
+      font-family:'IBM Plex Mono',monospace;
+      font-size:12px;
+      color:var(--ink-soft);
+      display:flex;
+      justify-content:space-between;
+      flex-wrap:wrap;
+      gap:12px;
+    }
+  </style>
 </head>
 <body>
+  <header class="site-header">
+    <a href="/" class="brand">Fresher<em>Hub</em></a>
+    <nav class="nav-links">
+      <a href="/">← Job Openings</a>
+      <a href="/resources.html" style="color:var(--teal);">Learning Hub</a>
+      <a href="/about.html">About Us</a>
+      <a href="/privacy.html">Privacy Policy</a>
+    </nav>
+  </header>
+
   <div class="container">
-    <header class="header">
-      <a href="/" class="brand">FresherHub</a>
-      <nav class="nav-links">
-        <a href="/">Job Openings</a>
-        <a href="/resources.html" class="active">Learning Hub</a>
-        <a href="/about.html">About Us</a>
-      </nav>
-    </header>
-
     <main class="content-body">
-      <h1>Fresher Skill & Interview Preparation Hub</h1>
-      <p class="subtitle">Curated interview checklists, foundational patterns, and core concepts referenced in our active job postings.</p>
+      <h1>Fresher Skill &amp; Exam Preparation Hub</h1>
+      <p class="subtitle">Curated interview checklists, syllabus breakdowns, and preparation roadmaps for private tech roles and central government exams.</p>
 
-      <section id="sql" class="resource-block">
-        <h2>Structured Query Language (SQL)</h2>
-        <p>Essential for analytics, backend engineering, and database support roles.</p>
+      <!-- GOVT EXAM PREPARATION SECTION -->
+      <section id="govt-ssc" class="resource-block">
+        <h2>SSC Exams: CGL &amp; CHSL Preparation <span class="tag govt">Central Govt</span></h2>
+        <p>The Staff Selection Commission conducts Tier-I and Tier-II Computer-Based Tests (CBT) for central ministry appointments.</p>
         <ul>
-          <li><strong>Aggregations & Grouping:</strong> Master <code>GROUP BY</code>, <code>HAVING</code>, and aggregate functions (<code>SUM</code>, <code>AVG</code>, <code>COUNT(DISTINCT)</code>).</li>
+          <li><strong>Quantitative Aptitude:</strong> Arithmetic (Percentages, Profit &amp; Loss, Ratio &amp; Proportion, Time-Work-Distance) and Advanced Math (Algebra, Geometry, Trigonometry, Mensuration).</li>
+          <li><strong>General Intelligence &amp; Reasoning:</strong> Analogies, Number series, Coding-Decoding, Syllogisms, Blood relations, Non-verbal pattern folding.</li>
+          <li><strong>General Awareness:</strong> 6-month Current Affairs (schemes, appointments, summits), Indian Polity &amp; Constitution, Modern Indian History, and Basic Science.</li>
+          <li><strong>English Comprehension:</strong> Spotting the error, Cloze test, Active/Passive voice, Direct/Indirect speech, Reading comprehension.</li>
+          <li><strong>Skill / Typing Test:</strong> Data Entry Operator (DEO) requires 8,000 key depressions/hour. Practice on official keyboard simulation tools.</li>
+        </ul>
+      </section>
+
+      <section id="govt-rrb" class="resource-block">
+        <h2>Railway Recruitment Board (RRB JE &amp; NTPC) <span class="tag govt">Railways</span></h2>
+        <p>RRB conducts national CBT examinations for Junior Engineer (IT/Technical) and Non-Technical Popular Categories.</p>
+        <ul>
+          <li><strong>CBT-1 (Screening):</strong> Mathematics (30 Qs), General Intelligence &amp; Reasoning (25 Qs), General Science (Physics, Chemistry, Life Sciences - 30 Qs), General Awareness (15 Qs). Time: 90 Minutes.</li>
+          <li><strong>CBT-2 Technical IT Syllabus:</strong> Operating Systems, DBMS (SQL &amp; Relational Schema), Computer Networks (OSI &amp; TCP/IP model), Object-Oriented Programming (C++/Java), and Web technologies.</li>
+          <li><strong>Negative Marking:</strong> 1/3rd deduction for each incorrect answer — focus on precision over guesswork.</li>
+        </ul>
+      </section>
+
+      <section id="govt-ibps" class="resource-block">
+        <h2>IBPS IT Specialist Officer (Scale I) <span class="tag govt">Banking</span></h2>
+        <p>Common recruitment process for IT Officers managing core banking infrastructure across nationalized banks.</p>
+        <ul>
+          <li><strong>Professional Knowledge (IT):</strong> Database Management (normalization, indexing, ACID properties), Computer Networking (routing protocols, subnets, firewalls), Data Structures, Software Engineering cycles, and Cyber Security fundamentals.</li>
+          <li><strong>Preliminary Stage:</strong> Reasoning (50 Qs), English Language (50 Qs), Quantitative Aptitude (50 Qs). Total 150 Qs in 120 minutes with sectional cutoffs.</li>
+          <li><strong>Mains &amp; Interview:</strong> In-depth IT MCQs followed by technical and banking awareness interview panel.</li>
+        </ul>
+      </section>
+
+      <section id="govt-nic" class="resource-block">
+        <h2>NIC Scientist-B &amp; Scientific Officer <span class="tag govt">Govt Tech</span></h2>
+        <p>Recruitment for entry-level computer science engineers designing e-governance systems for the Ministry of Electronics and IT.</p>
+        <ul>
+          <li><strong>Section A (Generic):</strong> Logical reasoning, quantitative analytical ability, and general mental ability (35% weightage).</li>
+          <li><strong>Section B (Computer Science):</strong> Algorithms, discrete mathematics, compiler design, computer architecture, distributed systems, and web services (65% weightage).</li>
+        </ul>
+      </section>
+
+      <!-- PRIVATE TECH ROADMAPS -->
+      <section id="sql" class="resource-block">
+        <h2>Structured Query Language (SQL) <span class="tag">Database</span></h2>
+        <p>Essential for software engineering, analytics, and backend support interviews.</p>
+        <ul>
+          <li><strong>Aggregations &amp; Grouping:</strong> Master <code>GROUP BY</code>, <code>HAVING</code>, and aggregate functions (<code>SUM</code>, <code>AVG</code>, <code>COUNT(DISTINCT)</code>).</li>
           <li><strong>Joins:</strong> Understand Cartesian products, difference between <code>LEFT JOIN</code> vs <code>INNER JOIN</code>, and filtering in the <code>ON</code> vs <code>WHERE</code> clause.</li>
-          <li><strong>Window Functions:</strong> Frequently asked in tech interviews — practice <code>ROW_NUMBER()</code>, <code>DENSE_RANK()</code>, and cumulative partitioning.</li>
+          <li><strong>Window Functions:</strong> Frequently tested in tech screenings: <code>ROW_NUMBER()</code>, <code>DENSE_RANK()</code>, and cumulative partitioning.</li>
         </ul>
       </section>
 
       <section id="java" class="resource-block">
-        <h2>Core Java & Object-Oriented Design</h2>
-        <p>A primary interview staple across enterprise and service-based tech hiring.</p>
+        <h2>Core Java &amp; Object-Oriented Design <span class="tag">Language</span></h2>
+        <p>A primary interview staple across enterprise and product engineering hiring in India.</p>
         <ul>
           <li><strong>OOP Pillars:</strong> Real-world examples of Abstraction vs Encapsulation, Runtime Polymorphism, and Interface segregation.</li>
           <li><strong>Collections Framework:</strong> Internal working of <code>HashMap</code>, concurrency handling, and performance differences between <code>ArrayList</code> and <code>LinkedList</code>.</li>
@@ -43,8 +213,8 @@
       </section>
 
       <section id="spring-boot" class="resource-block">
-        <h2>Spring Boot & Microservices</h2>
-        <p>Backend framework requirements for entry-level backend engineers.</p>
+        <h2>Spring Boot &amp; Microservices <span class="tag">Backend</span></h2>
+        <p>Framework expectations for entry-level Java backend developers.</p>
         <ul>
           <li><strong>Dependency Injection:</strong> Inversion of Control (IoC), <code>@Autowired</code>, <code>@Component</code> vs <code>@Bean</code> lifecycle.</li>
           <li><strong>REST APIs:</strong> HTTP methods (GET, POST, PUT, DELETE, PATCH), status codes, and exception handling using <code>@ControllerAdvice</code>.</li>
@@ -53,26 +223,27 @@
       </section>
 
       <section id="python" class="resource-block">
-        <h2>Python & Data Manipulation</h2>
-        <p>Prerequisites for entry-level developer, automation, and data analyst drives.</p>
+        <h2>Python &amp; Data Manipulation <span class="tag">Language</span></h2>
+        <p>Prerequisites for entry-level developer, automation, and data analyst roles.</p>
         <ul>
-          <li><strong>Data Structures:</strong> Dictionary lookups, list comprehensions, tuples, and memory generators.</li>
-          <li><strong>Core Libraries:</strong> Basic parsing using <code>requests</code>, structural analysis with <code>pandas</code>, and JSON serialization.</li>
+          <li><strong>Data Structures:</strong> Dictionary lookups, list comprehensions, tuples, and generators.</li>
+          <li><strong>Core Libraries:</strong> Basic parsing with <code>requests</code>, tabular analysis with <code>pandas</code>, and JSON serialization.</li>
         </ul>
       </section>
 
       <section id="aptitude" class="resource-block">
-        <h2>Campus Aptitude & Reasoning</h2>
-        <p>First-round screening essentials across IT service firms.</p>
+        <h2>Campus Aptitude &amp; Reasoning <span class="tag">Screening</span></h2>
+        <p>First-round screening essentials across IT service firms (TCS, Infosys, Wipro, Cognizant, Accenture).</p>
         <ul>
-          <li><strong>Quantitative:</strong> Percentages, Profit & Loss, Work & Time formulas, and Speed-Distance-Time conversions.</li>
+          <li><strong>Quantitative:</strong> Percentages, Profit &amp; Loss, Work &amp; Time formulas, and Speed-Distance-Time conversions.</li>
           <li><strong>Logical:</strong> Seating arrangements, Syllogisms, Direction sense, and Blood relations.</li>
         </ul>
       </section>
     </main>
 
     <footer class="site-footer">
-      <p>&copy; 2026 FresherHub. Independent educational and career navigation portal.</p>
+      <span>&copy; 2026 FresherHub — India Fresher IT Jobs &amp; Exam Preparation</span>
+      <span><a href="/about.html">About</a> &bull; <a href="/privacy.html">Privacy</a> &bull; <a href="/terms.html">Terms</a> &bull; <a href="/disclaimer.html">Disclaimer</a></span>
     </footer>
   </div>
 </body>

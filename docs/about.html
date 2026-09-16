@@ -2,23 +2,143 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About Us — FresherHub</title>
-  <link rel="stylesheet" href="/style.css">
+  <meta name="description" content="About FresherHub: verified entry-level job tracking from official career portals and free preparation roadmaps for Indian freshers.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ink: #16233F;
+      --ink-soft: #4A5568;
+      --paper: #ECEEE6;
+      --card: #FBFBF8;
+      --teal: #146B64;
+      --teal-deep: #0D4F4A;
+      --amber: #C97A0C;
+      --line: #CBCFC0;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--paper);
+      color: var(--ink);
+      font-family: 'IBM Plex Sans', sans-serif;
+      line-height: 1.6;
+      padding-bottom: 50px;
+    }
+    a { color: var(--teal); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    header.site-header {
+      background: #fff;
+      border-bottom: 2px solid var(--ink);
+      padding: 20px 6vw;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+    .brand {
+      font-family: 'Fraunces', serif;
+      font-weight: 700;
+      font-size: 26px;
+      color: var(--ink);
+    }
+    .brand em { color: var(--teal); font-style: normal; }
+    .nav-links {
+      display: flex;
+      gap: 18px;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 13px;
+      font-weight: 600;
+    }
+    .container {
+      max-width: 860px;
+      margin: 36px auto;
+      background: #fff;
+      padding: 40px;
+      border: 1px solid var(--line);
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+    }
+    .back {
+      display: inline-block;
+      margin-bottom: 20px;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 13px;
+      font-weight: 600;
+    }
+    h1 {
+      font-family: 'Fraunces', serif;
+      font-size: 32px;
+      color: var(--teal-deep);
+      margin-bottom: 16px;
+      border-bottom: 2px solid var(--paper);
+      padding-bottom: 12px;
+    }
+    h2 {
+      font-family: 'Fraunces', serif;
+      font-size: 20px;
+      color: var(--ink);
+      margin-top: 26px;
+      margin-bottom: 10px;
+    }
+    p { margin-bottom: 16px; color: var(--ink-soft); font-size: 15px; }
+    ul { margin: 12px 0 20px 24px; color: var(--ink-soft); }
+    li { margin-bottom: 8px; font-size: 15px; }
+    .feature-box {
+      background: var(--card);
+      border-left: 4px solid var(--teal);
+      padding: 16px 20px;
+      margin: 20px 0;
+      border-radius: 0 4px 4px 0;
+    }
+    .feature-box strong { color: var(--teal-deep); }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 13px;
+      color: #718096;
+      font-family: 'IBM Plex Mono', monospace;
+    }
+  </style>
 </head>
 <body>
-  <div class="container content-page">
-    <a href="/">&larr; Home</a>
+  <header class="site-header">
+    <a href="/" class="brand">Fresher<em>Hub</em></a>
+    <nav class="nav-links">
+      <a href="/">Live Openings</a>
+      <a href="/resources.html">Learning Hub</a>
+      <a href="/about.html">About</a>
+      <a href="/privacy.html">Privacy</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <a href="/" class="back">&larr; Back to Job Board</a>
     <h1>About FresherHub</h1>
-    <p>FresherHub was founded to bridge the information gap for fresh graduates and early-career developers entering the tech industry in India.</p>
-    
-    <h3>What We Do</h3>
+    <p>FresherHub was founded to bridge the information gap for fresh engineering graduates, BCA/MCA students, and early-career developers entering the tech and public sectors in India.</p>
+
+    <div class="feature-box">
+      <strong>Zero Fees, Zero Scams:</strong> FresherHub is 100% free. We never charge candidates for job listings, mock test materials, or placement assistance. Every application link points directly to the employer's official portal.
+    </div>
+
+    <h2>What We Do</h2>
     <ul>
-      <li><strong>Official Portal Tracking:</strong> We index job openings directly from enterprise applicant tracking systems (ATS), cutting out unverified third-party job listings.</li>
-      <li><strong>Prep Roadmaps:</strong> Rather than just pasting job specs, every opening is paired with topic breakdowns (DSA, frameworks, SQL, and system expectations) to help candidates prepare.</li>
+      <li><strong>Official ATS Tracking:</strong> We index verified entry-level job openings directly from enterprise Applicant Tracking Systems (such as Greenhouse, Lever, SmartRecruiters, and Workday) and official company career pages.</li>
+      <li><strong>Structured Preparation Roadmaps:</strong> Rather than merely listing job roles, we curate technical question banks (Data Structures, SQL, Java/Spring Boot, System Basics) and Government exam syllabus breakdowns (SSC CGL, RRB NTPC, IBPS SO, NIC Scientist-B).</li>
+      <li><strong>No Ghost Jobs or Sponsored Junk:</strong> Every indexed opportunity is checked for entry-level suitability, graduation batch eligibility (2024–2026 batches), and authentic domain ownership.</li>
     </ul>
 
-    <h3>Editorial & Aggregation Disclaimer</h3>
-    <p>FresherHub is an independent aggregator and technical educational portal. All company names, brand assets, and trademark references belong exclusively to their respective corporate entities. We never charge job seekers any recruitment fees.</p>
+    <h2>Editorial &amp; Aggregation Integrity</h2>
+    <p>FresherHub operates as an independent technical educational and career news aggregator. All corporate names, brand marks, and trademarks referenced on this platform remain the intellectual property of their respective holders.</p>
+
+    <h2>Reach the Editorial Desk</h2>
+    <p>Have feedback, an internship or job opening to submit, or a correction request? Contact our editorial and moderation team at: <br><code>contact@freshersjobopening.online</code></p>
   </div>
+
+  <footer>
+    &copy; 2026 FresherHub &bull; Independent career news &amp; engineering preparation directory.
+  </footer>
 </body>
 </html>

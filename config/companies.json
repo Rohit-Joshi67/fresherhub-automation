@@ -1,77 +1,711 @@
 {
   "_readme": "Edit this list any time. sector must be 'govt' or 'private'. url = the careers/jobs page to scan. Verify each url still works before relying on it — company career pages change their URLs occasionally.",
-
   "govt": [
-    { "name": "Staff Selection Commission (SSC)", "url": "https://ssc.nic.in" },
-    { "name": "Institute of Banking Personnel Selection (IBPS)", "url": "https://www.ibps.in" },
-    { "name": "Railway Recruitment Board (RRB)", "url": "https://www.rrbcdg.gov.in" },
-    { "name": "National Informatics Centre (NIC)", "url": "https://www.nic.in" }
+    {
+      "name": "Staff Selection Commission (SSC)",
+      "url": "https://ssc.nic.in"
+    },
+    {
+      "name": "Institute of Banking Personnel Selection (IBPS)",
+      "url": "https://www.ibps.in"
+    },
+    {
+      "name": "Railway Recruitment Board (RRB)",
+      "url": "https://www.rrbcdg.gov.in"
+    },
+    {
+      "name": "National Informatics Centre (NIC)",
+      "url": "https://www.nic.in"
+    },
+    {
+      "name": "Union Public Service Commission (UPSC)",
+      "url": "https://upsc.gov.in"
+    },
+    {
+      "name": "Defence Research & Development Organisation (DRDO)",
+      "url": "https://drdo.gov.in"
+    },
+    {
+      "name": "Indian Space Research Organisation (ISRO)",
+      "url": "https://isro.gov.in"
+    },
+    {
+      "name": "Bharat Electronics Limited (BEL)",
+      "url": "https://bel-india.in"
+    },
+    {
+      "name": "Bharat Heavy Electricals Limited (BHEL)",
+      "url": "https://bhel.com"
+    },
+    {
+      "name": "Coal India Limited (CIL)",
+      "url": "https://coalindia.in"
+    },
+    {
+      "name": "National Thermal Power Corporation (NTPC)",
+      "url": "https://ntpc.co.in"
+    },
+    {
+      "name": "Oil and Natural Gas Corporation (ONGC)",
+      "url": "https://ongcindia.com"
+    },
+    {
+      "name": "Steel Authority of India Limited (SAIL)",
+      "url": "https://sail.co.in"
+    },
+    {
+      "name": "Power Grid Corporation of India (PGCIL)",
+      "url": "https://powergrid.in"
+    },
+    {
+      "name": "Gas Authority of India Limited (GAIL)",
+      "url": "https://gailonline.com"
+    },
+    {
+      "name": "Indian Oil Corporation Limited (IOCL)",
+      "url": "https://iocl.com"
+    },
+    {
+      "name": "Hindustan Petroleum Corporation Limited (HPCL)",
+      "url": "https://hindustanpetroleum.com"
+    },
+    {
+      "name": "Bharat Petroleum Corporation Limited (BPCL)",
+      "url": "https://bharatpetroleum.in"
+    },
+    {
+      "name": "Nuclear Power Corporation of India (NPCIL)",
+      "url": "https://npcil.nic.in"
+    },
+    {
+      "name": "Hindustan Aeronautics Limited (HAL)",
+      "url": "https://hal-india.co.in"
+    },
+    {
+      "name": "Centre for Development of Advanced Computing (C-DAC)",
+      "url": "https://cdac.in"
+    },
+    {
+      "name": "State Bank of India (SBI Careers)",
+      "url": "https://sbi.co.in/web/careers"
+    },
+    {
+      "name": "Reserve Bank of India (RBI)",
+      "url": "https://rbi.org.in"
+    },
+    {
+      "name": "Life Insurance Corporation of India (LIC)",
+      "url": "https://licindia.in"
+    }
   ],
-
   "private": [
-    { "name": "TCS", "url": "https://www.tcs.com/careers" },
-    { "name": "Infosys", "url": "https://www.infosys.com/careers.html" },
-    { "name": "Wipro", "url": "https://careers.wipro.com" },
-    { "name": "Cognizant", "url": "https://careers.cognizant.com" },
-    { "name": "Capgemini", "url": "https://www.capgemini.com/careers/" },
-    { "name": "Accenture", "url": "https://www.accenture.com/in-en/careers" },
-    { "name": "HCLTech", "url": "https://www.hcltech.com/careers" },
-    { "name": "Tech Mahindra", "url": "https://careers.techmahindra.com" },
-    { "name": "LTIMindtree", "url": "https://www.ltimindtree.com/careers/" },
-    { "name": "IBM India", "url": "https://www.ibm.com/careers" },
-    { "name": "Mphasis", "url": "https://www.mphasis.com/careers.html" },
-    { "name": "Persistent Systems", "url": "https://www.persistent.com/careers/" },
-    { "name": "Zensar Technologies", "url": "https://www.zensar.com/careers" },
-    { "name": "Birlasoft", "url": "https://www.birlasoft.com/careers" },
-    { "name": "Coforge", "url": "https://www.coforge.com/careers" },
-    { "name": "Cyient", "url": "https://www.cyient.com/careers" },
-    { "name": "KPIT Technologies", "url": "https://www.kpit.com/careers/" },
-    { "name": "Sonata Software", "url": "https://www.sonata-software.com/careers" },
-    { "name": "Hexaware Technologies", "url": "https://hexaware.com/careers/" },
-    { "name": "Happiest Minds", "url": "https://www.happiestminds.com/careers/" },
-    { "name": "NIIT", "url": "https://www.niit.com/careers" },
-    { "name": "L&T Technology Services", "url": "https://www.ltts.com/careers" },
-    { "name": "Newgen Software", "url": "https://newgensoft.com/careers/" },
-    { "name": "Quess Corp", "url": "https://www.quesscorp.com/careers/" },
-    { "name": "Virtusa", "url": "https://www.virtusa.com/careers" },
-    { "name": "Genpact", "url": "https://www.genpact.com/careers" },
-    { "name": "EXL Service", "url": "https://www.exlservice.com/careers" },
-    { "name": "WNS Global Services", "url": "https://www.wns.com/careers" },
-    { "name": "Conduent", "url": "https://www.conduent.com/careers/" },
-    { "name": "DXC Technology", "url": "https://dxc.com/us/en/careers" },
-    { "name": "NTT DATA India", "url": "https://in.nttdata.com/careers" },
-    { "name": "Fujitsu India", "url": "https://www.fujitsu.com/in/about/careers/" },
-    { "name": "Amdocs India", "url": "https://www.amdocs.com/careers" },
-    { "name": "Oracle India", "url": "https://www.oracle.com/in/careers/" },
-    { "name": "SAP Labs India", "url": "https://www.sap.com/about/careers.html" },
-    { "name": "Microsoft India", "url": "https://careers.microsoft.com" },
-    { "name": "Google India", "url": "https://careers.google.com" },
-    { "name": "Amazon India", "url": "https://www.amazon.jobs" },
-    { "name": "Adobe India", "url": "https://careers.adobe.com" },
-    { "name": "Salesforce India", "url": "https://careers.salesforce.com" },
-    { "name": "VMware India", "url": "https://careers.vmware.com" },
-    { "name": "ServiceNow India", "url": "https://careers.servicenow.com" },
-    { "name": "Dell Technologies India", "url": "https://jobs.dell.com" },
-    { "name": "HP India", "url": "https://jobs.hp.com" },
-    { "name": "Cisco India", "url": "https://jobs.cisco.com" },
-    { "name": "Intel India", "url": "https://jobs.intel.com" },
-    { "name": "Qualcomm India", "url": "https://careers.qualcomm.com" },
-    { "name": "Samsung R&D India", "url": "https://www.samsung.com/in/careers/" },
-    { "name": "Zoho", "url": "https://www.zoho.com/careers.html" },
-    { "name": "Freshworks", "url": "https://www.freshworks.com/company/careers/" },
-    { "name": "Razorpay", "url": "https://razorpay.com/jobs/" },
-    { "name": "Postman", "url": "https://www.postman.com/company/careers/" },
-    { "name": "BrowserStack", "url": "https://www.browserstack.com/careers" },
-    { "name": "Chargebee", "url": "https://www.chargebee.com/careers/" },
-    { "name": "CRED", "url": "https://careers.cred.club" },
-    { "name": "Groww", "url": "https://groww.in/careers" },
-    { "name": "Meesho", "url": "https://www.meesho.io/careers" },
-    { "name": "PhonePe", "url": "https://www.phonepe.com/careers/" },
-    { "name": "Paytm", "url": "https://jobs.paytm.com" },
-    { "name": "Swiggy", "url": "https://careers.swiggy.com" },
-    { "name": "Zomato", "url": "https://www.zomato.com/careers" },
-    { "name": "Flipkart", "url": "https://www.flipkartcareers.com" },
-    { "name": "Myntra", "url": "https://careers.myntra.com" },
-    { "name": "Nykaa", "url": "https://www.nykaa.com/careers" }
+    {
+      "name": "TCS",
+      "url": "https://www.tcs.com/careers"
+    },
+    {
+      "name": "Infosys",
+      "url": "https://www.infosys.com/careers.html"
+    },
+    {
+      "name": "Wipro",
+      "url": "https://careers.wipro.com"
+    },
+    {
+      "name": "Cognizant",
+      "url": "https://careers.cognizant.com"
+    },
+    {
+      "name": "Capgemini",
+      "url": "https://www.capgemini.com/careers/"
+    },
+    {
+      "name": "Accenture",
+      "url": "https://www.accenture.com/in-en/careers"
+    },
+    {
+      "name": "HCLTech",
+      "url": "https://www.hcltech.com/careers"
+    },
+    {
+      "name": "Tech Mahindra",
+      "url": "https://careers.techmahindra.com"
+    },
+    {
+      "name": "LTIMindtree",
+      "url": "https://www.ltimindtree.com/careers/"
+    },
+    {
+      "name": "IBM India",
+      "url": "https://www.ibm.com/careers"
+    },
+    {
+      "name": "Mphasis",
+      "url": "https://www.mphasis.com/careers.html"
+    },
+    {
+      "name": "Persistent Systems",
+      "url": "https://www.persistent.com/careers/"
+    },
+    {
+      "name": "Zensar Technologies",
+      "url": "https://www.zensar.com/careers"
+    },
+    {
+      "name": "Birlasoft",
+      "url": "https://www.birlasoft.com/careers"
+    },
+    {
+      "name": "Coforge",
+      "url": "https://www.coforge.com/careers"
+    },
+    {
+      "name": "Cyient",
+      "url": "https://www.cyient.com/careers"
+    },
+    {
+      "name": "KPIT Technologies",
+      "url": "https://www.kpit.com/careers/"
+    },
+    {
+      "name": "Sonata Software",
+      "url": "https://www.sonata-software.com/careers"
+    },
+    {
+      "name": "Hexaware Technologies",
+      "url": "https://hexaware.com/careers/"
+    },
+    {
+      "name": "Happiest Minds",
+      "url": "https://www.happiestminds.com/careers/"
+    },
+    {
+      "name": "NIIT",
+      "url": "https://www.niit.com/careers"
+    },
+    {
+      "name": "L&T Technology Services",
+      "url": "https://www.ltts.com/careers"
+    },
+    {
+      "name": "Newgen Software",
+      "url": "https://newgensoft.com/careers/"
+    },
+    {
+      "name": "Quess Corp",
+      "url": "https://www.quesscorp.com/careers/"
+    },
+    {
+      "name": "Virtusa",
+      "url": "https://www.virtusa.com/careers"
+    },
+    {
+      "name": "Genpact",
+      "url": "https://www.genpact.com/careers"
+    },
+    {
+      "name": "EXL Service",
+      "url": "https://www.exlservice.com/careers"
+    },
+    {
+      "name": "WNS Global Services",
+      "url": "https://www.wns.com/careers"
+    },
+    {
+      "name": "Conduent",
+      "url": "https://www.conduent.com/careers/"
+    },
+    {
+      "name": "DXC Technology",
+      "url": "https://dxc.com/us/en/careers"
+    },
+    {
+      "name": "NTT DATA India",
+      "url": "https://in.nttdata.com/careers"
+    },
+    {
+      "name": "Fujitsu India",
+      "url": "https://www.fujitsu.com/in/about/careers/"
+    },
+    {
+      "name": "Amdocs India",
+      "url": "https://www.amdocs.com/careers"
+    },
+    {
+      "name": "Oracle India",
+      "url": "https://www.oracle.com/in/careers/"
+    },
+    {
+      "name": "SAP Labs India",
+      "url": "https://www.sap.com/about/careers.html"
+    },
+    {
+      "name": "Microsoft India",
+      "url": "https://careers.microsoft.com"
+    },
+    {
+      "name": "Google India",
+      "url": "https://careers.google.com"
+    },
+    {
+      "name": "Amazon India",
+      "url": "https://www.amazon.jobs"
+    },
+    {
+      "name": "Adobe India",
+      "url": "https://careers.adobe.com"
+    },
+    {
+      "name": "Salesforce India",
+      "url": "https://careers.salesforce.com"
+    },
+    {
+      "name": "VMware India",
+      "url": "https://careers.vmware.com"
+    },
+    {
+      "name": "ServiceNow India",
+      "url": "https://careers.servicenow.com"
+    },
+    {
+      "name": "Dell Technologies India",
+      "url": "https://jobs.dell.com"
+    },
+    {
+      "name": "HP India",
+      "url": "https://jobs.hp.com"
+    },
+    {
+      "name": "Cisco India",
+      "url": "https://jobs.cisco.com"
+    },
+    {
+      "name": "Intel India",
+      "url": "https://jobs.intel.com"
+    },
+    {
+      "name": "Qualcomm India",
+      "url": "https://careers.qualcomm.com"
+    },
+    {
+      "name": "Samsung R&D India",
+      "url": "https://www.samsung.com/in/careers/"
+    },
+    {
+      "name": "Zoho",
+      "url": "https://www.zoho.com/careers.html"
+    },
+    {
+      "name": "Freshworks",
+      "url": "https://www.freshworks.com/company/careers/"
+    },
+    {
+      "name": "Razorpay",
+      "url": "https://razorpay.com/jobs/"
+    },
+    {
+      "name": "Postman",
+      "url": "https://www.postman.com/company/careers/"
+    },
+    {
+      "name": "BrowserStack",
+      "url": "https://www.browserstack.com/careers"
+    },
+    {
+      "name": "Chargebee",
+      "url": "https://www.chargebee.com/careers/"
+    },
+    {
+      "name": "CRED",
+      "url": "https://careers.cred.club"
+    },
+    {
+      "name": "Groww",
+      "url": "https://groww.in/careers"
+    },
+    {
+      "name": "Meesho",
+      "url": "https://www.meesho.io/careers"
+    },
+    {
+      "name": "PhonePe",
+      "url": "https://www.phonepe.com/careers/"
+    },
+    {
+      "name": "Paytm",
+      "url": "https://jobs.paytm.com"
+    },
+    {
+      "name": "Swiggy",
+      "url": "https://careers.swiggy.com"
+    },
+    {
+      "name": "Zomato",
+      "url": "https://www.zomato.com/careers"
+    },
+    {
+      "name": "Flipkart",
+      "url": "https://www.flipkartcareers.com"
+    },
+    {
+      "name": "Myntra",
+      "url": "https://careers.myntra.com"
+    },
+    {
+      "name": "Nykaa",
+      "url": "https://www.nykaa.com/careers"
+    },
+    {
+      "name": "Tata Elxsi",
+      "url": "https://www.tataelxsi.com/careers"
+    },
+    {
+      "name": "Mindtree",
+      "url": "https://www.ltimindtree.com/careers"
+    },
+    {
+      "name": "KPIT",
+      "url": "https://www.kpit.com/careers"
+    },
+    {
+      "name": "Persistent",
+      "url": "https://www.persistent.com/careers"
+    },
+    {
+      "name": "Nucleus Software",
+      "url": "https://www.nucleussoftware.com/careers"
+    },
+    {
+      "name": "Intellect Design Arena",
+      "url": "https://www.intellectdesign.com/careers"
+    },
+    {
+      "name": "Subex",
+      "url": "https://www.subex.com/careers"
+    },
+    {
+      "name": "Sasken Technologies",
+      "url": "https://www.sasken.com/careers"
+    },
+    {
+      "name": "Tanla Platforms",
+      "url": "https://www.tanla.com/careers"
+    },
+    {
+      "name": "Route Mobile",
+      "url": "https://routemobile.com/careers"
+    },
+    {
+      "name": "Affle India",
+      "url": "https://www.affle.com/careers"
+    },
+    {
+      "name": "Nazara Technologies",
+      "url": "https://nazara.com/careers"
+    },
+    {
+      "name": "Info Edge (Naukri)",
+      "url": "https://www.infoedge.in/careers"
+    },
+    {
+      "name": "Justdial",
+      "url": "https://www.justdial.com/careers"
+    },
+    {
+      "name": "Indiamart",
+      "url": "https://www.indiamart.com/careers"
+    },
+    {
+      "name": "CarTrade",
+      "url": "https://www.cartrade.com/careers"
+    },
+    {
+      "name": "EaseMyTrip",
+      "url": "https://www.easemytrip.com/careers"
+    },
+    {
+      "name": "Yatra Online",
+      "url": "https://www.yatra.com/careers"
+    },
+    {
+      "name": "MakeMyTrip",
+      "url": "https://careers.makemytrip.com"
+    },
+    {
+      "name": "PolicyBazaar",
+      "url": "https://www.policybazaar.com/careers"
+    },
+    {
+      "name": "Delhivery",
+      "url": "https://www.delhivery.com/careers"
+    },
+    {
+      "name": "Shadowfax",
+      "url": "https://shadowfax.in/careers"
+    },
+    {
+      "name": "Porter",
+      "url": "https://porter.in/careers"
+    },
+    {
+      "name": "BlackBuck",
+      "url": "https://www.blackbuck.com/careers"
+    },
+    {
+      "name": "Rivigo",
+      "url": "https://www.rivigo.com/careers"
+    },
+    {
+      "name": "Shiprocket",
+      "url": "https://www.shiprocket.in/careers"
+    },
+    {
+      "name": "Dunzo",
+      "url": "https://www.dunzo.com/careers"
+    },
+    {
+      "name": "Blinkit",
+      "url": "https://blinkit.com/careers"
+    },
+    {
+      "name": "Zepto",
+      "url": "https://www.zeptonow.com/careers"
+    },
+    {
+      "name": "BigBasket",
+      "url": "https://www.bigbasket.com/careers"
+    },
+    {
+      "name": "Urban Company",
+      "url": "https://www.urbancompany.com/careers"
+    },
+    {
+      "name": "Lenskart",
+      "url": "https://lenskart.com/careers"
+    },
+    {
+      "name": "FirstCry",
+      "url": "https://www.firstcry.com/careers"
+    },
+    {
+      "name": "Purplle",
+      "url": "https://www.purplle.com/careers"
+    },
+    {
+      "name": "Mamaearth",
+      "url": "https://mamaearth.in/careers"
+    },
+    {
+      "name": "Sugar Cosmetics",
+      "url": "https://sugarcosmetics.com/careers"
+    },
+    {
+      "name": "Boat Lifestyle",
+      "url": "https://www.boat-lifestyle.com/careers"
+    },
+    {
+      "name": "Noise",
+      "url": "https://www.gonoise.com/careers"
+    },
+    {
+      "name": "Cult.fit (Curefit)",
+      "url": "https://cult.fit/careers"
+    },
+    {
+      "name": "HealthifyMe",
+      "url": "https://www.healthifyme.com/careers"
+    },
+    {
+      "name": "PharmEasy",
+      "url": "https://pharmeasy.in/careers"
+    },
+    {
+      "name": "1mg (Tata 1mg)",
+      "url": "https://www.1mg.com/careers"
+    },
+    {
+      "name": "Practo",
+      "url": "https://www.practo.com/careers"
+    },
+    {
+      "name": "Pristyn Care",
+      "url": "https://www.pristyncare.com/careers"
+    },
+    {
+      "name": "Upstox",
+      "url": "https://upstox.com/careers"
+    },
+    {
+      "name": "Zerodha",
+      "url": "https://zerodha.com/careers"
+    },
+    {
+      "name": "Angel One",
+      "url": "https://www.angelone.in/careers"
+    },
+    {
+      "name": "5paisa",
+      "url": "https://www.5paisa.com/careers"
+    },
+    {
+      "name": "Dhan",
+      "url": "https://dhan.co/careers"
+    },
+    {
+      "name": "Kuvera",
+      "url": "https://kuvera.in/careers"
+    },
+    {
+      "name": "Scripbox",
+      "url": "https://scripbox.com/careers"
+    },
+    {
+      "name": "INDmoney",
+      "url": "https://www.indmoney.com/careers"
+    },
+    {
+      "name": "BharatPe",
+      "url": "https://bharatpe.com/careers"
+    },
+    {
+      "name": "MobiKwik",
+      "url": "https://www.mobikwik.com/careers"
+    },
+    {
+      "name": "PayU India",
+      "url": "https://corporate.payu.com/careers"
+    },
+    {
+      "name": "Cashfree Payments",
+      "url": "https://www.cashfree.com/careers"
+    },
+    {
+      "name": "Pine Labs",
+      "url": "https://www.pinelabs.com/careers"
+    },
+    {
+      "name": "Mswipe",
+      "url": "https://www.mswipe.com/careers"
+    },
+    {
+      "name": "Khatabook",
+      "url": "https://khatabook.com/careers"
+    },
+    {
+      "name": "OkCredit",
+      "url": "https://okcredit.in/careers"
+    },
+    {
+      "name": "Clear (ClearTax)",
+      "url": "https://cleartax.in/careers"
+    },
+    {
+      "name": "CleverTap",
+      "url": "https://clevertap.com/careers"
+    },
+    {
+      "name": "MoEngage",
+      "url": "https://www.moengage.com/careers"
+    },
+    {
+      "name": "WebEngage",
+      "url": "https://webengage.com/careers"
+    },
+    {
+      "name": "LeadSquared",
+      "url": "https://www.leadsquared.com/careers"
+    },
+    {
+      "name": "Wingify (VWO)",
+      "url": "https://wingify.com/careers"
+    },
+    {
+      "name": "Whatfix",
+      "url": "https://whatfix.com/careers"
+    },
+    {
+      "name": "Icertis",
+      "url": "https://www.icertis.com/careers"
+    },
+    {
+      "name": "Darwinbox",
+      "url": "https://darwinbox.com/careers"
+    },
+    {
+      "name": "Keka HR",
+      "url": "https://www.keka.com/careers"
+    },
+    {
+      "name": "Greythr",
+      "url": "https://www.greythr.com/careers"
+    },
+    {
+      "name": "Unacademy",
+      "url": "https://unacademy.com/careers"
+    },
+    {
+      "name": "PhysicsWallah",
+      "url": "https://www.pw.live/careers"
+    },
+    {
+      "name": "Vedantu",
+      "url": "https://www.vedantu.com/careers"
+    },
+    {
+      "name": "Eruditus",
+      "url": "https://eruditus.com/careers"
+    },
+    {
+      "name": "upGrad",
+      "url": "https://www.upgrad.com/careers"
+    },
+    {
+      "name": "Simplilearn",
+      "url": "https://www.simplilearn.com/careers"
+    },
+    {
+      "name": "Great Learning",
+      "url": "https://www.mygreatlearning.com/careers"
+    },
+    {
+      "name": "Scaler (InterviewBit)",
+      "url": "https://www.scaler.com/careers"
+    },
+    {
+      "name": "GeeksforGeeks",
+      "url": "https://www.geeksforgeeks.org/careers"
+    },
+    {
+      "name": "HackerEarth",
+      "url": "https://www.hackerearth.com/companies/careers"
+    },
+    {
+      "name": "HackerRank",
+      "url": "https://www.hackerrank.com/careers"
+    },
+    {
+      "name": "CodeChef",
+      "url": "https://www.codechef.com/careers"
+    },
+    {
+      "name": "Games24x7",
+      "url": "https://www.games24x7.com/careers"
+    },
+    {
+      "name": "Dream11",
+      "url": "https://about.dream11.in/careers"
+    },
+    {
+      "name": "MPL (Mobile Premier League)",
+      "url": "https://www.mpl.live/careers"
+    },
+    {
+      "name": "WinZO Games",
+      "url": "https://www.winzogames.com/careers"
+    },
+    {
+      "name": "Junglee Games",
+      "url": "https://www.jungleegames.com/careers"
+    }
   ]
 }
