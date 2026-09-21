@@ -134,39 +134,40 @@
     "org": "Paytm",
     "title": "Business Analyst",
     "location": "Noida, Uttar Pradesh",
-    "batch": "2024, 2025 & 2026 Graduates",
-    "salary": "₹25,000 – ₹50,000/month (Stipend) + Full-time PPO",
+    "batch": "2020 - 2023 Batches (2-5 Years Experience)",
+    "salary": "₹7.0 - ₹12.0 LPA",
     "posted": "Today",
     "isNew": true,
     "lastDate": "Accepting Applications",
-    "vacancies": "Multiple Openings (Fresher Intake)",
+    "vacancies": "Multiple Openings",
     "applyUrl": "https://jobs.lever.co/paytm/8a118b61-3e1a-4d5c-835a-04d05197c2aa",
     "slug": "/docs/jobs/paytm-business-analyst.html",
-    "about": "Paytm is seeking an entry-level candidate for the Business Analyst position in Noida, Uttar Pradesh. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
-    "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in Python, SQL, Relational DBs preferred.",
+    "about": "The Business Analyst at Paytm is responsible for analyzing large datasets to identify growth opportunities, market trends, and operational gaps. Key daily tasks involve writing complex SQL queries, building interactive Power BI dashboards, and automating recurring performance reports. The role requires working with cross-functional teams to communicate data-backed insights directly to leadership.",
+    "eligibility": "Open to graduates in relevant streams (2020 - 2023 Batches (2-5 Years Experience)). Hands-on skills in SQL, Power BI, Excel preferred.",
     "prep": [
       {
         "t": "Aptitude & Reasoning Focus",
         "items": [
-          "Quantitative Aptitude: Percentages, Profit & Loss, Time-Speed-Distance, and Probability",
-          "Logical Reasoning: Coding-Decoding, Seating Arrangements, Syllogisms, and Pattern Series",
-          "Verbal Ability: Reading Comprehension, Sentence Correction, and Technical Vocabulary"
+          "Data Interpretation",
+          "Logical Reasoning",
+          "Quantitative Aptitude",
+          "Business Case Analysis"
         ]
       },
       {
         "t": "Technical Assessment & Coding",
         "items": [
-          "Arrays, Strings, Two-Pointer technique, and HashMaps (LeetCode Easy to Medium)",
-          "Recursion, Binary Search, and Tree traversals (BFS & DFS)",
-          "Object-Oriented Programming (OOP) concepts, DBMS Queries, and Operating Systems Basics"
+          "SQL Window Functions & Subqueries",
+          "Data Aggregation & Grouping",
+          "Python Data Manipulation (Pandas)",
+          "Database Schema & Relational Modeling"
         ]
       },
       {
         "t": "Interview Strategy",
         "items": [
-          "Review your final-year college project or internships thoroughly — explain architectural choices clearly for Paytm.",
-          "Prepare to write clean, compiling code with optimal Time and Space complexity (Big-O analysis).",
-          "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
+          "Practice writing complex SQL queries live, focusing heavily on joins, CTEs, and window functions like RANK() and NTILE().",
+          "Be ready to analyze Fintech business scenarios and discuss key product metrics such as CAC, LTV, churn rate, and transaction success rates."
         ]
       }
     ]
@@ -177,39 +178,40 @@
     "org": "Paytm",
     "title": "Credit Risk Analyst",
     "location": "Noida, Uttar Pradesh",
-    "batch": "2024, 2025 & 2026 Graduates",
-    "salary": "₹8.0 – ₹16.0 LPA (Role Dependent)",
+    "batch": "2019 - 2023 Batches (2 to 5 years experience required)",
+    "salary": "₹10.0 - ₹18.0 LPA",
     "posted": "Today",
     "isNew": true,
     "lastDate": "Accepting Applications",
-    "vacancies": "Multiple Openings (Fresher Intake)",
+    "vacancies": "Multiple Openings",
     "applyUrl": "https://jobs.lever.co/paytm/ad781ae8-cd4a-44c1-a74b-2822118b7c3d",
     "slug": "/docs/jobs/paytm-credit-risk-analyst.html",
-    "about": "Paytm is seeking an entry-level candidate for the Credit Risk Analyst position in Noida, Uttar Pradesh. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
-    "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in Python, SQL, Relational DBs preferred.",
+    "about": "The Credit Risk Analyst will monitor, analyze, and optimize Paytm's consumer and merchant lending portfolios to manage risk and drive business growth. Key responsibilities include designing risk strategies, loss forecasting, stress testing, and leveraging analytical solutions to support data-driven decision-making.",
+    "eligibility": "Open to graduates in relevant streams (2019 - 2023 Batches (2 to 5 years experience required)). Hands-on skills in SQL, Python, R preferred.",
     "prep": [
       {
         "t": "Aptitude & Reasoning Focus",
         "items": [
-          "Quantitative Aptitude: Percentages, Profit & Loss, Time-Speed-Distance, and Probability",
-          "Logical Reasoning: Coding-Decoding, Seating Arrangements, Syllogisms, and Pattern Series",
-          "Verbal Ability: Reading Comprehension, Sentence Correction, and Technical Vocabulary"
+          "Data Interpretation",
+          "Probability & Statistics",
+          "Logical Reasoning",
+          "Business Mathematics"
         ]
       },
       {
         "t": "Technical Assessment & Coding",
         "items": [
-          "Arrays, Strings, Two-Pointer technique, and HashMaps (LeetCode Easy to Medium)",
-          "Recursion, Binary Search, and Tree traversals (BFS & DFS)",
-          "Object-Oriented Programming (OOP) concepts, DBMS Queries, and Operating Systems Basics"
+          "Complex SQL Queries & Aggregations",
+          "Data Wrangling with Python/Pandas",
+          "Credit Risk Scorecard Development",
+          "Predictive Modeling & ML Algorithms"
         ]
       },
       {
         "t": "Interview Strategy",
         "items": [
-          "Review your final-year college project or internships thoroughly — explain architectural choices clearly for Paytm.",
-          "Prepare to write clean, compiling code with optimal Time and Space complexity (Big-O analysis).",
-          "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
+          "Brush up on financial risk domain metrics like Delinquency Buckets, DPD, NPA, Loss Given Default (LGD), and Bureau Scorecards.",
+          "Be prepared for hands-on SQL and Python live-coding exercises focused on data cleaning, aggregations, and business metrics calculation."
         ]
       }
     ]
@@ -220,39 +222,39 @@
     "org": "Paytm",
     "title": "CST - Associate - Bill Payments CST",
     "location": "Noida, Uttar Pradesh",
-    "batch": "2024, 2025 & 2026 Graduates",
-    "salary": "₹3.6 – ₹6.0 LPA",
+    "batch": "2023, 2024 & 2025 Batches (Any Graduate)",
+    "salary": "₹2.5 - ₹4.0 LPA",
     "posted": "Today",
     "isNew": true,
     "lastDate": "Accepting Applications",
-    "vacancies": "Multiple Openings (Fresher Intake)",
+    "vacancies": "Multiple Openings",
     "applyUrl": "https://jobs.lever.co/paytm/271d28ce-e61c-4216-b7d4-adddd79eefa6",
     "slug": "/docs/jobs/paytm-cst-associate-bill-payments-cst.html",
-    "about": "Paytm is seeking an entry-level candidate for the CST - Associate - Bill Payments CST position in Noida, Uttar Pradesh. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
-    "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in Data Structures, Data Analytics preferred.",
+    "about": "As a Customer Service Team (CST) Associate at Paytm, you will handle day-to-day customer and merchant inquiries regarding bill payments via call and chat channels. You will be responsible for resolving complaints within defined Turnaround Times (TAT), maintaining brand consistency, and ensuring a seamless end-to-end customer experience.",
+    "eligibility": "Open to graduates in relevant streams (2023, 2024 & 2025 Batches (Any Graduate)). Hands-on skills in CRM Tools, Ticketing Systems, MS Excel preferred.",
     "prep": [
       {
         "t": "Aptitude & Reasoning Focus",
         "items": [
-          "Quantitative Aptitude: Percentages, Profit & Loss, Time-Speed-Distance, and Probability",
-          "Logical Reasoning: Coding-Decoding, Seating Arrangements, Syllogisms, and Pattern Series",
-          "Verbal Ability: Reading Comprehension, Sentence Correction, and Technical Vocabulary"
+          "Verbal Ability & Grammar",
+          "Reading Comprehension",
+          "Logical Reasoning",
+          "Data Interpretation"
         ]
       },
       {
         "t": "Technical Assessment & Coding",
         "items": [
-          "Arrays, Strings, Two-Pointer technique, and HashMaps (LeetCode Easy to Medium)",
-          "Recursion, Binary Search, and Tree traversals (BFS & DFS)",
-          "Object-Oriented Programming (OOP) concepts, DBMS Queries, and Operating Systems Basics"
+          "Basic SQL Queries",
+          "Logical Flowcharts",
+          "Data Handling & Sorting"
         ]
       },
       {
         "t": "Interview Strategy",
         "items": [
-          "Review your final-year college project or internships thoroughly — explain architectural choices clearly for Paytm.",
-          "Prepare to write clean, compiling code with optimal Time and Space complexity (Big-O analysis).",
-          "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
+          "Demonstrate clear communication skills and practice answering situational customer service scenario questions effectively.",
+          "Highlight your ability to work under pressure, meet tight Turnaround Times (TAT), and manage multi-tasking across channels."
         ]
       }
     ]
@@ -688,49 +690,6 @@
     ]
   },
   {
-    "id": "paytm-product-design-intern-paytm",
-    "sector": "private",
-    "org": "Paytm",
-    "title": "Product Design Intern- Paytm",
-    "location": "Noida, Uttar Pradesh",
-    "batch": "2024, 2025 & 2026 Graduates",
-    "salary": "₹25,000 – ₹50,000/month (Stipend) + Full-time PPO",
-    "posted": "Today",
-    "isNew": true,
-    "lastDate": "Accepting Applications",
-    "vacancies": "Multiple Openings (Fresher Intake)",
-    "applyUrl": "https://jobs.lever.co/paytm/3876b70d-85d2-4128-b3b1-91f078c10eb0",
-    "slug": "/docs/jobs/paytm-product-design-intern-paytm.html",
-    "about": "Paytm is seeking an entry-level candidate for the Product Design Intern- Paytm position in Noida, Uttar Pradesh. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
-    "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in Automation Testing, Selenium, Data Structures preferred.",
-    "prep": [
-      {
-        "t": "Aptitude & Reasoning Focus",
-        "items": [
-          "Quantitative Aptitude: Percentages, Profit & Loss, Time-Speed-Distance, and Probability",
-          "Logical Reasoning: Coding-Decoding, Seating Arrangements, Syllogisms, and Pattern Series",
-          "Verbal Ability: Reading Comprehension, Sentence Correction, and Technical Vocabulary"
-        ]
-      },
-      {
-        "t": "Technical Assessment & Coding",
-        "items": [
-          "Arrays, Strings, Two-Pointer technique, and HashMaps (LeetCode Easy to Medium)",
-          "Recursion, Binary Search, and Tree traversals (BFS & DFS)",
-          "Object-Oriented Programming (OOP) concepts, DBMS Queries, and Operating Systems Basics"
-        ]
-      },
-      {
-        "t": "Interview Strategy",
-        "items": [
-          "Review your final-year college project or internships thoroughly — explain architectural choices clearly for Paytm.",
-          "Prepare to write clean, compiling code with optimal Time and Space complexity (Big-O analysis).",
-          "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
-        ]
-      }
-    ]
-  },
-  {
     "id": "paytm-risk-analyst-exp-1-to-3-yrs",
     "sector": "private",
     "org": "Paytm",
@@ -946,49 +905,6 @@
     ]
   },
   {
-    "id": "paytm-visual-design-intern-paytm",
-    "sector": "private",
-    "org": "Paytm",
-    "title": "Visual Design Intern- Paytm",
-    "location": "Noida, Uttar Pradesh",
-    "batch": "2024, 2025 & 2026 Graduates",
-    "salary": "₹25,000 – ₹50,000/month (Stipend) + Full-time PPO",
-    "posted": "Today",
-    "isNew": true,
-    "lastDate": "Accepting Applications",
-    "vacancies": "Multiple Openings (Fresher Intake)",
-    "applyUrl": "https://jobs.lever.co/paytm/4f0b8508-1fae-45ae-bc09-67291ea3c447",
-    "slug": "/docs/jobs/paytm-visual-design-intern-paytm.html",
-    "about": "Paytm is seeking an entry-level candidate for the Visual Design Intern- Paytm position in Noida, Uttar Pradesh. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
-    "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in Data Structures, Data Analytics preferred.",
-    "prep": [
-      {
-        "t": "Aptitude & Reasoning Focus",
-        "items": [
-          "Quantitative Aptitude: Percentages, Profit & Loss, Time-Speed-Distance, and Probability",
-          "Logical Reasoning: Coding-Decoding, Seating Arrangements, Syllogisms, and Pattern Series",
-          "Verbal Ability: Reading Comprehension, Sentence Correction, and Technical Vocabulary"
-        ]
-      },
-      {
-        "t": "Technical Assessment & Coding",
-        "items": [
-          "Arrays, Strings, Two-Pointer technique, and HashMaps (LeetCode Easy to Medium)",
-          "Recursion, Binary Search, and Tree traversals (BFS & DFS)",
-          "Object-Oriented Programming (OOP) concepts, DBMS Queries, and Operating Systems Basics"
-        ]
-      },
-      {
-        "t": "Interview Strategy",
-        "items": [
-          "Review your final-year college project or internships thoroughly — explain architectural choices clearly for Paytm.",
-          "Prepare to write clean, compiling code with optimal Time and Space complexity (Big-O analysis).",
-          "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
-        ]
-      }
-    ]
-  },
-  {
     "id": "meesho-trainee-recruitment-coordinator",
     "sector": "private",
     "org": "Meesho",
@@ -1080,39 +996,38 @@
     "org": "Zeta",
     "title": "Cloud Network Engineer II",
     "location": "Hyderabad",
-    "batch": "2025 & 2026 Batch Graduates",
-    "salary": "₹8.0 – ₹16.0 LPA (Role Dependent)",
+    "batch": "2023, 2024 & 2025 Batches",
+    "salary": "₹12.0 - ₹20.0 LPA",
     "posted": "Today",
     "isNew": true,
     "lastDate": "Accepting Applications",
-    "vacancies": "Multiple Openings (Fresher Intake)",
+    "vacancies": "Multiple Openings",
     "applyUrl": "https://jobs.lever.co/zeta/dad16204-8051-4517-9e50-966f329045b5",
     "slug": "/docs/jobs/zeta-cloud-network-engineer-ii.html",
-    "about": "Zeta is seeking an entry-level candidate for the Cloud Network Engineer II position in Hyderabad. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
-    "eligibility": "Open to graduates in relevant streams (2025 & 2026 Batch Graduates). Hands-on skills in Cloud Computing (AWS/Azure), Data Structures, Data Analytics preferred.",
+    "about": "As a Cloud Network Engineer II at Zeta, you will design, implement, and manage secure, high-availability cloud network infrastructure for scalable banking platforms. You will be responsible for configuring VPCs, routing, load balancers, and firewalls to ensure seamless connectivity across multi-cloud environments. Additionally, you will automate network operations and monitor network performance to meet strict financial security standards.",
+    "eligibility": "Open to graduates in relevant streams (2023, 2024 & 2025 Batches). Hands-on skills in AWS/GCP Cloud Networking, TCP/IP & BGP Protocols, Terraform preferred.",
     "prep": [
       {
         "t": "Aptitude & Reasoning Focus",
         "items": [
-          "Quantitative Aptitude: Percentages, Profit & Loss, Time-Speed-Distance, and Probability",
-          "Logical Reasoning: Coding-Decoding, Seating Arrangements, Syllogisms, and Pattern Series",
-          "Verbal Ability: Reading Comprehension, Sentence Correction, and Technical Vocabulary"
+          "Subnetting & Network Math",
+          "Logical Reasoning",
+          "Data Interpretation"
         ]
       },
       {
         "t": "Technical Assessment & Coding",
         "items": [
-          "Arrays, Strings, Two-Pointer technique, and HashMaps (LeetCode Easy to Medium)",
-          "Recursion, Binary Search, and Tree traversals (BFS & DFS)",
-          "Object-Oriented Programming (OOP) concepts, DBMS Queries, and Operating Systems Basics"
+          "Scripting & Automation",
+          "Basic DSA (Arrays, Hash Maps)",
+          "Operating Systems & Computer Networks"
         ]
       },
       {
         "t": "Interview Strategy",
         "items": [
-          "Review your final-year college project or internships thoroughly — explain architectural choices clearly for Zeta.",
-          "Prepare to write clean, compiling code with optimal Time and Space complexity (Big-O analysis).",
-          "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
+          "Be thoroughly prepared on core networking fundamentals like TCP/IP stack, DNS, BGP, VPNs, and VPC peering.",
+          "Emphasize your understanding of high-availability, fault-tolerant system design suited for fintech and banking infrastructure."
         ]
       }
     ]
@@ -1252,39 +1167,40 @@
     "org": "Zeta",
     "title": "Product Security Engineer II",
     "location": "Hyderabad",
-    "batch": "2025 & 2026 Batch Graduates",
-    "salary": "₹8.0 – ₹16.0 LPA (Role Dependent)",
+    "batch": "2023, 2024 & 2025 Batches",
+    "salary": "₹14.0 - ₹22.0 LPA",
     "posted": "Today",
     "isNew": true,
     "lastDate": "Accepting Applications",
-    "vacancies": "Multiple Openings (Fresher Intake)",
+    "vacancies": "Multiple Openings",
     "applyUrl": "https://jobs.lever.co/zeta/e21ca17d-7bf2-4781-94bb-bcfc8943aae0",
     "slug": "/docs/jobs/zeta-product-security-engineer-ii.html",
-    "about": "Zeta is seeking an entry-level candidate for the Product Security Engineer II position in Hyderabad. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
-    "eligibility": "Open to graduates in relevant streams (2025 & 2026 Batch Graduates). Hands-on skills in Cloud Computing (AWS/Azure), Data Structures, Data Analytics preferred.",
+    "about": "As a Product Security Engineer II at Zeta, you will be responsible for identifying, mitigating, and managing security vulnerabilities across cloud-native banking and payment platforms. You will conduct threat modeling, secure code reviews, and penetration testing while working closely with engineering teams. Additionally, you will design automated security tooling and enforce strict compliance with financial security standards.",
+    "eligibility": "Open to graduates in relevant streams (2023, 2024 & 2025 Batches). Hands-on skills in OWASP Top 10, Application Security, Penetration Testing preferred.",
     "prep": [
       {
         "t": "Aptitude & Reasoning Focus",
         "items": [
-          "Quantitative Aptitude: Percentages, Profit & Loss, Time-Speed-Distance, and Probability",
-          "Logical Reasoning: Coding-Decoding, Seating Arrangements, Syllogisms, and Pattern Series",
-          "Verbal Ability: Reading Comprehension, Sentence Correction, and Technical Vocabulary"
+          "Logical Reasoning",
+          "Data Interpretation",
+          "Quantitative Aptitude",
+          "Verbal Ability"
         ]
       },
       {
         "t": "Technical Assessment & Coding",
         "items": [
-          "Arrays, Strings, Two-Pointer technique, and HashMaps (LeetCode Easy to Medium)",
-          "Recursion, Binary Search, and Tree traversals (BFS & DFS)",
-          "Object-Oriented Programming (OOP) concepts, DBMS Queries, and Operating Systems Basics"
+          "Hashing & Cryptography Algorithms",
+          "Data Structures & Algorithms",
+          "Secure Coding Practices",
+          "System Security & Authentication Design"
         ]
       },
       {
         "t": "Interview Strategy",
         "items": [
-          "Review your final-year college project or internships thoroughly — explain architectural choices clearly for Zeta.",
-          "Prepare to write clean, compiling code with optimal Time and Space complexity (Big-O analysis).",
-          "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
+          "Focus heavily on OWASP Top 10 vulnerabilities, secure code review methodologies, and threat modeling for distributed banking architectures.",
+          "Be prepared to discuss Zeta's core products (like Tachyon and Cipher) and align your responses with their culture of extreme ownership and engineering excellence."
         ]
       }
     ]
@@ -1433,6 +1349,49 @@
     "applyUrl": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4729937005",
     "slug": "/docs/jobs/razorpay-associate-learning-business-partner.html",
     "about": "Razorpay is seeking an entry-level candidate for the Associate, Learning Business Partner position in Bengaluru. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
+    "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in Automation Testing, Selenium, Data Structures preferred.",
+    "prep": [
+      {
+        "t": "Aptitude & Reasoning Focus",
+        "items": [
+          "Quantitative Aptitude: Percentages, Profit & Loss, Time-Speed-Distance, and Probability",
+          "Logical Reasoning: Coding-Decoding, Seating Arrangements, Syllogisms, and Pattern Series",
+          "Verbal Ability: Reading Comprehension, Sentence Correction, and Technical Vocabulary"
+        ]
+      },
+      {
+        "t": "Technical Assessment & Coding",
+        "items": [
+          "Arrays, Strings, Two-Pointer technique, and HashMaps (LeetCode Easy to Medium)",
+          "Recursion, Binary Search, and Tree traversals (BFS & DFS)",
+          "Object-Oriented Programming (OOP) concepts, DBMS Queries, and Operating Systems Basics"
+        ]
+      },
+      {
+        "t": "Interview Strategy",
+        "items": [
+          "Review your final-year college project or internships thoroughly — explain architectural choices clearly for Razorpay.",
+          "Prepare to write clean, compiling code with optimal Time and Space complexity (Big-O analysis).",
+          "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "razorpay-associate-mid-market-sales",
+    "sector": "private",
+    "org": "Razorpay",
+    "title": "Associate, Mid Market Sales",
+    "location": "Bengaluru",
+    "batch": "2024, 2025 & 2026 Graduates",
+    "salary": "₹25,000 – ₹50,000/month (Stipend) + Full-time PPO",
+    "posted": "Today",
+    "isNew": true,
+    "lastDate": "Accepting Applications",
+    "vacancies": "Multiple Openings (Fresher Intake)",
+    "applyUrl": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4736136005",
+    "slug": "/docs/jobs/razorpay-associate-mid-market-sales.html",
+    "about": "Razorpay is seeking an entry-level candidate for the Associate, Mid Market Sales position in Bengaluru. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
     "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in Automation Testing, Selenium, Data Structures preferred.",
     "prep": [
       {
@@ -2198,39 +2157,38 @@
     "org": "Stage",
     "title": "Human Capital - Leaves & Accommodation- Sr Analyst/Associate",
     "location": "Gurugram",
-    "batch": "2024, 2025 & 2026 Graduates",
-    "salary": "₹25,000 – ₹50,000/month (Stipend) + Full-time PPO",
+    "batch": "2023, 2024 & 2025 Batches (MBA HR / Any Graduate with relevant internship experience)",
+    "salary": "₹6.5 - ₹10.5 LPA",
     "posted": "Today",
     "isNew": true,
     "lastDate": "Accepting Applications",
-    "vacancies": "Multiple Openings (Fresher Intake)",
+    "vacancies": "Multiple Openings",
     "applyUrl": "https://www.kkr.com/careers/career-opportunities/post?gh_jid=5996783004",
     "slug": "/docs/jobs/stage-human-capital-leaves-accommodation-sr-analyst-associate.html",
-    "about": "Stage is seeking an entry-level candidate for the Human Capital - Leaves & Accommodation- Sr Analyst/Associate position in Gurugram. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
-    "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in Cloud Computing (AWS/Azure), Data Structures, Data Analytics preferred.",
+    "about": "The candidate will manage day-to-day leave of absence and employee benefits operations for KKR's Americas region (U.S., Canada, Bermuda). Core daily duties include handling employee leave inquiries, vendor service delivery, and administering healthcare and wellness programs. The role also requires driving process efficiency and enhancing overall employee utilization of benefits.",
+    "eligibility": "Open to graduates in relevant streams (2023, 2024 & 2025 Batches (MBA HR / Any Graduate with relevant internship experience)). Hands-on skills in Workday HRIS, MS Excel, ServiceNow HRSD preferred.",
     "prep": [
       {
         "t": "Aptitude & Reasoning Focus",
         "items": [
-          "Quantitative Aptitude: Percentages, Profit & Loss, Time-Speed-Distance, and Probability",
-          "Logical Reasoning: Coding-Decoding, Seating Arrangements, Syllogisms, and Pattern Series",
-          "Verbal Ability: Reading Comprehension, Sentence Correction, and Technical Vocabulary"
+          "Verbal Communication & Email Etiquette",
+          "Data Interpretation & Charts",
+          "Logical Reasoning"
         ]
       },
       {
         "t": "Technical Assessment & Coding",
         "items": [
-          "Arrays, Strings, Two-Pointer technique, and HashMaps (LeetCode Easy to Medium)",
-          "Recursion, Binary Search, and Tree traversals (BFS & DFS)",
-          "Object-Oriented Programming (OOP) concepts, DBMS Queries, and Operating Systems Basics"
+          "Advanced MS Excel (VLOOKUP, Pivot Tables)",
+          "HR Operations & Analytics",
+          "Process Documentation & Mapping"
         ]
       },
       {
         "t": "Interview Strategy",
         "items": [
-          "Review your final-year college project or internships thoroughly — explain architectural choices clearly for Stage.",
-          "Prepare to write clean, compiling code with optimal Time and Space complexity (Big-O analysis).",
-          "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
+          "Highlight knowledge or interest in U.S. and North American employee benefits policies (e.g., FMLA, standard leaves) and global HR operations.",
+          "Prepare behavioral answers showcasing clear, empathetic written communication and strong attention to detail in handling sensitive employee queries."
         ]
       }
     ]
