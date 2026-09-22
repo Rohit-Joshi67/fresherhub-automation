@@ -1,9 +1,9 @@
 [
   {
-    "id": "paytm-accounts-payable-specialist-mumbai",
+    "id": "paytm-accounts-payable-specialist-paytm-money",
     "sector": "private",
     "org": "Paytm",
-    "title": "Accounts Payable  Specialist - Mumbai",
+    "title": "Accounts Payable Specialist - Paytm Money",
     "location": "Mumbai, Maharashtra",
     "batch": "2024, 2025 & 2026 Graduates",
     "salary": "₹25,000 – ₹50,000/month (Stipend) + Full-time PPO",
@@ -12,8 +12,8 @@
     "lastDate": "Accepting Applications",
     "vacancies": "Multiple Openings (Fresher Intake)",
     "applyUrl": "https://jobs.lever.co/paytm/86665c39-2182-4d69-8b8c-33eac104ec2b",
-    "slug": "/docs/jobs/paytm-accounts-payable-specialist-mumbai.html",
-    "about": "Paytm is seeking an entry-level candidate for the Accounts Payable  Specialist - Mumbai position in Mumbai, Maharashtra. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
+    "slug": "/docs/jobs/paytm-accounts-payable-specialist-paytm-money.html",
+    "about": "Paytm is seeking an entry-level candidate for the Accounts Payable Specialist - Paytm Money position in Mumbai, Maharashtra. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
     "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in Data Structures, Data Analytics preferred.",
     "prep": [
       {
@@ -91,39 +91,38 @@
     "org": "Paytm",
     "title": "Associate - TA Tech",
     "location": "Noida, Uttar Pradesh",
-    "batch": "2024, 2025 & 2026 Graduates",
-    "salary": "₹25,000 – ₹50,000/month (Stipend) + Full-time PPO",
+    "batch": "2020 - 2024 Batches (Any Graduate / MBA in HR)",
+    "salary": "₹4.5 - ₹8.0 LPA",
     "posted": "Today",
     "isNew": true,
     "lastDate": "Accepting Applications",
-    "vacancies": "Multiple Openings (Fresher Intake)",
+    "vacancies": "Multiple Openings",
     "applyUrl": "https://jobs.lever.co/paytm/55fa4f0c-09b4-426c-bd7f-5b43140f5ed5",
     "slug": "/docs/jobs/paytm-associate-ta-tech.html",
-    "about": "Paytm is seeking an entry-level candidate for the Associate - TA Tech position in Noida, Uttar Pradesh. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
-    "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in SQL, Relational DBs, Data Structures preferred.",
+    "about": "Manage end-to-end recruitment for technical positions at Paytm, focusing on candidate sourcing via portals like LinkedIn Recruiter and Naukri. Organize virtual and walk-in hiring drives to execute volume tech recruitment while tracking recruitment MIS and metrics. Collaborate closely with technical hiring managers and HRBPs to streamline candidate screening, interviews, and onboarding.",
+    "eligibility": "Open to graduates in relevant streams (2020 - 2024 Batches (Any Graduate / MBA in HR)). Hands-on skills in LinkedIn Recruiter, Naukri Portal, Boolean Search preferred.",
     "prep": [
       {
         "t": "Aptitude & Reasoning Focus",
         "items": [
-          "Quantitative Aptitude: Percentages, Profit & Loss, Time-Speed-Distance, and Probability",
-          "Logical Reasoning: Coding-Decoding, Seating Arrangements, Syllogisms, and Pattern Series",
-          "Verbal Ability: Reading Comprehension, Sentence Correction, and Technical Vocabulary"
+          "Data Interpretation & MIS Analytics",
+          "Logical Reasoning",
+          "Verbal Ability & Business Communication"
         ]
       },
       {
         "t": "Technical Assessment & Coding",
         "items": [
-          "Arrays, Strings, Two-Pointer technique, and HashMaps (LeetCode Easy to Medium)",
-          "Recursion, Binary Search, and Tree traversals (BFS & DFS)",
-          "Object-Oriented Programming (OOP) concepts, DBMS Queries, and Operating Systems Basics"
+          "Understanding Tech Stacks (Backend, Frontend, Cloud)",
+          "Basic Software Development Life Cycle (SDLC)",
+          "IT Job Role Classifications & Frameworks"
         ]
       },
       {
         "t": "Interview Strategy",
         "items": [
-          "Review your final-year college project or internships thoroughly — explain architectural choices clearly for Paytm.",
-          "Prepare to write clean, compiling code with optimal Time and Space complexity (Big-O analysis).",
-          "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
+          "Demonstrate expertise in writing complex Boolean search strings and leveraging diverse channels for sourcing niche tech talent.",
+          "Prepare practical examples showing your ability to handle high-volume hiring drives, negotiate offers, and manage tight recruitment deadlines under pressure."
         ]
       }
     ]
@@ -134,39 +133,40 @@
     "org": "Paytm",
     "title": "Business Analyst",
     "location": "Noida, Uttar Pradesh",
-    "batch": "2024, 2025 & 2026 Graduates",
-    "salary": "₹25,000 – ₹50,000/month (Stipend) + Full-time PPO",
+    "batch": "2021 - 2023 Batches (2-5 Years Experience Required)",
+    "salary": "₹7.0 - ₹12.0 LPA",
     "posted": "Today",
     "isNew": true,
     "lastDate": "Accepting Applications",
-    "vacancies": "Multiple Openings (Fresher Intake)",
+    "vacancies": "Multiple Openings",
     "applyUrl": "https://jobs.lever.co/paytm/8a118b61-3e1a-4d5c-835a-04d05197c2aa",
     "slug": "/docs/jobs/paytm-business-analyst.html",
-    "about": "Paytm is seeking an entry-level candidate for the Business Analyst position in Noida, Uttar Pradesh. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
-    "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in Python, SQL, Relational DBs preferred.",
+    "about": "Analyze large datasets using SQL and Power BI to derive actionable business insights and track key performance metrics. Build, maintain, and automate dashboards and MIS reports for cross-functional stakeholders. Present data-backed recommendations to leadership teams to drive business growth and operational efficiency.",
+    "eligibility": "Open to graduates in relevant streams (2021 - 2023 Batches (2-5 Years Experience Required)). Hands-on skills in SQL, Power BI, Excel preferred.",
     "prep": [
       {
         "t": "Aptitude & Reasoning Focus",
         "items": [
-          "Quantitative Aptitude: Percentages, Profit & Loss, Time-Speed-Distance, and Probability",
-          "Logical Reasoning: Coding-Decoding, Seating Arrangements, Syllogisms, and Pattern Series",
-          "Verbal Ability: Reading Comprehension, Sentence Correction, and Technical Vocabulary"
+          "Data Interpretation",
+          "Logical Reasoning",
+          "Business Case Studies",
+          "Quantitative Aptitude"
         ]
       },
       {
         "t": "Technical Assessment & Coding",
         "items": [
-          "Arrays, Strings, Two-Pointer technique, and HashMaps (LeetCode Easy to Medium)",
-          "Recursion, Binary Search, and Tree traversals (BFS & DFS)",
-          "Object-Oriented Programming (OOP) concepts, DBMS Queries, and Operating Systems Basics"
+          "Complex SQL Queries & Joins",
+          "SQL Window Functions & Aggregations",
+          "Data Manipulation using Python",
+          "Data Wrangling & Schema Understanding"
         ]
       },
       {
         "t": "Interview Strategy",
         "items": [
-          "Review your final-year college project or internships thoroughly — explain architectural choices clearly for Paytm.",
-          "Prepare to write clean, compiling code with optimal Time and Space complexity (Big-O analysis).",
-          "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
+          "Master advanced SQL concepts such as CTEs, window functions, and self-joins, as technical elimination rounds heavily test real-time query writing.",
+          "Be prepared to explain business case scenarios related to Paytm's ecosystem, focusing on customer retention, churn analysis, and digital payment metrics."
         ]
       }
     ]
@@ -1473,7 +1473,7 @@
     "isNew": true,
     "lastDate": "Accepting Applications",
     "vacancies": "Multiple Openings (Fresher Intake)",
-    "applyUrl": "https://job-boards.greenhouse.io/inmobi/jobs/7995193",
+    "applyUrl": "https://job-boards.greenhouse.io/inmobi/jobs/8138503",
     "slug": "/docs/jobs/inmobi-sr-associate-deal-desk-global-revenue-services.html",
     "about": "InMobi is seeking an entry-level candidate for the Sr associate - Deal desk, Global Revenue Services position in Bangalore. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
     "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in Python, SQL, Relational DBs preferred.",
@@ -1516,7 +1516,7 @@
     "isNew": true,
     "lastDate": "Accepting Applications",
     "vacancies": "Multiple Openings (Fresher Intake)",
-    "applyUrl": "https://job-boards.greenhouse.io/inmobi/jobs/8138503",
+    "applyUrl": "https://job-boards.greenhouse.io/inmobi/jobs/7995193",
     "slug": "/docs/jobs/inmobi-sr-associate-deal-desk-global-revenue-services.html",
     "about": "InMobi is seeking an entry-level candidate for the Sr associate - Deal desk, Global Revenue Services position in Bangalore. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
     "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in Python, SQL, Relational DBs preferred.",
@@ -2198,39 +2198,40 @@
     "org": "Stage",
     "title": "Operations - Portfolio Monitoring Unit (Credit) - Analyst",
     "location": "Gurugram",
-    "batch": "2024, 2025 & 2026 Graduates",
-    "salary": "₹25,000 – ₹50,000/month (Stipend) + Full-time PPO",
+    "batch": "2023, 2024 & 2025 Batches",
+    "salary": "₹10.0 - ₹16.0 LPA",
     "posted": "Today",
     "isNew": true,
     "lastDate": "Accepting Applications",
-    "vacancies": "Multiple Openings (Fresher Intake)",
+    "vacancies": "Multiple Openings",
     "applyUrl": "https://www.kkr.com/careers/career-opportunities/post?gh_jid=6005458004",
     "slug": "/docs/jobs/stage-operations-portfolio-monitoring-unit-credit-analyst.html",
-    "about": "Stage is seeking an entry-level candidate for the Operations - Portfolio Monitoring Unit (Credit) - Analyst position in Gurugram. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
-    "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in Cloud Computing (AWS/Azure), Data Structures, Data Analytics preferred.",
+    "about": "The Analyst will monitor KKR's private revolving credit portfolio by evaluating company financial statements, credit KPIs, and liquidity levels. Key responsibilities include building and maintaining financial models, preparing quarterly Investment Committee performance reviews, and conducting ongoing portfolio risk analysis.",
+    "eligibility": "Open to graduates in relevant streams (2023, 2024 & 2025 Batches). Hands-on skills in Financial Modelling, MS Excel, MS PowerPoint preferred.",
     "prep": [
       {
         "t": "Aptitude & Reasoning Focus",
         "items": [
-          "Quantitative Aptitude: Percentages, Profit & Loss, Time-Speed-Distance, and Probability",
-          "Logical Reasoning: Coding-Decoding, Seating Arrangements, Syllogisms, and Pattern Series",
-          "Verbal Ability: Reading Comprehension, Sentence Correction, and Technical Vocabulary"
+          "Data Interpretation",
+          "Financial Ratios",
+          "Numerical Ability",
+          "Logical Reasoning"
         ]
       },
       {
         "t": "Technical Assessment & Coding",
         "items": [
-          "Arrays, Strings, Two-Pointer technique, and HashMaps (LeetCode Easy to Medium)",
-          "Recursion, Binary Search, and Tree traversals (BFS & DFS)",
-          "Object-Oriented Programming (OOP) concepts, DBMS Queries, and Operating Systems Basics"
+          "Financial Statement Analysis",
+          "Credit Risk Assessment",
+          "Valuation Methodologies",
+          "Corporate Finance Fundamentals"
         ]
       },
       {
         "t": "Interview Strategy",
         "items": [
-          "Review your final-year college project or internships thoroughly — explain architectural choices clearly for Stage.",
-          "Prepare to write clean, compiling code with optimal Time and Space complexity (Big-O analysis).",
-          "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
+          "Thoroughly review three-statement financial modeling (P&L, Balance Sheet, Cash Flow) and practice calculating key credit metrics like leverage and interest coverage ratios.",
+          "Understand KKR's global private credit investment model and demonstrate strong business acumen along with attention to detail during behavioral discussions."
         ]
       }
     ]
@@ -2241,39 +2242,39 @@
     "org": "Stage",
     "title": "Operations - Portfolio Monitoring Unit (Private Markets)- Analyst",
     "location": "Gurugram",
-    "batch": "2024, 2025 & 2026 Graduates",
-    "salary": "₹25,000 – ₹50,000/month (Stipend) + Full-time PPO",
+    "batch": "2023, 2024 & 2025 Batches",
+    "salary": "₹8.0 - ₹12.0 LPA",
     "posted": "Today",
     "isNew": true,
     "lastDate": "Accepting Applications",
-    "vacancies": "Multiple Openings (Fresher Intake)",
+    "vacancies": "Multiple Openings",
     "applyUrl": "https://www.kkr.com/careers/career-opportunities/post?gh_jid=5595689004",
     "slug": "/docs/jobs/stage-operations-portfolio-monitoring-unit-private-markets-analys.html",
-    "about": "Stage is seeking an entry-level candidate for the Operations - Portfolio Monitoring Unit (Private Markets)- Analyst position in Gurugram. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
-    "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in Cloud Computing (AWS/Azure), Data Structures, Data Analytics preferred.",
+    "about": "The Analyst will monitor KKR's global private credit portfolio, track company performance, and assess liquidity against key credit KPIs. Core responsibilities include building and maintaining financial models, analyzing financial statements, and preparing quarterly Investment Committee reviews.",
+    "eligibility": "Open to graduates in relevant streams (2023, 2024 & 2025 Batches). Hands-on skills in MS Excel, Financial Modeling, Power BI preferred.",
     "prep": [
       {
         "t": "Aptitude & Reasoning Focus",
         "items": [
-          "Quantitative Aptitude: Percentages, Profit & Loss, Time-Speed-Distance, and Probability",
-          "Logical Reasoning: Coding-Decoding, Seating Arrangements, Syllogisms, and Pattern Series",
-          "Verbal Ability: Reading Comprehension, Sentence Correction, and Technical Vocabulary"
+          "Data Interpretation",
+          "Percentages & Ratios",
+          "Logical Reasoning"
         ]
       },
       {
         "t": "Technical Assessment & Coding",
         "items": [
-          "Arrays, Strings, Two-Pointer technique, and HashMaps (LeetCode Easy to Medium)",
-          "Recursion, Binary Search, and Tree traversals (BFS & DFS)",
-          "Object-Oriented Programming (OOP) concepts, DBMS Queries, and Operating Systems Basics"
+          "Financial Statement Analysis",
+          "Credit Risk Assessment",
+          "Corporate Valuation",
+          "Advanced Excel Formulas"
         ]
       },
       {
         "t": "Interview Strategy",
         "items": [
-          "Review your final-year college project or internships thoroughly — explain architectural choices clearly for Stage.",
-          "Prepare to write clean, compiling code with optimal Time and Space complexity (Big-O analysis).",
-          "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
+          "Master core accounting fundamentals, including financial statement linkages, debt metrics, and credit risk ratios.",
+          "Be ready to explain financial modeling logic and demonstrate a clear understanding of global private equity and credit markets during behavioral rounds."
         ]
       }
     ]
@@ -2284,39 +2285,38 @@
     "org": "Stage",
     "title": "Operations - Treasury Operations - AVP (Payments & Security)",
     "location": "Gurugram",
-    "batch": "2024, 2025 & 2026 Graduates",
-    "salary": "₹25,000 – ₹50,000/month (Stipend) + Full-time PPO",
+    "batch": "Any Graduate (Experienced professionals / Prior Batches)",
+    "salary": "₹22.0 - ₹40.0 LPA",
     "posted": "Today",
     "isNew": true,
     "lastDate": "Accepting Applications",
-    "vacancies": "Multiple Openings (Fresher Intake)",
+    "vacancies": "1-2 Openings",
     "applyUrl": "https://www.kkr.com/careers/career-opportunities/post?gh_jid=6145049004",
     "slug": "/docs/jobs/stage-operations-treasury-operations-avp-payments-security.html",
-    "about": "Stage is seeking an entry-level candidate for the Operations - Treasury Operations - AVP (Payments & Security) position in Gurugram. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
-    "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in Cloud Computing (AWS/Azure), Automation Testing, Selenium preferred.",
+    "about": "Oversee day-to-day treasury operations, payments processing, and financial security protocols. Lead global treasury verticals, drive process automation, and maintain key banking relationships across regions. Collaborate with Finance, Tech, and Operations teams to maintain liquidity, operational efficiency, and regulatory compliance.",
+    "eligibility": "Open to graduates in relevant streams (Any Graduate (Experienced professionals / Prior Batches)). Hands-on skills in Treasury Management Systems (TMS), SWIFT / Payment Protocols, Financial Automation Tools preferred.",
     "prep": [
       {
         "t": "Aptitude & Reasoning Focus",
         "items": [
-          "Quantitative Aptitude: Percentages, Profit & Loss, Time-Speed-Distance, and Probability",
-          "Logical Reasoning: Coding-Decoding, Seating Arrangements, Syllogisms, and Pattern Series",
-          "Verbal Ability: Reading Comprehension, Sentence Correction, and Technical Vocabulary"
+          "Data Interpretation",
+          "Financial & Numerical Reasoning",
+          "Logical Reasoning"
         ]
       },
       {
         "t": "Technical Assessment & Coding",
         "items": [
-          "Arrays, Strings, Two-Pointer technique, and HashMaps (LeetCode Easy to Medium)",
-          "Recursion, Binary Search, and Tree traversals (BFS & DFS)",
-          "Object-Oriented Programming (OOP) concepts, DBMS Queries, and Operating Systems Basics"
+          "SQL Queries for Financial Reports",
+          "Data Analysis & Modeling",
+          "Process Automation Logic"
         ]
       },
       {
         "t": "Interview Strategy",
         "items": [
-          "Review your final-year college project or internships thoroughly — explain architectural choices clearly for Stage.",
-          "Prepare to write clean, compiling code with optimal Time and Space complexity (Big-O analysis).",
-          "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
+          "Be prepared to discuss global payment systems, settlement mechanisms, and liquidity management strategies.",
+          "Emphasize your experience in team leadership, process optimization, and managing cross-functional global stakeholders."
         ]
       }
     ]
