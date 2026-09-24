@@ -48,39 +48,39 @@
     "org": "Paytm",
     "title": "Associate - Motor Insurance",
     "location": "Noida, Uttar Pradesh",
-    "batch": "2024, 2025 & 2026 Graduates",
-    "salary": "₹8.0 – ₹16.0 LPA (Role Dependent)",
+    "batch": "2021, 2022, 2023, 2024 & 2025 Batches (Any Graduate)",
+    "salary": "₹2.8 - ₹4.2 LPA + Uncapped Incentives",
     "posted": "Today",
     "isNew": true,
     "lastDate": "Accepting Applications",
-    "vacancies": "Multiple Openings (Fresher Intake)",
+    "vacancies": "Multiple Openings",
     "applyUrl": "https://jobs.lever.co/paytm/20d54134-b6e5-4816-8da9-42e3a3ed8f57",
     "slug": "/docs/jobs/paytm-associate-motor-insurance.html",
-    "about": "Paytm is seeking an entry-level candidate for the Associate - Motor Insurance position in Noida, Uttar Pradesh. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
-    "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in Data Structures, Data Analytics preferred.",
+    "about": "Responsible for driving sales and converting telesales leads for motor insurance products such as two-wheelers, private cars, and commercial vehicles. Educates customers on policy benefits, IDV, NCB transfers, and add-on covers while facilitating smooth policy issuance and renewals. Maintains lead pipelines, updates CRM tools, and consistently achieves monthly sales targets.",
+    "eligibility": "Open to graduates in relevant streams (2021, 2022, 2023, 2024 & 2025 Batches (Any Graduate)). Hands-on skills in MS Excel, Google Sheets, CRM Tools preferred.",
     "prep": [
       {
         "t": "Aptitude & Reasoning Focus",
         "items": [
-          "Quantitative Aptitude: Percentages, Profit & Loss, Time-Speed-Distance, and Probability",
-          "Logical Reasoning: Coding-Decoding, Seating Arrangements, Syllogisms, and Pattern Series",
-          "Verbal Ability: Reading Comprehension, Sentence Correction, and Technical Vocabulary"
+          "Verbal Ability (English & Hindi)",
+          "Data Interpretation",
+          "Logical Reasoning",
+          "Basic Arithmetic"
         ]
       },
       {
         "t": "Technical Assessment & Coding",
         "items": [
-          "Arrays, Strings, Two-Pointer technique, and HashMaps (LeetCode Easy to Medium)",
-          "Recursion, Binary Search, and Tree traversals (BFS & DFS)",
-          "Object-Oriented Programming (OOP) concepts, DBMS Queries, and Operating Systems Basics"
+          "Motor Insurance Fundamentals (IDV, NCB)",
+          "IRDAI Guidelines Basics",
+          "Sales Data Management"
         ]
       },
       {
         "t": "Interview Strategy",
         "items": [
-          "Review your final-year college project or internships thoroughly — explain architectural choices clearly for Paytm.",
-          "Prepare to write clean, compiling code with optimal Time and Space complexity (Big-O analysis).",
-          "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
+          "Be prepared for a mock sales pitch round demonstrating clear communication, negotiation, and objection handling in both Hindi and English.",
+          "Thoroughly review motor insurance concepts such as IDV calculation, No Claim Bonus (NCB), Add-ons (Zero Dep, RSA), and Third-Party vs Comprehensive insurance."
         ]
       }
     ]
@@ -134,39 +134,38 @@
     "org": "Paytm",
     "title": "Credit Risk Analyst",
     "location": "Noida, Uttar Pradesh",
-    "batch": "2024, 2025 & 2026 Graduates",
-    "salary": "₹8.0 – ₹16.0 LPA (Role Dependent)",
+    "batch": "2020 - 2023 Batches (Requires 2-5 years experience)",
+    "salary": "₹8.0 - ₹15.0 LPA",
     "posted": "Today",
     "isNew": true,
     "lastDate": "Accepting Applications",
-    "vacancies": "Multiple Openings (Fresher Intake)",
+    "vacancies": "Multiple Openings",
     "applyUrl": "https://jobs.lever.co/paytm/ad781ae8-cd4a-44c1-a74b-2822118b7c3d",
     "slug": "/docs/jobs/paytm-credit-risk-analyst.html",
-    "about": "Paytm is seeking an entry-level candidate for the Credit Risk Analyst position in Noida, Uttar Pradesh. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
-    "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in Python, SQL, Relational DBs preferred.",
+    "about": "The Credit Risk Analyst will monitor, analyze, and optimize consumer and merchant lending portfolios at Paytm. Core responsibilities include designing risk strategies, loss forecasting, and building data-driven solutions to manage credit risk. The role requires translating complex bureau and alternate data into actionable insights for business growth.",
+    "eligibility": "Open to graduates in relevant streams (2020 - 2023 Batches (Requires 2-5 years experience)). Hands-on skills in SQL, Python, R preferred.",
     "prep": [
       {
         "t": "Aptitude & Reasoning Focus",
         "items": [
-          "Quantitative Aptitude: Percentages, Profit & Loss, Time-Speed-Distance, and Probability",
-          "Logical Reasoning: Coding-Decoding, Seating Arrangements, Syllogisms, and Pattern Series",
-          "Verbal Ability: Reading Comprehension, Sentence Correction, and Technical Vocabulary"
+          "Data Interpretation",
+          "Probability & Statistics",
+          "Logical Reasoning"
         ]
       },
       {
         "t": "Technical Assessment & Coding",
         "items": [
-          "Arrays, Strings, Two-Pointer technique, and HashMaps (LeetCode Easy to Medium)",
-          "Recursion, Binary Search, and Tree traversals (BFS & DFS)",
-          "Object-Oriented Programming (OOP) concepts, DBMS Queries, and Operating Systems Basics"
+          "Complex SQL Queries & Joins",
+          "Data Wrangling with Python/Pandas",
+          "Machine Learning Classifiers"
         ]
       },
       {
         "t": "Interview Strategy",
         "items": [
-          "Review your final-year college project or internships thoroughly — explain architectural choices clearly for Paytm.",
-          "Prepare to write clean, compiling code with optimal Time and Space complexity (Big-O analysis).",
-          "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
+          "Prepare thoroughly for hands-on SQL and Python live data manipulation rounds focusing on fintech/lending datasets.",
+          "Understand credit risk fundamentals such as DPD, default rates, bureau scorecards, and digital lending products like BNPL and merchant loans."
         ]
       }
     ]
@@ -177,39 +176,39 @@
     "org": "Paytm",
     "title": "CST - Associate - Bill Payments CST",
     "location": "Noida, Uttar Pradesh",
-    "batch": "2024, 2025 & 2026 Graduates",
-    "salary": "₹3.6 – ₹6.0 LPA",
+    "batch": "Any Graduate (2023, 2024 & 2025 Batches)",
+    "salary": "₹2.5 - ₹4.0 LPA",
     "posted": "Today",
     "isNew": true,
     "lastDate": "Accepting Applications",
-    "vacancies": "Multiple Openings (Fresher Intake)",
+    "vacancies": "Multiple Openings",
     "applyUrl": "https://jobs.lever.co/paytm/271d28ce-e61c-4216-b7d4-adddd79eefa6",
     "slug": "/docs/jobs/paytm-cst-associate-bill-payments-cst.html",
-    "about": "Paytm is seeking an entry-level candidate for the CST - Associate - Bill Payments CST position in Noida, Uttar Pradesh. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
-    "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in Data Structures, Data Analytics preferred.",
+    "about": "As a CST Associate at Paytm, you will handle day-to-day customer and merchant queries regarding bill payments through call and chat channels. You will be responsible for resolving complaints within defined Turnaround Times (TAT) while maintaining excellent customer experience and brand consistency.",
+    "eligibility": "Open to graduates in relevant streams (Any Graduate (2023, 2024 & 2025 Batches)). Hands-on skills in Customer Support CRM, Ticketing Systems, MS Excel preferred.",
     "prep": [
       {
         "t": "Aptitude & Reasoning Focus",
         "items": [
-          "Quantitative Aptitude: Percentages, Profit & Loss, Time-Speed-Distance, and Probability",
-          "Logical Reasoning: Coding-Decoding, Seating Arrangements, Syllogisms, and Pattern Series",
-          "Verbal Ability: Reading Comprehension, Sentence Correction, and Technical Vocabulary"
+          "Verbal Ability & Grammar",
+          "Reading Comprehension",
+          "Logical Reasoning",
+          "Data Interpretation"
         ]
       },
       {
         "t": "Technical Assessment & Coding",
         "items": [
-          "Arrays, Strings, Two-Pointer technique, and HashMaps (LeetCode Easy to Medium)",
-          "Recursion, Binary Search, and Tree traversals (BFS & DFS)",
-          "Object-Oriented Programming (OOP) concepts, DBMS Queries, and Operating Systems Basics"
+          "Customer Workflow & SLA Logic",
+          "Basic Computer Fundamentals",
+          "Escalation Matrix Rules"
         ]
       },
       {
         "t": "Interview Strategy",
         "items": [
-          "Review your final-year college project or internships thoroughly — explain architectural choices clearly for Paytm.",
-          "Prepare to write clean, compiling code with optimal Time and Space complexity (Big-O analysis).",
-          "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
+          "Focus heavily on demonstrating clear, polite, and effective written and verbal communication skills.",
+          "Prepare situational scenarios showing your problem-solving ability, patience, and capability to meet strict TAT targets under pressure."
         ]
       }
     ]
@@ -220,39 +219,39 @@
     "org": "Paytm",
     "title": "CST - Associate - Email CST",
     "location": "Noida, Uttar Pradesh",
-    "batch": "2024, 2025 & 2026 Graduates",
-    "salary": "₹25,000 – ₹50,000/month (Stipend) + Full-time PPO",
+    "batch": "2022, 2023, 2024 & 2025 Batches (Any Graduate)",
+    "salary": "₹3.5 - ₹5.0 LPA",
     "posted": "Today",
     "isNew": true,
     "lastDate": "Accepting Applications",
-    "vacancies": "Multiple Openings (Fresher Intake)",
+    "vacancies": "Multiple Openings",
     "applyUrl": "https://jobs.lever.co/paytm/715e52dd-0a51-4ff7-be68-855112e56b99",
     "slug": "/docs/jobs/paytm-cst-associate-email-cst.html",
-    "about": "Paytm is seeking an entry-level candidate for the CST - Associate - Email CST position in Noida, Uttar Pradesh. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
-    "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in Data Structures, Data Analytics preferred.",
+    "about": "Manage customer grievances, executive escalations, and regulatory complaints via email and ticketing channels. Conduct Root Cause Analysis (RCA) by coordinating with internal business units, lenders, and stakeholders. Prepare detailed regulatory responses and summaries while meeting daily SLA targets and compliance standards.",
+    "eligibility": "Open to graduates in relevant streams (2022, 2023, 2024 & 2025 Batches (Any Graduate)). Hands-on skills in Ticketing Systems (Zendesk/Freshdesk), CRM Software, MS Excel & Reporting preferred.",
     "prep": [
       {
         "t": "Aptitude & Reasoning Focus",
         "items": [
-          "Quantitative Aptitude: Percentages, Profit & Loss, Time-Speed-Distance, and Probability",
-          "Logical Reasoning: Coding-Decoding, Seating Arrangements, Syllogisms, and Pattern Series",
-          "Verbal Ability: Reading Comprehension, Sentence Correction, and Technical Vocabulary"
+          "Verbal Ability & Business Email Drafting",
+          "Reading Comprehension",
+          "Logical Reasoning",
+          "Data Interpretation & Metrics"
         ]
       },
       {
         "t": "Technical Assessment & Coding",
         "items": [
-          "Arrays, Strings, Two-Pointer technique, and HashMaps (LeetCode Easy to Medium)",
-          "Recursion, Binary Search, and Tree traversals (BFS & DFS)",
-          "Object-Oriented Programming (OOP) concepts, DBMS Queries, and Operating Systems Basics"
+          "Basic SQL Queries for Log Checking",
+          "Excel Data Manipulation & Formulas",
+          "Workflow & Escalation Logic"
         ]
       },
       {
         "t": "Interview Strategy",
         "items": [
-          "Review your final-year college project or internships thoroughly — explain architectural choices clearly for Paytm.",
-          "Prepare to write clean, compiling code with optimal Time and Space complexity (Big-O analysis).",
-          "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
+          "Highlight strong business drafting skills, clear professional tone, and understanding of financial/banking terminology.",
+          "Prepare to discuss regulatory mechanisms like RBI Ombudsman, Nodal Officers, and how to manage strict SLA deadlines."
         ]
       }
     ]
@@ -387,87 +386,44 @@
     ]
   },
   {
-    "id": "paytm-data-analyst-am-lending",
-    "sector": "private",
-    "org": "Paytm",
-    "title": "Data Analyst - AM- Lending",
-    "location": "Mumbai, Maharashtra",
-    "batch": "2024, 2025 & 2026 Graduates",
-    "salary": "₹8.0 – ₹16.0 LPA (Role Dependent)",
-    "posted": "Today",
-    "isNew": true,
-    "lastDate": "Accepting Applications",
-    "vacancies": "Multiple Openings (Fresher Intake)",
-    "applyUrl": "https://jobs.lever.co/paytm/1a17dea6-e1a5-424a-a0cb-0f0cb73d060c",
-    "slug": "/docs/jobs/paytm-data-analyst-am-lending.html",
-    "about": "Paytm is seeking an entry-level candidate for the Data Analyst - AM- Lending position in Mumbai, Maharashtra. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
-    "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in Python, SQL, Relational DBs preferred.",
-    "prep": [
-      {
-        "t": "Aptitude & Reasoning Focus",
-        "items": [
-          "Quantitative Aptitude: Percentages, Profit & Loss, Time-Speed-Distance, and Probability",
-          "Logical Reasoning: Coding-Decoding, Seating Arrangements, Syllogisms, and Pattern Series",
-          "Verbal Ability: Reading Comprehension, Sentence Correction, and Technical Vocabulary"
-        ]
-      },
-      {
-        "t": "Technical Assessment & Coding",
-        "items": [
-          "Arrays, Strings, Two-Pointer technique, and HashMaps (LeetCode Easy to Medium)",
-          "Recursion, Binary Search, and Tree traversals (BFS & DFS)",
-          "Object-Oriented Programming (OOP) concepts, DBMS Queries, and Operating Systems Basics"
-        ]
-      },
-      {
-        "t": "Interview Strategy",
-        "items": [
-          "Review your final-year college project or internships thoroughly — explain architectural choices clearly for Paytm.",
-          "Prepare to write clean, compiling code with optimal Time and Space complexity (Big-O analysis).",
-          "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
-        ]
-      }
-    ]
-  },
-  {
     "id": "paytm-growth-operations-campaign-paytm-money",
     "sector": "private",
     "org": "Paytm",
     "title": "Growth Operations - Campaign - Paytm Money",
     "location": "Noida, Uttar Pradesh",
-    "batch": "2024, 2025 & 2026 Graduates",
-    "salary": "₹25,000 – ₹50,000/month (Stipend) + Full-time PPO",
+    "batch": "2020 - 2023 Batches (3-6 Years Experience)",
+    "salary": "₹8.0 - ₹14.0 LPA (Estimated)",
     "posted": "Today",
     "isNew": true,
     "lastDate": "Accepting Applications",
-    "vacancies": "Multiple Openings (Fresher Intake)",
+    "vacancies": "Multiple Openings",
     "applyUrl": "https://jobs.lever.co/paytm/fa5befe1-43f5-417f-a1de-a989264e1871",
     "slug": "/docs/jobs/paytm-growth-operations-campaign-paytm-money.html",
-    "about": "Paytm is seeking an entry-level candidate for the Growth Operations - Campaign - Paytm Money position in Noida, Uttar Pradesh. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
-    "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in SQL, Relational DBs, Automation Testing preferred.",
+    "about": "Responsible for managing end-to-end CRM campaign operations across channels like Push, WhatsApp, SMS, and Email using tools such as CleverTap. Collaborates with Data, Product, and Strategy teams to set up audience cohorts, execute A/B tests, and maintain strict QA standards. Tracks post-campaign performance, conversion metrics, and builds scalable SOPs and SQL-driven dashboards to optimize user growth and retention.",
+    "eligibility": "Open to graduates in relevant streams (2020 - 2023 Batches (3-6 Years Experience)). Hands-on skills in SQL, CleverTap, CRM Tools preferred.",
     "prep": [
       {
         "t": "Aptitude & Reasoning Focus",
         "items": [
-          "Quantitative Aptitude: Percentages, Profit & Loss, Time-Speed-Distance, and Probability",
-          "Logical Reasoning: Coding-Decoding, Seating Arrangements, Syllogisms, and Pattern Series",
-          "Verbal Ability: Reading Comprehension, Sentence Correction, and Technical Vocabulary"
+          "Data Interpretation",
+          "Funnel Metrics & Conversion Calculations",
+          "Logical Reasoning",
+          "Business Acumen & Case Studies"
         ]
       },
       {
         "t": "Technical Assessment & Coding",
         "items": [
-          "Arrays, Strings, Two-Pointer technique, and HashMaps (LeetCode Easy to Medium)",
-          "Recursion, Binary Search, and Tree traversals (BFS & DFS)",
-          "Object-Oriented Programming (OOP) concepts, DBMS Queries, and Operating Systems Basics"
+          "Advanced SQL (Joins, Aggregations, Window Functions)",
+          "Cohort Analysis Logic",
+          "Data Aggregation Patterns"
         ]
       },
       {
         "t": "Interview Strategy",
         "items": [
-          "Review your final-year college project or internships thoroughly — explain architectural choices clearly for Paytm.",
-          "Prepare to write clean, compiling code with optimal Time and Space complexity (Big-O analysis).",
-          "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
+          "Be ready to demonstrate strong SQL skills for defining user cohorts, retention analysis, and calculating conversion rates.",
+          "Prepare clear examples of handling end-to-end lifecycle campaigns, suppression rules, and attribution metrics in a fintech or consumer internet setup."
         ]
       }
     ]
@@ -1348,49 +1304,6 @@
     "slug": "/docs/jobs/razorpay-associate-startup-accounts.html",
     "about": "Razorpay is seeking an entry-level candidate for the Associate, Startup Accounts position in Bengaluru. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
     "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in Automation Testing, Selenium, Data Structures preferred.",
-    "prep": [
-      {
-        "t": "Aptitude & Reasoning Focus",
-        "items": [
-          "Quantitative Aptitude: Percentages, Profit & Loss, Time-Speed-Distance, and Probability",
-          "Logical Reasoning: Coding-Decoding, Seating Arrangements, Syllogisms, and Pattern Series",
-          "Verbal Ability: Reading Comprehension, Sentence Correction, and Technical Vocabulary"
-        ]
-      },
-      {
-        "t": "Technical Assessment & Coding",
-        "items": [
-          "Arrays, Strings, Two-Pointer technique, and HashMaps (LeetCode Easy to Medium)",
-          "Recursion, Binary Search, and Tree traversals (BFS & DFS)",
-          "Object-Oriented Programming (OOP) concepts, DBMS Queries, and Operating Systems Basics"
-        ]
-      },
-      {
-        "t": "Interview Strategy",
-        "items": [
-          "Review your final-year college project or internships thoroughly — explain architectural choices clearly for Razorpay.",
-          "Prepare to write clean, compiling code with optimal Time and Space complexity (Big-O analysis).",
-          "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "razorpay-business-analyst",
-    "sector": "private",
-    "org": "Razorpay",
-    "title": "Business Analyst",
-    "location": "Bengaluru",
-    "batch": "2024, 2025 & 2026 Graduates",
-    "salary": "₹25,000 – ₹50,000/month (Stipend) + Full-time PPO",
-    "posted": "Today",
-    "isNew": true,
-    "lastDate": "Accepting Applications",
-    "vacancies": "Multiple Openings (Fresher Intake)",
-    "applyUrl": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4736955005",
-    "slug": "/docs/jobs/razorpay-business-analyst.html",
-    "about": "Razorpay is seeking an entry-level candidate for the Business Analyst position in Bengaluru. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
-    "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in SQL, Relational DBs, Automation Testing preferred.",
     "prep": [
       {
         "t": "Aptitude & Reasoning Focus",
