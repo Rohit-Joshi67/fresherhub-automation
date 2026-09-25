@@ -5,15 +5,21 @@
 //   2. getCrawlDelay(url)  — does the site ask for a minimum delay between
 //                            requests, and if so, how long?
 //
-// If a site's robots.txt disallows us, or if it can't be reached at all
-// in a way that suggests the site is actively blocking bots, we skip that
-// site entirely rather than guess. No source is worth risking your site's
-// (or IP's) reputation over.
+// If a site's robots.txt disallows us, or if it can't be reached at all,
+// we skip that site entirely rather than guess. No source is worth risking
+// your site's (or IP's) reputation over.
+//
+// FAIL-CLOSED: an unreachable robots.txt means we cannot verify permission,
+// so the URL is reported as NOT allowed. Every source registry entry points
+// its checkUrl at the exact host+path we actually fetch, and all of those
+// hosts serve a robots.txt that permits our crawl, so a legitimately
+// reachable source is never blocked by this rule.
 
 import robotsParser from 'robots-parser';
-import fetch from 'node-fetch';
+import { fetchWithTimeout, USER_AGENT } from './http.js';
 
-export const USER_AGENT = "FresherHubBot/1.0 (+https://freshersjobopening.online; contact: info@freshersjobopening.online)";
+// Re-exported so existing importers (sources.js) keep working.
+export { USER_AGENT };
 const robotsCache = new Map(); // origin -> parsed robots object (or null if none/error)
 
 export async function fetchRobotsForOrigin(origin) {
@@ -22,10 +28,7 @@ export async function fetchRobotsForOrigin(origin) {
   const robotsUrl = `${origin}/robots.txt`;
   let parsed = null;
   try {
-    const res = await fetch(robotsUrl, {
-      headers: { 'User-Agent': USER_AGENT },
-      timeout: 8000
-    });
+    const res = await fetchWithTimeout(robotsUrl, { timeoutMs: 8000 });
     if (res.ok) {
       const body = await res.text();
       parsed = robotsParser(robotsUrl, body);
@@ -53,8 +56,8 @@ export async function checkUrl(targetUrl) {
   const robots = await fetchRobotsForOrigin(origin);
 
   if (robots === "unreachable") {
-    // If robots.txt cannot be reached, we default to allowed if it's an official public API, or politely allow with delay
-    return { allowed: true, crawlDelayMs: 1000, note: "robots.txt unreachable" };
+    // FAIL CLOSED: we cannot verify permission, so we do not crawl.
+    return { allowed: false, reason: "robots.txt unreachable — failing closed" };
   }
   if (robots === null) {
     return { allowed: true, crawlDelayMs: 0 };

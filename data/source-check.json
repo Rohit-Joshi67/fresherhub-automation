@@ -1,0 +1,128 @@
+{
+  "checkedAt": "2026-09-25T04:29:58.253Z",
+  "sources": [
+    {
+      "source": "lever-paytm",
+      "name": "Paytm",
+      "kind": "lever",
+      "fetched": 20
+    },
+    {
+      "source": "lever-meesho",
+      "name": "Meesho",
+      "kind": "lever",
+      "fetched": 1
+    },
+    {
+      "source": "lever-cred",
+      "name": "CRED",
+      "kind": "lever",
+      "fetched": 0
+    },
+    {
+      "source": "lever-fi",
+      "name": "Fi Money",
+      "kind": "lever",
+      "fetched": 0
+    },
+    {
+      "source": "lever-zeta",
+      "name": "Zeta",
+      "kind": "lever",
+      "fetched": 7
+    },
+    {
+      "source": "lever-coinmarketcap",
+      "name": "CoinMarketCap",
+      "kind": "lever",
+      "fetched": 0
+    },
+    {
+      "source": "gh-postman",
+      "name": "Postman",
+      "kind": "greenhouse",
+      "fetched": 0
+    },
+    {
+      "source": "gh-razorpay",
+      "name": "Razorpay",
+      "kind": "greenhouse",
+      "fetched": 3
+    },
+    {
+      "source": "gh-inmobi",
+      "name": "InMobi",
+      "kind": "greenhouse",
+      "fetched": 3
+    },
+    {
+      "source": "gh-glance",
+      "name": "Glance",
+      "kind": "greenhouse",
+      "fetched": 3
+    },
+    {
+      "source": "gh-groww",
+      "name": "Groww",
+      "kind": "greenhouse",
+      "fetched": 5
+    },
+    {
+      "source": "gh-slice",
+      "name": "Slice",
+      "kind": "greenhouse",
+      "fetched": 2
+    },
+    {
+      "source": "gh-stage",
+      "name": "Stage",
+      "kind": "greenhouse",
+      "fetched": 7
+    },
+    {
+      "source": "keka-10decoders",
+      "name": "10Decoders",
+      "kind": "keka",
+      "fetched": 4
+    },
+    {
+      "source": "keka-minfy",
+      "name": "Minfy",
+      "kind": "keka",
+      "fetched": 4
+    },
+    {
+      "source": "keka-signzy",
+      "name": "Signzy",
+      "kind": "keka",
+      "fetched": 7
+    },
+    {
+      "source": "keka-wingify",
+      "name": "Wingify",
+      "kind": "keka",
+      "fetched": 3
+    },
+    {
+      "source": "keka-zaggle",
+      "name": "Zaggle",
+      "kind": "keka",
+      "fetched": 1
+    },
+    {
+      "source": "keka-inito",
+      "name": "Inito",
+      "kind": "keka",
+      "fetched": 0
+    },
+    {
+      "source": "hiredoor",
+      "name": "HireDoor",
+      "kind": "hiredoor",
+      "fetched": 39
+    }
+  ],
+  "totalCandidates": 109,
+  "skippedByRobots": [],
+  "errors": []
+}

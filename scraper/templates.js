@@ -1,29 +1,110 @@
-export function renderJobPage(job, ai) {
-  const prepTopics = [
-    ...(ai.aptitudeTopics || []),
-    ...(ai.codingTopics || []),
-    ...(ai.interviewTips || [])
-  ];
+/**
+ * HTML escaping — every scraped/AI value passes through esc() before it
+ * reaches markup, escUrl() before it reaches an href/src attribute.
+ */
+const esc = (s) => String(s ?? '')
+  .replace(/&/g, '&amp;')
+  .replace(/</g, '&lt;')
+  .replace(/>/g, '&gt;')
+  .replace(/"/g, '&quot;')
+  .replace(/'/g, '&#39;');
 
-  const bulletItems = prepTopics.length > 0
-    ? prepTopics.slice(0, 5)
-    : [
-        'Quantitative Aptitude: Percentages, Profit & Loss, Number Systems',
-        'Logical Reasoning: Coding-Decoding, Seating Arrangements, Pattern Series',
-        'Technical Assessment: Core Computer Science Fundamentals and Problem Solving',
-        'Verbal Ability: Reading Comprehension, Sentence Correction and Technical Vocabulary'
-      ];
+/** Only http(s) URLs with a real host are allowed into href attributes. */
+function escUrl(u) {
+  const s = String(u || '').trim();
+  if (!/^https?:\/\/[^/\s]+\.[a-z]{2,}/i.test(s)) return '';
+  if (/example\.com|placeholder|todo/i.test(s)) return '';
+  return esc(s);
+}
 
-  const bulletListHtml = bulletItems.map(b => `<li>${b}</li>`).join('\n        ');
+const stripTags = (s) => String(s || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+
+/**
+ * Site-curated GENERAL preparation resources. These are FresherHub's own
+ * generic interview-prep pointers — rendered with an explicit label that
+ * they are NOT specific to the role on the page.
+ */
+const GENERAL_PREP = {
+  aptitude: [
+    'Quantitative Aptitude: Percentages, Profit & Loss, Number Systems',
+    'Logical Reasoning: Coding-Decoding, Seating Arrangements, Pattern Series',
+    'Verbal Ability: Reading Comprehension, Sentence Correction'
+  ],
+  coding: [
+    'Data Structures and Algorithms: Arrays, Strings, HashMaps',
+    'Core CS Fundamentals: OOP, DBMS queries, OS basics',
+    'Practice writing clean, compiling code with Big-O analysis'
+  ],
+  interview: [
+    'Review your academic projects thoroughly — be ready to explain design decisions',
+    'HR round: show adaptability, eagerness to learn, and clear communication'
+  ]
+};
+
+/**
+ * Render one job detail page.
+ * @param {object} job - feed-entry-shaped job (title, company, location, slug, applyUrl, postedLabel, lastDateLabel, publishedDate)
+ * @param {object} ai - legacy enrichment (roleSummary, eligibleBatch, salaryRange, vacancies, techStack) — RAW strings, escaped here
+ * @param {object} [spec] - full content-engine spec; when present, the center
+ *   column uses its verified website_content instead of generic prep bullets
+ */
+export function renderJobPage(job, ai, spec) {
+  const safeAi = ai || {};
+  const wc = (spec && spec.website_content) || null;
+
+  const roleBullets = wc
+    ? [...(wc.responsibilities || []), ...(wc.requirements || [])].slice(0, 6)
+    : [];
+
+  const techStack = (safeAi.techStack || []).filter(Boolean);
+
+  // Eligibility line: only state what the posting actually says.
+  const eduReq = spec && spec.job.education_requirement !== 'Not specified' ? spec.job.education_requirement : '';
+  const expReq = spec && spec.job.experience_requirement !== 'Not specified' ? spec.job.experience_requirement : '';
+  const eligibilityBits = [];
+  if (eduReq) eligibilityBits.push(esc(eduReq));
+  if (expReq) eligibilityBits.push(esc(expReq));
+  if (techStack.length) eligibilityBits.push(`Skills mentioned in the posting: ${esc(techStack.slice(0, 3).join(', '))}`);
+  const eligibilityHtml = eligibilityBits.length
+    ? `<p>${eligibilityBits.join('. ')}.</p>`
+    : `<p>See the official posting for eligibility details.</p>`;
+
+  const applyUrl = escUrl(job.applyUrl);
+  const lastDateLabel = job.lastDateLabel || 'Not specified';
+  const postedLabel = job.postedLabel || 'Not specified';
+  const locationLabel = job.location || 'Not specified';
+
+  // JSON-LD built as data, then stringified — never interpolated raw.
+  // Optional fields are only emitted when the source actually states them:
+  // no invented country, locality, or dates.
+  const jobPostingLd = {
+    '@context': 'https://schema.org/',
+    '@type': 'JobPosting',
+    title: job.title || '',
+    description: stripTags(safeAi.roleSummary || ''),
+    hiringOrganization: { '@type': 'Organization', name: job.company || '' }
+  };
+  if (locationLabel && locationLabel !== 'Not specified') {
+    jobPostingLd.jobLocation = {
+      '@type': 'Place',
+      address: { '@type': 'PostalAddress', addressLocality: locationLabel }
+    };
+  }
+  if (job.publishedDate && /^\d{4}-\d{2}-\d{2}$/.test(job.publishedDate)) {
+    jobPostingLd.datePosted = job.publishedDate;
+  }
+  const jobPostingLdJson = JSON.stringify(jobPostingLd).replace(/<\//g, '<\\/');
+
+  const metaDescription = `${job.title || 'Job'} at ${job.company || ''} — ${locationLabel}. Role requirements, eligibility criteria, and interview preparation guide.`;
 
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>${job.title} - ${job.company} | FresherHub</title>
-  <meta name="description" content="Official opening for ${job.title} at ${job.company}. Estimated CTC ${ai.salaryRange}. Role requirements, eligibility criteria, and interview preparation guide.">
-  <link rel="canonical" href="https://freshersjobopening.online/docs/jobs/${job.slug}">
+  <title>${esc(job.title)} - ${esc(job.company)} | FresherHub</title>
+  <meta name="description" content="${esc(metaDescription)}">
+  <link rel="canonical" href="https://freshersjobopening.online/docs/jobs/${esc(job.slug)}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
   <style>
@@ -464,25 +545,7 @@ export function renderJobPage(job, ai) {
     }
   </style>
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org/",
-    "@type": "JobPosting",
-    "title": "${job.title}",
-    "description": "${ai.roleSummary}",
-    "datePosted": "${new Date().toISOString().split('T')[0]}",
-    "hiringOrganization": {
-      "@type": "Organization",
-      "name": "${job.company}"
-    },
-    "jobLocation": {
-      "@type": "Place",
-      "address": {
-        "@type": "PostalAddress",
-        "addressCountry": "IN",
-        "addressLocality": "${job.location || 'India'}"
-      }
-    }
-  }
+  ${jobPostingLdJson}
   </script>
 </head>
 <body>
@@ -490,7 +553,7 @@ export function renderJobPage(job, ai) {
   <div class="announcement-bar">
     <div class="announcement-content">
       <span class="announcement-badge">Announcement bar:</span>
-      <span class="announcement-text">${job.company} &bull; ${job.location || 'India'} fresher job openings &bull; ${job.title}</span>
+      <span class="announcement-text">${esc(job.company)} &bull; ${esc(locationLabel)} &bull; ${esc(job.title)}</span>
     </div>
     <div class="announcement-close" onclick="this.parentElement.style.display='none'">&times;</div>
   </div>
@@ -527,7 +590,7 @@ export function renderJobPage(job, ai) {
           </div>
           <div class="job-info-content">
             <div class="job-info-lbl">ORGANIZATION</div>
-            <div class="job-info-val">${job.company}</div>
+            <div class="job-info-val">${esc(job.company)}</div>
           </div>
         </div>
 
@@ -538,7 +601,7 @@ export function renderJobPage(job, ai) {
           </div>
           <div class="job-info-content">
             <div class="job-info-lbl">LOCATION</div>
-            <div class="job-info-val">${job.location || 'India'}</div>
+            <div class="job-info-val">${esc(locationLabel)}</div>
           </div>
         </div>
 
@@ -549,7 +612,7 @@ export function renderJobPage(job, ai) {
           </div>
           <div class="job-info-content">
             <div class="job-info-lbl">ELIGIBLE BATCH</div>
-            <div class="job-info-val">${ai.eligibleBatch}</div>
+            <div class="job-info-val">${esc(safeAi.eligibleBatch || 'Not specified')}</div>
           </div>
         </div>
 
@@ -560,7 +623,7 @@ export function renderJobPage(job, ai) {
           </div>
           <div class="job-info-content">
             <div class="job-info-lbl">SALARY</div>
-            <div class="job-info-val">${ai.salaryRange}</div>
+            <div class="job-info-val">${esc(safeAi.salaryRange || 'Not specified')}</div>
           </div>
         </div>
 
@@ -571,7 +634,7 @@ export function renderJobPage(job, ai) {
           </div>
           <div class="job-info-content">
             <div class="job-info-lbl">VACANCIES</div>
-            <div class="job-info-val">${ai.vacancies || 'Multiple Openings'}</div>
+            <div class="job-info-val">${esc(safeAi.vacancies || 'Not specified')}</div>
           </div>
         </div>
 
@@ -582,28 +645,28 @@ export function renderJobPage(job, ai) {
           </div>
           <div class="job-info-content">
             <div class="job-info-lbl">POSTED</div>
-            <div class="job-info-val">today</div>
+            <div class="job-info-val">${esc(postedLabel)}</div>
           </div>
         </div>
       </aside>
 
       <!-- Center Column: Title, Subtitle, About The Role, Bullet points, Eligibility -->
       <main class="job-detail-main-col">
-        <h1 class="job-detail-title">${job.title}</h1>
-        <div class="job-detail-subline">${job.company} - ${job.location || 'India'}</div>
+        <h1 class="job-detail-title">${esc(job.title)}</h1>
+        <div class="job-detail-subline">${esc(job.company)} - ${esc(locationLabel)}</div>
 
         <div class="job-content-section-title">About The Role</div>
         <div class="job-content-desc">
-          <p>${ai.roleSummary}</p>
+          <p>${esc(stripTags(safeAi.roleSummary || ''))}</p>
         </div>
 
-        <ul class="role-bullet-list">
-          ${bulletListHtml}
-        </ul>
+        ${roleBullets.length ? `<ul class="role-bullet-list">
+          ${roleBullets.map(b => `<li>${esc(stripTags(b))}</li>`).join('\n          ')}
+        </ul>` : ''}
 
         <div class="job-content-section-title">Eligibility</div>
         <div class="job-eligibility-text">
-          <p>Open to graduates in relevant streams (${ai.eligibleBatch}). Hands-on skills in ${(ai.techStack || ['Core CS Fundamentals']).slice(0, 3).join(', ')} preferred.</p>
+          ${eligibilityHtml}
         </div>
       </main>
 
@@ -612,12 +675,13 @@ export function renderJobPage(job, ai) {
         <div class="job-action-card">
           <div class="job-deadline-header">
             <div class="job-deadline-lbl">LAST DATE TO APPLY:</div>
-            <div class="job-deadline-val">Accepting Applications</div>
+            <div class="job-deadline-val">${esc(lastDateLabel)}</div>
           </div>
           <div class="job-action-body">
-            <a href="${job.applyUrl}" target="_blank" rel="nofollow noopener" class="btn-official-apply">Apply on official site &nearr;</a>
-            <a href="/docs/jobs/${job.slug}" class="btn-full-guide">View Full Guide Page &rarr;</a>
-            <div class="apply-disclaimer-sub">You'll be taken to ${job.company}'s official site to complete your application.</div>
+            ${applyUrl
+              ? `<a href="${applyUrl}" target="_blank" rel="nofollow noopener" class="btn-official-apply">Apply on official site &nearr;</a>
+            <div class="apply-disclaimer-sub">You'll be taken to ${esc(job.company)}'s official application page to complete your application.</div>`
+              : `<div class="apply-disclaimer-sub">The official application link for this posting is not verified yet. Please check ${esc(job.company)}'s official careers page directly.</div>`}
 
             <div class="resource-promo-box">
               <div class="resource-promo-lbl">RECOMMENDED RESOURCE</div>
@@ -627,16 +691,17 @@ export function renderJobPage(job, ai) {
           </div>
         </div>
 
-        <!-- Preparation Guide Accordion -->
+        <!-- General Preparation Resources (site-curated, NOT role-specific) -->
         <div class="prep-guide-wrap">
-          <div class="prep-guide-header-label">PREPARATION GUIDE</div>
+          <div class="prep-guide-header-label">GENERAL PREPARATION RESOURCES</div>
+          <div class="apply-disclaimer-sub" style="margin-bottom:10px;">General guidance from FresherHub — not specific to this role. Check the official posting for role requirements.</div>
           <div class="accordion-item">
             <button class="accordion-head" onclick="toggleAcc(this)">
               <span>Aptitude & Reasoning Focus</span><span class="plus">−</span>
             </button>
             <div class="accordion-body open">
               <ul>
-                ${(ai.aptitudeTopics || ['Quantitative Aptitude & Problem Solving', 'Logical Reasoning Patterns']).map(t => `<li>${t}</li>`).join('\n                ')}
+                ${GENERAL_PREP.aptitude.map(t => `<li>${esc(t)}</li>`).join('\n                ')}
               </ul>
             </div>
           </div>
@@ -646,7 +711,7 @@ export function renderJobPage(job, ai) {
             </button>
             <div class="accordion-body">
               <ul>
-                ${(ai.codingTopics || ['Data Structures and Algorithms', 'System Fundamentals']).map(t => `<li>${t}</li>`).join('\n                ')}
+                ${GENERAL_PREP.coding.map(t => `<li>${esc(t)}</li>`).join('\n                ')}
               </ul>
             </div>
           </div>
@@ -656,18 +721,7 @@ export function renderJobPage(job, ai) {
             </button>
             <div class="accordion-body">
               <ul>
-                ${(ai.interviewTips || ['Review academic projects thoroughly', 'Focus on clear technical communication']).map(t => `<li>${t}</li>`).join('\n                ')}
-              </ul>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <button class="accordion-head" onclick="toggleAcc(this)">
-              <span>General Fresher Resources</span><span class="plus">+</span>
-            </button>
-            <div class="accordion-body">
-              <ul>
-                <li>Practice coding problems daily to build algorithmic confidence.</li>
-                <li>Be ready to explain every design decision in your college capstone project.</li>
+                ${GENERAL_PREP.interview.map(t => `<li>${esc(t)}</li>`).join('\n                ')}
               </ul>
             </div>
           </div>
@@ -676,7 +730,7 @@ export function renderJobPage(job, ai) {
     </div>
 
     <div class="ai-disclaimer-footer">
-      <p>All AI generated . AI can do mistakes . Please excuse for any inconsistency in data<br>( if you want something to be removed contact us )</p>
+      <p>Role details on this page are rewritten from the original job posting for readability — they are not the official posting. Always verify on the official application page before applying.<br>(To request a correction or removal, contact us.)</p>
     </div>
   </div>
 

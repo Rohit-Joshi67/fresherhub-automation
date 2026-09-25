@@ -1,6 +1,8 @@
-# FresherHub — Autonomous Fresher Job Scraper & Prep Portal
+# FresherHub — Fresher Job Aggregation Pipeline
 
-An enterprise-grade, autonomous aggregation and content-generation system that monitors official employer applicant tracking systems (ATS) and government portals across India, filters strictly for freshers/entry-level talent, enhances each role using **Free Google Gemini AI** (with a zero-crash heuristic backup), generates static SEO pages with Google Jobs Schema, and auto-updates the live homepage.
+An autonomous aggregation system that monitors official employer applicant tracking systems (ATS) and a fresher-focused job board across India, filters for entry-level relevance using evidence from the complete posting, rewrites each role in original wording with a **zero-fabrication guarantee**, generates static SEO pages with Google Jobs Schema, and updates the live homepage.
+
+**Core rule: never invent information.** Every field on the site is either a verified fact from the source posting or an honest `"Not specified"`.
 
 ---
 
@@ -21,21 +23,23 @@ The automation runs on **GitHub Actions** twice every day at scheduled times:
 
 ```mermaid
 flowchart TD
-    A["⏰ GitHub Actions Cron (7:30 AM & 7:30 PM IST)"] --> B["1. Check robots.txt & Rate Limits\n(robots-check.js)"]
-    B --> C["2. Fetch Live ATS Portals\n(Lever & Greenhouse Public APIs)"]
-    C --> D{"3. India & Fresher Filter\n(Loc: BLR/HYD/PUN/DEL/etc.\nBatch: 2024-2026, 0-1 Yr)"}
-    
-    D -->|Match Found| E["4. Free AI Enrichment Engine\n(generate-content.js)"]
-    
+    A["⏰ GitHub Actions Cron (7:30 AM & 7:30 PM IST)"] --> B["1. robots.txt check, fail-closed\n(robots-check.js)"]
+    B --> C["2. Fetch permitted sources\n(sources.js registry)"]
+    C --> D{"3. Cross-source dedupe\n(duplicate_key)"}
+
+    D --> E["4. Content Engine: verify, classify,\nrewrite & Instagram queue\n(content-engine.js)"]
     E --> F{"Gemini API Key Available?"}
-    F -->|Yes| G["Gemini 1.5 Flash Free Tier\n(Structured JSON)"]
-    F -->|Quota Exhausted or Absent| H["Deterministic Heuristic Fallback\n(Guaranteed 0-Failure Engine)"]
-    
-    G --> I["5. Static SEO Generator\n(templates.js -> docs/jobs/*.html)"]
-    H --> I
-    
-    I --> J["6. Master Feed Synchronization\n(data/jobs.json + data/jobs-meta.json)"]
-    
+    F -->|Yes| G["Gemini rewrite\n(structured JSON, facts only)"]
+    F -->|No| H["Deterministic heuristic writer\n(verified facts only)"]
+
+    G --> Q{"Publishable?\nactive/fresh, entry-level,\nverified apply URL,\nno review flags"}
+    H --> Q
+    Q -->|Yes| I["5. Static SEO page\n(templates.js -> docs/jobs/*.html)"]
+    Q -->|No| R["Quarantine\n(data/review-queue.json)"]
+
+    I --> J["6. Master feed sync\n(data/jobs.json + jobs-meta.json)\n+ published registry (data/published.json)"]
+    R --> J
+
     J --> K["7. Automatic Git Commit & Push\n(github-actions bot)"]
     K --> L["8. Live GitHub Pages Deployment\n(index.html reads fresh jobs.json)"]
 ```
@@ -44,36 +48,47 @@ flowchart TD
 
 ## 🚀 How We Get The Desired Output Automatically
 
-### Step 1: Safe ATS & Government Extraction
-- Instead of using slow, fragile web browsers (Puppeteer/Playwright) that get blocked by Cloudflare or change layouts, the bot queries **official public ATS endpoints** (`Greenhouse` and `Lever`) used by tech leaders in India:
-  - **Fintech & Payments**: Paytm, Razorpay, CRED, Fi Money, Slice, Groww
-  - **Product & E-Commerce**: Meesho, Glance, InMobi, Stage, Postman, Zeta
-  - **Government Portals**: SSC, NIC Scientist, IBPS IT Officer, RRB JE IT
-- Respects `robots.txt` automatically with honest user-agent identification (`FresherHubBot`).
+### Step 1: Source Registry (`scraper/sources.js`)
+Every source lives in one registry with a per-source `checkUrl` pointing at the exact host+path we fetch. `robots-check.js` verifies permission before any request and **fails closed**: an unreachable or disallowing `robots.txt` skips the source for that run. Requests carry an honest bot user-agent and respect crawl-delay. In sandboxed environments, Node's native fetch honors `HTTP_PROXY`/`HTTPS_PROXY` when `NODE_USE_ENV_PROXY=1` (see `scraper/http.js`).
 
-### Step 2: Intelligent Fresher & India Targeting
-Every raw posting is evaluated against rigorous heuristics:
-- **Location Criteria**: Bengaluru, Pune, Hyderabad, Gurgaon/Noida, Delhi, Mumbai, Chennai, or India Remote.
-- **Entry-Level Criteria**: Must match terms like `intern`, `trainee`, `graduate`, `associate`, `analyst`, `junior`, `sde-1`, or `2024-2026 batches`.
-- **Exclusion Filters**: Automatically filters out roles containing `manager`, `lead`, `principal`, `architect`, `director`, or `senior`.
+Current permitted sources (all robots-verified):
+- **Lever public postings API** (`api.lever.co` — robots `Allow: /`, crawl-delay 1): Paytm, Meesho, CRED, Fi Money, Zeta, CoinMarketCap
+- **Greenhouse public boards API** (`boards-api.greenhouse.io` — only `/embed/` disallowed): Postman, Razorpay, InMobi, Glance, Groww, Slice, Stage
+- **Keka career portals** (`{tenant}.keka.com/careers` — robots `Allow: /careers`): 10Decoders, Minfy, Signzy, Wingify, Zaggle, Inito
+- **HireDoor public job board** (`hiredoor.in/jobs` — robots allows `/jobs`; `/api/` is disallowed and never touched): first 5 pages, detail pages fetched politely (~0.7s between requests). HireDoor is a *discovery* source — its "Verified" badge and estimated salaries are never republished as facts. A HireDoor listing is only treated as live when its external official application link is verified reachable by our own probe.
 
-### Step 3: Free AI Content Generation (With Fallback Protection)
-For every qualified opening, the AI engine builds:
-1. **Crisp Role Summary**: What the candidate will build and learn.
-2. **Batch Eligibility**: Explicitly identifies passing years (e.g. 2025 & 2026 graduates).
-3. **Realistic Compensation**: Standard fresher CTC or stipend bands.
-4. **Technology Stack Tags**: Identifies key skills (Python, Java, Spring Boot, React, SQL, AWS).
-5. **Interview Preparation Guides**:
-   - Quantitative & Logical Reasoning topics
-   - Core DSA and CS fundamentals to practice
-   - Specific HR & Technical interview tips
+Verify all sources live without publishing anything:
+```bash
+cd scraper && node scrape.js --verify-sources
+```
+This writes `data/source-check.json` with per-source candidate counts.
 
-> **Zero Failure Guarantee**: If Google Gemini API is offline or reaches free rate limits, our deterministic backup generator immediately kicks in. **The scraper will never crash or output 0 jobs**.
+### Step 2: Entry-Level & India Relevance (evidence-based)
+Every raw posting is evaluated against the **complete posting**, not the title alone:
+- **Location**: India-based or India-remote roles only.
+- **Entry-level evidence**: explicit fresher/graduate/intern/trainee/0–1-year language in the full description. Senior signals anywhere in the posting (`senior`, `lead`, `4–5 years`, etc.) exclude it, even if the title sounds junior.
+- **Freshness**: `active` only with live evidence — a listing returned by the source's live postings API (Lever/Greenhouse/Keka "active" endpoints), or a HireDoor listing whose external official application link we verified reachable in this run. Expired, removed, or unverifiable postings are never published.
 
-### Step 4: Standalone SEO Webpages (`docs/jobs/*.html`)
-For each job, an individual HTML page is compiled:
-- Injected with Schema.org `JobPosting` JSON-LD structured data (eligible for **Google Jobs Carousel**).
-- Clear breadcrumb navigation, official verification badge, and direct apply link (`rel="nofollow noopener"`).
+### Step 3: Content Engine — Verification, Rewrite, Instagram (Zero Fabrication)
+Every qualified opening is processed by `scraper/content-engine.js`, which returns one publication-ready JSON payload per job:
+
+- **verification** — freshness `status` (`active` only with live evidence — see Step 2), entry-level classification (`fresher` / `entry_level` / `graduate` / `student` / `internship` / `experienced` / `unknown`) with explicit evidence strings, a stable `duplicate_key` (a listing seen again in a later run is re-verified and kept live, never duplicated or wrongly quarantined), and a confidence score.
+- **source** — `source_url`, `source_name`, `company_url`, `official_application_url` (kept strictly separate; a URL that can't be confidently identified becomes `null`, never a guess).
+- **job** — factual fields only. Salary, location, dates, and requirements are extracted verbatim from the posting; anything absent becomes `"Not specified"` — the engine **never invents** salary bands, vacancies, batches, or benefits.
+- **website_content** — original-language rewrite: summary, responsibilities, requirements, preferred qualifications, skills, benefits. Gemini (free tier) rewrites verified facts when a key is configured; the deterministic heuristic writer guarantees output otherwise. Long source passages are never copied verbatim.
+- **instagram** — headline, subheadline, key points, CTA, caption, and hashtags, generated from verified facts only (no hype phrases like "guaranteed job" or "100% hiring"). Queued in `data/instagram-queue.json` for the posting flow in `video-automation/`.
+- **quality_checks** — `facts_invented`, `salary_verified`, `application_url_verified`, `potential_duplicate`, and `needs_human_review` with a `review_reason`. Flagged jobs land in `data/review-queue.json` for manual review before publication, mirroring a HireDoor-style verified-badge workflow.
+
+Full payloads are archived in `data/content-engine.json` on every run. Demo the engine locally with `node content-engine.js --demo` (prints pure JSON), and run the test suite with `node test-content-engine.js`.
+
+> **Graceful degradation**: if the Google Gemini API is offline or hits free-tier rate limits, the deterministic heuristic writer takes over automatically. A run can still legitimately output 0 jobs — for example when every source returns nothing new, or every candidate is quarantined for failing the publication bar.
+
+### Step 4: Publish or Quarantine
+A job reaches the public site only when it is **active, entry-level, sufficiently evidenced, and has a verified official application URL**. Everything else — experienced roles, closed postings, thin/unverifiable listings, review flags — goes to `data/review-queue.json` and never touches the public feed.
+
+Published jobs get an individual static HTML page with Schema.org `JobPosting` JSON-LD (eligible for **Google Jobs Carousel**), XSS-escaped rendering, and an apply button (`rel="nofollow noopener"`) that links only to the verified official URL.
+
+`data/published.json` tracks every published job's first-seen and last-seen dates: "posted" labels stay stable across runs, re-verified jobs are never duplicated, and pages vanish from the source for 45+ days are pruned.
 
 ### Step 5: Master Feed & Real-Time Home Page Update
 - The scraper updates `data/jobs.json` and `data/jobs-meta.json`.

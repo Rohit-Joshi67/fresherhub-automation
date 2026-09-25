@@ -1030,7 +1030,7 @@
         </div>
         <div class="job-info-content">
           <div class="job-info-lbl">VACANCIES</div>
-          <div class="job-info-val" id="cardValVacancies">Multiple Openings</div>
+          <div class="job-info-val" id="cardValVacancies">Not specified</div>
         </div>
       </div>
 
@@ -1065,7 +1065,7 @@
       <div class="job-action-card">
         <div class="job-deadline-header">
           <div class="job-deadline-lbl">LAST DATE TO APPLY:</div>
-          <div class="job-deadline-val" id="artDeadline">Accepting Applications</div>
+          <div class="job-deadline-val" id="artDeadline">Not specified</div>
         </div>
         <div class="job-action-body">
           <a href="#" target="_blank" rel="noopener" class="btn-official-apply" id="artApplyLink">Apply on official site &nearr;</a>
@@ -1125,175 +1125,10 @@
 // you're previewing this file locally by double-clicking it). Once this
 // site is hosted on GitHub Pages, loadJobs() below replaces this with the
 // live output of the automated scraper.
-let JOBS = [
-  {
-    id:"g1", sector:"govt", org:"Staff Selection Commission (SSC)", title:"Combined Higher Secondary Level (CHSL) — Data Entry Operator",
-    location:"All India", batch:"2023–2026", salary:"₹25,500 – ₹81,100 (7th CPC)", posted:"3 days ago", isNew:true,
-    lastDate:"12 Aug 2026", vacancies:"~3,200", applyUrl:"https://ssc.nic.in",
-    about:"SSC CHSL recruits for Data Entry Operator and Lower Division Clerk roles across central government ministries and departments. The role involves data entry, record maintenance, and routine office administration, and is a common entry point for freshers into central government service.",
-    eligibility:"Open to graduates from any recognized university, aged 18–27 (with standard SC/ST/OBC/PwBD relaxations). No prior work experience required. Selection is via Tier-I (objective), Tier-II (descriptive), and a typing/skill test for DEO posts.",
-    prep:[
-      {t:"Aptitude & Reasoning", items:["Practice quantitative aptitude: percentages, ratios, profit-loss, time-speed-distance.","General intelligence & reasoning: series, coding-decoding, analogies.","Time yourself — Tier-I is 60 minutes for 100 questions."]},
-      {t:"General Awareness & English", items:["Current affairs from the last 6 months, especially government schemes.","English: cloze test, error spotting, sentence improvement.","Static GK: Indian polity, geography, history basics."]},
-      {t:"Typing / Skill Test", items:["DEO posts require a typing speed test — practice on the actual exam typing software if possible.","Accuracy matters as much as speed; errors are penalized."]},
-      {t:"Resources", items:["Official syllabus and previous papers: <a href='https://ssc.nic.in' target='_blank' rel='noopener'>ssc.nic.in</a>","Practice mock tests through any reputed SSC coaching platform."]}
-    ]
-  },
-  {
-    id:"g2", sector:"govt", org:"National Informatics Centre (NIC)", title:"Scientist-B (Computer Science / IT)",
-    location:"New Delhi + Regional Centres", batch:"2024–2026", salary:"Level 10, ₹56,100 – ₹1,77,500", posted:"1 week ago", isNew:false,
-    lastDate:"29 Aug 2026", vacancies:"~140", applyUrl:"https://www.nic.in",
-    about:"NIC is the technology arm of the Government of India, building and maintaining e-governance platforms used across ministries and states. Scientist-B is an entry-level technical role for engineering graduates interested in large-scale public sector software systems.",
-    eligibility:"B.E./B.Tech in Computer Science, IT, or Electronics, or equivalent, from a recognized institute. Typically requires a minimum qualifying score in GATE (CS/IT) for this cycle. Age limit up to 30 years, with standard relaxations.",
-    prep:[
-      {t:"Core CS Subjects", items:["Data structures & algorithms, DBMS, operating systems, computer networks.","Software engineering fundamentals and system design basics.","Revise your GATE CS syllabus thoroughly if the recruitment cycle requires a GATE score."]},
-      {t:"Coding Practice", items:["Practice implementing common data structures from scratch, not just using library calls.","Focus on correctness and edge cases over speed for written tests."]},
-      {t:"Interview Rounds", items:["Technical interview on CS fundamentals and any projects/internships listed on your resume.","Be ready to discuss public-sector technology and e-governance in general terms."]},
-      {t:"Resources", items:["Recruitment notices and eligibility circulars: <a href='https://www.nic.in' target='_blank' rel='noopener'>nic.in</a>"]}
-    ]
-  },
-  {
-    id:"g3", sector:"govt", org:"Institute of Banking Personnel Selection (IBPS)", title:"IT Officer — Specialist Officer (Scale I)",
-    location:"Pan-India (Public Sector Banks)", batch:"2023–2026", salary:"₹48,480 – ₹85,920 + allowances", posted:"5 days ago", isNew:true,
-    lastDate:"05 Sep 2026", vacancies:"~610", applyUrl:"https://www.ibps.in",
-    about:"IBPS conducts a common recruitment process for IT Officer positions across participating public sector banks. Successful candidates handle core banking software, network infrastructure, and information security within a bank's IT department.",
-    eligibility:"Degree in Computer Science/IT/Electronics or MCA from a recognized university. Freshers are eligible; no prior banking experience is required. Age 20–30 years, with standard category relaxations. Selection: online test, followed by interview.",
-    prep:[
-      {t:"Professional Knowledge (IT)", items:["DBMS, computer networks, operating systems, software engineering.","Basics of information security and core banking systems (CBS).","Object-oriented programming concepts, commonly tested via MCQs."]},
-      {t:"Reasoning & English", items:["Standard banking-exam reasoning: puzzles, seating arrangement, syllogisms.","English comprehension and grammar at a moderate difficulty level."]},
-      {t:"Interview Rounds", items:["Group discussion (in some cycles) followed by a personal interview.","Expect questions on banking sector awareness and your technical background."]},
-      {t:"Resources", items:["Official notification and exam calendar: <a href='https://www.ibps.in' target='_blank' rel='noopener'>ibps.in</a>"]}
-    ]
-  },
-  {
-    id:"g4", sector:"govt", org:"Railway Recruitment Board (RRB)", title:"Junior Engineer (IT) — RRB JE",
-    location:"Zone-wise, All India", batch:"2023–2026", salary:"Level 6, ₹35,400 – ₹1,12,400", posted:"2 weeks ago", isNew:false,
-    lastDate:"18 Sep 2026", vacancies:"~260", applyUrl:"https://www.rrbcdg.gov.in",
-    about:"Indian Railways recruits Junior Engineers for its IT cadre to support signalling software, ticketing systems, and internal digital infrastructure across railway zones. This is a stable, pensionable entry-level engineering role.",
-    eligibility:"Diploma or B.E./B.Tech in Computer Science, IT, or a related engineering discipline. Age 18–33 years with standard relaxations. Selection via Computer Based Test (CBT) stages followed by document verification.",
-    prep:[
-      {t:"Technical Subjects", items:["Programming fundamentals, DBMS basics, networking concepts.","General engineering topics common to the JE syllabus, even outside your core branch."]},
-      {t:"General Awareness & Reasoning", items:["Current affairs, general science, and basic reasoning — CBT-1 covers all branches together.","CBT-2 goes deeper into your specific engineering discipline."]},
-      {t:"Resources", items:["Zone-wise notifications: <a href='https://www.rrbcdg.gov.in' target='_blank' rel='noopener'>rrbcdg.gov.in</a>"]}
-    ]
-  },
-  {
-    id:"p1", sector:"private", org:"TCS (Tata Consultancy Services)", title:"TCS Ninja / Digital — National Qualifier Test (NQT)",
-    location:"Multiple cities, India", batch:"2025 & 2026 graduates", salary:"₹3.36 – ₹7 LPA (role dependent)", posted:"Today", isNew:true,
-    lastDate:"10 Aug 2026", vacancies:"Bulk hiring", applyUrl:"https://www.tcs.com/careers",
-    about:"TCS's National Qualifier Test is one of the largest fresher hiring drives in Indian IT, feeding into Ninja (entry-level developer) and Digital (specialist) tracks. Roles span application development, testing, and support across TCS's client engagements.",
-    eligibility:"B.E./B.Tech/MCA/M.Sc in any stream with no active backlogs, minimum aggregate as specified per drive (commonly 60%). Open to 2025 and 2026 batch graduates. No prior experience required.",
-    prep:[
-      {t:"Aptitude & Reasoning", items:["Quantitative aptitude, logical reasoning, and verbal ability — the NQT foundation section.","Practice under strict time limits; sectional cutoffs apply."]},
-      {t:"Coding Round", items:["Two coding questions, typically easy-to-medium, in any language of your choice.","Focus on writing clean, compiling code over attempting the most optimal solution first."]},
-      {t:"Advanced / Specialist Track", items:["For the Digital track, brush up on one specialization: cloud, data engineering, or full-stack.","Be ready to justify your specialization choice in the interview."]},
-      {t:"Interview Rounds", items:["Technical interview on projects, academics, and basic CS fundamentals.","HR/MR round on communication, flexibility on location, and career expectations."]}
-    ]
-  },
-  {
-    id:"p2", sector:"private", org:"Infosys", title:"Digital Specialist Engineer / Systems Engineer",
-    location:"Mysuru, Pune, Bengaluru + others", batch:"2025 & 2026 graduates", salary:"₹3.6 – ₹9.5 LPA (role dependent)", posted:"2 days ago", isNew:true,
-    lastDate:"20 Aug 2026", vacancies:"Bulk hiring", applyUrl:"https://www.infosys.com/careers",
-    about:"Infosys hires freshers into Systems Engineer and Digital Specialist Engineer tracks, starting with a foundation training program at its Mysuru campus before project allocation across domains like cloud, testing, and application development.",
-    eligibility:"B.E./B.Tech/MCA/M.Sc in any discipline, consistent academic record, no standing backlogs at the time of joining. Both 2025 and 2026 pass-outs are typically eligible depending on the drive.",
-    prep:[
-      {t:"Aptitude & Reasoning", items:["Quant, logical reasoning, and verbal sections similar to most IT service-company tests.","Pseudocode and basic programming logic questions are common."]},
-      {t:"Coding Round", items:["Coding questions on arrays, strings, and basic logic — usually 1–2 problems.","Practice writing solutions without an IDE's autocomplete to simulate exam conditions."]},
-      {t:"Interview Rounds", items:["Technical interview covering your final-year project and core subjects (DBMS, OS, OOP).","HR round focused on relocation flexibility and long-term commitment."]},
-      {t:"Resources", items:["Official careers portal: <a href='https://www.infosys.com/careers' target='_blank' rel='noopener'>infosys.com/careers</a>"]}
-    ]
-  },
-  {
-    id:"p3", sector:"private", org:"Wipro", title:"Wipro Elite National Talent Hunt (WE NLTH)",
-    location:"Multiple cities, India", batch:"2026 graduates", salary:"₹3.5 – ₹6.5 LPA", posted:"4 days ago", isNew:false,
-    lastDate:"15 Aug 2026", vacancies:"Bulk hiring", applyUrl:"https://careers.wipro.com",
-    about:"WE NLTH is Wipro's flagship fresher hiring program, recruiting engineering graduates into project engineer roles across application development, infrastructure, and testing streams.",
-    eligibility:"B.E./B.Tech in any branch, or MCA/M.Sc (Computer Science), with a minimum 50% aggregate and no active backlogs. Open to the specified graduating batch as per the drive.",
-    prep:[
-      {t:"Online Assessment", items:["Verbal, quantitative, and logical reasoning sections.","One or two essay/written communication questions in some drives."]},
-      {t:"Coding Round", items:["Basic to intermediate coding problems; focus on correctness and readable code."]},
-      {t:"Interview Rounds", items:["Technical round on programming fundamentals and your area of interest.","HR round on adaptability, teamwork, and willingness to relocate."]}
-    ]
-  },
-  {
-    id:"p4", sector:"private", org:"Cognizant", title:"GenC / GenC Next / GenC Pro — Fresher Programs",
-    location:"Chennai, Pune, Hyderabad, Kolkata", batch:"2025 & 2026 graduates", salary:"₹4 – ₹6.5 LPA (track dependent)", posted:"1 day ago", isNew:true,
-    lastDate:"22 Aug 2026", vacancies:"Bulk hiring", applyUrl:"https://careers.cognizant.com",
-    about:"Cognizant's GenC family of programs onboards freshers at different skill levels — GenC for entry-level, GenC Next for stronger technical profiles, and GenC Pro for candidates ready to join niche/specialized teams directly.",
-    eligibility:"B.E./B.Tech/MCA/M.Sc in relevant disciplines, 60% aggregate through academics (varies by drive), no active backlog at joining. Track (GenC / Next / Pro) is typically decided by assessment performance.",
-    prep:[
-      {t:"Aptitude & Reasoning", items:["Quant, logical reasoning, and verbal ability sections, similar difficulty to other IT service exams."],},
-      {t:"Coding Round", items:["1–2 coding problems; GenC Next/Pro tracks may include slightly harder problems or a short technical MCQ set."]},
-      {t:"Interview Rounds", items:["Technical interview on your resume, projects, and fundamentals.","HR round on relocation, shift flexibility, and communication."]}
-    ]
-  },
-  {
-    id:"p5", sector:"private", org:"Capgemini", title:"Analyst / Associate Software Engineer",
-    location:"Pune, Bengaluru, Mumbai, Chennai", batch:"2025 & 2026 graduates", salary:"₹4 – ₹7 LPA", posted:"6 days ago", isNew:false,
-    lastDate:"28 Aug 2026", vacancies:"Bulk hiring", applyUrl:"https://www.capgemini.com/careers",
-    about:"Capgemini recruits freshers into Analyst and Associate Software Engineer roles across application development, testing, and cloud teams, with structured onboarding training before client project allocation.",
-    eligibility:"B.E./B.Tech/MCA in any branch with consistent academics and no active backlogs. Specific percentage cutoffs vary by hiring cycle.",
-    prep:[
-      {t:"Assessment", items:["Aptitude, logical reasoning, and a coding test (usually on an online judge)."]},
-      {t:"Interview Rounds", items:["Technical interview on OOP, DBMS basics, and your final-year project.","HR round on career goals and flexibility."]}
-    ]
-  },
-  {
-    id:"p6", sector:"private", org:"Accenture", title:"Associate Software Engineer (ASE)",
-    location:"Multiple cities, India", batch:"2025 & 2026 graduates", salary:"₹4.5 – ₹6.5 LPA", posted:"3 days ago", isNew:true,
-    lastDate:"25 Aug 2026", vacancies:"Bulk hiring", applyUrl:"https://www.accenture.com/careers",
-    about:"Accenture's ASE role is an entry point for freshers into software development and delivery teams, spanning multiple industries and technology stacks, with a formal training academy before deployment.",
-    eligibility:"B.E./B.Tech/MCA/M.Sc in relevant streams, minimum aggregate as specified per drive, no active backlogs at the time of onboarding.",
-    prep:[
-      {t:"Cognitive Assessment", items:["Verbal, numerical, and logical reasoning sections, plus a coding simulation."]},
-      {t:"Interview Rounds", items:["Technical interview on core CS fundamentals and communication skills.","HR round emphasizing adaptability and Accenture's values framework."]}
-    ]
-  },
-  {
-    id:"p7", sector:"private", org:"HCLTech", title:"HCL TechBee / Graduate Engineer Trainee",
-    location:"Noida, Chennai, Bengaluru", batch:"2025 & 2026 graduates", salary:"₹3.2 – ₹5.5 LPA", posted:"1 week ago", isNew:false,
-    lastDate:"30 Aug 2026", vacancies:"Bulk hiring", applyUrl:"https://www.hcltech.com/careers",
-    about:"HCLTech's Graduate Engineer Trainee program brings freshers into a structured learning path across infrastructure, applications, and engineering R&D teams, with rotational training in the initial months.",
-    eligibility:"B.E./B.Tech/Diploma/MCA depending on track, minimum aggregate as per drive, no active academic backlogs.",
-    prep:[
-      {t:"Assessment", items:["Aptitude and reasoning test, followed by a technical MCQ or short coding round depending on track."]},
-      {t:"Interview Rounds", items:["Technical interview focused on fundamentals relevant to the specific track applied for.","HR discussion on relocation and training commitment."]}
-    ]
-  },
-  {
-    id:"p8", sector:"private", org:"Tech Mahindra", title:"Associate Software Engineer — TechM Fresher Hiring",
-    location:"Pune, Hyderabad, Noida", batch:"2025 & 2026 graduates", salary:"₹3.25 – ₹5 LPA", posted:"5 days ago", isNew:false,
-    lastDate:"14 Aug 2026", vacancies:"Bulk hiring", applyUrl:"https://careers.techmahindra.com",
-    about:"Tech Mahindra hires freshers into application development, network, and telecom-adjacent software roles, with an initial training bootcamp before project allocation.",
-    eligibility:"B.E./B.Tech/MCA in relevant streams, minimum aggregate as specified per hiring cycle, no active backlogs.",
-    prep:[
-      {t:"Assessment", items:["Aptitude, reasoning, and basic coding/logic test."]},
-      {t:"Interview Rounds", items:["Technical round on fundamentals and any internship/project experience.","HR round on flexibility and communication."]}
-    ]
-  },
-  {
-    id:"p9", sector:"private", org:"LTIMindtree", title:"Graduate Engineer Trainee (GET)",
-    location:"Pune, Mumbai, Bengaluru, Chennai", batch:"2025 & 2026 graduates", salary:"₹3.6 – ₹6 LPA", posted:"2 days ago", isNew:true,
-    lastDate:"18 Aug 2026", vacancies:"Bulk hiring", applyUrl:"https://www.ltimindtree.com/careers",
-    about:"LTIMindtree's GET program onboards engineering and MCA graduates into development, testing, and cloud teams, following a foundational technical training period.",
-    eligibility:"B.E./B.Tech/MCA in relevant disciplines, minimum aggregate as per drive, no active backlogs at joining.",
-    prep:[
-      {t:"Assessment", items:["Aptitude and reasoning test plus a coding round on an online judge."]},
-      {t:"Interview Rounds", items:["Technical interview on programming fundamentals and projects.","HR round on relocation and career expectations."]}
-    ]
-  },
-  {
-    id:"p10", sector:"private", org:"Mindtree Services (Product Engineering Arm)", title:"Junior Software Engineer — Product Engineering",
-    location:"Bengaluru, Pune", batch:"2025 & 2026 graduates", salary:"₹4 – ₹6.5 LPA", posted:"today", isNew:true,
-    lastDate:"08 Aug 2026", vacancies:"Limited", applyUrl:"https://www.ltimindtree.com/careers",
-    about:"A smaller product-engineering focused fresher intake, working on internal tooling and client product teams rather than typical service-delivery projects — a good fit for freshers who enjoy hands-on coding from day one.",
-    eligibility:"B.E./B.Tech/MCA with strong programming fundamentals demonstrated via the coding round; minimum aggregate as per drive.",
-    prep:[
-      {t:"Coding Round", items:["Expect a slightly harder coding round than typical service-company drives — practice data structures and basic algorithms.","Be comfortable explaining time and space complexity of your solution."]},
-      {t:"Interview Rounds", items:["Technical interview with a live coding or design discussion component.","HR round on product-team expectations and ownership mindset."]}
-    ]
-  }
-];
+let JOBS = [];
+// NOTE: The live site always loads real listings from data/jobs.json (see
+// loadJobs() below). This stays empty on purpose: we never ship invented
+// "sample" job data — every listing shown must come from a verified scrape.
 
 // Shared prep resources appended to every job's accordion
 const COMMON_PREP_SECTION = {
@@ -1330,10 +1165,13 @@ function populateFilters(){
   });
 }
 
+// Escape helper for all scraped/AI job text rendered as HTML
+const escH = (v) => String(v ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+
 function buildTicker(){
   const track = document.getElementById('tickerTrack');
   const newest = [...JOBS].filter(j=>j.isNew);
-  const listHtml = newest.map(j=>`<span class="ticker-item"><span class="dot"></span>${j.org} — ${j.title} (Last date: ${j.lastDate})</span>`).join('');
+  const listHtml = newest.map(j=>`<span class="ticker-item"><span class="dot"></span>${escH(j.org)} — ${escH(j.title)} (Last date: ${escH(j.lastDate || 'Not specified')})</span>`).join('');
   track.innerHTML = listHtml + listHtml; // duplicate for seamless loop
 }
 
@@ -1423,15 +1261,15 @@ function renderGrid(){
   document.getElementById('emptyState').style.display = pageJobs.length ? 'none' : 'block';
 
   grid.innerHTML = pageJobs.map(j=>{
-    const packageDisplay = j.salary ? j.salary.split('(')[0].trim() : 'Competitive';
+    const packageDisplay = j.salary ? escH(j.salary.split('(')[0].trim()) : 'Not disclosed';
     return `
-    <div class="modern-job-card" data-id="${j.id}">
+    <div class="modern-job-card" data-id="${escH(j.id)}">
       <div class="card-header-tags">
         <span class="tag-sector">${j.sector==='govt'?'Govt':'Private'}</span>
         ${j.isNew ? '<span class="tag-new">✦ NEW</span>' : ''}
       </div>
-      <div class="card-role-title" title="${j.title}">${j.title}</div>
-      <div class="card-company-loc">${j.org} · ${j.location}</div>
+      <div class="card-role-title" title="${escH(j.title)}">${escH(j.title)}</div>
+      <div class="card-company-loc">${escH(j.org)} · ${escH(j.location || 'Not specified')}</div>
       <div class="card-details-list">
         <div class="card-detail-item">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="M7 15h0M2 9.5h20"></path></svg>
@@ -1439,10 +1277,10 @@ function renderGrid(){
         </div>
         <div class="card-detail-item">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c0 2 3 3 6 3s6-1 6-3v-5"></path></svg>
-          <span>Batch <b>${j.batch}</b></span>
+          <span>Batch <b>${escH(j.batch || 'Not specified')}</b></span>
         </div>
       </div>
-      <button class="btn-accept-app" type="button">Accept Application</button>
+      <button class="btn-accept-app" type="button">View Details</button>
     </div>
   `;
   }).join('');
@@ -1463,23 +1301,24 @@ function openArticle(id, updateHistory = true){
   if(orgEl) orgEl.textContent = j.org || 'Company';
 
   const locEl = document.getElementById('cardValLoc');
-  if(locEl) locEl.textContent = j.location || 'India';
+  if(locEl) locEl.textContent = j.location || 'Not specified';
 
   const batchEl = document.getElementById('cardValBatch');
-  if(batchEl) batchEl.textContent = j.batch || '2024, 2025 & 2026';
+  if(batchEl) batchEl.textContent = j.batch || 'Not specified';
 
   const salaryEl = document.getElementById('cardValSalary');
-  if(salaryEl) salaryEl.textContent = j.salary || 'Competitive';
+  if(salaryEl) salaryEl.textContent = j.salary || 'Not disclosed in posting';
 
   const vacanciesEl = document.getElementById('cardValVacancies');
-  if(vacanciesEl) vacanciesEl.textContent = j.vacancies || 'Multiple Openings';
+  if(vacanciesEl) vacanciesEl.textContent = j.vacancies || 'Not specified';
 
   const postedEl = document.getElementById('cardValPosted');
-  if(postedEl) postedEl.textContent = j.posted || 'today';
+  if(postedEl) postedEl.textContent = j.posted || 'Not specified';
 
   // Middle column content
-  document.getElementById('artAbout').innerHTML = j.articleHtml ? j.articleHtml : `<p>${j.about}</p>`;
-  document.getElementById('artEligibility').innerHTML = `<p>${j.eligibility}</p>`;
+  // job copy comes from scraped/AI-rewritten text — always escape before innerHTML
+  document.getElementById('artAbout').innerHTML = `<p>${escH(j.about)}</p>`;
+  document.getElementById('artEligibility').innerHTML = `<p>${escH(j.eligibility)}</p>`;
 
   // Key highlights / aptitude & coding topics as styled bullet points
   const bulletListEl = document.getElementById('roleKeySkillsList');
@@ -1500,12 +1339,14 @@ function openArticle(id, updateHistory = true){
         'Verbal Ability: Reading Comprehension, Sentence Correction and Communication'
       ];
     }
-    bulletListEl.innerHTML = bullets.slice(0, 5).map(b => `<li>${b}</li>`).join('');
+    bulletListEl.innerHTML = bullets.slice(0, 5).map(b => `<li>${escH(b)}</li>`).join('');
   }
 
   // Right Column Action Card
-  document.getElementById('artDeadline').textContent = j.lastDate || 'Accepting Applications';
-  document.getElementById('artApplyLink').href = j.applyUrl;
+  document.getElementById('artDeadline').textContent = j.lastDate || 'Not specified';
+  const applyLinkEl = document.getElementById('artApplyLink');
+  if(/^https?:\/\//i.test(j.applyUrl || '')){ applyLinkEl.href = j.applyUrl; applyLinkEl.style.display=''; }
+  else { applyLinkEl.style.display='none'; }
   document.getElementById('artApplySub').textContent = `You'll be taken to ${j.org}'s official site to complete your application.`;
   
   const staticBtn = document.getElementById('artStaticLink');
@@ -1521,10 +1362,10 @@ function openArticle(id, updateHistory = true){
   document.getElementById('prepAccordion').innerHTML = sections.map((s,idx)=>`
     <div class="accordion-item">
       <button class="accordion-head" data-idx="${idx}">
-        <span>${s.t}</span><span class="plus">${idx===0?'−':'+'}</span>
+        <span>${escH(s.t)}</span><span class="plus">${idx===0?'−':'+'}</span>
       </button>
       <div class="accordion-body ${idx===0?'open':''}" data-body="${idx}">
-        <ul>${s.items.map(i=>`<li>${i}</li>`).join('')}</ul>
+        <ul>${s.items.map(i=>`<li>${escH(i)}</li>`).join('')}</ul>
       </div>
     </div>
   `).join('');
