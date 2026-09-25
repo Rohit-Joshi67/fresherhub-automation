@@ -692,7 +692,7 @@ export function normalizeKekaJob(j, src, usedEndpoint) {
 }
 
 export function normalizeAshbyJob(j, src) {
-  const locName = (typeof j.location === 'string' && j.location) || 'India';
+  const locName = (typeof j.location === 'string' && j.location.trim()) || '';
   return {
     title: (j.title || '').trim(),
     company: src.name,
@@ -719,8 +719,8 @@ async function fetchAshby(src) {
   const items = data.jobs || [];
   const jobs = [];
   for (const j of items) {
-    const locName = (typeof j.location === 'string' && j.location) || 'India';
-    if (!isIndiaLocation(locName) || !isFresherEligible(j.title)) continue;
+    const rawLoc = (typeof j.location === 'string' && j.location.trim()) || '';
+    if (!isIndiaLocation(rawLoc) || !isFresherEligible(j.title)) continue;
     jobs.push(normalizeAshbyJob(j, src));
   }
   return jobs;

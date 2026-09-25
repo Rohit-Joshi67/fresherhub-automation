@@ -135,7 +135,7 @@ test('normalizeAshbyJob maps fields without inventing data', () => {
 });
 test('normalizeAshbyJob leaves missing location unstated', () => {
   const j = normalizeAshbyJob({ title: 'SDE Intern', location: null }, { name: 'Acme', slug: 'acme', homepage: 'https://acme.com' });
-  assert.strictEqual(j.location, 'India');
+  assert.strictEqual(j.location, '');
 });
 
 console.log('== govt ==');
