@@ -5,7 +5,8 @@
 import assert from 'assert';
 import {
   parseMaxYears, isIndiaLocation, isFresherEligible,
-  kekaFresherEligible, normalizeKekaJob,
+  kekaFresherEligible, normalizeKekaJob, normalizeAshbyJob,
+  extractGovtNotices,
   extractHiredoorHrefs, extractJobPostingJsonLd,
   extractHiredoorApplyLink, normalizeHiredoorJob, SOURCES
 } from './sources.js';
@@ -118,6 +119,66 @@ test('normalizeHiredoorJob leaves missing location unstated', () => {
   assert.strictEqual(j.location, '', 'must not fall back to India');
 });
 
+console.log('== ashby ==');
+test('normalizeAshbyJob maps fields without inventing data', () => {
+  const j = normalizeAshbyJob(
+    { title: 'Frontend Intern', location: 'Bengaluru, India', jobUrl: 'https://jobs.ashbyhq.com/acme/123', descriptionHtml: '<p>Build UI.</p>', publishedAt: '2026-09-20T10:00:00Z' },
+    { name: 'Acme', slug: 'acme', homepage: 'https://acme.com' }
+  );
+  assert.strictEqual(j.title, 'Frontend Intern');
+  assert.strictEqual(j.location, 'Bengaluru, India');
+  assert.strictEqual(j.applyUrl, 'https://jobs.ashbyhq.com/acme/123');
+  assert.strictEqual(j.description, 'Build UI.');
+  assert.strictEqual(j.sector, 'private');
+  assert.strictEqual(j.sourceName, 'Ashby ATS');
+  assert.strictEqual(j.publishedDate, '2026-09-20');
+});
+test('normalizeAshbyJob leaves missing location unstated', () => {
+  const j = normalizeAshbyJob({ title: 'SDE Intern', location: null }, { name: 'Acme', slug: 'acme', homepage: 'https://acme.com' });
+  assert.strictEqual(j.location, 'India');
+});
+
+console.log('== govt ==');
+test('extractGovtNotices keeps recruitment anchors, drops noise', () => {
+  const html = `
+    <a href="/notices/advt1.pdf">Recruitment of Executive Trainees (2026) through GATE 2024/2025/2026.</a>
+    <a href="/notices/fraud.pdf">Public Notice : Recruitment Fraud Alert</a>
+    <a href="/notices/admit.pdf">Download Admit Card for Computer-Based Test (CBT)</a>
+    <a href="/home">Home</a>
+    <a href="/notices/walkin.pdf">Walk-In for Various Positions (Project Engineer) dated 04/09/2026</a>`;
+  const out = extractGovtNotices(html, 'https://example.gov.in/careers');
+  const titles = out.map((n) => n.title);
+  assert.ok(titles.some((t) => t.includes('Executive Trainees')), 'kept recruitment notice');
+  assert.ok(titles.some((t) => t.includes('Walk-In')), 'kept walk-in notice');
+  assert.ok(!titles.some((t) => t.includes('Fraud Alert')), 'dropped fraud alert');
+  assert.ok(!titles.some((t) => t.includes('Admit Card')), 'dropped admit card');
+  assert.ok(!titles.some((t) => t === 'Home'), 'dropped nav');
+  assert.strictEqual(out[0].url, 'https://example.gov.in/notices/advt1.pdf');
+  const walkin = out.find((n) => n.title.includes('Walk-In'));
+  assert.strictEqual(walkin.dateText, '2026-09-04');
+});
+test('extractGovtNotices returns [] on WAF challenge pages', () => {
+  const html = '<html><body><h1>Just a moment...</h1><p>Powered by Sucuri CloudProxy</p><a href="/x">Recruitment of Officers 2026 notice here</a></body></html>';
+  assert.deepStrictEqual(extractGovtNotices(html, 'https://example.gov.in/'), []);
+});
+test('extractGovtNotices mines written-out dates', () => {
+  const html = '<a href="/n.pdf">Recruitment of Junior Executives, last date extended to 27th September 2026</a>';
+  const out = extractGovtNotices(html, 'https://example.gov.in/');
+  assert.strictEqual(out[0].dateText, '2026-09-27');
+});
+test('extractGovtNotices drops date-extension notices without recruitment signal', () => {
+  const html = '<a href="/n.pdf">Last Date of application for CRP-RRBs-XV extended to 27th September 2026</a>';
+  assert.deepStrictEqual(extractGovtNotices(html, 'https://example.gov.in/'), []);
+});
+test('extractGovtNotices uses table-row context for generic anchors', () => {
+  const html = '<table><tr><td>04/09/2026</td><td>Advt No 01/2026</td><td>Recruitment of Executive Trainees (2026) through GATE</td><td><a href="/advt.pdf">Download Advertisement</a></td></tr></table>';
+  const out = extractGovtNotices(html, 'https://example.gov.in/careers');
+  assert.strictEqual(out.length, 1);
+  assert.ok(out[0].title.includes('Executive Trainees'), `title was: ${out[0].title}`);
+  assert.strictEqual(out[0].url, 'https://example.gov.in/advt.pdf');
+  assert.strictEqual(out[0].dateText, '2026-09-04');
+});
+
 console.log('== registry sanity ==');
 test('all sources have id/kind/name/checkUrl', () => {
   for (const s of SOURCES) {
@@ -127,6 +188,17 @@ test('all sources have id/kind/name/checkUrl', () => {
   assert.ok(SOURCES.some((s) => s.kind === 'hiredoor'), 'hiredoor present');
   assert.ok(SOURCES.some((s) => s.kind === 'lever'), 'lever present');
   assert.ok(SOURCES.some((s) => s.kind === 'greenhouse'), 'greenhouse present');
+});
+test('source ids are unique', () => {
+  const ids = SOURCES.map((s) => s.id);
+  assert.strictEqual(new Set(ids).size, ids.length, 'duplicate source ids');
+});
+test('at least 400 IT sources and 10 govt sources', () => {
+  const itKinds = new Set(['lever', 'greenhouse', 'ashby', 'keka']);
+  const it = SOURCES.filter((s) => itKinds.has(s.kind));
+  const govt = SOURCES.filter((s) => s.kind === 'govt');
+  assert.ok(it.length >= 400, `only ${it.length} IT sources`);
+  assert.ok(govt.length >= 10, `only ${govt.length} govt sources`);
 });
 test('india location matcher', () => {
   assert.strictEqual(isIndiaLocation('Bengaluru, India'), true);

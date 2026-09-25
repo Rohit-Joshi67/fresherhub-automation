@@ -73,15 +73,25 @@ async function run() {
   const sitesSkippedByRobots = [];
   const sitesWithErrors = [];
 
-  for (const src of SOURCES) {
-    if (sourceFilter && src.id !== sourceFilter && src.kind !== sourceFilter) continue;
+  const activeSources = SOURCES.filter(
+    (src) => !sourceFilter || src.id === sourceFilter || src.kind === sourceFilter
+  );
 
-    const robots = await checkUrl(src.checkUrl);
+  // Bounded-concurrency pool: 400+ sources can't run one-by-one.
+  // Per-source politeness is preserved (robots check + crawl-delay per source);
+  // concurrency only overlaps independent sources.
+  const CONCURRENCY = Math.max(1, Math.min(10, Number(process.env.SOURCE_CONCURRENCY) || 8));
+
+  async function fetchOne(src) {
+    // Documented public APIs (Ashby's public job-posting API, built for job
+    // boards/feed partners) carry their own permission; robots.txt does not
+    // meaningfully apply to the API host. Everything else is robots-gated.
+    const robots = src.publicApi
+      ? { allowed: true, crawlDelayMs: 0 }
+      : await checkUrl(src.checkUrl);
     if (!robots.allowed) {
       console.warn(`[Robots] ${src.name} blocked/unverifiable (${robots.reason || 'disallowed'}) — skipping`);
-      sitesSkippedByRobots.push(src.name);
-      sourceStats.push({ source: src.id, name: src.name, kind: src.kind, fetched: 0, skipped: 'robots' });
-      continue;
+      return { stat: { source: src.id, name: src.name, kind: src.kind, fetched: 0, skipped: 'robots' }, skippedName: src.name, jobs: [] };
     }
     if (robots.crawlDelayMs) await sleep(robots.crawlDelayMs);
 
@@ -90,14 +100,27 @@ async function run() {
       jobs = await fetchSourceJobs(src);
     } catch (e) {
       console.warn(`[${src.name}] fetch failed: ${e.message}`);
-      sitesWithErrors.push(src.name);
-      sourceStats.push({ source: src.id, name: src.name, kind: src.kind, fetched: 0, error: String(e.message || e).slice(0, 160) });
-      continue;
+      return { stat: { source: src.id, name: src.name, kind: src.kind, fetched: 0, error: String(e.message || e).slice(0, 160) }, errorName: src.name, jobs: [] };
     }
     // A source returning zero jobs is a legitimate empty result, not an error.
-    rawJobs.push(...jobs.map((j) => ({ ...j, _sourceId: src.id, _sourceName: src.name })));
-    sourceStats.push({ source: src.id, name: src.name, kind: src.kind, fetched: jobs.length });
+    return { stat: { source: src.id, name: src.name, kind: src.kind, fetched: jobs.length }, jobs: jobs.map((j) => ({ ...j, _sourceId: src.id, _sourceName: src.name })) };
   }
+
+  let nextIdx = 0;
+  async function poolWorker() {
+    while (true) {
+      const i = nextIdx++;
+      if (i >= activeSources.length) return;
+      const r = await fetchOne(activeSources[i]);
+      rawJobs.push(...r.jobs);
+      sourceStats.push(r.stat);
+      if (r.skippedName) sitesSkippedByRobots.push(r.skippedName);
+      if (r.errorName) sitesWithErrors.push(r.errorName);
+    }
+  }
+  await Promise.all(Array.from({ length: Math.min(CONCURRENCY, activeSources.length) }, () => poolWorker()));
+  // Deterministic ordering for logs and tests.
+  sourceStats.sort((a, b) => String(a.source).localeCompare(String(b.source)));
 
   if (verifyOnly) {
     console.log('\n== Source verification ==');
@@ -240,8 +263,8 @@ async function run() {
     publishedCount,
     quarantinedCount,
     reviewCount: reviewQueue.length,
-    privateCount: finalJobFeed.length, // every source is private-sector; govtCount stays 0
-    govtCount: 0,
+    privateCount: finalJobFeed.filter((j) => j.sector !== 'govt').length,
+    govtCount: finalJobFeed.filter((j) => j.sector === 'govt').length,
     sourceCounts: sourceStats,
     sitesSkippedByRobots,
     sitesWithErrors,

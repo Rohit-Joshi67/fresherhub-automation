@@ -51,11 +51,15 @@ flowchart TD
 ### Step 1: Source Registry (`scraper/sources.js`)
 Every source lives in one registry with a per-source `checkUrl` pointing at the exact host+path we fetch. `robots-check.js` verifies permission before any request and **fails closed**: an unreachable or disallowing `robots.txt` skips the source for that run. Requests carry an honest bot user-agent and respect crawl-delay. In sandboxed environments, Node's native fetch honors `HTTP_PROXY`/`HTTPS_PROXY` when `NODE_USE_ENV_PROXY=1` (see `scraper/http.js`).
 
-Current permitted sources (all robots-verified):
-- **Lever public postings API** (`api.lever.co` — robots `Allow: /`, crawl-delay 1): Paytm, Meesho, CRED, Fi Money, Zeta, CoinMarketCap
-- **Greenhouse public boards API** (`boards-api.greenhouse.io` — only `/embed/` disallowed): Postman, Razorpay, InMobi, Glance, Groww, Slice, Stage
-- **Keka career portals** (`{tenant}.keka.com/careers` — robots `Allow: /careers`): 10Decoders, Minfy, Signzy, Wingify, Zaggle, Inito
+Current permitted sources (458; every entry live-verified 2026-09-25):
+- **Lever public postings API** (`api.lever.co` — robots `Allow: /`, crawl-delay 1): 95 IT companies (Paytm, Meesho, CRED, Zeta, Waabi, Weekday, Xsolla…)
+- **Greenhouse public boards API** (`boards-api.greenhouse.io` — only `/embed/` disallowed): 141 IT companies (Postman, Razorpay, InMobi, Groww, CloudSEK, Fastly, Together AI…)
+- **Ashby public job-posting API** (`api.ashbyhq.com` — [documented public API](https://developers.ashbyhq.com/docs/public-job-posting-api) built for job boards/feed partners; the API host's `robots.txt` is WAF-blocked so the robots gate is bypassed for this kind only, flagged `publicApi: true` per source): 140 IT companies (n8n, Coder, Granola, Sarvam AI…)
+- **Keka career portals** (`{tenant}.keka.com/careers` — robots `Allow: /careers`): 71 Indian IT companies (10Decoders, Minfy, Signzy, Wingify, Valorem, Academian…)
+- **Govt notice boards** (10 official recruitment pages — NPCIL, BPCL, HPCL, C-DAC, PowerGrid, IOCL, SBI, IBPS, LIC, UPSC): conservative anchor extractor keeps only recruitment notices (results/admit cards/tenders/fraud alerts dropped); WAF-challenge pages yield nothing. Thin evidence → content engine quarantines.
 - **HireDoor public job board** (`hiredoor.in/jobs` — robots allows `/jobs`; `/api/` is disallowed and never touched): first 5 pages, detail pages fetched politely (~0.7s between requests). HireDoor is a *discovery* source — its "Verified" badge and estimated salaries are never republished as facts. A HireDoor listing is only treated as live when its external official application link is verified reachable by our own probe.
+
+Step 1 fetches sources with bounded concurrency (8, `SOURCE_CONCURRENCY` override); per-source politeness (robots check + crawl-delay) is preserved.
 
 Verify all sources live without publishing anything:
 ```bash
