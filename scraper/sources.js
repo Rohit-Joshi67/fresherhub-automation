@@ -592,12 +592,12 @@ async function fetchLever(src) {
   if (!Array.isArray(items)) return [];
   const jobs = [];
   for (const j of items) {
-    const locName = j.categories?.location || 'India';
-    if (!isIndiaLocation(locName) || !isFresherEligible(j.text)) continue;
+    const locName = (j.categories?.location || '').trim();
+    if (!locName || !isIndiaLocation(locName) || !isFresherEligible(j.text)) continue;
     jobs.push({
       title: (j.text || '').trim(),
       company: src.name,
-      location: locName.trim(),
+      location: locName,
       applyUrl: j.hostedUrl || '',
       description: stripHtml(j.descriptionPlain || '') || j.text,
       sector: 'private',
@@ -625,12 +625,12 @@ async function fetchGreenhouse(src) {
   const items = data.jobs || [];
   const jobs = [];
   for (const j of items) {
-    const locName = j.location?.name || 'India';
-    if (!isIndiaLocation(locName) || !isFresherEligible(j.title)) continue;
+    const locName = (j.location?.name || '').trim();
+    if (!locName || !isIndiaLocation(locName) || !isFresherEligible(j.title)) continue;
     jobs.push({
       title: (j.title || '').trim(),
       company: src.name,
-      location: locName.trim(),
+      location: locName,
       applyUrl: j.absolute_url || '',
       description: stripHtml(j.content || '') || j.title,
       sector: 'private',
@@ -648,15 +648,15 @@ async function fetchGreenhouse(src) {
 // Keka adapter — public career-portal JSON endpoints
 // ---------------------------------------------------------------------------
 function kekaLocation(jobLocations) {
-  if (!Array.isArray(jobLocations) || jobLocations.length === 0) return 'India';
+  if (!Array.isArray(jobLocations) || jobLocations.length === 0) return '';
   const parts = jobLocations.map((l) => {
     const name = (l.name || '').trim();
     if (/remote/i.test(name)) return 'Remote';
     const city = (l.city || '').trim();
     if (city && city !== '.') return city;
-    return name || 'India';
+    return name;
   });
-  return unique(parts.filter(Boolean)).join(', ') || 'India';
+  return unique(parts.filter(Boolean)).join(', ');
 }
 
 /** Keka gives an explicit `experience` field — use it as the pre-filter. */
