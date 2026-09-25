@@ -473,6 +473,19 @@ export function renderJobPage(job, ai, spec) {
     .prep-guide-wrap {
       margin-top: 10px;
     }
+    .prep-guide-cta {
+      display: block;
+      text-align: center;
+      background: linear-gradient(135deg, #0f172a, #1e3a5f);
+      color: #fff;
+      font-weight: 700;
+      font-size: 15px;
+      padding: 14px 18px;
+      border-radius: 12px;
+      text-decoration: none;
+      margin-bottom: 18px;
+    }
+    .prep-guide-cta:hover { filter: brightness(1.15); }
     .prep-guide-header-label {
       font-size: 11px;
       font-weight: 700;
@@ -566,6 +579,7 @@ export function renderJobPage(job, ai, spec) {
     </a>
     <nav class="nav-menu">
       <a href="/" style="color:var(--accent-green);">Job Openings</a>
+      <a href="/guides/">Prep Guides</a>
       <a href="/globe.html">Roadmap Globe</a>
       <a href="https://www.profitableratecpmnetwork.com/qichwj81?key=584f6b52f323c6d8d7c6e66d4de23d10">Learning Hub</a>
     </nav>
@@ -692,6 +706,7 @@ export function renderJobPage(job, ai, spec) {
         </div>
 
         <!-- General Preparation Resources (site-curated, NOT role-specific) -->
+        ${job.guideUrl ? `<a class="prep-guide-cta" href="${esc(job.guideUrl)}">📋 Read the role-specific prep guide &rarr;</a>` : ''}
         <div class="prep-guide-wrap">
           <div class="prep-guide-header-label">GENERAL PREPARATION RESOURCES</div>
           <div class="apply-disclaimer-sub" style="margin-bottom:10px;">General guidance from FresherHub — not specific to this role. Check the official posting for role requirements.</div>

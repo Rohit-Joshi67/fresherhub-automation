@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import { execSync } from 'child_process';
 import { fileURLToPath } from 'url';
 import {
   processJobPosting, makeDuplicateKey, makeSlug,
@@ -12,6 +13,7 @@ import { renderJobPage } from './templates.js';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const dataDir = path.join(__dirname, '..', 'data');
 const jobsDir = path.join(__dirname, '..', 'docs', 'jobs');
+const guidesDir = path.join(__dirname, '..', 'docs', 'guides');
 const keysPath = path.join(dataDir, 'content-keys.json');
 const publishedPath = path.join(dataDir, 'published.json');
 const instagramSentPath = path.join(dataDir, 'instagram-sent.json');
@@ -189,6 +191,11 @@ async function run() {
         lastDateLabel: spec.job.closing_date || 'Not specified',
         publishedDate: spec.job.published_date || ''
       };
+      // Role-specific prep guide link (guides are generated in Step 6; the
+      // link appears from the next run for brand-new guides).
+      if (fs.existsSync(path.join(guidesDir, `${slugBase}-interview-prep.html`))) {
+        pageJob.guideUrl = `/guides/${slugBase}-interview-prep.html`;
+      }
       const pageHtml = renderJobPage(pageJob, aiData, spec);
       fs.writeFileSync(path.join(jobsDir, fileName), pageHtml, 'utf8');
 
@@ -246,6 +253,32 @@ async function run() {
   fs.writeFileSync(path.join(dataDir, 'review-queue.json'), JSON.stringify(reviewQueue, null, 2), 'utf8');
   fs.writeFileSync(keysPath, JSON.stringify([...new Set([...publishedKeys, ...runKeys])], null, 2), 'utf8');
   fs.writeFileSync(instagramSentPath, JSON.stringify(instagramSent, null, 2), 'utf8');
+
+  // ---- Step 6: prep guides + instagram creatives (new items only) ----
+  // Never fails the run: both modules skip quietly without an API key and
+  // catch their own errors. Per-run caps keep the scheduled job bounded.
+  const repoRoot = path.join(__dirname, '..');
+  try {
+    const { generateArticles } = await import('./generate-articles.js');
+    const n = await generateArticles({ jobs: finalJobFeed, repoRoot, maxPerRun: 20 });
+    console.log(`- ${n} new prep guides generated`);
+  } catch (e) {
+    console.warn('[guides] skipped:', e.message);
+  }
+  try {
+    const { generatePhotos } = await import('./generate-photos.js');
+    const n = await generatePhotos({ jobs: finalJobFeed, repoRoot, dataDir, maxPerRun: 10 });
+    console.log(`- ${n} new instagram creatives generated`);
+  } catch (e) {
+    console.warn('[photos] skipped:', e.message);
+  }
+  // Stage the new output dirs. The scheduled workflow's commit step runs
+  // `git add data/ docs/jobs/` and commits everything staged — its paths
+  // can't be edited without the Workflows permission, so we stage the extra
+  // dirs here. (Move this into the workflow when that permission lands.)
+  try {
+    execSync('git add docs/guides docs/instagram', { cwd: repoRoot, stdio: 'ignore' });
+  } catch {}
 
   console.log(`\nAutomation Complete!`);
   console.log(`- ${rawJobs.length} candidate jobs fetched from ${sourceStats.length} sources`);

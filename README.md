@@ -76,7 +76,7 @@ Every qualified opening is processed by `scraper/content-engine.js`, which retur
 - **source** — `source_url`, `source_name`, `company_url`, `official_application_url` (kept strictly separate; a URL that can't be confidently identified becomes `null`, never a guess).
 - **job** — factual fields only. Salary, location, dates, and requirements are extracted verbatim from the posting; anything absent becomes `"Not specified"` — the engine **never invents** salary bands, vacancies, batches, or benefits.
 - **website_content** — original-language rewrite: summary, responsibilities, requirements, preferred qualifications, skills, benefits. Gemini (free tier) rewrites verified facts when a key is configured; the deterministic heuristic writer guarantees output otherwise. Long source passages are never copied verbatim.
-- **instagram** — headline, subheadline, key points, CTA, caption, and hashtags, generated from verified facts only (no hype phrases like "guaranteed job" or "100% hiring"). Queued in `data/instagram-queue.json` for the posting flow in `video-automation/`.
+- **instagram** — headline, subheadline, key points, CTA, caption, and hashtags, generated from verified facts only (no hype phrases like "guaranteed job" or "100% hiring"). Queued in `data/instagram-queue.json`; when a creative image exists for the job, the entry also carries its `image` path (`docs/instagram/<slug>.png`).
 - **quality_checks** — `facts_invented`, `salary_verified`, `application_url_verified`, `potential_duplicate`, and `needs_human_review` with a `review_reason`. Flagged jobs land in `data/review-queue.json` for manual review before publication, mirroring a HireDoor-style verified-badge workflow.
 
 Full payloads are archived in `data/content-engine.json` on every run. Demo the engine locally with `node content-engine.js --demo` (prints pure JSON), and run the test suite with `node test-content-engine.js`.
@@ -87,6 +87,14 @@ Full payloads are archived in `data/content-engine.json` on every run. Demo the 
 A job reaches the public site only when it is **active, entry-level, sufficiently evidenced, and has a verified official application URL**. Everything else — experienced roles, closed postings, thin/unverifiable listings, review flags — goes to `data/review-queue.json` and never touches the public feed.
 
 Published jobs get an individual static HTML page with Schema.org `JobPosting` JSON-LD (eligible for **Google Jobs Carousel**), XSS-escaped rendering, and an apply button (`rel="nofollow noopener"`) that links only to the verified official URL.
+
+### Step 5: Prep Guides + Instagram Creatives (Gemini, fully automatic)
+After publishing, each run generates two more asset types for jobs that don't have them yet (new jobs only, per-run caps keep the job bounded):
+
+- **Interview prep guides** (`scraper/generate-articles.js`) — one static page per job at `docs/guides/<slug>-interview-prep.html`, drafted by Gemini strictly from the verified posting facts (role overview, what the role involves, skills to prepare, interview topics, application checklist). Prep topics are labeled as general guidance, never presented as the company's actual process. AI output is schema-validated, URL-stripped, and HTML-escaped; a guides index is rebuilt at `docs/guides/index.html`, and job pages automatically link their guide once it exists.
+- **Instagram creatives** (`scraper/generate-photos.js`) — a 1080×1350 portrait job-alert card per job via Gemini image generation, saved to `docs/instagram/<slug>.png` and linked from the matching `data/instagram-queue.json` entry. Only short verified strings (company, title, location) go into the image prompt.
+
+Both modules skip quietly when `GEMINI_API_KEY` is not configured and never fail the scrape run. Note: actually *posting* to Instagram still needs your one-time Meta setup (Business/Creator account + linked Facebook Page + app with the content-publishing permission) — no automation can bypass that, so the queue + creatives are the handoff point.
 
 `data/published.json` tracks every published job's first-seen and last-seen dates: "posted" labels stay stable across runs, re-verified jobs are never duplicated, and pages vanish from the source for 45+ days are pruned.
 
