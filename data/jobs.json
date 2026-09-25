@@ -91,39 +91,38 @@
     "org": "Paytm",
     "title": "Associate - TA Tech",
     "location": "Noida, Uttar Pradesh",
-    "batch": "2024, 2025 & 2026 Graduates",
-    "salary": "₹25,000 – ₹50,000/month (Stipend) + Full-time PPO",
+    "batch": "2019 - 2023 Batches (2 to 5 Years Experience Required)",
+    "salary": "₹6.0 - ₹10.0 LPA",
     "posted": "Today",
     "isNew": true,
     "lastDate": "Accepting Applications",
-    "vacancies": "Multiple Openings (Fresher Intake)",
+    "vacancies": "Multiple Openings",
     "applyUrl": "https://jobs.lever.co/paytm/55fa4f0c-09b4-426c-bd7f-5b43140f5ed5",
     "slug": "/docs/jobs/paytm-associate-ta-tech.html",
-    "about": "Paytm is seeking an entry-level candidate for the Associate - TA Tech position in Noida, Uttar Pradesh. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
-    "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in SQL, Relational DBs, Data Structures preferred.",
+    "about": "Responsible for managing end-to-end technology recruitment and volume hiring initiatives at Paytm. Key daily duties include sourcing tech candidates via LinkedIn and Naukri, screening candidates, and coordinating walk-in/virtual hiring drives. The role requires close collaboration with technical stakeholders to fulfill engineering talent requirements efficiently.",
+    "eligibility": "Open to graduates in relevant streams (2019 - 2023 Batches (2 to 5 Years Experience Required)). Hands-on skills in LinkedIn Recruiter, Naukri Portal, ATS & MIS Tracking preferred.",
     "prep": [
       {
         "t": "Aptitude & Reasoning Focus",
         "items": [
-          "Quantitative Aptitude: Percentages, Profit & Loss, Time-Speed-Distance, and Probability",
-          "Logical Reasoning: Coding-Decoding, Seating Arrangements, Syllogisms, and Pattern Series",
-          "Verbal Ability: Reading Comprehension, Sentence Correction, and Technical Vocabulary"
+          "Verbal Ability & Communication",
+          "Logical Reasoning",
+          "Data Interpretation & Reporting"
         ]
       },
       {
         "t": "Technical Assessment & Coding",
         "items": [
-          "Arrays, Strings, Two-Pointer technique, and HashMaps (LeetCode Easy to Medium)",
-          "Recursion, Binary Search, and Tree traversals (BFS & DFS)",
-          "Object-Oriented Programming (OOP) concepts, DBMS Queries, and Operating Systems Basics"
+          "Software Engineering Concepts",
+          "Tech Stack Mapping (Backend, Frontend, DevOps)",
+          "SDLC & Engineering Roles Overview"
         ]
       },
       {
         "t": "Interview Strategy",
         "items": [
-          "Review your final-year college project or internships thoroughly — explain architectural choices clearly for Paytm.",
-          "Prepare to write clean, compiling code with optimal Time and Space complexity (Big-O analysis).",
-          "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
+          "Highlight experience in execution of bulk tech hiring drives and managing low offer-drop ratios.",
+          "Be prepared to discuss concrete metrics and strategies used for sourcing niche fintech talent under tight deadlines."
         ]
       }
     ]
@@ -220,39 +219,39 @@
     "org": "Paytm",
     "title": "CST - Associate - Email CST",
     "location": "Noida, Uttar Pradesh",
-    "batch": "2024, 2025 & 2026 Graduates",
-    "salary": "₹25,000 – ₹50,000/month (Stipend) + Full-time PPO",
+    "batch": "2022, 2023 & 2024 Batches (0-3 Years Experience)",
+    "salary": "₹3.5 - ₹5.5 LPA",
     "posted": "Today",
     "isNew": true,
     "lastDate": "Accepting Applications",
-    "vacancies": "Multiple Openings (Fresher Intake)",
+    "vacancies": "Multiple Openings",
     "applyUrl": "https://jobs.lever.co/paytm/715e52dd-0a51-4ff7-be68-855112e56b99",
     "slug": "/docs/jobs/paytm-cst-associate-email-cst.html",
-    "about": "Paytm is seeking an entry-level candidate for the CST - Associate - Email CST position in Noida, Uttar Pradesh. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
-    "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in Data Structures, Data Analytics preferred.",
+    "about": "As a CST Associate at Paytm, you will handle customer grievances, executive escalations, and regulatory complaints via email and ticketing platforms. Core responsibilities include coordinating with internal teams for Root Cause Analysis (RCA), drafting accurate regulatory responses, and meeting daily productivity and compliance SLAs.",
+    "eligibility": "Open to graduates in relevant streams (2022, 2023 & 2024 Batches (0-3 Years Experience)). Hands-on skills in Email Drafting & Communication, Ticketing Systems (CRM/Queue Management), Root Cause Analysis (RCA) preferred.",
     "prep": [
       {
         "t": "Aptitude & Reasoning Focus",
         "items": [
-          "Quantitative Aptitude: Percentages, Profit & Loss, Time-Speed-Distance, and Probability",
-          "Logical Reasoning: Coding-Decoding, Seating Arrangements, Syllogisms, and Pattern Series",
-          "Verbal Ability: Reading Comprehension, Sentence Correction, and Technical Vocabulary"
+          "Reading Comprehension",
+          "Grammar & Business Writing",
+          "Logical Reasoning",
+          "Data Interpretation"
         ]
       },
       {
         "t": "Technical Assessment & Coding",
         "items": [
-          "Arrays, Strings, Two-Pointer technique, and HashMaps (LeetCode Easy to Medium)",
-          "Recursion, Binary Search, and Tree traversals (BFS & DFS)",
-          "Object-Oriented Programming (OOP) concepts, DBMS Queries, and Operating Systems Basics"
+          "Not Applicable (Non-Tech Role)",
+          "Basic MS Office / Excel Formulas",
+          "Workflow & Escalation Logic"
         ]
       },
       {
         "t": "Interview Strategy",
         "items": [
-          "Review your final-year college project or internships thoroughly — explain architectural choices clearly for Paytm.",
-          "Prepare to write clean, compiling code with optimal Time and Space complexity (Big-O analysis).",
-          "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
+          "Emphasize strong written English proficiency, tone etiquette, and clarity in drafting official email responses.",
+          "Familiarize yourself with Indian financial regulations, RBI Ombudsman framework, and Paytm's ecosystem (wallet, UPI, lending)."
         ]
       }
     ]
@@ -951,39 +950,38 @@
     "org": "Zeta",
     "title": "Executive - IT Support",
     "location": "Mumbai",
-    "batch": "2024, 2025 & 2026 Graduates",
-    "salary": "₹3.6 – ₹6.0 LPA",
+    "batch": "2023, 2024 & 2025 Batches (B.E/B.Tech/BCA/B.Sc IT)",
+    "salary": "₹4.5 - ₹7.0 LPA",
     "posted": "Today",
     "isNew": true,
     "lastDate": "Accepting Applications",
-    "vacancies": "Multiple Openings (Fresher Intake)",
+    "vacancies": "Multiple Openings",
     "applyUrl": "https://jobs.lever.co/zeta/aa98c726-9336-4d99-be08-20050eaf309c",
     "slug": "/docs/jobs/zeta-executive-it-support.html",
-    "about": "Zeta is seeking an entry-level candidate for the Executive - IT Support position in Mumbai. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
-    "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in Data Structures & Algorithms, Core CS Fundamentals, Git & GitHub preferred.",
+    "about": "Provide technical assistance and end-user support to Zeta employees regarding hardware, software, and network issues. Manage user account access, system provisioning, and Active Directory configurations while maintaining high SLA standards. Monitor internal IT infrastructure and troubleshoot OS, application, and VPN connectivity tickets efficiently.",
+    "eligibility": "Open to graduates in relevant streams (2023, 2024 & 2025 Batches (B.E/B.Tech/BCA/B.Sc IT)). Hands-on skills in Active Directory, Windows/Linux OS, Networking (TCP/IP, DNS, VPN) preferred.",
     "prep": [
       {
         "t": "Aptitude & Reasoning Focus",
         "items": [
-          "Quantitative Aptitude: Percentages, Profit & Loss, Time-Speed-Distance, and Probability",
-          "Logical Reasoning: Coding-Decoding, Seating Arrangements, Syllogisms, and Pattern Series",
-          "Verbal Ability: Reading Comprehension, Sentence Correction, and Technical Vocabulary"
+          "Logical Reasoning & Puzzles",
+          "Quantitative Aptitude",
+          "Verbal Ability & Communication"
         ]
       },
       {
         "t": "Technical Assessment & Coding",
         "items": [
-          "Arrays, Strings, Two-Pointer technique, and HashMaps (LeetCode Easy to Medium)",
-          "Recursion, Binary Search, and Tree traversals (BFS & DFS)",
-          "Object-Oriented Programming (OOP) concepts, DBMS Queries, and Operating Systems Basics"
+          "Basic Shell/PowerShell Scripting",
+          "Basic SQL Queries",
+          "Computer Networks & OSI Model"
         ]
       },
       {
         "t": "Interview Strategy",
         "items": [
-          "Review your final-year college project or internships thoroughly — explain architectural choices clearly for Zeta.",
-          "Prepare to write clean, compiling code with optimal Time and Space complexity (Big-O analysis).",
-          "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
+          "Brush up thoroughly on networking fundamentals like DNS, DHCP, VPNs, subnets, and standard troubleshooting commands.",
+          "Highlight strong communication, structured problem-solving skills, and a user-first mindset during behavioral and technical rounds."
         ]
       }
     ]
@@ -1338,39 +1336,39 @@
     "org": "InMobi",
     "title": "Sr associate - Deal desk, Global Revenue Services",
     "location": "Bangalore",
-    "batch": "2024, 2025 & 2026 Graduates",
-    "salary": "₹8.0 – ₹16.0 LPA (Role Dependent)",
+    "batch": "2023, 2024 & 2025 Batches",
+    "salary": "₹6.5 - ₹10.5 LPA",
     "posted": "Today",
     "isNew": true,
     "lastDate": "Accepting Applications",
-    "vacancies": "Multiple Openings (Fresher Intake)",
+    "vacancies": "Multiple Openings",
     "applyUrl": "https://job-boards.greenhouse.io/inmobi/jobs/7995193",
     "slug": "/docs/jobs/inmobi-sr-associate-deal-desk-global-revenue-services.html",
-    "about": "InMobi is seeking an entry-level candidate for the Sr associate - Deal desk, Global Revenue Services position in Bangalore. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
-    "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in Python, SQL, Relational DBs preferred.",
+    "about": "As a Senior Associate in the Deal Desk team at InMobi, you will support global revenue operations by structuring complex ad-tech commercial deals and ensuring contract compliance. You will collaborate closely with sales, legal, and finance teams to streamline pricing approvals, revenue recognition, and deal execution. Additionally, you will analyze deal metrics and optimize commercial workflows using CRM and data tools.",
+    "eligibility": "Open to graduates in relevant streams (2023, 2024 & 2025 Batches). Hands-on skills in MS Excel, Salesforce CRM, SQL preferred.",
     "prep": [
       {
         "t": "Aptitude & Reasoning Focus",
         "items": [
-          "Quantitative Aptitude: Percentages, Profit & Loss, Time-Speed-Distance, and Probability",
-          "Logical Reasoning: Coding-Decoding, Seating Arrangements, Syllogisms, and Pattern Series",
-          "Verbal Ability: Reading Comprehension, Sentence Correction, and Technical Vocabulary"
+          "Data Interpretation",
+          "Commercial Arithmetic",
+          "Logical Reasoning",
+          "Verbal Ability"
         ]
       },
       {
         "t": "Technical Assessment & Coding",
         "items": [
-          "Arrays, Strings, Two-Pointer technique, and HashMaps (LeetCode Easy to Medium)",
-          "Recursion, Binary Search, and Tree traversals (BFS & DFS)",
-          "Object-Oriented Programming (OOP) concepts, DBMS Queries, and Operating Systems Basics"
+          "SQL Queries & Aggregations",
+          "Excel Automation & Functions",
+          "Basic Data Analysis"
         ]
       },
       {
         "t": "Interview Strategy",
         "items": [
-          "Review your final-year college project or internships thoroughly — explain architectural choices clearly for InMobi.",
-          "Prepare to write clean, compiling code with optimal Time and Space complexity (Big-O analysis).",
-          "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
+          "Brush up on pricing models, Ad-Tech/SaaS deal structuring, and revenue recognition principles.",
+          "Be prepared to answer scenario-based questions on trade-offs between sales speed and legal/financial governance."
         ]
       }
     ]
@@ -1381,39 +1379,38 @@
     "org": "InMobi",
     "title": "Sr associate - Deal desk, Global Revenue Services",
     "location": "Bangalore",
-    "batch": "2024, 2025 & 2026 Graduates",
-    "salary": "₹8.0 – ₹16.0 LPA (Role Dependent)",
+    "batch": "2023, 2024 & 2025 Batches",
+    "salary": "₹6.0 - ₹9.5 LPA",
     "posted": "Today",
     "isNew": true,
     "lastDate": "Accepting Applications",
-    "vacancies": "Multiple Openings (Fresher Intake)",
+    "vacancies": "Multiple Openings",
     "applyUrl": "https://job-boards.greenhouse.io/inmobi/jobs/8138503",
     "slug": "/docs/jobs/inmobi-sr-associate-deal-desk-global-revenue-services.html",
-    "about": "InMobi is seeking an entry-level candidate for the Sr associate - Deal desk, Global Revenue Services position in Bangalore. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
-    "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in Python, SQL, Relational DBs preferred.",
+    "about": "The Senior Associate in the Deal Desk team evaluates deal structures, validates revenue pricing, and manages end-to-end contract approval workflows. They collaborate closely with Sales, Finance, and Legal teams to ensure compliance and maximize operational efficiency within InMobi's global ad-tech ecosystem.",
+    "eligibility": "Open to graduates in relevant streams (2023, 2024 & 2025 Batches). Hands-on skills in Salesforce CRM, Advanced MS Excel, SQL preferred.",
     "prep": [
       {
         "t": "Aptitude & Reasoning Focus",
         "items": [
-          "Quantitative Aptitude: Percentages, Profit & Loss, Time-Speed-Distance, and Probability",
-          "Logical Reasoning: Coding-Decoding, Seating Arrangements, Syllogisms, and Pattern Series",
-          "Verbal Ability: Reading Comprehension, Sentence Correction, and Technical Vocabulary"
+          "Data Interpretation",
+          "Commercial Mathematics",
+          "Logical Reasoning"
         ]
       },
       {
         "t": "Technical Assessment & Coding",
         "items": [
-          "Arrays, Strings, Two-Pointer technique, and HashMaps (LeetCode Easy to Medium)",
-          "Recursion, Binary Search, and Tree traversals (BFS & DFS)",
-          "Object-Oriented Programming (OOP) concepts, DBMS Queries, and Operating Systems Basics"
+          "SQL Queries & Joins",
+          "Excel Automation & Formulas",
+          "Database Management Systems"
         ]
       },
       {
         "t": "Interview Strategy",
         "items": [
-          "Review your final-year college project or internships thoroughly — explain architectural choices clearly for InMobi.",
-          "Prepare to write clean, compiling code with optimal Time and Space complexity (Big-O analysis).",
-          "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
+          "Highlight your familiarity with digital advertising business models, pricing strategies, and CRM platforms like Salesforce.",
+          "Prepare structured STAR-format examples demonstrating strong cross-functional communication between Sales, Legal, and Finance."
         ]
       }
     ]
@@ -1424,39 +1421,40 @@
     "org": "Glance",
     "title": "Consultant - AI Governance Specialist",
     "location": "bangalore",
-    "batch": "2024, 2025 & 2026 Graduates",
-    "salary": "₹8.0 – ₹16.0 LPA (Role Dependent)",
+    "batch": "2023, 2024 & 2025 Batches",
+    "salary": "₹8.0 - ₹14.0 LPA",
     "posted": "Today",
     "isNew": true,
     "lastDate": "Accepting Applications",
-    "vacancies": "Multiple Openings (Fresher Intake)",
+    "vacancies": "1 - 3 Openings",
     "applyUrl": "https://job-boards.greenhouse.io/glance/jobs/8203695",
     "slug": "/docs/jobs/glance-consultant-ai-governance-specialist.html",
-    "about": "Glance is seeking an entry-level candidate for the Consultant - AI Governance Specialist position in bangalore. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
-    "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in Cloud Computing (AWS/Azure), Data Structures, Data Analytics preferred.",
+    "about": "As a Consultant - AI Governance Specialist at Glance, you will ensure Generative AI and agentic commerce models comply with privacy regulations, AI ethics, and corporate risk guidelines. You will collaborate with product and engineering teams to audit algorithms, evaluate model bias, and establish robust AI safety protocols. Additionally, you will monitor regulatory shifts and contribute to framework design for trustworthy AI deployment.",
+    "eligibility": "Open to graduates in relevant streams (2023, 2024 & 2025 Batches). Hands-on skills in Generative AI, AI Ethics & Governance, Data Privacy (DPDP Act / GDPR) preferred.",
     "prep": [
       {
         "t": "Aptitude & Reasoning Focus",
         "items": [
-          "Quantitative Aptitude: Percentages, Profit & Loss, Time-Speed-Distance, and Probability",
-          "Logical Reasoning: Coding-Decoding, Seating Arrangements, Syllogisms, and Pattern Series",
-          "Verbal Ability: Reading Comprehension, Sentence Correction, and Technical Vocabulary"
+          "Logical Reasoning",
+          "Data Interpretation",
+          "Critical Thinking",
+          "Verbal Ability & Comprehension"
         ]
       },
       {
         "t": "Technical Assessment & Coding",
         "items": [
-          "Arrays, Strings, Two-Pointer technique, and HashMaps (LeetCode Easy to Medium)",
-          "Recursion, Binary Search, and Tree traversals (BFS & DFS)",
-          "Object-Oriented Programming (OOP) concepts, DBMS Queries, and Operating Systems Basics"
+          "Basic Python Programming",
+          "Data Handling & Analysis",
+          "Machine Learning Fundamentals",
+          "AI Safety & Model Evaluation Concepts"
         ]
       },
       {
         "t": "Interview Strategy",
         "items": [
-          "Review your final-year college project or internships thoroughly — explain architectural choices clearly for Glance.",
-          "Prepare to write clean, compiling code with optimal Time and Space complexity (Big-O analysis).",
-          "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
+          "Familiarize yourself with global and Indian AI regulations, such as India's Digital Personal Data Protection (DPDP) Act and the EU AI Act.",
+          "Be ready to discuss real-world trade-offs between AI model accuracy, user privacy, and algorithmic fairness during technical scenarios."
         ]
       }
     ]
@@ -1467,39 +1465,40 @@
     "org": "Glance",
     "title": "Product Analyst II",
     "location": "Bangalore",
-    "batch": "2024, 2025 & 2026 Graduates",
-    "salary": "₹25,000 – ₹50,000/month (Stipend) + Full-time PPO",
+    "batch": "2023, 2024 & 2025 Batches",
+    "salary": "₹12.0 - ₹18.0 LPA",
     "posted": "Today",
     "isNew": true,
     "lastDate": "Accepting Applications",
-    "vacancies": "Multiple Openings (Fresher Intake)",
+    "vacancies": "Multiple Openings",
     "applyUrl": "https://job-boards.greenhouse.io/glance/jobs/8138477",
     "slug": "/docs/jobs/glance-product-analyst-ii.html",
-    "about": "Glance is seeking an entry-level candidate for the Product Analyst II position in Bangalore. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
-    "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in Python, SQL, Relational DBs preferred.",
+    "about": "As a Product Analyst II at Glance, you will break down complex, fuzzy business problems and implement data-driven solutions to optimize product experience. You will be responsible for defining, tracking, and improving core product metrics while building reporting dashboards and data models. Additionally, you will collaborate closely with cross-functional product and business teams to communicate trends and drive strategic decisions.",
+    "eligibility": "Open to graduates in relevant streams (2023, 2024 & 2025 Batches). Hands-on skills in SQL, Python, Tableau preferred.",
     "prep": [
       {
         "t": "Aptitude & Reasoning Focus",
         "items": [
-          "Quantitative Aptitude: Percentages, Profit & Loss, Time-Speed-Distance, and Probability",
-          "Logical Reasoning: Coding-Decoding, Seating Arrangements, Syllogisms, and Pattern Series",
-          "Verbal Ability: Reading Comprehension, Sentence Correction, and Technical Vocabulary"
+          "Data Interpretation",
+          "Logical Reasoning",
+          "Quantitative Aptitude",
+          "Business Case Analysis"
         ]
       },
       {
         "t": "Technical Assessment & Coding",
         "items": [
-          "Arrays, Strings, Two-Pointer technique, and HashMaps (LeetCode Easy to Medium)",
-          "Recursion, Binary Search, and Tree traversals (BFS & DFS)",
-          "Object-Oriented Programming (OOP) concepts, DBMS Queries, and Operating Systems Basics"
+          "Complex SQL Queries & Joins",
+          "Data Wrangling with Python (Pandas/NumPy)",
+          "Applied Statistics & A/B Testing",
+          "Product Metrics & Funnel Analysis"
         ]
       },
       {
         "t": "Interview Strategy",
         "items": [
-          "Review your final-year college project or internships thoroughly — explain architectural choices clearly for Glance.",
-          "Prepare to write clean, compiling code with optimal Time and Space complexity (Big-O analysis).",
-          "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
+          "Master advanced SQL (window functions, aggregations) and Python data analysis libraries, as technical rounds heavily test data extraction hands-on capabilities.",
+          "Practice product sense and metric case studies (e.g., metric drops, A/B test analysis, retention analysis) specific to mobile content and ad-tech platforms like Glance."
         ]
       }
     ]
@@ -1993,49 +1992,6 @@
     "slug": "/docs/jobs/stage-human-capital-global-workday-hris-analyst.html",
     "about": "Stage is seeking an entry-level candidate for the Human Capital - Global Workday / HRIS - Analyst position in Gurugram. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
     "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in Cloud Computing (AWS/Azure), Automation Testing, Selenium preferred.",
-    "prep": [
-      {
-        "t": "Aptitude & Reasoning Focus",
-        "items": [
-          "Quantitative Aptitude: Percentages, Profit & Loss, Time-Speed-Distance, and Probability",
-          "Logical Reasoning: Coding-Decoding, Seating Arrangements, Syllogisms, and Pattern Series",
-          "Verbal Ability: Reading Comprehension, Sentence Correction, and Technical Vocabulary"
-        ]
-      },
-      {
-        "t": "Technical Assessment & Coding",
-        "items": [
-          "Arrays, Strings, Two-Pointer technique, and HashMaps (LeetCode Easy to Medium)",
-          "Recursion, Binary Search, and Tree traversals (BFS & DFS)",
-          "Object-Oriented Programming (OOP) concepts, DBMS Queries, and Operating Systems Basics"
-        ]
-      },
-      {
-        "t": "Interview Strategy",
-        "items": [
-          "Review your final-year college project or internships thoroughly — explain architectural choices clearly for Stage.",
-          "Prepare to write clean, compiling code with optimal Time and Space complexity (Big-O analysis).",
-          "HR/Managerial Round: Showcase adaptability, eagerness to learn, and clear communication regarding location preferences."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "stage-human-capital-leaves-accommodation-sr-analyst-associate",
-    "sector": "private",
-    "org": "Stage",
-    "title": "Human Capital - Leaves & Accommodation- Sr Analyst/Associate",
-    "location": "Gurugram",
-    "batch": "2024, 2025 & 2026 Graduates",
-    "salary": "₹25,000 – ₹50,000/month (Stipend) + Full-time PPO",
-    "posted": "Today",
-    "isNew": true,
-    "lastDate": "Accepting Applications",
-    "vacancies": "Multiple Openings (Fresher Intake)",
-    "applyUrl": "https://www.kkr.com/careers/career-opportunities/post?gh_jid=5996783004",
-    "slug": "/docs/jobs/stage-human-capital-leaves-accommodation-sr-analyst-associate.html",
-    "about": "Stage is seeking an entry-level candidate for the Human Capital - Leaves & Accommodation- Sr Analyst/Associate position in Gurugram. As part of the engineering and product team, the hired candidate will collaborate on software development, test automation, and system maintenance. Ideal for candidates with strong foundational problem-solving and computer science fundamentals.",
-    "eligibility": "Open to graduates in relevant streams (2024, 2025 & 2026 Graduates). Hands-on skills in Cloud Computing (AWS/Azure), Data Structures, Data Analytics preferred.",
     "prep": [
       {
         "t": "Aptitude & Reasoning Focus",
