@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-25T18:21:54.285Z",
+  "updatedAt": "2026-09-26T07:17:46.347Z",
   "totalJobs": 332,
   "publishedCount": 332,
-  "quarantinedCount": 484,
-  "reviewCount": 484,
+  "quarantinedCount": 486,
+  "reviewCount": 486,
   "privateCount": 332,
   "govtCount": 0,
   "sourceCounts": [
@@ -59,13 +59,13 @@
       "source": "ashby-ashby",
       "name": "Ashby",
       "kind": "ashby",
-      "fetched": 6
+      "fetched": 7
     },
     {
       "source": "ashby-astronomer",
       "name": "Astronomer",
       "kind": "ashby",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "ashby-atlan",
@@ -305,7 +305,7 @@
       "source": "ashby-harvey",
       "name": "Harvey",
       "kind": "ashby",
-      "fetched": 2
+      "fetched": 3
     },
     {
       "source": "ashby-hex",
@@ -539,7 +539,7 @@
       "source": "ashby-perplexity",
       "name": "Perplexity AI",
       "kind": "ashby",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "ashby-persona",
@@ -863,7 +863,7 @@
       "source": "gh-affirm",
       "name": "Affirm",
       "kind": "greenhouse",
-      "fetched": 26
+      "fetched": 25
     },
     {
       "source": "gh-affle",
@@ -941,7 +941,7 @@
       "source": "gh-branch",
       "name": "Branch",
       "kind": "greenhouse",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "gh-braze",
@@ -1013,7 +1013,7 @@
       "source": "gh-coinbase",
       "name": "Coinbase",
       "kind": "greenhouse",
-      "fetched": 23
+      "fetched": 24
     },
     {
       "source": "gh-collibra",
@@ -1343,7 +1343,7 @@
       "source": "gh-netlify",
       "name": "Netlify",
       "kind": "greenhouse",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "gh-newrelic",
@@ -1451,7 +1451,7 @@
       "source": "gh-reddit",
       "name": "Reddit",
       "kind": "greenhouse",
-      "fetched": 9
+      "fetched": 10
     },
     {
       "source": "gh-remote",
@@ -1625,7 +1625,7 @@
       "source": "gh-twilio",
       "name": "Twilio",
       "kind": "greenhouse",
-      "fetched": 24
+      "fetched": 26
     },
     {
       "source": "gh-twitch",
@@ -1691,7 +1691,7 @@
       "source": "gh-zscaler",
       "name": "Zscaler",
       "kind": "greenhouse",
-      "fetched": 17
+      "fetched": 0
     },
     {
       "source": "govt-bpcl",
@@ -1747,8 +1747,7 @@
       "source": "govt-sbi",
       "name": "SBI",
       "kind": "govt",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 25
     },
     {
       "source": "govt-upsc",
@@ -1761,7 +1760,7 @@
       "source": "hiredoor",
       "name": "HireDoor",
       "kind": "hiredoor",
-      "fetched": 39
+      "fetched": 38
     },
     {
       "source": "keka-10decoders",
@@ -2433,7 +2432,7 @@
       "source": "lever-linkedin",
       "name": "LinkedIn",
       "kind": "lever",
-      "fetched": 3
+      "fetched": 0
     },
     {
       "source": "lever-lyrebirdstudio",
@@ -2745,7 +2744,7 @@
       "source": "lever-zaimler",
       "name": "zaimler",
       "kind": "lever",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "lever-zeta",
@@ -2762,7 +2761,6 @@
   ],
   "sitesSkippedByRobots": [
     "BPCL",
-    "SBI",
     "IBPS",
     "UPSC"
   ],
