@@ -52,7 +52,7 @@ Line 5 (small, at the bottom): Link in bio to apply
 Spell every word exactly as given. Keep generous margins so no text touches the edges.`;
 
   const resp = await ai.models.generateContent({
-    model: process.env.GEMINI_IMAGE_MODEL || 'gemini-2.5-flash-image-preview',
+    model: process.env.GEMINI_IMAGE_MODEL || 'gemini-3.1-flash-image',
     contents: [{ text: prompt }],
     config: { responseModalities: ['TEXT', 'IMAGE'] }
   });
