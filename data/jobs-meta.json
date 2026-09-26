@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-09-26T07:17:46.347Z",
-  "totalJobs": 332,
-  "publishedCount": 332,
-  "quarantinedCount": 486,
-  "reviewCount": 486,
-  "privateCount": 332,
+  "updatedAt": "2026-09-26T17:41:36.271Z",
+  "totalJobs": 333,
+  "publishedCount": 333,
+  "quarantinedCount": 491,
+  "reviewCount": 491,
+  "privateCount": 333,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -1940,7 +1940,7 @@
       "source": "keka-kapturecrm",
       "name": "Kapture CX",
       "kind": "keka",
-      "fetched": 3
+      "fetched": 5
     },
     {
       "source": "keka-kinsfolk",
@@ -2114,7 +2114,7 @@
       "source": "keka-techdome",
       "name": "Techdome",
       "kind": "keka",
-      "fetched": 5
+      "fetched": 6
     },
     {
       "source": "keka-tekmindz",
@@ -2432,7 +2432,7 @@
       "source": "lever-linkedin",
       "name": "LinkedIn",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 3
     },
     {
       "source": "lever-lyrebirdstudio",
