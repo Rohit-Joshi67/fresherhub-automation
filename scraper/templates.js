@@ -19,6 +19,42 @@ function escUrl(u) {
 
 const stripTags = (s) => String(s || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
 
+/* ---------------------------------------------------------------------------
+ * Adsterra ad units (rj's publisher codes — single source of truth).
+ * Every page type renders ALL FIVE units:
+ *  1-2. pop/social-bar scripts   -> just before </body> (invisible until triggered)
+ *  3.   native unit               -> exactly once per page, in the content flow
+ *  4.   direct link (AD_DIRECT_URL) -> ONLY on clearly-labeled "Sponsored" CTAs,
+ *         never inside or adjacent to the official Apply button
+ *  5.   468x60 banner            -> centered, mobile overflow-safe wrapper
+ * ------------------------------------------------------------------------- */
+export const AD_DIRECT_URL = 'https://www.profitableratecpmnetwork.com/qichwj81?key=584f6b52f323c6d8d7c6e66d4de23d10';
+export const AD_POP_1 = '<script src="https://pl31246609.profitableratecpmnetwork.com/dc/08/cd/dc08cd32724c07b66d99058a9d6af7ed.js"><\/script>';
+export const AD_POP_2 = '<script src="https://pl31246610.profitableratecpmnetwork.com/5f/64/39/5f643933e4b5609a6fea8b26e0567baa.js"><\/script>';
+export const AD_POP_SCRIPTS = `  ${AD_POP_1}\n  ${AD_POP_2}`;
+export const AD_NATIVE = `
+    <div class="ad-native-wrap">
+      <div class="ad-label">Sponsored</div>
+      <script async="async" data-cfasync="false" src="https://pl31246611.profitableratecpmnetwork.com/5dda39af7deea3e10807518d2e9983e8/invoke.js"><\/script>
+      <div id="container-5dda39af7deea3e10807518d2e9983e8"></div>
+    </div>`;
+export const AD_BANNER_468 = `
+    <div class="ad-banner-wrap">
+      <div class="ad-banner-inner">
+        <div class="ad-label">Advertisement</div>
+        <script>
+          atOptions = {
+            'key' : '31fa7b0488bb3b3d5d5d070b3b366b35',
+            'format' : 'iframe',
+            'height' : 60,
+            'width' : 468,
+            'params' : {}
+          };
+        <\/script>
+        <script src="https://www.highrevenueformat.com/31fa7b0488bb3b3d5d5d070b3b366b35/invoke.js"><\/script>
+      </div>
+    </div>`;
+
 /**
  * Site-curated GENERAL preparation resources. These are FresherHub's own
  * generic interview-prep pointers — rendered with an explicit label that
@@ -549,6 +585,45 @@ export function renderJobPage(job, ai, spec) {
       line-height: 1.6;
     }
 
+    /* Adsterra placements — clearly labeled, non-intrusive */
+    .ad-label {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #94A3B8;
+      text-align: center;
+      margin-bottom: 6px;
+    }
+    .ad-native-wrap {
+      margin: 26px 0;
+      padding: 16px;
+      background: #FFFFFF;
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+    }
+    .ad-banner-wrap {
+      display: flex;
+      justify-content: center;
+      margin: 30px auto;
+      padding: 0 12px;
+      max-width: 100%;
+      overflow: hidden;
+    }
+    .ad-banner-inner { max-width: 100%; }
+    .ad-sponsored-tag {
+      display: inline-block;
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      color: #94A3B8;
+      border: 1px solid #E2E8F0;
+      border-radius: 4px;
+      padding: 1px 6px;
+      margin-left: 6px;
+      vertical-align: middle;
+    }
+
     @media (max-width: 1050px) {
       .job-detail-grid {
         grid-template-columns: 1fr;
@@ -581,7 +656,7 @@ export function renderJobPage(job, ai, spec) {
       <a href="/" style="color:var(--accent-green);">Job Openings</a>
       <a href="/guides/">Prep Guides</a>
       <a href="/globe.html">Roadmap Globe</a>
-      <a href="https://www.profitableratecpmnetwork.com/qichwj81?key=584f6b52f323c6d8d7c6e66d4de23d10">Learning Hub</a>
+      <a href="${AD_DIRECT_URL}" rel="sponsored noopener">Learning Hub</a>
     </nav>
     <div class="nav-right-group">
       <a href="/about.html">About Us</a>
@@ -682,6 +757,7 @@ export function renderJobPage(job, ai, spec) {
         <div class="job-eligibility-text">
           ${eligibilityHtml}
         </div>
+        ${AD_NATIVE}
       </main>
 
       <!-- Right Column: Last date card, Actions, Promo, Preparation Guide Accordion -->
@@ -698,9 +774,9 @@ export function renderJobPage(job, ai, spec) {
               : `<div class="apply-disclaimer-sub">The official application link for this posting is not verified yet. Please check ${esc(job.company)}'s official careers page directly.</div>`}
 
             <div class="resource-promo-box">
-              <div class="resource-promo-lbl">RECOMMENDED RESOURCE</div>
+              <div class="resource-promo-lbl">RECOMMENDED RESOURCE <span class="ad-sponsored-tag">SPONSORED</span></div>
               <div class="resource-promo-title">Practice Aptitude & Coding Assessments</div>
-              <a href="https://www.profitableratecpmnetwork.com/qichwj81?key=584f6b52f323c6d8d7c6e66d4de23d10" target="_blank" rel="noopener noreferrer" class="btn-start-test">Start Free &nearr;</a>
+              <a href="${AD_DIRECT_URL}" target="_blank" rel="sponsored noopener noreferrer" class="btn-start-test">Start Free &nearr;</a>
             </div>
           </div>
         </div>
@@ -744,6 +820,8 @@ export function renderJobPage(job, ai, spec) {
       </aside>
     </div>
 
+    ${AD_BANNER_468}
+
     <div class="ai-disclaimer-footer">
       <p>Role details on this page are rewritten from the original job posting for readability — they are not the official posting. Always verify on the official application page before applying.<br>(To request a correction or removal, contact us.)</p>
     </div>
@@ -757,6 +835,7 @@ export function renderJobPage(job, ai, spec) {
       btn.querySelector('.plus').textContent = isOpen ? '+' : '−';
     }
   </script>
+${AD_POP_SCRIPTS}
 </body>
 </html>`;
 }

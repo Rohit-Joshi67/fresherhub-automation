@@ -18,6 +18,7 @@
 
 import fs from 'fs';
 import path from 'path';
+import { AD_DIRECT_URL, AD_POP_SCRIPTS, AD_NATIVE, AD_BANNER_468 } from './templates.js';
 
 const esc = (s) => String(s ?? '')
   .replace(/&/g, '&amp;')
@@ -174,7 +175,12 @@ export function renderGuidePage({ job, jobSlug, facts, guide }) {
   .btn { display: inline-block; padding: 12px 22px; border-radius: 999px; text-decoration: none; font-weight: 600; font-size: 15px; }
   .btn-primary { background: var(--accent-green); color: #fff; }
   .btn-ghost { background: #fff; color: var(--ink); border: 1px solid #e2e8f0; }
+  .btn-sponsored { background: #fff7ed; color: #9a3412; border: 1px solid #fed7aa; }
   .foot { margin-top: 36px; font-size: 12px; color: var(--muted); line-height: 1.6; }
+  .ad-label { font-size: 10px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #94a3b8; text-align: center; margin-bottom: 6px; }
+  .ad-native-wrap { margin: 26px 0; padding: 16px; background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; }
+  .ad-banner-wrap { display: flex; justify-content: center; margin: 28px auto; padding: 0 12px; max-width: 100%; overflow: hidden; }
+  .ad-banner-inner { max-width: 100%; }
 </style>
 </head>
 <body>
@@ -195,17 +201,21 @@ export function renderGuidePage({ job, jobSlug, facts, guide }) {
     ${section('Skills to prepare', guide.skills_to_prepare)}
     ${section('Interview topics to cover', guide.interview_topics)}
     ${section('Application checklist', guide.application_checklist)}
+    ${AD_NATIVE}
     <div class="cta-row">
       <a class="btn btn-ghost" href="${jobPageUrl}">View job details</a>
       ${applyUrl ? `<a class="btn btn-primary" href="${applyUrl}" target="_blank" rel="noopener">Apply on official site</a>` : ''}
+      <a class="btn btn-sponsored" href="${AD_DIRECT_URL}" target="_blank" rel="sponsored noopener noreferrer">Sponsored: Upskill Resources &rarr;</a>
     </div>
+    ${AD_BANNER_468}
     <div class="foot">Guide generated from the verified job posting on FresherHub. Always confirm details on the official application page before applying.</div>
   </div>
+${AD_POP_SCRIPTS}
 </body>
 </html>`;
 }
 
-function renderGuidesIndex(guides) {
+export function renderGuidesIndex(guides) {
   const cards = guides.map((g) => `
       <a class="g-card" href="/guides/${esc(g.file)}">
         <div class="g-title">${esc(g.title)}</div>
@@ -231,6 +241,12 @@ function renderGuidesIndex(guides) {
   .g-card:hover { border-color: #22c55e; }
   .g-title { font-weight: 600; font-size: 15px; margin-bottom: 6px; }
   .g-meta { font-size: 13px; color: #64748b; }
+  .ad-label { font-size: 10px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #94a3b8; text-align: center; margin-bottom: 6px; }
+  .ad-native-wrap { margin: 26px 0; padding: 16px; background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; }
+  .ad-banner-wrap { display: flex; justify-content: center; margin: 24px auto; padding: 0 12px; max-width: 100%; overflow: hidden; }
+  .ad-banner-inner { max-width: 100%; }
+  .sponsored-strip { text-align: center; margin: 22px 0; }
+  .sponsored-strip a { display: inline-block; background: #fff7ed; border: 1px solid #fed7aa; color: #9a3412; font-size: 13px; font-weight: 600; padding: 9px 20px; border-radius: 999px; text-decoration: none; }
 </style>
 </head>
 <body>
@@ -242,8 +258,12 @@ function renderGuidesIndex(guides) {
   <div class="wrap">
     <h1>Interview Prep Guides</h1>
     <div class="sub">${guides.length} role-specific guides for current fresher openings. Built from verified job postings.</div>
+    ${AD_BANNER_468}
     <div class="grid">${cards || '<p>No guides yet — check back soon.</p>'}</div>
+    ${AD_NATIVE}
+    <div class="sponsored-strip"><a href="${AD_DIRECT_URL}" target="_blank" rel="sponsored noopener noreferrer">Sponsored: Upskill Resources &rarr;</a></div>
   </div>
+${AD_POP_SCRIPTS}
 </body>
 </html>`;
 }

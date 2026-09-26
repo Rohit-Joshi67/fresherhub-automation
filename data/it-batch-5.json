@@ -1,0 +1,490 @@
+[
+  {
+    "id": "keka-logicwind",
+    "kind": "keka",
+    "name": "Logicwind",
+    "slug": "logicwind",
+    "homepage": "https://logicwind.com",
+    "checkUrl": "https://logicwind.keka.com/careers"
+  },
+  {
+    "id": "keka-techblocks",
+    "kind": "keka",
+    "name": "TechBlocks",
+    "slug": "techblocks",
+    "homepage": "https://techblocks.com",
+    "checkUrl": "https://techblocks.keka.com/careers"
+  },
+  {
+    "id": "keka-grow",
+    "kind": "keka",
+    "name": "Grow Solutions",
+    "slug": "grow",
+    "homepage": "https://growsolutions.in",
+    "checkUrl": "https://grow.keka.com/careers"
+  },
+  {
+    "id": "keka-kinsfolk",
+    "kind": "keka",
+    "name": "Kinsfolk",
+    "slug": "kinsfolk",
+    "homepage": "https://kinsfolksolutions.com",
+    "checkUrl": "https://kinsfolk.keka.com/careers"
+  },
+  {
+    "id": "keka-academian",
+    "kind": "keka",
+    "name": "Academian",
+    "slug": "academian",
+    "homepage": "https://academian.com",
+    "checkUrl": "https://academian.keka.com/careers"
+  },
+  {
+    "id": "keka-occamsadvisory",
+    "kind": "keka",
+    "name": "Occams Advisory",
+    "slug": "occamsadvisory",
+    "homepage": "https://occamsadvisory.com",
+    "checkUrl": "https://occamsadvisory.keka.com/careers"
+  },
+  {
+    "id": "keka-techdome",
+    "kind": "keka",
+    "name": "Techdome",
+    "slug": "techdome",
+    "homepage": "https://techdome.keka.com/careers",
+    "checkUrl": "https://techdome.keka.com/careers"
+  },
+  {
+    "id": "keka-fynd",
+    "kind": "keka",
+    "name": "Fynd",
+    "slug": "fynd",
+    "homepage": "https://fynd.com",
+    "checkUrl": "https://fynd.keka.com/careers"
+  },
+  {
+    "id": "keka-enablistar",
+    "kind": "keka",
+    "name": "Enablistar",
+    "slug": "enablistar",
+    "homepage": "https://enablistar.com",
+    "checkUrl": "https://enablistar.keka.com/careers"
+  },
+  {
+    "id": "keka-qodoro",
+    "kind": "keka",
+    "name": "Qodoro",
+    "slug": "qodoro",
+    "homepage": "https://qodoro.com",
+    "checkUrl": "https://qodoro.keka.com/careers"
+  },
+  {
+    "id": "keka-dayalgroup",
+    "kind": "keka",
+    "name": "Dayal Infosystems",
+    "slug": "dayalgroup",
+    "homepage": "https://dayalgroup.keka.com/careers",
+    "checkUrl": "https://dayalgroup.keka.com/careers"
+  },
+  {
+    "id": "keka-cloudkaptan",
+    "kind": "keka",
+    "name": "CloudKaptan",
+    "slug": "cloudkaptan",
+    "homepage": "https://cloudkaptan.com",
+    "checkUrl": "https://cloudkaptan.keka.com/careers"
+  },
+  {
+    "id": "keka-voidsolutions",
+    "kind": "keka",
+    "name": "Void Solutions",
+    "slug": "voidsolutions",
+    "homepage": "https://voidsolutions.keka.com/careers",
+    "checkUrl": "https://voidsolutions.keka.com/careers"
+  },
+  {
+    "id": "keka-clickpost",
+    "kind": "keka",
+    "name": "ClickPost",
+    "slug": "clickpost",
+    "homepage": "https://clickpost.ai",
+    "checkUrl": "https://clickpost.keka.com/careers"
+  },
+  {
+    "id": "keka-intentwise",
+    "kind": "keka",
+    "name": "Intentwise",
+    "slug": "intentwise",
+    "homepage": "https://intentwise.com",
+    "checkUrl": "https://intentwise.keka.com/careers"
+  },
+  {
+    "id": "keka-wohlig",
+    "kind": "keka",
+    "name": "Wohlig",
+    "slug": "wohlig",
+    "homepage": "https://wohlig.com",
+    "checkUrl": "https://wohlig.keka.com/careers"
+  },
+  {
+    "id": "keka-talakunchi",
+    "kind": "keka",
+    "name": "Talakunchi",
+    "slug": "talakunchi",
+    "homepage": "https://talakunchi.com",
+    "checkUrl": "https://talakunchi.keka.com/careers"
+  },
+  {
+    "id": "keka-zono",
+    "kind": "keka",
+    "name": "Zono",
+    "slug": "zono",
+    "homepage": "https://zono.keka.com/careers",
+    "checkUrl": "https://zono.keka.com/careers"
+  },
+  {
+    "id": "keka-qualminds",
+    "kind": "keka",
+    "name": "QualMinds",
+    "slug": "qualminds",
+    "homepage": "https://qualminds.com",
+    "checkUrl": "https://qualminds.keka.com/careers"
+  },
+  {
+    "id": "keka-softlinkglobal",
+    "kind": "keka",
+    "name": "Softlink Global",
+    "slug": "softlinkglobal",
+    "homepage": "https://softlinkglobal.com",
+    "checkUrl": "https://softlinkglobal.keka.com/careers"
+  },
+  {
+    "id": "keka-lumel",
+    "kind": "keka",
+    "name": "Lumel",
+    "slug": "lumel",
+    "homepage": "https://lumel.com",
+    "checkUrl": "https://lumel.keka.com/careers"
+  },
+  {
+    "id": "keka-irsl",
+    "kind": "keka",
+    "name": "IRIS RegTech Solutions",
+    "slug": "irsl",
+    "homepage": "https://irsl.keka.com/careers",
+    "checkUrl": "https://irsl.keka.com/careers"
+  },
+  {
+    "id": "keka-truagency",
+    "kind": "keka",
+    "name": "Tru Inc",
+    "slug": "truagency",
+    "homepage": "https://truagency.com",
+    "checkUrl": "https://truagency.keka.com/careers"
+  },
+  {
+    "id": "keka-conneqtiongroup",
+    "kind": "keka",
+    "name": "Conneqtion Group",
+    "slug": "conneqtiongroup",
+    "homepage": "https://conneqtiongroup.com",
+    "checkUrl": "https://conneqtiongroup.keka.com/careers"
+  },
+  {
+    "id": "keka-tarento",
+    "kind": "keka",
+    "name": "Tarento",
+    "slug": "tarento",
+    "homepage": "https://tarento.com",
+    "checkUrl": "https://tarento.keka.com/careers"
+  },
+  {
+    "id": "keka-athenainfonomics",
+    "kind": "keka",
+    "name": "Athena Infonomics",
+    "slug": "athenainfonomics",
+    "homepage": "https://athenainfonomics.com",
+    "checkUrl": "https://athenainfonomics.keka.com/careers"
+  },
+  {
+    "id": "keka-deccanaiauto",
+    "kind": "keka",
+    "name": "Deccan AI",
+    "slug": "deccanaiauto",
+    "homepage": "https://deccan.ai",
+    "checkUrl": "https://deccanaiauto.keka.com/careers"
+  },
+  {
+    "id": "keka-impactanalytics",
+    "kind": "keka",
+    "name": "Impact Analytics",
+    "slug": "impactanalytics",
+    "homepage": "https://impactanalytics.co",
+    "checkUrl": "https://impactanalytics.keka.com/careers"
+  },
+  {
+    "id": "keka-beyondroot",
+    "kind": "keka",
+    "name": "Beyond Root Technologies",
+    "slug": "beyondroot",
+    "homepage": "https://beyondroot.keka.com/careers",
+    "checkUrl": "https://beyondroot.keka.com/careers"
+  },
+  {
+    "id": "keka-everestims",
+    "kind": "keka",
+    "name": "EverestIMS Technologies",
+    "slug": "everestims",
+    "homepage": "https://everestims.com",
+    "checkUrl": "https://everestims.keka.com/careers"
+  },
+  {
+    "id": "keka-toddle",
+    "kind": "keka",
+    "name": "Toddle",
+    "slug": "toddle",
+    "homepage": "https://toddleapp.com",
+    "checkUrl": "https://toddle.keka.com/careers"
+  },
+  {
+    "id": "keka-idreamcareer",
+    "kind": "keka",
+    "name": "iDreamCareer",
+    "slug": "idreamcareer",
+    "homepage": "https://idreamcareer.keka.com/careers",
+    "checkUrl": "https://idreamcareer.keka.com/careers"
+  },
+  {
+    "id": "keka-akaike",
+    "kind": "keka",
+    "name": "Akaike Technologies",
+    "slug": "akaike",
+    "homepage": "https://akaike.keka.com/careers",
+    "checkUrl": "https://akaike.keka.com/careers"
+  },
+  {
+    "id": "keka-impronics",
+    "kind": "keka",
+    "name": "Impronics",
+    "slug": "impronics",
+    "homepage": "https://impronics.keka.com/careers",
+    "checkUrl": "https://impronics.keka.com/careers"
+  },
+  {
+    "id": "keka-beyondkey",
+    "kind": "keka",
+    "name": "Beyond Key",
+    "slug": "beyondkey",
+    "homepage": "https://beyondkey.com",
+    "checkUrl": "https://beyondkey.keka.com/careers"
+  },
+  {
+    "id": "keka-proclinkconsulting",
+    "kind": "keka",
+    "name": "Proclink Consulting",
+    "slug": "proclinkconsulting",
+    "homepage": "https://proclinkconsulting.keka.com/careers",
+    "checkUrl": "https://proclinkconsulting.keka.com/careers"
+  },
+  {
+    "id": "keka-codewinglet",
+    "kind": "keka",
+    "name": "Codewinglet",
+    "slug": "codewinglet",
+    "homepage": "https://codewinglet.com",
+    "checkUrl": "https://codewinglet.keka.com/careers"
+  },
+  {
+    "id": "keka-thoughtfocus",
+    "kind": "keka",
+    "name": "ThoughtFocus",
+    "slug": "thoughtfocus",
+    "homepage": "https://thoughtfocus.com",
+    "checkUrl": "https://thoughtfocus.keka.com/careers"
+  },
+  {
+    "id": "keka-finacplus",
+    "kind": "keka",
+    "name": "FinacPlus",
+    "slug": "finacplus",
+    "homepage": "https://finacplus.com",
+    "checkUrl": "https://finacplus.keka.com/careers"
+  },
+  {
+    "id": "keka-acsii",
+    "kind": "keka",
+    "name": "ACS International India",
+    "slug": "acsii",
+    "homepage": "https://acsii.keka.com/careers",
+    "checkUrl": "https://acsii.keka.com/careers"
+  },
+  {
+    "id": "keka-rigi",
+    "kind": "keka",
+    "name": "Rigi",
+    "slug": "rigi",
+    "homepage": "https://rigi.keka.com/careers",
+    "checkUrl": "https://rigi.keka.com/careers"
+  },
+  {
+    "id": "keka-cloudesign",
+    "kind": "keka",
+    "name": "Cloudesign",
+    "slug": "cloudesign",
+    "homepage": "https://cloudesign.keka.com/careers",
+    "checkUrl": "https://cloudesign.keka.com/careers"
+  },
+  {
+    "id": "keka-pennanttech",
+    "kind": "keka",
+    "name": "Pennant Technologies",
+    "slug": "pennanttech",
+    "homepage": "https://pennanttech.keka.com/careers",
+    "checkUrl": "https://pennanttech.keka.com/careers"
+  },
+  {
+    "id": "keka-niyo",
+    "kind": "keka",
+    "name": "Niyo",
+    "slug": "niyo",
+    "homepage": "https://niyo.keka.com/careers",
+    "checkUrl": "https://niyo.keka.com/careers"
+  },
+  {
+    "id": "keka-vyaparapp",
+    "kind": "keka",
+    "name": "Vyapar",
+    "slug": "vyaparapp",
+    "homepage": "https://vyaparapp.keka.com/careers",
+    "checkUrl": "https://vyaparapp.keka.com/careers"
+  },
+  {
+    "id": "keka-pcsinfinity",
+    "kind": "keka",
+    "name": "PcsInfinity",
+    "slug": "pcsinfinity",
+    "homepage": "https://pcsinfinity.keka.com/careers",
+    "checkUrl": "https://pcsinfinity.keka.com/careers"
+  },
+  {
+    "id": "keka-queuebuster",
+    "kind": "keka",
+    "name": "QueueBuster",
+    "slug": "queuebuster",
+    "homepage": "https://queuebuster.keka.com/careers",
+    "checkUrl": "https://queuebuster.keka.com/careers"
+  },
+  {
+    "id": "keka-lambdatest",
+    "kind": "keka",
+    "name": "LambdaTest",
+    "slug": "lambdatest",
+    "homepage": "https://lambdatest.keka.com/careers",
+    "checkUrl": "https://lambdatest.keka.com/careers"
+  },
+  {
+    "id": "keka-makunaiglobal",
+    "kind": "keka",
+    "name": "Makunai Global",
+    "slug": "makunaiglobal",
+    "homepage": "https://makunaiglobal.keka.com/careers",
+    "checkUrl": "https://makunaiglobal.keka.com/careers"
+  },
+  {
+    "id": "keka-bharatrohan",
+    "kind": "keka",
+    "name": "BharatRohan",
+    "slug": "bharatrohan",
+    "homepage": "https://bharatrohan.keka.com/careers",
+    "checkUrl": "https://bharatrohan.keka.com/careers"
+  },
+  {
+    "id": "keka-avengers",
+    "kind": "keka",
+    "name": "Avengers",
+    "slug": "avengers",
+    "homepage": "https://avengers.keka.com/careers",
+    "checkUrl": "https://avengers.keka.com/careers"
+  },
+  {
+    "id": "keka-entropik",
+    "kind": "keka",
+    "name": "Entropik",
+    "slug": "entropik",
+    "homepage": "https://entropik.keka.com/careers",
+    "checkUrl": "https://entropik.keka.com/careers"
+  },
+  {
+    "id": "keka-zocket",
+    "kind": "keka",
+    "name": "Zocket",
+    "slug": "zocket",
+    "homepage": "https://zocket.keka.com/careers",
+    "checkUrl": "https://zocket.keka.com/careers"
+  },
+  {
+    "id": "keka-surveysparrow",
+    "kind": "keka",
+    "name": "SurveySparrow",
+    "slug": "surveysparrow",
+    "homepage": "https://surveysparrow.keka.com/careers",
+    "checkUrl": "https://surveysparrow.keka.com/careers"
+  },
+  {
+    "id": "keka-saneforce",
+    "kind": "keka",
+    "name": "SANeForce",
+    "slug": "saneforce",
+    "homepage": "https://saneforce.keka.com/careers",
+    "checkUrl": "https://saneforce.keka.com/careers"
+  },
+  {
+    "id": "keka-tekmindz",
+    "kind": "keka",
+    "name": "TekMindz",
+    "slug": "tekmindz",
+    "homepage": "https://tekmindz.keka.com/careers",
+    "checkUrl": "https://tekmindz.keka.com/careers"
+  },
+  {
+    "id": "keka-prismforce",
+    "kind": "keka",
+    "name": "Prismforce",
+    "slug": "prismforce",
+    "homepage": "https://prismforce.keka.com/careers",
+    "checkUrl": "https://prismforce.keka.com/careers"
+  },
+  {
+    "id": "keka-kapturecrm",
+    "kind": "keka",
+    "name": "Kapture CX",
+    "slug": "kapturecrm",
+    "homepage": "https://kapturecrm.keka.com/careers",
+    "checkUrl": "https://kapturecrm.keka.com/careers"
+  },
+  {
+    "id": "keka-supplychainhub",
+    "kind": "keka",
+    "name": "SupplyChainHub",
+    "slug": "supplychainhub",
+    "homepage": "https://supplychainhub.keka.com/careers",
+    "checkUrl": "https://supplychainhub.keka.com/careers"
+  },
+  {
+    "id": "keka-flpl",
+    "kind": "keka",
+    "name": "Faclon",
+    "slug": "flpl",
+    "homepage": "https://flpl.keka.com/careers",
+    "checkUrl": "https://flpl.keka.com/careers"
+  },
+  {
+    "id": "keka-sperohealthcareinnovations",
+    "kind": "keka",
+    "name": "Spero Healthcare",
+    "slug": "sperohealthcareinnovations",
+    "homepage": "https://sperohealthcareinnovations.keka.com/careers",
+    "checkUrl": "https://sperohealthcareinnovations.keka.com/careers"
+  }
+]
