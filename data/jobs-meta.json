@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-09-28T08:27:04.969Z",
-  "totalJobs": 340,
-  "publishedCount": 340,
-  "quarantinedCount": 479,
-  "reviewCount": 479,
-  "privateCount": 340,
+  "updatedAt": "2026-09-28T20:27:33.438Z",
+  "totalJobs": 337,
+  "publishedCount": 337,
+  "quarantinedCount": 498,
+  "reviewCount": 498,
+  "privateCount": 337,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -851,7 +851,7 @@
       "source": "gh-6sense",
       "name": "6sense",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "gh-adyen",
@@ -863,7 +863,7 @@
       "source": "gh-affirm",
       "name": "Affirm",
       "kind": "greenhouse",
-      "fetched": 23
+      "fetched": 21
     },
     {
       "source": "gh-affle",
@@ -989,7 +989,7 @@
       "source": "gh-circleci",
       "name": "CircleCI",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "gh-cloudflare",
@@ -1001,7 +1001,7 @@
       "source": "gh-cloudsek",
       "name": "CloudSEK",
       "kind": "greenhouse",
-      "fetched": 7
+      "fetched": 6
     },
     {
       "source": "gh-cockroachlabs",
@@ -1259,7 +1259,7 @@
       "source": "gh-iterable",
       "name": "Iterable",
       "kind": "greenhouse",
-      "fetched": 3
+      "fetched": 2
     },
     {
       "source": "gh-kaizengaming",
@@ -1397,7 +1397,7 @@
       "source": "gh-pinterest",
       "name": "Pinterest",
       "kind": "greenhouse",
-      "fetched": 6
+      "fetched": 5
     },
     {
       "source": "gh-planetscale",
@@ -1433,7 +1433,7 @@
       "source": "gh-pubmatic",
       "name": "PubMatic",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "gh-qualtrics",
@@ -1523,7 +1523,7 @@
       "source": "gh-slice",
       "name": "Slice",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "gh-sofi",
@@ -1595,7 +1595,7 @@
       "source": "gh-thoughtworks",
       "name": "Thoughtworks",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "gh-tigergraph",
@@ -1691,7 +1691,7 @@
       "source": "gh-zscaler",
       "name": "Zscaler",
       "kind": "greenhouse",
-      "fetched": 16
+      "fetched": 18
     },
     {
       "source": "govt-bpcl",
@@ -1747,8 +1747,7 @@
       "source": "govt-sbi",
       "name": "SBI",
       "kind": "govt",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 25
     },
     {
       "source": "govt-upsc",
@@ -1887,7 +1886,7 @@
       "source": "keka-fynd",
       "name": "Fynd",
       "kind": "keka",
-      "fetched": 8
+      "fetched": 9
     },
     {
       "source": "keka-gameberry",
@@ -2055,7 +2054,7 @@
       "source": "keka-saneforce",
       "name": "SANeForce",
       "kind": "keka",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "keka-signzy",
@@ -2079,7 +2078,7 @@
       "source": "keka-spyneai",
       "name": "Spyne",
       "kind": "keka",
-      "fetched": 3
+      "fetched": 4
     },
     {
       "source": "keka-supplychainhub",
@@ -2325,13 +2324,13 @@
       "source": "lever-extremenetworks",
       "name": "Extreme Networks",
       "kind": "lever",
-      "fetched": 7
+      "fetched": 8
     },
     {
       "source": "lever-fampay",
       "name": "FamPay",
       "kind": "lever",
-      "fetched": 3
+      "fetched": 4
     },
     {
       "source": "lever-fi",
@@ -2409,7 +2408,7 @@
       "source": "lever-jumpcloud",
       "name": "JumpCloud",
       "kind": "lever",
-      "fetched": 8
+      "fetched": 7
     },
     {
       "source": "lever-lalamove",
@@ -2655,7 +2654,7 @@
       "source": "lever-teikametrics",
       "name": "Teikametrics",
       "kind": "lever",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "lever-teller",
@@ -2721,7 +2720,7 @@
       "source": "lever-weekdayworks",
       "name": "Weekday",
       "kind": "lever",
-      "fetched": 17
+      "fetched": 16
     },
     {
       "source": "lever-workwave",
@@ -2762,7 +2761,6 @@
   ],
   "sitesSkippedByRobots": [
     "BPCL",
-    "SBI",
     "IBPS",
     "UPSC"
   ],
