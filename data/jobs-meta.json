@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-09-27T18:09:39.930Z",
-  "totalJobs": 332,
-  "publishedCount": 332,
-  "quarantinedCount": 492,
-  "reviewCount": 492,
-  "privateCount": 332,
+  "updatedAt": "2026-09-28T08:27:04.969Z",
+  "totalJobs": 340,
+  "publishedCount": 340,
+  "quarantinedCount": 479,
+  "reviewCount": 479,
+  "privateCount": 340,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -863,7 +863,7 @@
       "source": "gh-affirm",
       "name": "Affirm",
       "kind": "greenhouse",
-      "fetched": 25
+      "fetched": 23
     },
     {
       "source": "gh-affle",
@@ -1037,7 +1037,7 @@
       "source": "gh-coursera",
       "name": "Coursera",
       "kind": "greenhouse",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "gh-customerio",
@@ -1151,13 +1151,13 @@
       "source": "gh-five9",
       "name": "Five9",
       "kind": "greenhouse",
-      "fetched": 7
+      "fetched": 9
     },
     {
       "source": "gh-fivetran",
       "name": "Fivetran",
       "kind": "greenhouse",
-      "fetched": 3
+      "fetched": 2
     },
     {
       "source": "gh-gemini",
@@ -1217,7 +1217,7 @@
       "source": "gh-highradius",
       "name": "HighRadius",
       "kind": "greenhouse",
-      "fetched": 18
+      "fetched": 17
     },
     {
       "source": "gh-honeycomb",
@@ -1691,7 +1691,7 @@
       "source": "gh-zscaler",
       "name": "Zscaler",
       "kind": "greenhouse",
-      "fetched": 0
+      "fetched": 16
     },
     {
       "source": "govt-bpcl",
@@ -1747,7 +1747,8 @@
       "source": "govt-sbi",
       "name": "SBI",
       "kind": "govt",
-      "fetched": 25
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "govt-upsc",
@@ -1802,7 +1803,7 @@
       "source": "keka-beyondkey",
       "name": "Beyond Key",
       "kind": "keka",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "keka-beyondroot",
@@ -1934,7 +1935,7 @@
       "source": "keka-irsl",
       "name": "IRIS RegTech Solutions",
       "kind": "keka",
-      "fetched": 4
+      "fetched": 3
     },
     {
       "source": "keka-kapturecrm",
@@ -2060,7 +2061,7 @@
       "source": "keka-signzy",
       "name": "Signzy",
       "kind": "keka",
-      "fetched": 8
+      "fetched": 7
     },
     {
       "source": "keka-sisinty",
@@ -2102,7 +2103,7 @@
       "source": "keka-tarento",
       "name": "Tarento",
       "kind": "keka",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "keka-techblocks",
@@ -2144,7 +2145,7 @@
       "source": "keka-valorem",
       "name": "FloBiz",
       "kind": "keka",
-      "fetched": 2
+      "fetched": 3
     },
     {
       "source": "keka-voidsolutions",
@@ -2534,7 +2535,7 @@
       "source": "lever-paytm",
       "name": "Paytm",
       "kind": "lever",
-      "fetched": 20
+      "fetched": 18
     },
     {
       "source": "lever-pigment",
@@ -2720,7 +2721,7 @@
       "source": "lever-weekdayworks",
       "name": "Weekday",
       "kind": "lever",
-      "fetched": 18
+      "fetched": 17
     },
     {
       "source": "lever-workwave",
@@ -2761,6 +2762,7 @@
   ],
   "sitesSkippedByRobots": [
     "BPCL",
+    "SBI",
     "IBPS",
     "UPSC"
   ],
