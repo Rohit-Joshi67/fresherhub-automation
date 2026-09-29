@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-09-29T08:06:58.802Z",
-  "totalJobs": 333,
-  "publishedCount": 333,
-  "quarantinedCount": 452,
-  "reviewCount": 452,
-  "privateCount": 333,
+  "updatedAt": "2026-09-29T19:13:55.951Z",
+  "totalJobs": 316,
+  "publishedCount": 316,
+  "quarantinedCount": 493,
+  "reviewCount": 493,
+  "privateCount": 316,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -185,7 +185,7 @@
       "source": "ashby-cradlebio",
       "name": "Cradle",
       "kind": "ashby",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "ashby-cursor",
@@ -377,7 +377,7 @@
       "source": "ashby-lgads",
       "name": "LG Ad Solutions",
       "kind": "ashby",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "ashby-lightdash",
@@ -731,7 +731,7 @@
       "source": "ashby-supabase",
       "name": "Supabase",
       "kind": "ashby",
-      "fetched": 16
+      "fetched": 15
     },
     {
       "source": "ashby-synctera",
@@ -1001,7 +1001,7 @@
       "source": "gh-cloudsek",
       "name": "CloudSEK",
       "kind": "greenhouse",
-      "fetched": 6
+      "fetched": 8
     },
     {
       "source": "gh-cockroachlabs",
@@ -1067,7 +1067,7 @@
       "source": "gh-dataiku",
       "name": "Dataiku",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "gh-descript",
@@ -1133,7 +1133,7 @@
       "source": "gh-fastly",
       "name": "Fastly",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "gh-figma",
@@ -1157,7 +1157,7 @@
       "source": "gh-fivetran",
       "name": "Fivetran",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 3
     },
     {
       "source": "gh-gemini",
@@ -1259,7 +1259,7 @@
       "source": "gh-iterable",
       "name": "Iterable",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 3
     },
     {
       "source": "gh-kaizengaming",
@@ -1319,7 +1319,7 @@
       "source": "gh-mongodb",
       "name": "MongoDB",
       "kind": "greenhouse",
-      "fetched": 19
+      "fetched": 18
     },
     {
       "source": "gh-monzo",
@@ -1625,7 +1625,7 @@
       "source": "gh-twilio",
       "name": "Twilio",
       "kind": "greenhouse",
-      "fetched": 26
+      "fetched": 25
     },
     {
       "source": "gh-twitch",
@@ -1685,7 +1685,7 @@
       "source": "gh-zoominfo",
       "name": "ZoomInfo",
       "kind": "greenhouse",
-      "fetched": 6
+      "fetched": 8
     },
     {
       "source": "gh-zscaler",
@@ -1704,8 +1704,7 @@
       "source": "govt-cdac",
       "name": "C-DAC",
       "kind": "govt",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 25
     },
     {
       "source": "govt-hpcl",
@@ -1798,7 +1797,7 @@
       "source": "keka-avengers",
       "name": "Avengers",
       "kind": "keka",
-      "fetched": 3
+      "fetched": 2
     },
     {
       "source": "keka-beyondkey",
@@ -1942,7 +1941,7 @@
       "source": "keka-kapturecrm",
       "name": "Kapture CX",
       "kind": "keka",
-      "fetched": 4
+      "fetched": 5
     },
     {
       "source": "keka-kinsfolk",
@@ -2722,7 +2721,7 @@
       "source": "lever-weekdayworks",
       "name": "Weekday",
       "kind": "lever",
-      "fetched": 17
+      "fetched": 16
     },
     {
       "source": "lever-workwave",
@@ -2763,7 +2762,6 @@
   ],
   "sitesSkippedByRobots": [
     "BPCL",
-    "C-DAC",
     "SBI",
     "IBPS",
     "UPSC"
