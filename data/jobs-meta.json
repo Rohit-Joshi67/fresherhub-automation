@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-09-28T20:27:33.438Z",
-  "totalJobs": 337,
-  "publishedCount": 337,
-  "quarantinedCount": 498,
-  "reviewCount": 498,
-  "privateCount": 337,
+  "updatedAt": "2026-09-29T08:06:58.802Z",
+  "totalJobs": 333,
+  "publishedCount": 333,
+  "quarantinedCount": 452,
+  "reviewCount": 452,
+  "privateCount": 333,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -695,7 +695,7 @@
       "source": "ashby-socket",
       "name": "Socket",
       "kind": "ashby",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "ashby-solidroad",
@@ -785,7 +785,7 @@
       "source": "ashby-vanta",
       "name": "Vanta",
       "kind": "ashby",
-      "fetched": 3
+      "fetched": 2
     },
     {
       "source": "ashby-vapi",
@@ -1349,7 +1349,7 @@
       "source": "gh-newrelic",
       "name": "New Relic",
       "kind": "greenhouse",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "gh-nextdoor",
@@ -1367,7 +1367,7 @@
       "source": "gh-okta",
       "name": "Okta",
       "kind": "greenhouse",
-      "fetched": 6
+      "fetched": 5
     },
     {
       "source": "gh-okx",
@@ -1445,13 +1445,13 @@
       "source": "gh-razorpay",
       "name": "Razorpay",
       "kind": "greenhouse",
-      "fetched": 3
+      "fetched": 1
     },
     {
       "source": "gh-reddit",
       "name": "Reddit",
       "kind": "greenhouse",
-      "fetched": 10
+      "fetched": 9
     },
     {
       "source": "gh-remote",
@@ -1577,7 +1577,7 @@
       "source": "gh-taboola",
       "name": "Taboola",
       "kind": "greenhouse",
-      "fetched": 4
+      "fetched": 5
     },
     {
       "source": "gh-tenstorrent",
@@ -1595,7 +1595,7 @@
       "source": "gh-thoughtworks",
       "name": "Thoughtworks",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "gh-tigergraph",
@@ -1679,19 +1679,19 @@
       "source": "gh-yipitdata",
       "name": "YipitData",
       "kind": "greenhouse",
-      "fetched": 10
+      "fetched": 11
     },
     {
       "source": "gh-zoominfo",
       "name": "ZoomInfo",
       "kind": "greenhouse",
-      "fetched": 7
+      "fetched": 6
     },
     {
       "source": "gh-zscaler",
       "name": "Zscaler",
       "kind": "greenhouse",
-      "fetched": 18
+      "fetched": 16
     },
     {
       "source": "govt-bpcl",
@@ -1704,7 +1704,8 @@
       "source": "govt-cdac",
       "name": "C-DAC",
       "kind": "govt",
-      "fetched": 25
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "govt-hpcl",
@@ -1747,7 +1748,8 @@
       "source": "govt-sbi",
       "name": "SBI",
       "kind": "govt",
-      "fetched": 25
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "govt-upsc",
@@ -1778,7 +1780,7 @@
       "source": "keka-acsii",
       "name": "ACS International India",
       "kind": "keka",
-      "fetched": 3
+      "fetched": 1
     },
     {
       "source": "keka-akaike",
@@ -1820,7 +1822,7 @@
       "source": "keka-clickpost",
       "name": "ClickPost",
       "kind": "keka",
-      "fetched": 3
+      "fetched": 4
     },
     {
       "source": "keka-cloudesign",
@@ -1832,7 +1834,7 @@
       "source": "keka-cloudkaptan",
       "name": "CloudKaptan",
       "kind": "keka",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "keka-codewinglet",
@@ -1856,7 +1858,7 @@
       "source": "keka-deccanaiauto",
       "name": "Deccan AI",
       "kind": "keka",
-      "fetched": 2
+      "fetched": 0
     },
     {
       "source": "keka-enablistar",
@@ -2324,7 +2326,7 @@
       "source": "lever-extremenetworks",
       "name": "Extreme Networks",
       "kind": "lever",
-      "fetched": 8
+      "fetched": 9
     },
     {
       "source": "lever-fampay",
@@ -2720,7 +2722,7 @@
       "source": "lever-weekdayworks",
       "name": "Weekday",
       "kind": "lever",
-      "fetched": 16
+      "fetched": 17
     },
     {
       "source": "lever-workwave",
@@ -2761,6 +2763,8 @@
   ],
   "sitesSkippedByRobots": [
     "BPCL",
+    "C-DAC",
+    "SBI",
     "IBPS",
     "UPSC"
   ],
