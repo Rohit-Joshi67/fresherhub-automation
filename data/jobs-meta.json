@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-09-30T08:12:43.427Z",
-  "totalJobs": 306,
-  "publishedCount": 306,
-  "quarantinedCount": 445,
-  "reviewCount": 445,
-  "privateCount": 306,
+  "updatedAt": "2026-09-30T18:56:53.019Z",
+  "totalJobs": 327,
+  "publishedCount": 327,
+  "quarantinedCount": 500,
+  "reviewCount": 500,
+  "privateCount": 327,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -581,7 +581,7 @@
       "source": "ashby-prefect",
       "name": "Prefect",
       "kind": "ashby",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "ashby-railway",
@@ -647,7 +647,7 @@
       "source": "ashby-runwayml",
       "name": "Runway",
       "kind": "ashby",
-      "fetched": 5
+      "fetched": 7
     },
     {
       "source": "ashby-sanity",
@@ -875,7 +875,7 @@
       "source": "gh-airbnb",
       "name": "Airbnb",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 0
     },
     {
       "source": "gh-airtable",
@@ -1319,7 +1319,7 @@
       "source": "gh-mongodb",
       "name": "MongoDB",
       "kind": "greenhouse",
-      "fetched": 17
+      "fetched": 18
     },
     {
       "source": "gh-monzo",
@@ -1475,7 +1475,7 @@
       "source": "gh-roblox",
       "name": "Roblox",
       "kind": "greenhouse",
-      "fetched": 16
+      "fetched": 15
     },
     {
       "source": "gh-rti",
@@ -1487,7 +1487,7 @@
       "source": "gh-salesloft",
       "name": "Salesloft",
       "kind": "greenhouse",
-      "fetched": 3
+      "fetched": 0
     },
     {
       "source": "gh-scaleai",
@@ -1505,7 +1505,7 @@
       "source": "gh-sezzle",
       "name": "Sezzle",
       "kind": "greenhouse",
-      "fetched": 53
+      "fetched": 55
     },
     {
       "source": "gh-shifttechnology",
@@ -1523,7 +1523,7 @@
       "source": "gh-slice",
       "name": "Slice",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "gh-sofi",
@@ -1655,7 +1655,7 @@
       "source": "gh-webflow",
       "name": "Webflow",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 0
     },
     {
       "source": "gh-wise",
@@ -1691,7 +1691,7 @@
       "source": "gh-zscaler",
       "name": "Zscaler",
       "kind": "greenhouse",
-      "fetched": 14
+      "fetched": 12
     },
     {
       "source": "govt-bpcl",
@@ -1704,7 +1704,7 @@
       "source": "govt-cdac",
       "name": "C-DAC",
       "kind": "govt",
-      "fetched": 0
+      "fetched": 25
     },
     {
       "source": "govt-hpcl",
@@ -1735,8 +1735,7 @@
       "source": "govt-npcil",
       "name": "NPCIL",
       "kind": "govt",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 8
     },
     {
       "source": "govt-pgcil",
@@ -1911,7 +1910,7 @@
       "source": "keka-impactanalytics",
       "name": "Impact Analytics",
       "kind": "keka",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "keka-impronics",
@@ -2061,13 +2060,13 @@
       "source": "keka-signzy",
       "name": "Signzy",
       "kind": "keka",
-      "fetched": 6
+      "fetched": 7
     },
     {
       "source": "keka-sisinty",
       "name": "GrowthSchool",
       "kind": "keka",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "keka-softlinkglobal",
@@ -2313,7 +2312,7 @@
       "source": "lever-entrata",
       "name": "Entrata",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 3
     },
     {
       "source": "lever-everbridge",
@@ -2337,8 +2336,7 @@
       "source": "lever-fi",
       "name": "Fi Money",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-fieldnation",
@@ -2350,120 +2348,103 @@
       "source": "lever-filevine",
       "name": "Filevine",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-fly",
       "name": "Fly.io",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-franklinai",
       "name": "Franklin AI",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-freshworks",
       "name": "Freshworks",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-funxyz",
       "name": "fun.xyz",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-gopuff",
       "name": "Gopuff",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-gradion",
       "name": "Gradion",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-idt",
       "name": "IDT Corporation",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-impossiblecloud",
       "name": "Impossible Cloud",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-intropic",
       "name": "Intropic",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-jumpcloud",
       "name": "JumpCloud",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 8
     },
     {
       "source": "lever-lalamove",
       "name": "Lalamove",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-lever",
       "name": "Lever",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-limitbreak",
       "name": "Limit Break",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-linkedin",
       "name": "LinkedIn",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 3
     },
     {
       "source": "lever-lyrebirdstudio",
       "name": "Lyrebird Studio",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-magnetforensics",
       "name": "Magnet Forensics",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-meesho",
@@ -2475,343 +2456,295 @@
       "source": "lever-mindtickle",
       "name": "Mindtickle",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 4
     },
     {
       "source": "lever-mobileaction",
       "name": "MobileAction",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-moonsonglabs",
       "name": "MoonSong Labs",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-multiplylabs",
       "name": "Multiply Labs",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-muttdata",
       "name": "Mutt Data",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-mythicaicom",
       "name": "Mythic",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-neon",
       "name": "Neon",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-neuron7",
       "name": "Neuron7.ai",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 1
     },
     {
       "source": "lever-octoenergy",
       "name": "Octopus Energy",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-olo",
       "name": "Olo",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 5
     },
     {
       "source": "lever-oowlish",
       "name": "Oowlish",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-outreach",
       "name": "Outreach",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-palantir",
       "name": "Palantir",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-paytm",
       "name": "Paytm",
       "kind": "lever",
-      "fetched": 18
+      "fetched": 17
     },
     {
       "source": "lever-pigment",
       "name": "Pigment",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 1
     },
     {
       "source": "lever-plivo",
       "name": "Plivo",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-porter",
       "name": "Porter",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-portpro",
       "name": "PortPro",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-prismic",
       "name": "Prismic",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-procreate",
       "name": "Procreate",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-qonto",
       "name": "Qonto",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-quantco",
       "name": "QuantCo",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-reachindustries",
       "name": "Reach Industries",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-restaurant365",
       "name": "Restaurant365",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-revealtech",
       "name": "Reveal Group",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-revefi",
       "name": "Revefi",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-revenueanalytics",
       "name": "Revenue Analytics",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-secureframe",
       "name": "SecureFrame",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-shieldai",
       "name": "Shield AI",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-soum",
       "name": "Soum",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 1
     },
     {
       "source": "lever-spotify",
       "name": "Spotify",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-stackedsp",
       "name": "StackedSP",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-swile",
       "name": "Swile",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-teikametrics",
       "name": "Teikametrics",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-teller",
       "name": "Teller",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-theodo",
       "name": "Theodo",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-toptal",
       "name": "Toptal",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-traackr",
       "name": "Traackr",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-ttecdigital",
       "name": "TTEC Digital",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-turgonai",
       "name": "Turgon AI",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-vana",
       "name": "Vana",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-voleon",
       "name": "Voleon",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-waabi",
       "name": "Waabi",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-walkme",
       "name": "WalkMe",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-weekdayworks",
       "name": "Weekday",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 16
     },
     {
       "source": "lever-workwave",
       "name": "WorkWave",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 1
     },
     {
       "source": "lever-xsolla",
       "name": "Xsolla",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 2
     },
     {
       "source": "lever-yuno",
       "name": "Yuno",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 1
     },
     {
       "source": "lever-zaimler",
       "name": "zaimler",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-zeta",
@@ -2823,81 +2756,12 @@
       "source": "lever-zoox",
       "name": "Zoox",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     }
   ],
   "sitesSkippedByRobots": [
-    "Fi Money",
-    "Filevine",
-    "Fly.io",
-    "Franklin AI",
-    "Freshworks",
-    "fun.xyz",
-    "Gopuff",
-    "Gradion",
-    "IDT Corporation",
-    "Impossible Cloud",
-    "Intropic",
-    "JumpCloud",
-    "Lalamove",
-    "Lever",
-    "Limit Break",
-    "LinkedIn",
-    "Lyrebird Studio",
-    "Magnet Forensics",
-    "Mindtickle",
-    "MobileAction",
-    "MoonSong Labs",
-    "Multiply Labs",
-    "Mutt Data",
-    "Mythic",
-    "Neon",
-    "Neuron7.ai",
-    "Octopus Energy",
-    "Olo",
-    "Oowlish",
-    "Outreach",
-    "Palantir",
-    "Pigment",
-    "Plivo",
-    "Porter",
-    "PortPro",
-    "Prismic",
-    "Procreate",
-    "Qonto",
-    "QuantCo",
-    "Reach Industries",
-    "Restaurant365",
-    "Reveal Group",
-    "Revefi",
-    "Revenue Analytics",
-    "SecureFrame",
-    "Shield AI",
-    "Soum",
-    "Spotify",
-    "StackedSP",
-    "Swile",
-    "Teikametrics",
-    "Teller",
-    "Theodo",
-    "Toptal",
-    "Traackr",
-    "TTEC Digital",
-    "Turgon AI",
-    "Vana",
-    "Voleon",
-    "Waabi",
-    "WalkMe",
-    "Weekday",
-    "WorkWave",
-    "Xsolla",
-    "Yuno",
-    "zaimler",
-    "Zoox",
     "BPCL",
     "IBPS",
-    "NPCIL",
     "UPSC"
   ],
   "sitesWithErrors": [],
