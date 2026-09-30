@@ -1,123 +1,185 @@
 [
   {
-    "page": "/docs/jobs/zoominfo-software-engineer-i.html",
-    "company": "ZoomInfo",
-    "title": "Software Engineer I",
-    "apply_url": "https://www.zoominfo.com/careers?gh_jid=8759684002",
-    "headline": "Software Engineer I @ ZoomInfo",
-    "subheadline": "Bengaluru, Karnataka, India | Entry-level (0–2 yrs)",
+    "page": "/docs/jobs/coinbase-software-engineer-cdp-foundations.html",
+    "company": "Coinbase",
+    "title": "Software Engineer, CDP - Foundations",
+    "apply_url": "https://www.coinbase.com/careers/positions/8241522?gh_jid=8241522",
+    "headline": "Software Engineer, CDP - Foundations @ Coinbase",
+    "subheadline": "Remote - USA | Internship",
     "key_points": [
-      "We move fast, think boldly, and empower you to do the best work of your life.",
-      "You’ll be surrounded by teammates who care deeply, challenge each other, and celebrate wins.",
-      "Participate in story refinement and requirement gathering sessions to ensure clear project scope and execution.",
-      "Skill: Go"
+      "This isn't a place for complacency, it’s a place to be pushed past your perceived limits.",
+      "If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here.",
+      "The CDP Foundations team's three pods, Portal and Platform Services, Custodial Foundations, and Fully Disclosed Onboarding and Eligibility, own the foundational experiences and primitives spanning the developer portal, shared customer services, custodial accounts and taxes, and KYC/KYB onboarding and eligibility APIs."
     ],
-    "cta": "Apply on the official page: https://www.zoominfo.com/careers?gh_jid=8759684002",
-    "caption": "Hiring alert: ZoomInfo is looking for a Software Engineer I (Bengaluru, Karnataka, India).\n\nEligibility: Entry-level (0–2 yrs).\nCompensation: check the official posting for details.\n- We move fast, think boldly, and empower you to do the best work of your life.\n- You’ll be surrounded by teammates who care deeply, challenge each other, and celebrate wins.\n- Participate in story refinement and requirement gathering sessions to ensure clear project scope and execution.\n- Skill: Go\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "cta": "Apply on the official page: https://www.coinbase.com/careers/positions/8241522?gh_jid=8241522",
+    "caption": "Hiring alert: Coinbase is looking for a Software Engineer, CDP - Foundations (Remote - USA).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- This isn't a place for complacency, it’s a place to be pushed past your perceived limits.\n- If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here.\n- The CDP Foundations team's three pods, Portal and Platform Services, Custodial Foundations, and Fully Disclosed Onboarding and Eligibility, own the foundational experiences and primitives spanning the developer portal, shared customer services, custodial accounts and taxes, and KYC/KYB onboarding and eligibility APIs.\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
     "hashtags": [
       "#fresherjobs",
       "#freshershiring",
       "#entryleveljobs",
       "#hiringindia",
-      "#zoominfohiring",
-      "#bengalurukarnatakaindiajobs"
+      "#coinbasehiring",
+      "#remoteusajobs"
     ]
   },
   {
-    "page": "/docs/jobs/cradle-scientific-solutions-consultant.html",
-    "company": "Cradle",
-    "title": "Scientific Solutions Consultant",
-    "apply_url": "https://jobs.ashbyhq.com/cradlebio/9bfb1d5e-92e1-487b-aa05-633d1b8da50c",
-    "headline": "Scientific Solutions Consultant @ Cradle",
-    "subheadline": "Remote - US West Coast | Internship",
+    "page": "/docs/jobs/twilio-phone-number-operations-specialist.html",
+    "company": "Twilio",
+    "title": "Phone Number Operations Specialist",
+    "apply_url": "https://job-boards.greenhouse.io/twilio/jobs/8235979",
+    "headline": "Phone Number Operations Specialist @ Twilio",
+    "subheadline": "Remote - Estonia | Internship",
     "key_points": [
-      "We've built many successful products before and have enough funding for multiple years of runway.",
-      "You will listen intently to customers’ protein engineering workflows and ask the right questions to understand how Cradle can best support their research objectives.",
-      "Provide internal leadership by developing best-in-class solutions, assets and content to help our customers, help your team and enable others to learn from your experience and expertise.",
-      "Skill: Go",
-      "Skill: Machine Learning"
-    ],
-    "cta": "Apply on the official page: https://jobs.ashbyhq.com/cradlebio/9bfb1d5e-92e1-487b-aa05-633d1b8da50c",
-    "caption": "Hiring alert: Cradle is looking for a Scientific Solutions Consultant (Remote - US West Coast).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- We've built many successful products before and have enough funding for multiple years of runway.\n- You will listen intently to customers’ protein engineering workflows and ask the right questions to understand how Cradle can best support their research objectives.\n- Provide internal leadership by developing best-in-class solutions, assets and content to help our customers, help your team and enable others to learn from your experience and expertise.\n- Skill: Go\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
-    "hashtags": [
-      "#fresherjobs",
-      "#freshershiring",
-      "#entryleveljobs",
-      "#hiringindia",
-      "#cradlehiring",
-      "#remoteuswestcoastjobs"
-    ]
-  },
-  {
-    "page": "/docs/jobs/kapture-cx-software-development-engineer-in-test-qa.html",
-    "company": "Kapture CX",
-    "title": "Software Development Engineer in Test / QA.",
-    "apply_url": "https://kapturecrm.keka.com/careers/jobdetails/163445",
-    "headline": "Software Development Engineer in Test / QA. @ Kapture CX",
-    "subheadline": "Bengaluru | Internship",
-    "key_points": [
-      "Role Overview As a Software Development Engineer in Test / QA , you will be responsible for Develop and maintain automated tests for APIs, backend services, and chatbot/voice bot flows, while designing functional, regression, and edge-case scenarios.",
-      "Validate REST APIs, integrations, data integrity, and bot behaviour, and integrate automation into CI/CD pipelines.",
-      "Design test cases from product requirements, covering functional, regression, and edge cases.",
-      "Skill: Python",
-      "Skill: Java",
+      "Also, while we are a remote-first company, you may be asked to report in person on an ad-hoc basis for team gatherings, functional off-sites or customer meetings. .",
+      "See yourself at Twilio Join the team as Twilio’s next Phone Numbers Operations Specialist .",
+      "About the job We are seeking an Operations Specialist to join the team that runs Twilio’s phone number operations globally.",
       "Skill: SQL"
     ],
-    "cta": "Apply on the official page: https://kapturecrm.keka.com/careers/jobdetails/163445",
-    "caption": "Hiring alert: Kapture CX is looking for a Software Development Engineer in Test / QA. (Bengaluru).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Role Overview As a Software Development Engineer in Test / QA , you will be responsible for Develop and maintain automated tests for APIs, backend services, and chatbot/voice bot flows, while designing functional, regression, and edge-case scenarios.\n- Validate REST APIs, integrations, data integrity, and bot behaviour, and integrate automation into CI/CD pipelines.\n- Design test cases from product requirements, covering functional, regression, and edge cases.\n- Skill: Python\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "cta": "Apply on the official page: https://job-boards.greenhouse.io/twilio/jobs/8235979",
+    "caption": "Hiring alert: Twilio is looking for a Phone Number Operations Specialist (Remote - Estonia).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Also, while we are a remote-first company, you may be asked to report in person on an ad-hoc basis for team gatherings, functional off-sites or customer meetings. .\n- See yourself at Twilio Join the team as Twilio’s next Phone Numbers Operations Specialist .\n- About the job We are seeking an Operations Specialist to join the team that runs Twilio’s phone number operations globally.\n- Skill: SQL\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
     "hashtags": [
       "#fresherjobs",
       "#freshershiring",
       "#entryleveljobs",
       "#hiringindia",
-      "#kapturecxhiring",
-      "#bengalurujobs"
+      "#twiliohiring",
+      "#remoteestoniajobs"
     ]
   },
   {
-    "page": "/docs/jobs/bt-group-associate-engineer-security.html",
-    "company": "BT Group",
-    "title": "Associate Engineer - Security",
-    "apply_url": "https://jobs.bt.com/BTGroup/job/Associate-Engineer-Security/62670-en_GB/",
-    "headline": "Associate Engineer - Security @ BT Group",
-    "subheadline": "Gurugram | Freshers welcome",
+    "page": "/docs/jobs/persistence-dev-forward-deployed-engineer.html",
+    "company": "persistence.dev",
+    "title": "Forward Deployed Engineer",
+    "apply_url": "https://wa.me/919113695817",
+    "headline": "Forward Deployed Engineer @ persistence.dev",
+    "subheadline": "Bangalore | Internship",
     "key_points": [
-      "Requirements Bachelor's degree in Computer Science, Information Technology, Cyber Security, Electronics & Communication Engineering, Network Engineering, or a related technical discipline.",
-      "Passion for networking and cybersecurity.",
-      "Skill: Networking",
+      "Responsibilities Work directly with clients to understand their workflows and requirements.",
+      "Requirements 0-2 years of experience.",
+      "Experience: 0-2 years.",
+      "Skill: Python",
+      "Skill: TypeScript",
+      "Skill: Go"
+    ],
+    "cta": "Apply on the official page: https://wa.me/919113695817",
+    "caption": "Hiring alert: persistence.dev is looking for a Forward Deployed Engineer (Bangalore).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Responsibilities Work directly with clients to understand their workflows and requirements.\n- Requirements 0-2 years of experience.\n- Experience: 0-2 years.\n- Skill: Python\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "hashtags": [
+      "#fresherjobs",
+      "#freshershiring",
+      "#entryleveljobs",
+      "#hiringindia",
+      "#persistencedevhiring",
+      "#bangalorejobs"
+    ]
+  },
+  {
+    "page": "/docs/jobs/kaleris-associate-software-engineer-intern.html",
+    "company": "Kaleris",
+    "title": "Associate Software Engineer Intern",
+    "apply_url": "https://kaleris.wd501.myworkdayjobs.com/en-US/kaleris_careers/job/Chennai/Associate-Software-Engineer-Intern_R-100658/apply/applyManually",
+    "headline": "Associate Software Engineer Intern @ Kaleris",
+    "subheadline": "Chennai | Internship",
+    "key_points": [],
+    "cta": "Apply on the official page: https://kaleris.wd501.myworkdayjobs.com/en-US/kaleris_careers/job/Chennai/Associate-Software-Engineer-Intern_R-100658/apply/applyManually",
+    "caption": "Hiring alert: Kaleris is looking for a Associate Software Engineer Intern (Chennai).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "hashtags": [
+      "#fresherjobs",
+      "#freshershiring",
+      "#entryleveljobs",
+      "#hiringindia",
+      "#kalerishiring",
+      "#chennaijobs"
+    ]
+  },
+  {
+    "page": "/docs/jobs/fourkites-product-support-intern.html",
+    "company": "FourKites",
+    "title": "Product Support - Intern",
+    "apply_url": "https://job-boards.greenhouse.io/fourkites/jobs/8073940",
+    "headline": "Product Support - Intern @ FourKites",
+    "subheadline": "Chennai | Internship",
+    "key_points": [
+      "Requirements Strong verbal and written communication skills.",
+      "Free 24/7 snacks and beverages.",
       "Skill: Customer Support"
     ],
-    "cta": "Apply on the official page: https://jobs.bt.com/BTGroup/job/Associate-Engineer-Security/62670-en_GB/",
-    "caption": "Hiring alert: BT Group is looking for a Associate Engineer - Security (Gurugram).\n\nEligibility: Freshers welcome.\nCompensation: check the official posting for details.\n- Requirements Bachelor's degree in Computer Science, Information Technology, Cyber Security, Electronics & Communication Engineering, Network Engineering, or a related technical discipline.\n- Passion for networking and cybersecurity.\n- Skill: Networking\n- Skill: Customer Support\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "cta": "Apply on the official page: https://job-boards.greenhouse.io/fourkites/jobs/8073940",
+    "caption": "Hiring alert: FourKites is looking for a Product Support - Intern (Chennai).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Requirements Strong verbal and written communication skills.\n- Free 24/7 snacks and beverages.\n- Skill: Customer Support\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
     "hashtags": [
       "#fresherjobs",
       "#freshershiring",
       "#entryleveljobs",
       "#hiringindia",
-      "#btgrouphiring",
-      "#gurugramjobs"
+      "#fourkiteshiring",
+      "#chennaijobs"
     ]
   },
   {
-    "page": "/docs/jobs/bigfm-sde-1-frontend.html",
-    "company": "BigFM",
-    "title": "SDE 1 (Frontend)",
-    "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSe0ZZAYGUd-P4C8JUHUsb093WRXuEeAu5Agr9dbFFm1cZ8p1A/viewform",
-    "headline": "SDE 1 (Frontend) @ BigFM",
-    "subheadline": "Gurugram | Freshers welcome",
+    "page": "/docs/jobs/flentx-tech-platform-intern.html",
+    "company": "FlentX",
+    "title": "Tech & Platform Intern",
+    "apply_url": "https://binary.so/bfptOwA",
+    "headline": "Tech & Platform Intern @ FlentX",
+    "subheadline": "Chennai | Internship",
     "key_points": [
-      "Requirements Strong software engineering fundamentals.",
-      "Skill: JavaScript"
+      "Interns will contribute to real-world initiatives and collaborate across product, growth, operations, brand, and customer experience rather than being limited to side projects.",
+      "Requirements Candidates from the 2025, 2026, and 2027 batches.",
+      "Willingness to work on real-world projects and contribute beyond a single function."
     ],
-    "cta": "Apply on the official page: https://docs.google.com/forms/d/e/1FAIpQLSe0ZZAYGUd-P4C8JUHUsb093WRXuEeAu5Agr9dbFFm1cZ8p1A/viewform",
-    "caption": "Hiring alert: BigFM is looking for a SDE 1 (Frontend) (Gurugram).\n\nEligibility: Freshers welcome.\nCompensation: check the official posting for details.\n- Requirements Strong software engineering fundamentals.\n- Skill: JavaScript\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "cta": "Apply on the official page: https://binary.so/bfptOwA",
+    "caption": "Hiring alert: FlentX is looking for a Tech & Platform Intern (Chennai).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Interns will contribute to real-world initiatives and collaborate across product, growth, operations, brand, and customer experience rather than being limited to side projects.\n- Requirements Candidates from the 2025, 2026, and 2027 batches.\n- Willingness to work on real-world projects and contribute beyond a single function.\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
     "hashtags": [
       "#fresherjobs",
       "#freshershiring",
       "#entryleveljobs",
       "#hiringindia",
-      "#bigfmhiring",
-      "#gurugramjobs"
+      "#flentxhiring",
+      "#chennaijobs"
+    ]
+  },
+  {
+    "page": "/docs/jobs/flentx-product-operations-intern.html",
+    "company": "FlentX",
+    "title": "Product Operations Intern",
+    "apply_url": "https://binary.so/bfptOwA",
+    "headline": "Product Operations Intern @ FlentX",
+    "subheadline": "Chennai | Internship",
+    "key_points": [
+      "Interns will work closely with the team on real-world business challenges rather than being limited to side projects.",
+      "Requirements Candidates from the 2025, 2026, and 2027 batches.",
+      "Willingness to work on real-world projects and contribute beyond a single function."
+    ],
+    "cta": "Apply on the official page: https://binary.so/bfptOwA",
+    "caption": "Hiring alert: FlentX is looking for a Product Operations Intern (Chennai).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Interns will work closely with the team on real-world business challenges rather than being limited to side projects.\n- Requirements Candidates from the 2025, 2026, and 2027 batches.\n- Willingness to work on real-world projects and contribute beyond a single function.\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "hashtags": [
+      "#fresherjobs",
+      "#freshershiring",
+      "#entryleveljobs",
+      "#hiringindia",
+      "#flentxhiring",
+      "#chennaijobs"
+    ]
+  },
+  {
+    "page": "/docs/jobs/flentx-customer-experience-intern.html",
+    "company": "FlentX",
+    "title": "Customer Experience Intern",
+    "apply_url": "https://binary.so/bfptOwA",
+    "headline": "Customer Experience Intern @ FlentX",
+    "subheadline": "Chennai | Internship",
+    "key_points": [
+      "Requirements Candidates from the 2025, 2026, and 2027 batches.",
+      "Willingness to work on real-world projects and contribute beyond a single function."
+    ],
+    "cta": "Apply on the official page: https://binary.so/bfptOwA",
+    "caption": "Hiring alert: FlentX is looking for a Customer Experience Intern (Chennai).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Requirements Candidates from the 2025, 2026, and 2027 batches.\n- Willingness to work on real-world projects and contribute beyond a single function.\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "hashtags": [
+      "#fresherjobs",
+      "#freshershiring",
+      "#entryleveljobs",
+      "#hiringindia",
+      "#flentxhiring",
+      "#chennaijobs"
     ]
   }
 ]
