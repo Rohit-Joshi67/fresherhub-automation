@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-09-30T18:56:53.019Z",
-  "totalJobs": 327,
-  "publishedCount": 327,
-  "quarantinedCount": 500,
-  "reviewCount": 500,
-  "privateCount": 327,
+  "updatedAt": "2026-10-01T08:34:43.819Z",
+  "totalJobs": 322,
+  "publishedCount": 322,
+  "quarantinedCount": 459,
+  "reviewCount": 459,
+  "privateCount": 322,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -539,7 +539,7 @@
       "source": "ashby-perplexity",
       "name": "Perplexity AI",
       "kind": "ashby",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "ashby-persona",
@@ -695,7 +695,7 @@
       "source": "ashby-socket",
       "name": "Socket",
       "kind": "ashby",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "ashby-solidroad",
@@ -863,7 +863,7 @@
       "source": "gh-affirm",
       "name": "Affirm",
       "kind": "greenhouse",
-      "fetched": 21
+      "fetched": 23
     },
     {
       "source": "gh-affle",
@@ -875,7 +875,7 @@
       "source": "gh-airbnb",
       "name": "Airbnb",
       "kind": "greenhouse",
-      "fetched": 0
+      "fetched": 2
     },
     {
       "source": "gh-airtable",
@@ -929,7 +929,7 @@
       "source": "gh-automatticcareers",
       "name": "Automattic",
       "kind": "greenhouse",
-      "fetched": 3
+      "fetched": 2
     },
     {
       "source": "gh-block",
@@ -1013,7 +1013,7 @@
       "source": "gh-coinbase",
       "name": "Coinbase",
       "kind": "greenhouse",
-      "fetched": 25
+      "fetched": 26
     },
     {
       "source": "gh-collibra",
@@ -1157,7 +1157,7 @@
       "source": "gh-fivetran",
       "name": "Fivetran",
       "kind": "greenhouse",
-      "fetched": 3
+      "fetched": 2
     },
     {
       "source": "gh-gemini",
@@ -1475,7 +1475,7 @@
       "source": "gh-roblox",
       "name": "Roblox",
       "kind": "greenhouse",
-      "fetched": 15
+      "fetched": 13
     },
     {
       "source": "gh-rti",
@@ -1487,7 +1487,7 @@
       "source": "gh-salesloft",
       "name": "Salesloft",
       "kind": "greenhouse",
-      "fetched": 0
+      "fetched": 3
     },
     {
       "source": "gh-scaleai",
@@ -1505,7 +1505,7 @@
       "source": "gh-sezzle",
       "name": "Sezzle",
       "kind": "greenhouse",
-      "fetched": 55
+      "fetched": 56
     },
     {
       "source": "gh-shifttechnology",
@@ -1559,7 +1559,7 @@
       "source": "gh-storyblok",
       "name": "Storyblok",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 0
     },
     {
       "source": "gh-stripe",
@@ -1655,7 +1655,7 @@
       "source": "gh-webflow",
       "name": "Webflow",
       "kind": "greenhouse",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "gh-wise",
@@ -1691,7 +1691,7 @@
       "source": "gh-zscaler",
       "name": "Zscaler",
       "kind": "greenhouse",
-      "fetched": 12
+      "fetched": 13
     },
     {
       "source": "govt-bpcl",
@@ -1704,7 +1704,8 @@
       "source": "govt-cdac",
       "name": "C-DAC",
       "kind": "govt",
-      "fetched": 25
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "govt-hpcl",
@@ -1747,7 +1748,8 @@
       "source": "govt-sbi",
       "name": "SBI",
       "kind": "govt",
-      "fetched": 25
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "govt-upsc",
@@ -1760,7 +1762,7 @@
       "source": "hiredoor",
       "name": "HireDoor",
       "kind": "hiredoor",
-      "fetched": 39
+      "fetched": 38
     },
     {
       "source": "keka-10decoders",
@@ -2156,7 +2158,7 @@
       "source": "keka-vyaparapp",
       "name": "Vyapar",
       "kind": "keka",
-      "fetched": 17
+      "fetched": 16
     },
     {
       "source": "keka-wingify",
@@ -2312,7 +2314,7 @@
       "source": "lever-entrata",
       "name": "Entrata",
       "kind": "lever",
-      "fetched": 3
+      "fetched": 2
     },
     {
       "source": "lever-everbridge",
@@ -2408,7 +2410,7 @@
       "source": "lever-jumpcloud",
       "name": "JumpCloud",
       "kind": "lever",
-      "fetched": 8
+      "fetched": 7
     },
     {
       "source": "lever-lalamove",
@@ -2720,7 +2722,7 @@
       "source": "lever-weekdayworks",
       "name": "Weekday",
       "kind": "lever",
-      "fetched": 16
+      "fetched": 15
     },
     {
       "source": "lever-workwave",
@@ -2761,6 +2763,8 @@
   ],
   "sitesSkippedByRobots": [
     "BPCL",
+    "C-DAC",
+    "SBI",
     "IBPS",
     "UPSC"
   ],
