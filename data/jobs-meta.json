@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-01T08:34:43.819Z",
-  "totalJobs": 322,
-  "publishedCount": 322,
-  "quarantinedCount": 459,
-  "reviewCount": 459,
-  "privateCount": 322,
+  "updatedAt": "2026-10-01T19:22:09.598Z",
+  "totalJobs": 332,
+  "publishedCount": 332,
+  "quarantinedCount": 480,
+  "reviewCount": 480,
+  "privateCount": 332,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -863,7 +863,7 @@
       "source": "gh-affirm",
       "name": "Affirm",
       "kind": "greenhouse",
-      "fetched": 23
+      "fetched": 26
     },
     {
       "source": "gh-affle",
@@ -1013,7 +1013,7 @@
       "source": "gh-coinbase",
       "name": "Coinbase",
       "kind": "greenhouse",
-      "fetched": 26
+      "fetched": 27
     },
     {
       "source": "gh-collibra",
@@ -1259,7 +1259,7 @@
       "source": "gh-iterable",
       "name": "Iterable",
       "kind": "greenhouse",
-      "fetched": 3
+      "fetched": 2
     },
     {
       "source": "gh-kaizengaming",
@@ -1397,7 +1397,7 @@
       "source": "gh-pinterest",
       "name": "Pinterest",
       "kind": "greenhouse",
-      "fetched": 5
+      "fetched": 8
     },
     {
       "source": "gh-planetscale",
@@ -1475,7 +1475,7 @@
       "source": "gh-roblox",
       "name": "Roblox",
       "kind": "greenhouse",
-      "fetched": 13
+      "fetched": 12
     },
     {
       "source": "gh-rti",
@@ -1487,7 +1487,7 @@
       "source": "gh-salesloft",
       "name": "Salesloft",
       "kind": "greenhouse",
-      "fetched": 3
+      "fetched": 2
     },
     {
       "source": "gh-scaleai",
@@ -1505,7 +1505,7 @@
       "source": "gh-sezzle",
       "name": "Sezzle",
       "kind": "greenhouse",
-      "fetched": 56
+      "fetched": 57
     },
     {
       "source": "gh-shifttechnology",
@@ -1559,7 +1559,7 @@
       "source": "gh-storyblok",
       "name": "Storyblok",
       "kind": "greenhouse",
-      "fetched": 0
+      "fetched": 2
     },
     {
       "source": "gh-stripe",
@@ -1577,7 +1577,7 @@
       "source": "gh-taboola",
       "name": "Taboola",
       "kind": "greenhouse",
-      "fetched": 4
+      "fetched": 2
     },
     {
       "source": "gh-tenstorrent",
@@ -1625,7 +1625,7 @@
       "source": "gh-twilio",
       "name": "Twilio",
       "kind": "greenhouse",
-      "fetched": 27
+      "fetched": 23
     },
     {
       "source": "gh-twitch",
@@ -1685,13 +1685,13 @@
       "source": "gh-zoominfo",
       "name": "ZoomInfo",
       "kind": "greenhouse",
-      "fetched": 8
+      "fetched": 6
     },
     {
       "source": "gh-zscaler",
       "name": "Zscaler",
       "kind": "greenhouse",
-      "fetched": 13
+      "fetched": 14
     },
     {
       "source": "govt-bpcl",
@@ -1704,8 +1704,7 @@
       "source": "govt-cdac",
       "name": "C-DAC",
       "kind": "govt",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 15
     },
     {
       "source": "govt-hpcl",
@@ -1748,8 +1747,7 @@
       "source": "govt-sbi",
       "name": "SBI",
       "kind": "govt",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 25
     },
     {
       "source": "govt-upsc",
@@ -1762,7 +1760,7 @@
       "source": "hiredoor",
       "name": "HireDoor",
       "kind": "hiredoor",
-      "fetched": 38
+      "fetched": 39
     },
     {
       "source": "keka-10decoders",
@@ -1822,7 +1820,7 @@
       "source": "keka-clickpost",
       "name": "ClickPost",
       "kind": "keka",
-      "fetched": 4
+      "fetched": 5
     },
     {
       "source": "keka-cloudesign",
@@ -2014,7 +2012,7 @@
       "source": "keka-primetrace",
       "name": "Primetrace",
       "kind": "keka",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "keka-prismforce",
@@ -2116,7 +2114,7 @@
       "source": "keka-techdome",
       "name": "Techdome",
       "kind": "keka",
-      "fetched": 6
+      "fetched": 3
     },
     {
       "source": "keka-tekmindz",
@@ -2314,7 +2312,7 @@
       "source": "lever-entrata",
       "name": "Entrata",
       "kind": "lever",
-      "fetched": 2
+      "fetched": 4
     },
     {
       "source": "lever-everbridge",
@@ -2326,13 +2324,13 @@
       "source": "lever-extremenetworks",
       "name": "Extreme Networks",
       "kind": "lever",
-      "fetched": 9
+      "fetched": 8
     },
     {
       "source": "lever-fampay",
       "name": "FamPay",
       "kind": "lever",
-      "fetched": 4
+      "fetched": 3
     },
     {
       "source": "lever-fi",
@@ -2452,7 +2450,7 @@
       "source": "lever-meesho",
       "name": "Meesho",
       "kind": "lever",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "lever-mindtickle",
@@ -2763,8 +2761,6 @@
   ],
   "sitesSkippedByRobots": [
     "BPCL",
-    "C-DAC",
-    "SBI",
     "IBPS",
     "UPSC"
   ],
