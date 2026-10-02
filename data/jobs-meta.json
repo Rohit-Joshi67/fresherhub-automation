@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-01T19:22:09.598Z",
-  "totalJobs": 332,
-  "publishedCount": 332,
-  "quarantinedCount": 480,
-  "reviewCount": 480,
-  "privateCount": 332,
+  "updatedAt": "2026-10-02T08:10:15.660Z",
+  "totalJobs": 331,
+  "publishedCount": 331,
+  "quarantinedCount": 474,
+  "reviewCount": 474,
+  "privateCount": 331,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -59,7 +59,7 @@
       "source": "ashby-ashby",
       "name": "Ashby",
       "kind": "ashby",
-      "fetched": 7
+      "fetched": 6
     },
     {
       "source": "ashby-astronomer",
@@ -311,7 +311,7 @@
       "source": "ashby-hex",
       "name": "Hex",
       "kind": "ashby",
-      "fetched": 0
+      "fetched": 3
     },
     {
       "source": "ashby-hightouch",
@@ -875,7 +875,7 @@
       "source": "gh-airbnb",
       "name": "Airbnb",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 3
     },
     {
       "source": "gh-airtable",
@@ -1097,7 +1097,7 @@
       "source": "gh-dropbox",
       "name": "Dropbox",
       "kind": "greenhouse",
-      "fetched": 4
+      "fetched": 3
     },
     {
       "source": "gh-druva",
@@ -1199,7 +1199,7 @@
       "source": "gh-gusto",
       "name": "Gusto",
       "kind": "greenhouse",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "gh-hellofresh",
@@ -1259,7 +1259,7 @@
       "source": "gh-iterable",
       "name": "Iterable",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "gh-kaizengaming",
@@ -1625,7 +1625,7 @@
       "source": "gh-twilio",
       "name": "Twilio",
       "kind": "greenhouse",
-      "fetched": 23
+      "fetched": 22
     },
     {
       "source": "gh-twitch",
@@ -2258,7 +2258,7 @@
       "source": "lever-bluecatnetworks",
       "name": "BlueCat Networks",
       "kind": "lever",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "lever-bluelightconsulting",
@@ -2324,7 +2324,7 @@
       "source": "lever-extremenetworks",
       "name": "Extreme Networks",
       "kind": "lever",
-      "fetched": 8
+      "fetched": 0
     },
     {
       "source": "lever-fampay",
@@ -2450,7 +2450,7 @@
       "source": "lever-meesho",
       "name": "Meesho",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "lever-mindtickle",
