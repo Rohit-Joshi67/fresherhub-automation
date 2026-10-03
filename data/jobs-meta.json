@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-03T07:48:45.937Z",
-  "totalJobs": 347,
-  "publishedCount": 347,
-  "quarantinedCount": 479,
-  "reviewCount": 479,
-  "privateCount": 347,
+  "updatedAt": "2026-10-03T17:52:09.711Z",
+  "totalJobs": 348,
+  "publishedCount": 348,
+  "quarantinedCount": 465,
+  "reviewCount": 465,
+  "privateCount": 348,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -1747,7 +1747,8 @@
       "source": "govt-sbi",
       "name": "SBI",
       "kind": "govt",
-      "fetched": 25
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "govt-upsc",
@@ -1760,7 +1761,7 @@
       "source": "hiredoor",
       "name": "HireDoor",
       "kind": "hiredoor",
-      "fetched": 35
+      "fetched": 38
     },
     {
       "source": "keka-10decoders",
@@ -2534,13 +2535,13 @@
       "source": "lever-paytm",
       "name": "Paytm",
       "kind": "lever",
-      "fetched": 17
+      "fetched": 18
     },
     {
       "source": "lever-pigment",
       "name": "Pigment",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "lever-plivo",
@@ -2762,6 +2763,7 @@
   "sitesSkippedByRobots": [
     "BPCL",
     "IBPS",
+    "SBI",
     "UPSC"
   ],
   "sitesWithErrors": [],
