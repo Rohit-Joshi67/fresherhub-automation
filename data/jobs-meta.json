@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-03T17:52:09.711Z",
-  "totalJobs": 348,
-  "publishedCount": 348,
-  "quarantinedCount": 465,
-  "reviewCount": 465,
-  "privateCount": 348,
+  "updatedAt": "2026-10-04T07:58:03.630Z",
+  "totalJobs": 347,
+  "publishedCount": 347,
+  "quarantinedCount": 483,
+  "reviewCount": 483,
+  "privateCount": 347,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -1747,8 +1747,7 @@
       "source": "govt-sbi",
       "name": "SBI",
       "kind": "govt",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 25
     },
     {
       "source": "govt-upsc",
@@ -1761,7 +1760,7 @@
       "source": "hiredoor",
       "name": "HireDoor",
       "kind": "hiredoor",
-      "fetched": 38
+      "fetched": 37
     },
     {
       "source": "keka-10decoders",
@@ -2763,7 +2762,6 @@
   "sitesSkippedByRobots": [
     "BPCL",
     "IBPS",
-    "SBI",
     "UPSC"
   ],
   "sitesWithErrors": [],
