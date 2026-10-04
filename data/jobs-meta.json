@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-04T07:58:03.630Z",
-  "totalJobs": 347,
-  "publishedCount": 347,
-  "quarantinedCount": 483,
-  "reviewCount": 483,
-  "privateCount": 347,
+  "updatedAt": "2026-10-04T18:04:32.700Z",
+  "totalJobs": 341,
+  "publishedCount": 341,
+  "quarantinedCount": 486,
+  "reviewCount": 486,
+  "privateCount": 341,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -1319,7 +1319,7 @@
       "source": "gh-mongodb",
       "name": "MongoDB",
       "kind": "greenhouse",
-      "fetched": 18
+      "fetched": 17
     },
     {
       "source": "gh-monzo",
@@ -1475,7 +1475,7 @@
       "source": "gh-roblox",
       "name": "Roblox",
       "kind": "greenhouse",
-      "fetched": 12
+      "fetched": 11
     },
     {
       "source": "gh-rti",
@@ -1577,7 +1577,7 @@
       "source": "gh-taboola",
       "name": "Taboola",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "gh-tenstorrent",
@@ -1760,7 +1760,7 @@
       "source": "hiredoor",
       "name": "HireDoor",
       "kind": "hiredoor",
-      "fetched": 37
+      "fetched": 38
     },
     {
       "source": "keka-10decoders",
