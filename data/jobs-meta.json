@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-05T08:40:14.801Z",
-  "totalJobs": 339,
-  "publishedCount": 339,
-  "quarantinedCount": 458,
-  "reviewCount": 458,
-  "privateCount": 339,
+  "updatedAt": "2026-10-05T21:26:30.847Z",
+  "totalJobs": 337,
+  "publishedCount": 337,
+  "quarantinedCount": 490,
+  "reviewCount": 490,
+  "privateCount": 337,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -911,7 +911,7 @@
       "source": "gh-appsflyer",
       "name": "AppsFlyer",
       "kind": "greenhouse",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "gh-asana",
@@ -1013,7 +1013,7 @@
       "source": "gh-coinbase",
       "name": "Coinbase",
       "kind": "greenhouse",
-      "fetched": 30
+      "fetched": 29
     },
     {
       "source": "gh-collibra",
@@ -1175,13 +1175,13 @@
       "source": "gh-gitlab",
       "name": "GitLab",
       "kind": "greenhouse",
-      "fetched": 8
+      "fetched": 9
     },
     {
       "source": "gh-glance",
       "name": "Glance",
       "kind": "greenhouse",
-      "fetched": 3
+      "fetched": 2
     },
     {
       "source": "gh-greenhouse",
@@ -1397,7 +1397,7 @@
       "source": "gh-pinterest",
       "name": "Pinterest",
       "kind": "greenhouse",
-      "fetched": 8
+      "fetched": 10
     },
     {
       "source": "gh-planetscale",
@@ -1445,7 +1445,7 @@
       "source": "gh-razorpay",
       "name": "Razorpay",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "gh-reddit",
@@ -1637,7 +1637,7 @@
       "source": "gh-udacity",
       "name": "Udacity",
       "kind": "greenhouse",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "gh-udemy",
@@ -1679,7 +1679,7 @@
       "source": "gh-yipitdata",
       "name": "YipitData",
       "kind": "greenhouse",
-      "fetched": 11
+      "fetched": 12
     },
     {
       "source": "gh-zoominfo",
@@ -1704,8 +1704,7 @@
       "source": "govt-cdac",
       "name": "C-DAC",
       "kind": "govt",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 15
     },
     {
       "source": "govt-hpcl",
@@ -1748,8 +1747,7 @@
       "source": "govt-sbi",
       "name": "SBI",
       "kind": "govt",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 25
     },
     {
       "source": "govt-upsc",
@@ -1762,7 +1760,7 @@
       "source": "hiredoor",
       "name": "HireDoor",
       "kind": "hiredoor",
-      "fetched": 39
+      "fetched": 37
     },
     {
       "source": "keka-10decoders",
@@ -1822,7 +1820,7 @@
       "source": "keka-clickpost",
       "name": "ClickPost",
       "kind": "keka",
-      "fetched": 5
+      "fetched": 4
     },
     {
       "source": "keka-cloudesign",
@@ -1942,7 +1940,7 @@
       "source": "keka-kapturecrm",
       "name": "Kapture CX",
       "kind": "keka",
-      "fetched": 4
+      "fetched": 3
     },
     {
       "source": "keka-kinsfolk",
@@ -2062,7 +2060,7 @@
       "source": "keka-signzy",
       "name": "Signzy",
       "kind": "keka",
-      "fetched": 6
+      "fetched": 5
     },
     {
       "source": "keka-sisinty",
@@ -2164,7 +2162,7 @@
       "source": "keka-wingify",
       "name": "Wingify",
       "kind": "keka",
-      "fetched": 3
+      "fetched": 2
     },
     {
       "source": "keka-wohlig",
@@ -2722,7 +2720,7 @@
       "source": "lever-weekdayworks",
       "name": "Weekday",
       "kind": "lever",
-      "fetched": 13
+      "fetched": 14
     },
     {
       "source": "lever-workwave",
@@ -2740,7 +2738,7 @@
       "source": "lever-yuno",
       "name": "Yuno",
       "kind": "lever",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "lever-zaimler",
@@ -2763,9 +2761,7 @@
   ],
   "sitesSkippedByRobots": [
     "BPCL",
-    "SBI",
     "IBPS",
-    "C-DAC",
     "UPSC"
   ],
   "sitesWithErrors": [],
