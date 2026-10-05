@@ -1,41 +1,87 @@
 [
   {
-    "page": "/docs/jobs/graviton-research-capital-software-engineer.html",
-    "company": "Graviton Research Capital",
-    "title": "Software Engineer",
-    "apply_url": "https://job-boards.greenhouse.io/gravitonresearchcapital/jobs/8764240002",
-    "headline": "Software Engineer @ Graviton Research Capital",
-    "subheadline": "India | Freshers welcome",
+    "page": "/docs/jobs/razorpay-business-analyst.html",
+    "company": "Razorpay",
+    "title": "Business Analyst",
+    "apply_url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4734959005",
+    "headline": "Business Analyst @ Razorpay",
+    "subheadline": "Bengaluru | Internship",
     "key_points": [
-      "Skill: Data Structures",
-      "Skill: Algorithms",
-      "Skill: Operating Systems"
+      "Razorpay powers millions of businesses with a smarter, scalable stack that goes beyond transactions to help them truly build and grow.",
+      "From building AI-native agentic payments, to AI-assisted fraud detection and real-time risk intelligence to automated reconciliation, smart payouts, and predictive financial insights, we are embedding intelligence across our stack to make money movement faster, safer, and more efficient.",
+      "People > Pedigree - we hire for attitude, hustle, and hunger more than degrees.",
+      "Skill: SQL",
+      "Skill: Data Analysis",
+      "Skill: Tableau"
     ],
-    "cta": "Apply on the official page: https://job-boards.greenhouse.io/gravitonresearchcapital/jobs/8764240002",
-    "caption": "Hiring alert: Graviton Research Capital is looking for a Software Engineer (India).\n\nEligibility: Freshers welcome.\nCompensation: check the official posting for details.\n- Skill: Data Structures\n- Skill: Algorithms\n- Skill: Operating Systems\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "cta": "Apply on the official page: https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4734959005",
+    "caption": "Hiring alert: Razorpay is looking for a Business Analyst (Bengaluru).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Razorpay powers millions of businesses with a smarter, scalable stack that goes beyond transactions to help them truly build and grow.\n- From building AI-native agentic payments, to AI-assisted fraud detection and real-time risk intelligence to automated reconciliation, smart payouts, and predictive financial insights, we are embedding intelligence across our stack to make money movement faster, safer, and more efficient.\n- People > Pedigree - we hire for attitude, hustle, and hunger more than degrees.\n- Skill: SQL\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
     "hashtags": [
       "#fresherjobs",
       "#freshershiring",
       "#entryleveljobs",
       "#hiringindia",
-      "#gravitonresearchcapitalhiring",
-      "#indiajobs"
+      "#razorpayhiring",
+      "#bengalurujobs"
     ]
   },
   {
-    "page": "/docs/jobs/augle-ai-ai-engineer-intern.html",
+    "page": "/docs/jobs/meesho-associate-operations.html",
+    "company": "Meesho",
+    "title": "Associate - Operations",
+    "apply_url": "https://jobs.lever.co/meesho/f8bdf9a3-74a5-441d-b0b3-9eac7b9836ad",
+    "headline": "Associate - Operations @ Meesho",
+    "subheadline": "Bangalore, Karnataka | Entry-level (0–2 yrs)",
+    "key_points": [
+      "It is projected to be a $800B market in 2024, of which the majority contribution comes from non-metro cities.",
+      "The grocery market in Metro and Tier 1 has become crowded with a lot of players trying to solve the supply chain but the higher cost of logistics restricts these players from disrupting the lower-tier cities.At Meesho Grocery, we are building the most cost-effective distribution channel to disrupt the grocery market in lower-tier cities of India.",
+      "About the Role We are looking for a detail-oriented, proactive, and operations-driven professional to join our team."
+    ],
+    "cta": "Apply on the official page: https://jobs.lever.co/meesho/f8bdf9a3-74a5-441d-b0b3-9eac7b9836ad",
+    "caption": "Hiring alert: Meesho is looking for a Associate - Operations (Bangalore, Karnataka).\n\nEligibility: Entry-level (0–2 yrs).\nCompensation: check the official posting for details.\n- It is projected to be a $800B market in 2024, of which the majority contribution comes from non-metro cities.\n- The grocery market in Metro and Tier 1 has become crowded with a lot of players trying to solve the supply chain but the higher cost of logistics restricts these players from disrupting the lower-tier cities.At Meesho Grocery, we are building the most cost-effective distribution channel to disrupt the grocery market in lower-tier cities of India.\n- About the Role We are looking for a detail-oriented, proactive, and operations-driven professional to join our team.\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "hashtags": [
+      "#fresherjobs",
+      "#freshershiring",
+      "#entryleveljobs",
+      "#hiringindia",
+      "#meeshohiring",
+      "#bangalorekarnatakajobs"
+    ]
+  },
+  {
+    "page": "/docs/jobs/weekday-junior-fashion-designer.html",
+    "company": "Weekday",
+    "title": "Junior Fashion Designer",
+    "apply_url": "https://jobs.lever.co/weekdayworks/6fa29234-b564-4e93-9dc3-cfe3b930bc6c",
+    "headline": "Junior Fashion Designer @ Weekday",
+    "subheadline": "Gurugram | Entry-level (0–2 yrs)",
+    "key_points": [],
+    "cta": "Apply on the official page: https://jobs.lever.co/weekdayworks/6fa29234-b564-4e93-9dc3-cfe3b930bc6c",
+    "caption": "Hiring alert: Weekday is looking for a Junior Fashion Designer (Gurugram).\n\nEligibility: Entry-level (0–2 yrs).\nCompensation: check the official posting for details.\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "hashtags": [
+      "#fresherjobs",
+      "#freshershiring",
+      "#entryleveljobs",
+      "#hiringindia",
+      "#weekdayhiring",
+      "#gurugramjobs"
+    ]
+  },
+  {
+    "page": "/docs/jobs/augle-ai-ai-engineer-intern-ppo.html",
     "company": "Augle AI",
-    "title": "AI Engineer Intern",
+    "title": "AI Engineer Intern (+PPO)",
     "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSfEyOJh0zbcbf-JMPWg1mKwDN3frZTpOANT1ll6V5ln0-kTDA/viewform",
-    "headline": "AI Engineer Intern @ Augle AI",
+    "headline": "AI Engineer Intern (+PPO) @ Augle AI",
     "subheadline": "India | Internship",
     "key_points": [
+      "Requirements Bachelor's or Master's degree in Computer Science, Software Engineering, or a related field, or currently in the final year of a Bachelor's program.",
       "Skill: Python",
       "Skill: FastAPI",
       "Skill: PostgreSQL"
     ],
     "cta": "Apply on the official page: https://docs.google.com/forms/d/e/1FAIpQLSfEyOJh0zbcbf-JMPWg1mKwDN3frZTpOANT1ll6V5ln0-kTDA/viewform",
-    "caption": "Hiring alert: Augle AI is looking for a AI Engineer Intern (India).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Skill: Python\n- Skill: FastAPI\n- Skill: PostgreSQL\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "caption": "Hiring alert: Augle AI is looking for a AI Engineer Intern (+PPO) (India).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Requirements Bachelor's or Master's degree in Computer Science, Software Engineering, or a related field, or currently in the final year of a Bachelor's program.\n- Skill: Python\n- Skill: FastAPI\n- Skill: PostgreSQL\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
     "hashtags": [
       "#fresherjobs",
       "#freshershiring",
@@ -46,182 +92,172 @@
     ]
   },
   {
-    "page": "/docs/jobs/augle-ai-robotics-engineer-intern.html",
-    "company": "Augle AI",
-    "title": "Robotics Engineer Intern",
-    "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSf7jpg_fM9XQIksEf3kizPmuoTR_Y9BRboFelg0d3u8I9B0EA/viewform",
-    "headline": "Robotics Engineer Intern @ Augle AI",
+    "page": "/docs/jobs/configserver-llp-devops-engineer-intern.html",
+    "company": "ConfigServer LLP",
+    "title": "DevOps Engineer - Intern",
+    "apply_url": "https://configserverllp.com/careers",
+    "headline": "DevOps Engineer - Intern @ ConfigServer LLP",
     "subheadline": "India | Internship",
     "key_points": [
+      "ConfigServer LLP is looking for a motivated DevOps Engineer Intern to gain hands-on experience with modern DevOps tools and cloud infrastructure.",
+      "The role involves working with AWS, CI/CD pipelines, Docker, Kubernetes, Terraform and monitoring tools in an onsite collaborative environment.",
+      "Support containerization and orchestration using Docker and Kubernetes.",
       "Skill: Python",
-      "Skill: Linux"
+      "Skill: AWS",
+      "Skill: Docker"
     ],
-    "cta": "Apply on the official page: https://docs.google.com/forms/d/e/1FAIpQLSf7jpg_fM9XQIksEf3kizPmuoTR_Y9BRboFelg0d3u8I9B0EA/viewform",
-    "caption": "Hiring alert: Augle AI is looking for a Robotics Engineer Intern (India).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Skill: Python\n- Skill: Linux\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "cta": "Apply on the official page: https://configserverllp.com/careers",
+    "caption": "Hiring alert: ConfigServer LLP is looking for a DevOps Engineer - Intern (India).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- ConfigServer LLP is looking for a motivated DevOps Engineer Intern to gain hands-on experience with modern DevOps tools and cloud infrastructure.\n- The role involves working with AWS, CI/CD pipelines, Docker, Kubernetes, Terraform and monitoring tools in an onsite collaborative environment.\n- Support containerization and orchestration using Docker and Kubernetes.\n- Skill: Python\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
     "hashtags": [
       "#fresherjobs",
       "#freshershiring",
       "#entryleveljobs",
       "#hiringindia",
-      "#augleaihiring",
+      "#configserverllphiring",
       "#indiajobs"
     ]
   },
   {
-    "page": "/docs/jobs/augle-ai-computer-vision-engineer-intern.html",
-    "company": "Augle AI",
-    "title": "Computer Vision Engineer Intern",
-    "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSdi9btir8PqWiLWmhzTng6TgC2cvfbrJOs2SIx9YQXvuAK13Q/viewform",
-    "headline": "Computer Vision Engineer Intern @ Augle AI",
-    "subheadline": "India | Internship",
+    "page": "/docs/jobs/meraki-labs-ai-engineer-intern.html",
+    "company": "Meraki Labs",
+    "title": "AI Engineer Intern",
+    "apply_url": "https://jobs.ashbyhq.com/Meraki-Labs/93ff65d2-f0cd-4fd1-b76f-b2e350f2d6c8",
+    "headline": "AI Engineer Intern @ Meraki Labs",
+    "subheadline": "Bangalore | Internship",
     "key_points": [
-      "The role offers exposure to practical AI technologies and is suitable for final-year students or recent graduates with relevant Computer Vision or Deep Learning experience.",
-      "Skill: Python",
-      "Skill: Docker",
-      "Skill: Git"
-    ],
-    "cta": "Apply on the official page: https://docs.google.com/forms/d/e/1FAIpQLSdi9btir8PqWiLWmhzTng6TgC2cvfbrJOs2SIx9YQXvuAK13Q/viewform",
-    "caption": "Hiring alert: Augle AI is looking for a Computer Vision Engineer Intern (India).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- The role offers exposure to practical AI technologies and is suitable for final-year students or recent graduates with relevant Computer Vision or Deep Learning experience.\n- Skill: Python\n- Skill: Docker\n- Skill: Git\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
-    "hashtags": [
-      "#fresherjobs",
-      "#freshershiring",
-      "#entryleveljobs",
-      "#hiringindia",
-      "#augleaihiring",
-      "#indiajobs"
-    ]
-  },
-  {
-    "page": "/docs/jobs/ruveco-backend-development-intern.html",
-    "company": "RUVECO",
-    "title": "Backend Development Intern",
-    "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLScZKJ5a3VQcImddvlxfQBMc1mOPO5VcrCcpQjqh7txbgG62uw/viewform",
-    "headline": "Backend Development Intern @ RUVECO",
-    "subheadline": "India | Internship",
-    "key_points": [
-      "Skill: React",
-      "Skill: PostgreSQL",
-      "Skill: Git"
-    ],
-    "cta": "Apply on the official page: https://docs.google.com/forms/d/e/1FAIpQLScZKJ5a3VQcImddvlxfQBMc1mOPO5VcrCcpQjqh7txbgG62uw/viewform",
-    "caption": "Hiring alert: RUVECO is looking for a Backend Development Intern (India).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Skill: React\n- Skill: PostgreSQL\n- Skill: Git\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
-    "hashtags": [
-      "#fresherjobs",
-      "#freshershiring",
-      "#entryleveljobs",
-      "#hiringindia",
-      "#ruvecohiring",
-      "#indiajobs"
-    ]
-  },
-  {
-    "page": "/docs/jobs/ruveco-front-end-development-intern.html",
-    "company": "RUVECO",
-    "title": "Front-End Development Intern",
-    "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLScZKJ5a3VQcImddvlxfQBMc1mOPO5VcrCcpQjqh7txbgG62uw/viewform",
-    "headline": "Front-End Development Intern @ RUVECO",
-    "subheadline": "India | Internship",
-    "key_points": [
-      "Skill: JavaScript",
-      "Skill: TypeScript",
-      "Skill: React"
-    ],
-    "cta": "Apply on the official page: https://docs.google.com/forms/d/e/1FAIpQLScZKJ5a3VQcImddvlxfQBMc1mOPO5VcrCcpQjqh7txbgG62uw/viewform",
-    "caption": "Hiring alert: RUVECO is looking for a Front-End Development Intern (India).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Skill: JavaScript\n- Skill: TypeScript\n- Skill: React\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
-    "hashtags": [
-      "#fresherjobs",
-      "#freshershiring",
-      "#entryleveljobs",
-      "#hiringindia",
-      "#ruvecohiring",
-      "#indiajobs"
-    ]
-  },
-  {
-    "page": "/docs/jobs/entrupy-ml-intern.html",
-    "company": "Entrupy",
-    "title": "ML Intern",
-    "apply_url": "https://wellfound.com/jobs/3347585-3-ml-intern?autoOpenApplication=true",
-    "headline": "ML Intern @ Entrupy",
-    "subheadline": "Bengaluru | Internship",
-    "key_points": [
+      "Requirements Currently pursuing a degree in Computer Science, Information Technology, Computer Engineering, AI-ML or AI-DS.",
       "Skill: Python",
       "Skill: Machine Learning",
+      "Skill: Data Analysis"
+    ],
+    "cta": "Apply on the official page: https://jobs.ashbyhq.com/Meraki-Labs/93ff65d2-f0cd-4fd1-b76f-b2e350f2d6c8",
+    "caption": "Hiring alert: Meraki Labs is looking for a AI Engineer Intern (Bangalore).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Requirements Currently pursuing a degree in Computer Science, Information Technology, Computer Engineering, AI-ML or AI-DS.\n- Skill: Python\n- Skill: Machine Learning\n- Skill: Data Analysis\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "hashtags": [
+      "#fresherjobs",
+      "#freshershiring",
+      "#entryleveljobs",
+      "#hiringindia",
+      "#merakilabshiring",
+      "#bangalorejobs"
+    ]
+  },
+  {
+    "page": "/docs/jobs/amazon-sde-i.html",
+    "company": "Amazon",
+    "title": "SDE-I",
+    "apply_url": "https://www.amazon.jobs/en/jobs/10555910/sde-i-rewards",
+    "headline": "SDE-I @ Amazon",
+    "subheadline": "India | Internship",
+    "key_points": [
+      "Requirements 1+ years of non-internship professional software development experience.",
+      "Currently enrolled in or relevant background in a Bachelor's or Master's degree in Computer Science, Computer Engineering, or a related field.",
+      "Skill: Python",
+      "Skill: Java",
+      "Skill: Data Structures"
+    ],
+    "cta": "Apply on the official page: https://www.amazon.jobs/en/jobs/10555910/sde-i-rewards",
+    "caption": "Hiring alert: Amazon is looking for a SDE-I (India).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Requirements 1+ years of non-internship professional software development experience.\n- Currently enrolled in or relevant background in a Bachelor's or Master's degree in Computer Science, Computer Engineering, or a related field.\n- Skill: Python\n- Skill: Java\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "hashtags": [
+      "#fresherjobs",
+      "#freshershiring",
+      "#entryleveljobs",
+      "#hiringindia",
+      "#amazonhiring",
+      "#indiajobs"
+    ]
+  },
+  {
+    "page": "/docs/jobs/amazon-financial-analyst-intern.html",
+    "company": "Amazon",
+    "title": "Financial Analyst Intern",
+    "apply_url": "https://www.amazon.jobs/en/jobs/10498382/financial-analyst-intern",
+    "headline": "Financial Analyst Intern @ Amazon",
+    "subheadline": "India | Internship",
+    "key_points": [
+      "Requirements Pursuing CA.",
+      "Must be a CA Article Trainee pursuing Industrial Training.",
+      "Skill: Excel"
+    ],
+    "cta": "Apply on the official page: https://www.amazon.jobs/en/jobs/10498382/financial-analyst-intern",
+    "caption": "Hiring alert: Amazon is looking for a Financial Analyst Intern (India).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Requirements Pursuing CA.\n- Must be a CA Article Trainee pursuing Industrial Training.\n- Skill: Excel\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "hashtags": [
+      "#fresherjobs",
+      "#freshershiring",
+      "#entryleveljobs",
+      "#hiringindia",
+      "#amazonhiring",
+      "#indiajobs"
+    ]
+  },
+  {
+    "page": "/docs/jobs/macquarie-group-junior-cloud-consultant.html",
+    "company": "Macquarie Group",
+    "title": "Junior Cloud Consultant",
+    "apply_url": "https://recruitment.macquarie.com/en_US/careers/JobDetail?jobId=24388",
+    "headline": "Junior Cloud Consultant @ Macquarie Group",
+    "subheadline": "Hyderabad, Telangana | Freshers welcome",
+    "key_points": [
+      "Work with cloud architecture, security, resilience, and system integration requirements.",
+      "Requirements Strong technical expertise in public and private cloud environments.",
+      "Knowledge of containerization technologies including Docker and Kubernetes.",
+      "Skill: Python",
+      "Skill: AWS",
+      "Skill: Docker"
+    ],
+    "cta": "Apply on the official page: https://recruitment.macquarie.com/en_US/careers/JobDetail?jobId=24388",
+    "caption": "Hiring alert: Macquarie Group is looking for a Junior Cloud Consultant (Hyderabad, Telangana).\n\nEligibility: Freshers welcome.\nCompensation: check the official posting for details.\n- Work with cloud architecture, security, resilience, and system integration requirements.\n- Requirements Strong technical expertise in public and private cloud environments.\n- Knowledge of containerization technologies including Docker and Kubernetes.\n- Skill: Python\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "hashtags": [
+      "#fresherjobs",
+      "#freshershiring",
+      "#entryleveljobs",
+      "#hiringindia",
+      "#macquariegrouphiring",
+      "#hyderabadtelanganajobs"
+    ]
+  },
+  {
+    "page": "/docs/jobs/ion-group-software-developer-2027-leadership-development-pro.html",
+    "company": "ION Group",
+    "title": "Software Developer, 2027 Leadership Development Program",
+    "apply_url": "https://jobs.lever.co/ion/6f66cbb4-c882-4234-b84e-68baea56e1ea",
+    "headline": "Software Developer, 2027 Leadership Development Program @ ION Group",
+    "subheadline": "Noida, Mumbai, Pune | Freshers welcome",
+    "key_points": [
+      "Experience: Fresher / 0 years.",
+      "Skill: Data Structures",
       "Skill: Algorithms"
     ],
-    "cta": "Apply on the official page: https://wellfound.com/jobs/3347585-3-ml-intern?autoOpenApplication=true",
-    "caption": "Hiring alert: Entrupy is looking for a ML Intern (Bengaluru).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Skill: Python\n- Skill: Machine Learning\n- Skill: Algorithms\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "cta": "Apply on the official page: https://jobs.lever.co/ion/6f66cbb4-c882-4234-b84e-68baea56e1ea",
+    "caption": "Hiring alert: ION Group is looking for a Software Developer, 2027 Leadership Development Program (Noida, Mumbai, Pune).\n\nEligibility: Freshers welcome.\nCompensation: check the official posting for details.\n- Experience: Fresher / 0 years.\n- Skill: Data Structures\n- Skill: Algorithms\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
     "hashtags": [
       "#fresherjobs",
       "#freshershiring",
       "#entryleveljobs",
       "#hiringindia",
-      "#entrupyhiring",
-      "#bengalurujobs"
+      "#iongrouphiring",
+      "#noidamumbaipunejobs"
     ]
   },
   {
-    "page": "/docs/jobs/merkle-science-software-engineer-intern-backend.html",
-    "company": "Merkle Science",
-    "title": "Software Engineer (Intern) - Backend",
-    "apply_url": "https://jobs.lever.co/merklescience/e663b69b-264a-4bd7-b04d-fb3c0a824a28",
-    "headline": "Software Engineer (Intern) - Backend @ Merkle Science",
-    "subheadline": "India | Internship",
+    "page": "/docs/jobs/dista-business-analyst.html",
+    "company": "Dista",
+    "title": "Business Analyst",
+    "apply_url": "https://dista.ai/careers/business-analyst/",
+    "headline": "Business Analyst @ Dista",
+    "subheadline": "India | Entry-level (0–2 yrs)",
     "key_points": [
-      "Skill: Python",
-      "Skill: Django",
-      "Skill: FastAPI"
+      "Dista is hiring a Business Analyst to analyze customer, competitor, and market requirements, derive product insights, define and prioritize requirements, and communicate product value and proposals to peers and management.",
+      "Experience: 1-2 years.",
+      "Skills: Business Analysis, Product Analysis, Product Lifecycle, Agile Development, Communication, Requirements Analysis, Qualitative Analysis, Quantitative Analysis, Jira."
     ],
-    "cta": "Apply on the official page: https://jobs.lever.co/merklescience/e663b69b-264a-4bd7-b04d-fb3c0a824a28",
-    "caption": "Hiring alert: Merkle Science is looking for a Software Engineer (Intern) - Backend (India).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Skill: Python\n- Skill: Django\n- Skill: FastAPI\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "cta": "Apply on the official page: https://dista.ai/careers/business-analyst/",
+    "caption": "Hiring alert: Dista is looking for a Business Analyst (India).\n\nEligibility: Entry-level (0–2 yrs).\nCompensation: check the official posting for details.\n- Dista is hiring a Business Analyst to analyze customer, competitor, and market requirements, derive product insights, define and prioritize requirements, and communicate product value and proposals to peers and management.\n- Experience: 1-2 years.\n- Skills: Business Analysis, Product Analysis, Product Lifecycle, Agile Development, Communication, Requirements Analysis, Qualitative Analysis, Quantitative Analysis, Jira.\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
     "hashtags": [
       "#fresherjobs",
       "#freshershiring",
       "#entryleveljobs",
       "#hiringindia",
-      "#merklesciencehiring",
-      "#indiajobs"
-    ]
-  },
-  {
-    "page": "/docs/jobs/tower-research-capital-intern-ai-ml.html",
-    "company": "Tower Research Capital",
-    "title": "Intern - AI/ML",
-    "apply_url": "https://job-boards.greenhouse.io/embed/job_app?for=towerresearchcapital",
-    "headline": "Intern - AI/ML @ Tower Research Capital",
-    "subheadline": "India | Internship",
-    "key_points": [
-      "Skill: Python",
-      "Skill: SQL",
-      "Skill: Git"
-    ],
-    "cta": "Apply on the official page: https://job-boards.greenhouse.io/embed/job_app?for=towerresearchcapital",
-    "caption": "Hiring alert: Tower Research Capital is looking for a Intern - AI/ML (India).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Skill: Python\n- Skill: SQL\n- Skill: Git\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
-    "hashtags": [
-      "#fresherjobs",
-      "#freshershiring",
-      "#entryleveljobs",
-      "#hiringindia",
-      "#towerresearchcapitalhiring",
-      "#indiajobs"
-    ]
-  },
-  {
-    "page": "/docs/jobs/stackbinary-forward-deployed-engineer-intern.html",
-    "company": "Stackbinary",
-    "title": "Forward-Deployed Engineer Intern",
-    "apply_url": "https://stackbinary.io/careers/forward-deployed-engineer-intern#apply",
-    "headline": "Forward-Deployed Engineer Intern @ Stackbinary",
-    "subheadline": "India | Internship",
-    "key_points": [],
-    "cta": "Apply on the official page: https://stackbinary.io/careers/forward-deployed-engineer-intern#apply",
-    "caption": "Hiring alert: Stackbinary is looking for a Forward-Deployed Engineer Intern (India).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
-    "hashtags": [
-      "#fresherjobs",
-      "#freshershiring",
-      "#entryleveljobs",
-      "#hiringindia",
-      "#stackbinaryhiring",
+      "#distahiring",
       "#indiajobs"
     ]
   }

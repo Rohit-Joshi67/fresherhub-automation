@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-04T18:04:32.700Z",
-  "totalJobs": 341,
-  "publishedCount": 341,
-  "quarantinedCount": 486,
-  "reviewCount": 486,
-  "privateCount": 341,
+  "updatedAt": "2026-10-05T08:40:14.801Z",
+  "totalJobs": 339,
+  "publishedCount": 339,
+  "quarantinedCount": 458,
+  "reviewCount": 458,
+  "privateCount": 339,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -119,7 +119,7 @@
       "source": "ashby-cartesia",
       "name": "Cartesia",
       "kind": "ashby",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "ashby-castle",
@@ -1445,7 +1445,7 @@
       "source": "gh-razorpay",
       "name": "Razorpay",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "gh-reddit",
@@ -1577,7 +1577,7 @@
       "source": "gh-taboola",
       "name": "Taboola",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "gh-tenstorrent",
@@ -1595,7 +1595,7 @@
       "source": "gh-thoughtworks",
       "name": "Thoughtworks",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "gh-tigergraph",
@@ -1625,7 +1625,7 @@
       "source": "gh-twilio",
       "name": "Twilio",
       "kind": "greenhouse",
-      "fetched": 20
+      "fetched": 21
     },
     {
       "source": "gh-twitch",
@@ -1704,7 +1704,8 @@
       "source": "govt-cdac",
       "name": "C-DAC",
       "kind": "govt",
-      "fetched": 15
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "govt-hpcl",
@@ -1747,7 +1748,8 @@
       "source": "govt-sbi",
       "name": "SBI",
       "kind": "govt",
-      "fetched": 25
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "govt-upsc",
@@ -1760,7 +1762,7 @@
       "source": "hiredoor",
       "name": "HireDoor",
       "kind": "hiredoor",
-      "fetched": 38
+      "fetched": 39
     },
     {
       "source": "keka-10decoders",
@@ -1886,7 +1888,7 @@
       "source": "keka-fynd",
       "name": "Fynd",
       "kind": "keka",
-      "fetched": 8
+      "fetched": 7
     },
     {
       "source": "keka-gameberry",
@@ -1940,7 +1942,7 @@
       "source": "keka-kapturecrm",
       "name": "Kapture CX",
       "kind": "keka",
-      "fetched": 5
+      "fetched": 4
     },
     {
       "source": "keka-kinsfolk",
@@ -2312,7 +2314,7 @@
       "source": "lever-entrata",
       "name": "Entrata",
       "kind": "lever",
-      "fetched": 4
+      "fetched": 3
     },
     {
       "source": "lever-everbridge",
@@ -2450,7 +2452,7 @@
       "source": "lever-meesho",
       "name": "Meesho",
       "kind": "lever",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "lever-mindtickle",
@@ -2720,7 +2722,7 @@
       "source": "lever-weekdayworks",
       "name": "Weekday",
       "kind": "lever",
-      "fetched": 15
+      "fetched": 13
     },
     {
       "source": "lever-workwave",
@@ -2761,7 +2763,9 @@
   ],
   "sitesSkippedByRobots": [
     "BPCL",
+    "SBI",
     "IBPS",
+    "C-DAC",
     "UPSC"
   ],
   "sitesWithErrors": [],
