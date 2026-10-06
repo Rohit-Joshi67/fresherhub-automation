@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-05T21:26:30.847Z",
-  "totalJobs": 337,
-  "publishedCount": 337,
-  "quarantinedCount": 490,
-  "reviewCount": 490,
-  "privateCount": 337,
+  "updatedAt": "2026-10-06T08:45:55.103Z",
+  "totalJobs": 342,
+  "publishedCount": 342,
+  "quarantinedCount": 451,
+  "reviewCount": 451,
+  "privateCount": 342,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -233,7 +233,7 @@
       "source": "ashby-dmatrix",
       "name": "d-Matrix",
       "kind": "ashby",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "ashby-docker",
@@ -857,13 +857,13 @@
       "source": "gh-adyen",
       "name": "Adyen",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 3
     },
     {
       "source": "gh-affirm",
       "name": "Affirm",
       "kind": "greenhouse",
-      "fetched": 26
+      "fetched": 24
     },
     {
       "source": "gh-affle",
@@ -875,7 +875,7 @@
       "source": "gh-airbnb",
       "name": "Airbnb",
       "kind": "greenhouse",
-      "fetched": 4
+      "fetched": 5
     },
     {
       "source": "gh-airtable",
@@ -1133,7 +1133,7 @@
       "source": "gh-fastly",
       "name": "Fastly",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "gh-figma",
@@ -1247,7 +1247,7 @@
       "source": "gh-instacart",
       "name": "Instacart",
       "kind": "greenhouse",
-      "fetched": 14
+      "fetched": 15
     },
     {
       "source": "gh-intercom",
@@ -1445,7 +1445,7 @@
       "source": "gh-razorpay",
       "name": "Razorpay",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "gh-reddit",
@@ -1475,7 +1475,7 @@
       "source": "gh-roblox",
       "name": "Roblox",
       "kind": "greenhouse",
-      "fetched": 11
+      "fetched": 10
     },
     {
       "source": "gh-rti",
@@ -1577,7 +1577,7 @@
       "source": "gh-taboola",
       "name": "Taboola",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "gh-tenstorrent",
@@ -1625,7 +1625,7 @@
       "source": "gh-twilio",
       "name": "Twilio",
       "kind": "greenhouse",
-      "fetched": 21
+      "fetched": 23
     },
     {
       "source": "gh-twitch",
@@ -1704,7 +1704,8 @@
       "source": "govt-cdac",
       "name": "C-DAC",
       "kind": "govt",
-      "fetched": 15
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "govt-hpcl",
@@ -1747,7 +1748,8 @@
       "source": "govt-sbi",
       "name": "SBI",
       "kind": "govt",
-      "fetched": 25
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "govt-upsc",
@@ -1760,7 +1762,7 @@
       "source": "hiredoor",
       "name": "HireDoor",
       "kind": "hiredoor",
-      "fetched": 37
+      "fetched": 39
     },
     {
       "source": "keka-10decoders",
@@ -1796,7 +1798,7 @@
       "source": "keka-avengers",
       "name": "Avengers",
       "kind": "keka",
-      "fetched": 2
+      "fetched": 3
     },
     {
       "source": "keka-beyondkey",
@@ -2312,7 +2314,7 @@
       "source": "lever-entrata",
       "name": "Entrata",
       "kind": "lever",
-      "fetched": 3
+      "fetched": 2
     },
     {
       "source": "lever-everbridge",
@@ -2534,7 +2536,7 @@
       "source": "lever-paytm",
       "name": "Paytm",
       "kind": "lever",
-      "fetched": 18
+      "fetched": 19
     },
     {
       "source": "lever-pigment",
@@ -2750,7 +2752,7 @@
       "source": "lever-zeta",
       "name": "Zeta",
       "kind": "lever",
-      "fetched": 7
+      "fetched": 0
     },
     {
       "source": "lever-zoox",
@@ -2761,6 +2763,8 @@
   ],
   "sitesSkippedByRobots": [
     "BPCL",
+    "C-DAC",
+    "SBI",
     "IBPS",
     "UPSC"
   ],
