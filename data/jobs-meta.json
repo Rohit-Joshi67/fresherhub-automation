@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-06T08:45:55.103Z",
-  "totalJobs": 342,
-  "publishedCount": 342,
-  "quarantinedCount": 451,
-  "reviewCount": 451,
-  "privateCount": 342,
+  "updatedAt": "2026-10-06T19:22:54.685Z",
+  "totalJobs": 349,
+  "publishedCount": 349,
+  "quarantinedCount": 473,
+  "reviewCount": 473,
+  "privateCount": 349,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -665,7 +665,7 @@
       "source": "ashby-sarvam",
       "name": "Sarvam AI",
       "kind": "ashby",
-      "fetched": 4
+      "fetched": 3
     },
     {
       "source": "ashby-semgrep",
@@ -851,7 +851,7 @@
       "source": "gh-6sense",
       "name": "6sense",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "gh-adyen",
@@ -863,7 +863,7 @@
       "source": "gh-affirm",
       "name": "Affirm",
       "kind": "greenhouse",
-      "fetched": 24
+      "fetched": 26
     },
     {
       "source": "gh-affle",
@@ -911,7 +911,7 @@
       "source": "gh-appsflyer",
       "name": "AppsFlyer",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "gh-asana",
@@ -929,7 +929,7 @@
       "source": "gh-automatticcareers",
       "name": "Automattic",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "gh-block",
@@ -1013,7 +1013,7 @@
       "source": "gh-coinbase",
       "name": "Coinbase",
       "kind": "greenhouse",
-      "fetched": 29
+      "fetched": 27
     },
     {
       "source": "gh-collibra",
@@ -1079,7 +1079,7 @@
       "source": "gh-discord",
       "name": "Discord",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "gh-doctolib",
@@ -1319,7 +1319,7 @@
       "source": "gh-mongodb",
       "name": "MongoDB",
       "kind": "greenhouse",
-      "fetched": 17
+      "fetched": 18
     },
     {
       "source": "gh-monzo",
@@ -1505,7 +1505,7 @@
       "source": "gh-sezzle",
       "name": "Sezzle",
       "kind": "greenhouse",
-      "fetched": 72
+      "fetched": 66
     },
     {
       "source": "gh-shifttechnology",
@@ -1637,7 +1637,7 @@
       "source": "gh-udacity",
       "name": "Udacity",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 3
     },
     {
       "source": "gh-udemy",
@@ -1679,7 +1679,7 @@
       "source": "gh-yipitdata",
       "name": "YipitData",
       "kind": "greenhouse",
-      "fetched": 12
+      "fetched": 11
     },
     {
       "source": "gh-zoominfo",
@@ -1691,7 +1691,7 @@
       "source": "gh-zscaler",
       "name": "Zscaler",
       "kind": "greenhouse",
-      "fetched": 13
+      "fetched": 12
     },
     {
       "source": "govt-bpcl",
@@ -1704,8 +1704,7 @@
       "source": "govt-cdac",
       "name": "C-DAC",
       "kind": "govt",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 15
     },
     {
       "source": "govt-hpcl",
@@ -1748,8 +1747,7 @@
       "source": "govt-sbi",
       "name": "SBI",
       "kind": "govt",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 25
     },
     {
       "source": "govt-upsc",
@@ -1882,7 +1880,7 @@
       "source": "keka-finacplus",
       "name": "FinacPlus",
       "kind": "keka",
-      "fetched": 4
+      "fetched": 3
     },
     {
       "source": "keka-fynd",
@@ -1912,7 +1910,7 @@
       "source": "keka-impactanalytics",
       "name": "Impact Analytics",
       "kind": "keka",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "keka-impronics",
@@ -2092,7 +2090,7 @@
       "source": "keka-surveysparrow",
       "name": "SurveySparrow",
       "kind": "keka",
-      "fetched": 5
+      "fetched": 4
     },
     {
       "source": "keka-talakunchi",
@@ -2752,7 +2750,7 @@
       "source": "lever-zeta",
       "name": "Zeta",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 7
     },
     {
       "source": "lever-zoox",
@@ -2763,8 +2761,6 @@
   ],
   "sitesSkippedByRobots": [
     "BPCL",
-    "C-DAC",
-    "SBI",
     "IBPS",
     "UPSC"
   ],
