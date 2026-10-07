@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-07T08:21:04.457Z",
-  "totalJobs": 360,
-  "publishedCount": 360,
-  "quarantinedCount": 445,
-  "reviewCount": 445,
-  "privateCount": 360,
+  "updatedAt": "2026-10-07T19:49:52.897Z",
+  "totalJobs": 356,
+  "publishedCount": 356,
+  "quarantinedCount": 474,
+  "reviewCount": 474,
+  "privateCount": 356,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -59,7 +59,7 @@
       "source": "ashby-ashby",
       "name": "Ashby",
       "kind": "ashby",
-      "fetched": 8
+      "fetched": 7
     },
     {
       "source": "ashby-astronomer",
@@ -575,7 +575,7 @@
       "source": "ashby-posthog",
       "name": "PostHog",
       "kind": "ashby",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "ashby-prefect",
@@ -665,7 +665,7 @@
       "source": "ashby-sarvam",
       "name": "Sarvam AI",
       "kind": "ashby",
-      "fetched": 3
+      "fetched": 2
     },
     {
       "source": "ashby-semgrep",
@@ -731,7 +731,7 @@
       "source": "ashby-supabase",
       "name": "Supabase",
       "kind": "ashby",
-      "fetched": 15
+      "fetched": 16
     },
     {
       "source": "ashby-synctera",
@@ -785,7 +785,7 @@
       "source": "ashby-vanta",
       "name": "Vanta",
       "kind": "ashby",
-      "fetched": 2
+      "fetched": 3
     },
     {
       "source": "ashby-vapi",
@@ -1013,13 +1013,13 @@
       "source": "gh-coinbase",
       "name": "Coinbase",
       "kind": "greenhouse",
-      "fetched": 27
+      "fetched": 28
     },
     {
       "source": "gh-collibra",
       "name": "Collibra",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "gh-contentful",
@@ -1337,7 +1337,7 @@
       "source": "gh-neo4j",
       "name": "Neo4j",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "gh-netlify",
@@ -1349,7 +1349,7 @@
       "source": "gh-newrelic",
       "name": "New Relic",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "gh-nextdoor",
@@ -1559,7 +1559,7 @@
       "source": "gh-storyblok",
       "name": "Storyblok",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 3
     },
     {
       "source": "gh-stripe",
@@ -1613,7 +1613,7 @@
       "source": "gh-tripadvisor",
       "name": "Tripadvisor",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "gh-triplelift",
@@ -1625,7 +1625,7 @@
       "source": "gh-twilio",
       "name": "Twilio",
       "kind": "greenhouse",
-      "fetched": 22
+      "fetched": 24
     },
     {
       "source": "gh-twitch",
@@ -1685,7 +1685,7 @@
       "source": "gh-zoominfo",
       "name": "ZoomInfo",
       "kind": "greenhouse",
-      "fetched": 6
+      "fetched": 7
     },
     {
       "source": "gh-zscaler",
@@ -1704,7 +1704,7 @@
       "source": "govt-cdac",
       "name": "C-DAC",
       "kind": "govt",
-      "fetched": 15
+      "fetched": 16
     },
     {
       "source": "govt-hpcl",
@@ -1747,8 +1747,7 @@
       "source": "govt-sbi",
       "name": "SBI",
       "kind": "govt",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 25
     },
     {
       "source": "govt-upsc",
@@ -1881,7 +1880,7 @@
       "source": "keka-finacplus",
       "name": "FinacPlus",
       "kind": "keka",
-      "fetched": 3
+      "fetched": 2
     },
     {
       "source": "keka-fynd",
@@ -1893,7 +1892,7 @@
       "source": "keka-gameberry",
       "name": "Gameberry Labs",
       "kind": "keka",
-      "fetched": 7
+      "fetched": 6
     },
     {
       "source": "keka-grow",
@@ -1977,7 +1976,7 @@
       "source": "keka-minfy",
       "name": "Minfy",
       "kind": "keka",
-      "fetched": 4
+      "fetched": 5
     },
     {
       "source": "keka-niyo",
@@ -2067,7 +2066,7 @@
       "source": "keka-sisinty",
       "name": "GrowthSchool",
       "kind": "keka",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "keka-softlinkglobal",
@@ -2247,7 +2246,7 @@
       "source": "lever-azul",
       "name": "Azul",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 2
     },
     {
       "source": "lever-binance",
@@ -2535,7 +2534,7 @@
       "source": "lever-paytm",
       "name": "Paytm",
       "kind": "lever",
-      "fetched": 20
+      "fetched": 21
     },
     {
       "source": "lever-pigment",
@@ -2721,7 +2720,7 @@
       "source": "lever-weekdayworks",
       "name": "Weekday",
       "kind": "lever",
-      "fetched": 14
+      "fetched": 15
     },
     {
       "source": "lever-workwave",
@@ -2762,7 +2761,6 @@
   ],
   "sitesSkippedByRobots": [
     "BPCL",
-    "SBI",
     "IBPS",
     "UPSC"
   ],
