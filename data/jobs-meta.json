@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-07T19:49:52.897Z",
-  "totalJobs": 356,
-  "publishedCount": 356,
-  "quarantinedCount": 474,
-  "reviewCount": 474,
-  "privateCount": 356,
+  "updatedAt": "2026-10-08T08:36:39.708Z",
+  "totalJobs": 361,
+  "publishedCount": 361,
+  "quarantinedCount": 452,
+  "reviewCount": 452,
+  "privateCount": 361,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -263,7 +263,7 @@
       "source": "ashby-elevenlabs",
       "name": "ElevenLabs",
       "kind": "ashby",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "ashby-fireworks",
@@ -851,7 +851,7 @@
       "source": "gh-6sense",
       "name": "6sense",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "gh-adyen",
@@ -863,7 +863,7 @@
       "source": "gh-affirm",
       "name": "Affirm",
       "kind": "greenhouse",
-      "fetched": 26
+      "fetched": 24
     },
     {
       "source": "gh-affle",
@@ -911,7 +911,7 @@
       "source": "gh-appsflyer",
       "name": "AppsFlyer",
       "kind": "greenhouse",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "gh-asana",
@@ -941,7 +941,7 @@
       "source": "gh-branch",
       "name": "Branch",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "gh-braze",
@@ -1001,7 +1001,7 @@
       "source": "gh-cloudsek",
       "name": "CloudSEK",
       "kind": "greenhouse",
-      "fetched": 8
+      "fetched": 7
     },
     {
       "source": "gh-cockroachlabs",
@@ -1271,7 +1271,7 @@
       "source": "gh-kiavi",
       "name": "Kiavi",
       "kind": "greenhouse",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "gh-klaviyo",
@@ -1649,7 +1649,7 @@
       "source": "gh-vercel",
       "name": "Vercel",
       "kind": "greenhouse",
-      "fetched": 3
+      "fetched": 4
     },
     {
       "source": "gh-webflow",
@@ -1685,7 +1685,7 @@
       "source": "gh-zoominfo",
       "name": "ZoomInfo",
       "kind": "greenhouse",
-      "fetched": 7
+      "fetched": 6
     },
     {
       "source": "gh-zscaler",
@@ -1747,7 +1747,8 @@
       "source": "govt-sbi",
       "name": "SBI",
       "kind": "govt",
-      "fetched": 25
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "govt-upsc",
@@ -1760,7 +1761,7 @@
       "source": "hiredoor",
       "name": "HireDoor",
       "kind": "hiredoor",
-      "fetched": 39
+      "fetched": 38
     },
     {
       "source": "keka-10decoders",
@@ -1916,7 +1917,7 @@
       "source": "keka-impronics",
       "name": "Impronics",
       "kind": "keka",
-      "fetched": 17
+      "fetched": 19
     },
     {
       "source": "keka-inito",
@@ -2024,7 +2025,7 @@
       "source": "keka-proclinkconsulting",
       "name": "Proclink Consulting",
       "kind": "keka",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "keka-qodoro",
@@ -2060,7 +2061,7 @@
       "source": "keka-signzy",
       "name": "Signzy",
       "kind": "keka",
-      "fetched": 5
+      "fetched": 4
     },
     {
       "source": "keka-sisinty",
@@ -2072,7 +2073,7 @@
       "source": "keka-softlinkglobal",
       "name": "Softlink Global",
       "kind": "keka",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "keka-spyneai",
@@ -2534,7 +2535,7 @@
       "source": "lever-paytm",
       "name": "Paytm",
       "kind": "lever",
-      "fetched": 21
+      "fetched": 22
     },
     {
       "source": "lever-pigment",
@@ -2761,6 +2762,7 @@
   ],
   "sitesSkippedByRobots": [
     "BPCL",
+    "SBI",
     "IBPS",
     "UPSC"
   ],
