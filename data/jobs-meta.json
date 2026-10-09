@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-09T08:41:46.119Z",
-  "totalJobs": 354,
-  "publishedCount": 354,
-  "quarantinedCount": 448,
-  "reviewCount": 448,
-  "privateCount": 354,
+  "updatedAt": "2026-10-09T19:22:19.041Z",
+  "totalJobs": 356,
+  "publishedCount": 356,
+  "quarantinedCount": 436,
+  "reviewCount": 436,
+  "privateCount": 356,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -263,7 +263,7 @@
       "source": "ashby-elevenlabs",
       "name": "ElevenLabs",
       "kind": "ashby",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "ashby-fireworks",
@@ -767,7 +767,7 @@
       "source": "ashby-tilthq",
       "name": "Tilt",
       "kind": "ashby",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "ashby-unify",
@@ -857,13 +857,13 @@
       "source": "gh-adyen",
       "name": "Adyen",
       "kind": "greenhouse",
-      "fetched": 3
+      "fetched": 0
     },
     {
       "source": "gh-affirm",
       "name": "Affirm",
       "kind": "greenhouse",
-      "fetched": 27
+      "fetched": 30
     },
     {
       "source": "gh-affle",
@@ -1013,7 +1013,7 @@
       "source": "gh-coinbase",
       "name": "Coinbase",
       "kind": "greenhouse",
-      "fetched": 26
+      "fetched": 27
     },
     {
       "source": "gh-collibra",
@@ -1175,7 +1175,7 @@
       "source": "gh-gitlab",
       "name": "GitLab",
       "kind": "greenhouse",
-      "fetched": 9
+      "fetched": 10
     },
     {
       "source": "gh-glance",
@@ -1445,7 +1445,7 @@
       "source": "gh-razorpay",
       "name": "Razorpay",
       "kind": "greenhouse",
-      "fetched": 3
+      "fetched": 4
     },
     {
       "source": "gh-reddit",
@@ -1475,7 +1475,7 @@
       "source": "gh-roblox",
       "name": "Roblox",
       "kind": "greenhouse",
-      "fetched": 10
+      "fetched": 9
     },
     {
       "source": "gh-rti",
@@ -1577,7 +1577,7 @@
       "source": "gh-taboola",
       "name": "Taboola",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "gh-tenstorrent",
@@ -1625,7 +1625,7 @@
       "source": "gh-twilio",
       "name": "Twilio",
       "kind": "greenhouse",
-      "fetched": 27
+      "fetched": 29
     },
     {
       "source": "gh-twitch",
@@ -1685,13 +1685,13 @@
       "source": "gh-zoominfo",
       "name": "ZoomInfo",
       "kind": "greenhouse",
-      "fetched": 7
+      "fetched": 6
     },
     {
       "source": "gh-zscaler",
       "name": "Zscaler",
       "kind": "greenhouse",
-      "fetched": 13
+      "fetched": 0
     },
     {
       "source": "govt-bpcl",
@@ -1792,7 +1792,7 @@
       "source": "keka-athenainfonomics",
       "name": "Athena Infonomics",
       "kind": "keka",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "keka-avengers",
@@ -1882,7 +1882,7 @@
       "source": "keka-finacplus",
       "name": "FinacPlus",
       "kind": "keka",
-      "fetched": 2
+      "fetched": 3
     },
     {
       "source": "keka-fynd",
@@ -2056,13 +2056,13 @@
       "source": "keka-saneforce",
       "name": "SANeForce",
       "kind": "keka",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "keka-signzy",
       "name": "Signzy",
       "kind": "keka",
-      "fetched": 4
+      "fetched": 3
     },
     {
       "source": "keka-sisinty",
@@ -2164,7 +2164,7 @@
       "source": "keka-wingify",
       "name": "Wingify",
       "kind": "keka",
-      "fetched": 2
+      "fetched": 3
     },
     {
       "source": "keka-wohlig",
@@ -2248,7 +2248,7 @@
       "source": "lever-azul",
       "name": "Azul",
       "kind": "lever",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "lever-binance",
@@ -2722,7 +2722,7 @@
       "source": "lever-weekdayworks",
       "name": "Weekday",
       "kind": "lever",
-      "fetched": 15
+      "fetched": 14
     },
     {
       "source": "lever-workwave",
@@ -2763,9 +2763,9 @@
   ],
   "sitesSkippedByRobots": [
     "BPCL",
-    "C-DAC",
     "SBI",
     "IBPS",
+    "C-DAC",
     "UPSC"
   ],
   "sitesWithErrors": [],
