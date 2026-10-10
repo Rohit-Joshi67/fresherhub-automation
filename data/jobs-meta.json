@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-09T19:22:19.041Z",
-  "totalJobs": 356,
-  "publishedCount": 356,
-  "quarantinedCount": 436,
-  "reviewCount": 436,
-  "privateCount": 356,
+  "updatedAt": "2026-10-10T08:16:13.514Z",
+  "totalJobs": 357,
+  "publishedCount": 357,
+  "quarantinedCount": 474,
+  "reviewCount": 474,
+  "privateCount": 357,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -857,13 +857,13 @@
       "source": "gh-adyen",
       "name": "Adyen",
       "kind": "greenhouse",
-      "fetched": 0
+      "fetched": 3
     },
     {
       "source": "gh-affirm",
       "name": "Affirm",
       "kind": "greenhouse",
-      "fetched": 30
+      "fetched": 32
     },
     {
       "source": "gh-affle",
@@ -1037,7 +1037,7 @@
       "source": "gh-coursera",
       "name": "Coursera",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "gh-customerio",
@@ -1175,7 +1175,7 @@
       "source": "gh-gitlab",
       "name": "GitLab",
       "kind": "greenhouse",
-      "fetched": 10
+      "fetched": 11
     },
     {
       "source": "gh-glance",
@@ -1247,7 +1247,7 @@
       "source": "gh-instacart",
       "name": "Instacart",
       "kind": "greenhouse",
-      "fetched": 15
+      "fetched": 14
     },
     {
       "source": "gh-intercom",
@@ -1283,7 +1283,7 @@
       "source": "gh-labelbox",
       "name": "Labelbox",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "gh-launchdarkly",
@@ -1397,7 +1397,7 @@
       "source": "gh-pinterest",
       "name": "Pinterest",
       "kind": "greenhouse",
-      "fetched": 11
+      "fetched": 10
     },
     {
       "source": "gh-planetscale",
@@ -1704,8 +1704,7 @@
       "source": "govt-cdac",
       "name": "C-DAC",
       "kind": "govt",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 16
     },
     {
       "source": "govt-hpcl",
@@ -1748,8 +1747,7 @@
       "source": "govt-sbi",
       "name": "SBI",
       "kind": "govt",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 25
     },
     {
       "source": "govt-upsc",
@@ -2763,9 +2761,7 @@
   ],
   "sitesSkippedByRobots": [
     "BPCL",
-    "SBI",
     "IBPS",
-    "C-DAC",
     "UPSC"
   ],
   "sitesWithErrors": [],
