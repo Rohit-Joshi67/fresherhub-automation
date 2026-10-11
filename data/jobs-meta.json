@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-11T08:30:59.319Z",
-  "totalJobs": 357,
-  "publishedCount": 357,
-  "quarantinedCount": 473,
-  "reviewCount": 473,
-  "privateCount": 357,
+  "updatedAt": "2026-10-11T18:43:25.454Z",
+  "totalJobs": 360,
+  "publishedCount": 360,
+  "quarantinedCount": 456,
+  "reviewCount": 456,
+  "privateCount": 360,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -875,7 +875,7 @@
       "source": "gh-airbnb",
       "name": "Airbnb",
       "kind": "greenhouse",
-      "fetched": 4
+      "fetched": 5
     },
     {
       "source": "gh-airtable",
@@ -1704,7 +1704,7 @@
       "source": "govt-cdac",
       "name": "C-DAC",
       "kind": "govt",
-      "fetched": 16
+      "fetched": 0
     },
     {
       "source": "govt-hpcl",
@@ -1760,7 +1760,7 @@
       "source": "hiredoor",
       "name": "HireDoor",
       "kind": "hiredoor",
-      "fetched": 38
+      "fetched": 39
     },
     {
       "source": "keka-10decoders",
