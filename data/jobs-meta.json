@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-12T08:52:11.804Z",
-  "totalJobs": 370,
-  "publishedCount": 370,
-  "quarantinedCount": 439,
-  "reviewCount": 439,
-  "privateCount": 370,
+  "updatedAt": "2026-10-12T22:02:52.269Z",
+  "totalJobs": 373,
+  "publishedCount": 373,
+  "quarantinedCount": 469,
+  "reviewCount": 469,
+  "privateCount": 373,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -59,7 +59,7 @@
       "source": "ashby-ashby",
       "name": "Ashby",
       "kind": "ashby",
-      "fetched": 7
+      "fetched": 9
     },
     {
       "source": "ashby-astronomer",
@@ -875,7 +875,7 @@
       "source": "gh-airbnb",
       "name": "Airbnb",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 3
     },
     {
       "source": "gh-airtable",
@@ -1001,7 +1001,7 @@
       "source": "gh-cloudsek",
       "name": "CloudSEK",
       "kind": "greenhouse",
-      "fetched": 7
+      "fetched": 6
     },
     {
       "source": "gh-cockroachlabs",
@@ -1217,7 +1217,7 @@
       "source": "gh-highradius",
       "name": "HighRadius",
       "kind": "greenhouse",
-      "fetched": 17
+      "fetched": 16
     },
     {
       "source": "gh-honeycomb",
@@ -1445,13 +1445,13 @@
       "source": "gh-razorpay",
       "name": "Razorpay",
       "kind": "greenhouse",
-      "fetched": 5
+      "fetched": 6
     },
     {
       "source": "gh-reddit",
       "name": "Reddit",
       "kind": "greenhouse",
-      "fetched": 10
+      "fetched": 9
     },
     {
       "source": "gh-remote",
@@ -1523,7 +1523,7 @@
       "source": "gh-slice",
       "name": "Slice",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 3
     },
     {
       "source": "gh-sofi",
@@ -1595,7 +1595,7 @@
       "source": "gh-thoughtworks",
       "name": "Thoughtworks",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "gh-tigergraph",
@@ -1685,13 +1685,13 @@
       "source": "gh-zoominfo",
       "name": "ZoomInfo",
       "kind": "greenhouse",
-      "fetched": 6
+      "fetched": 7
     },
     {
       "source": "gh-zscaler",
       "name": "Zscaler",
       "kind": "greenhouse",
-      "fetched": 0
+      "fetched": 13
     },
     {
       "source": "govt-bpcl",
@@ -1723,8 +1723,7 @@
       "source": "govt-iocl",
       "name": "IOCL",
       "kind": "govt",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "govt-lic",
@@ -1748,8 +1747,7 @@
       "source": "govt-sbi",
       "name": "SBI",
       "kind": "govt",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 25
     },
     {
       "source": "govt-upsc",
@@ -1888,7 +1886,7 @@
       "source": "keka-fynd",
       "name": "Fynd",
       "kind": "keka",
-      "fetched": 7
+      "fetched": 8
     },
     {
       "source": "keka-gameberry",
@@ -2146,7 +2144,7 @@
       "source": "keka-valorem",
       "name": "FloBiz",
       "kind": "keka",
-      "fetched": 5
+      "fetched": 4
     },
     {
       "source": "keka-voidsolutions",
@@ -2512,7 +2510,7 @@
       "source": "lever-olo",
       "name": "Olo",
       "kind": "lever",
-      "fetched": 5
+      "fetched": 4
     },
     {
       "source": "lever-oowlish",
@@ -2763,9 +2761,7 @@
   ],
   "sitesSkippedByRobots": [
     "BPCL",
-    "SBI",
     "IBPS",
-    "IOCL",
     "UPSC"
   ],
   "sitesWithErrors": [],

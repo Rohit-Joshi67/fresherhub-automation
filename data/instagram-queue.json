@@ -1,275 +1,104 @@
 [
   {
-    "page": "/docs/jobs/cadence-payroll-specialist.html",
-    "company": "Cadence",
-    "title": "Payroll Specialist",
-    "apply_url": "https://job-boards.greenhouse.io/solutions/jobs/4720864006",
-    "headline": "Payroll Specialist @ Cadence",
-    "subheadline": "remote | Internship",
+    "page": "/docs/jobs/razorpay-technical-consultant.html",
+    "company": "Razorpay",
+    "title": "Technical Consultant",
+    "apply_url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4738819005",
+    "headline": "Technical Consultant @ Razorpay",
+    "subheadline": "Bengaluru | Internship",
     "key_points": [
-      "Review payroll results for unexpected changes in earnings, deductions, taxes, and net pay; investigate discrepancies and resolve or escalate exceptions before submission.",
-      "Calculate and process off-cycle and manual payments, including final pay in accordance with applicable state timing requirements.",
-      "Support quarter-end and year-end activities, including W-2 preparation, review, reconciliation, and W-2c corrections."
-    ],
-    "cta": "Apply on the official page: https://job-boards.greenhouse.io/solutions/jobs/4720864006",
-    "caption": "Hiring alert: Cadence is looking for a Payroll Specialist (remote).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Review payroll results for unexpected changes in earnings, deductions, taxes, and net pay; investigate discrepancies and resolve or escalate exceptions before submission.\n- Calculate and process off-cycle and manual payments, including final pay in accordance with applicable state timing requirements.\n- Support quarter-end and year-end activities, including W-2 preparation, review, reconciliation, and W-2c corrections.\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
-    "hashtags": [
-      "#fresherjobs",
-      "#freshershiring",
-      "#entryleveljobs",
-      "#hiringindia",
-      "#cadencehiring",
-      "#remotejobs"
-    ]
-  },
-  {
-    "page": "/docs/jobs/american-express-associate-digital-product-management.html",
-    "company": "American Express",
-    "title": "Associate - Digital Product Management",
-    "apply_url": "https://careers.americanexpress.com/en/sites/CX_1/job/26014766/?utm_medium=jobshare",
-    "headline": "Associate - Digital Product Management @ American Express",
-    "subheadline": "India | Entry-level (0–2 yrs)",
-    "key_points": [
-      "Apply through the official American Express careers portal before the application deadline.",
-      "The associate will work with Credit Risk, Fraud Risk, Product, Technology, Data, and Marketing teams to translate business needs into product requirements, support roadmap development, coordinate planning and prioritization, and track delivery throughout the product lifecycle.",
-      "Collaborate with Risk, Product, Technology, Data, Marketing, and other stakeholders to translate business needs into product requirements.",
-      "Skill: Data Analysis"
-    ],
-    "cta": "Apply on the official page: https://careers.americanexpress.com/en/sites/CX_1/job/26014766/?utm_medium=jobshare",
-    "caption": "Hiring alert: American Express is looking for a Associate - Digital Product Management (India).\n\nEligibility: Entry-level (0–2 yrs).\nCompensation: check the official posting for details.\n- Apply through the official American Express careers portal before the application deadline.\n- The associate will work with Credit Risk, Fraud Risk, Product, Technology, Data, and Marketing teams to translate business needs into product requirements, support roadmap development, coordinate planning and prioritization, and track delivery throughout the product lifecycle.\n- Collaborate with Risk, Product, Technology, Data, Marketing, and other stakeholders to translate business needs into product requirements.\n- Skill: Data Analysis\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
-    "hashtags": [
-      "#fresherjobs",
-      "#freshershiring",
-      "#entryleveljobs",
-      "#hiringindia",
-      "#americanexpresshiring",
-      "#indiajobs"
-    ]
-  },
-  {
-    "page": "/docs/jobs/american-express-analyst-data-science-sql-ml-genai.html",
-    "company": "American Express",
-    "title": "Analyst - Data Science (SQL, ML & GenAI)",
-    "apply_url": "https://careers.americanexpress.com/en/sites/CX_1/job/26014754/?utm_medium=jobshare",
-    "headline": "Analyst - Data Science (SQL, ML & GenAI) @ American Express",
-    "subheadline": "India | Entry-level (0–2 yrs)",
-    "key_points": [
-      "Apply through the official American Express careers portal before the application deadline.",
-      "The selected candidate will analyze customer behavior, develop analytical solutions, support machine learning and GenAI use cases, build queries and dashboards, and help evaluate personalized digital experiences.",
-      "Analyze customer behavior and contextual data to support targeted messaging, content, and offers.",
-      "Skill: Python",
-      "Skill: SQL",
-      "Skill: Machine Learning"
-    ],
-    "cta": "Apply on the official page: https://careers.americanexpress.com/en/sites/CX_1/job/26014754/?utm_medium=jobshare",
-    "caption": "Hiring alert: American Express is looking for a Analyst - Data Science (SQL, ML & GenAI) (India).\n\nEligibility: Entry-level (0–2 yrs).\nCompensation: check the official posting for details.\n- Apply through the official American Express careers portal before the application deadline.\n- The selected candidate will analyze customer behavior, develop analytical solutions, support machine learning and GenAI use cases, build queries and dashboards, and help evaluate personalized digital experiences.\n- Analyze customer behavior and contextual data to support targeted messaging, content, and offers.\n- Skill: Python\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
-    "hashtags": [
-      "#fresherjobs",
-      "#freshershiring",
-      "#entryleveljobs",
-      "#hiringindia",
-      "#americanexpresshiring",
-      "#indiajobs"
-    ]
-  },
-  {
-    "page": "/docs/jobs/american-express-site-reliability-engineer-i.html",
-    "company": "American Express",
-    "title": "Site Reliability Engineer I",
-    "apply_url": "https://careers.americanexpress.com/en/sites/CX_1/job/26014882/?utm_medium=jobshare",
-    "headline": "Site Reliability Engineer I @ American Express",
-    "subheadline": "India | Entry-level (0–2 yrs)",
-    "key_points": [
-      "Apply through the official American Express careers portal before the application deadline.",
-      "American Express is hiring a Site Reliability Engineer I in Bengaluru to improve the resilience, scalability, performance, and availability of its systems.",
-      "Contribute to continuous improvement and reliability best practices.",
+      "Razorpay powers millions of businesses with a smarter, scalable stack that goes beyond transactions to help them truly build and grow.",
+      "From building AI-native agentic payments, to AI-assisted fraud detection and real-time risk intelligence to automated reconciliation, smart payouts, and predictive financial insights, we are embedding intelligence across our stack to make money movement faster, safer, and more efficient.",
+      "People > Pedigree - we hire for attitude, hustle, and hunger more than degrees.",
       "Skill: Python",
       "Skill: Java",
-      "Skill: AWS"
+      "Skill: React"
     ],
-    "cta": "Apply on the official page: https://careers.americanexpress.com/en/sites/CX_1/job/26014882/?utm_medium=jobshare",
-    "caption": "Hiring alert: American Express is looking for a Site Reliability Engineer I (India).\n\nEligibility: Entry-level (0–2 yrs).\nCompensation: check the official posting for details.\n- Apply through the official American Express careers portal before the application deadline.\n- American Express is hiring a Site Reliability Engineer I in Bengaluru to improve the resilience, scalability, performance, and availability of its systems.\n- Contribute to continuous improvement and reliability best practices.\n- Skill: Python\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "cta": "Apply on the official page: https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4738819005",
+    "caption": "Hiring alert: Razorpay is looking for a Technical Consultant (Bengaluru).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Razorpay powers millions of businesses with a smarter, scalable stack that goes beyond transactions to help them truly build and grow.\n- From building AI-native agentic payments, to AI-assisted fraud detection and real-time risk intelligence to automated reconciliation, smart payouts, and predictive financial insights, we are embedding intelligence across our stack to make money movement faster, safer, and more efficient.\n- People > Pedigree - we hire for attitude, hustle, and hunger more than degrees.\n- Skill: Python\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
     "hashtags": [
       "#fresherjobs",
       "#freshershiring",
       "#entryleveljobs",
       "#hiringindia",
-      "#americanexpresshiring",
-      "#indiajobs"
+      "#razorpayhiring",
+      "#bengalurujobs"
     ]
   },
   {
-    "page": "/docs/jobs/cisco-software-engineer.html",
-    "company": "Cisco",
-    "title": "Software Engineer",
-    "apply_url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer_2028048-1?locations=ef8a5a22403d1001f4fde228ba110000",
-    "headline": "Software Engineer @ Cisco",
-    "subheadline": "India | Freshers welcome",
+    "page": "/docs/jobs/ashby-technical-solutions-consultant-americas.html",
+    "company": "Ashby",
+    "title": "Technical Solutions Consultant - Americas",
+    "apply_url": "https://jobs.ashbyhq.com/ashby/08b6342c-d5c0-4864-a4db-28027d241cbe",
+    "headline": "Technical Solutions Consultant - Americas @ Ashby",
+    "subheadline": "Remote - US | Internship",
     "key_points": [
-      "Apply software development lifecycle and Agile engineering best practices.",
-      "Requirements Bachelor's degree in Computer Science or a related field with 0–2 years of experience, or a Master's degree in a related field with no prior experience required.",
-      "Experience: 0–2 years.",
-      "Skill: Python",
-      "Skill: Java",
-      "Skill: Data Structures"
+      "That’s why I’m thrilled to be hiring for our new Solutions Consultant function!",
+      "As a member of our growing Professional Services team (within Ashby’s Customer Success organization), you’ll have the opportunity to ensure customers have the technical support they need to fully optimize their use of Ashby, helping them build deeper integrations and more effective workflows.",
+      "Lead customer-facing technical engagements , including discovery sessions, best practice consulting, and hands-on configuration of technical workflows.",
+      "Skill: Go",
+      "Skill: Sales"
     ],
-    "cta": "Apply on the official page: https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Bangalore-India/Software-Engineer_2028048-1?locations=ef8a5a22403d1001f4fde228ba110000",
-    "caption": "Hiring alert: Cisco is looking for a Software Engineer (India).\n\nEligibility: Freshers welcome.\nCompensation: check the official posting for details.\n- Apply software development lifecycle and Agile engineering best practices.\n- Requirements Bachelor's degree in Computer Science or a related field with 0–2 years of experience, or a Master's degree in a related field with no prior experience required.\n- Experience: 0–2 years.\n- Skill: Python\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "cta": "Apply on the official page: https://jobs.ashbyhq.com/ashby/08b6342c-d5c0-4864-a4db-28027d241cbe",
+    "caption": "Hiring alert: Ashby is looking for a Technical Solutions Consultant - Americas (Remote - US).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- That’s why I’m thrilled to be hiring for our new Solutions Consultant function!\n- As a member of our growing Professional Services team (within Ashby’s Customer Success organization), you’ll have the opportunity to ensure customers have the technical support they need to fully optimize their use of Ashby, helping them build deeper integrations and more effective workflows.\n- Lead customer-facing technical engagements , including discovery sessions, best practice consulting, and hands-on configuration of technical workflows.\n- Skill: Go\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
     "hashtags": [
       "#fresherjobs",
       "#freshershiring",
       "#entryleveljobs",
       "#hiringindia",
-      "#ciscohiring",
-      "#indiajobs"
+      "#ashbyhiring",
+      "#remoteusjobs"
     ]
   },
   {
-    "page": "/docs/jobs/salesforce-software-engineering-mts-devops-engineer.html",
-    "company": "Salesforce",
-    "title": "Software Engineering MTS (DevOps Engineer)",
-    "apply_url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Software-Engineering-MTS--DevOps-Engineer-_JR362707?locations=1038e944b1101012453acb52a3810000",
-    "headline": "Software Engineering MTS (DevOps Engineer) @ Salesforce",
-    "subheadline": "India | Entry-level (0–2 yrs)",
+    "page": "/docs/jobs/ashby-integrations-consultant-americas.html",
+    "company": "Ashby",
+    "title": "Integrations Consultant - Americas",
+    "apply_url": "https://jobs.ashbyhq.com/ashby/ae9df091-112c-4a59-b3d1-49d6e0ed3de9",
+    "headline": "Integrations Consultant - Americas @ Ashby",
+    "subheadline": "Remote - US | Internship",
     "key_points": [
-      "Apply through the official Salesforce careers portal before the application deadline.",
-      "The role combines DevOps, cloud infrastructure, Kubernetes, Terraform, Python-based automation, customer issue resolution, documentation, training, and analytics dashboards.",
-      "Requirements Bachelor's or Master's degree.",
-      "Skill: Python",
-      "Skill: AWS",
-      "Skill: Azure"
+      "Coupled with our principle of caring deeply about our customers, we often find ourselves wondering ‘what is a better way to accomplish this’.",
+      "That’s why I am thrilled to be hiring our next Integrations Consultant!",
+      "As the third member of our Integrations Consulting team (within Ashby’s Customer Success organization), you’ll have the opportunity to lead customer facing engagements, focusing on complex technical projects for some of our most strategic customers.",
+      "Skill: Go",
+      "Skill: Sales"
     ],
-    "cta": "Apply on the official page: https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Hyderabad/Software-Engineering-MTS--DevOps-Engineer-_JR362707?locations=1038e944b1101012453acb52a3810000",
-    "caption": "Hiring alert: Salesforce is looking for a Software Engineering MTS (DevOps Engineer) (India).\n\nEligibility: Entry-level (0–2 yrs).\nCompensation: check the official posting for details.\n- Apply through the official Salesforce careers portal before the application deadline.\n- The role combines DevOps, cloud infrastructure, Kubernetes, Terraform, Python-based automation, customer issue resolution, documentation, training, and analytics dashboards.\n- Requirements Bachelor's or Master's degree.\n- Skill: Python\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "cta": "Apply on the official page: https://jobs.ashbyhq.com/ashby/ae9df091-112c-4a59-b3d1-49d6e0ed3de9",
+    "caption": "Hiring alert: Ashby is looking for a Integrations Consultant - Americas (Remote - US).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Coupled with our principle of caring deeply about our customers, we often find ourselves wondering ‘what is a better way to accomplish this’.\n- That’s why I am thrilled to be hiring our next Integrations Consultant!\n- As the third member of our Integrations Consulting team (within Ashby’s Customer Success organization), you’ll have the opportunity to lead customer facing engagements, focusing on complex technical projects for some of our most strategic customers.\n- Skill: Go\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
     "hashtags": [
       "#fresherjobs",
       "#freshershiring",
       "#entryleveljobs",
       "#hiringindia",
-      "#salesforcehiring",
-      "#indiajobs"
+      "#ashbyhiring",
+      "#remoteusjobs"
     ]
   },
   {
-    "page": "/docs/jobs/portage-point-partners-associate-data-analytics-devops.html",
-    "company": "Portage Point Partners",
-    "title": "Associate, Data Analytics/DevOps",
-    "apply_url": "https://jobs.lever.co/portagepointpartners/0ae80227-47cf-4143-ad32-2fdcabdcda7c",
-    "headline": "Associate, Data Analytics/DevOps @ Portage Point Partners",
-    "subheadline": "India | Internship",
+    "page": "/docs/jobs/fynd-fullstack-developer-sde-1-2-commerce.html",
+    "company": "Fynd",
+    "title": "Fullstack Developer | SDE 1/2 | Commerce",
+    "apply_url": "https://fynd.keka.com/careers/jobdetails/144220",
+    "headline": "Fullstack Developer | SDE 1/2 | Commerce @ Fynd",
+    "subheadline": "Mumbai | Internship",
     "key_points": [
-      "Share engineering best practices and lead internal training when required.",
-      "Requirements Bachelor's degree in Computer Science, Engineering, Information Systems, or Mathematics from a top undergraduate program.",
-      "At least 2 years of experience in DevOps, platform engineering, cloud engineering, or infrastructure operations.",
-      "Skill: Python",
-      "Skill: Azure",
-      "Skill: Docker"
-    ],
-    "cta": "Apply on the official page: https://jobs.lever.co/portagepointpartners/0ae80227-47cf-4143-ad32-2fdcabdcda7c",
-    "caption": "Hiring alert: Portage Point Partners is looking for a Associate, Data Analytics/DevOps (India).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Share engineering best practices and lead internal training when required.\n- Requirements Bachelor's degree in Computer Science, Engineering, Information Systems, or Mathematics from a top undergraduate program.\n- At least 2 years of experience in DevOps, platform engineering, cloud engineering, or infrastructure operations.\n- Skill: Python\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
-    "hashtags": [
-      "#fresherjobs",
-      "#freshershiring",
-      "#entryleveljobs",
-      "#hiringindia",
-      "#portagepointpartnershiring",
-      "#indiajobs"
-    ]
-  },
-  {
-    "page": "/docs/jobs/medinex-workforce-mern-stack-intern-mongodb-express-react-no.html",
-    "company": "MediNex Workforce",
-    "title": "MERN Stack Intern (MongoDB, Express, React, Node.js)",
-    "apply_url": "https://medinexworkforce.in/careers",
-    "headline": "MERN Stack Intern (MongoDB, Express, React, Node.js) @ MediNex Workforce",
-    "subheadline": "India | Internship",
-    "key_points": [
-      "Interns will build end-to-end features for candidate portals, recruiter dashboards, client requirement forms, and internal tools using MongoDB, Express.js, React.js, and Node.js.",
-      "Requirements Solid understanding of JavaScript fundamentals.",
+      "We started at the intersection of technology and retail because that is where technology was the least available.",
+      "Over the years, we became one of India’s largest retail technology platforms.",
+      "Contribute to engineering best practices, CI/CD workflows, and DevEx improvements to increase team productivity.",
       "Skill: JavaScript",
       "Skill: React",
-      "Skill: React.js"
+      "Skill: Node.js"
     ],
-    "cta": "Apply on the official page: https://medinexworkforce.in/careers",
-    "caption": "Hiring alert: MediNex Workforce is looking for a MERN Stack Intern (MongoDB, Express, React, Node.js) (India).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Interns will build end-to-end features for candidate portals, recruiter dashboards, client requirement forms, and internal tools using MongoDB, Express.js, React.js, and Node.js.\n- Requirements Solid understanding of JavaScript fundamentals.\n- Skill: JavaScript\n- Skill: React\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "cta": "Apply on the official page: https://fynd.keka.com/careers/jobdetails/144220",
+    "caption": "Hiring alert: Fynd is looking for a Fullstack Developer | SDE 1/2 | Commerce (Mumbai).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- We started at the intersection of technology and retail because that is where technology was the least available.\n- Over the years, we became one of India’s largest retail technology platforms.\n- Contribute to engineering best practices, CI/CD workflows, and DevEx improvements to increase team productivity.\n- Skill: JavaScript\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
     "hashtags": [
       "#fresherjobs",
       "#freshershiring",
       "#entryleveljobs",
       "#hiringindia",
-      "#medinexworkforcehiring",
-      "#indiajobs"
-    ]
-  },
-  {
-    "page": "/docs/jobs/nextbill-ui-ux-designer-internship.html",
-    "company": "NextBill",
-    "title": "UI/UX Designer (Internship)",
-    "apply_url": "https://www.nextbill.io/company/careers/view-application/6a509b59cc9a2a2289bad9d4",
-    "headline": "UI/UX Designer (Internship) @ NextBill",
-    "subheadline": "India | Internship",
-    "key_points": [
-      "Requirements Any graduate.",
-      "–1 year of experience.",
-      "Proficiency in Figma, Adobe XD, or similar design tools.",
-      "Skill: Figma"
-    ],
-    "cta": "Apply on the official page: https://www.nextbill.io/company/careers/view-application/6a509b59cc9a2a2289bad9d4",
-    "caption": "Hiring alert: NextBill is looking for a UI/UX Designer (Internship) (India).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Requirements Any graduate.\n- –1 year of experience.\n- Proficiency in Figma, Adobe XD, or similar design tools.\n- Skill: Figma\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
-    "hashtags": [
-      "#fresherjobs",
-      "#freshershiring",
-      "#entryleveljobs",
-      "#hiringindia",
-      "#nextbillhiring",
-      "#indiajobs"
-    ]
-  },
-  {
-    "page": "/docs/jobs/medinex-workforce-react-front-end-intern-react-javascript-cs.html",
-    "company": "MediNex Workforce",
-    "title": "React Front End Intern (React, JavaScript, CSS)",
-    "apply_url": "https://medinexworkforce.in/careers",
-    "headline": "React Front End Intern (React, JavaScript, CSS) @ MediNex Workforce",
-    "subheadline": "India | Internship",
-    "key_points": [
-      "Requirements Strong understanding of JavaScript fundamentals.",
-      "Skill: JavaScript",
-      "Skill: React",
-      "Skill: React.js"
-    ],
-    "cta": "Apply on the official page: https://medinexworkforce.in/careers",
-    "caption": "Hiring alert: MediNex Workforce is looking for a React Front End Intern (React, JavaScript, CSS) (India).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Requirements Strong understanding of JavaScript fundamentals.\n- Skill: JavaScript\n- Skill: React\n- Skill: React.js\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
-    "hashtags": [
-      "#fresherjobs",
-      "#freshershiring",
-      "#entryleveljobs",
-      "#hiringindia",
-      "#medinexworkforcehiring",
-      "#indiajobs"
-    ]
-  },
-  {
-    "page": "/docs/jobs/fireblaze-ai-school-full-stack-development-intern.html",
-    "company": "Fireblaze AI School",
-    "title": "Full Stack Development Intern",
-    "apply_url": "https://fireblazeaischool.zohorecruit.in/jobs/Careers/28170000006706922/Full-Stack-Development-Intern?source=CareerSite",
-    "headline": "Full Stack Development Intern @ Fireblaze AI School",
-    "subheadline": "India | Internship",
-    "key_points": [
-      "Fireblaze AI School is seeking a proactive and curious Full Stack Development Intern to join its engineering team.",
-      "Specific technical requirements and detailed responsibilities are not provided in the available job description.",
-      "Requirements Suitable for freshers."
-    ],
-    "cta": "Apply on the official page: https://fireblazeaischool.zohorecruit.in/jobs/Careers/28170000006706922/Full-Stack-Development-Intern?source=CareerSite",
-    "caption": "Hiring alert: Fireblaze AI School is looking for a Full Stack Development Intern (India).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Fireblaze AI School is seeking a proactive and curious Full Stack Development Intern to join its engineering team.\n- Specific technical requirements and detailed responsibilities are not provided in the available job description.\n- Requirements Suitable for freshers.\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
-    "hashtags": [
-      "#fresherjobs",
-      "#freshershiring",
-      "#entryleveljobs",
-      "#hiringindia",
-      "#fireblazeaischoolhiring",
-      "#indiajobs"
+      "#fyndhiring",
+      "#mumbaijobs"
     ]
   }
 ]
