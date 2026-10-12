@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-11T18:43:25.454Z",
-  "totalJobs": 360,
-  "publishedCount": 360,
-  "quarantinedCount": 456,
-  "reviewCount": 456,
-  "privateCount": 360,
+  "updatedAt": "2026-10-12T08:52:11.804Z",
+  "totalJobs": 370,
+  "publishedCount": 370,
+  "quarantinedCount": 439,
+  "reviewCount": 439,
+  "privateCount": 370,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -857,7 +857,7 @@
       "source": "gh-adyen",
       "name": "Adyen",
       "kind": "greenhouse",
-      "fetched": 3
+      "fetched": 1
     },
     {
       "source": "gh-affirm",
@@ -875,7 +875,7 @@
       "source": "gh-airbnb",
       "name": "Airbnb",
       "kind": "greenhouse",
-      "fetched": 5
+      "fetched": 2
     },
     {
       "source": "gh-airtable",
@@ -1241,7 +1241,7 @@
       "source": "gh-inmobi",
       "name": "InMobi",
       "kind": "greenhouse",
-      "fetched": 4
+      "fetched": 2
     },
     {
       "source": "gh-instacart",
@@ -1349,7 +1349,7 @@
       "source": "gh-newrelic",
       "name": "New Relic",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 3
     },
     {
       "source": "gh-nextdoor",
@@ -1367,7 +1367,7 @@
       "source": "gh-okta",
       "name": "Okta",
       "kind": "greenhouse",
-      "fetched": 6
+      "fetched": 5
     },
     {
       "source": "gh-okx",
@@ -1445,7 +1445,7 @@
       "source": "gh-razorpay",
       "name": "Razorpay",
       "kind": "greenhouse",
-      "fetched": 4
+      "fetched": 5
     },
     {
       "source": "gh-reddit",
@@ -1535,7 +1535,7 @@
       "source": "gh-solutions",
       "name": "Cadence",
       "kind": "greenhouse",
-      "fetched": 4
+      "fetched": 6
     },
     {
       "source": "gh-sovrn",
@@ -1704,7 +1704,7 @@
       "source": "govt-cdac",
       "name": "C-DAC",
       "kind": "govt",
-      "fetched": 0
+      "fetched": 16
     },
     {
       "source": "govt-hpcl",
@@ -1723,7 +1723,8 @@
       "source": "govt-iocl",
       "name": "IOCL",
       "kind": "govt",
-      "fetched": 0
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "govt-lic",
@@ -1747,7 +1748,8 @@
       "source": "govt-sbi",
       "name": "SBI",
       "kind": "govt",
-      "fetched": 25
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "govt-upsc",
@@ -1760,7 +1762,7 @@
       "source": "hiredoor",
       "name": "HireDoor",
       "kind": "hiredoor",
-      "fetched": 39
+      "fetched": 38
     },
     {
       "source": "keka-10decoders",
@@ -2030,7 +2032,7 @@
       "source": "keka-qodoro",
       "name": "Qodoro",
       "kind": "keka",
-      "fetched": 5
+      "fetched": 6
     },
     {
       "source": "keka-qualminds",
@@ -2761,7 +2763,9 @@
   ],
   "sitesSkippedByRobots": [
     "BPCL",
+    "SBI",
     "IBPS",
+    "IOCL",
     "UPSC"
   ],
   "sitesWithErrors": [],
