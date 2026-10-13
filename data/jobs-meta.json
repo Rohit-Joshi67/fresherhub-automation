@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-12T22:02:52.269Z",
-  "totalJobs": 373,
-  "publishedCount": 373,
-  "quarantinedCount": 469,
-  "reviewCount": 469,
-  "privateCount": 373,
+  "updatedAt": "2026-10-13T09:08:38.651Z",
+  "totalJobs": 362,
+  "publishedCount": 362,
+  "quarantinedCount": 453,
+  "reviewCount": 453,
+  "privateCount": 362,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -59,7 +59,7 @@
       "source": "ashby-ashby",
       "name": "Ashby",
       "kind": "ashby",
-      "fetched": 9
+      "fetched": 8
     },
     {
       "source": "ashby-astronomer",
@@ -101,7 +101,7 @@
       "source": "ashby-benchling",
       "name": "Benchling",
       "kind": "ashby",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "ashby-bland",
@@ -497,7 +497,7 @@
       "source": "ashby-notion",
       "name": "Notion",
       "kind": "ashby",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "ashby-openai",
@@ -665,7 +665,7 @@
       "source": "ashby-sarvam",
       "name": "Sarvam AI",
       "kind": "ashby",
-      "fetched": 2
+      "fetched": 3
     },
     {
       "source": "ashby-semgrep",
@@ -851,7 +851,7 @@
       "source": "gh-6sense",
       "name": "6sense",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 3
     },
     {
       "source": "gh-adyen",
@@ -1001,7 +1001,7 @@
       "source": "gh-cloudsek",
       "name": "CloudSEK",
       "kind": "greenhouse",
-      "fetched": 6
+      "fetched": 7
     },
     {
       "source": "gh-cockroachlabs",
@@ -1157,7 +1157,7 @@
       "source": "gh-fivetran",
       "name": "Fivetran",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 3
     },
     {
       "source": "gh-gemini",
@@ -1247,7 +1247,7 @@
       "source": "gh-instacart",
       "name": "Instacart",
       "kind": "greenhouse",
-      "fetched": 14
+      "fetched": 10
     },
     {
       "source": "gh-intercom",
@@ -1445,7 +1445,7 @@
       "source": "gh-razorpay",
       "name": "Razorpay",
       "kind": "greenhouse",
-      "fetched": 6
+      "fetched": 5
     },
     {
       "source": "gh-reddit",
@@ -1747,7 +1747,8 @@
       "source": "govt-sbi",
       "name": "SBI",
       "kind": "govt",
-      "fetched": 25
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "govt-upsc",
@@ -1940,7 +1941,7 @@
       "source": "keka-kapturecrm",
       "name": "Kapture CX",
       "kind": "keka",
-      "fetched": 3
+      "fetched": 2
     },
     {
       "source": "keka-kinsfolk",
@@ -2060,7 +2061,7 @@
       "source": "keka-signzy",
       "name": "Signzy",
       "kind": "keka",
-      "fetched": 3
+      "fetched": 2
     },
     {
       "source": "keka-sisinty",
@@ -2156,7 +2157,7 @@
       "source": "keka-vyaparapp",
       "name": "Vyapar",
       "kind": "keka",
-      "fetched": 16
+      "fetched": 15
     },
     {
       "source": "keka-wingify",
@@ -2180,7 +2181,7 @@
       "source": "keka-zocket",
       "name": "Zocket",
       "kind": "keka",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "keka-zono",
@@ -2720,7 +2721,7 @@
       "source": "lever-weekdayworks",
       "name": "Weekday",
       "kind": "lever",
-      "fetched": 14
+      "fetched": 12
     },
     {
       "source": "lever-workwave",
@@ -2761,6 +2762,7 @@
   ],
   "sitesSkippedByRobots": [
     "BPCL",
+    "SBI",
     "IBPS",
     "UPSC"
   ],
