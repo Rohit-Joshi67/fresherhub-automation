@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-13T09:08:38.651Z",
-  "totalJobs": 362,
-  "publishedCount": 362,
-  "quarantinedCount": 453,
-  "reviewCount": 453,
-  "privateCount": 362,
+  "updatedAt": "2026-10-13T20:10:04.711Z",
+  "totalJobs": 359,
+  "publishedCount": 359,
+  "quarantinedCount": 471,
+  "reviewCount": 471,
+  "privateCount": 359,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -263,7 +263,7 @@
       "source": "ashby-elevenlabs",
       "name": "ElevenLabs",
       "kind": "ashby",
-      "fetched": 0
+      "fetched": 2
     },
     {
       "source": "ashby-fireworks",
@@ -863,7 +863,7 @@
       "source": "gh-affirm",
       "name": "Affirm",
       "kind": "greenhouse",
-      "fetched": 32
+      "fetched": 34
     },
     {
       "source": "gh-affle",
@@ -1247,7 +1247,7 @@
       "source": "gh-instacart",
       "name": "Instacart",
       "kind": "greenhouse",
-      "fetched": 10
+      "fetched": 9
     },
     {
       "source": "gh-intercom",
@@ -1403,7 +1403,7 @@
       "source": "gh-planetscale",
       "name": "PlanetScale",
       "kind": "greenhouse",
-      "fetched": 4
+      "fetched": 3
     },
     {
       "source": "gh-postman",
@@ -1445,7 +1445,7 @@
       "source": "gh-razorpay",
       "name": "Razorpay",
       "kind": "greenhouse",
-      "fetched": 5
+      "fetched": 4
     },
     {
       "source": "gh-reddit",
@@ -1625,7 +1625,7 @@
       "source": "gh-twilio",
       "name": "Twilio",
       "kind": "greenhouse",
-      "fetched": 29
+      "fetched": 32
     },
     {
       "source": "gh-twitch",
@@ -1649,7 +1649,7 @@
       "source": "gh-vercel",
       "name": "Vercel",
       "kind": "greenhouse",
-      "fetched": 3
+      "fetched": 2
     },
     {
       "source": "gh-webflow",
@@ -1747,8 +1747,7 @@
       "source": "govt-sbi",
       "name": "SBI",
       "kind": "govt",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 25
     },
     {
       "source": "govt-upsc",
@@ -1797,7 +1796,7 @@
       "source": "keka-avengers",
       "name": "Avengers",
       "kind": "keka",
-      "fetched": 3
+      "fetched": 4
     },
     {
       "source": "keka-beyondkey",
@@ -1941,7 +1940,7 @@
       "source": "keka-kapturecrm",
       "name": "Kapture CX",
       "kind": "keka",
-      "fetched": 2
+      "fetched": 0
     },
     {
       "source": "keka-kinsfolk",
@@ -2259,7 +2258,7 @@
       "source": "lever-bluecatnetworks",
       "name": "BlueCat Networks",
       "kind": "lever",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "lever-bluelightconsulting",
@@ -2313,7 +2312,7 @@
       "source": "lever-entrata",
       "name": "Entrata",
       "kind": "lever",
-      "fetched": 2
+      "fetched": 3
     },
     {
       "source": "lever-everbridge",
@@ -2457,7 +2456,7 @@
       "source": "lever-mindtickle",
       "name": "Mindtickle",
       "kind": "lever",
-      "fetched": 4
+      "fetched": 0
     },
     {
       "source": "lever-mobileaction",
@@ -2721,7 +2720,7 @@
       "source": "lever-weekdayworks",
       "name": "Weekday",
       "kind": "lever",
-      "fetched": 12
+      "fetched": 10
     },
     {
       "source": "lever-workwave",
@@ -2762,7 +2761,6 @@
   ],
   "sitesSkippedByRobots": [
     "BPCL",
-    "SBI",
     "IBPS",
     "UPSC"
   ],
