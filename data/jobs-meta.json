@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-15T07:10:28.862Z",
-  "totalJobs": 341,
-  "publishedCount": 341,
-  "quarantinedCount": 482,
-  "reviewCount": 482,
-  "privateCount": 341,
+  "updatedAt": "2026-10-15T18:07:37.311Z",
+  "totalJobs": 342,
+  "publishedCount": 342,
+  "quarantinedCount": 474,
+  "reviewCount": 474,
+  "privateCount": 342,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -149,7 +149,7 @@
       "source": "ashby-clickhouse",
       "name": "ClickHouse",
       "kind": "ashby",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "ashby-coder",
@@ -341,7 +341,7 @@
       "source": "ashby-influxdata",
       "name": "InfluxData",
       "kind": "ashby",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "ashby-inngest",
@@ -875,7 +875,7 @@
       "source": "gh-airbnb",
       "name": "Airbnb",
       "kind": "greenhouse",
-      "fetched": 4
+      "fetched": 2
     },
     {
       "source": "gh-airtable",
@@ -1019,7 +1019,7 @@
       "source": "gh-collibra",
       "name": "Collibra",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "gh-contentful",
@@ -1103,7 +1103,7 @@
       "source": "gh-druva",
       "name": "Druva",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "gh-duolingo",
@@ -1133,7 +1133,7 @@
       "source": "gh-fastly",
       "name": "Fastly",
       "kind": "greenhouse",
-      "fetched": 3
+      "fetched": 4
     },
     {
       "source": "gh-figma",
@@ -1193,7 +1193,7 @@
       "source": "gh-groww",
       "name": "Groww",
       "kind": "greenhouse",
-      "fetched": 6
+      "fetched": 5
     },
     {
       "source": "gh-gusto",
@@ -1217,7 +1217,7 @@
       "source": "gh-highradius",
       "name": "HighRadius",
       "kind": "greenhouse",
-      "fetched": 17
+      "fetched": 16
     },
     {
       "source": "gh-honeycomb",
@@ -1577,7 +1577,7 @@
       "source": "gh-taboola",
       "name": "Taboola",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "gh-tenstorrent",
@@ -1619,13 +1619,13 @@
       "source": "gh-triplelift",
       "name": "TripleLift",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "gh-twilio",
       "name": "Twilio",
       "kind": "greenhouse",
-      "fetched": 29
+      "fetched": 27
     },
     {
       "source": "gh-twitch",
@@ -1649,7 +1649,7 @@
       "source": "gh-vercel",
       "name": "Vercel",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 3
     },
     {
       "source": "gh-webflow",
@@ -1685,7 +1685,7 @@
       "source": "gh-zoominfo",
       "name": "ZoomInfo",
       "kind": "greenhouse",
-      "fetched": 7
+      "fetched": 6
     },
     {
       "source": "gh-zscaler",
@@ -1704,7 +1704,8 @@
       "source": "govt-cdac",
       "name": "C-DAC",
       "kind": "govt",
-      "fetched": 16
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "govt-hpcl",
@@ -1760,7 +1761,7 @@
       "source": "hiredoor",
       "name": "HireDoor",
       "kind": "hiredoor",
-      "fetched": 38
+      "fetched": 39
     },
     {
       "source": "keka-10decoders",
@@ -1790,7 +1791,7 @@
       "source": "keka-athenainfonomics",
       "name": "Athena Infonomics",
       "kind": "keka",
-      "fetched": 2
+      "fetched": 3
     },
     {
       "source": "keka-avengers",
@@ -1832,7 +1833,7 @@
       "source": "keka-cloudkaptan",
       "name": "CloudKaptan",
       "kind": "keka",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "keka-codewinglet",
@@ -1886,7 +1887,7 @@
       "source": "keka-fynd",
       "name": "Fynd",
       "kind": "keka",
-      "fetched": 8
+      "fetched": 9
     },
     {
       "source": "keka-gameberry",
@@ -2186,7 +2187,7 @@
       "source": "keka-zono",
       "name": "Zono",
       "kind": "keka",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "lever-15five",
@@ -2216,7 +2217,7 @@
       "source": "lever-aircall",
       "name": "Aircall",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 3
     },
     {
       "source": "lever-alloy",
@@ -2258,7 +2259,7 @@
       "source": "lever-bluecatnetworks",
       "name": "BlueCat Networks",
       "kind": "lever",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "lever-bluelightconsulting",
@@ -2324,7 +2325,7 @@
       "source": "lever-extremenetworks",
       "name": "Extreme Networks",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 9
     },
     {
       "source": "lever-fampay",
@@ -2450,7 +2451,7 @@
       "source": "lever-meesho",
       "name": "Meesho",
       "kind": "lever",
-      "fetched": 3
+      "fetched": 4
     },
     {
       "source": "lever-mindtickle",
@@ -2498,7 +2499,7 @@
       "source": "lever-neuron7",
       "name": "Neuron7.ai",
       "kind": "lever",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "lever-octoenergy",
@@ -2510,7 +2511,7 @@
       "source": "lever-olo",
       "name": "Olo",
       "kind": "lever",
-      "fetched": 4
+      "fetched": 2
     },
     {
       "source": "lever-oowlish",
@@ -2762,6 +2763,7 @@
   "sitesSkippedByRobots": [
     "BPCL",
     "IBPS",
+    "C-DAC",
     "UPSC"
   ],
   "sitesWithErrors": [],
