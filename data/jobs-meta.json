@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-15T18:07:37.311Z",
-  "totalJobs": 342,
-  "publishedCount": 342,
-  "quarantinedCount": 474,
-  "reviewCount": 474,
-  "privateCount": 342,
+  "updatedAt": "2026-10-16T06:53:38.547Z",
+  "totalJobs": 345,
+  "publishedCount": 345,
+  "quarantinedCount": 479,
+  "reviewCount": 479,
+  "privateCount": 345,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -263,7 +263,7 @@
       "source": "ashby-elevenlabs",
       "name": "ElevenLabs",
       "kind": "ashby",
-      "fetched": 2
+      "fetched": 3
     },
     {
       "source": "ashby-fireworks",
@@ -575,7 +575,7 @@
       "source": "ashby-posthog",
       "name": "PostHog",
       "kind": "ashby",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "ashby-prefect",
@@ -593,7 +593,7 @@
       "source": "ashby-ramp",
       "name": "Ramp",
       "kind": "ashby",
-      "fetched": 8
+      "fetched": 7
     },
     {
       "source": "ashby-rasa",
@@ -641,7 +641,7 @@
       "source": "ashby-runpod",
       "name": "RunPod",
       "kind": "ashby",
-      "fetched": 5
+      "fetched": 4
     },
     {
       "source": "ashby-runwayml",
@@ -863,7 +863,7 @@
       "source": "gh-affirm",
       "name": "Affirm",
       "kind": "greenhouse",
-      "fetched": 33
+      "fetched": 35
     },
     {
       "source": "gh-affle",
@@ -1223,7 +1223,7 @@
       "source": "gh-honeycomb",
       "name": "Honeycomb",
       "kind": "greenhouse",
-      "fetched": 0
+      "fetched": 2
     },
     {
       "source": "gh-hubspot",
@@ -1445,7 +1445,7 @@
       "source": "gh-razorpay",
       "name": "Razorpay",
       "kind": "greenhouse",
-      "fetched": 4
+      "fetched": 3
     },
     {
       "source": "gh-reddit",
@@ -1625,7 +1625,7 @@
       "source": "gh-twilio",
       "name": "Twilio",
       "kind": "greenhouse",
-      "fetched": 27
+      "fetched": 28
     },
     {
       "source": "gh-twitch",
@@ -1691,7 +1691,7 @@
       "source": "gh-zscaler",
       "name": "Zscaler",
       "kind": "greenhouse",
-      "fetched": 13
+      "fetched": 12
     },
     {
       "source": "govt-bpcl",
@@ -1704,8 +1704,7 @@
       "source": "govt-cdac",
       "name": "C-DAC",
       "kind": "govt",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 17
     },
     {
       "source": "govt-hpcl",
@@ -1761,7 +1760,7 @@
       "source": "hiredoor",
       "name": "HireDoor",
       "kind": "hiredoor",
-      "fetched": 39
+      "fetched": 31
     },
     {
       "source": "keka-10decoders",
@@ -1815,7 +1814,7 @@
       "source": "keka-brandstory",
       "name": "BrandStory",
       "kind": "keka",
-      "fetched": 4
+      "fetched": 5
     },
     {
       "source": "keka-clickpost",
@@ -1911,7 +1910,7 @@
       "source": "keka-impactanalytics",
       "name": "Impact Analytics",
       "kind": "keka",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "keka-impronics",
@@ -2409,7 +2408,7 @@
       "source": "lever-jumpcloud",
       "name": "JumpCloud",
       "kind": "lever",
-      "fetched": 6
+      "fetched": 7
     },
     {
       "source": "lever-lalamove",
@@ -2433,7 +2432,7 @@
       "source": "lever-linkedin",
       "name": "LinkedIn",
       "kind": "lever",
-      "fetched": 3
+      "fetched": 0
     },
     {
       "source": "lever-lyrebirdstudio",
@@ -2763,7 +2762,6 @@
   "sitesSkippedByRobots": [
     "BPCL",
     "IBPS",
-    "C-DAC",
     "UPSC"
   ],
   "sitesWithErrors": [],
