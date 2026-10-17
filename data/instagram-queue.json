@@ -1,51 +1,452 @@
 [
   {
-    "page": "/docs/jobs/drivewealth-transaction-reporting-analyst.html",
-    "company": "DriveWealth",
-    "title": "Transaction Reporting Analyst",
-    "apply_url": "https://jobs.ashbyhq.com/drivewealth/f9d0b51e-9d8f-4910-94f2-0a8a01a13ddc",
-    "headline": "Transaction Reporting Analyst @ DriveWealth",
-    "subheadline": "Office - GIFT City, India | Entry-level (0–2 yrs)",
+    "page": "/docs/jobs/niyo-executive-central-ops-forex-services.html",
+    "company": "Niyo",
+    "title": "Executive - Central Ops (Forex Services)",
+    "apply_url": "https://niyo.keka.com/careers/jobdetails/66501",
+    "headline": "Executive - Central Ops (Forex Services) @ Niyo",
+    "subheadline": "Bengaluru | Internship",
     "key_points": [
-      "This Transaction Reporting Analyst acts as the first line of defense against reporting breaks before the U.S. core trading day begins.",
-      "You Bring Minimum 2+ years of experience in financial services operations, trade support, or regulatory reporting.",
-      "Bachelor's degree (or local equivalent post-secondary qualification) in Finance, Business, or a related field, or equivalent professional experience."
+      "About the role: The role involves a central process of customer support in KYC, onboarding queries via chat, email and calls for customers seeking forex buy/sell and remittance services for which the order is placed via web/app and then further process is managed by central team before passing the service level closure to regional on-ground teams.",
+      "Key Responsibilities: Engage with customers to verify their identity, eligibility, and documentation for forex services, ensuring compliance with KYC regulations.",
+      "Must Have: Minimum of bachelor’s degree in any stream.",
+      "Skill: Sales",
+      "Skill: Customer Support"
     ],
-    "cta": "Apply on the official page: https://jobs.ashbyhq.com/drivewealth/f9d0b51e-9d8f-4910-94f2-0a8a01a13ddc",
-    "caption": "Hiring alert: DriveWealth is looking for a Transaction Reporting Analyst (Office - GIFT City, India).\n\nEligibility: Entry-level (0–2 yrs).\nCompensation: check the official posting for details.\n- This Transaction Reporting Analyst acts as the first line of defense against reporting breaks before the U.S. core trading day begins.\n- You Bring Minimum 2+ years of experience in financial services operations, trade support, or regulatory reporting.\n- Bachelor's degree (or local equivalent post-secondary qualification) in Finance, Business, or a related field, or equivalent professional experience.\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "cta": "Apply on the official page: https://niyo.keka.com/careers/jobdetails/66501",
+    "caption": "Hiring alert: Niyo is looking for a Executive - Central Ops (Forex Services) (Bengaluru).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- About the role: The role involves a central process of customer support in KYC, onboarding queries via chat, email and calls for customers seeking forex buy/sell and remittance services for which the order is placed via web/app and then further process is managed by central team before passing the service level closure to regional on-ground teams.\n- Key Responsibilities: Engage with customers to verify their identity, eligibility, and documentation for forex services, ensuring compliance with KYC regulations.\n- Must Have: Minimum of bachelor’s degree in any stream.\n- Skill: Sales\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
     "hashtags": [
       "#fresherjobs",
       "#freshershiring",
       "#entryleveljobs",
       "#hiringindia",
-      "#drivewealthhiring",
-      "#officegiftcityindiajobs"
+      "#niyohiring",
+      "#bengalurujobs"
     ]
   },
   {
-    "page": "/docs/jobs/influxdata-developer-advocate.html",
-    "company": "InfluxData",
-    "title": "Developer Advocate",
-    "apply_url": "https://jobs.ashbyhq.com/influxdata/72a6fb9f-16e9-4d32-ab07-03a44eccbce1",
-    "headline": "Developer Advocate @ InfluxData",
-    "subheadline": "Remote US | Entry-level (0–2 yrs)",
+    "page": "/docs/jobs/needl-ai-software-engineer-platform.html",
+    "company": "Needl.ai",
+    "title": "Software Engineer (Platform)",
+    "apply_url": "https://needl.ai/careers/software-engineer-platform",
+    "headline": "Software Engineer (Platform) @ Needl.ai",
+    "subheadline": "India | Internship",
     "key_points": [
-      "The Developer Advocate on the Developer Relations team will be a leader who directly impacts our entire user community.",
-      "Interview Information: Our interview process begins remotely.",
-      "Some roles may require an in-person meeting with a team member as part of the final stage.",
+      "Candidates need about 1-2 years of experience, strong Python and SQL, and a good grasp of operating systems, Linux, and Git.",
+      "Resumes can also be emailed to careers@needl.ai with the role title in the subject line.",
+      "Requirements About 1 to 2 years of relevant work experience.",
+      "Skill: Python",
+      "Skill: SQL",
+      "Skill: PostgreSQL"
+    ],
+    "cta": "Apply on the official page: https://needl.ai/careers/software-engineer-platform",
+    "caption": "Hiring alert: Needl.ai is looking for a Software Engineer (Platform) (India).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Candidates need about 1-2 years of experience, strong Python and SQL, and a good grasp of operating systems, Linux, and Git.\n- Resumes can also be emailed to careers@needl.ai with the role title in the subject line.\n- Requirements About 1 to 2 years of relevant work experience.\n- Skill: Python\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "hashtags": [
+      "#fresherjobs",
+      "#freshershiring",
+      "#entryleveljobs",
+      "#hiringindia",
+      "#needlaihiring",
+      "#indiajobs"
+    ]
+  },
+  {
+    "page": "/docs/jobs/qualcomm-tlm-performance-modelling-engineer.html",
+    "company": "Qualcomm",
+    "title": "TLM/Performance Modelling Engineer",
+    "apply_url": "https://careers.qualcomm.com/careers/job/446721050790",
+    "headline": "TLM/Performance Modelling Engineer @ Qualcomm",
+    "subheadline": "India | Entry-level (0–2 yrs)",
+    "key_points": [
+      "The engineer will research, design, simulate, and validate systems-level software, hardware, architecture, and algorithms, define requirements and interfaces, and drive system-level triage and root-cause analysis.",
+      "Candidates need a Bachelor's with 2+ years of systems engineering experience, a Master's with 1+ year, or a PhD in Engineering, Information Systems, Computer Science, or a related field.",
+      "Perform functional analysis to drive requirements and specifications and align with hardware and software standards.",
+      "Skill: Algorithms"
+    ],
+    "cta": "Apply on the official page: https://careers.qualcomm.com/careers/job/446721050790",
+    "caption": "Hiring alert: Qualcomm is looking for a TLM/Performance Modelling Engineer (India).\n\nEligibility: Entry-level (0–2 yrs).\nCompensation: check the official posting for details.\n- The engineer will research, design, simulate, and validate systems-level software, hardware, architecture, and algorithms, define requirements and interfaces, and drive system-level triage and root-cause analysis.\n- Candidates need a Bachelor's with 2+ years of systems engineering experience, a Master's with 1+ year, or a PhD in Engineering, Information Systems, Computer Science, or a related field.\n- Perform functional analysis to drive requirements and specifications and align with hardware and software standards.\n- Skill: Algorithms\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "hashtags": [
+      "#fresherjobs",
+      "#freshershiring",
+      "#entryleveljobs",
+      "#hiringindia",
+      "#qualcommhiring",
+      "#indiajobs"
+    ]
+  },
+  {
+    "page": "/docs/jobs/amazon-system-development-engineer-i.html",
+    "company": "Amazon",
+    "title": "System Development Engineer I",
+    "apply_url": "https://www.amazon.jobs/en/jobs/10579966/system-development-engineer-i",
+    "headline": "System Development Engineer I @ Amazon",
+    "subheadline": "India | Entry-level (0–2 yrs)",
+    "key_points": [
+      "Candidates need 1+ years of systems development experience, programming skills in a modern language such as Python, Java, or Go, and experience with Linux/Unix and infrastructure automation.",
+      "Requirements 1+ years of systems development experience.",
+      "Experience: 1+ years.",
+      "Skill: Python",
+      "Skill: Java",
+      "Skill: Go"
+    ],
+    "cta": "Apply on the official page: https://www.amazon.jobs/en/jobs/10579966/system-development-engineer-i",
+    "caption": "Hiring alert: Amazon is looking for a System Development Engineer I (India).\n\nEligibility: Entry-level (0–2 yrs).\nCompensation: check the official posting for details.\n- Candidates need 1+ years of systems development experience, programming skills in a modern language such as Python, Java, or Go, and experience with Linux/Unix and infrastructure automation.\n- Requirements 1+ years of systems development experience.\n- Experience: 1+ years.\n- Skill: Python\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "hashtags": [
+      "#fresherjobs",
+      "#freshershiring",
+      "#entryleveljobs",
+      "#hiringindia",
+      "#amazonhiring",
+      "#indiajobs"
+    ]
+  },
+  {
+    "page": "/docs/jobs/novartis-intern-ai-data-science.html",
+    "company": "Novartis",
+    "title": "Intern AI & Data Science",
+    "apply_url": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/Hyderabad-Office/Intern-AI---Data-Science_REQ-10089924-1",
+    "headline": "Intern AI & Data Science @ Novartis",
+    "subheadline": "India | Internship",
+    "key_points": [
+      "Prototype Agentic AI or GenAI-driven solutions with senior team members.",
+      "Requirements Currently pursuing an MTech / MS in Computer Science with Data Science/AI subjects, or a closely related field.",
+      "Skill: Python",
+      "Skill: SQL",
+      "Skill: AWS"
+    ],
+    "cta": "Apply on the official page: https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/Hyderabad-Office/Intern-AI---Data-Science_REQ-10089924-1",
+    "caption": "Hiring alert: Novartis is looking for a Intern AI & Data Science (India).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Prototype Agentic AI or GenAI-driven solutions with senior team members.\n- Requirements Currently pursuing an MTech / MS in Computer Science with Data Science/AI subjects, or a closely related field.\n- Skill: Python\n- Skill: SQL\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "hashtags": [
+      "#fresherjobs",
+      "#freshershiring",
+      "#entryleveljobs",
+      "#hiringindia",
+      "#novartishiring",
+      "#indiajobs"
+    ]
+  },
+  {
+    "page": "/docs/jobs/microsoft-software-engineer-apprenticeship.html",
+    "company": "Microsoft",
+    "title": "Software Engineer Apprenticeship",
+    "apply_url": "https://apply.careers.microsoft.com/careers/job/1970393557022190",
+    "headline": "Software Engineer Apprenticeship @ Microsoft",
+    "subheadline": "India | Internship",
+    "key_points": [
+      "Work with stakeholders to determine user requirements for a feature.",
+      "Understand the business context and end-user requirements for the program.",
+      "Seek feedback and apply best practices to improve technical solutions.",
+      "Skill: Python",
+      "Skill: Java",
+      "Skill: Data Structures"
+    ],
+    "cta": "Apply on the official page: https://apply.careers.microsoft.com/careers/job/1970393557022190",
+    "caption": "Hiring alert: Microsoft is looking for a Software Engineer Apprenticeship (India).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Work with stakeholders to determine user requirements for a feature.\n- Understand the business context and end-user requirements for the program.\n- Seek feedback and apply best practices to improve technical solutions.\n- Skill: Python\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "hashtags": [
+      "#fresherjobs",
+      "#freshershiring",
+      "#entryleveljobs",
+      "#hiringindia",
+      "#microsofthiring",
+      "#indiajobs"
+    ]
+  },
+  {
+    "page": "/docs/jobs/amazon-software-development-engineer-i.html",
+    "company": "Amazon",
+    "title": "Software Development Engineer I",
+    "apply_url": "https://www.amazon.jobs/en/jobs/10580008/software-development-engineer-i",
+    "headline": "Software Development Engineer I @ Amazon",
+    "subheadline": "India | Internship",
+    "key_points": [
+      "Candidates need 1+ years of non-internship software development experience.",
+      "Requirements 1+ years of non-internship professional software development experience.",
+      "Experience: 1+ years.",
+      "Skill: Data Structures",
+      "Skill: Algorithms"
+    ],
+    "cta": "Apply on the official page: https://www.amazon.jobs/en/jobs/10580008/software-development-engineer-i",
+    "caption": "Hiring alert: Amazon is looking for a Software Development Engineer I (India).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Candidates need 1+ years of non-internship software development experience.\n- Requirements 1+ years of non-internship professional software development experience.\n- Experience: 1+ years.\n- Skill: Data Structures\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "hashtags": [
+      "#fresherjobs",
+      "#freshershiring",
+      "#entryleveljobs",
+      "#hiringindia",
+      "#amazonhiring",
+      "#indiajobs"
+    ]
+  },
+  {
+    "page": "/docs/jobs/hewlett-packard-enterprise-hpe-external-intern.html",
+    "company": "Hewlett Packard Enterprise (HPE)",
+    "title": "External Intern",
+    "apply_url": "https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/External-Intern_1215608-1",
+    "headline": "External Intern @ Hewlett Packard Enterprise (HPE)",
+    "subheadline": "India | Internship",
+    "key_points": [
+      "Hewlett Packard Enterprise (HPE) is hiring an External Intern based in Bengaluru, designated as a Remote/Teleworker role.",
+      "The intern will support senior team members on technical projects, troubleshoot technical issues, and help maintain hardware and software systems.",
+      "The role is open to students currently pursuing a Bachelor's degree in Engineering, Computer Science, IT, or a related technical field with basic programming knowledge in Python, Java, or C++.",
+      "Skill: Python",
+      "Skill: Java"
+    ],
+    "cta": "Apply on the official page: https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Bengaluru-Karntaka-India/External-Intern_1215608-1",
+    "caption": "Hiring alert: Hewlett Packard Enterprise (HPE) is looking for a External Intern (India).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Hewlett Packard Enterprise (HPE) is hiring an External Intern based in Bengaluru, designated as a Remote/Teleworker role.\n- The intern will support senior team members on technical projects, troubleshoot technical issues, and help maintain hardware and software systems.\n- The role is open to students currently pursuing a Bachelor's degree in Engineering, Computer Science, IT, or a related technical field with basic programming knowledge in Python, Java, or C++.\n- Skill: Python\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "hashtags": [
+      "#fresherjobs",
+      "#freshershiring",
+      "#entryleveljobs",
+      "#hiringindia",
+      "#hewlettpackardenterprisehpehiring",
+      "#indiajobs"
+    ]
+  },
+  {
+    "page": "/docs/jobs/needl-ai-ai-engineering-intern.html",
+    "company": "Needl.ai",
+    "title": "AI Engineering Intern",
+    "apply_url": "https://needl.ai/careers/ai-engineering-intern",
+    "headline": "AI Engineering Intern @ Needl.ai",
+    "subheadline": "India | Internship",
+    "key_points": [
+      "The role suits recent graduates or candidates with 1-2 years of experience.",
+      "Resumes can also be emailed to careers@needl.ai with the role title in the subject line.",
+      "Shadow Solutions Engineers and FDEs on customer calls and help analyze requirements.",
+      "Skill: Python",
+      "Skill: AWS",
+      "Skill: Azure"
+    ],
+    "cta": "Apply on the official page: https://needl.ai/careers/ai-engineering-intern",
+    "caption": "Hiring alert: Needl.ai is looking for a AI Engineering Intern (India).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- The role suits recent graduates or candidates with 1-2 years of experience.\n- Resumes can also be emailed to careers@needl.ai with the role title in the subject line.\n- Shadow Solutions Engineers and FDEs on customer calls and help analyze requirements.\n- Skill: Python\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "hashtags": [
+      "#fresherjobs",
+      "#freshershiring",
+      "#entryleveljobs",
+      "#hiringindia",
+      "#needlaihiring",
+      "#indiajobs"
+    ]
+  },
+  {
+    "page": "/docs/jobs/trc-companies-intern-qa.html",
+    "company": "TRC Companies",
+    "title": "Intern - QA",
+    "apply_url": "https://careers.trccompanies.com/jobs/27106",
+    "headline": "Intern - QA @ TRC Companies",
+    "subheadline": "India | Internship",
+    "key_points": [
+      "TRC Companies (Member of WSP) is hiring a QA Intern in Hyderabad for its Advanced Energy Technology Group.",
+      "Responsibilities Learn application functionality, business requirements, and user workflows.",
+      "Requirements Recent graduate or currently pursuing a Bachelor's degree in CS, IT, Software Engineering, or a related field.",
       "Skill: Python",
       "Skill: Java",
       "Skill: JavaScript"
     ],
-    "cta": "Apply on the official page: https://jobs.ashbyhq.com/influxdata/72a6fb9f-16e9-4d32-ab07-03a44eccbce1",
-    "caption": "Hiring alert: InfluxData is looking for a Developer Advocate (Remote US).\n\nEligibility: Entry-level (0–2 yrs).\nCompensation: check the official posting for details.\n- The Developer Advocate on the Developer Relations team will be a leader who directly impacts our entire user community.\n- Interview Information: Our interview process begins remotely.\n- Some roles may require an in-person meeting with a team member as part of the final stage.\n- Skill: Python\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "cta": "Apply on the official page: https://careers.trccompanies.com/jobs/27106",
+    "caption": "Hiring alert: TRC Companies is looking for a Intern - QA (India).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- TRC Companies (Member of WSP) is hiring a QA Intern in Hyderabad for its Advanced Energy Technology Group.\n- Responsibilities Learn application functionality, business requirements, and user workflows.\n- Requirements Recent graduate or currently pursuing a Bachelor's degree in CS, IT, Software Engineering, or a related field.\n- Skill: Python\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
     "hashtags": [
       "#fresherjobs",
       "#freshershiring",
       "#entryleveljobs",
       "#hiringindia",
-      "#influxdatahiring",
-      "#remoteusjobs"
+      "#trccompanieshiring",
+      "#indiajobs"
+    ]
+  },
+  {
+    "page": "/docs/jobs/restroai-engineering-intern-full-stack-ai.html",
+    "company": "RestroAI",
+    "title": "Engineering Intern (Full Stack / AI)",
+    "apply_url": "https://www.restro-ai.com/careers/engineering-intern-full-stack-ai",
+    "headline": "Engineering Intern (Full Stack / AI) @ RestroAI",
+    "subheadline": "India | Internship",
+    "key_points": [
+      "The paid internship runs full-time for 3-6 months and is aimed at B.Tech students graduating in 2027 or 2028.",
+      "Strong performers may be offered a full-time engineering role.",
+      "Skill: JavaScript",
+      "Skill: TypeScript",
+      "Skill: React"
+    ],
+    "cta": "Apply on the official page: https://www.restro-ai.com/careers/engineering-intern-full-stack-ai",
+    "caption": "Hiring alert: RestroAI is looking for a Engineering Intern (Full Stack / AI) (India).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- The paid internship runs full-time for 3-6 months and is aimed at B.Tech students graduating in 2027 or 2028.\n- Strong performers may be offered a full-time engineering role.\n- Skill: JavaScript\n- Skill: TypeScript\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "hashtags": [
+      "#fresherjobs",
+      "#freshershiring",
+      "#entryleveljobs",
+      "#hiringindia",
+      "#restroaihiring",
+      "#indiajobs"
+    ]
+  },
+  {
+    "page": "/docs/jobs/rusa-analytics-ai-automation-intern.html",
+    "company": "RUSA Analytics",
+    "title": "AI & Automation Intern",
+    "apply_url": "https://www.rusaanalytics.com/careers/ai-%26-automation-intern",
+    "headline": "AI & Automation Intern @ RUSA Analytics",
+    "subheadline": "India | Internship",
+    "key_points": [
+      "The role suits students or recent graduates with a technical degree and basic Python or automation knowledge.",
+      "Research suitable AI tools for specific business requirements.",
+      "Requirements Pursuing or recently completed a relevant technical degree.",
+      "Skill: Python",
+      "Skill: Git",
+      "Skill: Data Structures"
+    ],
+    "cta": "Apply on the official page: https://www.rusaanalytics.com/careers/ai-%26-automation-intern",
+    "caption": "Hiring alert: RUSA Analytics is looking for a AI & Automation Intern (India).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- The role suits students or recent graduates with a technical degree and basic Python or automation knowledge.\n- Research suitable AI tools for specific business requirements.\n- Requirements Pursuing or recently completed a relevant technical degree.\n- Skill: Python\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "hashtags": [
+      "#fresherjobs",
+      "#freshershiring",
+      "#entryleveljobs",
+      "#hiringindia",
+      "#rusaanalyticshiring",
+      "#indiajobs"
+    ]
+  },
+  {
+    "page": "/docs/jobs/rusa-analytics-data-engineering-intern.html",
+    "company": "RUSA Analytics",
+    "title": "Data Engineering Intern",
+    "apply_url": "https://www.rusaanalytics.com/careers/data-engineering-intern",
+    "headline": "Data Engineering Intern @ RUSA Analytics",
+    "subheadline": "India | Internship",
+    "key_points": [
+      "Requirements Pursuing or recently completed a degree in engineering, computer science, IT, or a related discipline.",
+      "Skill: Python",
+      "Skill: SQL",
+      "Skill: Git"
+    ],
+    "cta": "Apply on the official page: https://www.rusaanalytics.com/careers/data-engineering-intern",
+    "caption": "Hiring alert: RUSA Analytics is looking for a Data Engineering Intern (India).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Requirements Pursuing or recently completed a degree in engineering, computer science, IT, or a related discipline.\n- Skill: Python\n- Skill: SQL\n- Skill: Git\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "hashtags": [
+      "#fresherjobs",
+      "#freshershiring",
+      "#entryleveljobs",
+      "#hiringindia",
+      "#rusaanalyticshiring",
+      "#indiajobs"
+    ]
+  },
+  {
+    "page": "/docs/jobs/trc-companies-intern-technology.html",
+    "company": "TRC Companies",
+    "title": "Intern - Technology",
+    "apply_url": "https://careers.trccompanies.com/jobs/27107",
+    "headline": "Intern - Technology @ TRC Companies",
+    "subheadline": "India | Internship",
+    "key_points": [
+      "TRC Companies (Member of WSP) is hiring a Technology Intern in Hyderabad for its Advanced Energy Technology Group within the Power sector.",
+      "The internship runs 3-6 months, with potential for extension or pre-placement consideration based on performance, and is open to final-year Bachelor's or Master's students in CS, IT, EEE, or related fields.",
+      "Requirements Pursuing a final-year Bachelor's or Master's degree in Computer Science, IT, Electrical & Electronics Engineering, or a related field.",
+      "Skill: Python",
+      "Skill: SQL",
+      "Skill: Data Analysis"
+    ],
+    "cta": "Apply on the official page: https://careers.trccompanies.com/jobs/27107",
+    "caption": "Hiring alert: TRC Companies is looking for a Intern - Technology (India).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- TRC Companies (Member of WSP) is hiring a Technology Intern in Hyderabad for its Advanced Energy Technology Group within the Power sector.\n- The internship runs 3-6 months, with potential for extension or pre-placement consideration based on performance, and is open to final-year Bachelor's or Master's students in CS, IT, EEE, or related fields.\n- Requirements Pursuing a final-year Bachelor's or Master's degree in Computer Science, IT, Electrical & Electronics Engineering, or a related field.\n- Skill: Python\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "hashtags": [
+      "#fresherjobs",
+      "#freshershiring",
+      "#entryleveljobs",
+      "#hiringindia",
+      "#trccompanieshiring",
+      "#indiajobs"
+    ]
+  },
+  {
+    "page": "/docs/jobs/ge-vernova-intern-advanced-research-ai-ml.html",
+    "company": "GE Vernova",
+    "title": "Intern - Advanced Research (AI/ML)",
+    "apply_url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Bengaluru/Intern_R5050740",
+    "headline": "Intern - Advanced Research (AI/ML) @ GE Vernova",
+    "subheadline": "India | Internship",
+    "key_points": [
+      "GE Vernova's Advanced Research team is hiring an AI/ML Research Intern in Bengaluru.",
+      "Requirements Currently enrolled in a Master's or Ph.D. program in Computer Science, Electrical/Electronics Engineering, Applied Mathematics, Data Science, or a related field.",
+      "Skill: Python",
+      "Skill: Machine Learning",
+      "Skill: Algorithms"
+    ],
+    "cta": "Apply on the official page: https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Bengaluru/Intern_R5050740",
+    "caption": "Hiring alert: GE Vernova is looking for a Intern - Advanced Research (AI/ML) (India).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- GE Vernova's Advanced Research team is hiring an AI/ML Research Intern in Bengaluru.\n- Requirements Currently enrolled in a Master's or Ph.D. program in Computer Science, Electrical/Electronics Engineering, Applied Mathematics, Data Science, or a related field.\n- Skill: Python\n- Skill: Machine Learning\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "hashtags": [
+      "#fresherjobs",
+      "#freshershiring",
+      "#entryleveljobs",
+      "#hiringindia",
+      "#gevernovahiring",
+      "#indiajobs"
+    ]
+  },
+  {
+    "page": "/docs/jobs/american-express-software-engineer-i.html",
+    "company": "American Express",
+    "title": "Software Engineer I",
+    "apply_url": "https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26014930?utm_medium=jobboard",
+    "headline": "Software Engineer I @ American Express",
+    "subheadline": "India | Entry-level (0–2 yrs)",
+    "key_points": [
+      "Ability to collaborate with cross-functional teams and adapt to evolving technical requirements.",
+      "Experience: 1-2 years.",
+      "Skill: Python",
+      "Skill: JavaScript",
+      "Skill: TypeScript"
+    ],
+    "cta": "Apply on the official page: https://egug.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26014930?utm_medium=jobboard",
+    "caption": "Hiring alert: American Express is looking for a Software Engineer I (India).\n\nEligibility: Entry-level (0–2 yrs).\nCompensation: check the official posting for details.\n- Ability to collaborate with cross-functional teams and adapt to evolving technical requirements.\n- Experience: 1-2 years.\n- Skill: Python\n- Skill: JavaScript\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "hashtags": [
+      "#fresherjobs",
+      "#freshershiring",
+      "#entryleveljobs",
+      "#hiringindia",
+      "#americanexpresshiring",
+      "#indiajobs"
+    ]
+  },
+  {
+    "page": "/docs/jobs/paypal-software-engineer-back-end.html",
+    "company": "PayPal",
+    "title": "Software Engineer, Back End",
+    "apply_url": "https://paypal.eightfold.ai/careers/job/274922911697?hl=en-US",
+    "headline": "Software Engineer, Back End @ PayPal",
+    "subheadline": "India | Internship",
+    "key_points": [
+      "Responsibilities Implement assigned tasks within the Software Development Lifecycle (SDLC) with guidance from experienced team members.",
+      "Requirements At least 1 year of relevant experience and a bachelor's degree, or an equivalent combination of education and experience.",
+      "Ability to collaborate with team members and project leads."
+    ],
+    "cta": "Apply on the official page: https://paypal.eightfold.ai/careers/job/274922911697?hl=en-US",
+    "caption": "Hiring alert: PayPal is looking for a Software Engineer, Back End (India).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Responsibilities Implement assigned tasks within the Software Development Lifecycle (SDLC) with guidance from experienced team members.\n- Requirements At least 1 year of relevant experience and a bachelor's degree, or an equivalent combination of education and experience.\n- Ability to collaborate with team members and project leads.\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "hashtags": [
+      "#fresherjobs",
+      "#freshershiring",
+      "#entryleveljobs",
+      "#hiringindia",
+      "#paypalhiring",
+      "#indiajobs"
+    ]
+  },
+  {
+    "page": "/docs/jobs/red-balloon-intern-ai-systems.html",
+    "company": "Red Balloon",
+    "title": "Intern – AI Systems",
+    "apply_url": "https://www.red-balloon.space/jobs/intern-ai-systems",
+    "headline": "Intern – AI Systems @ Red Balloon",
+    "subheadline": "India | Internship",
+    "key_points": [
+      "The role title and application page are provided, but detailed responsibilities, eligibility criteria, graduation batches, work arrangement, and compensation have not been verified from the supplied information.",
+      "Skill: Python"
+    ],
+    "cta": "Apply on the official page: https://www.red-balloon.space/jobs/intern-ai-systems",
+    "caption": "Hiring alert: Red Balloon is looking for a Intern – AI Systems (India).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- The role title and application page are provided, but detailed responsibilities, eligibility criteria, graduation batches, work arrangement, and compensation have not been verified from the supplied information.\n- Skill: Python\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "hashtags": [
+      "#fresherjobs",
+      "#freshershiring",
+      "#entryleveljobs",
+      "#hiringindia",
+      "#redballoonhiring",
+      "#indiajobs"
     ]
   }
 ]

@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-17T06:45:40.415Z",
-  "totalJobs": 339,
-  "publishedCount": 339,
-  "quarantinedCount": 479,
-  "reviewCount": 479,
-  "privateCount": 339,
+  "updatedAt": "2026-10-17T16:56:09.527Z",
+  "totalJobs": 348,
+  "publishedCount": 348,
+  "quarantinedCount": 455,
+  "reviewCount": 455,
+  "privateCount": 348,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -1704,7 +1704,7 @@
       "source": "govt-cdac",
       "name": "C-DAC",
       "kind": "govt",
-      "fetched": 17
+      "fetched": 0
     },
     {
       "source": "govt-hpcl",
@@ -1760,7 +1760,7 @@
       "source": "hiredoor",
       "name": "HireDoor",
       "kind": "hiredoor",
-      "fetched": 31
+      "fetched": 32
     },
     {
       "source": "keka-10decoders",
@@ -1982,7 +1982,7 @@
       "source": "keka-niyo",
       "name": "Niyo",
       "kind": "keka",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "keka-occamsadvisory",
