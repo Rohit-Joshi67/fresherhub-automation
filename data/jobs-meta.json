@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-18T07:06:20.924Z",
+  "updatedAt": "2026-10-18T17:11:34.738Z",
   "totalJobs": 356,
   "publishedCount": 356,
-  "quarantinedCount": 462,
-  "reviewCount": 462,
+  "quarantinedCount": 463,
+  "reviewCount": 463,
   "privateCount": 356,
   "govtCount": 0,
   "sourceCounts": [
@@ -1451,7 +1451,7 @@
       "source": "gh-reddit",
       "name": "Reddit",
       "kind": "greenhouse",
-      "fetched": 9
+      "fetched": 8
     },
     {
       "source": "gh-remote",
@@ -2258,7 +2258,7 @@
       "source": "lever-bluecatnetworks",
       "name": "BlueCat Networks",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 2
     },
     {
       "source": "lever-bluelightconsulting",
