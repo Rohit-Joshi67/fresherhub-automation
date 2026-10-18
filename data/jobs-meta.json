@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-17T16:56:09.527Z",
-  "totalJobs": 348,
-  "publishedCount": 348,
-  "quarantinedCount": 455,
-  "reviewCount": 455,
-  "privateCount": 348,
+  "updatedAt": "2026-10-18T07:06:20.924Z",
+  "totalJobs": 356,
+  "publishedCount": 356,
+  "quarantinedCount": 462,
+  "reviewCount": 462,
+  "privateCount": 356,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -1625,7 +1625,7 @@
       "source": "gh-twilio",
       "name": "Twilio",
       "kind": "greenhouse",
-      "fetched": 25
+      "fetched": 26
     },
     {
       "source": "gh-twitch",
@@ -1704,7 +1704,7 @@
       "source": "govt-cdac",
       "name": "C-DAC",
       "kind": "govt",
-      "fetched": 0
+      "fetched": 17
     },
     {
       "source": "govt-hpcl",
@@ -1760,7 +1760,7 @@
       "source": "hiredoor",
       "name": "HireDoor",
       "kind": "hiredoor",
-      "fetched": 32
+      "fetched": 31
     },
     {
       "source": "keka-10decoders",
@@ -2258,7 +2258,7 @@
       "source": "lever-bluecatnetworks",
       "name": "BlueCat Networks",
       "kind": "lever",
-      "fetched": 2
+      "fetched": 0
     },
     {
       "source": "lever-bluelightconsulting",
