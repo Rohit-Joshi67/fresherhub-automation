@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-18T17:11:34.738Z",
-  "totalJobs": 356,
-  "publishedCount": 356,
-  "quarantinedCount": 463,
-  "reviewCount": 463,
-  "privateCount": 356,
+  "updatedAt": "2026-10-19T07:30:30.996Z",
+  "totalJobs": 354,
+  "publishedCount": 354,
+  "quarantinedCount": 464,
+  "reviewCount": 464,
+  "privateCount": 354,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -1133,7 +1133,7 @@
       "source": "gh-fastly",
       "name": "Fastly",
       "kind": "greenhouse",
-      "fetched": 4
+      "fetched": 3
     },
     {
       "source": "gh-figma",
@@ -1451,7 +1451,7 @@
       "source": "gh-reddit",
       "name": "Reddit",
       "kind": "greenhouse",
-      "fetched": 8
+      "fetched": 9
     },
     {
       "source": "gh-remote",
@@ -1760,7 +1760,7 @@
       "source": "hiredoor",
       "name": "HireDoor",
       "kind": "hiredoor",
-      "fetched": 31
+      "fetched": 30
     },
     {
       "source": "keka-10decoders",
@@ -2060,7 +2060,7 @@
       "source": "keka-signzy",
       "name": "Signzy",
       "kind": "keka",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "keka-sisinty",
@@ -2534,7 +2534,7 @@
       "source": "lever-paytm",
       "name": "Paytm",
       "kind": "lever",
-      "fetched": 22
+      "fetched": 23
     },
     {
       "source": "lever-pigment",
