@@ -1,25 +1,78 @@
 [
   {
-    "page": "/docs/jobs/paytm-talent-acquisition-intern.html",
-    "company": "Paytm",
-    "title": "Talent Acquisition Intern",
-    "apply_url": "https://jobs.lever.co/paytm/6d7551f7-34c3-46a2-a4e4-18b29f15338c",
-    "headline": "Talent Acquisition Intern @ Paytm",
-    "subheadline": "Noida, Uttar Pradesh | Internship",
+    "page": "/docs/jobs/razorpay-associate-business-analyst.html",
+    "company": "Razorpay",
+    "title": "Associate Business Analyst",
+    "apply_url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4736955005",
+    "headline": "Associate Business Analyst @ Razorpay",
+    "subheadline": "Bengaluru | Internship",
     "key_points": [
-      "The role will involve working on real-time tech hiring requirements, coordinating interviews, candidate communication, maintaining recruitment trackers, and supporting hiring drives.",
-      "Experience working on real-time technology hiring requirements.",
-      "Skill: Excel"
+      "Razorpay powers millions of businesses with a smarter, scalable stack that goes beyond transactions to help them truly build and grow.",
+      "From building AI-native agentic payments, to AI-assisted fraud detection and real-time risk intelligence to automated reconciliation, smart payouts, and predictive financial insights, we are embedding intelligence across our stack to make money movement faster, safer, and more efficient.",
+      "People > Pedigree - we hire for attitude, hustle, and hunger more than degrees.",
+      "Skill: SQL",
+      "Skill: Data Analysis",
+      "Skill: Tableau"
     ],
-    "cta": "Apply on the official page: https://jobs.lever.co/paytm/6d7551f7-34c3-46a2-a4e4-18b29f15338c",
-    "caption": "Hiring alert: Paytm is looking for a Talent Acquisition Intern (Noida, Uttar Pradesh).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- The role will involve working on real-time tech hiring requirements, coordinating interviews, candidate communication, maintaining recruitment trackers, and supporting hiring drives.\n- Experience working on real-time technology hiring requirements.\n- Skill: Excel\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "cta": "Apply on the official page: https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4736955005",
+    "caption": "Hiring alert: Razorpay is looking for a Associate Business Analyst (Bengaluru).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Razorpay powers millions of businesses with a smarter, scalable stack that goes beyond transactions to help them truly build and grow.\n- From building AI-native agentic payments, to AI-assisted fraud detection and real-time risk intelligence to automated reconciliation, smart payouts, and predictive financial insights, we are embedding intelligence across our stack to make money movement faster, safer, and more efficient.\n- People > Pedigree - we hire for attitude, hustle, and hunger more than degrees.\n- Skill: SQL\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
     "hashtags": [
       "#fresherjobs",
       "#freshershiring",
       "#entryleveljobs",
       "#hiringindia",
-      "#paytmhiring",
-      "#noidauttarpradeshjobs"
+      "#razorpayhiring",
+      "#bengalurujobs"
+    ]
+  },
+  {
+    "page": "/docs/jobs/figma-customer-support-specialist-bengaluru-india.html",
+    "company": "Figma",
+    "title": "Customer Support Specialist (Bengaluru, India)",
+    "apply_url": "https://boards.greenhouse.io/figma/jobs/6223879004?gh_jid=6223879004",
+    "headline": "Customer Support Specialist (Bengaluru, India) @ Figma",
+    "subheadline": "Bengaluru, India | Entry-level (0–2 yrs)",
+    "key_points": [
+      "You’ll be among the first to see how customers use what we ship, you’ll learn directly from our Product and Engineering teams, and what you hear from customers will help shape what we build next.",
+      "This is a full-time role based in our Bengaluru office.",
+      "We believe in hiring smart, curious people who are excited to learn and develop their skills.",
+      "Skill: Go",
+      "Skill: Figma",
+      "Skill: Customer Support"
+    ],
+    "cta": "Apply on the official page: https://boards.greenhouse.io/figma/jobs/6223879004?gh_jid=6223879004",
+    "caption": "Hiring alert: Figma is looking for a Customer Support Specialist (Bengaluru, India) (Bengaluru, India).\n\nEligibility: Entry-level (0–2 yrs).\nCompensation: check the official posting for details.\n- You’ll be among the first to see how customers use what we ship, you’ll learn directly from our Product and Engineering teams, and what you hear from customers will help shape what we build next.\n- This is a full-time role based in our Bengaluru office.\n- We believe in hiring smart, curious people who are excited to learn and develop their skills.\n- Skill: Go\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "hashtags": [
+      "#fresherjobs",
+      "#freshershiring",
+      "#entryleveljobs",
+      "#hiringindia",
+      "#figmahiring",
+      "#bengaluruindiajobs"
+    ]
+  },
+  {
+    "page": "/docs/jobs/fynd-social-media-intern.html",
+    "company": "Fynd",
+    "title": "Social Media Intern",
+    "apply_url": "https://fynd.keka.com/careers/jobdetails/145089",
+    "headline": "Social Media Intern @ Fynd",
+    "subheadline": "Mumbai | Internship",
+    "key_points": [
+      "We started at the intersection of technology and retail because that is where technology was the least available.",
+      "Over the years, we became one of India’s largest retail technology platforms.",
+      "As we expand into new product lines and global markets, we’re seeking talented individuals eager to grow with us.",
+      "Skill: Digital Marketing"
+    ],
+    "cta": "Apply on the official page: https://fynd.keka.com/careers/jobdetails/145089",
+    "caption": "Hiring alert: Fynd is looking for a Social Media Intern (Mumbai).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- We started at the intersection of technology and retail because that is where technology was the least available.\n- Over the years, we became one of India’s largest retail technology platforms.\n- As we expand into new product lines and global markets, we’re seeking talented individuals eager to grow with us.\n- Skill: Digital Marketing\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "hashtags": [
+      "#fresherjobs",
+      "#freshershiring",
+      "#entryleveljobs",
+      "#hiringindia",
+      "#fyndhiring",
+      "#mumbaijobs"
     ]
   }
 ]
