@@ -1,272 +1,182 @@
 [
   {
-    "page": "/docs/jobs/optexity-pear-vc-founding-software-engineer.html",
-    "company": "Optexity (Pear VC)",
-    "title": "Founding Software Engineer",
-    "apply_url": "https://jobs.ashbyhq.com/Pear-VC/346da483-cdcd-4381-85ef-77664b40de9b/application",
-    "headline": "Founding Software Engineer @ Optexity (Pear VC)",
-    "subheadline": "India | Entry-level (0–2 yrs) | ₹20–40 LPA",
+    "page": "/docs/jobs/coinbase-software-engineer-crypto-data-foundations.html",
+    "company": "Coinbase",
+    "title": "Software Engineer - Crypto Data Foundations",
+    "apply_url": "https://www.coinbase.com/careers/positions/8304038?gh_jid=8304038",
+    "headline": "Software Engineer - Crypto Data Foundations @ Coinbase",
+    "subheadline": "Remote - USA | Entry-level (0–2 yrs)",
     "key_points": [
-      "Requirements At least 2 years of experience deploying production systems.",
-      "Bachelor's degree in Computer Science or a related field.",
-      "Skill: Python"
+      "This isn't a place for complacency, it’s a place to be pushed past your perceived limits.",
+      "If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here.",
+      "Required Skills and Experience: 2+ years of software engineering experience building and operating distributed or data systems in production.",
+      "Skill: Python",
+      "Skill: Go",
+      "Skill: MongoDB"
     ],
-    "cta": "Apply on the official page: https://jobs.ashbyhq.com/Pear-VC/346da483-cdcd-4381-85ef-77664b40de9b/application",
-    "caption": "Hiring alert: Optexity (Pear VC) is looking for a Founding Software Engineer (India).\n\nEligibility: Entry-level (0–2 yrs).\nCompensation mentioned: ₹20–40 LPA.\n- Requirements At least 2 years of experience deploying production systems.\n- Bachelor's degree in Computer Science or a related field.\n- Skill: Python\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "cta": "Apply on the official page: https://www.coinbase.com/careers/positions/8304038?gh_jid=8304038",
+    "caption": "Hiring alert: Coinbase is looking for a Software Engineer - Crypto Data Foundations (Remote - USA).\n\nEligibility: Entry-level (0–2 yrs).\nCompensation: check the official posting for details.\n- This isn't a place for complacency, it’s a place to be pushed past your perceived limits.\n- If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here.\n- Required Skills and Experience: 2+ years of software engineering experience building and operating distributed or data systems in production.\n- Skill: Python\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
     "hashtags": [
       "#fresherjobs",
       "#freshershiring",
       "#entryleveljobs",
       "#hiringindia",
-      "#optexitypearvchiring",
-      "#indiajobs"
+      "#coinbasehiring",
+      "#remoteusajobs"
     ]
   },
   {
-    "page": "/docs/jobs/aiprise-software-engineer-i.html",
-    "company": "AiPrise",
-    "title": "Software Engineer I",
-    "apply_url": "https://jobs.ashbyhq.com/aiprise/3763c791-a387-4078-9ca4-00cbfbf9b1a6/application",
-    "headline": "Software Engineer I @ AiPrise",
+    "page": "/docs/jobs/origin-perception-engineer.html",
+    "company": "Origin",
+    "title": "Perception Engineer",
+    "apply_url": "https://apply.workable.com/j/58149E6068",
+    "headline": "Perception Engineer @ Origin",
     "subheadline": "India | Entry-level (0–2 yrs)",
     "key_points": [
-      "You will own features from requirements gathering through deployment and monitoring while collaborating with product managers, compliance experts, and customer success teams.",
-      "The role is based on-site in Bengaluru.",
-      "Own features end-to-end, from requirements gathering and implementation to deployment and monitoring.",
+      "Origin (formerly 10xConstruction) is hiring a Perception Engineer in Bengaluru to give its autonomous construction robots awareness of the job site.",
+      "The posting asks for coursework or projects in computer vision or robotics perception rather than a set number of years, along with Python, C++ and ROS 2 skills.",
+      "It is a full-time, on-site role in Bengaluru; salary is not disclosed.",
       "Skill: Python",
-      "Skill: Java",
-      "Skill: Node.js"
+      "Skill: C++",
+      "Skill: Git"
     ],
-    "cta": "Apply on the official page: https://jobs.ashbyhq.com/aiprise/3763c791-a387-4078-9ca4-00cbfbf9b1a6/application",
-    "caption": "Hiring alert: AiPrise is looking for a Software Engineer I (India).\n\nEligibility: Entry-level (0–2 yrs).\nCompensation: check the official posting for details.\n- You will own features from requirements gathering through deployment and monitoring while collaborating with product managers, compliance experts, and customer success teams.\n- The role is based on-site in Bengaluru.\n- Own features end-to-end, from requirements gathering and implementation to deployment and monitoring.\n- Skill: Python\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "cta": "Apply on the official page: https://apply.workable.com/j/58149E6068",
+    "caption": "Hiring alert: Origin is looking for a Perception Engineer (India).\n\nEligibility: Entry-level (0–2 yrs).\nCompensation: check the official posting for details.\n- Origin (formerly 10xConstruction) is hiring a Perception Engineer in Bengaluru to give its autonomous construction robots awareness of the job site.\n- The posting asks for coursework or projects in computer vision or robotics perception rather than a set number of years, along with Python, C++ and ROS 2 skills.\n- It is a full-time, on-site role in Bengaluru; salary is not disclosed.\n- Skill: Python\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
     "hashtags": [
       "#fresherjobs",
       "#freshershiring",
       "#entryleveljobs",
       "#hiringindia",
-      "#aiprisehiring",
+      "#originhiring",
       "#indiajobs"
     ]
   },
   {
-    "page": "/docs/jobs/avoca-software-engineer-product.html",
-    "company": "Avoca",
-    "title": "Software Engineer (Product)",
-    "apply_url": "https://jobs.ashbyhq.com/avoca/ec05c135-ab26-437a-8fe9-f7a5c4da08e5/application",
-    "headline": "Software Engineer (Product) @ Avoca",
-    "subheadline": "India | Entry-level (0–2 yrs) | ₹20–40 LPA",
-    "key_points": [
-      "Requirements At least 2 years of software engineering experience, ideally in full-stack development.",
-      "At least 1 year of experience in a fast-paced startup or growth-stage environment.",
-      "Comfort working with ambiguity and changing requirements.",
-      "Skill: Python",
-      "Skill: JavaScript",
-      "Skill: TypeScript"
-    ],
-    "cta": "Apply on the official page: https://jobs.ashbyhq.com/avoca/ec05c135-ab26-437a-8fe9-f7a5c4da08e5/application",
-    "caption": "Hiring alert: Avoca is looking for a Software Engineer (Product) (India).\n\nEligibility: Entry-level (0–2 yrs).\nCompensation mentioned: ₹20–40 LPA.\n- Requirements At least 2 years of software engineering experience, ideally in full-stack development.\n- At least 1 year of experience in a fast-paced startup or growth-stage environment.\n- Comfort working with ambiguity and changing requirements.\n- Skill: Python\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
-    "hashtags": [
-      "#fresherjobs",
-      "#freshershiring",
-      "#entryleveljobs",
-      "#hiringindia",
-      "#avocahiring",
-      "#indiajobs"
-    ]
-  },
-  {
-    "page": "/docs/jobs/shift-cloud-systems-administrator.html",
-    "company": "Shift",
-    "title": "Cloud Systems Administrator",
-    "apply_url": "https://jobs.ashbyhq.com/shift/28389b49-39ae-499c-af79-404188392172/application",
-    "headline": "Cloud Systems Administrator @ Shift",
+    "page": "/docs/jobs/origin-perception-engineer-apprentice.html",
+    "company": "Origin",
+    "title": "Perception Engineer - Apprentice",
+    "apply_url": "https://apply.workable.com/j/788B3ACAAB",
+    "headline": "Perception Engineer - Apprentice @ Origin",
     "subheadline": "India | Internship",
     "key_points": [
-      "Shift, an Australian business-finance company that has provided more than $6 billion in funding to over 30,000 SMEs, is hiring a Cloud Systems Administrator for its Bengaluru team.",
-      "A Computer Science degree or equivalent is the minimum requirement, and hands-on experience with Microsoft Entra ID, Intune and Office 365 is expected.",
-      "This is a full-time, on-site role in Bengaluru; salary is not disclosed.",
-      "Skill: Azure",
-      "Skill: Networking"
-    ],
-    "cta": "Apply on the official page: https://jobs.ashbyhq.com/shift/28389b49-39ae-499c-af79-404188392172/application",
-    "caption": "Hiring alert: Shift is looking for a Cloud Systems Administrator (India).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Shift, an Australian business-finance company that has provided more than $6 billion in funding to over 30,000 SMEs, is hiring a Cloud Systems Administrator for its Bengaluru team.\n- A Computer Science degree or equivalent is the minimum requirement, and hands-on experience with Microsoft Entra ID, Intune and Office 365 is expected.\n- This is a full-time, on-site role in Bengaluru; salary is not disclosed.\n- Skill: Azure\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
-    "hashtags": [
-      "#fresherjobs",
-      "#freshershiring",
-      "#entryleveljobs",
-      "#hiringindia",
-      "#shifthiring",
-      "#indiajobs"
-    ]
-  },
-  {
-    "page": "/docs/jobs/novartis-intern-agentic-orchestration-integration-engineerin.html",
-    "company": "Novartis",
-    "title": "Intern - Agentic Orchestration Integration Engineering",
-    "apply_url": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/Hyderabad-Office/Intern-DDIT-APD-D-A-Agentic-Orchestration-Integration-Engineering_REQ-10090206-1",
-    "headline": "Intern - Agentic Orchestration Integration Engineering @ Novartis",
-    "subheadline": "India | Internship",
-    "key_points": [
-      "The internship is open to students pursuing a B.E./B.Tech in Computer Science, IT, AI, Electronics, Data Science or a related discipline with a foundation in Python, REST APIs or cloud.",
-      "Requirements Pursuing a B.E./B.Tech in Computer Science, IT, AI, Electronics, Data Science or a related discipline.",
+      "Origin (formerly 10xConstruction) is hiring a Perception Engineering Apprentice in Bengaluru to help its autonomous drywall-finishing robots understand construction sites.",
+      "Candidates should have coursework or projects in computer vision or robotics perception and be comfortable with Python, C++ and ROS 2.",
+      "It is an on-site role in Bengaluru; the stipend is not disclosed.",
       "Skill: Python",
-      "Skill: Networking"
+      "Skill: C++",
+      "Skill: Git"
     ],
-    "cta": "Apply on the official page: https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/Hyderabad-Office/Intern-DDIT-APD-D-A-Agentic-Orchestration-Integration-Engineering_REQ-10090206-1",
-    "caption": "Hiring alert: Novartis is looking for a Intern - Agentic Orchestration Integration Engineering (India).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- The internship is open to students pursuing a B.E./B.Tech in Computer Science, IT, AI, Electronics, Data Science or a related discipline with a foundation in Python, REST APIs or cloud.\n- Requirements Pursuing a B.E./B.Tech in Computer Science, IT, AI, Electronics, Data Science or a related discipline.\n- Skill: Python\n- Skill: Networking\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "cta": "Apply on the official page: https://apply.workable.com/j/788B3ACAAB",
+    "caption": "Hiring alert: Origin is looking for a Perception Engineer - Apprentice (India).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Origin (formerly 10xConstruction) is hiring a Perception Engineering Apprentice in Bengaluru to help its autonomous drywall-finishing robots understand construction sites.\n- Candidates should have coursework or projects in computer vision or robotics perception and be comfortable with Python, C++ and ROS 2.\n- It is an on-site role in Bengaluru; the stipend is not disclosed.\n- Skill: Python\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
     "hashtags": [
       "#fresherjobs",
       "#freshershiring",
       "#entryleveljobs",
       "#hiringindia",
-      "#novartishiring",
+      "#originhiring",
       "#indiajobs"
     ]
   },
   {
-    "page": "/docs/jobs/novartis-intern-platform-automation-engineering-data-analyti.html",
-    "company": "Novartis",
-    "title": "Intern - Platform Automation Engineering (Data & Analytics)",
-    "apply_url": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/Hyderabad-Office/Intern-DDIT-APD-D-A-Platform-Automation-Engineering_REQ-10090203",
-    "headline": "Intern - Platform Automation Engineering (Data & Analytics) @ Novartis",
+    "page": "/docs/jobs/origin-ai-research-apprentice.html",
+    "company": "Origin",
+    "title": "AI Research Apprentice",
+    "apply_url": "https://apply.workable.com/j/0AAB2A2D33",
+    "headline": "AI Research Apprentice @ Origin",
     "subheadline": "India | Internship",
     "key_points": [
-      "The internship is open to students currently pursuing a B.E./B.Tech in Computer Science, IT, AI, Data Science, Electronics or a related field with basic Python or Java skills.",
-      "Requirements Currently pursuing a B.E./B.Tech in Computer Science, IT, AI, Data Science, Electronics or a related field.",
+      "Origin (formerly 10xConstruction), which builds autonomous robots for US construction sites, is hiring an AI Research Apprentice in Bengaluru.",
+      "You will prototype diffusion-based vision models, vision-language-action models and automated data-annotation pipelines, and benchmark models for deployment on Jetson-class hardware alongside the perception and robotics teams.",
+      "It is an on-site role in Bengaluru; the stipend is not disclosed.",
       "Skill: Python",
-      "Skill: Java"
+      "Skill: Git"
     ],
-    "cta": "Apply on the official page: https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/Hyderabad-Office/Intern-DDIT-APD-D-A-Platform-Automation-Engineering_REQ-10090203",
-    "caption": "Hiring alert: Novartis is looking for a Intern - Platform Automation Engineering (Data & Analytics) (India).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- The internship is open to students currently pursuing a B.E./B.Tech in Computer Science, IT, AI, Data Science, Electronics or a related field with basic Python or Java skills.\n- Requirements Currently pursuing a B.E./B.Tech in Computer Science, IT, AI, Data Science, Electronics or a related field.\n- Skill: Python\n- Skill: Java\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "cta": "Apply on the official page: https://apply.workable.com/j/0AAB2A2D33",
+    "caption": "Hiring alert: Origin is looking for a AI Research Apprentice (India).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Origin (formerly 10xConstruction), which builds autonomous robots for US construction sites, is hiring an AI Research Apprentice in Bengaluru.\n- You will prototype diffusion-based vision models, vision-language-action models and automated data-annotation pipelines, and benchmark models for deployment on Jetson-class hardware alongside the perception and robotics teams.\n- It is an on-site role in Bengaluru; the stipend is not disclosed.\n- Skill: Python\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
     "hashtags": [
       "#fresherjobs",
       "#freshershiring",
       "#entryleveljobs",
       "#hiringindia",
-      "#novartishiring",
+      "#originhiring",
       "#indiajobs"
     ]
   },
   {
-    "page": "/docs/jobs/microsoft-software-engineer-ic2.html",
-    "company": "Microsoft",
-    "title": "Software Engineer IC2",
-    "apply_url": "https://apply.careers.microsoft.com/careers/job/1970393557016585?domain=microsoft.com",
-    "headline": "Software Engineer IC2 @ Microsoft",
-    "subheadline": "India | Internship",
+    "page": "/docs/jobs/konecranes-trainee-ai-plm-development.html",
+    "company": "Konecranes",
+    "title": "Trainee, AI & PLM Development",
+    "apply_url": "https://jobs.smartrecruiters.com/konecranes/744000156291609",
+    "headline": "Trainee, AI & PLM Development @ Konecranes",
+    "subheadline": "India | Students",
     "key_points": [
-      "The role needs a bachelor's in Computer Science or a related field and at least one year of software engineering experience (job ID 200058692).",
-      "Requirements Bachelor's degree in Computer Science or a related technical field, with coding experience in C, C++, C#, Java, JavaScript or Python, or equivalent experience.",
-      "At least one year of software engineering experience.",
+      "You will work with experienced engineers to build and test generative AI solutions: prompts, AI agents and copilots, RAG pipelines with embeddings and vector databases, and integrations with enterprise systems.",
+      "Graduates and final-year students in Computer Science, Data Science, AI or Software Engineering with solid Python skills and some experience calling LLM APIs can apply.",
+      "Support data collection, cleaning, labelling and analysis for AI models and assessments.",
       "Skill: Python",
-      "Skill: Java",
-      "Skill: JavaScript"
-    ],
-    "cta": "Apply on the official page: https://apply.careers.microsoft.com/careers/job/1970393557016585?domain=microsoft.com",
-    "caption": "Hiring alert: Microsoft is looking for a Software Engineer IC2 (India).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- The role needs a bachelor's in Computer Science or a related field and at least one year of software engineering experience (job ID 200058692).\n- Requirements Bachelor's degree in Computer Science or a related technical field, with coding experience in C, C++, C#, Java, JavaScript or Python, or equivalent experience.\n- At least one year of software engineering experience.\n- Skill: Python\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
-    "hashtags": [
-      "#fresherjobs",
-      "#freshershiring",
-      "#entryleveljobs",
-      "#hiringindia",
-      "#microsofthiring",
-      "#indiajobs"
-    ]
-  },
-  {
-    "page": "/docs/jobs/microsoft-research-sciences-intern.html",
-    "company": "Microsoft",
-    "title": "Research Sciences Intern",
-    "apply_url": "https://apply.careers.microsoft.com/careers/job/1970393556641091?domain=microsoft.com",
-    "headline": "Research Sciences Intern @ Microsoft",
-    "subheadline": "India | Internship",
-    "key_points": [
-      "Work with team members to take systems from prototype to production.",
-      "Requirements Currently pursuing a master's or doctorate degree in a relevant field.",
-      "Skill: SQL",
-      "Skill: Azure",
+      "Skill: Git",
       "Skill: Machine Learning"
     ],
-    "cta": "Apply on the official page: https://apply.careers.microsoft.com/careers/job/1970393556641091?domain=microsoft.com",
-    "caption": "Hiring alert: Microsoft is looking for a Research Sciences Intern (India).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Work with team members to take systems from prototype to production.\n- Requirements Currently pursuing a master's or doctorate degree in a relevant field.\n- Skill: SQL\n- Skill: Azure\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "cta": "Apply on the official page: https://jobs.smartrecruiters.com/konecranes/744000156291609",
+    "caption": "Hiring alert: Konecranes is looking for a Trainee, AI & PLM Development (India).\n\nEligibility: Students.\nCompensation: check the official posting for details.\n- You will work with experienced engineers to build and test generative AI solutions: prompts, AI agents and copilots, RAG pipelines with embeddings and vector databases, and integrations with enterprise systems.\n- Graduates and final-year students in Computer Science, Data Science, AI or Software Engineering with solid Python skills and some experience calling LLM APIs can apply.\n- Support data collection, cleaning, labelling and analysis for AI models and assessments.\n- Skill: Python\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
     "hashtags": [
       "#fresherjobs",
       "#freshershiring",
       "#entryleveljobs",
       "#hiringindia",
-      "#microsofthiring",
+      "#konecraneshiring",
       "#indiajobs"
     ]
   },
   {
-    "page": "/docs/jobs/microsoft-data-science-intern.html",
-    "company": "Microsoft",
-    "title": "Data Science Intern",
-    "apply_url": "https://apply.careers.microsoft.com/careers/job/1970393556917520?domain=microsoft.com",
-    "headline": "Data Science Intern @ Microsoft",
-    "subheadline": "India | Internship",
-    "key_points": [
-      "Requirements Currently pursuing a bachelor's or master's degree in Data Science, Mathematics, Statistics, Econometrics, Economics, Operations Research, Computer Science or a related field.",
-      "Skill: Python",
-      "Skill: SQL",
-      "Skill: Machine Learning"
-    ],
-    "cta": "Apply on the official page: https://apply.careers.microsoft.com/careers/job/1970393556917520?domain=microsoft.com",
-    "caption": "Hiring alert: Microsoft is looking for a Data Science Intern (India).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Requirements Currently pursuing a bachelor's or master's degree in Data Science, Mathematics, Statistics, Econometrics, Economics, Operations Research, Computer Science or a related field.\n- Skill: Python\n- Skill: SQL\n- Skill: Machine Learning\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
-    "hashtags": [
-      "#fresherjobs",
-      "#freshershiring",
-      "#entryleveljobs",
-      "#hiringindia",
-      "#microsofthiring",
-      "#indiajobs"
-    ]
-  },
-  {
-    "page": "/docs/jobs/microsoft-product-design-intern.html",
-    "company": "Microsoft",
-    "title": "Product Design Intern",
-    "apply_url": "https://apply.careers.microsoft.com/careers/job/1970393556992502?domain=microsoft.com",
-    "headline": "Product Design Intern @ Microsoft",
-    "subheadline": "India | Internship",
-    "key_points": [
-      "Clearly communicate your work and build a compelling narrative for a product or feature with a senior team member.",
-      "Requirements Currently pursuing a bachelor's degree in Industrial Design, Product Design, Human Computer Interaction, User Experience, Interaction Design or a related field."
-    ],
-    "cta": "Apply on the official page: https://apply.careers.microsoft.com/careers/job/1970393556992502?domain=microsoft.com",
-    "caption": "Hiring alert: Microsoft is looking for a Product Design Intern (India).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Clearly communicate your work and build a compelling narrative for a product or feature with a senior team member.\n- Requirements Currently pursuing a bachelor's degree in Industrial Design, Product Design, Human Computer Interaction, User Experience, Interaction Design or a related field.\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
-    "hashtags": [
-      "#fresherjobs",
-      "#freshershiring",
-      "#entryleveljobs",
-      "#hiringindia",
-      "#microsofthiring",
-      "#indiajobs"
-    ]
-  },
-  {
-    "page": "/docs/jobs/blitz-sdet-1.html",
-    "company": "Blitz",
-    "title": "SDET-1",
-    "apply_url": "https://blitznow.keka.com/careers/applyjob/166524/f7222bbb-e5ca-486b-9fcd-6bbd61dede6c",
-    "headline": "SDET-1 @ Blitz",
+    "page": "/docs/jobs/beghou-consulting-associate-analytics.html",
+    "company": "Beghou Consulting",
+    "title": "Associate - Analytics",
+    "apply_url": "https://jobs.lever.co/beghouconsulting/5c6dbe60-8b70-4da6-8c6c-75bd1e8520ae",
+    "headline": "Associate - Analytics @ Beghou Consulting",
     "subheadline": "India | Fresh graduates",
     "key_points": [
-      "Blitz, the Bengaluru-based quick-commerce logistics company, is hiring an SDET-1 to build and maintain test automation for its products.",
-      "You will write automated UI and API tests, plug them into CI/CD pipelines and work with developers in Agile sprints to catch issues before release.",
-      "The role is open to the 2023–2025 batches with 1 to 2 years of experience in QA automation or SDET work.",
+      "Beghou Consulting, a life-sciences commercialisation and analytics firm headquartered in Evanston, Illinois, is hiring an Associate for its Pune office.",
+      "The role needs an Engineering or Master's degree from a Tier-I or Tier-II institution and 0-2 years of experience in analytics or technology, so fresh graduates can apply.",
+      "Requirements Engineering or Master's degree from a Tier-I or Tier-II institution with strong academics.",
       "Skill: Python",
-      "Skill: Java",
-      "Skill: SQL"
+      "Skill: SQL",
+      "Skill: Excel"
     ],
-    "cta": "Apply on the official page: https://blitznow.keka.com/careers/applyjob/166524/f7222bbb-e5ca-486b-9fcd-6bbd61dede6c",
-    "caption": "Hiring alert: Blitz is looking for a SDET-1 (India).\n\nEligibility: Fresh graduates.\nCompensation: check the official posting for details.\n- Blitz, the Bengaluru-based quick-commerce logistics company, is hiring an SDET-1 to build and maintain test automation for its products.\n- You will write automated UI and API tests, plug them into CI/CD pipelines and work with developers in Agile sprints to catch issues before release.\n- The role is open to the 2023–2025 batches with 1 to 2 years of experience in QA automation or SDET work.\n- Skill: Python\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "cta": "Apply on the official page: https://jobs.lever.co/beghouconsulting/5c6dbe60-8b70-4da6-8c6c-75bd1e8520ae",
+    "caption": "Hiring alert: Beghou Consulting is looking for a Associate - Analytics (India).\n\nEligibility: Fresh graduates.\nCompensation: check the official posting for details.\n- Beghou Consulting, a life-sciences commercialisation and analytics firm headquartered in Evanston, Illinois, is hiring an Associate for its Pune office.\n- The role needs an Engineering or Master's degree from a Tier-I or Tier-II institution and 0-2 years of experience in analytics or technology, so fresh graduates can apply.\n- Requirements Engineering or Master's degree from a Tier-I or Tier-II institution with strong academics.\n- Skill: Python\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
     "hashtags": [
       "#fresherjobs",
       "#freshershiring",
       "#entryleveljobs",
       "#hiringindia",
-      "#blitzhiring",
+      "#beghouconsultinghiring",
+      "#indiajobs"
+    ]
+  },
+  {
+    "page": "/docs/jobs/mico-data-science-intern.html",
+    "company": "Mico",
+    "title": "Data Science Intern",
+    "apply_url": "https://job-boards.greenhouse.io/micoworks/jobs/5456507008",
+    "headline": "Data Science Intern @ Mico",
+    "subheadline": "India | Internship",
+    "key_points": [
+      "Mico, which builds the conversational layer (LINE, SMS/RCS, Voice AI and web) that more than 5,500 Japanese brands use to reach customers, is hiring a Data Science Intern in Bengaluru.",
+      "Requirements Currently pursuing or recently completed a degree in Data Science, Statistics, Mathematics, Computer Science or a related field.",
+      "Experience: no requirements.",
+      "Skill: Python",
+      "Skill: Machine Learning",
+      "Skill: Data Analysis"
+    ],
+    "cta": "Apply on the official page: https://job-boards.greenhouse.io/micoworks/jobs/5456507008",
+    "caption": "Hiring alert: Mico is looking for a Data Science Intern (India).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Mico, which builds the conversational layer (LINE, SMS/RCS, Voice AI and web) that more than 5,500 Japanese brands use to reach customers, is hiring a Data Science Intern in Bengaluru.\n- Requirements Currently pursuing or recently completed a degree in Data Science, Statistics, Mathematics, Computer Science or a related field.\n- Experience: no requirements.\n- Skill: Python\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "hashtags": [
+      "#fresherjobs",
+      "#freshershiring",
+      "#entryleveljobs",
+      "#hiringindia",
+      "#micohiring",
       "#indiajobs"
     ]
   }

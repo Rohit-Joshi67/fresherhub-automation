@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-20T18:25:33.125Z",
-  "totalJobs": 340,
-  "publishedCount": 340,
-  "quarantinedCount": 480,
-  "reviewCount": 480,
-  "privateCount": 340,
+  "updatedAt": "2026-10-21T07:18:24.621Z",
+  "totalJobs": 345,
+  "publishedCount": 345,
+  "quarantinedCount": 459,
+  "reviewCount": 459,
+  "privateCount": 345,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -311,7 +311,7 @@
       "source": "ashby-hex",
       "name": "Hex",
       "kind": "ashby",
-      "fetched": 3
+      "fetched": 4
     },
     {
       "source": "ashby-hightouch",
@@ -863,7 +863,7 @@
       "source": "gh-affirm",
       "name": "Affirm",
       "kind": "greenhouse",
-      "fetched": 37
+      "fetched": 38
     },
     {
       "source": "gh-affle",
@@ -1013,7 +1013,7 @@
       "source": "gh-coinbase",
       "name": "Coinbase",
       "kind": "greenhouse",
-      "fetched": 27
+      "fetched": 29
     },
     {
       "source": "gh-collibra",
@@ -1157,7 +1157,7 @@
       "source": "gh-fivetran",
       "name": "Fivetran",
       "kind": "greenhouse",
-      "fetched": 3
+      "fetched": 2
     },
     {
       "source": "gh-gemini",
@@ -1181,7 +1181,7 @@
       "source": "gh-glance",
       "name": "Glance",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 3
     },
     {
       "source": "gh-greenhouse",
@@ -1199,7 +1199,7 @@
       "source": "gh-gusto",
       "name": "Gusto",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "gh-hellofresh",
@@ -1271,7 +1271,7 @@
       "source": "gh-kiavi",
       "name": "Kiavi",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "gh-klaviyo",
@@ -1349,7 +1349,7 @@
       "source": "gh-newrelic",
       "name": "New Relic",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "gh-nextdoor",
@@ -1704,7 +1704,7 @@
       "source": "govt-cdac",
       "name": "C-DAC",
       "kind": "govt",
-      "fetched": 17
+      "fetched": 18
     },
     {
       "source": "govt-hpcl",
@@ -1747,7 +1747,8 @@
       "source": "govt-sbi",
       "name": "SBI",
       "kind": "govt",
-      "fetched": 25
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "govt-upsc",
@@ -1760,7 +1761,7 @@
       "source": "hiredoor",
       "name": "HireDoor",
       "kind": "hiredoor",
-      "fetched": 31
+      "fetched": 30
     },
     {
       "source": "keka-10decoders",
@@ -1892,7 +1893,7 @@
       "source": "keka-gameberry",
       "name": "Gameberry Labs",
       "kind": "keka",
-      "fetched": 5
+      "fetched": 4
     },
     {
       "source": "keka-grow",
@@ -1904,7 +1905,7 @@
       "source": "keka-idreamcareer",
       "name": "iDreamCareer",
       "kind": "keka",
-      "fetched": 4
+      "fetched": 5
     },
     {
       "source": "keka-impactanalytics",
@@ -2498,7 +2499,7 @@
       "source": "lever-neuron7",
       "name": "Neuron7.ai",
       "kind": "lever",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "lever-octoenergy",
@@ -2720,7 +2721,7 @@
       "source": "lever-weekdayworks",
       "name": "Weekday",
       "kind": "lever",
-      "fetched": 11
+      "fetched": 10
     },
     {
       "source": "lever-workwave",
@@ -2761,6 +2762,7 @@
   ],
   "sitesSkippedByRobots": [
     "BPCL",
+    "SBI",
     "IBPS",
     "UPSC"
   ],
