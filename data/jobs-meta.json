@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-21T07:18:24.621Z",
-  "totalJobs": 345,
-  "publishedCount": 345,
-  "quarantinedCount": 459,
-  "reviewCount": 459,
-  "privateCount": 345,
+  "updatedAt": "2026-10-21T18:31:15.305Z",
+  "totalJobs": 347,
+  "publishedCount": 347,
+  "quarantinedCount": 455,
+  "reviewCount": 455,
+  "privateCount": 347,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -59,7 +59,7 @@
       "source": "ashby-ashby",
       "name": "Ashby",
       "kind": "ashby",
-      "fetched": 7
+      "fetched": 8
     },
     {
       "source": "ashby-astronomer",
@@ -311,7 +311,7 @@
       "source": "ashby-hex",
       "name": "Hex",
       "kind": "ashby",
-      "fetched": 4
+      "fetched": 3
     },
     {
       "source": "ashby-hightouch",
@@ -851,7 +851,7 @@
       "source": "gh-6sense",
       "name": "6sense",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "gh-adyen",
@@ -1001,7 +1001,7 @@
       "source": "gh-cloudsek",
       "name": "CloudSEK",
       "kind": "greenhouse",
-      "fetched": 6
+      "fetched": 7
     },
     {
       "source": "gh-cockroachlabs",
@@ -1103,7 +1103,7 @@
       "source": "gh-druva",
       "name": "Druva",
       "kind": "greenhouse",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "gh-duolingo",
@@ -1139,7 +1139,7 @@
       "source": "gh-figma",
       "name": "Figma",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "gh-fireblocks",
@@ -1289,7 +1289,7 @@
       "source": "gh-launchdarkly",
       "name": "LaunchDarkly",
       "kind": "greenhouse",
-      "fetched": 4
+      "fetched": 3
     },
     {
       "source": "gh-lightmatter",
@@ -1349,7 +1349,7 @@
       "source": "gh-newrelic",
       "name": "New Relic",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "gh-nextdoor",
@@ -1535,7 +1535,7 @@
       "source": "gh-solutions",
       "name": "Cadence",
       "kind": "greenhouse",
-      "fetched": 8
+      "fetched": 9
     },
     {
       "source": "gh-sovrn",
@@ -1595,7 +1595,7 @@
       "source": "gh-thoughtworks",
       "name": "Thoughtworks",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "gh-tigergraph",
@@ -1625,7 +1625,7 @@
       "source": "gh-twilio",
       "name": "Twilio",
       "kind": "greenhouse",
-      "fetched": 28
+      "fetched": 26
     },
     {
       "source": "gh-twitch",
@@ -1649,7 +1649,7 @@
       "source": "gh-vercel",
       "name": "Vercel",
       "kind": "greenhouse",
-      "fetched": 3
+      "fetched": 4
     },
     {
       "source": "gh-webflow",
@@ -1761,7 +1761,7 @@
       "source": "hiredoor",
       "name": "HireDoor",
       "kind": "hiredoor",
-      "fetched": 30
+      "fetched": 31
     },
     {
       "source": "keka-10decoders",
@@ -1779,7 +1779,7 @@
       "source": "keka-acsii",
       "name": "ACS International India",
       "kind": "keka",
-      "fetched": 2
+      "fetched": 4
     },
     {
       "source": "keka-akaike",
@@ -1797,7 +1797,7 @@
       "source": "keka-avengers",
       "name": "Avengers",
       "kind": "keka",
-      "fetched": 2
+      "fetched": 0
     },
     {
       "source": "keka-beyondkey",
@@ -1977,7 +1977,7 @@
       "source": "keka-minfy",
       "name": "Minfy",
       "kind": "keka",
-      "fetched": 4
+      "fetched": 3
     },
     {
       "source": "keka-niyo",
@@ -2037,7 +2037,7 @@
       "source": "keka-qualminds",
       "name": "QualMinds",
       "kind": "keka",
-      "fetched": 4
+      "fetched": 3
     },
     {
       "source": "keka-queuebuster",
@@ -2079,7 +2079,7 @@
       "source": "keka-spyneai",
       "name": "Spyne",
       "kind": "keka",
-      "fetched": 3
+      "fetched": 2
     },
     {
       "source": "keka-supplychainhub",
@@ -2313,7 +2313,7 @@
       "source": "lever-entrata",
       "name": "Entrata",
       "kind": "lever",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "lever-everbridge",
@@ -2685,7 +2685,7 @@
       "source": "lever-ttecdigital",
       "name": "TTEC Digital",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "lever-turgonai",
@@ -2721,7 +2721,7 @@
       "source": "lever-weekdayworks",
       "name": "Weekday",
       "kind": "lever",
-      "fetched": 10
+      "fetched": 9
     },
     {
       "source": "lever-workwave",
