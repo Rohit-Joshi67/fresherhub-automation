@@ -40,6 +40,16 @@
     "review_reason": "classified as experienced — outside fresher audience"
   },
   {
+    "page": "/docs/jobs/inmobi-product-analyst-ii.html",
+    "company": "InMobi",
+    "title": "Product Analyst II",
+    "source": "InMobi",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
     "page": "/docs/jobs/groww-portfolio-specialist-wealth.html",
     "company": "Groww",
     "title": "Portfolio Specialist - Wealth",
@@ -170,16 +180,6 @@
     "review_reason": "classified as experienced — outside fresher audience"
   },
   {
-    "page": "/docs/jobs/inmobi-product-analyst-ii.html",
-    "company": "InMobi",
-    "title": "Product Analyst II",
-    "source": "InMobi",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
     "page": "/docs/jobs/meesho-security-engineer-iii.html",
     "company": "Meesho",
     "title": "Security Engineer III",
@@ -194,6 +194,86 @@
     "company": "Meesho",
     "title": "Security Engineer IV",
     "source": "Meesho",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/paytm-associate-motor-insurance.html",
+    "company": "Paytm",
+    "title": "Associate - Motor Insurance",
+    "source": "Paytm",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/paytm-cst-associate-email-cst.html",
+    "company": "Paytm",
+    "title": "CST - Associate - Email CST",
+    "source": "Paytm",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/paytm-customer-support-associate.html",
+    "company": "Paytm",
+    "title": "Customer Support Associate",
+    "source": "Paytm",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/paytm-growth-operations-campaign-paytm-money.html",
+    "company": "Paytm",
+    "title": "Growth Operations - Campaign - Paytm Money",
+    "source": "Paytm",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/paytm-growth-operations-paytm-money.html",
+    "company": "Paytm",
+    "title": "Growth Operations -Paytm Money",
+    "source": "Paytm",
+    "category": "unknown",
+    "status": "active",
+    "confidence": 70,
+    "review_reason": "could not determine entry-level fit from posting"
+  },
+  {
+    "page": "/docs/jobs/paytm-lending-operations-partnerships-am-merchant-lending.html",
+    "company": "Paytm",
+    "title": "Lending Operations & Partnerships - AM - Merchant Lending",
+    "source": "Paytm",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/paytm-risk-analyst-exp-1-to-3-yrs.html",
+    "company": "Paytm",
+    "title": "Risk Analyst | Exp - 1 to 3 Yrs",
+    "source": "Paytm",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/paytm-talent-acquisition-specialist-it-recruitment.html",
+    "company": "Paytm",
+    "title": "Talent Acquisition Specialist - IT Recruitment",
+    "source": "Paytm",
     "category": "experienced",
     "status": "active",
     "confidence": 85,
@@ -270,70 +350,10 @@
     "review_reason": "could not determine entry-level fit from posting"
   },
   {
-    "page": "/docs/jobs/paytm-associate-motor-insurance.html",
-    "company": "Paytm",
-    "title": "Associate - Motor Insurance",
-    "source": "Paytm",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/paytm-cst-associate-email-cst.html",
-    "company": "Paytm",
-    "title": "CST - Associate - Email CST",
-    "source": "Paytm",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/paytm-customer-support-associate.html",
-    "company": "Paytm",
-    "title": "Customer Support Associate",
-    "source": "Paytm",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/paytm-growth-operations-campaign-paytm-money.html",
-    "company": "Paytm",
-    "title": "Growth Operations - Campaign - Paytm Money",
-    "source": "Paytm",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/paytm-growth-operations-paytm-money.html",
-    "company": "Paytm",
-    "title": "Growth Operations -Paytm Money",
-    "source": "Paytm",
-    "category": "unknown",
-    "status": "active",
-    "confidence": 70,
-    "review_reason": "could not determine entry-level fit from posting"
-  },
-  {
-    "page": "/docs/jobs/paytm-risk-analyst-exp-1-to-3-yrs.html",
-    "company": "Paytm",
-    "title": "Risk Analyst | Exp - 1 to 3 Yrs",
-    "source": "Paytm",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/paytm-talent-acquisition-specialist-it-recruitment.html",
-    "company": "Paytm",
-    "title": "Talent Acquisition Specialist - IT Recruitment",
-    "source": "Paytm",
+    "page": "/docs/jobs/zaggle-technical-consultant-implementation-services.html",
+    "company": "Zaggle",
+    "title": "Technical Consultant - Implementation Services",
+    "source": "Zaggle",
     "category": "experienced",
     "status": "active",
     "confidence": 85,
@@ -354,16 +374,6 @@
     "company": "Wingify",
     "title": "Senior SDR - Inbound/Outbound (UK)",
     "source": "Wingify",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/zaggle-technical-consultant-implementation-services.html",
-    "company": "Zaggle",
-    "title": "Technical Consultant - Implementation Services",
-    "source": "Zaggle",
     "category": "experienced",
     "status": "active",
     "confidence": 85,
@@ -398,6 +408,16 @@
     "status": "active",
     "confidence": 75,
     "review_reason": "could not determine entry-level fit from posting"
+  },
+  {
+    "page": "/docs/jobs/bluecat-networks-enterprise-support-engineer.html",
+    "company": "BlueCat Networks",
+    "title": "Enterprise Support Engineer",
+    "source": "BlueCat Networks",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
   },
   {
     "page": "/docs/jobs/extreme-networks-full-stack-software-engineer-golang-flutter.html",
@@ -490,6 +510,236 @@
     "review_reason": "classified as experienced — outside fresher audience"
   },
   {
+    "page": "/docs/jobs/fampay-qa-engineer-1.html",
+    "company": "FamPay",
+    "title": "QA Engineer- 1",
+    "source": "FamPay",
+    "category": "unknown",
+    "status": "active",
+    "confidence": 75,
+    "review_reason": "could not determine entry-level fit from posting"
+  },
+  {
+    "page": "/docs/jobs/jumpcloud-customer-support-engineer-tier-1-macos-and-mdm-mex.html",
+    "company": "JumpCloud",
+    "title": "Customer Support Engineer, Tier 1 (MacOS and MDM) - Mexico",
+    "source": "JumpCloud",
+    "category": "unknown",
+    "status": "active",
+    "confidence": 75,
+    "review_reason": "could not determine entry-level fit from posting"
+  },
+  {
+    "page": "/docs/jobs/jumpcloud-customer-support-engineer-tier-1-windows-mexico.html",
+    "company": "JumpCloud",
+    "title": "Customer Support Engineer, Tier 1 Windows - Mexico",
+    "source": "JumpCloud",
+    "category": "unknown",
+    "status": "active",
+    "confidence": 75,
+    "review_reason": "could not determine entry-level fit from posting"
+  },
+  {
+    "page": "/docs/jobs/jumpcloud-customer-support-engineer-tier-2-mexico.html",
+    "company": "JumpCloud",
+    "title": "Customer Support Engineer, Tier 2 - Mexico",
+    "source": "JumpCloud",
+    "category": "unknown",
+    "status": "active",
+    "confidence": 75,
+    "review_reason": "could not determine entry-level fit from posting"
+  },
+  {
+    "page": "/docs/jobs/jumpcloud-devices-software-engineer-t-rkiye.html",
+    "company": "JumpCloud",
+    "title": "Devices Software Engineer - Türkiye",
+    "source": "JumpCloud",
+    "category": "unknown",
+    "status": "active",
+    "confidence": 75,
+    "review_reason": "could not determine entry-level fit from posting"
+  },
+  {
+    "page": "/docs/jobs/jumpcloud-gtm-ai-operations-india.html",
+    "company": "JumpCloud",
+    "title": "GTM AI Operations - India",
+    "source": "JumpCloud",
+    "category": "unknown",
+    "status": "active",
+    "confidence": 75,
+    "review_reason": "could not determine entry-level fit from posting"
+  },
+  {
+    "page": "/docs/jobs/jumpcloud-gtm-ai-operations-mexico.html",
+    "company": "JumpCloud",
+    "title": "GTM AI Operations - Mexico",
+    "source": "JumpCloud",
+    "category": "unknown",
+    "status": "active",
+    "confidence": 75,
+    "review_reason": "could not determine entry-level fit from posting"
+  },
+  {
+    "page": "/docs/jobs/jumpcloud-implementation-consultant-brazil.html",
+    "company": "JumpCloud",
+    "title": "Implementation Consultant - Brazil",
+    "source": "JumpCloud",
+    "category": "unknown",
+    "status": "active",
+    "confidence": 75,
+    "review_reason": "could not determine entry-level fit from posting"
+  },
+  {
+    "page": "/docs/jobs/linkedin-cloud-support-engineer-raghav.html",
+    "company": "LinkedIn",
+    "title": "Cloud Support Engineer - Raghav",
+    "source": "LinkedIn",
+    "category": "unknown",
+    "status": "active",
+    "confidence": 40,
+    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully"
+  },
+  {
+    "page": "/docs/jobs/linkedin-qa-engineer.html",
+    "company": "LinkedIn",
+    "title": "QA Engineer",
+    "source": "LinkedIn",
+    "category": "unknown",
+    "status": "active",
+    "confidence": 40,
+    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully"
+  },
+  {
+    "page": "/docs/jobs/linkedin-software-engineer-iv.html",
+    "company": "LinkedIn",
+    "title": "Software Engineer IV",
+    "source": "LinkedIn",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 50,
+    "review_reason": "classified as experienced — outside fresher audience; posting description too thin to rewrite faithfully"
+  },
+  {
+    "page": "/docs/jobs/mindtickle-professional-services-consultant.html",
+    "company": "Mindtickle",
+    "title": "Professional Services Consultant",
+    "source": "Mindtickle",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/mindtickle-software-engineer-business-systems.html",
+    "company": "Mindtickle",
+    "title": "Software Engineer, Business Systems",
+    "source": "Mindtickle",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/pigment-epm-consultant-dach.html",
+    "company": "Pigment",
+    "title": "EPM Consultant - DACH",
+    "source": "Pigment",
+    "category": "unknown",
+    "status": "active",
+    "confidence": 75,
+    "review_reason": "could not determine entry-level fit from posting"
+  },
+  {
+    "page": "/docs/jobs/olo-software-engineer-core.html",
+    "company": "Olo",
+    "title": "Software Engineer - Core",
+    "source": "Olo",
+    "category": "unknown",
+    "status": "active",
+    "confidence": 75,
+    "review_reason": "could not determine entry-level fit from posting"
+  },
+  {
+    "page": "/docs/jobs/ttec-digital-consultant-cognigy.html",
+    "company": "TTEC Digital",
+    "title": "Consultant – Cognigy",
+    "source": "TTEC Digital",
+    "category": "unknown",
+    "status": "active",
+    "confidence": 75,
+    "review_reason": "could not determine entry-level fit from posting"
+  },
+  {
+    "page": "/docs/jobs/weekday-data-entry-intern.html",
+    "company": "Weekday",
+    "title": "Data Entry Intern",
+    "source": "Weekday",
+    "category": "internship",
+    "status": "active",
+    "confidence": 50,
+    "review_reason": "posting description too thin to rewrite faithfully"
+  },
+  {
+    "page": "/docs/jobs/weekday-inside-sales-specialist.html",
+    "company": "Weekday",
+    "title": "Inside Sales Specialist",
+    "source": "Weekday",
+    "category": "unknown",
+    "status": "active",
+    "confidence": 60,
+    "review_reason": "could not determine entry-level fit from posting"
+  },
+  {
+    "page": "/docs/jobs/weekday-snowflake-developer.html",
+    "company": "Weekday",
+    "title": "Snowflake Developer",
+    "source": "Weekday",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 70,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/weekday-talent-acquisition-specialist.html",
+    "company": "Weekday",
+    "title": "Talent Acquisition Specialist",
+    "source": "Weekday",
+    "category": "unknown",
+    "status": "active",
+    "confidence": 60,
+    "review_reason": "could not determine entry-level fit from posting"
+  },
+  {
+    "page": "/docs/jobs/workwave-provisioning-specialist.html",
+    "company": "WorkWave",
+    "title": "Provisioning Specialist",
+    "source": "WorkWave",
+    "category": "unknown",
+    "status": "active",
+    "confidence": 75,
+    "review_reason": "could not determine entry-level fit from posting"
+  },
+  {
+    "page": "/docs/jobs/xsolla-developer-evangelist-community.html",
+    "company": "Xsolla",
+    "title": "Developer Evangelist - Community",
+    "source": "Xsolla",
+    "category": "unknown",
+    "status": "active",
+    "confidence": 75,
+    "review_reason": "could not determine entry-level fit from posting"
+  },
+  {
+    "page": "/docs/jobs/xsolla-software-engineer.html",
+    "company": "Xsolla",
+    "title": "Software Engineer",
+    "source": "Xsolla",
+    "category": "unknown",
+    "status": "active",
+    "confidence": 65,
+    "review_reason": "could not determine entry-level fit from posting"
+  },
+  {
     "page": "/docs/jobs/6sense-it-support-specialist.html",
     "company": "6sense",
     "title": "IT Support Specialist",
@@ -504,16 +754,6 @@
     "company": "Adyen",
     "title": "IT Internal Control Officer",
     "source": "Adyen",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/affirm-analyst.html",
-    "company": "Affirm",
-    "title": "Analyst",
-    "source": "Affirm",
     "category": "experienced",
     "status": "active",
     "confidence": 85,
@@ -840,6 +1080,26 @@
     "review_reason": "classified as experienced — outside fresher audience"
   },
   {
+    "page": "/docs/jobs/coursera-accounts-payable-specialist-gurugram.html",
+    "company": "Coursera",
+    "title": "Accounts Payable Specialist (Gurugram)",
+    "source": "Coursera",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/coursera-ai-specialist-ii.html",
+    "company": "Coursera",
+    "title": "AI Specialist II",
+    "source": "Coursera",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
     "page": "/docs/jobs/coinbase-analyst-privacy-incident-management.html",
     "company": "Coinbase",
     "title": "Analyst, Privacy (Incident Management)",
@@ -1010,26 +1270,6 @@
     "review_reason": "classified as experienced — outside fresher audience"
   },
   {
-    "page": "/docs/jobs/coursera-accounts-payable-specialist-gurugram.html",
-    "company": "Coursera",
-    "title": "Accounts Payable Specialist (Gurugram)",
-    "source": "Coursera",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/coursera-ai-specialist-ii.html",
-    "company": "Coursera",
-    "title": "AI Specialist II",
-    "source": "Coursera",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
     "page": "/docs/jobs/customer-io-email-deliverability-specialist.html",
     "company": "Customer.io",
     "title": "Email Deliverability Specialist",
@@ -1130,16 +1370,6 @@
     "review_reason": "classified as experienced — outside fresher audience"
   },
   {
-    "page": "/docs/jobs/fivetran-global-payroll-analyst.html",
-    "company": "Fivetran",
-    "title": "Global Payroll Analyst",
-    "source": "Fivetran",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
     "page": "/docs/jobs/gusto-hr-consultant.html",
     "company": "Gusto",
     "title": "HR Consultant",
@@ -1178,6 +1408,46 @@
     "status": "active",
     "confidence": 75,
     "review_reason": "could not determine entry-level fit from posting"
+  },
+  {
+    "page": "/docs/jobs/fivetran-global-payroll-analyst.html",
+    "company": "Fivetran",
+    "title": "Global Payroll Analyst",
+    "source": "Fivetran",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/honeycomb-marketing-ops-analyst.html",
+    "company": "Honeycomb",
+    "title": "Marketing Ops Analyst",
+    "source": "Honeycomb",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/honeycomb-software-engineer-i-agent-observability.html",
+    "company": "Honeycomb",
+    "title": "Software Engineer I - Agent Observability",
+    "source": "Honeycomb",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/honeycomb-software-engineer-i-agent-observability.html",
+    "company": "Honeycomb",
+    "title": "Software Engineer I -Agent Observability",
+    "source": "Honeycomb",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
   },
   {
     "page": "/docs/jobs/highradius-agent-developer-test-iii.html",
@@ -1300,36 +1570,6 @@
     "review_reason": "classified as experienced — outside fresher audience"
   },
   {
-    "page": "/docs/jobs/honeycomb-marketing-ops-analyst.html",
-    "company": "Honeycomb",
-    "title": "Marketing Ops Analyst",
-    "source": "Honeycomb",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/honeycomb-software-engineer-i-agent-observability.html",
-    "company": "Honeycomb",
-    "title": "Software Engineer I - Agent Observability",
-    "source": "Honeycomb",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/honeycomb-software-engineer-i-agent-observability.html",
-    "company": "Honeycomb",
-    "title": "Software Engineer I -Agent Observability",
-    "source": "Honeycomb",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
     "page": "/docs/jobs/inkind-support-specialist.html",
     "company": "inKind",
     "title": "Support Specialist",
@@ -1434,6 +1674,26 @@
     "company": "Monzo",
     "title": "Anaplan Support Analyst",
     "source": "Monzo",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/neo4j-cloud-operations-engineer.html",
+    "company": "Neo4j",
+    "title": "Cloud Operations Engineer",
+    "source": "Neo4j",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/new-relic-qa-engineer-o2c-enterprise-billing-testing.html",
+    "company": "New Relic",
+    "title": "QA Engineer - O2C & Enterprise Billing Testing",
+    "source": "New Relic",
     "category": "experienced",
     "status": "active",
     "confidence": 85,
@@ -1550,36 +1810,6 @@
     "review_reason": "classified as experienced — outside fresher audience"
   },
   {
-    "page": "/docs/jobs/neo4j-cloud-operations-engineer.html",
-    "company": "Neo4j",
-    "title": "Cloud Operations Engineer",
-    "source": "Neo4j",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/new-relic-qa-engineer-o2c-enterprise-billing-testing.html",
-    "company": "New Relic",
-    "title": "QA Engineer - O2C & Enterprise Billing Testing",
-    "source": "New Relic",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/pinterest-sr-software-engineer-epd-ads.html",
-    "company": "Pinterest",
-    "title": "Sr Software Engineer, EPD Ads",
-    "source": "Pinterest",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
     "page": "/docs/jobs/planetscale-ai-developer-experience-engineer.html",
     "company": "PlanetScale",
     "title": "AI Developer Experience Engineer",
@@ -1600,90 +1830,40 @@
     "review_reason": "classified as experienced — outside fresher audience"
   },
   {
+    "page": "/docs/jobs/pinterest-sr-software-engineer-epd-ads.html",
+    "company": "Pinterest",
+    "title": "Sr Software Engineer, EPD Ads",
+    "source": "Pinterest",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/qualtrics-consultant-patient-experience.html",
+    "company": "Qualtrics",
+    "title": "Consultant, Patient Experience",
+    "source": "Qualtrics",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/qualtrics-managing-consultant-nursing.html",
+    "company": "Qualtrics",
+    "title": "Managing Consultant, Nursing",
+    "source": "Qualtrics",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
     "page": "/docs/jobs/pubmatic-programmatic-trading-specialist-apac.html",
     "company": "PubMatic",
     "title": "Programmatic Trading Specialist, APAC",
     "source": "PubMatic",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/roblox-data-analyst-operations-ip-legal-compliance.html",
-    "company": "Roblox",
-    "title": "Data Analyst, Operations (IP & Legal Compliance)",
-    "source": "Roblox",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/roblox-developer-engagement-team-contract.html",
-    "company": "Roblox",
-    "title": "Developer Engagement Team (Contract)",
-    "source": "Roblox",
-    "category": "unknown",
-    "status": "active",
-    "confidence": 75,
-    "review_reason": "could not determine entry-level fit from posting"
-  },
-  {
-    "page": "/docs/jobs/roblox-global-developer-engagement-representative-part-time-.html",
-    "company": "Roblox",
-    "title": "Global Developer Engagement Representative, Part-Time, Contractor",
-    "source": "Roblox",
-    "category": "unknown",
-    "status": "active",
-    "confidence": 75,
-    "review_reason": "could not determine entry-level fit from posting"
-  },
-  {
-    "page": "/docs/jobs/roblox-proactive-moderation-operations-specialist.html",
-    "company": "Roblox",
-    "title": "Proactive Moderation Operations Specialist",
-    "source": "Roblox",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/roblox-quality-analyst.html",
-    "company": "Roblox",
-    "title": "Quality Analyst",
-    "source": "Roblox",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/roblox-support-escalations-specialist.html",
-    "company": "Roblox",
-    "title": "Support Escalations Specialist",
-    "source": "Roblox",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/roblox-technical-developer-specialist-usa-part-time-contract.html",
-    "company": "Roblox",
-    "title": "Technical Developer Specialist, USA (Part-Time Contract)",
-    "source": "Roblox",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/salesloft-financial-analyst-r-d.html",
-    "company": "Salesloft",
-    "title": "Financial Analyst, R&D",
-    "source": "Salesloft",
     "category": "experienced",
     "status": "active",
     "confidence": 85,
@@ -1768,6 +1948,116 @@
     "status": "active",
     "confidence": 85,
     "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/salesloft-financial-analyst-r-d.html",
+    "company": "Salesloft",
+    "title": "Financial Analyst, R&D",
+    "source": "Salesloft",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/roblox-developer-engagement-team-contract.html",
+    "company": "Roblox",
+    "title": "Developer Engagement Team (Contract)",
+    "source": "Roblox",
+    "category": "unknown",
+    "status": "active",
+    "confidence": 75,
+    "review_reason": "could not determine entry-level fit from posting"
+  },
+  {
+    "page": "/docs/jobs/roblox-global-developer-engagement-representative-part-time-.html",
+    "company": "Roblox",
+    "title": "Global Developer Engagement Representative, Part-Time, Contractor",
+    "source": "Roblox",
+    "category": "unknown",
+    "status": "active",
+    "confidence": 75,
+    "review_reason": "could not determine entry-level fit from posting"
+  },
+  {
+    "page": "/docs/jobs/roblox-proactive-moderation-operations-specialist.html",
+    "company": "Roblox",
+    "title": "Proactive Moderation Operations Specialist",
+    "source": "Roblox",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/roblox-quality-analyst.html",
+    "company": "Roblox",
+    "title": "Quality Analyst",
+    "source": "Roblox",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/roblox-support-escalations-specialist.html",
+    "company": "Roblox",
+    "title": "Support Escalations Specialist",
+    "source": "Roblox",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/roblox-technical-developer-specialist-usa-part-time-contract.html",
+    "company": "Roblox",
+    "title": "Technical Developer Specialist, USA (Part-Time Contract)",
+    "source": "Roblox",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/cadence-compliance-analyst-policy-corporate-compliance.html",
+    "company": "Cadence",
+    "title": "Compliance Analyst, Policy & Corporate Compliance",
+    "source": "Cadence",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/cadence-it-operations-administrator.html",
+    "company": "Cadence",
+    "title": "IT Operations Administrator",
+    "source": "Cadence",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/cadence-leave-of-absence-specialist.html",
+    "company": "Cadence",
+    "title": "Leave of Absence Specialist",
+    "source": "Cadence",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/cadence-software-engineer-platform-all-levels.html",
+    "company": "Cadence",
+    "title": "Software Engineer - Platform (All Levels)",
+    "source": "Cadence",
+    "category": "unknown",
+    "status": "active",
+    "confidence": 75,
+    "review_reason": "could not determine entry-level fit from posting"
   },
   {
     "page": "/docs/jobs/sezzle-aml-compliance-analyst.html",
@@ -1880,46 +2170,6 @@
     "review_reason": "classified as experienced — outside fresher audience"
   },
   {
-    "page": "/docs/jobs/cadence-compliance-analyst-policy-corporate-compliance.html",
-    "company": "Cadence",
-    "title": "Compliance Analyst, Policy & Corporate Compliance",
-    "source": "Cadence",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/cadence-it-operations-administrator.html",
-    "company": "Cadence",
-    "title": "IT Operations Administrator",
-    "source": "Cadence",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/cadence-leave-of-absence-specialist.html",
-    "company": "Cadence",
-    "title": "Leave of Absence Specialist",
-    "source": "Cadence",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/cadence-software-engineer-platform-all-levels.html",
-    "company": "Cadence",
-    "title": "Software Engineer - Platform (All Levels)",
-    "source": "Cadence",
-    "category": "unknown",
-    "status": "active",
-    "confidence": 75,
-    "review_reason": "could not determine entry-level fit from posting"
-  },
-  {
     "page": "/docs/jobs/storyblok-developer-relations-engineer-uk.html",
     "company": "Storyblok",
     "title": "Developer Relations Engineer - UK",
@@ -1974,6 +2224,36 @@
     "company": "Together AI",
     "title": "Technical Support Engineer (Inference) - India Weekends",
     "source": "Together AI",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/vercel-security-software-engineer-iam.html",
+    "company": "Vercel",
+    "title": "Security Software Engineer, IAM",
+    "source": "Vercel",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/vercel-software-engineer-backend.html",
+    "company": "Vercel",
+    "title": "Software Engineer, Backend",
+    "source": "Vercel",
+    "category": "unknown",
+    "status": "active",
+    "confidence": 75,
+    "review_reason": "could not determine entry-level fit from posting"
+  },
+  {
+    "page": "/docs/jobs/vercel-software-engineer-data-platform.html",
+    "company": "Vercel",
+    "title": "Software Engineer - Data Platform",
+    "source": "Vercel",
     "category": "experienced",
     "status": "active",
     "confidence": 85,
@@ -2050,6 +2330,16 @@
     "review_reason": "classified as experienced — outside fresher audience"
   },
   {
+    "page": "/docs/jobs/twilio-software-engineer-l2-messaging-api.html",
+    "company": "Twilio",
+    "title": "Software Engineer L2-Messaging API",
+    "source": "Twilio",
+    "category": "unknown",
+    "status": "active",
+    "confidence": 75,
+    "review_reason": "could not determine entry-level fit from posting"
+  },
+  {
     "page": "/docs/jobs/twilio-software-engineer-l3.html",
     "company": "Twilio",
     "title": "Software Engineer L3",
@@ -2100,9 +2390,9 @@
     "review_reason": "classified as experienced — outside fresher audience"
   },
   {
-    "page": "/docs/jobs/twilio-vendor-operations-governance-specialist.html",
+    "page": "/docs/jobs/twilio-technical-support-expert-2.html",
     "company": "Twilio",
-    "title": "Vendor Operations & Governance Specialist",
+    "title": "Technical Support Expert 2",
     "source": "Twilio",
     "category": "experienced",
     "status": "active",
@@ -2110,40 +2400,10 @@
     "review_reason": "classified as experienced — outside fresher audience"
   },
   {
-    "page": "/docs/jobs/vercel-security-software-engineer-iam.html",
-    "company": "Vercel",
-    "title": "Security Software Engineer, IAM",
-    "source": "Vercel",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/vercel-software-engineer-backend.html",
-    "company": "Vercel",
-    "title": "Software Engineer, Backend",
-    "source": "Vercel",
-    "category": "unknown",
-    "status": "active",
-    "confidence": 75,
-    "review_reason": "could not determine entry-level fit from posting"
-  },
-  {
-    "page": "/docs/jobs/vercel-software-engineer-data-platform.html",
-    "company": "Vercel",
-    "title": "Software Engineer - Data Platform",
-    "source": "Vercel",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/xendit-finops-recons-associate.html",
-    "company": "Xendit",
-    "title": "FinOps Recons Associate",
-    "source": "Xendit",
+    "page": "/docs/jobs/twilio-vendor-operations-governance-specialist.html",
+    "company": "Twilio",
+    "title": "Vendor Operations & Governance Specialist",
+    "source": "Twilio",
     "category": "experienced",
     "status": "active",
     "confidence": 85,
@@ -2240,80 +2500,10 @@
     "review_reason": "classified as experienced — outside fresher audience"
   },
   {
-    "page": "/docs/jobs/zscaler-designated-support-engineer-iii.html",
-    "company": "Zscaler",
-    "title": "Designated Support Engineer III",
-    "source": "Zscaler",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/zscaler-designated-support-engineer-iii.html",
-    "company": "Zscaler",
-    "title": "Designated Support Engineer III",
-    "source": "Zscaler",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/zscaler-partner-sales-specialist-hyperscalers.html",
-    "company": "Zscaler",
-    "title": "Partner Sales Specialist - Hyperscalers",
-    "source": "Zscaler",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/zscaler-partner-sales-specialist-tech-alliances.html",
-    "company": "Zscaler",
-    "title": "Partner Sales Specialist - Tech Alliances",
-    "source": "Zscaler",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/zscaler-professional-services-consultant-emea.html",
-    "company": "Zscaler",
-    "title": "Professional Services Consultant- EMEA",
-    "source": "Zscaler",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/zscaler-specialist-account-executive-secops-commercial-il-oh.html",
-    "company": "Zscaler",
-    "title": "Specialist Account Executive, SecOps - Commercial, IL/OH/CO",
-    "source": "Zscaler",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/zscaler-specialist-account-executive-secops-enterprise-pa-md.html",
-    "company": "Zscaler",
-    "title": "Specialist Account Executive, SecOps - Enterprise, PA/MD/VA/DC/Fed",
-    "source": "Zscaler",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/zscaler-specialist-account-executive-zt-branch.html",
-    "company": "Zscaler",
-    "title": "Specialist Account Executive - ZT Branch",
-    "source": "Zscaler",
+    "page": "/docs/jobs/xendit-finops-recons-associate.html",
+    "company": "Xendit",
+    "title": "FinOps Recons Associate",
+    "source": "Xendit",
     "category": "experienced",
     "status": "active",
     "confidence": 85,
@@ -2450,6 +2640,106 @@
     "review_reason": "classified as experienced — outside fresher audience"
   },
   {
+    "page": "/docs/jobs/zscaler-benefits-specialist.html",
+    "company": "Zscaler",
+    "title": "Benefits Specialist",
+    "source": "Zscaler",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/zscaler-designated-support-engineer-iii.html",
+    "company": "Zscaler",
+    "title": "Designated Support Engineer III",
+    "source": "Zscaler",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/zscaler-designated-support-engineer-iii.html",
+    "company": "Zscaler",
+    "title": "Designated Support Engineer III",
+    "source": "Zscaler",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/zscaler-partner-sales-specialist-hyperscalers.html",
+    "company": "Zscaler",
+    "title": "Partner Sales Specialist - Hyperscalers",
+    "source": "Zscaler",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/zscaler-partner-sales-specialist-tech-alliances.html",
+    "company": "Zscaler",
+    "title": "Partner Sales Specialist - Tech Alliances",
+    "source": "Zscaler",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/zscaler-product-support-engineer-iii.html",
+    "company": "Zscaler",
+    "title": "Product Support Engineer III",
+    "source": "Zscaler",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/zscaler-professional-services-consultant-emea.html",
+    "company": "Zscaler",
+    "title": "Professional Services Consultant- EMEA",
+    "source": "Zscaler",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/zscaler-specialist-account-executive-secops-commercial-il-oh.html",
+    "company": "Zscaler",
+    "title": "Specialist Account Executive, SecOps - Commercial, IL/OH/CO",
+    "source": "Zscaler",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/zscaler-specialist-account-executive-secops-enterprise-pa-md.html",
+    "company": "Zscaler",
+    "title": "Specialist Account Executive, SecOps - Enterprise, PA/MD/VA/DC/Fed",
+    "source": "Zscaler",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/zscaler-specialist-account-executive-zt-branch.html",
+    "company": "Zscaler",
+    "title": "Specialist Account Executive - ZT Branch",
+    "source": "Zscaler",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
     "page": "/docs/jobs/hex-software-engineer-backend-product.html",
     "company": "Hex",
     "title": "Software Engineer, Backend (Product)",
@@ -2480,6 +2770,16 @@
     "review_reason": "classified as experienced — outside fresher audience"
   },
   {
+    "page": "/docs/jobs/influxdata-software-engineer-database-reliability-performanc.html",
+    "company": "InfluxData",
+    "title": "Software Engineer, Database Reliability & Performance",
+    "source": "InfluxData",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
     "page": "/docs/jobs/harvey-cx-data-analyst.html",
     "company": "Harvey",
     "title": "CX Data Analyst",
@@ -2494,16 +2794,6 @@
     "company": "Harvey",
     "title": "Technical CX Specialist",
     "source": "Harvey",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/influxdata-software-engineer-database-reliability-performanc.html",
-    "company": "InfluxData",
-    "title": "Software Engineer, Database Reliability & Performance",
-    "source": "InfluxData",
     "category": "experienced",
     "status": "active",
     "confidence": 85,
@@ -2564,66 +2854,6 @@
     "company": "Plaid",
     "title": "Accounting Operations",
     "source": "Plaid",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/ramp-partner-consultant-accounting.html",
-    "company": "Ramp",
-    "title": "Partner Consultant, Accounting",
-    "source": "Ramp",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/ramp-technical-consultant-s-4hana.html",
-    "company": "Ramp",
-    "title": "Technical Consultant, S/4HANA",
-    "source": "Ramp",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/ramp-technical-consultant-strategic-oracle-cloud.html",
-    "company": "Ramp",
-    "title": "Technical Consultant, Strategic, Oracle Cloud",
-    "source": "Ramp",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/ramp-technical-consultant-workday-financials.html",
-    "company": "Ramp",
-    "title": "Technical Consultant, Workday Financials",
-    "source": "Ramp",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/ramp-technical-consultant-enterprise-oracle-cloud.html",
-    "company": "Ramp",
-    "title": "Technical Consultant, Enterprise, Oracle Cloud",
-    "source": "Ramp",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/ramp-technical-consultant-enterprise-microsoft-dynamics-f-o.html",
-    "company": "Ramp",
-    "title": "Technical Consultant, Enterprise, Microsoft Dynamics F&O",
-    "source": "Ramp",
     "category": "experienced",
     "status": "active",
     "confidence": 85,
@@ -2760,6 +2990,66 @@
     "review_reason": "classified as experienced — outside fresher audience"
   },
   {
+    "page": "/docs/jobs/ramp-partner-consultant-accounting.html",
+    "company": "Ramp",
+    "title": "Partner Consultant, Accounting",
+    "source": "Ramp",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/ramp-technical-consultant-s-4hana.html",
+    "company": "Ramp",
+    "title": "Technical Consultant, S/4HANA",
+    "source": "Ramp",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/ramp-technical-consultant-strategic-oracle-cloud.html",
+    "company": "Ramp",
+    "title": "Technical Consultant, Strategic, Oracle Cloud",
+    "source": "Ramp",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/ramp-technical-consultant-workday-financials.html",
+    "company": "Ramp",
+    "title": "Technical Consultant, Workday Financials",
+    "source": "Ramp",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/ramp-technical-consultant-enterprise-oracle-cloud.html",
+    "company": "Ramp",
+    "title": "Technical Consultant, Enterprise, Oracle Cloud",
+    "source": "Ramp",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/ramp-technical-consultant-enterprise-microsoft-dynamics-f-o.html",
+    "company": "Ramp",
+    "title": "Technical Consultant, Enterprise, Microsoft Dynamics F&O",
+    "source": "Ramp",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
     "page": "/docs/jobs/runpod-technical-support-engineer-l2.html",
     "company": "RunPod",
     "title": "Technical Support Engineer (L2)",
@@ -2774,6 +3064,26 @@
     "company": "RunPod",
     "title": "Technical Support Engineer (L2)",
     "source": "RunPod",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/sardine-software-engineer-backend.html",
+    "company": "Sardine",
+    "title": "Software Engineer - Backend",
+    "source": "Sardine",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/sarvam-ai-software-engineer-model-api-platform.html",
+    "company": "Sarvam AI",
+    "title": "Software Engineer - Model API Platform",
+    "source": "Sarvam AI",
     "category": "experienced",
     "status": "active",
     "confidence": 85,
@@ -2814,26 +3124,6 @@
     "company": "Runway",
     "title": "Support Systems Engineer",
     "source": "Runway",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/sardine-software-engineer-backend.html",
-    "company": "Sardine",
-    "title": "Software Engineer - Backend",
-    "source": "Sardine",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/sarvam-ai-software-engineer-model-api-platform.html",
-    "company": "Sarvam AI",
-    "title": "Software Engineer - Model API Platform",
-    "source": "Sarvam AI",
     "category": "experienced",
     "status": "active",
     "confidence": 85,
@@ -3030,16 +3320,6 @@
     "review_reason": "could not determine entry-level fit from posting"
   },
   {
-    "page": "/docs/jobs/temporal-software-engineer-ii-cloud-enablement.html",
-    "company": "Temporal",
-    "title": "Software Engineer II, Cloud Enablement",
-    "source": "Temporal",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
     "page": "/docs/jobs/tavus-software-engineer-infrastructure.html",
     "company": "Tavus",
     "title": "Software Engineer, Infrastructure",
@@ -3080,20 +3360,10 @@
     "review_reason": "classified as experienced — outside fresher audience"
   },
   {
-    "page": "/docs/jobs/tensorwave-software-engineer-full-stack.html",
-    "company": "TensorWave",
-    "title": "Software Engineer (Full Stack)",
-    "source": "TensorWave",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/tensorwave-software-engineer-front-end.html",
-    "company": "TensorWave",
-    "title": "Software Engineer (Front-End)",
-    "source": "TensorWave",
+    "page": "/docs/jobs/temporal-software-engineer-ii-cloud-enablement.html",
+    "company": "Temporal",
+    "title": "Software Engineer II, Cloud Enablement",
+    "source": "Temporal",
     "category": "experienced",
     "status": "active",
     "confidence": 85,
@@ -3124,6 +3394,26 @@
     "company": "Wayflyer",
     "title": "Frontend Software Engineer",
     "source": "Wayflyer",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/tensorwave-software-engineer-full-stack.html",
+    "company": "TensorWave",
+    "title": "Software Engineer (Full Stack)",
+    "source": "TensorWave",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/tensorwave-software-engineer-front-end.html",
+    "company": "TensorWave",
+    "title": "Software Engineer (Front-End)",
+    "source": "TensorWave",
     "category": "experienced",
     "status": "active",
     "confidence": 85,
@@ -3210,26 +3500,6 @@
     "review_reason": "classified as experienced — outside fresher audience"
   },
   {
-    "page": "/docs/jobs/idreamcareer-associate-product-manager.html",
-    "company": "iDreamCareer",
-    "title": "Associate Product Manager",
-    "source": "iDreamCareer",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/idreamcareer-associate-founder-s-office.html",
-    "company": "iDreamCareer",
-    "title": "Associate, Founder's Office",
-    "source": "iDreamCareer",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
     "page": "/docs/jobs/fynd-product-growth-manager-pgm-1-2-commerce.html",
     "company": "Fynd",
     "title": "Product Growth Manager | PGM 1/2 | Commerce",
@@ -3274,6 +3544,26 @@
     "company": "Fynd",
     "title": "Content Creator",
     "source": "Fynd",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/idreamcareer-associate-product-manager.html",
+    "company": "iDreamCareer",
+    "title": "Associate Product Manager",
+    "source": "iDreamCareer",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/idreamcareer-associate-founder-s-office.html",
+    "company": "iDreamCareer",
+    "title": "Associate, Founder's Office",
+    "source": "iDreamCareer",
     "category": "experienced",
     "status": "active",
     "confidence": 85,
@@ -3450,16 +3740,6 @@
     "review_reason": "classified as experienced — outside fresher audience"
   },
   {
-    "page": "/docs/jobs/tekmindz-dot-net-developer-sse-tl.html",
-    "company": "TekMindz",
-    "title": "Dot Net Developer (SSE/TL)",
-    "source": "TekMindz",
-    "category": "unknown",
-    "status": "active",
-    "confidence": 75,
-    "review_reason": "could not determine entry-level fit from posting"
-  },
-  {
     "page": "/docs/jobs/techdome-product-manager-ai-software-delivery.html",
     "company": "Techdome",
     "title": "Product Manager – AI & Software Delivery",
@@ -3488,6 +3768,16 @@
     "status": "active",
     "confidence": 85,
     "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/tekmindz-dot-net-developer-sse-tl.html",
+    "company": "TekMindz",
+    "title": "Dot Net Developer (SSE/TL)",
+    "source": "TekMindz",
+    "category": "unknown",
+    "status": "active",
+    "confidence": 75,
+    "review_reason": "could not determine entry-level fit from posting"
   },
   {
     "page": "/docs/jobs/flobiz-customer-support-associate-voice-process.html",
@@ -3618,256 +3908,6 @@
     "status": "unknown",
     "confidence": 50,
     "review_reason": "classified as experienced — outside fresher audience; posting description too thin to rewrite faithfully; could not verify the posting is currently open"
-  },
-  {
-    "page": "/docs/jobs/powergrid-engagement-of-apprentices.html",
-    "company": "PowerGrid",
-    "title": "Engagement of Apprentices",
-    "source": "PowerGrid",
-    "category": "internship",
-    "status": "unknown",
-    "confidence": 50,
-    "review_reason": "posting description too thin to rewrite faithfully; could not verify the posting is currently open"
-  },
-  {
-    "page": "/docs/jobs/powergrid-recruitment-of-diploma-trainee-electrical-civil-el.html",
-    "company": "PowerGrid",
-    "title": "Recruitment of Diploma Trainee (Electrical/Civil/Electronics) for Region and Corporate Centre 2023-24",
-    "source": "PowerGrid",
-    "category": "fresher",
-    "status": "unknown",
-    "confidence": 70,
-    "review_reason": "could not verify the posting is currently open"
-  },
-  {
-    "page": "/docs/jobs/powergrid-northern-region-i-delhi-recruitment.html",
-    "company": "PowerGrid",
-    "title": "Northern Region-I, Delhi Recruitment",
-    "source": "PowerGrid",
-    "category": "unknown",
-    "status": "unknown",
-    "confidence": 40,
-    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully; could not verify the posting is currently open"
-  },
-  {
-    "page": "/docs/jobs/powergrid-northern-region-ii-jammu-recruitment.html",
-    "company": "PowerGrid",
-    "title": "Northern Region-II, Jammu Recruitment",
-    "source": "PowerGrid",
-    "category": "unknown",
-    "status": "unknown",
-    "confidence": 40,
-    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully; could not verify the posting is currently open"
-  },
-  {
-    "page": "/docs/jobs/powergrid-northern-region-iii-lucknow-recruitment.html",
-    "company": "PowerGrid",
-    "title": "Northern Region-III, Lucknow Recruitment",
-    "source": "PowerGrid",
-    "category": "unknown",
-    "status": "unknown",
-    "confidence": 40,
-    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully; could not verify the posting is currently open"
-  },
-  {
-    "page": "/docs/jobs/powergrid-eastern-region-i-patna-recruitment.html",
-    "company": "PowerGrid",
-    "title": "Eastern Region-I, Patna Recruitment",
-    "source": "PowerGrid",
-    "category": "unknown",
-    "status": "unknown",
-    "confidence": 40,
-    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully; could not verify the posting is currently open"
-  },
-  {
-    "page": "/docs/jobs/powergrid-eastern-region-ii-kolkata-recruitment.html",
-    "company": "PowerGrid",
-    "title": "Eastern Region-II, Kolkata Recruitment",
-    "source": "PowerGrid",
-    "category": "unknown",
-    "status": "unknown",
-    "confidence": 40,
-    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully; could not verify the posting is currently open"
-  },
-  {
-    "page": "/docs/jobs/powergrid-western-region-i-nagpur-recruitment.html",
-    "company": "PowerGrid",
-    "title": "Western Region-I, Nagpur Recruitment",
-    "source": "PowerGrid",
-    "category": "unknown",
-    "status": "unknown",
-    "confidence": 40,
-    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully; could not verify the posting is currently open"
-  },
-  {
-    "page": "/docs/jobs/powergrid-western-region-ii-vadodara-recruitment.html",
-    "company": "PowerGrid",
-    "title": "Western Region-II, Vadodara Recruitment",
-    "source": "PowerGrid",
-    "category": "unknown",
-    "status": "unknown",
-    "confidence": 40,
-    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully; could not verify the posting is currently open"
-  },
-  {
-    "page": "/docs/jobs/powergrid-southern-region-i-hyderabad-recruitment.html",
-    "company": "PowerGrid",
-    "title": "Southern Region-I, Hyderabad Recruitment",
-    "source": "PowerGrid",
-    "category": "unknown",
-    "status": "unknown",
-    "confidence": 40,
-    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully; could not verify the posting is currently open"
-  },
-  {
-    "page": "/docs/jobs/powergrid-southern-region-ii-bangalore-recruitment.html",
-    "company": "PowerGrid",
-    "title": "Southern Region-II, Bangalore Recruitment",
-    "source": "PowerGrid",
-    "category": "unknown",
-    "status": "unknown",
-    "confidence": 40,
-    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully; could not verify the posting is currently open"
-  },
-  {
-    "page": "/docs/jobs/powergrid-north-eastern-region-recruitment.html",
-    "company": "PowerGrid",
-    "title": "North Eastern Region Recruitment",
-    "source": "PowerGrid",
-    "category": "unknown",
-    "status": "unknown",
-    "confidence": 40,
-    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully; could not verify the posting is currently open"
-  },
-  {
-    "page": "/docs/jobs/powergrid-odisha-projects-recruitment.html",
-    "company": "PowerGrid",
-    "title": "Odisha Projects Recruitment",
-    "source": "PowerGrid",
-    "category": "unknown",
-    "status": "unknown",
-    "confidence": 40,
-    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully; could not verify the posting is currently open"
-  },
-  {
-    "page": "/docs/jobs/powergrid-active-recruitment-of-engineer-trainees-2027-throu.html",
-    "company": "PowerGrid",
-    "title": "Active Recruitment of Engineer Trainees-2027 through GATE 2027 Advt No. CC/03/2026 dated 24.09.2026",
-    "source": "PowerGrid",
-    "category": "fresher",
-    "status": "unknown",
-    "confidence": 70,
-    "review_reason": "could not verify the posting is currently open"
-  },
-  {
-    "page": "/docs/jobs/powergrid-window-advertisement-english.html",
-    "company": "PowerGrid",
-    "title": "Window Advertisement -English",
-    "source": "PowerGrid",
-    "category": "unknown",
-    "status": "unknown",
-    "confidence": 40,
-    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully; could not verify the posting is currently open"
-  },
-  {
-    "page": "/docs/jobs/powergrid-window-advertisement-hindi.html",
-    "company": "PowerGrid",
-    "title": "Window Advertisement-Hindi",
-    "source": "PowerGrid",
-    "category": "unknown",
-    "status": "unknown",
-    "confidence": 40,
-    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully; could not verify the posting is currently open"
-  },
-  {
-    "page": "/docs/jobs/powergrid-a-class-showmorebtn-mt-2-href-https-www-powergrid-.html",
-    "company": "PowerGrid",
-    "title": "a class=\"showMoreBtn mt-2\" href=\"https://www.powergrid.in/sites/default/files/job_opportunities_document/023-Powergrid-8x10-Recruitment-Ad.\" rel=\"noopener noreferrer\" target=\"_blank\" title=\"Window Advertisement -English\">Window Advertisement -English (165.47 KB) Window Advertisement-Hindi (169.73 KB)",
-    "source": "PowerGrid",
-    "category": "unknown",
-    "status": "unknown",
-    "confidence": 70,
-    "review_reason": "could not determine entry-level fit from posting; could not verify the posting is currently open"
-  },
-  {
-    "page": "/docs/jobs/powergrid-notice-1-recruitment-portal-unavailable-from-12-am.html",
-    "company": "PowerGrid",
-    "title": "Notice-1-Recruitment Portal Unavailable from 12 AM to 01 AM for 1 Hour on 30th April 2026",
-    "source": "PowerGrid",
-    "category": "unknown",
-    "status": "unknown",
-    "confidence": 60,
-    "review_reason": "could not determine entry-level fit from posting; could not verify the posting is currently open"
-  },
-  {
-    "page": "/docs/jobs/powergrid-cs-notice-no-07-provisionally-shortlisted-candidat.html",
-    "company": "PowerGrid",
-    "title": "(CS) \">Notice No 07-Provisionally Shortlisted Candidates for Interview for the Post of Officer Trainee (CS)",
-    "source": "PowerGrid",
-    "category": "fresher",
-    "status": "unknown",
-    "confidence": 70,
-    "review_reason": "could not verify the posting is currently open"
-  },
-  {
-    "page": "/docs/jobs/powergrid-finance-notice-no-08-provisionally-shortlisted-can.html",
-    "company": "PowerGrid",
-    "title": "(Finance) \">Notice No 08-Provisionally Shortlisted Candidates for Interview for the Post of Officer Trainee (Finance)",
-    "source": "PowerGrid",
-    "category": "fresher",
-    "status": "unknown",
-    "confidence": 70,
-    "review_reason": "could not verify the posting is currently open"
-  },
-  {
-    "page": "/docs/jobs/powergrid-finance-notice-10-prov-shortlisted-for-pre-employm.html",
-    "company": "PowerGrid",
-    "title": "(Finance) \">Notice_10_Prov Shortlisted for Pre Employment Medical Examination for the Post of Officer Trainee (Finance)",
-    "source": "PowerGrid",
-    "category": "fresher",
-    "status": "unknown",
-    "confidence": 70,
-    "review_reason": "could not verify the posting is currently open"
-  },
-  {
-    "page": "/docs/jobs/powergrid-notice-no-07-provisionally-shortlisted-candidates-.html",
-    "company": "PowerGrid",
-    "title": "Notice No 07-Provisionally Shortlisted Candidates for Interview for the Post of Officer Trainee (CS)",
-    "source": "PowerGrid",
-    "category": "fresher",
-    "status": "unknown",
-    "confidence": 70,
-    "review_reason": "could not verify the posting is currently open"
-  },
-  {
-    "page": "/docs/jobs/powergrid-notice-no-08-provisionally-shortlisted-candidates-.html",
-    "company": "PowerGrid",
-    "title": "Notice No 08-Provisionally Shortlisted Candidates for Interview for the Post of Officer Trainee (Finance)",
-    "source": "PowerGrid",
-    "category": "fresher",
-    "status": "unknown",
-    "confidence": 70,
-    "review_reason": "could not verify the posting is currently open"
-  },
-  {
-    "page": "/docs/jobs/powergrid-notice-10-prov-shortlisted-for-pre-employment-medi.html",
-    "company": "PowerGrid",
-    "title": "Notice_10_Prov Shortlisted for Pre Employment Medical Examination for the Post of Officer Trainee (Finance)",
-    "source": "PowerGrid",
-    "category": "fresher",
-    "status": "unknown",
-    "confidence": 70,
-    "review_reason": "could not verify the posting is currently open"
-  },
-  {
-    "page": "/docs/jobs/powergrid-notice-01-2025-dtd-30-09-2025-vacancy-notification.html",
-    "company": "PowerGrid",
-    "title": "Notice 01-2025 dtd 30-09-2025 - Vacancy Notification",
-    "source": "PowerGrid",
-    "category": "unknown",
-    "status": "unknown",
-    "confidence": 40,
-    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully; could not verify the posting is currently open"
   },
   {
     "page": "/docs/jobs/npcil-08-10-2026-npcil-hq-hrm-et-2026-03-recruitment-of-engi.html",
@@ -4328,5 +4368,15 @@
     "status": "unknown",
     "confidence": 90,
     "review_reason": "could not verify the posting is currently open"
+  },
+  {
+    "page": "/docs/jobs/padcare-product-analyst-process-systems.html",
+    "company": "PadCare",
+    "title": "Product Analyst (Process & Systems)",
+    "source": "HireDoor",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
   }
 ]
