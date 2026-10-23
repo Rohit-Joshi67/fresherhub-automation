@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-23T07:12:32.992Z",
-  "totalJobs": 339,
-  "publishedCount": 339,
-  "quarantinedCount": 465,
-  "reviewCount": 465,
-  "privateCount": 339,
+  "updatedAt": "2026-10-23T18:12:57.323Z",
+  "totalJobs": 348,
+  "publishedCount": 348,
+  "quarantinedCount": 478,
+  "reviewCount": 478,
+  "privateCount": 348,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -665,7 +665,7 @@
       "source": "ashby-sarvam",
       "name": "Sarvam AI",
       "kind": "ashby",
-      "fetched": 3
+      "fetched": 4
     },
     {
       "source": "ashby-semgrep",
@@ -731,7 +731,7 @@
       "source": "ashby-supabase",
       "name": "Supabase",
       "kind": "ashby",
-      "fetched": 18
+      "fetched": 19
     },
     {
       "source": "ashby-synctera",
@@ -863,7 +863,7 @@
       "source": "gh-affirm",
       "name": "Affirm",
       "kind": "greenhouse",
-      "fetched": 36
+      "fetched": 37
     },
     {
       "source": "gh-affle",
@@ -1319,7 +1319,7 @@
       "source": "gh-mongodb",
       "name": "MongoDB",
       "kind": "greenhouse",
-      "fetched": 18
+      "fetched": 17
     },
     {
       "source": "gh-monzo",
@@ -1433,13 +1433,13 @@
       "source": "gh-pubmatic",
       "name": "PubMatic",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "gh-qualtrics",
       "name": "Qualtrics",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 3
     },
     {
       "source": "gh-razorpay",
@@ -1475,7 +1475,7 @@
       "source": "gh-roblox",
       "name": "Roblox",
       "kind": "greenhouse",
-      "fetched": 8
+      "fetched": 6
     },
     {
       "source": "gh-rti",
@@ -1487,7 +1487,7 @@
       "source": "gh-salesloft",
       "name": "Salesloft",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "gh-scaleai",
@@ -1523,7 +1523,7 @@
       "source": "gh-slice",
       "name": "Slice",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "gh-sofi",
@@ -1607,7 +1607,7 @@
       "source": "gh-togetherai",
       "name": "Together AI",
       "kind": "greenhouse",
-      "fetched": 3
+      "fetched": 4
     },
     {
       "source": "gh-tripadvisor",
@@ -1685,7 +1685,7 @@
       "source": "gh-zoominfo",
       "name": "ZoomInfo",
       "kind": "greenhouse",
-      "fetched": 5
+      "fetched": 4
     },
     {
       "source": "gh-zscaler",
@@ -1704,8 +1704,7 @@
       "source": "govt-cdac",
       "name": "C-DAC",
       "kind": "govt",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 18
     },
     {
       "source": "govt-hpcl",
@@ -1797,7 +1796,7 @@
       "source": "keka-avengers",
       "name": "Avengers",
       "kind": "keka",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "keka-beyondkey",
@@ -1881,7 +1880,7 @@
       "source": "keka-finacplus",
       "name": "FinacPlus",
       "kind": "keka",
-      "fetched": 3
+      "fetched": 2
     },
     {
       "source": "keka-fynd",
@@ -2067,7 +2066,7 @@
       "source": "keka-sisinty",
       "name": "GrowthSchool",
       "kind": "keka",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "keka-softlinkglobal",
@@ -2115,7 +2114,7 @@
       "source": "keka-techdome",
       "name": "Techdome",
       "kind": "keka",
-      "fetched": 4
+      "fetched": 3
     },
     {
       "source": "keka-tekmindz",
@@ -2313,7 +2312,7 @@
       "source": "lever-entrata",
       "name": "Entrata",
       "kind": "lever",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "lever-everbridge",
@@ -2409,7 +2408,7 @@
       "source": "lever-jumpcloud",
       "name": "JumpCloud",
       "kind": "lever",
-      "fetched": 8
+      "fetched": 7
     },
     {
       "source": "lever-lalamove",
@@ -2535,7 +2534,7 @@
       "source": "lever-paytm",
       "name": "Paytm",
       "kind": "lever",
-      "fetched": 24
+      "fetched": 25
     },
     {
       "source": "lever-pigment",
@@ -2762,7 +2761,6 @@
   ],
   "sitesSkippedByRobots": [
     "BPCL",
-    "C-DAC",
     "IBPS",
     "UPSC"
   ],
