@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-22T18:26:28.811Z",
-  "totalJobs": 341,
-  "publishedCount": 341,
-  "quarantinedCount": 438,
-  "reviewCount": 438,
-  "privateCount": 341,
+  "updatedAt": "2026-10-23T07:12:32.992Z",
+  "totalJobs": 339,
+  "publishedCount": 339,
+  "quarantinedCount": 465,
+  "reviewCount": 465,
+  "privateCount": 339,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -305,7 +305,7 @@
       "source": "ashby-harvey",
       "name": "Harvey",
       "kind": "ashby",
-      "fetched": 3
+      "fetched": 4
     },
     {
       "source": "ashby-hex",
@@ -851,7 +851,7 @@
       "source": "gh-6sense",
       "name": "6sense",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "gh-adyen",
@@ -1013,7 +1013,7 @@
       "source": "gh-coinbase",
       "name": "Coinbase",
       "kind": "greenhouse",
-      "fetched": 29
+      "fetched": 27
     },
     {
       "source": "gh-collibra",
@@ -1139,7 +1139,7 @@
       "source": "gh-figma",
       "name": "Figma",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 4
     },
     {
       "source": "gh-fireblocks",
@@ -1199,7 +1199,7 @@
       "source": "gh-gusto",
       "name": "Gusto",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "gh-hellofresh",
@@ -1223,7 +1223,7 @@
       "source": "gh-honeycomb",
       "name": "Honeycomb",
       "kind": "greenhouse",
-      "fetched": 3
+      "fetched": 1
     },
     {
       "source": "gh-hubspot",
@@ -1241,7 +1241,7 @@
       "source": "gh-inmobi",
       "name": "InMobi",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "gh-instacart",
@@ -1505,7 +1505,7 @@
       "source": "gh-sezzle",
       "name": "Sezzle",
       "kind": "greenhouse",
-      "fetched": 65
+      "fetched": 66
     },
     {
       "source": "gh-shifttechnology",
@@ -1571,7 +1571,7 @@
       "source": "gh-sumologic",
       "name": "Sumo Logic",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "gh-taboola",
@@ -1625,7 +1625,7 @@
       "source": "gh-twilio",
       "name": "Twilio",
       "kind": "greenhouse",
-      "fetched": 28
+      "fetched": 27
     },
     {
       "source": "gh-twitch",
@@ -1691,7 +1691,7 @@
       "source": "gh-zscaler",
       "name": "Zscaler",
       "kind": "greenhouse",
-      "fetched": 12
+      "fetched": 11
     },
     {
       "source": "govt-bpcl",
@@ -1704,7 +1704,8 @@
       "source": "govt-cdac",
       "name": "C-DAC",
       "kind": "govt",
-      "fetched": 18
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "govt-hpcl",
@@ -1741,14 +1742,13 @@
       "source": "govt-pgcil",
       "name": "PowerGrid",
       "kind": "govt",
-      "fetched": 0
+      "fetched": 25
     },
     {
       "source": "govt-sbi",
       "name": "SBI",
       "kind": "govt",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 25
     },
     {
       "source": "govt-upsc",
@@ -1761,7 +1761,7 @@
       "source": "hiredoor",
       "name": "HireDoor",
       "kind": "hiredoor",
-      "fetched": 30
+      "fetched": 31
     },
     {
       "source": "keka-10decoders",
@@ -2115,7 +2115,7 @@
       "source": "keka-techdome",
       "name": "Techdome",
       "kind": "keka",
-      "fetched": 6
+      "fetched": 4
     },
     {
       "source": "keka-tekmindz",
@@ -2762,7 +2762,7 @@
   ],
   "sitesSkippedByRobots": [
     "BPCL",
-    "SBI",
+    "C-DAC",
     "IBPS",
     "UPSC"
   ],
