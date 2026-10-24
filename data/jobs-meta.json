@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-24T07:02:10.667Z",
-  "totalJobs": 342,
-  "publishedCount": 342,
-  "quarantinedCount": 468,
-  "reviewCount": 468,
-  "privateCount": 342,
+  "updatedAt": "2026-10-24T17:17:26.663Z",
+  "totalJobs": 336,
+  "publishedCount": 336,
+  "quarantinedCount": 478,
+  "reviewCount": 478,
+  "privateCount": 336,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -731,7 +731,7 @@
       "source": "ashby-supabase",
       "name": "Supabase",
       "kind": "ashby",
-      "fetched": 19
+      "fetched": 20
     },
     {
       "source": "ashby-synctera",
@@ -1397,7 +1397,7 @@
       "source": "gh-pinterest",
       "name": "Pinterest",
       "kind": "greenhouse",
-      "fetched": 9
+      "fetched": 10
     },
     {
       "source": "gh-planetscale",
@@ -1451,7 +1451,7 @@
       "source": "gh-reddit",
       "name": "Reddit",
       "kind": "greenhouse",
-      "fetched": 9
+      "fetched": 10
     },
     {
       "source": "gh-remote",
@@ -1761,7 +1761,7 @@
       "source": "hiredoor",
       "name": "HireDoor",
       "kind": "hiredoor",
-      "fetched": 31
+      "fetched": 32
     },
     {
       "source": "keka-10decoders",
@@ -2115,7 +2115,7 @@
       "source": "keka-techdome",
       "name": "Techdome",
       "kind": "keka",
-      "fetched": 3
+      "fetched": 4
     },
     {
       "source": "keka-tekmindz",
@@ -2535,7 +2535,7 @@
       "source": "lever-paytm",
       "name": "Paytm",
       "kind": "lever",
-      "fetched": 25
+      "fetched": 24
     },
     {
       "source": "lever-pigment",
