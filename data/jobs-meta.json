@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-25T07:25:49.948Z",
-  "totalJobs": 346,
-  "publishedCount": 346,
-  "quarantinedCount": 487,
-  "reviewCount": 487,
-  "privateCount": 346,
+  "updatedAt": "2026-10-25T17:30:52.903Z",
+  "totalJobs": 330,
+  "publishedCount": 330,
+  "quarantinedCount": 502,
+  "reviewCount": 502,
+  "privateCount": 330,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -1319,7 +1319,7 @@
       "source": "gh-mongodb",
       "name": "MongoDB",
       "kind": "greenhouse",
-      "fetched": 17
+      "fetched": 16
     },
     {
       "source": "gh-monzo",
