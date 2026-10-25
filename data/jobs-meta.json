@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-24T17:17:26.663Z",
-  "totalJobs": 336,
-  "publishedCount": 336,
-  "quarantinedCount": 478,
-  "reviewCount": 478,
-  "privateCount": 336,
+  "updatedAt": "2026-10-25T07:25:49.948Z",
+  "totalJobs": 346,
+  "publishedCount": 346,
+  "quarantinedCount": 487,
+  "reviewCount": 487,
+  "privateCount": 346,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -1747,8 +1747,7 @@
       "source": "govt-sbi",
       "name": "SBI",
       "kind": "govt",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 25
     },
     {
       "source": "govt-upsc",
@@ -2762,7 +2761,6 @@
   ],
   "sitesSkippedByRobots": [
     "BPCL",
-    "SBI",
     "IBPS",
     "UPSC"
   ],
