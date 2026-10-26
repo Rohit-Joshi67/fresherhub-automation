@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-26T07:35:32.904Z",
-  "totalJobs": 340,
-  "publishedCount": 340,
-  "quarantinedCount": 440,
-  "reviewCount": 440,
-  "privateCount": 340,
+  "updatedAt": "2026-10-26T19:49:07.579Z",
+  "totalJobs": 323,
+  "publishedCount": 323,
+  "quarantinedCount": 471,
+  "reviewCount": 471,
+  "privateCount": 323,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -119,7 +119,7 @@
       "source": "ashby-cartesia",
       "name": "Cartesia",
       "kind": "ashby",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "ashby-castle",
@@ -575,7 +575,7 @@
       "source": "ashby-posthog",
       "name": "PostHog",
       "kind": "ashby",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "ashby-prefect",
@@ -593,7 +593,7 @@
       "source": "ashby-ramp",
       "name": "Ramp",
       "kind": "ashby",
-      "fetched": 7
+      "fetched": 8
     },
     {
       "source": "ashby-rasa",
@@ -641,7 +641,7 @@
       "source": "ashby-runpod",
       "name": "RunPod",
       "kind": "ashby",
-      "fetched": 4
+      "fetched": 5
     },
     {
       "source": "ashby-runwayml",
@@ -731,7 +731,7 @@
       "source": "ashby-supabase",
       "name": "Supabase",
       "kind": "ashby",
-      "fetched": 20
+      "fetched": 21
     },
     {
       "source": "ashby-synctera",
@@ -863,7 +863,7 @@
       "source": "gh-affirm",
       "name": "Affirm",
       "kind": "greenhouse",
-      "fetched": 37
+      "fetched": 36
     },
     {
       "source": "gh-affle",
@@ -875,7 +875,7 @@
       "source": "gh-airbnb",
       "name": "Airbnb",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 3
     },
     {
       "source": "gh-airtable",
@@ -1001,7 +1001,7 @@
       "source": "gh-cloudsek",
       "name": "CloudSEK",
       "kind": "greenhouse",
-      "fetched": 7
+      "fetched": 8
     },
     {
       "source": "gh-cockroachlabs",
@@ -1013,7 +1013,7 @@
       "source": "gh-coinbase",
       "name": "Coinbase",
       "kind": "greenhouse",
-      "fetched": 27
+      "fetched": 26
     },
     {
       "source": "gh-collibra",
@@ -1139,7 +1139,7 @@
       "source": "gh-figma",
       "name": "Figma",
       "kind": "greenhouse",
-      "fetched": 4
+      "fetched": 3
     },
     {
       "source": "gh-fireblocks",
@@ -1217,7 +1217,7 @@
       "source": "gh-highradius",
       "name": "HighRadius",
       "kind": "greenhouse",
-      "fetched": 16
+      "fetched": 14
     },
     {
       "source": "gh-honeycomb",
@@ -1235,7 +1235,7 @@
       "source": "gh-inkind",
       "name": "inKind",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "gh-inmobi",
@@ -1247,7 +1247,7 @@
       "source": "gh-instacart",
       "name": "Instacart",
       "kind": "greenhouse",
-      "fetched": 7
+      "fetched": 5
     },
     {
       "source": "gh-intercom",
@@ -1271,7 +1271,7 @@
       "source": "gh-kiavi",
       "name": "Kiavi",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "gh-klaviyo",
@@ -1319,13 +1319,13 @@
       "source": "gh-mongodb",
       "name": "MongoDB",
       "kind": "greenhouse",
-      "fetched": 16
+      "fetched": 15
     },
     {
       "source": "gh-monzo",
       "name": "Monzo",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "gh-n26",
@@ -1337,7 +1337,7 @@
       "source": "gh-neo4j",
       "name": "Neo4j",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "gh-netlify",
@@ -1349,7 +1349,7 @@
       "source": "gh-newrelic",
       "name": "New Relic",
       "kind": "greenhouse",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "gh-nextdoor",
@@ -1397,7 +1397,7 @@
       "source": "gh-pinterest",
       "name": "Pinterest",
       "kind": "greenhouse",
-      "fetched": 10
+      "fetched": 9
     },
     {
       "source": "gh-planetscale",
@@ -1445,7 +1445,7 @@
       "source": "gh-razorpay",
       "name": "Razorpay",
       "kind": "greenhouse",
-      "fetched": 3
+      "fetched": 4
     },
     {
       "source": "gh-reddit",
@@ -1505,7 +1505,7 @@
       "source": "gh-sezzle",
       "name": "Sezzle",
       "kind": "greenhouse",
-      "fetched": 66
+      "fetched": 64
     },
     {
       "source": "gh-shifttechnology",
@@ -1679,7 +1679,7 @@
       "source": "gh-yipitdata",
       "name": "YipitData",
       "kind": "greenhouse",
-      "fetched": 10
+      "fetched": 11
     },
     {
       "source": "gh-zoominfo",
@@ -1691,7 +1691,7 @@
       "source": "gh-zscaler",
       "name": "Zscaler",
       "kind": "greenhouse",
-      "fetched": 11
+      "fetched": 10
     },
     {
       "source": "govt-bpcl",
@@ -1704,7 +1704,7 @@
       "source": "govt-cdac",
       "name": "C-DAC",
       "kind": "govt",
-      "fetched": 0
+      "fetched": 18
     },
     {
       "source": "govt-hpcl",
@@ -1747,8 +1747,7 @@
       "source": "govt-sbi",
       "name": "SBI",
       "kind": "govt",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 25
     },
     {
       "source": "govt-upsc",
@@ -1761,7 +1760,7 @@
       "source": "hiredoor",
       "name": "HireDoor",
       "kind": "hiredoor",
-      "fetched": 32
+      "fetched": 30
     },
     {
       "source": "keka-10decoders",
@@ -1815,7 +1814,7 @@
       "source": "keka-brandstory",
       "name": "BrandStory",
       "kind": "keka",
-      "fetched": 5
+      "fetched": 4
     },
     {
       "source": "keka-clickpost",
@@ -1977,7 +1976,7 @@
       "source": "keka-minfy",
       "name": "Minfy",
       "kind": "keka",
-      "fetched": 4
+      "fetched": 2
     },
     {
       "source": "keka-niyo",
@@ -2055,7 +2054,7 @@
       "source": "keka-saneforce",
       "name": "SANeForce",
       "kind": "keka",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "keka-signzy",
@@ -2133,7 +2132,7 @@
       "source": "keka-toddle",
       "name": "Toddle",
       "kind": "keka",
-      "fetched": 5
+      "fetched": 4
     },
     {
       "source": "keka-truagency",
@@ -2325,7 +2324,7 @@
       "source": "lever-extremenetworks",
       "name": "Extreme Networks",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 9
     },
     {
       "source": "lever-fampay",
@@ -2409,7 +2408,7 @@
       "source": "lever-jumpcloud",
       "name": "JumpCloud",
       "kind": "lever",
-      "fetched": 9
+      "fetched": 8
     },
     {
       "source": "lever-lalamove",
@@ -2451,7 +2450,7 @@
       "source": "lever-meesho",
       "name": "Meesho",
       "kind": "lever",
-      "fetched": 3
+      "fetched": 2
     },
     {
       "source": "lever-mindtickle",
@@ -2499,7 +2498,7 @@
       "source": "lever-neuron7",
       "name": "Neuron7.ai",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "lever-octoenergy",
@@ -2511,7 +2510,7 @@
       "source": "lever-olo",
       "name": "Olo",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 2
     },
     {
       "source": "lever-oowlish",
@@ -2535,7 +2534,7 @@
       "source": "lever-paytm",
       "name": "Paytm",
       "kind": "lever",
-      "fetched": 24
+      "fetched": 0
     },
     {
       "source": "lever-pigment",
@@ -2762,7 +2761,6 @@
   ],
   "sitesSkippedByRobots": [
     "BPCL",
-    "SBI",
     "IBPS",
     "UPSC"
   ],
