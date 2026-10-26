@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-25T17:30:52.903Z",
-  "totalJobs": 330,
-  "publishedCount": 330,
-  "quarantinedCount": 502,
-  "reviewCount": 502,
-  "privateCount": 330,
+  "updatedAt": "2026-10-26T07:35:32.904Z",
+  "totalJobs": 340,
+  "publishedCount": 340,
+  "quarantinedCount": 440,
+  "reviewCount": 440,
+  "privateCount": 340,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -665,7 +665,7 @@
       "source": "ashby-sarvam",
       "name": "Sarvam AI",
       "kind": "ashby",
-      "fetched": 4
+      "fetched": 3
     },
     {
       "source": "ashby-semgrep",
@@ -1133,7 +1133,7 @@
       "source": "gh-fastly",
       "name": "Fastly",
       "kind": "greenhouse",
-      "fetched": 3
+      "fetched": 2
     },
     {
       "source": "gh-figma",
@@ -1151,7 +1151,7 @@
       "source": "gh-five9",
       "name": "Five9",
       "kind": "greenhouse",
-      "fetched": 5
+      "fetched": 4
     },
     {
       "source": "gh-fivetran",
@@ -1349,7 +1349,7 @@
       "source": "gh-newrelic",
       "name": "New Relic",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "gh-nextdoor",
@@ -1704,7 +1704,7 @@
       "source": "govt-cdac",
       "name": "C-DAC",
       "kind": "govt",
-      "fetched": 18
+      "fetched": 0
     },
     {
       "source": "govt-hpcl",
@@ -1747,7 +1747,8 @@
       "source": "govt-sbi",
       "name": "SBI",
       "kind": "govt",
-      "fetched": 25
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "govt-upsc",
@@ -1802,7 +1803,7 @@
       "source": "keka-beyondkey",
       "name": "Beyond Key",
       "kind": "keka",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "keka-beyondroot",
@@ -1976,7 +1977,7 @@
       "source": "keka-minfy",
       "name": "Minfy",
       "kind": "keka",
-      "fetched": 3
+      "fetched": 4
     },
     {
       "source": "keka-niyo",
@@ -2060,7 +2061,7 @@
       "source": "keka-signzy",
       "name": "Signzy",
       "kind": "keka",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "keka-sisinty",
@@ -2324,13 +2325,13 @@
       "source": "lever-extremenetworks",
       "name": "Extreme Networks",
       "kind": "lever",
-      "fetched": 9
+      "fetched": 0
     },
     {
       "source": "lever-fampay",
       "name": "FamPay",
       "kind": "lever",
-      "fetched": 4
+      "fetched": 3
     },
     {
       "source": "lever-fi",
@@ -2498,7 +2499,7 @@
       "source": "lever-neuron7",
       "name": "Neuron7.ai",
       "kind": "lever",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "lever-octoenergy",
@@ -2510,7 +2511,7 @@
       "source": "lever-olo",
       "name": "Olo",
       "kind": "lever",
-      "fetched": 2
+      "fetched": 0
     },
     {
       "source": "lever-oowlish",
@@ -2720,7 +2721,7 @@
       "source": "lever-weekdayworks",
       "name": "Weekday",
       "kind": "lever",
-      "fetched": 14
+      "fetched": 13
     },
     {
       "source": "lever-workwave",
@@ -2761,6 +2762,7 @@
   ],
   "sitesSkippedByRobots": [
     "BPCL",
+    "SBI",
     "IBPS",
     "UPSC"
   ],
