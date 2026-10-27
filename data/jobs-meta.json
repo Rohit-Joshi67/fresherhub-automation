@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-26T19:49:07.579Z",
-  "totalJobs": 323,
-  "publishedCount": 323,
+  "updatedAt": "2026-10-27T07:31:49.962Z",
+  "totalJobs": 339,
+  "publishedCount": 339,
   "quarantinedCount": 471,
   "reviewCount": 471,
-  "privateCount": 323,
+  "privateCount": 339,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -467,7 +467,7 @@
       "source": "ashby-mudflap",
       "name": "Mudflap",
       "kind": "ashby",
-      "fetched": 4
+      "fetched": 5
     },
     {
       "source": "ashby-n8n",
@@ -755,7 +755,7 @@
       "source": "ashby-temporal",
       "name": "Temporal",
       "kind": "ashby",
-      "fetched": 2
+      "fetched": 3
     },
     {
       "source": "ashby-tensorwave",
@@ -863,7 +863,7 @@
       "source": "gh-affirm",
       "name": "Affirm",
       "kind": "greenhouse",
-      "fetched": 36
+      "fetched": 34
     },
     {
       "source": "gh-affle",
@@ -1241,13 +1241,13 @@
       "source": "gh-inmobi",
       "name": "InMobi",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "gh-instacart",
       "name": "Instacart",
       "kind": "greenhouse",
-      "fetched": 5
+      "fetched": 6
     },
     {
       "source": "gh-intercom",
@@ -1439,7 +1439,7 @@
       "source": "gh-qualtrics",
       "name": "Qualtrics",
       "kind": "greenhouse",
-      "fetched": 3
+      "fetched": 1
     },
     {
       "source": "gh-razorpay",
@@ -1511,7 +1511,7 @@
       "source": "gh-shifttechnology",
       "name": "Shift Technology",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "gh-sigmacomputing",
@@ -1607,7 +1607,7 @@
       "source": "gh-togetherai",
       "name": "Together AI",
       "kind": "greenhouse",
-      "fetched": 4
+      "fetched": 3
     },
     {
       "source": "gh-tripadvisor",
@@ -1685,7 +1685,7 @@
       "source": "gh-zoominfo",
       "name": "ZoomInfo",
       "kind": "greenhouse",
-      "fetched": 4
+      "fetched": 5
     },
     {
       "source": "gh-zscaler",
@@ -1735,7 +1735,8 @@
       "source": "govt-npcil",
       "name": "NPCIL",
       "kind": "govt",
-      "fetched": 9
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "govt-pgcil",
@@ -1760,7 +1761,7 @@
       "source": "hiredoor",
       "name": "HireDoor",
       "kind": "hiredoor",
-      "fetched": 30
+      "fetched": 31
     },
     {
       "source": "keka-10decoders",
@@ -1940,7 +1941,7 @@
       "source": "keka-kapturecrm",
       "name": "Kapture CX",
       "kind": "keka",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "keka-kinsfolk",
@@ -2054,7 +2055,7 @@
       "source": "keka-saneforce",
       "name": "SANeForce",
       "kind": "keka",
-      "fetched": 2
+      "fetched": 3
     },
     {
       "source": "keka-signzy",
@@ -2144,7 +2145,7 @@
       "source": "keka-valorem",
       "name": "FloBiz",
       "kind": "keka",
-      "fetched": 4
+      "fetched": 3
     },
     {
       "source": "keka-voidsolutions",
@@ -2534,7 +2535,7 @@
       "source": "lever-paytm",
       "name": "Paytm",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 24
     },
     {
       "source": "lever-pigment",
@@ -2762,6 +2763,7 @@
   "sitesSkippedByRobots": [
     "BPCL",
     "IBPS",
+    "NPCIL",
     "UPSC"
   ],
   "sitesWithErrors": [],
