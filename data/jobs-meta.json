@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-28T08:04:16.434Z",
-  "totalJobs": 331,
-  "publishedCount": 331,
-  "quarantinedCount": 475,
-  "reviewCount": 475,
-  "privateCount": 331,
+  "updatedAt": "2026-10-28T19:25:32.086Z",
+  "totalJobs": 346,
+  "publishedCount": 346,
+  "quarantinedCount": 481,
+  "reviewCount": 481,
+  "privateCount": 346,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -575,7 +575,7 @@
       "source": "ashby-posthog",
       "name": "PostHog",
       "kind": "ashby",
-      "fetched": 2
+      "fetched": 3
     },
     {
       "source": "ashby-prefect",
@@ -689,7 +689,7 @@
       "source": "ashby-signoz",
       "name": "SigNoz",
       "kind": "ashby",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "ashby-socket",
@@ -851,7 +851,7 @@
       "source": "gh-6sense",
       "name": "6sense",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "gh-adyen",
@@ -875,13 +875,13 @@
       "source": "gh-airbnb",
       "name": "Airbnb",
       "kind": "greenhouse",
-      "fetched": 4
+      "fetched": 3
     },
     {
       "source": "gh-airtable",
       "name": "Airtable",
       "kind": "greenhouse",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "gh-algolia",
@@ -1061,7 +1061,7 @@
       "source": "gh-datadog",
       "name": "Datadog",
       "kind": "greenhouse",
-      "fetched": 0
+      "fetched": 5
     },
     {
       "source": "gh-dataiku",
@@ -1133,7 +1133,7 @@
       "source": "gh-fastly",
       "name": "Fastly",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 3
     },
     {
       "source": "gh-figma",
@@ -1319,13 +1319,13 @@
       "source": "gh-mongodb",
       "name": "MongoDB",
       "kind": "greenhouse",
-      "fetched": 15
+      "fetched": 14
     },
     {
       "source": "gh-monzo",
       "name": "Monzo",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 0
     },
     {
       "source": "gh-n26",
@@ -1367,7 +1367,7 @@
       "source": "gh-okta",
       "name": "Okta",
       "kind": "greenhouse",
-      "fetched": 0
+      "fetched": 3
     },
     {
       "source": "gh-okx",
@@ -1445,7 +1445,7 @@
       "source": "gh-razorpay",
       "name": "Razorpay",
       "kind": "greenhouse",
-      "fetched": 4
+      "fetched": 2
     },
     {
       "source": "gh-reddit",
@@ -1649,7 +1649,7 @@
       "source": "gh-vercel",
       "name": "Vercel",
       "kind": "greenhouse",
-      "fetched": 4
+      "fetched": 3
     },
     {
       "source": "gh-webflow",
@@ -1679,7 +1679,7 @@
       "source": "gh-yipitdata",
       "name": "YipitData",
       "kind": "greenhouse",
-      "fetched": 11
+      "fetched": 10
     },
     {
       "source": "gh-zoominfo",
@@ -1747,8 +1747,7 @@
       "source": "govt-sbi",
       "name": "SBI",
       "kind": "govt",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 25
     },
     {
       "source": "govt-upsc",
@@ -1761,7 +1760,7 @@
       "source": "hiredoor",
       "name": "HireDoor",
       "kind": "hiredoor",
-      "fetched": 32
+      "fetched": 31
     },
     {
       "source": "keka-10decoders",
@@ -1815,7 +1814,7 @@
       "source": "keka-brandstory",
       "name": "BrandStory",
       "kind": "keka",
-      "fetched": 4
+      "fetched": 5
     },
     {
       "source": "keka-clickpost",
@@ -1887,7 +1886,7 @@
       "source": "keka-fynd",
       "name": "Fynd",
       "kind": "keka",
-      "fetched": 10
+      "fetched": 12
     },
     {
       "source": "keka-gameberry",
@@ -2013,7 +2012,7 @@
       "source": "keka-primetrace",
       "name": "Primetrace",
       "kind": "keka",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "keka-prismforce",
@@ -2079,7 +2078,7 @@
       "source": "keka-spyneai",
       "name": "Spyne",
       "kind": "keka",
-      "fetched": 2
+      "fetched": 0
     },
     {
       "source": "keka-supplychainhub",
@@ -2133,7 +2132,7 @@
       "source": "keka-toddle",
       "name": "Toddle",
       "kind": "keka",
-      "fetched": 4
+      "fetched": 3
     },
     {
       "source": "keka-truagency",
@@ -2313,7 +2312,7 @@
       "source": "lever-entrata",
       "name": "Entrata",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 2
     },
     {
       "source": "lever-everbridge",
@@ -2762,7 +2761,6 @@
   ],
   "sitesSkippedByRobots": [
     "BPCL",
-    "SBI",
     "IBPS",
     "UPSC"
   ],
