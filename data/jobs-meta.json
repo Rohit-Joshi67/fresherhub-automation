@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-27T19:18:44.251Z",
-  "totalJobs": 343,
-  "publishedCount": 343,
-  "quarantinedCount": 450,
-  "reviewCount": 450,
-  "privateCount": 343,
+  "updatedAt": "2026-10-28T08:04:16.434Z",
+  "totalJobs": 331,
+  "publishedCount": 331,
+  "quarantinedCount": 475,
+  "reviewCount": 475,
+  "privateCount": 331,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -191,7 +191,7 @@
       "source": "ashby-cursor",
       "name": "Cursor",
       "kind": "ashby",
-      "fetched": 3
+      "fetched": 2
     },
     {
       "source": "ashby-datafold",
@@ -647,7 +647,7 @@
       "source": "ashby-runwayml",
       "name": "Runway",
       "kind": "ashby",
-      "fetched": 5
+      "fetched": 4
     },
     {
       "source": "ashby-sanity",
@@ -875,7 +875,7 @@
       "source": "gh-airbnb",
       "name": "Airbnb",
       "kind": "greenhouse",
-      "fetched": 3
+      "fetched": 4
     },
     {
       "source": "gh-airtable",
@@ -1175,7 +1175,7 @@
       "source": "gh-gitlab",
       "name": "GitLab",
       "kind": "greenhouse",
-      "fetched": 10
+      "fetched": 11
     },
     {
       "source": "gh-glance",
@@ -1445,7 +1445,7 @@
       "source": "gh-razorpay",
       "name": "Razorpay",
       "kind": "greenhouse",
-      "fetched": 3
+      "fetched": 4
     },
     {
       "source": "gh-reddit",
@@ -1791,7 +1791,7 @@
       "source": "keka-athenainfonomics",
       "name": "Athena Infonomics",
       "kind": "keka",
-      "fetched": 3
+      "fetched": 2
     },
     {
       "source": "keka-avengers",
@@ -2145,7 +2145,7 @@
       "source": "keka-valorem",
       "name": "FloBiz",
       "kind": "keka",
-      "fetched": 3
+      "fetched": 4
     },
     {
       "source": "keka-voidsolutions",
@@ -2313,7 +2313,7 @@
       "source": "lever-entrata",
       "name": "Entrata",
       "kind": "lever",
-      "fetched": 2
+      "fetched": 0
     },
     {
       "source": "lever-everbridge",
@@ -2721,7 +2721,7 @@
       "source": "lever-weekdayworks",
       "name": "Weekday",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 14
     },
     {
       "source": "lever-workwave",
@@ -2739,7 +2739,7 @@
       "source": "lever-yuno",
       "name": "Yuno",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "lever-zaimler",
