@@ -1,149 +1,248 @@
 [
   {
-    "page": "/docs/jobs/razorpay-associate-sme-sales.html",
-    "company": "Razorpay",
-    "title": "Associate, SME Sales",
-    "apply_url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4748409005",
-    "headline": "Join Razorpay's SME Pre-Sales Team",
-    "subheadline": "Bengaluru | 0-1 Year Exp | Internship",
+    "page": "/docs/jobs/dropbox-backend-product-software-engineer.html",
+    "company": "Dropbox",
+    "title": "Backend Product Software Engineer",
+    "apply_url": "https://jobs.dropbox.com/listing/7172701?gh_jid=7172701",
+    "headline": "Backend Product Software Engineer @ Dropbox",
+    "subheadline": "Remote - Mexico | Entry-level (0–2 yrs)",
     "key_points": [
-      "Focus on lead qualification for payroll services",
-      "Support sales by coordinating demos",
-      "Identify cross-sell opportunities",
-      "Resolve basic product queries"
-    ],
-    "cta": "Apply via the official link",
-    "caption": "Razorpay is hiring an Associate for their SME Pre-Sales team in Bengaluru. This internship role involves lead qualification and supporting sales operations. It is suitable for freshers or those with up to one year of experience looking to start a career in fintech.",
-    "hashtags": [
-      "#fresherjobs",
-      "#bengalurujobs",
-      "#internship",
-      "#fintechjobs",
-      "#salesjobs",
-      "#razorpay"
-    ]
-  },
-  {
-    "page": "/docs/jobs/artefact-data-scientist.html",
-    "company": "Artefact",
-    "title": "Data Scientist",
-    "apply_url": "https://job-boards.greenhouse.io/artefact/jobs/8360412002",
-    "headline": "Data Scientist @ Artefact",
-    "subheadline": "India | Internship | ₹8–15 LPA",
-    "key_points": [
-      "Requirements Early-career data science profile for consulting work.",
+      "This year, Dropbox is on a mission to expedite the creation and implementation of AI-enable products by providing a comprehensive AI technology stack that facilitates speedy prototyping and reliable deployment of AI-driven functionalities.",
+      "Our Engineering Career Framework is viewable by anyone outside the company and describes what’s expected for our engineers at each of our career levels.",
+      "On-call work may be necessary occasionally to help address bugs, outages, or other operational issues, with the goal of maintaining a stable and high-quality experience for our customers.",
       "Skill: Python",
-      "Skill: SQL",
-      "Skill: Power BI"
+      "Skill: Java",
+      "Skill: Go"
     ],
-    "cta": "Apply on the official page: https://job-boards.greenhouse.io/artefact/jobs/8360412002",
-    "caption": "Hiring alert: Artefact is looking for a Data Scientist (India).\n\nEligibility: Internship.\nCompensation mentioned: ₹8–15 LPA.\n- Requirements Early-career data science profile for consulting work.\n- Skill: Python\n- Skill: SQL\n- Skill: Power BI\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "cta": "Apply on the official page: https://jobs.dropbox.com/listing/7172701?gh_jid=7172701",
+    "caption": "Hiring alert: Dropbox is looking for a Backend Product Software Engineer (Remote - Mexico).\n\nEligibility: Entry-level (0–2 yrs).\nCompensation: check the official posting for details.\n- This year, Dropbox is on a mission to expedite the creation and implementation of AI-enable products by providing a comprehensive AI technology stack that facilitates speedy prototyping and reliable deployment of AI-driven functionalities.\n- Our Engineering Career Framework is viewable by anyone outside the company and describes what’s expected for our engineers at each of our career levels.\n- On-call work may be necessary occasionally to help address bugs, outages, or other operational issues, with the goal of maintaining a stable and high-quality experience for our customers.\n- Skill: Python\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
     "hashtags": [
       "#fresherjobs",
       "#freshershiring",
       "#entryleveljobs",
       "#hiringindia",
-      "#artefacthiring",
+      "#dropboxhiring",
+      "#remotemexicojobs"
+    ]
+  },
+  {
+    "page": "/docs/jobs/gitlab-support-engineer-u-s-government-support-shift.html",
+    "company": "GitLab",
+    "title": "Support Engineer, U.S. Government Support (SHIFT)",
+    "apply_url": "https://job-boards.greenhouse.io/gitlab/jobs/8859063002",
+    "headline": "Support Engineer, U.S. Government Support (SHIFT) @ GitLab",
+    "subheadline": "Remote, United States | Internship",
+    "key_points": [
+      "More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster.",
+      "The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact.",
+      "Our high-performance culture is driven by our values and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems.",
+      "Skill: Kubernetes",
+      "Skill: Git",
+      "Skill: Linux"
+    ],
+    "cta": "Apply on the official page: https://job-boards.greenhouse.io/gitlab/jobs/8859063002",
+    "caption": "Hiring alert: GitLab is looking for a Support Engineer, U.S. Government Support (SHIFT) (Remote, United States).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster.\n- The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact.\n- Our high-performance culture is driven by our values and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems.\n- Skill: Kubernetes\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "hashtags": [
+      "#fresherjobs",
+      "#freshershiring",
+      "#entryleveljobs",
+      "#hiringindia",
+      "#gitlabhiring",
+      "#remoteunitedstatesjobs"
+    ]
+  },
+  {
+    "page": "/docs/jobs/athena-infonomics-intern-cbd.html",
+    "company": "Athena Infonomics",
+    "title": "Intern- CBD",
+    "apply_url": "https://athenainfonomics.keka.com/careers/jobdetails/168404",
+    "headline": "Intern- CBD @ Athena Infonomics",
+    "subheadline": "Delhi, Remote | Internship",
+    "key_points": [
+      "Proposal and Pre-Proposal Support Assist with document collection, CV formatting, and compliance checks against RFI and RFP requirements.",
+      "Required Skills and Qualifications Currently pursuing or recently completed a bachelor’s or master’s degree in information management, data management, business administration, development studies, social sciences, computer applications, or a related field.",
+      "Professional development and thought leadership are key elements of our business model: we support our team members' professional growth through on-the-job training, and we encourage the cultivation of our colleagues' personal brands through participation in panels, events, publications, and other thought-leadership opportunities.",
+      "Skill: Excel"
+    ],
+    "cta": "Apply on the official page: https://athenainfonomics.keka.com/careers/jobdetails/168404",
+    "caption": "Hiring alert: Athena Infonomics is looking for a Intern- CBD (Delhi, Remote).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Proposal and Pre-Proposal Support Assist with document collection, CV formatting, and compliance checks against RFI and RFP requirements.\n- Required Skills and Qualifications Currently pursuing or recently completed a bachelor’s or master’s degree in information management, data management, business administration, development studies, social sciences, computer applications, or a related field.\n- Professional development and thought leadership are key elements of our business model: we support our team members' professional growth through on-the-job training, and we encourage the cultivation of our colleagues' personal brands through participation in panels, events, publications, and other thought-leadership opportunities.\n- Skill: Excel\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "hashtags": [
+      "#fresherjobs",
+      "#freshershiring",
+      "#entryleveljobs",
+      "#hiringindia",
+      "#athenainfonomicshiring",
+      "#delhiremotejobs"
+    ]
+  },
+  {
+    "page": "/docs/jobs/iris-regtech-solutions-xbrl-conversion-specialist.html",
+    "company": "IRIS RegTech Solutions",
+    "title": "XBRL Conversion Specialist",
+    "apply_url": "https://irsl.keka.com/careers/jobdetails/146105",
+    "headline": "XBRL Conversion Specialist @ IRIS RegTech Solutions",
+    "subheadline": "Navi Mumbai | Internship",
+    "key_points": [
+      "The company is an active member of XBRL jurisdictions, including XBRL International, XBRL India, XBRL Europe, XBRL South Africa, and XBRL US.",
+      "Review and validate XBRL-tagged financial statements for accuracy and completeness Perform quality assurance checks to ensure compliance with XBRL specifications and regulator requirements Maintain detailed documentation of tagging decisions and project status Proficiency in financial and accounting principles.",
+      "Must be a full-time employee working from the office."
+    ],
+    "cta": "Apply on the official page: https://irsl.keka.com/careers/jobdetails/146105",
+    "caption": "Hiring alert: IRIS RegTech Solutions is looking for a XBRL Conversion Specialist (Navi Mumbai).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- The company is an active member of XBRL jurisdictions, including XBRL International, XBRL India, XBRL Europe, XBRL South Africa, and XBRL US.\n- Review and validate XBRL-tagged financial statements for accuracy and completeness Perform quality assurance checks to ensure compliance with XBRL specifications and regulator requirements Maintain detailed documentation of tagging decisions and project status Proficiency in financial and accounting principles.\n- Must be a full-time employee working from the office.\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "hashtags": [
+      "#fresherjobs",
+      "#freshershiring",
+      "#entryleveljobs",
+      "#hiringindia",
+      "#irisregtechsolutionshiring",
+      "#navimumbaijobs"
+    ]
+  },
+  {
+    "page": "/docs/jobs/surveysparrow-product-marketer-sparrowcrm.html",
+    "company": "SurveySparrow",
+    "title": "Product Marketer - SparrowCRM",
+    "apply_url": "https://surveysparrow.keka.com/careers/jobdetails/94148",
+    "headline": "Product Marketer - SparrowCRM @ SurveySparrow",
+    "subheadline": "India | Internship",
+    "key_points": [
+      "Location: Chennai & Work from Office Experience: 0–1 years About the Role We’re looking for a curious, creative, and driven Product Marketing Associate to join our team.",
+      "You’ll work closely with multiple teams to bring the product story to life through compelling messaging, content and campaigns We’re looking for someone with strong communication skills, a willingness to learn, and an interest in technology, SaaS, and how products win in the market.",
+      "What We’re Looking For Excellent written and verbal communication skills.",
+      "Skill: Go",
+      "Skill: Sales"
+    ],
+    "cta": "Apply on the official page: https://surveysparrow.keka.com/careers/jobdetails/94148",
+    "caption": "Hiring alert: SurveySparrow is looking for a Product Marketer - SparrowCRM (India).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Location: Chennai & Work from Office Experience: 0–1 years About the Role We’re looking for a curious, creative, and driven Product Marketing Associate to join our team.\n- You’ll work closely with multiple teams to bring the product story to life through compelling messaging, content and campaigns We’re looking for someone with strong communication skills, a willingness to learn, and an interest in technology, SaaS, and how products win in the market.\n- What We’re Looking For Excellent written and verbal communication skills.\n- Skill: Go\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "hashtags": [
+      "#fresherjobs",
+      "#freshershiring",
+      "#entryleveljobs",
+      "#hiringindia",
+      "#surveysparrowhiring",
       "#indiajobs"
     ]
   },
   {
-    "page": "/docs/jobs/optum-associate-data-scientist.html",
-    "company": "Optum",
-    "title": "Associate Data Scientist",
-    "apply_url": "https://careers.unitedhealthgroup.com/job/pune/associate-data-scientist/34088/101893701120",
-    "headline": "Associate Data Scientist @ Optum",
-    "subheadline": "India | Internship | ₹8–14 LPA",
+    "page": "/docs/jobs/cigna-qa-testing-associate-analyst-accessibility.html",
+    "company": "Cigna",
+    "title": "QA & Testing Associate Analyst (Accessibility)",
+    "apply_url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bengaluru-India/QA---Testing-Associate-Analyst---Cigna-Healthcare_26012801",
+    "headline": "QA & Testing Associate Analyst (Accessibility) @ Cigna",
+    "subheadline": "India | Entry-level (0–2 yrs) | ₹5–8 LPA",
     "key_points": [
-      "Skill: Python",
-      "Skill: SQL"
+      "Cigna is hiring a QA & Testing Associate Analyst (Accessibility) in Bengaluru.",
+      "Eligible batch: 2024-2026.",
+      "Identify accessibility barriers related to focus order, labels, headings, reading order, forms, errors, buttons, links, navigation, content visibility, and screen-reader interaction."
     ],
-    "cta": "Apply on the official page: https://careers.unitedhealthgroup.com/job/pune/associate-data-scientist/34088/101893701120",
-    "caption": "Hiring alert: Optum is looking for a Associate Data Scientist (India).\n\nEligibility: Internship.\nCompensation mentioned: ₹8–14 LPA.\n- Skill: Python\n- Skill: SQL\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "cta": "Apply on the official page: https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bengaluru-India/QA---Testing-Associate-Analyst---Cigna-Healthcare_26012801",
+    "caption": "Hiring alert: Cigna is looking for a QA & Testing Associate Analyst (Accessibility) (India).\n\nEligibility: Entry-level (0–2 yrs).\nCompensation mentioned: ₹5–8 LPA.\n- Cigna is hiring a QA & Testing Associate Analyst (Accessibility) in Bengaluru.\n- Eligible batch: 2024-2026.\n- Identify accessibility barriers related to focus order, labels, headings, reading order, forms, errors, buttons, links, navigation, content visibility, and screen-reader interaction.\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
     "hashtags": [
       "#fresherjobs",
       "#freshershiring",
       "#entryleveljobs",
       "#hiringindia",
-      "#optumhiring",
+      "#cignahiring",
       "#indiajobs"
     ]
   },
   {
-    "page": "/docs/jobs/accenture-decision-science-practitioner-associate.html",
-    "company": "Accenture",
-    "title": "Decision Science Practitioner Associate",
-    "apply_url": "https://www.accenture.com/in-en/careers/jobdetails?id=R00361602_en",
-    "headline": "Decision Science Practitioner Associate @ Accenture",
-    "subheadline": "Bengaluru, Kolkata, Gurugram | Internship | ₹6–10 LPA",
+    "page": "/docs/jobs/procter-gamble-information-technology-intern-full-stack-java.html",
+    "company": "Procter & Gamble",
+    "title": "Information Technology Intern (full-stack, Java/TypeScript)",
+    "apply_url": "https://pg.wd5.myworkdayjobs.com/1000/job/MUMBAI-GENERAL-OFFICE/Information-Technology-Intern_R000161858",
+    "headline": "Information Technology Intern (full-stack, Java/TypeScript) @ Procter & Gamble",
+    "subheadline": "India | Internship | ₹40–60k/month",
     "key_points": [
-      "–2 years AI/ML / data science / GenAI.",
-      "Requirements 0–2 years in AI/ML, data science, GenAI or related.",
-      "Open to Bengaluru / Kolkata / Gurugram.",
+      "Eligible batch: 2024-2026.",
+      "During this period, you may be aligned to one of the roles outlined below, based on business requirements, your skills, and overall fit.",
+      "Skills: Python, Java, TypeScript, React, Angular, SQL, Spark, Azure, GCP, Kubernetes.",
       "Skill: Python",
-      "Skill: SQL",
-      "Skill: AWS"
+      "Skill: Java",
+      "Skill: TypeScript"
     ],
-    "cta": "Apply on the official page: https://www.accenture.com/in-en/careers/jobdetails?id=R00361602_en",
-    "caption": "Hiring alert: Accenture is looking for a Decision Science Practitioner Associate (Bengaluru, Kolkata, Gurugram).\n\nEligibility: Internship.\nCompensation mentioned: ₹6–10 LPA.\n- –2 years AI/ML / data science / GenAI.\n- Requirements 0–2 years in AI/ML, data science, GenAI or related.\n- Open to Bengaluru / Kolkata / Gurugram.\n- Skill: Python\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "cta": "Apply on the official page: https://pg.wd5.myworkdayjobs.com/1000/job/MUMBAI-GENERAL-OFFICE/Information-Technology-Intern_R000161858",
+    "caption": "Hiring alert: Procter & Gamble is looking for a Information Technology Intern (full-stack, Java/TypeScript) (India).\n\nEligibility: Internship.\nCompensation mentioned: ₹40–60k/month.\n- Eligible batch: 2024-2026.\n- During this period, you may be aligned to one of the roles outlined below, based on business requirements, your skills, and overall fit.\n- Skills: Python, Java, TypeScript, React, Angular, SQL, Spark, Azure, GCP, Kubernetes.\n- Skill: Python\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
     "hashtags": [
       "#fresherjobs",
       "#freshershiring",
       "#entryleveljobs",
       "#hiringindia",
-      "#accenturehiring",
-      "#bengalurukolkatagurugramjobs"
-    ]
-  },
-  {
-    "page": "/docs/jobs/volvo-group-graduate-apprentice-trainee-data-science.html",
-    "company": "Volvo Group",
-    "title": "Graduate Apprentice Trainee – Data Science",
-    "apply_url": "https://jobs.volvogroup.com/job/Hosakote-Graduate-Apprentice-Trainee-Data-Science-562122/1373974455/",
-    "headline": "Graduate Apprentice Trainee – Data Science @ Volvo Group",
-    "subheadline": "India | Internship | ₹1.8–2.4 LPA",
-    "key_points": [
-      "Volvo Group is hiring a Graduate Apprentice Trainee – Data Science in Hosakote (Bengaluru area).",
-      "This is a temporary 1-year NATS apprenticeship — not a permanent full-time hire.",
-      "Responsibilities Support data science and analytics work under mentors for the 1-year apprenticeship.",
-      "Skill: Python",
-      "Skill: SQL",
-      "Skill: Power BI"
-    ],
-    "cta": "Apply on the official page: https://jobs.volvogroup.com/job/Hosakote-Graduate-Apprentice-Trainee-Data-Science-562122/1373974455/",
-    "caption": "Hiring alert: Volvo Group is looking for a Graduate Apprentice Trainee – Data Science (India).\n\nEligibility: Internship.\nCompensation mentioned: ₹1.8–2.4 LPA.\n- Volvo Group is hiring a Graduate Apprentice Trainee – Data Science in Hosakote (Bengaluru area).\n- This is a temporary 1-year NATS apprenticeship — not a permanent full-time hire.\n- Responsibilities Support data science and analytics work under mentors for the 1-year apprenticeship.\n- Skill: Python\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
-    "hashtags": [
-      "#fresherjobs",
-      "#freshershiring",
-      "#entryleveljobs",
-      "#hiringindia",
-      "#volvogrouphiring",
+      "#proctergamblehiring",
       "#indiajobs"
     ]
   },
   {
-    "page": "/docs/jobs/mhtechin-junior-data-analytics-associate.html",
-    "company": "MHTECHIN",
-    "title": "Junior Data & Analytics Associate",
-    "apply_url": "https://careers.mhtechin.com/index.php/jobs/junior-data-analytics-associate/",
-    "headline": "Junior Data & Analytics Associate @ MHTECHIN",
-    "subheadline": "India | Internship | ₹3–6 LPA",
+    "page": "/docs/jobs/salesforce-associate-technical-support-engineer.html",
+    "company": "Salesforce",
+    "title": "Associate Technical Support Engineer",
+    "apply_url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Hyderabad/Associate-Technical-Support-Engineer_JR356515",
+    "headline": "Associate Technical Support Engineer @ Salesforce",
+    "subheadline": "India | Internship | ₹6–10 LPA",
     "key_points": [
-      "MHTECHIN is hiring a Junior Data & Analytics Associate in Bengaluru (onsite).",
-      "–2 years / fresh graduates.",
-      "Support analytics associate workflows in Bengaluru.",
-      "Skill: SQL",
-      "Skill: Excel",
-      "Skill: Power BI"
+      "Eligible batch: 2024-2026.",
+      "You'll be expected to bring an automation mindset to the role — using AI tools to resolve issues faster, reduce repetitive manual work, and surface insights that help the whole team work smarter, not just harder."
     ],
-    "cta": "Apply on the official page: https://careers.mhtechin.com/index.php/jobs/junior-data-analytics-associate/",
-    "caption": "Hiring alert: MHTECHIN is looking for a Junior Data & Analytics Associate (India).\n\nEligibility: Internship.\nCompensation mentioned: ₹3–6 LPA.\n- MHTECHIN is hiring a Junior Data & Analytics Associate in Bengaluru (onsite).\n- –2 years / fresh graduates.\n- Support analytics associate workflows in Bengaluru.\n- Skill: SQL\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "cta": "Apply on the official page: https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/India---Hyderabad/Associate-Technical-Support-Engineer_JR356515",
+    "caption": "Hiring alert: Salesforce is looking for a Associate Technical Support Engineer (India).\n\nEligibility: Internship.\nCompensation mentioned: ₹6–10 LPA.\n- Eligible batch: 2024-2026.\n- You'll be expected to bring an automation mindset to the role — using AI tools to resolve issues faster, reduce repetitive manual work, and surface insights that help the whole team work smarter, not just harder.\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
     "hashtags": [
       "#fresherjobs",
       "#freshershiring",
       "#entryleveljobs",
       "#hiringindia",
-      "#mhtechinhiring",
+      "#salesforcehiring",
+      "#indiajobs"
+    ]
+  },
+  {
+    "page": "/docs/jobs/rockwell-automation-software-engineer-product-security.html",
+    "company": "Rockwell Automation",
+    "title": "Software Engineer – Product Security",
+    "apply_url": "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Bengaluru-India/Software-Engineer_R26-5603",
+    "headline": "Software Engineer – Product Security @ Rockwell Automation",
+    "subheadline": "India | Entry-level (0–2 yrs) | ₹12–20 LPA",
+    "key_points": [
+      "Rockwell Automation is hiring a Software Engineer – Product Security in Bengaluru (+1).",
+      "Experience: 2+ years.",
+      "Eligible batch: 2024-2026.",
+      "Skill: Python",
+      "Skill: Java",
+      "Skill: TypeScript"
+    ],
+    "cta": "Apply on the official page: https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Bengaluru-India/Software-Engineer_R26-5603",
+    "caption": "Hiring alert: Rockwell Automation is looking for a Software Engineer – Product Security (India).\n\nEligibility: Entry-level (0–2 yrs).\nCompensation mentioned: ₹12–20 LPA.\n- Rockwell Automation is hiring a Software Engineer – Product Security in Bengaluru (+1).\n- Experience: 2+ years.\n- Eligible batch: 2024-2026.\n- Skill: Python\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "hashtags": [
+      "#fresherjobs",
+      "#freshershiring",
+      "#entryleveljobs",
+      "#hiringindia",
+      "#rockwellautomationhiring",
+      "#indiajobs"
+    ]
+  },
+  {
+    "page": "/docs/jobs/kla-software-quality-engineer.html",
+    "company": "KLA",
+    "title": "Software Quality Engineer",
+    "apply_url": "https://kla.wd1.myworkdayjobs.com/Search/job/Chennai-India/Software-Quality-Engineer_2641383",
+    "headline": "Software Quality Engineer @ KLA",
+    "subheadline": "India | Freshers welcome | ₹8–14 LPA",
+    "key_points": [
+      "Eligible batch: 2024-2026.",
+      "To make these, you must see, test and manufacture them at scale—faster and better than ever before.",
+      "Each CoE contributes not only technical deliverables but also deep expertise, best practices, and advanced tools that elevate both what we build—and how we build it.",
+      "Skill: Machine Learning",
+      "Skill: Algorithms",
+      "Skill: Customer Support"
+    ],
+    "cta": "Apply on the official page: https://kla.wd1.myworkdayjobs.com/Search/job/Chennai-India/Software-Quality-Engineer_2641383",
+    "caption": "Hiring alert: KLA is looking for a Software Quality Engineer (India).\n\nEligibility: Freshers welcome.\nCompensation mentioned: ₹8–14 LPA.\n- Eligible batch: 2024-2026.\n- To make these, you must see, test and manufacture them at scale—faster and better than ever before.\n- Each CoE contributes not only technical deliverables but also deep expertise, best practices, and advanced tools that elevate both what we build—and how we build it.\n- Skill: Machine Learning\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "hashtags": [
+      "#fresherjobs",
+      "#freshershiring",
+      "#entryleveljobs",
+      "#hiringindia",
+      "#klahiring",
       "#indiajobs"
     ]
   }
