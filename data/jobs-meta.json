@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-28T19:25:32.086Z",
-  "totalJobs": 346,
-  "publishedCount": 346,
-  "quarantinedCount": 481,
-  "reviewCount": 481,
-  "privateCount": 346,
+  "updatedAt": "2026-10-29T08:14:31.469Z",
+  "totalJobs": 331,
+  "publishedCount": 331,
+  "quarantinedCount": 442,
+  "reviewCount": 442,
+  "privateCount": 331,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -581,7 +581,7 @@
       "source": "ashby-prefect",
       "name": "Prefect",
       "kind": "ashby",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "ashby-railway",
@@ -875,7 +875,7 @@
       "source": "gh-airbnb",
       "name": "Airbnb",
       "kind": "greenhouse",
-      "fetched": 3
+      "fetched": 4
     },
     {
       "source": "gh-airtable",
@@ -1271,7 +1271,7 @@
       "source": "gh-kiavi",
       "name": "Kiavi",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "gh-klaviyo",
@@ -1445,7 +1445,7 @@
       "source": "gh-razorpay",
       "name": "Razorpay",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 3
     },
     {
       "source": "gh-reddit",
@@ -1505,7 +1505,7 @@
       "source": "gh-sezzle",
       "name": "Sezzle",
       "kind": "greenhouse",
-      "fetched": 64
+      "fetched": 63
     },
     {
       "source": "gh-shifttechnology",
@@ -1625,7 +1625,7 @@
       "source": "gh-twilio",
       "name": "Twilio",
       "kind": "greenhouse",
-      "fetched": 26
+      "fetched": 25
     },
     {
       "source": "gh-twitch",
@@ -1691,7 +1691,7 @@
       "source": "gh-zscaler",
       "name": "Zscaler",
       "kind": "greenhouse",
-      "fetched": 11
+      "fetched": 12
     },
     {
       "source": "govt-bpcl",
@@ -1704,7 +1704,8 @@
       "source": "govt-cdac",
       "name": "C-DAC",
       "kind": "govt",
-      "fetched": 18
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "govt-hpcl",
@@ -1747,7 +1748,8 @@
       "source": "govt-sbi",
       "name": "SBI",
       "kind": "govt",
-      "fetched": 25
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "govt-upsc",
@@ -1760,7 +1762,7 @@
       "source": "hiredoor",
       "name": "HireDoor",
       "kind": "hiredoor",
-      "fetched": 31
+      "fetched": 28
     },
     {
       "source": "keka-10decoders",
@@ -2330,7 +2332,7 @@
       "source": "lever-fampay",
       "name": "FamPay",
       "kind": "lever",
-      "fetched": 4
+      "fetched": 0
     },
     {
       "source": "lever-fi",
@@ -2408,7 +2410,7 @@
       "source": "lever-jumpcloud",
       "name": "JumpCloud",
       "kind": "lever",
-      "fetched": 8
+      "fetched": 0
     },
     {
       "source": "lever-lalamove",
@@ -2761,7 +2763,9 @@
   ],
   "sitesSkippedByRobots": [
     "BPCL",
+    "SBI",
     "IBPS",
+    "C-DAC",
     "UPSC"
   ],
   "sitesWithErrors": [],
