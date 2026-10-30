@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-30T08:19:36.022Z",
-  "totalJobs": 303,
-  "publishedCount": 303,
-  "quarantinedCount": 397,
-  "reviewCount": 397,
-  "privateCount": 303,
+  "updatedAt": "2026-10-30T19:03:57.200Z",
+  "totalJobs": 306,
+  "publishedCount": 306,
+  "quarantinedCount": 456,
+  "reviewCount": 456,
+  "privateCount": 306,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -59,7 +59,7 @@
       "source": "ashby-ashby",
       "name": "Ashby",
       "kind": "ashby",
-      "fetched": 9
+      "fetched": 8
     },
     {
       "source": "ashby-astronomer",
@@ -179,7 +179,7 @@
       "source": "ashby-composio",
       "name": "Composio",
       "kind": "ashby",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "ashby-cradlebio",
@@ -647,7 +647,7 @@
       "source": "ashby-runwayml",
       "name": "Runway",
       "kind": "ashby",
-      "fetched": 4
+      "fetched": 5
     },
     {
       "source": "ashby-sanity",
@@ -875,7 +875,7 @@
       "source": "gh-airbnb",
       "name": "Airbnb",
       "kind": "greenhouse",
-      "fetched": 4
+      "fetched": 5
     },
     {
       "source": "gh-airtable",
@@ -1013,7 +1013,7 @@
       "source": "gh-coinbase",
       "name": "Coinbase",
       "kind": "greenhouse",
-      "fetched": 27
+      "fetched": 29
     },
     {
       "source": "gh-collibra",
@@ -1097,7 +1097,7 @@
       "source": "gh-dropbox",
       "name": "Dropbox",
       "kind": "greenhouse",
-      "fetched": 5
+      "fetched": 6
     },
     {
       "source": "gh-druva",
@@ -1247,7 +1247,7 @@
       "source": "gh-instacart",
       "name": "Instacart",
       "kind": "greenhouse",
-      "fetched": 6
+      "fetched": 8
     },
     {
       "source": "gh-intercom",
@@ -1451,7 +1451,7 @@
       "source": "gh-reddit",
       "name": "Reddit",
       "kind": "greenhouse",
-      "fetched": 10
+      "fetched": 11
     },
     {
       "source": "gh-remote",
@@ -1505,7 +1505,7 @@
       "source": "gh-sezzle",
       "name": "Sezzle",
       "kind": "greenhouse",
-      "fetched": 63
+      "fetched": 62
     },
     {
       "source": "gh-shifttechnology",
@@ -1553,7 +1553,7 @@
       "source": "gh-stage",
       "name": "Stage",
       "kind": "greenhouse",
-      "fetched": 10
+      "fetched": 9
     },
     {
       "source": "gh-storyblok",
@@ -1685,7 +1685,7 @@
       "source": "gh-zoominfo",
       "name": "ZoomInfo",
       "kind": "greenhouse",
-      "fetched": 5
+      "fetched": 6
     },
     {
       "source": "gh-zscaler",
@@ -1704,7 +1704,7 @@
       "source": "govt-cdac",
       "name": "C-DAC",
       "kind": "govt",
-      "fetched": 0
+      "fetched": 18
     },
     {
       "source": "govt-hpcl",
@@ -1747,8 +1747,7 @@
       "source": "govt-sbi",
       "name": "SBI",
       "kind": "govt",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 25
     },
     {
       "source": "govt-upsc",
@@ -1893,7 +1892,7 @@
       "source": "keka-gameberry",
       "name": "Gameberry Labs",
       "kind": "keka",
-      "fetched": 4
+      "fetched": 3
     },
     {
       "source": "keka-grow",
@@ -2247,7 +2246,7 @@
       "source": "lever-azul",
       "name": "Azul",
       "kind": "lever",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "lever-binance",
@@ -2259,7 +2258,7 @@
       "source": "lever-bluecatnetworks",
       "name": "BlueCat Networks",
       "kind": "lever",
-      "fetched": 2
+      "fetched": 0
     },
     {
       "source": "lever-bluelightconsulting",
@@ -2307,13 +2306,15 @@
       "source": "lever-entefy",
       "name": "Entefy",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "lever-entrata",
       "name": "Entrata",
       "kind": "lever",
-      "fetched": 2
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "lever-everbridge",
@@ -2570,7 +2571,7 @@
       "source": "lever-paytm",
       "name": "Paytm",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 25
     },
     {
       "source": "lever-pigment",
@@ -2821,7 +2822,7 @@
       "source": "lever-zeta",
       "name": "Zeta",
       "kind": "lever",
-      "fetched": 9
+      "fetched": 10
     },
     {
       "source": "lever-zoox",
@@ -2833,6 +2834,8 @@
   ],
   "sitesSkippedByRobots": [
     "Meesho",
+    "Entefy",
+    "Entrata",
     "Everbridge",
     "Extreme Networks",
     "FamPay",
@@ -2904,7 +2907,6 @@
     "zaimler",
     "Zoox",
     "BPCL",
-    "SBI",
     "IBPS",
     "UPSC"
   ],
