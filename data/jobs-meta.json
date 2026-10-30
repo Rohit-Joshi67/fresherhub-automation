@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-29T19:28:54.809Z",
-  "totalJobs": 311,
-  "publishedCount": 311,
-  "quarantinedCount": 438,
-  "reviewCount": 438,
-  "privateCount": 311,
+  "updatedAt": "2026-10-30T08:19:36.022Z",
+  "totalJobs": 303,
+  "publishedCount": 303,
+  "quarantinedCount": 397,
+  "reviewCount": 397,
+  "privateCount": 303,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -305,7 +305,7 @@
       "source": "ashby-harvey",
       "name": "Harvey",
       "kind": "ashby",
-      "fetched": 5
+      "fetched": 0
     },
     {
       "source": "ashby-hex",
@@ -1013,7 +1013,7 @@
       "source": "gh-coinbase",
       "name": "Coinbase",
       "kind": "greenhouse",
-      "fetched": 28
+      "fetched": 27
     },
     {
       "source": "gh-collibra",
@@ -1193,7 +1193,7 @@
       "source": "gh-groww",
       "name": "Groww",
       "kind": "greenhouse",
-      "fetched": 5
+      "fetched": 4
     },
     {
       "source": "gh-gusto",
@@ -1367,7 +1367,7 @@
       "source": "gh-okta",
       "name": "Okta",
       "kind": "greenhouse",
-      "fetched": 3
+      "fetched": 0
     },
     {
       "source": "gh-okx",
@@ -1625,7 +1625,7 @@
       "source": "gh-twilio",
       "name": "Twilio",
       "kind": "greenhouse",
-      "fetched": 23
+      "fetched": 24
     },
     {
       "source": "gh-twitch",
@@ -1685,7 +1685,7 @@
       "source": "gh-zoominfo",
       "name": "ZoomInfo",
       "kind": "greenhouse",
-      "fetched": 6
+      "fetched": 5
     },
     {
       "source": "gh-zscaler",
@@ -1704,7 +1704,7 @@
       "source": "govt-cdac",
       "name": "C-DAC",
       "kind": "govt",
-      "fetched": 18
+      "fetched": 0
     },
     {
       "source": "govt-hpcl",
@@ -1947,7 +1947,7 @@
       "source": "keka-kinsfolk",
       "name": "Kinsfolk",
       "kind": "keka",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "keka-lambdatest",
@@ -1983,7 +1983,7 @@
       "source": "keka-niyo",
       "name": "Niyo",
       "kind": "keka",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "keka-occamsadvisory",
@@ -2115,7 +2115,7 @@
       "source": "keka-techdome",
       "name": "Techdome",
       "kind": "keka",
-      "fetched": 4
+      "fetched": 3
     },
     {
       "source": "keka-tekmindz",
@@ -2259,7 +2259,7 @@
       "source": "lever-bluecatnetworks",
       "name": "BlueCat Networks",
       "kind": "lever",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "lever-bluelightconsulting",
@@ -2307,15 +2307,13 @@
       "source": "lever-entefy",
       "name": "Entefy",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-entrata",
       "name": "Entrata",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 2
     },
     {
       "source": "lever-everbridge",
@@ -2572,7 +2570,7 @@
       "source": "lever-paytm",
       "name": "Paytm",
       "kind": "lever",
-      "fetched": 25
+      "fetched": 0
     },
     {
       "source": "lever-pigment",
@@ -2835,8 +2833,6 @@
   ],
   "sitesSkippedByRobots": [
     "Meesho",
-    "Entefy",
-    "Entrata",
     "Everbridge",
     "Extreme Networks",
     "FamPay",
