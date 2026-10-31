@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-30T19:03:57.200Z",
-  "totalJobs": 306,
-  "publishedCount": 306,
-  "quarantinedCount": 456,
-  "reviewCount": 456,
-  "privateCount": 306,
+  "updatedAt": "2026-10-31T08:10:45.434Z",
+  "totalJobs": 312,
+  "publishedCount": 312,
+  "quarantinedCount": 446,
+  "reviewCount": 446,
+  "privateCount": 312,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -59,7 +59,7 @@
       "source": "ashby-ashby",
       "name": "Ashby",
       "kind": "ashby",
-      "fetched": 8
+      "fetched": 9
     },
     {
       "source": "ashby-astronomer",
@@ -173,7 +173,7 @@
       "source": "ashby-column",
       "name": "Column",
       "kind": "ashby",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "ashby-composio",
@@ -263,7 +263,7 @@
       "source": "ashby-elevenlabs",
       "name": "ElevenLabs",
       "kind": "ashby",
-      "fetched": 4
+      "fetched": 3
     },
     {
       "source": "ashby-fireworks",
@@ -569,7 +569,7 @@
       "source": "ashby-plaid",
       "name": "Plaid",
       "kind": "ashby",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "ashby-posthog",
@@ -863,7 +863,7 @@
       "source": "gh-affirm",
       "name": "Affirm",
       "kind": "greenhouse",
-      "fetched": 36
+      "fetched": 37
     },
     {
       "source": "gh-affle",
@@ -1151,7 +1151,7 @@
       "source": "gh-five9",
       "name": "Five9",
       "kind": "greenhouse",
-      "fetched": 4
+      "fetched": 5
     },
     {
       "source": "gh-fivetran",
@@ -1175,7 +1175,7 @@
       "source": "gh-gitlab",
       "name": "GitLab",
       "kind": "greenhouse",
-      "fetched": 11
+      "fetched": 10
     },
     {
       "source": "gh-glance",
@@ -2246,7 +2246,7 @@
       "source": "lever-azul",
       "name": "Azul",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "lever-binance",
@@ -2258,7 +2258,7 @@
       "source": "lever-bluecatnetworks",
       "name": "BlueCat Networks",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 2
     },
     {
       "source": "lever-bluelightconsulting",
@@ -2288,7 +2288,8 @@
       "source": "lever-coinmarketcap",
       "name": "CoinMarketCap",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "lever-cred",
@@ -2306,8 +2307,7 @@
       "source": "lever-entefy",
       "name": "Entefy",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-entrata",
@@ -2822,7 +2822,7 @@
       "source": "lever-zeta",
       "name": "Zeta",
       "kind": "lever",
-      "fetched": 10
+      "fetched": 0
     },
     {
       "source": "lever-zoox",
@@ -2834,7 +2834,6 @@
   ],
   "sitesSkippedByRobots": [
     "Meesho",
-    "Entefy",
     "Entrata",
     "Everbridge",
     "Extreme Networks",
@@ -2906,6 +2905,7 @@
     "Yuno",
     "zaimler",
     "Zoox",
+    "CoinMarketCap",
     "BPCL",
     "IBPS",
     "UPSC"
