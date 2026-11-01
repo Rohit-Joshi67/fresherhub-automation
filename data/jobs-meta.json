@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-31T18:22:44.874Z",
-  "totalJobs": 335,
-  "publishedCount": 335,
+  "updatedAt": "2026-11-01T08:55:46.486Z",
+  "totalJobs": 352,
+  "publishedCount": 352,
   "quarantinedCount": 475,
   "reviewCount": 475,
-  "privateCount": 335,
+  "privateCount": 352,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -1013,7 +1013,7 @@
       "source": "gh-coinbase",
       "name": "Coinbase",
       "kind": "greenhouse",
-      "fetched": 29
+      "fetched": 31
     },
     {
       "source": "gh-collibra",
@@ -1289,7 +1289,7 @@
       "source": "gh-launchdarkly",
       "name": "LaunchDarkly",
       "kind": "greenhouse",
-      "fetched": 3
+      "fetched": 2
     },
     {
       "source": "gh-lightmatter",
@@ -1349,7 +1349,7 @@
       "source": "gh-newrelic",
       "name": "New Relic",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "gh-nextdoor",
@@ -1747,8 +1747,7 @@
       "source": "govt-sbi",
       "name": "SBI",
       "kind": "govt",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 25
     },
     {
       "source": "govt-upsc",
@@ -2762,7 +2761,6 @@
   ],
   "sitesSkippedByRobots": [
     "BPCL",
-    "SBI",
     "IBPS",
     "UPSC"
   ],
