@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-03T20:28:45.963Z",
-  "totalJobs": 338,
-  "publishedCount": 338,
-  "quarantinedCount": 457,
-  "reviewCount": 457,
-  "privateCount": 338,
+  "updatedAt": "2026-11-04T08:48:46.047Z",
+  "totalJobs": 347,
+  "publishedCount": 347,
+  "quarantinedCount": 471,
+  "reviewCount": 471,
+  "privateCount": 347,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -281,7 +281,7 @@
       "source": "ashby-freshpaint",
       "name": "Freshpaint",
       "kind": "ashby",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "ashby-furtherai",
@@ -593,7 +593,7 @@
       "source": "ashby-ramp",
       "name": "Ramp",
       "kind": "ashby",
-      "fetched": 9
+      "fetched": 10
     },
     {
       "source": "ashby-rasa",
@@ -1013,7 +1013,7 @@
       "source": "gh-coinbase",
       "name": "Coinbase",
       "kind": "greenhouse",
-      "fetched": 24
+      "fetched": 26
     },
     {
       "source": "gh-collibra",
@@ -1097,7 +1097,7 @@
       "source": "gh-dropbox",
       "name": "Dropbox",
       "kind": "greenhouse",
-      "fetched": 7
+      "fetched": 8
     },
     {
       "source": "gh-druva",
@@ -1349,7 +1349,7 @@
       "source": "gh-newrelic",
       "name": "New Relic",
       "kind": "greenhouse",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "gh-nextdoor",
@@ -1445,7 +1445,7 @@
       "source": "gh-razorpay",
       "name": "Razorpay",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "gh-reddit",
@@ -1886,7 +1886,7 @@
       "source": "keka-fynd",
       "name": "Fynd",
       "kind": "keka",
-      "fetched": 11
+      "fetched": 10
     },
     {
       "source": "keka-gameberry",
@@ -1982,7 +1982,7 @@
       "source": "keka-niyo",
       "name": "Niyo",
       "kind": "keka",
-      "fetched": 2
+      "fetched": 3
     },
     {
       "source": "keka-occamsadvisory",
@@ -2066,7 +2066,7 @@
       "source": "keka-sisinty",
       "name": "GrowthSchool",
       "kind": "keka",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "keka-softlinkglobal",
@@ -2330,7 +2330,7 @@
       "source": "lever-fampay",
       "name": "FamPay",
       "kind": "lever",
-      "fetched": 4
+      "fetched": 5
     },
     {
       "source": "lever-fi",
@@ -2534,7 +2534,7 @@
       "source": "lever-paytm",
       "name": "Paytm",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 25
     },
     {
       "source": "lever-pigment",
@@ -2720,7 +2720,7 @@
       "source": "lever-weekdayworks",
       "name": "Weekday",
       "kind": "lever",
-      "fetched": 14
+      "fetched": 0
     },
     {
       "source": "lever-workwave",
@@ -2750,7 +2750,7 @@
       "source": "lever-zeta",
       "name": "Zeta",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 8
     },
     {
       "source": "lever-zoox",
