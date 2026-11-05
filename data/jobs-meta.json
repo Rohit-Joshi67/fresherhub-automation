@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-04T20:43:41.452Z",
-  "totalJobs": 333,
-  "publishedCount": 333,
-  "quarantinedCount": 449,
-  "reviewCount": 449,
-  "privateCount": 333,
+  "updatedAt": "2026-11-05T09:12:23.824Z",
+  "totalJobs": 325,
+  "publishedCount": 325,
+  "quarantinedCount": 454,
+  "reviewCount": 454,
+  "privateCount": 325,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -623,7 +623,7 @@
       "source": "ashby-replit",
       "name": "Replit",
       "kind": "ashby",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "ashby-resend",
@@ -863,7 +863,7 @@
       "source": "gh-affirm",
       "name": "Affirm",
       "kind": "greenhouse",
-      "fetched": 35
+      "fetched": 37
     },
     {
       "source": "gh-affle",
@@ -875,7 +875,7 @@
       "source": "gh-airbnb",
       "name": "Airbnb",
       "kind": "greenhouse",
-      "fetched": 4
+      "fetched": 3
     },
     {
       "source": "gh-airtable",
@@ -1367,7 +1367,7 @@
       "source": "gh-okta",
       "name": "Okta",
       "kind": "greenhouse",
-      "fetched": 3
+      "fetched": 0
     },
     {
       "source": "gh-okx",
@@ -1445,7 +1445,7 @@
       "source": "gh-razorpay",
       "name": "Razorpay",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "gh-reddit",
@@ -1475,7 +1475,7 @@
       "source": "gh-roblox",
       "name": "Roblox",
       "kind": "greenhouse",
-      "fetched": 6
+      "fetched": 7
     },
     {
       "source": "gh-rti",
@@ -1487,7 +1487,7 @@
       "source": "gh-salesloft",
       "name": "Salesloft",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "gh-scaleai",
@@ -1505,7 +1505,7 @@
       "source": "gh-sezzle",
       "name": "Sezzle",
       "kind": "greenhouse",
-      "fetched": 46
+      "fetched": 45
     },
     {
       "source": "gh-shifttechnology",
@@ -1571,7 +1571,7 @@
       "source": "gh-sumologic",
       "name": "Sumo Logic",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "gh-taboola",
@@ -1649,7 +1649,7 @@
       "source": "gh-vercel",
       "name": "Vercel",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "gh-webflow",
@@ -1685,13 +1685,13 @@
       "source": "gh-zoominfo",
       "name": "ZoomInfo",
       "kind": "greenhouse",
-      "fetched": 8
+      "fetched": 7
     },
     {
       "source": "gh-zscaler",
       "name": "Zscaler",
       "kind": "greenhouse",
-      "fetched": 0
+      "fetched": 9
     },
     {
       "source": "govt-bpcl",
@@ -1791,7 +1791,7 @@
       "source": "keka-athenainfonomics",
       "name": "Athena Infonomics",
       "kind": "keka",
-      "fetched": 2
+      "fetched": 4
     },
     {
       "source": "keka-avengers",
@@ -2247,7 +2247,7 @@
       "source": "lever-azul",
       "name": "Azul",
       "kind": "lever",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "lever-binance",
@@ -2325,7 +2325,7 @@
       "source": "lever-extremenetworks",
       "name": "Extreme Networks",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 9
     },
     {
       "source": "lever-fampay",
@@ -2499,7 +2499,7 @@
       "source": "lever-neuron7",
       "name": "Neuron7.ai",
       "kind": "lever",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "lever-octoenergy",
@@ -2721,7 +2721,7 @@
       "source": "lever-weekdayworks",
       "name": "Weekday",
       "kind": "lever",
-      "fetched": 14
+      "fetched": 0
     },
     {
       "source": "lever-workwave",
@@ -2751,7 +2751,7 @@
       "source": "lever-zeta",
       "name": "Zeta",
       "kind": "lever",
-      "fetched": 8
+      "fetched": 7
     },
     {
       "source": "lever-zoox",
