@@ -90,16 +90,6 @@
     "review_reason": "classified as experienced — outside fresher audience"
   },
   {
-    "page": "/docs/jobs/stage-human-capital-global-workday-hris-analyst.html",
-    "company": "Stage",
-    "title": "Human Capital - Global Workday / HRIS - Analyst",
-    "source": "Stage",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
     "page": "/docs/jobs/stage-operations-investment-operations-asset-servicing-recon.html",
     "company": "Stage",
     "title": "Operations - Investment Operations (Asset Servicing & Reconciliations) - AVP",
@@ -270,64 +260,14 @@
     "review_reason": "classified as experienced — outside fresher audience"
   },
   {
-    "page": "/docs/jobs/zeta-corporate-risk-and-compliance-associate-ii.html",
-    "company": "Zeta",
-    "title": "Corporate Risk and Compliance - Associate II",
-    "source": "Zeta",
+    "page": "/docs/jobs/signzy-finance-manager.html",
+    "company": "Signzy",
+    "title": "Finance Manager",
+    "source": "Signzy",
     "category": "experienced",
     "status": "active",
     "confidence": 85,
     "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/zeta-executive-it-support.html",
-    "company": "Zeta",
-    "title": "Executive - IT Support",
-    "source": "Zeta",
-    "category": "unknown",
-    "status": "active",
-    "confidence": 75,
-    "review_reason": "could not determine entry-level fit from posting"
-  },
-  {
-    "page": "/docs/jobs/zeta-product-security-engineer-ii.html",
-    "company": "Zeta",
-    "title": "Product Security Engineer II",
-    "source": "Zeta",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/zeta-siem-secops-engineer-ii.html",
-    "company": "Zeta",
-    "title": "SIEM & SecOps Engineer II",
-    "source": "Zeta",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/zeta-specialist-people-partner.html",
-    "company": "Zeta",
-    "title": "Specialist - People Partner",
-    "source": "Zeta",
-    "category": "unknown",
-    "status": "active",
-    "confidence": 75,
-    "review_reason": "could not determine entry-level fit from posting"
-  },
-  {
-    "page": "/docs/jobs/zeta-specialist-total-rewards.html",
-    "company": "Zeta",
-    "title": "Specialist Total Rewards",
-    "source": "Zeta",
-    "category": "unknown",
-    "status": "active",
-    "confidence": 75,
-    "review_reason": "could not determine entry-level fit from posting"
   },
   {
     "page": "/docs/jobs/wingify-sr-sdr-anz.html",
@@ -360,20 +300,20 @@
     "review_reason": "classified as experienced — outside fresher audience"
   },
   {
-    "page": "/docs/jobs/signzy-finance-manager.html",
-    "company": "Signzy",
-    "title": "Finance Manager",
-    "source": "Signzy",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
     "page": "/docs/jobs/access-softek-compiler-developer-llvm-c.html",
     "company": "Access Softek",
     "title": "Compiler Developer (LLVM, C++)",
     "source": "Access Softek",
+    "category": "unknown",
+    "status": "active",
+    "confidence": 75,
+    "review_reason": "could not determine entry-level fit from posting"
+  },
+  {
+    "page": "/docs/jobs/azul-software-sales-specialist-azul-prime-north-america-remo.html",
+    "company": "Azul",
+    "title": "Software Sales Specialist, Azul Prime - North America (Remote)",
+    "source": "Azul",
     "category": "unknown",
     "status": "active",
     "confidence": 75,
@@ -488,186 +428,6 @@
     "status": "active",
     "confidence": 85,
     "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/jumpcloud-customer-support-engineer-tier-1-macos-and-mdm-mex.html",
-    "company": "JumpCloud",
-    "title": "Customer Support Engineer, Tier 1 (MacOS and MDM) - Mexico",
-    "source": "JumpCloud",
-    "category": "unknown",
-    "status": "active",
-    "confidence": 75,
-    "review_reason": "could not determine entry-level fit from posting"
-  },
-  {
-    "page": "/docs/jobs/jumpcloud-customer-support-engineer-tier-1-windows-brazil.html",
-    "company": "JumpCloud",
-    "title": "Customer Support Engineer, Tier 1 (Windows) - Brazil",
-    "source": "JumpCloud",
-    "category": "unknown",
-    "status": "active",
-    "confidence": 75,
-    "review_reason": "could not determine entry-level fit from posting"
-  },
-  {
-    "page": "/docs/jobs/jumpcloud-customer-support-engineer-tier-1-windows-mexico.html",
-    "company": "JumpCloud",
-    "title": "Customer Support Engineer, Tier 1 Windows - Mexico",
-    "source": "JumpCloud",
-    "category": "unknown",
-    "status": "active",
-    "confidence": 75,
-    "review_reason": "could not determine entry-level fit from posting"
-  },
-  {
-    "page": "/docs/jobs/jumpcloud-customer-support-engineer-tier-2-mexico.html",
-    "company": "JumpCloud",
-    "title": "Customer Support Engineer, Tier 2 - Mexico",
-    "source": "JumpCloud",
-    "category": "unknown",
-    "status": "active",
-    "confidence": 75,
-    "review_reason": "could not determine entry-level fit from posting"
-  },
-  {
-    "page": "/docs/jobs/jumpcloud-customer-support-engineer-tier-2-windows-brazil.html",
-    "company": "JumpCloud",
-    "title": "Customer Support Engineer, Tier 2 (Windows) - Brazil",
-    "source": "JumpCloud",
-    "category": "unknown",
-    "status": "active",
-    "confidence": 75,
-    "review_reason": "could not determine entry-level fit from posting"
-  },
-  {
-    "page": "/docs/jobs/jumpcloud-gtm-ai-operations-india.html",
-    "company": "JumpCloud",
-    "title": "GTM AI Operations - India",
-    "source": "JumpCloud",
-    "category": "unknown",
-    "status": "active",
-    "confidence": 75,
-    "review_reason": "could not determine entry-level fit from posting"
-  },
-  {
-    "page": "/docs/jobs/jumpcloud-gtm-ai-operations-mexico.html",
-    "company": "JumpCloud",
-    "title": "GTM AI Operations - Mexico",
-    "source": "JumpCloud",
-    "category": "unknown",
-    "status": "active",
-    "confidence": 75,
-    "review_reason": "could not determine entry-level fit from posting"
-  },
-  {
-    "page": "/docs/jobs/linkedin-cloud-support-engineer-raghav.html",
-    "company": "LinkedIn",
-    "title": "Cloud Support Engineer - Raghav",
-    "source": "LinkedIn",
-    "category": "unknown",
-    "status": "active",
-    "confidence": 40,
-    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully"
-  },
-  {
-    "page": "/docs/jobs/linkedin-qa-engineer.html",
-    "company": "LinkedIn",
-    "title": "QA Engineer",
-    "source": "LinkedIn",
-    "category": "unknown",
-    "status": "active",
-    "confidence": 40,
-    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully"
-  },
-  {
-    "page": "/docs/jobs/linkedin-software-engineer-iv.html",
-    "company": "LinkedIn",
-    "title": "Software Engineer IV",
-    "source": "LinkedIn",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 50,
-    "review_reason": "classified as experienced — outside fresher audience; posting description too thin to rewrite faithfully"
-  },
-  {
-    "page": "/docs/jobs/mindtickle-customer-support-engineer-i.html",
-    "company": "Mindtickle",
-    "title": "Customer Support Engineer - I",
-    "source": "Mindtickle",
-    "category": "unknown",
-    "status": "active",
-    "confidence": 40,
-    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully"
-  },
-  {
-    "page": "/docs/jobs/mindtickle-professional-services-consultant.html",
-    "company": "Mindtickle",
-    "title": "Professional Services Consultant",
-    "source": "Mindtickle",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/mindtickle-software-engineer-business-systems.html",
-    "company": "Mindtickle",
-    "title": "Software Engineer, Business Systems",
-    "source": "Mindtickle",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/olo-software-engineer-core.html",
-    "company": "Olo",
-    "title": "Software Engineer - Core",
-    "source": "Olo",
-    "category": "unknown",
-    "status": "active",
-    "confidence": 75,
-    "review_reason": "could not determine entry-level fit from posting"
-  },
-  {
-    "page": "/docs/jobs/pigment-epm-consultant-dach.html",
-    "company": "Pigment",
-    "title": "EPM Consultant - DACH",
-    "source": "Pigment",
-    "category": "unknown",
-    "status": "active",
-    "confidence": 75,
-    "review_reason": "could not determine entry-level fit from posting"
-  },
-  {
-    "page": "/docs/jobs/ttec-digital-consultant-cognigy.html",
-    "company": "TTEC Digital",
-    "title": "Consultant – Cognigy",
-    "source": "TTEC Digital",
-    "category": "unknown",
-    "status": "active",
-    "confidence": 75,
-    "review_reason": "could not determine entry-level fit from posting"
-  },
-  {
-    "page": "/docs/jobs/xsolla-developer-evangelist-community.html",
-    "company": "Xsolla",
-    "title": "Developer Evangelist - Community",
-    "source": "Xsolla",
-    "category": "unknown",
-    "status": "active",
-    "confidence": 75,
-    "review_reason": "could not determine entry-level fit from posting"
-  },
-  {
-    "page": "/docs/jobs/xsolla-software-engineer.html",
-    "company": "Xsolla",
-    "title": "Software Engineer",
-    "source": "Xsolla",
-    "category": "unknown",
-    "status": "active",
-    "confidence": 65,
-    "review_reason": "could not determine entry-level fit from posting"
   },
   {
     "page": "/docs/jobs/6sense-it-support-specialist.html",
@@ -990,6 +750,66 @@
     "review_reason": "classified as experienced — outside fresher audience"
   },
   {
+    "page": "/docs/jobs/jumpcloud-customer-support-engineer-tier-1-macos-and-mdm-mex.html",
+    "company": "JumpCloud",
+    "title": "Customer Support Engineer, Tier 1 (MacOS and MDM) - Mexico",
+    "source": "JumpCloud",
+    "category": "unknown",
+    "status": "active",
+    "confidence": 75,
+    "review_reason": "could not determine entry-level fit from posting"
+  },
+  {
+    "page": "/docs/jobs/jumpcloud-customer-support-engineer-tier-1-windows-brazil.html",
+    "company": "JumpCloud",
+    "title": "Customer Support Engineer, Tier 1 (Windows) - Brazil",
+    "source": "JumpCloud",
+    "category": "unknown",
+    "status": "active",
+    "confidence": 75,
+    "review_reason": "could not determine entry-level fit from posting"
+  },
+  {
+    "page": "/docs/jobs/jumpcloud-customer-support-engineer-tier-1-windows-mexico.html",
+    "company": "JumpCloud",
+    "title": "Customer Support Engineer, Tier 1 Windows - Mexico",
+    "source": "JumpCloud",
+    "category": "unknown",
+    "status": "active",
+    "confidence": 75,
+    "review_reason": "could not determine entry-level fit from posting"
+  },
+  {
+    "page": "/docs/jobs/jumpcloud-customer-support-engineer-tier-2-mexico.html",
+    "company": "JumpCloud",
+    "title": "Customer Support Engineer, Tier 2 - Mexico",
+    "source": "JumpCloud",
+    "category": "unknown",
+    "status": "active",
+    "confidence": 75,
+    "review_reason": "could not determine entry-level fit from posting"
+  },
+  {
+    "page": "/docs/jobs/jumpcloud-customer-support-engineer-tier-2-windows-brazil.html",
+    "company": "JumpCloud",
+    "title": "Customer Support Engineer, Tier 2 (Windows) - Brazil",
+    "source": "JumpCloud",
+    "category": "unknown",
+    "status": "active",
+    "confidence": 75,
+    "review_reason": "could not determine entry-level fit from posting"
+  },
+  {
+    "page": "/docs/jobs/jumpcloud-gtm-ai-operations-india.html",
+    "company": "JumpCloud",
+    "title": "GTM AI Operations - India",
+    "source": "JumpCloud",
+    "category": "unknown",
+    "status": "active",
+    "confidence": 75,
+    "review_reason": "could not determine entry-level fit from posting"
+  },
+  {
     "page": "/docs/jobs/cloudsek-salesforce-developer.html",
     "company": "CloudSEK",
     "title": "Salesforce Developer",
@@ -1028,6 +848,26 @@
     "status": "active",
     "confidence": 85,
     "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/customer-io-email-deliverability-specialist.html",
+    "company": "Customer.io",
+    "title": "Email Deliverability Specialist",
+    "source": "Customer.io",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/customer-io-technical-support-engineer-canada.html",
+    "company": "Customer.io",
+    "title": "Technical Support Engineer, Canada",
+    "source": "Customer.io",
+    "category": "unknown",
+    "status": "active",
+    "confidence": 75,
+    "review_reason": "could not determine entry-level fit from posting"
   },
   {
     "page": "/docs/jobs/coinbase-analyst-privacy-privacy-assessments.html",
@@ -1200,46 +1040,6 @@
     "review_reason": "classified as experienced — outside fresher audience"
   },
   {
-    "page": "/docs/jobs/customer-io-email-deliverability-specialist.html",
-    "company": "Customer.io",
-    "title": "Email Deliverability Specialist",
-    "source": "Customer.io",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/customer-io-technical-support-engineer-canada.html",
-    "company": "Customer.io",
-    "title": "Technical Support Engineer, Canada",
-    "source": "Customer.io",
-    "category": "unknown",
-    "status": "active",
-    "confidence": 75,
-    "review_reason": "could not determine entry-level fit from posting"
-  },
-  {
-    "page": "/docs/jobs/datadog-developer-advocate-service-management.html",
-    "company": "Datadog",
-    "title": "Developer Advocate - Service Management",
-    "source": "Datadog",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/datadog-developer-advocate-service-management-emea.html",
-    "company": "Datadog",
-    "title": "Developer Advocate - Service Management EMEA",
-    "source": "Datadog",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
     "page": "/docs/jobs/descript-software-engineer-infrastructure.html",
     "company": "Descript",
     "title": "Software Engineer, Infrastructure",
@@ -1264,6 +1064,16 @@
     "company": "Discord",
     "title": "Associate Commercial Counsel",
     "source": "Discord",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/dropbox-backend-product-software-engineer.html",
+    "company": "Dropbox",
+    "title": "Backend Product Software Engineer",
+    "source": "Dropbox",
     "category": "experienced",
     "status": "active",
     "confidence": 85,
@@ -1300,10 +1110,40 @@
     "review_reason": "classified as experienced — outside fresher audience"
   },
   {
+    "page": "/docs/jobs/dropbox-legal-operations-associate.html",
+    "company": "Dropbox",
+    "title": "Legal Operations Associate",
+    "source": "Dropbox",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
     "page": "/docs/jobs/energyhub-program-marketing-specialist.html",
     "company": "EnergyHub",
     "title": "Program Marketing Specialist",
     "source": "EnergyHub",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/datadog-developer-advocate-service-management.html",
+    "company": "Datadog",
+    "title": "Developer Advocate - Service Management",
+    "source": "Datadog",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/datadog-developer-advocate-service-management-emea.html",
+    "company": "Datadog",
+    "title": "Developer Advocate - Service Management EMEA",
+    "source": "Datadog",
     "category": "experienced",
     "status": "active",
     "confidence": 85,
@@ -1348,66 +1188,6 @@
     "status": "active",
     "confidence": 85,
     "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/fivetran-global-payroll-analyst.html",
-    "company": "Fivetran",
-    "title": "Global Payroll Analyst",
-    "source": "Fivetran",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/gusto-payment-operations-analyst.html",
-    "company": "Gusto",
-    "title": "Payment Operations Analyst",
-    "source": "Gusto",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/gitlab-ecosystem-operations-specialist.html",
-    "company": "GitLab",
-    "title": "Ecosystem Operations Specialist",
-    "source": "GitLab",
-    "category": "unknown",
-    "status": "active",
-    "confidence": 75,
-    "review_reason": "could not determine entry-level fit from posting"
-  },
-  {
-    "page": "/docs/jobs/gitlab-intermediate-support-engineer-shift.html",
-    "company": "GitLab",
-    "title": "Intermediate Support Engineer (SHIFT)",
-    "source": "GitLab",
-    "category": "unknown",
-    "status": "active",
-    "confidence": 75,
-    "review_reason": "could not determine entry-level fit from posting"
-  },
-  {
-    "page": "/docs/jobs/gitlab-software-engineer-delivery-release.html",
-    "company": "GitLab",
-    "title": "Software Engineer, Delivery : Release",
-    "source": "GitLab",
-    "category": "unknown",
-    "status": "active",
-    "confidence": 75,
-    "review_reason": "could not determine entry-level fit from posting"
-  },
-  {
-    "page": "/docs/jobs/gitlab-support-engineer-amer.html",
-    "company": "GitLab",
-    "title": "Support Engineer (AMER)",
-    "source": "GitLab",
-    "category": "unknown",
-    "status": "active",
-    "confidence": 75,
-    "review_reason": "could not determine entry-level fit from posting"
   },
   {
     "page": "/docs/jobs/highradius-agent-developer-test-iii.html",
@@ -1520,10 +1300,70 @@
     "review_reason": "classified as experienced — outside fresher audience"
   },
   {
+    "page": "/docs/jobs/gitlab-ecosystem-operations-specialist.html",
+    "company": "GitLab",
+    "title": "Ecosystem Operations Specialist",
+    "source": "GitLab",
+    "category": "unknown",
+    "status": "active",
+    "confidence": 75,
+    "review_reason": "could not determine entry-level fit from posting"
+  },
+  {
+    "page": "/docs/jobs/gitlab-intermediate-support-engineer-shift.html",
+    "company": "GitLab",
+    "title": "Intermediate Support Engineer (SHIFT)",
+    "source": "GitLab",
+    "category": "unknown",
+    "status": "active",
+    "confidence": 75,
+    "review_reason": "could not determine entry-level fit from posting"
+  },
+  {
+    "page": "/docs/jobs/gitlab-software-engineer-delivery-release.html",
+    "company": "GitLab",
+    "title": "Software Engineer, Delivery : Release",
+    "source": "GitLab",
+    "category": "unknown",
+    "status": "active",
+    "confidence": 75,
+    "review_reason": "could not determine entry-level fit from posting"
+  },
+  {
+    "page": "/docs/jobs/gitlab-support-engineer-amer.html",
+    "company": "GitLab",
+    "title": "Support Engineer (AMER)",
+    "source": "GitLab",
+    "category": "unknown",
+    "status": "active",
+    "confidence": 75,
+    "review_reason": "could not determine entry-level fit from posting"
+  },
+  {
     "page": "/docs/jobs/honeycomb-marketing-ops-analyst.html",
     "company": "Honeycomb",
     "title": "Marketing Ops Analyst",
     "source": "Honeycomb",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/gusto-payment-operations-analyst.html",
+    "company": "Gusto",
+    "title": "Payment Operations Analyst",
+    "source": "Gusto",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/fivetran-global-payroll-analyst.html",
+    "company": "Fivetran",
+    "title": "Global Payroll Analyst",
+    "source": "Fivetran",
     "category": "experienced",
     "status": "active",
     "confidence": 85,
@@ -1640,6 +1480,26 @@
     "review_reason": "classified as experienced — outside fresher audience"
   },
   {
+    "page": "/docs/jobs/new-relic-r0000860-professional-services-consultant.html",
+    "company": "New Relic",
+    "title": "R0000860 - Professional Services Consultant",
+    "source": "New Relic",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/new-relic-technical-support-engineer.html",
+    "company": "New Relic",
+    "title": "Technical Support Engineer",
+    "source": "New Relic",
+    "category": "unknown",
+    "status": "active",
+    "confidence": 75,
+    "review_reason": "could not determine entry-level fit from posting"
+  },
+  {
     "page": "/docs/jobs/mongodb-associate-hr-shared-services.html",
     "company": "MongoDB",
     "title": "Associate, HR Shared Services",
@@ -1720,26 +1580,6 @@
     "review_reason": "classified as experienced — outside fresher audience"
   },
   {
-    "page": "/docs/jobs/new-relic-r0000860-professional-services-consultant.html",
-    "company": "New Relic",
-    "title": "R0000860 - Professional Services Consultant",
-    "source": "New Relic",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/new-relic-technical-support-engineer.html",
-    "company": "New Relic",
-    "title": "Technical Support Engineer",
-    "source": "New Relic",
-    "category": "unknown",
-    "status": "active",
-    "confidence": 75,
-    "review_reason": "could not determine entry-level fit from posting"
-  },
-  {
     "page": "/docs/jobs/planetscale-ai-developer-experience-engineer.html",
     "company": "PlanetScale",
     "title": "AI Developer Experience Engineer",
@@ -1764,16 +1604,6 @@
     "company": "Pinterest",
     "title": "Sr Software Engineer, EPD Ads",
     "source": "Pinterest",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/qualtrics-consultant-patient-experience.html",
-    "company": "Qualtrics",
-    "title": "Consultant, Patient Experience",
-    "source": "Qualtrics",
     "category": "experienced",
     "status": "active",
     "confidence": 85,
@@ -1870,6 +1700,36 @@
     "review_reason": "classified as experienced — outside fresher audience"
   },
   {
+    "page": "/docs/jobs/qualtrics-consultant-patient-experience.html",
+    "company": "Qualtrics",
+    "title": "Consultant, Patient Experience",
+    "source": "Qualtrics",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/qualtrics-managing-consultant-nursing.html",
+    "company": "Qualtrics",
+    "title": "Managing Consultant, Nursing",
+    "source": "Qualtrics",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/salesloft-people-operations-coordinator-temp-to-fte-opportun.html",
+    "company": "Salesloft",
+    "title": "People Operations Coordinator - Temp to FTE Opportunity",
+    "source": "Salesloft",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
     "page": "/docs/jobs/pubmatic-business-intelligence-associate.html",
     "company": "PubMatic",
     "title": "Business Intelligence Associate",
@@ -1884,16 +1744,6 @@
     "company": "PubMatic",
     "title": "Programmatic Trading Specialist, APAC",
     "source": "PubMatic",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/salesloft-people-operations-coordinator-temp-to-fte-opportun.html",
-    "company": "Salesloft",
-    "title": "People Operations Coordinator - Temp to FTE Opportunity",
-    "source": "Salesloft",
     "category": "experienced",
     "status": "active",
     "confidence": 85,
@@ -1933,6 +1783,16 @@
     "page": "/docs/jobs/roblox-proactive-moderation-operations-specialist.html",
     "company": "Roblox",
     "title": "Proactive Moderation Operations Specialist",
+    "source": "Roblox",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/roblox-quality-analyst.html",
+    "company": "Roblox",
+    "title": "Quality Analyst",
     "source": "Roblox",
     "category": "experienced",
     "status": "active",
@@ -2000,86 +1860,6 @@
     "review_reason": "could not determine entry-level fit from posting"
   },
   {
-    "page": "/docs/jobs/sezzle-it-operations-analyst.html",
-    "company": "Sezzle",
-    "title": "IT Operations Analyst",
-    "source": "Sezzle",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/sezzle-it-operations-analyst.html",
-    "company": "Sezzle",
-    "title": "IT Operations Analyst",
-    "source": "Sezzle",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/sezzle-it-operations-analyst.html",
-    "company": "Sezzle",
-    "title": "IT Operations Analyst",
-    "source": "Sezzle",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/sezzle-marketplace-operations-experimentation-specialist.html",
-    "company": "Sezzle",
-    "title": "Marketplace Operations & Experimentation Specialist",
-    "source": "Sezzle",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/sezzle-marketplace-operations-experimentation-specialist.html",
-    "company": "Sezzle",
-    "title": "Marketplace Operations & Experimentation Specialist",
-    "source": "Sezzle",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/sezzle-marketplace-operations-experimentation-specialist.html",
-    "company": "Sezzle",
-    "title": "Marketplace Operations & Experimentation Specialist",
-    "source": "Sezzle",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/sezzle-marketplace-operations-experimentation-specialist.html",
-    "company": "Sezzle",
-    "title": "Marketplace Operations & Experimentation Specialist",
-    "source": "Sezzle",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/sezzle-marketplace-operations-experimentation-specialist.html",
-    "company": "Sezzle",
-    "title": "Marketplace Operations & Experimentation Specialist",
-    "source": "Sezzle",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
     "page": "/docs/jobs/storyblok-developer-relations-engineer-uk.html",
     "company": "Storyblok",
     "title": "Developer Relations Engineer - UK",
@@ -2120,6 +1900,86 @@
     "review_reason": "classified as experienced — outside fresher audience"
   },
   {
+    "page": "/docs/jobs/sezzle-it-operations-analyst.html",
+    "company": "Sezzle",
+    "title": "IT Operations Analyst",
+    "source": "Sezzle",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/sezzle-it-operations-analyst.html",
+    "company": "Sezzle",
+    "title": "IT Operations Analyst",
+    "source": "Sezzle",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/sezzle-it-operations-analyst.html",
+    "company": "Sezzle",
+    "title": "IT Operations Analyst",
+    "source": "Sezzle",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/sezzle-marketplace-operations-experimentation-specialist.html",
+    "company": "Sezzle",
+    "title": "Marketplace Operations & Experimentation Specialist",
+    "source": "Sezzle",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/sezzle-marketplace-operations-experimentation-specialist.html",
+    "company": "Sezzle",
+    "title": "Marketplace Operations & Experimentation Specialist",
+    "source": "Sezzle",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/sezzle-marketplace-operations-experimentation-specialist.html",
+    "company": "Sezzle",
+    "title": "Marketplace Operations & Experimentation Specialist",
+    "source": "Sezzle",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/sezzle-marketplace-operations-experimentation-specialist.html",
+    "company": "Sezzle",
+    "title": "Marketplace Operations & Experimentation Specialist",
+    "source": "Sezzle",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/sezzle-marketplace-operations-experimentation-specialist.html",
+    "company": "Sezzle",
+    "title": "Marketplace Operations & Experimentation Specialist",
+    "source": "Sezzle",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
     "page": "/docs/jobs/together-ai-technical-support-engineer-gpu-cluster-india.html",
     "company": "Together AI",
     "title": "Technical Support Engineer (GPU Cluster), India",
@@ -2144,16 +2004,6 @@
     "company": "Together AI",
     "title": "Technical Support Engineer (Inference) - India Weekends",
     "source": "Together AI",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/xendit-finops-recons-associate.html",
-    "company": "Xendit",
-    "title": "FinOps Recons Associate",
-    "source": "Xendit",
     "category": "experienced",
     "status": "active",
     "confidence": 85,
@@ -2190,39 +2040,19 @@
     "review_reason": "classified as experienced — outside fresher audience"
   },
   {
-    "page": "/docs/jobs/twilio-software-engineer-l2.html",
+    "page": "/docs/jobs/twilio-phone-number-specialist-1.html",
     "company": "Twilio",
-    "title": "Software Engineer (L2)",
+    "title": "Phone Number specialist 1",
     "source": "Twilio",
     "category": "experienced",
     "status": "active",
     "confidence": 85,
     "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/twilio-software-engineer-l2-messaging-api.html",
-    "company": "Twilio",
-    "title": "Software Engineer L2-Messaging API",
-    "source": "Twilio",
-    "category": "unknown",
-    "status": "active",
-    "confidence": 75,
-    "review_reason": "could not determine entry-level fit from posting"
   },
   {
     "page": "/docs/jobs/twilio-software-engineer-l3-email.html",
     "company": "Twilio",
     "title": "Software Engineer (L3) Email",
-    "source": "Twilio",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/twilio-software-engineer-video.html",
-    "company": "Twilio",
-    "title": "Software Engineer - Video",
     "source": "Twilio",
     "category": "experienced",
     "status": "active",
@@ -2250,9 +2080,9 @@
     "review_reason": "classified as experienced — outside fresher audience"
   },
   {
-    "page": "/docs/jobs/twilio-technical-support-expert-2.html",
+    "page": "/docs/jobs/twilio-vendor-operations-governance-specialist.html",
     "company": "Twilio",
-    "title": "Technical Support Expert 2",
+    "title": "Vendor Operations & Governance Specialist",
     "source": "Twilio",
     "category": "experienced",
     "status": "active",
@@ -2260,10 +2090,10 @@
     "review_reason": "classified as experienced — outside fresher audience"
   },
   {
-    "page": "/docs/jobs/twilio-vendor-operations-governance-specialist.html",
-    "company": "Twilio",
-    "title": "Vendor Operations & Governance Specialist",
-    "source": "Twilio",
+    "page": "/docs/jobs/xendit-finops-recons-associate.html",
+    "company": "Xendit",
+    "title": "FinOps Recons Associate",
+    "source": "Xendit",
     "category": "experienced",
     "status": "active",
     "confidence": 85,
@@ -2350,16 +2180,6 @@
     "review_reason": "classified as experienced — outside fresher audience"
   },
   {
-    "page": "/docs/jobs/zoominfo-software-engineer-ii.html",
-    "company": "ZoomInfo",
-    "title": "Software Engineer II",
-    "source": "ZoomInfo",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
     "page": "/docs/jobs/zoominfo-software-engineer-iii.html",
     "company": "ZoomInfo",
     "title": "Software Engineer III",
@@ -2394,86 +2214,6 @@
     "company": "Anyscale",
     "title": "Software Engineer, Ray Data",
     "source": "Anyscale",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/zscaler-business-support-analyst-lms-admin.html",
-    "company": "Zscaler",
-    "title": "Business Support Analyst (LMS Admin)",
-    "source": "Zscaler",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/zscaler-designated-support-engineer-iii.html",
-    "company": "Zscaler",
-    "title": "Designated Support Engineer III",
-    "source": "Zscaler",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/zscaler-partner-sales-specialist-hyperscalers.html",
-    "company": "Zscaler",
-    "title": "Partner Sales Specialist - Hyperscalers",
-    "source": "Zscaler",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/zscaler-product-support-engineer-iii.html",
-    "company": "Zscaler",
-    "title": "Product Support Engineer III",
-    "source": "Zscaler",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/zscaler-specialist-account-executive-ai-security.html",
-    "company": "Zscaler",
-    "title": "Specialist Account Executive - AI Security",
-    "source": "Zscaler",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/zscaler-specialist-account-executive-ai-security.html",
-    "company": "Zscaler",
-    "title": "Specialist Account Executive - AI Security",
-    "source": "Zscaler",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/zscaler-specialist-account-executive-secops.html",
-    "company": "Zscaler",
-    "title": "Specialist Account Executive, SecOps",
-    "source": "Zscaler",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/zscaler-specialist-account-executive-secops-enterprise.html",
-    "company": "Zscaler",
-    "title": "Specialist Account Executive, SecOps - Enterprise",
-    "source": "Zscaler",
     "category": "experienced",
     "status": "active",
     "confidence": 85,
@@ -2520,10 +2260,10 @@
     "review_reason": "classified as experienced — outside fresher audience"
   },
   {
-    "page": "/docs/jobs/clickhouse-full-stack-software-engineer-postgres.html",
-    "company": "ClickHouse",
-    "title": "Full Stack Software Engineer - Postgres",
-    "source": "ClickHouse",
+    "page": "/docs/jobs/cognition-qa-engineer-apac.html",
+    "company": "Cognition",
+    "title": "QA Engineer - APAC",
+    "source": "Cognition",
     "category": "experienced",
     "status": "active",
     "confidence": 85,
@@ -2540,10 +2280,10 @@
     "review_reason": "classified as experienced — outside fresher audience"
   },
   {
-    "page": "/docs/jobs/cognition-qa-engineer-apac.html",
-    "company": "Cognition",
-    "title": "QA Engineer - APAC",
-    "source": "Cognition",
+    "page": "/docs/jobs/clickhouse-full-stack-software-engineer-postgres.html",
+    "company": "ClickHouse",
+    "title": "Full Stack Software Engineer - Postgres",
+    "source": "ClickHouse",
     "category": "experienced",
     "status": "active",
     "confidence": 85,
@@ -2560,6 +2300,16 @@
     "review_reason": "could not determine entry-level fit from posting"
   },
   {
+    "page": "/docs/jobs/drivewealth-account-services-analyst.html",
+    "company": "DriveWealth",
+    "title": "Account Services Analyst",
+    "source": "DriveWealth",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
     "page": "/docs/jobs/elevenlabs-developer-experience-engineer.html",
     "company": "ElevenLabs",
     "title": "Developer Experience Engineer",
@@ -2574,16 +2324,6 @@
     "company": "ElevenLabs",
     "title": "GTM Enablement - Global Onboarding & Operations",
     "source": "ElevenLabs",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/drivewealth-account-services-analyst.html",
-    "company": "DriveWealth",
-    "title": "Account Services Analyst",
-    "source": "DriveWealth",
     "category": "experienced",
     "status": "active",
     "confidence": 85,
@@ -2660,10 +2400,10 @@
     "review_reason": "classified as experienced — outside fresher audience"
   },
   {
-    "page": "/docs/jobs/influxdata-software-engineer-database-reliability-performanc.html",
-    "company": "InfluxData",
-    "title": "Software Engineer, Database Reliability & Performance",
-    "source": "InfluxData",
+    "page": "/docs/jobs/lg-ad-solutions-software-engineer-ii.html",
+    "company": "LG Ad Solutions",
+    "title": "Software Engineer II",
+    "source": "LG Ad Solutions",
     "category": "experienced",
     "status": "active",
     "confidence": 85,
@@ -2680,30 +2420,10 @@
     "review_reason": "classified as experienced — outside fresher audience"
   },
   {
-    "page": "/docs/jobs/lg-ad-solutions-software-engineer-ii.html",
-    "company": "LG Ad Solutions",
-    "title": "Software Engineer II",
-    "source": "LG Ad Solutions",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
     "page": "/docs/jobs/modern-treasury-software-engineer-infrastructure.html",
     "company": "Modern Treasury",
     "title": "Software Engineer - Infrastructure",
     "source": "Modern Treasury",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/notion-product-support-specialist.html",
-    "company": "Notion",
-    "title": "Product Support Specialist",
-    "source": "Notion",
     "category": "experienced",
     "status": "active",
     "confidence": 85,
@@ -2724,6 +2444,16 @@
     "company": "Mudflap",
     "title": "Customer Support Training & Enablement Specialist",
     "source": "Mudflap",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/notion-product-support-specialist.html",
+    "company": "Notion",
+    "title": "Product Support Specialist",
+    "source": "Notion",
     "category": "experienced",
     "status": "active",
     "confidence": 85,
@@ -2783,26 +2513,6 @@
     "page": "/docs/jobs/render-software-engineer-infrastructure-all-levels.html",
     "company": "Render",
     "title": "Software Engineer, Infrastructure (all levels)",
-    "source": "Render",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/render-software-engineer-billing-all-levels.html",
-    "company": "Render",
-    "title": "Software Engineer, Billing (all levels)",
-    "source": "Render",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/render-software-engineer-growth-all-levels.html",
-    "company": "Render",
-    "title": "Software Engineer, Growth (all levels)",
     "source": "Render",
     "category": "experienced",
     "status": "active",
@@ -2920,6 +2630,16 @@
     "review_reason": "classified as experienced — outside fresher audience"
   },
   {
+    "page": "/docs/jobs/sardine-software-engineer-backend.html",
+    "company": "Sardine",
+    "title": "Software Engineer - Backend",
+    "source": "Sardine",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
     "page": "/docs/jobs/runway-support-specialist-creative-enterprise-tier-3.html",
     "company": "Runway",
     "title": "Support Specialist, Creative Enterprise Tier 3",
@@ -2960,40 +2680,30 @@
     "review_reason": "classified as experienced — outside fresher audience"
   },
   {
-    "page": "/docs/jobs/sardine-software-engineer-backend.html",
-    "company": "Sardine",
-    "title": "Software Engineer - Backend",
-    "source": "Sardine",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/runpod-technical-support-engineer-l2.html",
-    "company": "RunPod",
-    "title": "Technical Support Engineer (L2)",
-    "source": "RunPod",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/runpod-technical-support-engineer-l2.html",
-    "company": "RunPod",
-    "title": "Technical Support Engineer (L2)",
-    "source": "RunPod",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
     "page": "/docs/jobs/sarvam-ai-software-engineer-model-api-platform.html",
     "company": "Sarvam AI",
     "title": "Software Engineer - Model API Platform",
     "source": "Sarvam AI",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/runpod-technical-support-engineer-l2.html",
+    "company": "RunPod",
+    "title": "Technical Support Engineer (L2)",
+    "source": "RunPod",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/runpod-technical-support-engineer-l2.html",
+    "company": "RunPod",
+    "title": "Technical Support Engineer (L2)",
+    "source": "RunPod",
     "category": "experienced",
     "status": "active",
     "confidence": 85,
@@ -3270,26 +2980,6 @@
     "review_reason": "classified as experienced — outside fresher audience"
   },
   {
-    "page": "/docs/jobs/tensorwave-software-engineer-full-stack.html",
-    "company": "TensorWave",
-    "title": "Software Engineer (Full Stack)",
-    "source": "TensorWave",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/tensorwave-software-engineer-front-end.html",
-    "company": "TensorWave",
-    "title": "Software Engineer (Front-End)",
-    "source": "TensorWave",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
     "page": "/docs/jobs/wayflyer-backend-software-engineer.html",
     "company": "Wayflyer",
     "title": "Backend Software Engineer",
@@ -3314,6 +3004,26 @@
     "company": "Wayflyer",
     "title": "Frontend Software Engineer",
     "source": "Wayflyer",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/tensorwave-software-engineer-full-stack.html",
+    "company": "TensorWave",
+    "title": "Software Engineer (Full Stack)",
+    "source": "TensorWave",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/tensorwave-software-engineer-front-end.html",
+    "company": "TensorWave",
+    "title": "Software Engineer (Front-End)",
+    "source": "TensorWave",
     "category": "experienced",
     "status": "active",
     "confidence": 85,
@@ -3370,20 +3080,20 @@
     "review_reason": "classified as experienced — outside fresher audience"
   },
   {
-    "page": "/docs/jobs/deccan-ai-associate-project-manager.html",
-    "company": "Deccan AI",
-    "title": "Associate Project Manager",
-    "source": "Deccan AI",
+    "page": "/docs/jobs/everestims-technologies-associate-software-engineer.html",
+    "company": "EverestIMS Technologies",
+    "title": "Associate Software Engineer",
+    "source": "EverestIMS Technologies",
     "category": "experienced",
     "status": "active",
     "confidence": 85,
     "review_reason": "classified as experienced — outside fresher audience"
   },
   {
-    "page": "/docs/jobs/everestims-technologies-associate-software-engineer.html",
-    "company": "EverestIMS Technologies",
-    "title": "Associate Software Engineer",
-    "source": "EverestIMS Technologies",
+    "page": "/docs/jobs/deccan-ai-associate-project-manager.html",
+    "company": "Deccan AI",
+    "title": "Associate Project Manager",
+    "source": "Deccan AI",
     "category": "experienced",
     "status": "active",
     "confidence": 85,
@@ -3404,6 +3114,26 @@
     "company": "Gameberry Labs",
     "title": "Gen AI Creative Marketing Manager -Intern",
     "source": "Gameberry Labs",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/idreamcareer-associate-product-manager.html",
+    "company": "iDreamCareer",
+    "title": "Associate Product Manager",
+    "source": "iDreamCareer",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
+    "page": "/docs/jobs/idreamcareer-associate-founder-s-office.html",
+    "company": "iDreamCareer",
+    "title": "Associate, Founder's Office",
+    "source": "iDreamCareer",
     "category": "experienced",
     "status": "active",
     "confidence": 85,
@@ -3464,26 +3194,6 @@
     "company": "Fynd",
     "title": "Content Creator",
     "source": "Fynd",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/idreamcareer-associate-product-manager.html",
-    "company": "iDreamCareer",
-    "title": "Associate Product Manager",
-    "source": "iDreamCareer",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
-    "page": "/docs/jobs/idreamcareer-associate-founder-s-office.html",
-    "company": "iDreamCareer",
-    "title": "Associate, Founder's Office",
-    "source": "iDreamCareer",
     "category": "experienced",
     "status": "active",
     "confidence": 85,
@@ -3730,6 +3440,26 @@
     "review_reason": "classified as experienced — outside fresher audience"
   },
   {
+    "page": "/docs/jobs/wohlig-it-sales-executive.html",
+    "company": "Wohlig",
+    "title": "IT Sales Executive",
+    "source": "Wohlig",
+    "category": "unknown",
+    "status": "active",
+    "confidence": 75,
+    "review_reason": "could not determine entry-level fit from posting"
+  },
+  {
+    "page": "/docs/jobs/wohlig-it-project-manager.html",
+    "company": "Wohlig",
+    "title": "IT Project Manager",
+    "source": "Wohlig",
+    "category": "experienced",
+    "status": "active",
+    "confidence": 85,
+    "review_reason": "classified as experienced — outside fresher audience"
+  },
+  {
     "page": "/docs/jobs/vyapar-program-manager.html",
     "company": "Vyapar",
     "title": "Program Manager",
@@ -3790,26 +3520,6 @@
     "review_reason": "classified as experienced — outside fresher audience"
   },
   {
-    "page": "/docs/jobs/wohlig-it-sales-executive.html",
-    "company": "Wohlig",
-    "title": "IT Sales Executive",
-    "source": "Wohlig",
-    "category": "unknown",
-    "status": "active",
-    "confidence": 75,
-    "review_reason": "could not determine entry-level fit from posting"
-  },
-  {
-    "page": "/docs/jobs/wohlig-it-project-manager.html",
-    "company": "Wohlig",
-    "title": "IT Project Manager",
-    "source": "Wohlig",
-    "category": "experienced",
-    "status": "active",
-    "confidence": 85,
-    "review_reason": "classified as experienced — outside fresher audience"
-  },
-  {
     "page": "/docs/jobs/lic-recruitment-of-aao-generalists-specialists-assistant-eng.html",
     "company": "LIC",
     "title": "Recruitment of AAO Generalists Specialists Assistant Engineers 2025",
@@ -3828,6 +3538,196 @@
     "status": "unknown",
     "confidence": 50,
     "review_reason": "classified as experienced — outside fresher audience; posting description too thin to rewrite faithfully; could not verify the posting is currently open"
+  },
+  {
+    "page": "/docs/jobs/sbi-recruitment-results.html",
+    "company": "SBI",
+    "title": "Recruitment Results",
+    "source": "SBI",
+    "category": "unknown",
+    "status": "unknown",
+    "confidence": 40,
+    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully; could not verify the posting is currently open"
+  },
+  {
+    "page": "/docs/jobs/sbi-recruitment-results-archive.html",
+    "company": "SBI",
+    "title": "Recruitment Results & Archive",
+    "source": "SBI",
+    "category": "unknown",
+    "status": "unknown",
+    "confidence": 40,
+    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully; could not verify the posting is currently open"
+  },
+  {
+    "page": "/docs/jobs/sbi-join-sbi-current-openings-recruitment-results-recruitmen.html",
+    "company": "SBI",
+    "title": "JOIN SBI Current Openings Recruitment Results Recruitment Results & Archive",
+    "source": "SBI",
+    "category": "unknown",
+    "status": "unknown",
+    "confidence": 40,
+    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully; could not verify the posting is currently open"
+  },
+  {
+    "page": "/docs/jobs/sbi-download-advertisement.html",
+    "company": "SBI",
+    "title": "DOWNLOAD ADVERTISEMENT(",
+    "source": "SBI",
+    "category": "unknown",
+    "status": "unknown",
+    "confidence": 40,
+    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully; could not verify the posting is currently open"
+  },
+  {
+    "page": "/docs/jobs/sbi-download-advertisement-hindi.html",
+    "company": "SBI",
+    "title": "DOWNLOAD ADVERTISEMENT Hindi /",
+    "source": "SBI",
+    "category": "unknown",
+    "status": "unknown",
+    "confidence": 40,
+    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully; could not verify the posting is currently open"
+  },
+  {
+    "page": "/docs/jobs/sbi-download-advertisement-hindi-530-kb.html",
+    "company": "SBI",
+    "title": "DOWNLOAD ADVERTISEMENT( Hindi (530 KB) /",
+    "source": "SBI",
+    "category": "unknown",
+    "status": "unknown",
+    "confidence": 40,
+    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully; could not verify the posting is currently open"
+  },
+  {
+    "page": "/docs/jobs/sbi-download-advertisement-hindi-847-kb.html",
+    "company": "SBI",
+    "title": "DOWNLOAD ADVERTISEMENT( Hindi (847 KB) /",
+    "source": "SBI",
+    "category": "unknown",
+    "status": "unknown",
+    "confidence": 40,
+    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully; could not verify the posting is currently open"
+  },
+  {
+    "page": "/docs/jobs/sbi-download-advertisement-hindi-467-kb.html",
+    "company": "SBI",
+    "title": "DOWNLOAD ADVERTISEMENT( Hindi (467 KB) /",
+    "source": "SBI",
+    "category": "unknown",
+    "status": "unknown",
+    "confidence": 40,
+    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully; could not verify the posting is currently open"
+  },
+  {
+    "page": "/docs/jobs/sbi-download-advertisement-hindi-517-kb.html",
+    "company": "SBI",
+    "title": "DOWNLOAD ADVERTISEMENT ( Hindi (517 KB) )/",
+    "source": "SBI",
+    "category": "unknown",
+    "status": "unknown",
+    "confidence": 40,
+    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully; could not verify the posting is currently open"
+  },
+  {
+    "page": "/docs/jobs/sbi-download-advertisement-hindi-645-kb.html",
+    "company": "SBI",
+    "title": "DOWNLOAD ADVERTISEMENT( HINDI (645 KB) /",
+    "source": "SBI",
+    "category": "unknown",
+    "status": "unknown",
+    "confidence": 40,
+    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully; could not verify the posting is currently open"
+  },
+  {
+    "page": "/docs/jobs/sbi-download-advertisement-hindi-592-kb.html",
+    "company": "SBI",
+    "title": "DOWNLOAD ADVERTISEMENT (Hindi (592 KB) /",
+    "source": "SBI",
+    "category": "unknown",
+    "status": "unknown",
+    "confidence": 40,
+    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully; could not verify the posting is currently open"
+  },
+  {
+    "page": "/docs/jobs/sbi-download-advertisement-hindi-495-kb.html",
+    "company": "SBI",
+    "title": "DOWNLOAD ADVERTISEMENT( Hindi (495 KB) /",
+    "source": "SBI",
+    "category": "unknown",
+    "status": "unknown",
+    "confidence": 40,
+    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully; could not verify the posting is currently open"
+  },
+  {
+    "page": "/docs/jobs/sbi-download-advertisement-hindi-495-kb-english-864-kb-new.html",
+    "company": "SBI",
+    "title": "DOWNLOAD ADVERTISEMENT( Hindi (495 KB) / English (864 KB) ) (NEW)",
+    "source": "SBI",
+    "category": "unknown",
+    "status": "unknown",
+    "confidence": 40,
+    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully; could not verify the posting is currently open"
+  },
+  {
+    "page": "/docs/jobs/sbi-download-advertisement-hindi-536-kb.html",
+    "company": "SBI",
+    "title": "DOWNLOAD ADVERTISEMENT( Hindi/ (536 KB)",
+    "source": "SBI",
+    "category": "unknown",
+    "status": "unknown",
+    "confidence": 40,
+    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully; could not verify the posting is currently open"
+  },
+  {
+    "page": "/docs/jobs/sbi-download-advertisement-hindi-532-kb.html",
+    "company": "SBI",
+    "title": "DOWNLOAD ADVERTISEMENT( Hindi/ (532 KB)",
+    "source": "SBI",
+    "category": "unknown",
+    "status": "unknown",
+    "confidence": 40,
+    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully; could not verify the posting is currently open"
+  },
+  {
+    "page": "/docs/jobs/sbi-download-advertisement-hindi-577-kb.html",
+    "company": "SBI",
+    "title": "DOWNLOAD ADVERTISEMENT (Hindi (577 KB) /",
+    "source": "SBI",
+    "category": "unknown",
+    "status": "unknown",
+    "confidence": 40,
+    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully; could not verify the posting is currently open"
+  },
+  {
+    "page": "/docs/jobs/sbi-download-advertisement-hindi-782-kb.html",
+    "company": "SBI",
+    "title": "DOWNLOAD ADVERTISEMENT ( Hindi (782 KB)",
+    "source": "SBI",
+    "category": "unknown",
+    "status": "unknown",
+    "confidence": 40,
+    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully; could not verify the posting is currently open"
+  },
+  {
+    "page": "/docs/jobs/sbi-download-advertisement-hindi-513-kb.html",
+    "company": "SBI",
+    "title": "DOWNLOAD ADVERTISEMENT ( Hindi (513 KB) /",
+    "source": "SBI",
+    "category": "unknown",
+    "status": "unknown",
+    "confidence": 40,
+    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully; could not verify the posting is currently open"
+  },
+  {
+    "page": "/docs/jobs/sbi-download-advertisement-hindi-370-kb.html",
+    "company": "SBI",
+    "title": "DOWNLOAD ADVERTISEMENT ( Hindi / (370 KB)",
+    "source": "SBI",
+    "category": "unknown",
+    "status": "unknown",
+    "confidence": 40,
+    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully; could not verify the posting is currently open"
   },
   {
     "page": "/docs/jobs/powergrid-engagement-of-apprentices.html",
@@ -4170,6 +4070,76 @@
     "review_reason": "could not verify the posting is currently open"
   },
   {
+    "page": "/docs/jobs/hpcl-engagement-of-ex-employees-as-ta-consultant-for-visakh-.html",
+    "company": "HPCL",
+    "title": "Engagement of Ex-Employees as TA Consultant for Visakh Refinery – English Advt.",
+    "source": "HPCL",
+    "category": "unknown",
+    "status": "unknown",
+    "confidence": 40,
+    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully; could not verify the posting is currently open"
+  },
+  {
+    "page": "/docs/jobs/hpcl-selection-methodology-for-recruitment-of-officers.html",
+    "company": "HPCL",
+    "title": "Selection Methodology for Recruitment of Officers",
+    "source": "HPCL",
+    "category": "unknown",
+    "status": "unknown",
+    "confidence": 40,
+    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully; could not verify the posting is currently open"
+  },
+  {
+    "page": "/docs/jobs/hpcl-detailed-advertisement-pdf-attached.html",
+    "company": "HPCL",
+    "title": "Detailed Advertisement (pdf attached)",
+    "source": "HPCL",
+    "category": "unknown",
+    "status": "unknown",
+    "confidence": 40,
+    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully; could not verify the posting is currently open"
+  },
+  {
+    "page": "/docs/jobs/hpcl-detailed-advertisement-pdf-attached-content-is-in-hindi.html",
+    "company": "HPCL",
+    "title": "Detailed Advertisement (pdf attached) (Content is in Hindi)",
+    "source": "HPCL",
+    "category": "unknown",
+    "status": "unknown",
+    "confidence": 40,
+    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully; could not verify the posting is currently open"
+  },
+  {
+    "page": "/docs/jobs/hpcl-mock-test-for-recruitment-of-officers.html",
+    "company": "HPCL",
+    "title": "Mock Test for Recruitment of Officers",
+    "source": "HPCL",
+    "category": "unknown",
+    "status": "unknown",
+    "confidence": 40,
+    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully; could not verify the posting is currently open"
+  },
+  {
+    "page": "/docs/jobs/hpcl-selection-methodology-for-recruitment-of-officers-revis.html",
+    "company": "HPCL",
+    "title": "Selection Methodology for Recruitment of Officers (Revised as on 18th March 2026)",
+    "source": "HPCL",
+    "category": "unknown",
+    "status": "unknown",
+    "confidence": 60,
+    "review_reason": "could not determine entry-level fit from posting; could not verify the posting is currently open"
+  },
+  {
+    "page": "/docs/jobs/hpcl-travel-reimbursement-form-for-apprentice-314-kb.html",
+    "company": "HPCL",
+    "title": "Travel Reimbursement Form for Apprentice (314 KB)",
+    "source": "HPCL",
+    "category": "internship",
+    "status": "unknown",
+    "confidence": 50,
+    "review_reason": "posting description too thin to rewrite faithfully; could not verify the posting is currently open"
+  },
+  {
     "page": "/docs/jobs/c-dac-corrigendum-advertisement-ref-no-corp-jit-03-2026.html",
     "company": "C-DAC",
     "title": "CORRIGENDUM - ADVERTISEMENT REF. NO. CORP/JIT/03/2026",
@@ -4348,76 +4318,6 @@
     "status": "unknown",
     "confidence": 70,
     "review_reason": "classified as experienced — outside fresher audience; could not verify the posting is currently open"
-  },
-  {
-    "page": "/docs/jobs/hpcl-engagement-of-ex-employees-as-ta-consultant-for-visakh-.html",
-    "company": "HPCL",
-    "title": "Engagement of Ex-Employees as TA Consultant for Visakh Refinery – English Advt.",
-    "source": "HPCL",
-    "category": "unknown",
-    "status": "unknown",
-    "confidence": 40,
-    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully; could not verify the posting is currently open"
-  },
-  {
-    "page": "/docs/jobs/hpcl-selection-methodology-for-recruitment-of-officers.html",
-    "company": "HPCL",
-    "title": "Selection Methodology for Recruitment of Officers",
-    "source": "HPCL",
-    "category": "unknown",
-    "status": "unknown",
-    "confidence": 40,
-    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully; could not verify the posting is currently open"
-  },
-  {
-    "page": "/docs/jobs/hpcl-detailed-advertisement-pdf-attached.html",
-    "company": "HPCL",
-    "title": "Detailed Advertisement (pdf attached)",
-    "source": "HPCL",
-    "category": "unknown",
-    "status": "unknown",
-    "confidence": 40,
-    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully; could not verify the posting is currently open"
-  },
-  {
-    "page": "/docs/jobs/hpcl-detailed-advertisement-pdf-attached-content-is-in-hindi.html",
-    "company": "HPCL",
-    "title": "Detailed Advertisement (pdf attached) (Content is in Hindi)",
-    "source": "HPCL",
-    "category": "unknown",
-    "status": "unknown",
-    "confidence": 40,
-    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully; could not verify the posting is currently open"
-  },
-  {
-    "page": "/docs/jobs/hpcl-mock-test-for-recruitment-of-officers.html",
-    "company": "HPCL",
-    "title": "Mock Test for Recruitment of Officers",
-    "source": "HPCL",
-    "category": "unknown",
-    "status": "unknown",
-    "confidence": 40,
-    "review_reason": "could not determine entry-level fit from posting; posting description too thin to rewrite faithfully; could not verify the posting is currently open"
-  },
-  {
-    "page": "/docs/jobs/hpcl-selection-methodology-for-recruitment-of-officers-revis.html",
-    "company": "HPCL",
-    "title": "Selection Methodology for Recruitment of Officers (Revised as on 18th March 2026)",
-    "source": "HPCL",
-    "category": "unknown",
-    "status": "unknown",
-    "confidence": 60,
-    "review_reason": "could not determine entry-level fit from posting; could not verify the posting is currently open"
-  },
-  {
-    "page": "/docs/jobs/hpcl-travel-reimbursement-form-for-apprentice-314-kb.html",
-    "company": "HPCL",
-    "title": "Travel Reimbursement Form for Apprentice (314 KB)",
-    "source": "HPCL",
-    "category": "internship",
-    "status": "unknown",
-    "confidence": 50,
-    "review_reason": "posting description too thin to rewrite faithfully; could not verify the posting is currently open"
   },
   {
     "page": "/docs/jobs/haidri-softwares-software-developer-regional-lead-india.html",
