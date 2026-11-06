@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-05T20:59:24.569Z",
-  "totalJobs": 312,
-  "publishedCount": 312,
-  "quarantinedCount": 444,
-  "reviewCount": 444,
-  "privateCount": 312,
+  "updatedAt": "2026-11-06T09:03:55.317Z",
+  "totalJobs": 291,
+  "publishedCount": 291,
+  "quarantinedCount": 405,
+  "reviewCount": 405,
+  "privateCount": 291,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -59,7 +59,7 @@
       "source": "ashby-ashby",
       "name": "Ashby",
       "kind": "ashby",
-      "fetched": 9
+      "fetched": 8
     },
     {
       "source": "ashby-astronomer",
@@ -647,7 +647,7 @@
       "source": "ashby-runwayml",
       "name": "Runway",
       "kind": "ashby",
-      "fetched": 6
+      "fetched": 5
     },
     {
       "source": "ashby-sanity",
@@ -863,7 +863,7 @@
       "source": "gh-affirm",
       "name": "Affirm",
       "kind": "greenhouse",
-      "fetched": 37
+      "fetched": 36
     },
     {
       "source": "gh-affle",
@@ -1271,7 +1271,7 @@
       "source": "gh-kiavi",
       "name": "Kiavi",
       "kind": "greenhouse",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "gh-klaviyo",
@@ -1367,7 +1367,7 @@
       "source": "gh-okta",
       "name": "Okta",
       "kind": "greenhouse",
-      "fetched": 0
+      "fetched": 5
     },
     {
       "source": "gh-okx",
@@ -1595,7 +1595,7 @@
       "source": "gh-thoughtworks",
       "name": "Thoughtworks",
       "kind": "greenhouse",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "gh-tigergraph",
@@ -1625,7 +1625,7 @@
       "source": "gh-twilio",
       "name": "Twilio",
       "kind": "greenhouse",
-      "fetched": 21
+      "fetched": 23
     },
     {
       "source": "gh-twitch",
@@ -1747,7 +1747,8 @@
       "source": "govt-sbi",
       "name": "SBI",
       "kind": "govt",
-      "fetched": 25
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "govt-upsc",
@@ -2060,7 +2061,7 @@
       "source": "keka-signzy",
       "name": "Signzy",
       "kind": "keka",
-      "fetched": 2
+      "fetched": 3
     },
     {
       "source": "keka-sisinty",
@@ -2258,7 +2259,7 @@
       "source": "lever-bluecatnetworks",
       "name": "BlueCat Networks",
       "kind": "lever",
-      "fetched": 3
+      "fetched": 0
     },
     {
       "source": "lever-bluelightconsulting",
@@ -2300,115 +2301,134 @@
       "source": "lever-cscgeneration2",
       "name": "CSC Generation",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "lever-entefy",
       "name": "Entefy",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "lever-entrata",
       "name": "Entrata",
       "kind": "lever",
-      "fetched": 2
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "lever-everbridge",
       "name": "Everbridge",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "lever-extremenetworks",
       "name": "Extreme Networks",
       "kind": "lever",
-      "fetched": 9
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "lever-fampay",
       "name": "FamPay",
       "kind": "lever",
-      "fetched": 4
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "lever-fi",
       "name": "Fi Money",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "lever-fieldnation",
       "name": "Field Nation",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "lever-filevine",
       "name": "Filevine",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "lever-fly",
       "name": "Fly.io",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "lever-franklinai",
       "name": "Franklin AI",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "lever-freshworks",
       "name": "Freshworks",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "lever-funxyz",
       "name": "fun.xyz",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "lever-gopuff",
       "name": "Gopuff",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "lever-gradion",
       "name": "Gradion",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "lever-idt",
       "name": "IDT Corporation",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "lever-impossiblecloud",
       "name": "Impossible Cloud",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "lever-intropic",
       "name": "Intropic",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "lever-jumpcloud",
       "name": "JumpCloud",
       "kind": "lever",
-      "fetched": 8
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "lever-lalamove",
@@ -2456,7 +2476,7 @@
       "source": "lever-meesho",
       "name": "Meesho",
       "kind": "lever",
-      "fetched": 2
+      "fetched": 0
     },
     {
       "source": "lever-mindtickle",
@@ -2553,7 +2573,7 @@
       "source": "lever-paytm",
       "name": "Paytm",
       "kind": "lever",
-      "fetched": 25
+      "fetched": 0
     },
     {
       "source": "lever-pigment",
@@ -2804,8 +2824,7 @@
       "source": "lever-zeta",
       "name": "Zeta",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 5
     },
     {
       "source": "lever-zoox",
@@ -2816,7 +2835,25 @@
     }
   ],
   "sitesSkippedByRobots": [
-    "Zeta",
+    "Fi Money",
+    "CSC Generation",
+    "Entefy",
+    "Entrata",
+    "Everbridge",
+    "Extreme Networks",
+    "FamPay",
+    "Field Nation",
+    "Filevine",
+    "Fly.io",
+    "Franklin AI",
+    "Freshworks",
+    "fun.xyz",
+    "Gopuff",
+    "Gradion",
+    "IDT Corporation",
+    "Impossible Cloud",
+    "Intropic",
+    "JumpCloud",
     "Lalamove",
     "Lever",
     "Limit Break",
@@ -2873,6 +2910,7 @@
     "zaimler",
     "Zoox",
     "BPCL",
+    "SBI",
     "IBPS",
     "UPSC"
   ],

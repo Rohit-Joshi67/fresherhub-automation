@@ -1,50 +1,28 @@
 [
   {
-    "page": "/docs/jobs/ashby-support-operations-engineer-namer.html",
-    "company": "Ashby",
-    "title": "Support Operations Engineer - NAMER",
-    "apply_url": "https://jobs.ashbyhq.com/ashby/998a6a42-3308-47b7-8350-e842dbc73920",
-    "headline": "Support Operations Engineer - NAMER @ Ashby",
-    "subheadline": "Remote - US | Internship",
+    "page": "/docs/jobs/new-relic-software-engineer-1.html",
+    "company": "New Relic",
+    "title": "Software Engineer 1",
+    "apply_url": "https://job-boards.greenhouse.io/newrelic/jobs/5467941008",
+    "headline": "Software Engineer 1 @ New Relic",
+    "subheadline": "Hyderabad, India | Internship",
     "key_points": [
-      "I'm Allie, Head of Support at Ashby. 👋 One of our biggest priorities is improving the systems and workflows our Support team relies on to do their best work as we grow.",
-      "That’s why we’re searching for a Support Systems Engineer to become the long-term owner of our Support systems.",
-      "If you love wrangling operational complexity, building durable systems, and being the person a team relies on to keep everything running well, this is the role for you.",
-      "Skill: Go"
+      "As we continue to expand our global footprint, we're looking for passionate people to join our mission.",
+      "If you're ready to help the world's best companies optimize their digital applications, we invite you to explore a career with us!",
+      "You'll work with Java, Go, Kafka, Kubernetes and AWS alongside engineers in India and Spain, and grow your skills in large-scale observability systems.",
+      "Skill: Java",
+      "Skill: Go",
+      "Skill: PostgreSQL"
     ],
-    "cta": "Apply on the official page: https://jobs.ashbyhq.com/ashby/998a6a42-3308-47b7-8350-e842dbc73920",
-    "caption": "Hiring alert: Ashby is looking for a Support Operations Engineer - NAMER (Remote - US).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- I'm Allie, Head of Support at Ashby. 👋 One of our biggest priorities is improving the systems and workflows our Support team relies on to do their best work as we grow.\n- That’s why we’re searching for a Support Systems Engineer to become the long-term owner of our Support systems.\n- If you love wrangling operational complexity, building durable systems, and being the person a team relies on to keep everything running well, this is the role for you.\n- Skill: Go\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "cta": "Apply on the official page: https://job-boards.greenhouse.io/newrelic/jobs/5467941008",
+    "caption": "Hiring alert: New Relic is looking for a Software Engineer 1 (Hyderabad, India).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- As we continue to expand our global footprint, we're looking for passionate people to join our mission.\n- If you're ready to help the world's best companies optimize their digital applications, we invite you to explore a career with us!\n- You'll work with Java, Go, Kafka, Kubernetes and AWS alongside engineers in India and Spain, and grow your skills in large-scale observability systems.\n- Skill: Java\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
     "hashtags": [
       "#fresherjobs",
       "#freshershiring",
       "#entryleveljobs",
       "#hiringindia",
-      "#ashbyhiring",
-      "#remoteusjobs"
-    ]
-  },
-  {
-    "page": "/docs/jobs/toddle-intern-growth.html",
-    "company": "Toddle",
-    "title": "Intern, Growth",
-    "apply_url": "https://toddle.keka.com/careers/jobdetails/83262",
-    "headline": "Intern, Growth @ Toddle",
-    "subheadline": "Remote | Internship",
-    "key_points": [
-      "Toddle also supports adjacent workflows where teachers are closely involved, including attendance, timetables, calendars, accreditation, behaviour management, analytics, and insights.",
-      "Here’s what you’ll be doing Conduct extensive web research to identify schools and relevant decision-makers.",
-      "Toddle also supports adjacent workflows where teachers are closely involved, including attendance, timetables, calendars, accreditation, behaviour management, analytics, and insights.Second, every layer of the platform is deeply AI-powered.",
-      "Skill: Go"
-    ],
-    "cta": "Apply on the official page: https://toddle.keka.com/careers/jobdetails/83262",
-    "caption": "Hiring alert: Toddle is looking for a Intern, Growth (Remote).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Toddle also supports adjacent workflows where teachers are closely involved, including attendance, timetables, calendars, accreditation, behaviour management, analytics, and insights.\n- Here’s what you’ll be doing Conduct extensive web research to identify schools and relevant decision-makers.\n- Toddle also supports adjacent workflows where teachers are closely involved, including attendance, timetables, calendars, accreditation, behaviour management, analytics, and insights.Second, every layer of the platform is deeply AI-powered.\n- Skill: Go\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
-    "hashtags": [
-      "#fresherjobs",
-      "#freshershiring",
-      "#entryleveljobs",
-      "#hiringindia",
-      "#toddlehiring",
-      "#remotejobs"
+      "#newrelichiring",
+      "#hyderabadindiajobs"
     ]
   }
 ]
