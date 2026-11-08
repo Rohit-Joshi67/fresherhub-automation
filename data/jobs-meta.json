@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-08T08:45:35.308Z",
-  "totalJobs": 305,
-  "publishedCount": 305,
-  "quarantinedCount": 484,
-  "reviewCount": 484,
-  "privateCount": 305,
+  "updatedAt": "2026-11-08T18:42:48.932Z",
+  "totalJobs": 295,
+  "publishedCount": 295,
+  "quarantinedCount": 410,
+  "reviewCount": 410,
+  "privateCount": 295,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -1704,7 +1704,7 @@
       "source": "govt-cdac",
       "name": "C-DAC",
       "kind": "govt",
-      "fetched": 18
+      "fetched": 0
     },
     {
       "source": "govt-hpcl",
@@ -1747,7 +1747,8 @@
       "source": "govt-sbi",
       "name": "SBI",
       "kind": "govt",
-      "fetched": 25
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "govt-upsc",
@@ -1760,7 +1761,8 @@
       "source": "hiredoor",
       "name": "HireDoor",
       "kind": "hiredoor",
-      "fetched": 32
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "keka-10decoders",
@@ -2720,7 +2722,7 @@
       "source": "lever-weekdayworks",
       "name": "Weekday",
       "kind": "lever",
-      "fetched": 14
+      "fetched": 0
     },
     {
       "source": "lever-workwave",
@@ -2738,7 +2740,7 @@
       "source": "lever-yuno",
       "name": "Yuno",
       "kind": "lever",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "lever-zaimler",
@@ -2761,7 +2763,9 @@
   ],
   "sitesSkippedByRobots": [
     "BPCL",
+    "SBI",
     "IBPS",
+    "HireDoor",
     "UPSC"
   ],
   "sitesWithErrors": [],
