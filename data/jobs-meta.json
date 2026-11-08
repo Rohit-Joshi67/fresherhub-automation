@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-07T18:33:24.821Z",
-  "totalJobs": 316,
-  "publishedCount": 316,
-  "quarantinedCount": 450,
-  "reviewCount": 450,
-  "privateCount": 316,
+  "updatedAt": "2026-11-08T08:45:35.308Z",
+  "totalJobs": 305,
+  "publishedCount": 305,
+  "quarantinedCount": 484,
+  "reviewCount": 484,
+  "privateCount": 305,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -263,7 +263,7 @@
       "source": "ashby-elevenlabs",
       "name": "ElevenLabs",
       "kind": "ashby",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "ashby-fireworks",
@@ -1061,7 +1061,7 @@
       "source": "gh-datadog",
       "name": "Datadog",
       "kind": "greenhouse",
-      "fetched": 5
+      "fetched": 0
     },
     {
       "source": "gh-dataiku",
@@ -2246,7 +2246,7 @@
       "source": "lever-azul",
       "name": "Azul",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "lever-binance",
@@ -2294,7 +2294,7 @@
       "source": "lever-cred",
       "name": "CRED",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "lever-cscgeneration2",
@@ -2324,7 +2324,7 @@
       "source": "lever-extremenetworks",
       "name": "Extreme Networks",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 9
     },
     {
       "source": "lever-fampay",
@@ -2498,7 +2498,7 @@
       "source": "lever-neuron7",
       "name": "Neuron7.ai",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 2
     },
     {
       "source": "lever-octoenergy",
@@ -2540,7 +2540,7 @@
       "source": "lever-pigment",
       "name": "Pigment",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "lever-plivo",
@@ -2720,7 +2720,7 @@
       "source": "lever-weekdayworks",
       "name": "Weekday",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 14
     },
     {
       "source": "lever-workwave",
@@ -2738,7 +2738,7 @@
       "source": "lever-yuno",
       "name": "Yuno",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "lever-zaimler",
