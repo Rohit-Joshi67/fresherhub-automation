@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-09T09:25:15.562Z",
-  "totalJobs": 307,
-  "publishedCount": 307,
-  "quarantinedCount": 448,
-  "reviewCount": 448,
-  "privateCount": 307,
+  "updatedAt": "2026-11-09T23:20:24.609Z",
+  "totalJobs": 308,
+  "publishedCount": 308,
+  "quarantinedCount": 462,
+  "reviewCount": 462,
+  "privateCount": 308,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -59,7 +59,7 @@
       "source": "ashby-ashby",
       "name": "Ashby",
       "kind": "ashby",
-      "fetched": 8
+      "fetched": 9
     },
     {
       "source": "ashby-astronomer",
@@ -593,7 +593,7 @@
       "source": "ashby-ramp",
       "name": "Ramp",
       "kind": "ashby",
-      "fetched": 10
+      "fetched": 11
     },
     {
       "source": "ashby-rasa",
@@ -863,7 +863,7 @@
       "source": "gh-affirm",
       "name": "Affirm",
       "kind": "greenhouse",
-      "fetched": 33
+      "fetched": 32
     },
     {
       "source": "gh-affle",
@@ -875,7 +875,7 @@
       "source": "gh-airbnb",
       "name": "Airbnb",
       "kind": "greenhouse",
-      "fetched": 3
+      "fetched": 1
     },
     {
       "source": "gh-airtable",
@@ -1013,7 +1013,7 @@
       "source": "gh-coinbase",
       "name": "Coinbase",
       "kind": "greenhouse",
-      "fetched": 26
+      "fetched": 28
     },
     {
       "source": "gh-collibra",
@@ -1043,7 +1043,7 @@
       "source": "gh-customerio",
       "name": "Customer.io",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 3
     },
     {
       "source": "gh-dashlane",
@@ -1061,7 +1061,7 @@
       "source": "gh-datadog",
       "name": "Datadog",
       "kind": "greenhouse",
-      "fetched": 0
+      "fetched": 5
     },
     {
       "source": "gh-dataiku",
@@ -1073,7 +1073,7 @@
       "source": "gh-descript",
       "name": "Descript",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 3
     },
     {
       "source": "gh-discord",
@@ -1199,7 +1199,7 @@
       "source": "gh-gusto",
       "name": "Gusto",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "gh-hellofresh",
@@ -1247,7 +1247,7 @@
       "source": "gh-instacart",
       "name": "Instacart",
       "kind": "greenhouse",
-      "fetched": 11
+      "fetched": 10
     },
     {
       "source": "gh-intercom",
@@ -1325,7 +1325,7 @@
       "source": "gh-monzo",
       "name": "Monzo",
       "kind": "greenhouse",
-      "fetched": 0
+      "fetched": 2
     },
     {
       "source": "gh-n26",
@@ -1397,7 +1397,7 @@
       "source": "gh-pinterest",
       "name": "Pinterest",
       "kind": "greenhouse",
-      "fetched": 11
+      "fetched": 12
     },
     {
       "source": "gh-planetscale",
@@ -1679,7 +1679,7 @@
       "source": "gh-yipitdata",
       "name": "YipitData",
       "kind": "greenhouse",
-      "fetched": 10
+      "fetched": 8
     },
     {
       "source": "gh-zoominfo",
@@ -1704,7 +1704,7 @@
       "source": "govt-cdac",
       "name": "C-DAC",
       "kind": "govt",
-      "fetched": 0
+      "fetched": 18
     },
     {
       "source": "govt-hpcl",
@@ -1747,7 +1747,8 @@
       "source": "govt-sbi",
       "name": "SBI",
       "kind": "govt",
-      "fetched": 25
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "govt-upsc",
@@ -1760,7 +1761,7 @@
       "source": "hiredoor",
       "name": "HireDoor",
       "kind": "hiredoor",
-      "fetched": 32
+      "fetched": 31
     },
     {
       "source": "keka-10decoders",
@@ -2324,7 +2325,7 @@
       "source": "lever-extremenetworks",
       "name": "Extreme Networks",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 9
     },
     {
       "source": "lever-fampay",
@@ -2450,7 +2451,7 @@
       "source": "lever-meesho",
       "name": "Meesho",
       "kind": "lever",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "lever-mindtickle",
@@ -2761,10 +2762,11 @@
   ],
   "sitesSkippedByRobots": [
     "BPCL",
+    "SBI",
     "IBPS",
     "UPSC"
   ],
   "sitesWithErrors": [],
-  "prunedPages": 0,
+  "prunedPages": 4,
   "status": "healthy"
 }
