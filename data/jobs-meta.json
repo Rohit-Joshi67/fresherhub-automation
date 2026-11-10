@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-09T23:20:24.609Z",
-  "totalJobs": 308,
-  "publishedCount": 308,
-  "quarantinedCount": 462,
-  "reviewCount": 462,
-  "privateCount": 308,
+  "updatedAt": "2026-11-10T09:28:31.998Z",
+  "totalJobs": 304,
+  "publishedCount": 304,
+  "quarantinedCount": 454,
+  "reviewCount": 454,
+  "privateCount": 304,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -173,7 +173,7 @@
       "source": "ashby-column",
       "name": "Column",
       "kind": "ashby",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "ashby-composio",
@@ -191,7 +191,7 @@
       "source": "ashby-cursor",
       "name": "Cursor",
       "kind": "ashby",
-      "fetched": 2
+      "fetched": 0
     },
     {
       "source": "ashby-datafold",
@@ -863,7 +863,7 @@
       "source": "gh-affirm",
       "name": "Affirm",
       "kind": "greenhouse",
-      "fetched": 32
+      "fetched": 27
     },
     {
       "source": "gh-affle",
@@ -1139,7 +1139,7 @@
       "source": "gh-figma",
       "name": "Figma",
       "kind": "greenhouse",
-      "fetched": 4
+      "fetched": 3
     },
     {
       "source": "gh-fireblocks",
@@ -1217,7 +1217,7 @@
       "source": "gh-highradius",
       "name": "HighRadius",
       "kind": "greenhouse",
-      "fetched": 14
+      "fetched": 15
     },
     {
       "source": "gh-honeycomb",
@@ -1505,7 +1505,7 @@
       "source": "gh-sezzle",
       "name": "Sezzle",
       "kind": "greenhouse",
-      "fetched": 43
+      "fetched": 42
     },
     {
       "source": "gh-shifttechnology",
@@ -1791,7 +1791,7 @@
       "source": "keka-athenainfonomics",
       "name": "Athena Infonomics",
       "kind": "keka",
-      "fetched": 4
+      "fetched": 3
     },
     {
       "source": "keka-avengers",
@@ -2295,7 +2295,7 @@
       "source": "lever-cred",
       "name": "CRED",
       "kind": "lever",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "lever-cscgeneration2",
@@ -2767,6 +2767,6 @@
     "UPSC"
   ],
   "sitesWithErrors": [],
-  "prunedPages": 4,
+  "prunedPages": 1,
   "status": "healthy"
 }
