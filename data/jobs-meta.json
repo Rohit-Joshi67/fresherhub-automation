@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-10T09:28:31.998Z",
-  "totalJobs": 304,
-  "publishedCount": 304,
-  "quarantinedCount": 454,
-  "reviewCount": 454,
-  "privateCount": 304,
+  "updatedAt": "2026-11-10T20:45:33.163Z",
+  "totalJobs": 310,
+  "publishedCount": 310,
+  "quarantinedCount": 466,
+  "reviewCount": 466,
+  "privateCount": 310,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -731,7 +731,7 @@
       "source": "ashby-supabase",
       "name": "Supabase",
       "kind": "ashby",
-      "fetched": 23
+      "fetched": 24
     },
     {
       "source": "ashby-synctera",
@@ -863,7 +863,7 @@
       "source": "gh-affirm",
       "name": "Affirm",
       "kind": "greenhouse",
-      "fetched": 27
+      "fetched": 26
     },
     {
       "source": "gh-affle",
@@ -1157,7 +1157,7 @@
       "source": "gh-fivetran",
       "name": "Fivetran",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "gh-gemini",
@@ -1271,7 +1271,7 @@
       "source": "gh-kiavi",
       "name": "Kiavi",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "gh-klaviyo",
@@ -1289,7 +1289,7 @@
       "source": "gh-launchdarkly",
       "name": "LaunchDarkly",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 3
     },
     {
       "source": "gh-lightmatter",
@@ -1319,7 +1319,7 @@
       "source": "gh-mongodb",
       "name": "MongoDB",
       "kind": "greenhouse",
-      "fetched": 12
+      "fetched": 11
     },
     {
       "source": "gh-monzo",
@@ -1625,7 +1625,7 @@
       "source": "gh-twilio",
       "name": "Twilio",
       "kind": "greenhouse",
-      "fetched": 24
+      "fetched": 22
     },
     {
       "source": "gh-twitch",
@@ -1747,8 +1747,7 @@
       "source": "govt-sbi",
       "name": "SBI",
       "kind": "govt",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 25
     },
     {
       "source": "govt-upsc",
@@ -2295,7 +2294,7 @@
       "source": "lever-cred",
       "name": "CRED",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "lever-cscgeneration2",
@@ -2349,7 +2348,7 @@
       "source": "lever-filevine",
       "name": "Filevine",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "lever-fly",
@@ -2762,7 +2761,6 @@
   ],
   "sitesSkippedByRobots": [
     "BPCL",
-    "SBI",
     "IBPS",
     "UPSC"
   ],
