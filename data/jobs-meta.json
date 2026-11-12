@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-12T09:30:46.060Z",
-  "totalJobs": 289,
-  "publishedCount": 289,
-  "quarantinedCount": 487,
-  "reviewCount": 487,
-  "privateCount": 289,
+  "updatedAt": "2026-11-12T21:22:58.971Z",
+  "totalJobs": 291,
+  "publishedCount": 291,
+  "quarantinedCount": 498,
+  "reviewCount": 498,
+  "privateCount": 291,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -251,7 +251,7 @@
       "source": "ashby-drivewealth",
       "name": "DriveWealth",
       "kind": "ashby",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "ashby-dust",
@@ -863,7 +863,7 @@
       "source": "gh-affirm",
       "name": "Affirm",
       "kind": "greenhouse",
-      "fetched": 26
+      "fetched": 28
     },
     {
       "source": "gh-affle",
@@ -875,7 +875,7 @@
       "source": "gh-airbnb",
       "name": "Airbnb",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "gh-airtable",
@@ -1013,7 +1013,7 @@
       "source": "gh-coinbase",
       "name": "Coinbase",
       "kind": "greenhouse",
-      "fetched": 27
+      "fetched": 30
     },
     {
       "source": "gh-collibra",
@@ -1133,7 +1133,7 @@
       "source": "gh-fastly",
       "name": "Fastly",
       "kind": "greenhouse",
-      "fetched": 4
+      "fetched": 5
     },
     {
       "source": "gh-figma",
@@ -1157,7 +1157,7 @@
       "source": "gh-fivetran",
       "name": "Fivetran",
       "kind": "greenhouse",
-      "fetched": 0
+      "fetched": 8
     },
     {
       "source": "gh-gemini",
@@ -1175,7 +1175,7 @@
       "source": "gh-gitlab",
       "name": "GitLab",
       "kind": "greenhouse",
-      "fetched": 10
+      "fetched": 8
     },
     {
       "source": "gh-glance",
@@ -1397,7 +1397,7 @@
       "source": "gh-pinterest",
       "name": "Pinterest",
       "kind": "greenhouse",
-      "fetched": 12
+      "fetched": 13
     },
     {
       "source": "gh-planetscale",
@@ -1625,7 +1625,7 @@
       "source": "gh-twilio",
       "name": "Twilio",
       "kind": "greenhouse",
-      "fetched": 21
+      "fetched": 20
     },
     {
       "source": "gh-twitch",
@@ -1685,13 +1685,13 @@
       "source": "gh-zoominfo",
       "name": "ZoomInfo",
       "kind": "greenhouse",
-      "fetched": 8
+      "fetched": 7
     },
     {
       "source": "gh-zscaler",
       "name": "Zscaler",
       "kind": "greenhouse",
-      "fetched": 13
+      "fetched": 0
     },
     {
       "source": "govt-bpcl",
@@ -1716,8 +1716,7 @@
       "source": "govt-ibps",
       "name": "IBPS",
       "kind": "govt",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 9
     },
     {
       "source": "govt-iocl",
@@ -1820,7 +1819,7 @@
       "source": "keka-clickpost",
       "name": "ClickPost",
       "kind": "keka",
-      "fetched": 4
+      "fetched": 2
     },
     {
       "source": "keka-cloudesign",
@@ -2132,7 +2131,7 @@
       "source": "keka-toddle",
       "name": "Toddle",
       "kind": "keka",
-      "fetched": 4
+      "fetched": 5
     },
     {
       "source": "keka-truagency",
@@ -2330,7 +2329,7 @@
       "source": "lever-fampay",
       "name": "FamPay",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 5
     },
     {
       "source": "lever-fi",
@@ -2348,7 +2347,7 @@
       "source": "lever-filevine",
       "name": "Filevine",
       "kind": "lever",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "lever-fly",
@@ -2456,7 +2455,7 @@
       "source": "lever-mindtickle",
       "name": "Mindtickle",
       "kind": "lever",
-      "fetched": 5
+      "fetched": 6
     },
     {
       "source": "lever-mobileaction",
@@ -2720,7 +2719,7 @@
       "source": "lever-weekdayworks",
       "name": "Weekday",
       "kind": "lever",
-      "fetched": 11
+      "fetched": 12
     },
     {
       "source": "lever-workwave",
@@ -2761,10 +2760,9 @@
   ],
   "sitesSkippedByRobots": [
     "BPCL",
-    "IBPS",
     "UPSC"
   ],
   "sitesWithErrors": [],
-  "prunedPages": 9,
+  "prunedPages": 10,
   "status": "healthy"
 }
