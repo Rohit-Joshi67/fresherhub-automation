@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-11T21:08:59.336Z",
-  "totalJobs": 286,
-  "publishedCount": 286,
+  "updatedAt": "2026-11-12T09:30:46.060Z",
+  "totalJobs": 289,
+  "publishedCount": 289,
   "quarantinedCount": 487,
   "reviewCount": 487,
-  "privateCount": 286,
+  "privateCount": 289,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -641,7 +641,7 @@
       "source": "ashby-runpod",
       "name": "RunPod",
       "kind": "ashby",
-      "fetched": 5
+      "fetched": 4
     },
     {
       "source": "ashby-runwayml",
@@ -731,7 +731,7 @@
       "source": "ashby-supabase",
       "name": "Supabase",
       "kind": "ashby",
-      "fetched": 24
+      "fetched": 25
     },
     {
       "source": "ashby-synctera",
@@ -1139,7 +1139,7 @@
       "source": "gh-figma",
       "name": "Figma",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "gh-fireblocks",
@@ -1505,7 +1505,7 @@
       "source": "gh-sezzle",
       "name": "Sezzle",
       "kind": "greenhouse",
-      "fetched": 42
+      "fetched": 37
     },
     {
       "source": "gh-shifttechnology",
@@ -1553,7 +1553,7 @@
       "source": "gh-stage",
       "name": "Stage",
       "kind": "greenhouse",
-      "fetched": 8
+      "fetched": 9
     },
     {
       "source": "gh-storyblok",
@@ -1814,7 +1814,7 @@
       "source": "keka-brandstory",
       "name": "BrandStory",
       "kind": "keka",
-      "fetched": 7
+      "fetched": 8
     },
     {
       "source": "keka-clickpost",
@@ -1982,7 +1982,7 @@
       "source": "keka-niyo",
       "name": "Niyo",
       "kind": "keka",
-      "fetched": 4
+      "fetched": 5
     },
     {
       "source": "keka-occamsadvisory",
@@ -2330,7 +2330,7 @@
       "source": "lever-fampay",
       "name": "FamPay",
       "kind": "lever",
-      "fetched": 5
+      "fetched": 0
     },
     {
       "source": "lever-fi",
@@ -2498,7 +2498,7 @@
       "source": "lever-neuron7",
       "name": "Neuron7.ai",
       "kind": "lever",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "lever-octoenergy",
@@ -2720,7 +2720,7 @@
       "source": "lever-weekdayworks",
       "name": "Weekday",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 11
     },
     {
       "source": "lever-workwave",
@@ -2765,6 +2765,6 @@
     "UPSC"
   ],
   "sitesWithErrors": [],
-  "prunedPages": 8,
+  "prunedPages": 9,
   "status": "healthy"
 }
