@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-12T21:22:58.971Z",
-  "totalJobs": 291,
-  "publishedCount": 291,
-  "quarantinedCount": 498,
-  "reviewCount": 498,
-  "privateCount": 291,
+  "updatedAt": "2026-11-13T09:16:37.917Z",
+  "totalJobs": 288,
+  "publishedCount": 288,
+  "quarantinedCount": 503,
+  "reviewCount": 503,
+  "privateCount": 288,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -59,7 +59,7 @@
       "source": "ashby-ashby",
       "name": "Ashby",
       "kind": "ashby",
-      "fetched": 8
+      "fetched": 7
     },
     {
       "source": "ashby-astronomer",
@@ -305,7 +305,7 @@
       "source": "ashby-harvey",
       "name": "Harvey",
       "kind": "ashby",
-      "fetched": 0
+      "fetched": 5
     },
     {
       "source": "ashby-hex",
@@ -617,7 +617,7 @@
       "source": "ashby-render",
       "name": "Render",
       "kind": "ashby",
-      "fetched": 8
+      "fetched": 9
     },
     {
       "source": "ashby-replit",
@@ -641,7 +641,7 @@
       "source": "ashby-runpod",
       "name": "RunPod",
       "kind": "ashby",
-      "fetched": 4
+      "fetched": 3
     },
     {
       "source": "ashby-runwayml",
@@ -863,7 +863,7 @@
       "source": "gh-affirm",
       "name": "Affirm",
       "kind": "greenhouse",
-      "fetched": 28
+      "fetched": 29
     },
     {
       "source": "gh-affle",
@@ -1013,7 +1013,7 @@
       "source": "gh-coinbase",
       "name": "Coinbase",
       "kind": "greenhouse",
-      "fetched": 30
+      "fetched": 29
     },
     {
       "source": "gh-collibra",
@@ -1199,7 +1199,7 @@
       "source": "gh-gusto",
       "name": "Gusto",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "gh-hellofresh",
@@ -1289,7 +1289,7 @@
       "source": "gh-launchdarkly",
       "name": "LaunchDarkly",
       "kind": "greenhouse",
-      "fetched": 3
+      "fetched": 4
     },
     {
       "source": "gh-lightmatter",
@@ -1625,7 +1625,7 @@
       "source": "gh-twilio",
       "name": "Twilio",
       "kind": "greenhouse",
-      "fetched": 20
+      "fetched": 19
     },
     {
       "source": "gh-twitch",
@@ -1716,7 +1716,7 @@
       "source": "govt-ibps",
       "name": "IBPS",
       "kind": "govt",
-      "fetched": 9
+      "fetched": 10
     },
     {
       "source": "govt-iocl",
@@ -1813,7 +1813,7 @@
       "source": "keka-brandstory",
       "name": "BrandStory",
       "kind": "keka",
-      "fetched": 8
+      "fetched": 9
     },
     {
       "source": "keka-clickpost",
@@ -2113,7 +2113,7 @@
       "source": "keka-techdome",
       "name": "Techdome",
       "kind": "keka",
-      "fetched": 5
+      "fetched": 3
     },
     {
       "source": "keka-tekmindz",
@@ -2347,7 +2347,7 @@
       "source": "lever-filevine",
       "name": "Filevine",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "lever-fly",
@@ -2455,7 +2455,7 @@
       "source": "lever-mindtickle",
       "name": "Mindtickle",
       "kind": "lever",
-      "fetched": 6
+      "fetched": 5
     },
     {
       "source": "lever-mobileaction",
@@ -2719,7 +2719,7 @@
       "source": "lever-weekdayworks",
       "name": "Weekday",
       "kind": "lever",
-      "fetched": 12
+      "fetched": 11
     },
     {
       "source": "lever-workwave",
@@ -2763,6 +2763,6 @@
     "UPSC"
   ],
   "sitesWithErrors": [],
-  "prunedPages": 10,
+  "prunedPages": 48,
   "status": "healthy"
 }
