@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-13T20:49:44.065Z",
-  "totalJobs": 302,
-  "publishedCount": 302,
-  "quarantinedCount": 497,
-  "reviewCount": 497,
-  "privateCount": 302,
+  "updatedAt": "2026-11-14T08:46:12.944Z",
+  "totalJobs": 295,
+  "publishedCount": 295,
+  "quarantinedCount": 492,
+  "reviewCount": 492,
+  "privateCount": 295,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -305,7 +305,7 @@
       "source": "ashby-harvey",
       "name": "Harvey",
       "kind": "ashby",
-      "fetched": 5
+      "fetched": 0
     },
     {
       "source": "ashby-hex",
@@ -761,7 +761,7 @@
       "source": "ashby-tensorwave",
       "name": "TensorWave",
       "kind": "ashby",
-      "fetched": 2
+      "fetched": 3
     },
     {
       "source": "ashby-tilthq",
@@ -863,7 +863,7 @@
       "source": "gh-affirm",
       "name": "Affirm",
       "kind": "greenhouse",
-      "fetched": 29
+      "fetched": 27
     },
     {
       "source": "gh-affle",
@@ -1289,7 +1289,7 @@
       "source": "gh-launchdarkly",
       "name": "LaunchDarkly",
       "kind": "greenhouse",
-      "fetched": 4
+      "fetched": 3
     },
     {
       "source": "gh-lightmatter",
@@ -1397,7 +1397,7 @@
       "source": "gh-pinterest",
       "name": "Pinterest",
       "kind": "greenhouse",
-      "fetched": 13
+      "fetched": 12
     },
     {
       "source": "gh-planetscale",
@@ -1691,20 +1691,19 @@
       "source": "gh-zscaler",
       "name": "Zscaler",
       "kind": "greenhouse",
-      "fetched": 0
+      "fetched": 15
     },
     {
       "source": "govt-bpcl",
       "name": "BPCL",
       "kind": "govt",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 19
     },
     {
       "source": "govt-cdac",
       "name": "C-DAC",
       "kind": "govt",
-      "fetched": 18
+      "fetched": 0
     },
     {
       "source": "govt-hpcl",
@@ -1746,7 +1745,8 @@
       "source": "govt-sbi",
       "name": "SBI",
       "kind": "govt",
-      "fetched": 25
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "govt-upsc",
@@ -2293,7 +2293,7 @@
       "source": "lever-cred",
       "name": "CRED",
       "kind": "lever",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "lever-cscgeneration2",
@@ -2759,10 +2759,10 @@
     }
   ],
   "sitesSkippedByRobots": [
-    "BPCL",
+    "SBI",
     "UPSC"
   ],
   "sitesWithErrors": [],
-  "prunedPages": 6,
+  "prunedPages": 8,
   "status": "healthy"
 }
