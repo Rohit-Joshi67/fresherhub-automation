@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-14T08:46:12.944Z",
-  "totalJobs": 295,
-  "publishedCount": 295,
-  "quarantinedCount": 492,
-  "reviewCount": 492,
-  "privateCount": 295,
+  "updatedAt": "2026-11-14T19:00:21.089Z",
+  "totalJobs": 301,
+  "publishedCount": 301,
+  "quarantinedCount": 505,
+  "reviewCount": 505,
+  "privateCount": 301,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -1697,13 +1697,14 @@
       "source": "govt-bpcl",
       "name": "BPCL",
       "kind": "govt",
-      "fetched": 19
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "govt-cdac",
       "name": "C-DAC",
       "kind": "govt",
-      "fetched": 0
+      "fetched": 18
     },
     {
       "source": "govt-hpcl",
@@ -1745,8 +1746,7 @@
       "source": "govt-sbi",
       "name": "SBI",
       "kind": "govt",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 25
     },
     {
       "source": "govt-upsc",
@@ -2293,7 +2293,7 @@
       "source": "lever-cred",
       "name": "CRED",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "lever-cscgeneration2",
@@ -2759,10 +2759,10 @@
     }
   ],
   "sitesSkippedByRobots": [
-    "SBI",
+    "BPCL",
     "UPSC"
   ],
   "sitesWithErrors": [],
-  "prunedPages": 8,
+  "prunedPages": 24,
   "status": "healthy"
 }
