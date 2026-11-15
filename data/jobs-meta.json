@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-14T19:00:21.089Z",
-  "totalJobs": 301,
-  "publishedCount": 301,
-  "quarantinedCount": 505,
-  "reviewCount": 505,
-  "privateCount": 301,
+  "updatedAt": "2026-11-15T08:58:40.766Z",
+  "totalJobs": 290,
+  "publishedCount": 290,
+  "quarantinedCount": 495,
+  "reviewCount": 495,
+  "privateCount": 290,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -1625,7 +1625,7 @@
       "source": "gh-twilio",
       "name": "Twilio",
       "kind": "greenhouse",
-      "fetched": 20
+      "fetched": 19
     },
     {
       "source": "gh-twitch",
@@ -1716,7 +1716,7 @@
       "source": "govt-ibps",
       "name": "IBPS",
       "kind": "govt",
-      "fetched": 11
+      "fetched": 0
     },
     {
       "source": "govt-iocl",
@@ -2311,7 +2311,7 @@
       "source": "lever-entrata",
       "name": "Entrata",
       "kind": "lever",
-      "fetched": 3
+      "fetched": 0
     },
     {
       "source": "lever-everbridge",
@@ -2329,7 +2329,7 @@
       "source": "lever-fampay",
       "name": "FamPay",
       "kind": "lever",
-      "fetched": 5
+      "fetched": 0
     },
     {
       "source": "lever-fi",
@@ -2347,7 +2347,7 @@
       "source": "lever-filevine",
       "name": "Filevine",
       "kind": "lever",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "lever-fly",
@@ -2763,6 +2763,6 @@
     "UPSC"
   ],
   "sitesWithErrors": [],
-  "prunedPages": 24,
+  "prunedPages": 49,
   "status": "healthy"
 }
