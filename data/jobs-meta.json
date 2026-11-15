@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-15T08:58:40.766Z",
-  "totalJobs": 290,
-  "publishedCount": 290,
-  "quarantinedCount": 495,
-  "reviewCount": 495,
-  "privateCount": 290,
+  "updatedAt": "2026-11-15T19:39:20.770Z",
+  "totalJobs": 293,
+  "publishedCount": 293,
+  "quarantinedCount": 509,
+  "reviewCount": 509,
+  "privateCount": 293,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -1716,7 +1716,7 @@
       "source": "govt-ibps",
       "name": "IBPS",
       "kind": "govt",
-      "fetched": 0
+      "fetched": 8
     },
     {
       "source": "govt-iocl",
@@ -2311,7 +2311,7 @@
       "source": "lever-entrata",
       "name": "Entrata",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 3
     },
     {
       "source": "lever-everbridge",
@@ -2329,7 +2329,7 @@
       "source": "lever-fampay",
       "name": "FamPay",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 5
     },
     {
       "source": "lever-fi",
@@ -2347,7 +2347,7 @@
       "source": "lever-filevine",
       "name": "Filevine",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "lever-fly",
@@ -2683,7 +2683,7 @@
       "source": "lever-ttecdigital",
       "name": "TTEC Digital",
       "kind": "lever",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "lever-turgonai",
@@ -2763,6 +2763,6 @@
     "UPSC"
   ],
   "sitesWithErrors": [],
-  "prunedPages": 49,
+  "prunedPages": 5,
   "status": "healthy"
 }
