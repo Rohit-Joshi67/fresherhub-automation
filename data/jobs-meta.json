@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-15T19:39:20.770Z",
-  "totalJobs": 293,
-  "publishedCount": 293,
-  "quarantinedCount": 509,
-  "reviewCount": 509,
-  "privateCount": 293,
+  "updatedAt": "2026-11-16T09:12:49.108Z",
+  "totalJobs": 298,
+  "publishedCount": 298,
+  "quarantinedCount": 491,
+  "reviewCount": 491,
+  "privateCount": 298,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -875,7 +875,7 @@
       "source": "gh-airbnb",
       "name": "Airbnb",
       "kind": "greenhouse",
-      "fetched": 5
+      "fetched": 4
     },
     {
       "source": "gh-airtable",
@@ -1133,7 +1133,7 @@
       "source": "gh-fastly",
       "name": "Fastly",
       "kind": "greenhouse",
-      "fetched": 5
+      "fetched": 3
     },
     {
       "source": "gh-figma",
@@ -1367,7 +1367,7 @@
       "source": "gh-okta",
       "name": "Okta",
       "kind": "greenhouse",
-      "fetched": 4
+      "fetched": 5
     },
     {
       "source": "gh-okx",
@@ -1625,7 +1625,7 @@
       "source": "gh-twilio",
       "name": "Twilio",
       "kind": "greenhouse",
-      "fetched": 19
+      "fetched": 20
     },
     {
       "source": "gh-twitch",
@@ -1685,13 +1685,13 @@
       "source": "gh-zoominfo",
       "name": "ZoomInfo",
       "kind": "greenhouse",
-      "fetched": 10
+      "fetched": 9
     },
     {
       "source": "gh-zscaler",
       "name": "Zscaler",
       "kind": "greenhouse",
-      "fetched": 15
+      "fetched": 0
     },
     {
       "source": "govt-bpcl",
@@ -2059,7 +2059,7 @@
       "source": "keka-signzy",
       "name": "Signzy",
       "kind": "keka",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "keka-sisinty",
@@ -2113,7 +2113,7 @@
       "source": "keka-techdome",
       "name": "Techdome",
       "kind": "keka",
-      "fetched": 3
+      "fetched": 7
     },
     {
       "source": "keka-tekmindz",
@@ -2131,7 +2131,7 @@
       "source": "keka-toddle",
       "name": "Toddle",
       "kind": "keka",
-      "fetched": 5
+      "fetched": 4
     },
     {
       "source": "keka-truagency",
@@ -2533,7 +2533,7 @@
       "source": "lever-paytm",
       "name": "Paytm",
       "kind": "lever",
-      "fetched": 25
+      "fetched": 24
     },
     {
       "source": "lever-pigment",
@@ -2683,7 +2683,7 @@
       "source": "lever-ttecdigital",
       "name": "TTEC Digital",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "lever-turgonai",
@@ -2763,6 +2763,6 @@
     "UPSC"
   ],
   "sitesWithErrors": [],
-  "prunedPages": 5,
+  "prunedPages": 44,
   "status": "healthy"
 }
