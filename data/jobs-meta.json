@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-16T23:17:02.374Z",
-  "totalJobs": 306,
-  "publishedCount": 306,
-  "quarantinedCount": 474,
-  "reviewCount": 474,
-  "privateCount": 306,
+  "updatedAt": "2026-11-17T10:24:05.517Z",
+  "totalJobs": 295,
+  "publishedCount": 295,
+  "quarantinedCount": 475,
+  "reviewCount": 475,
+  "privateCount": 295,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -863,7 +863,7 @@
       "source": "gh-affirm",
       "name": "Affirm",
       "kind": "greenhouse",
-      "fetched": 27
+      "fetched": 26
     },
     {
       "source": "gh-affle",
@@ -1043,7 +1043,7 @@
       "source": "gh-customerio",
       "name": "Customer.io",
       "kind": "greenhouse",
-      "fetched": 3
+      "fetched": 2
     },
     {
       "source": "gh-dashlane",
@@ -1181,7 +1181,7 @@
       "source": "gh-glance",
       "name": "Glance",
       "kind": "greenhouse",
-      "fetched": 3
+      "fetched": 1
     },
     {
       "source": "gh-greenhouse",
@@ -1289,7 +1289,7 @@
       "source": "gh-launchdarkly",
       "name": "LaunchDarkly",
       "kind": "greenhouse",
-      "fetched": 3
+      "fetched": 2
     },
     {
       "source": "gh-lightmatter",
@@ -1319,13 +1319,13 @@
       "source": "gh-mongodb",
       "name": "MongoDB",
       "kind": "greenhouse",
-      "fetched": 12
+      "fetched": 11
     },
     {
       "source": "gh-monzo",
       "name": "Monzo",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "gh-n26",
@@ -1535,7 +1535,7 @@
       "source": "gh-solutions",
       "name": "Cadence",
       "kind": "greenhouse",
-      "fetched": 7
+      "fetched": 6
     },
     {
       "source": "gh-sovrn",
@@ -1553,7 +1553,7 @@
       "source": "gh-stage",
       "name": "Stage",
       "kind": "greenhouse",
-      "fetched": 9
+      "fetched": 5
     },
     {
       "source": "gh-storyblok",
@@ -1625,7 +1625,7 @@
       "source": "gh-twilio",
       "name": "Twilio",
       "kind": "greenhouse",
-      "fetched": 20
+      "fetched": 22
     },
     {
       "source": "gh-twitch",
@@ -1981,7 +1981,7 @@
       "source": "keka-niyo",
       "name": "Niyo",
       "kind": "keka",
-      "fetched": 5
+      "fetched": 4
     },
     {
       "source": "keka-occamsadvisory",
@@ -2029,7 +2029,7 @@
       "source": "keka-qodoro",
       "name": "Qodoro",
       "kind": "keka",
-      "fetched": 7
+      "fetched": 6
     },
     {
       "source": "keka-qualminds",
@@ -2131,7 +2131,7 @@
       "source": "keka-toddle",
       "name": "Toddle",
       "kind": "keka",
-      "fetched": 4
+      "fetched": 3
     },
     {
       "source": "keka-truagency",
@@ -2203,7 +2203,7 @@
       "source": "lever-accesssoftek",
       "name": "Access Softek",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "lever-activecampaign",
@@ -2329,7 +2329,7 @@
       "source": "lever-fampay",
       "name": "FamPay",
       "kind": "lever",
-      "fetched": 5
+      "fetched": 4
     },
     {
       "source": "lever-fi",
@@ -2533,7 +2533,7 @@
       "source": "lever-paytm",
       "name": "Paytm",
       "kind": "lever",
-      "fetched": 25
+      "fetched": 24
     },
     {
       "source": "lever-pigment",
@@ -2719,7 +2719,7 @@
       "source": "lever-weekdayworks",
       "name": "Weekday",
       "kind": "lever",
-      "fetched": 11
+      "fetched": 13
     },
     {
       "source": "lever-workwave",
@@ -2763,6 +2763,6 @@
     "UPSC"
   ],
   "sitesWithErrors": [],
-  "prunedPages": 5,
+  "prunedPages": 0,
   "status": "healthy"
 }
