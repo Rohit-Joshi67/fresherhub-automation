@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-17T10:24:05.517Z",
-  "totalJobs": 295,
-  "publishedCount": 295,
-  "quarantinedCount": 475,
-  "reviewCount": 475,
-  "privateCount": 295,
+  "updatedAt": "2026-11-17T22:07:18.329Z",
+  "totalJobs": 286,
+  "publishedCount": 286,
+  "quarantinedCount": 441,
+  "reviewCount": 441,
+  "privateCount": 286,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -941,7 +941,7 @@
       "source": "gh-branch",
       "name": "Branch",
       "kind": "greenhouse",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "gh-braze",
@@ -1199,7 +1199,7 @@
       "source": "gh-gusto",
       "name": "Gusto",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "gh-hellofresh",
@@ -1217,7 +1217,7 @@
       "source": "gh-highradius",
       "name": "HighRadius",
       "kind": "greenhouse",
-      "fetched": 15
+      "fetched": 14
     },
     {
       "source": "gh-honeycomb",
@@ -1367,7 +1367,7 @@
       "source": "gh-okta",
       "name": "Okta",
       "kind": "greenhouse",
-      "fetched": 6
+      "fetched": 7
     },
     {
       "source": "gh-okx",
@@ -1505,7 +1505,7 @@
       "source": "gh-sezzle",
       "name": "Sezzle",
       "kind": "greenhouse",
-      "fetched": 32
+      "fetched": 31
     },
     {
       "source": "gh-shifttechnology",
@@ -1625,7 +1625,7 @@
       "source": "gh-twilio",
       "name": "Twilio",
       "kind": "greenhouse",
-      "fetched": 22
+      "fetched": 21
     },
     {
       "source": "gh-twitch",
@@ -1740,13 +1740,15 @@
       "source": "govt-pgcil",
       "name": "PowerGrid",
       "kind": "govt",
-      "fetched": 25
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "govt-sbi",
       "name": "SBI",
       "kind": "govt",
-      "fetched": 25
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "govt-upsc",
@@ -1831,7 +1833,7 @@
       "source": "keka-cloudkaptan",
       "name": "CloudKaptan",
       "kind": "keka",
-      "fetched": 5
+      "fetched": 4
     },
     {
       "source": "keka-codewinglet",
@@ -2257,7 +2259,7 @@
       "source": "lever-bluecatnetworks",
       "name": "BlueCat Networks",
       "kind": "lever",
-      "fetched": 3
+      "fetched": 2
     },
     {
       "source": "lever-bluelightconsulting",
@@ -2311,7 +2313,7 @@
       "source": "lever-entrata",
       "name": "Entrata",
       "kind": "lever",
-      "fetched": 3
+      "fetched": 4
     },
     {
       "source": "lever-everbridge",
@@ -2760,9 +2762,11 @@
   ],
   "sitesSkippedByRobots": [
     "BPCL",
+    "SBI",
+    "PowerGrid",
     "UPSC"
   ],
   "sitesWithErrors": [],
-  "prunedPages": 0,
+  "prunedPages": 1,
   "status": "healthy"
 }
