@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-17T22:07:18.329Z",
-  "totalJobs": 286,
-  "publishedCount": 286,
-  "quarantinedCount": 441,
-  "reviewCount": 441,
-  "privateCount": 286,
+  "updatedAt": "2026-11-18T09:55:04.215Z",
+  "totalJobs": 284,
+  "publishedCount": 284,
+  "quarantinedCount": 462,
+  "reviewCount": 462,
+  "privateCount": 284,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -851,7 +851,7 @@
       "source": "gh-6sense",
       "name": "6sense",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "gh-adyen",
@@ -1001,7 +1001,7 @@
       "source": "gh-cloudsek",
       "name": "CloudSEK",
       "kind": "greenhouse",
-      "fetched": 7
+      "fetched": 6
     },
     {
       "source": "gh-cockroachlabs",
@@ -1043,7 +1043,7 @@
       "source": "gh-customerio",
       "name": "Customer.io",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "gh-dashlane",
@@ -1133,7 +1133,7 @@
       "source": "gh-fastly",
       "name": "Fastly",
       "kind": "greenhouse",
-      "fetched": 3
+      "fetched": 2
     },
     {
       "source": "gh-figma",
@@ -1199,7 +1199,7 @@
       "source": "gh-gusto",
       "name": "Gusto",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "gh-hellofresh",
@@ -1637,7 +1637,7 @@
       "source": "gh-udacity",
       "name": "Udacity",
       "kind": "greenhouse",
-      "fetched": 3
+      "fetched": 2
     },
     {
       "source": "gh-udemy",
@@ -1685,7 +1685,7 @@
       "source": "gh-zoominfo",
       "name": "ZoomInfo",
       "kind": "greenhouse",
-      "fetched": 8
+      "fetched": 7
     },
     {
       "source": "gh-zscaler",
@@ -1697,14 +1697,14 @@
       "source": "govt-bpcl",
       "name": "BPCL",
       "kind": "govt",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 19
     },
     {
       "source": "govt-cdac",
       "name": "C-DAC",
       "kind": "govt",
-      "fetched": 18
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "govt-hpcl",
@@ -1740,8 +1740,7 @@
       "source": "govt-pgcil",
       "name": "PowerGrid",
       "kind": "govt",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 25
     },
     {
       "source": "govt-sbi",
@@ -1821,7 +1820,7 @@
       "source": "keka-clickpost",
       "name": "ClickPost",
       "kind": "keka",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "keka-cloudesign",
@@ -2097,7 +2096,7 @@
       "source": "keka-talakunchi",
       "name": "Talakunchi",
       "kind": "keka",
-      "fetched": 5
+      "fetched": 4
     },
     {
       "source": "keka-tarento",
@@ -2535,7 +2534,7 @@
       "source": "lever-paytm",
       "name": "Paytm",
       "kind": "lever",
-      "fetched": 24
+      "fetched": 23
     },
     {
       "source": "lever-pigment",
@@ -2721,7 +2720,7 @@
       "source": "lever-weekdayworks",
       "name": "Weekday",
       "kind": "lever",
-      "fetched": 13
+      "fetched": 14
     },
     {
       "source": "lever-workwave",
@@ -2761,12 +2760,11 @@
     }
   ],
   "sitesSkippedByRobots": [
-    "BPCL",
+    "C-DAC",
     "SBI",
-    "PowerGrid",
     "UPSC"
   ],
   "sitesWithErrors": [],
-  "prunedPages": 1,
+  "prunedPages": 37,
   "status": "healthy"
 }
