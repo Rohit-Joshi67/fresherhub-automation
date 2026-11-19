@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-19T10:01:16.049Z",
+  "updatedAt": "2026-11-19T22:01:51.073Z",
   "totalJobs": 259,
   "publishedCount": 259,
-  "quarantinedCount": 413,
-  "reviewCount": 413,
+  "quarantinedCount": 421,
+  "reviewCount": 421,
   "privateCount": 259,
   "govtCount": 0,
   "sourceCounts": [
@@ -251,7 +251,7 @@
       "source": "ashby-drivewealth",
       "name": "DriveWealth",
       "kind": "ashby",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "ashby-dust",
@@ -731,7 +731,7 @@
       "source": "ashby-supabase",
       "name": "Supabase",
       "kind": "ashby",
-      "fetched": 24
+      "fetched": 25
     },
     {
       "source": "ashby-synctera",
@@ -851,7 +851,7 @@
       "source": "gh-6sense",
       "name": "6sense",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "gh-adyen",
@@ -863,7 +863,7 @@
       "source": "gh-affirm",
       "name": "Affirm",
       "kind": "greenhouse",
-      "fetched": 29
+      "fetched": 30
     },
     {
       "source": "gh-affle",
@@ -1013,7 +1013,7 @@
       "source": "gh-coinbase",
       "name": "Coinbase",
       "kind": "greenhouse",
-      "fetched": 30
+      "fetched": 31
     },
     {
       "source": "gh-collibra",
@@ -1037,7 +1037,7 @@
       "source": "gh-coursera",
       "name": "Coursera",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "gh-customerio",
@@ -1079,7 +1079,7 @@
       "source": "gh-discord",
       "name": "Discord",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "gh-doctolib",
@@ -1175,7 +1175,7 @@
       "source": "gh-gitlab",
       "name": "GitLab",
       "kind": "greenhouse",
-      "fetched": 7
+      "fetched": 8
     },
     {
       "source": "gh-glance",
@@ -1451,7 +1451,7 @@
       "source": "gh-reddit",
       "name": "Reddit",
       "kind": "greenhouse",
-      "fetched": 11
+      "fetched": 9
     },
     {
       "source": "gh-remote",
@@ -1505,7 +1505,7 @@
       "source": "gh-sezzle",
       "name": "Sezzle",
       "kind": "greenhouse",
-      "fetched": 34
+      "fetched": 36
     },
     {
       "source": "gh-shifttechnology",
@@ -1535,7 +1535,7 @@
       "source": "gh-solutions",
       "name": "Cadence",
       "kind": "greenhouse",
-      "fetched": 6
+      "fetched": 5
     },
     {
       "source": "gh-sovrn",
@@ -1571,7 +1571,7 @@
       "source": "gh-sumologic",
       "name": "Sumo Logic",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "gh-taboola",
@@ -1625,7 +1625,7 @@
       "source": "gh-twilio",
       "name": "Twilio",
       "kind": "greenhouse",
-      "fetched": 19
+      "fetched": 17
     },
     {
       "source": "gh-twitch",
@@ -1679,7 +1679,7 @@
       "source": "gh-yipitdata",
       "name": "YipitData",
       "kind": "greenhouse",
-      "fetched": 8
+      "fetched": 7
     },
     {
       "source": "gh-zoominfo",
@@ -1754,8 +1754,7 @@
       "source": "govt-upsc",
       "name": "UPSC",
       "kind": "govt",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 4
     },
     {
       "source": "hiredoor",
@@ -1779,7 +1778,7 @@
       "source": "keka-acsii",
       "name": "ACS International India",
       "kind": "keka",
-      "fetched": 4
+      "fetched": 3
     },
     {
       "source": "keka-akaike",
@@ -2289,13 +2288,14 @@
       "source": "lever-coinmarketcap",
       "name": "CoinMarketCap",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "lever-cred",
       "name": "CRED",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "lever-cscgeneration2",
@@ -2319,8 +2319,7 @@
       "source": "lever-everbridge",
       "name": "Everbridge",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "lever-extremenetworks",
@@ -2820,8 +2819,7 @@
       "source": "lever-zeta",
       "name": "Zeta",
       "kind": "lever",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 7
     },
     {
       "source": "lever-zoox",
@@ -2832,8 +2830,7 @@
     }
   ],
   "sitesSkippedByRobots": [
-    "Zeta",
-    "Everbridge",
+    "CoinMarketCap",
     "Extreme Networks",
     "FamPay",
     "Field Nation",
@@ -2905,10 +2902,9 @@
     "Zoox",
     "BPCL",
     "SBI",
-    "C-DAC",
-    "UPSC"
+    "C-DAC"
   ],
   "sitesWithErrors": [],
-  "prunedPages": 30,
+  "prunedPages": 20,
   "status": "healthy"
 }
