@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-21T09:24:46.214Z",
-  "totalJobs": 276,
-  "publishedCount": 276,
-  "quarantinedCount": 476,
-  "reviewCount": 476,
-  "privateCount": 276,
+  "updatedAt": "2026-11-21T20:26:35.544Z",
+  "totalJobs": 298,
+  "publishedCount": 298,
+  "quarantinedCount": 455,
+  "reviewCount": 455,
+  "privateCount": 298,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -1217,7 +1217,7 @@
       "source": "gh-highradius",
       "name": "HighRadius",
       "kind": "greenhouse",
-      "fetched": 15
+      "fetched": 16
     },
     {
       "source": "gh-honeycomb",
@@ -1607,7 +1607,7 @@
       "source": "gh-togetherai",
       "name": "Together AI",
       "kind": "greenhouse",
-      "fetched": 3
+      "fetched": 4
     },
     {
       "source": "gh-tripadvisor",
@@ -1716,7 +1716,7 @@
       "source": "govt-ibps",
       "name": "IBPS",
       "kind": "govt",
-      "fetched": 8
+      "fetched": 0
     },
     {
       "source": "govt-iocl",
@@ -2311,7 +2311,7 @@
       "source": "lever-entrata",
       "name": "Entrata",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 5
     },
     {
       "source": "lever-everbridge",
@@ -2347,7 +2347,7 @@
       "source": "lever-filevine",
       "name": "Filevine",
       "kind": "lever",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "lever-fly",
@@ -2455,7 +2455,7 @@
       "source": "lever-mindtickle",
       "name": "Mindtickle",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 4
     },
     {
       "source": "lever-mobileaction",
@@ -2737,7 +2737,7 @@
       "source": "lever-yuno",
       "name": "Yuno",
       "kind": "lever",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "lever-zaimler",
@@ -2763,6 +2763,6 @@
     "UPSC"
   ],
   "sitesWithErrors": [],
-  "prunedPages": 46,
+  "prunedPages": 7,
   "status": "healthy"
 }
