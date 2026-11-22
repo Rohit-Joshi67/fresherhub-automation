@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-22T09:31:11.037Z",
-  "totalJobs": 285,
-  "publishedCount": 285,
-  "quarantinedCount": 470,
-  "reviewCount": 470,
-  "privateCount": 285,
+  "updatedAt": "2026-11-22T20:38:53.171Z",
+  "totalJobs": 308,
+  "publishedCount": 308,
+  "quarantinedCount": 425,
+  "reviewCount": 425,
+  "privateCount": 308,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -1217,7 +1217,7 @@
       "source": "gh-highradius",
       "name": "HighRadius",
       "kind": "greenhouse",
-      "fetched": 16
+      "fetched": 15
     },
     {
       "source": "gh-honeycomb",
@@ -1367,7 +1367,7 @@
       "source": "gh-okta",
       "name": "Okta",
       "kind": "greenhouse",
-      "fetched": 8
+      "fetched": 7
     },
     {
       "source": "gh-okx",
@@ -1716,7 +1716,8 @@
       "source": "govt-ibps",
       "name": "IBPS",
       "kind": "govt",
-      "fetched": 0
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "govt-iocl",
@@ -1746,7 +1747,8 @@
       "source": "govt-sbi",
       "name": "SBI",
       "kind": "govt",
-      "fetched": 25
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "govt-upsc",
@@ -2059,7 +2061,7 @@
       "source": "keka-signzy",
       "name": "Signzy",
       "kind": "keka",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "keka-sisinty",
@@ -2760,9 +2762,11 @@
   ],
   "sitesSkippedByRobots": [
     "BPCL",
+    "SBI",
+    "IBPS",
     "UPSC"
   ],
   "sitesWithErrors": [],
-  "prunedPages": 15,
+  "prunedPages": 38,
   "status": "healthy"
 }
