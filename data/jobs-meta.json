@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-24T12:12:03.430Z",
-  "totalJobs": 285,
-  "publishedCount": 285,
-  "quarantinedCount": 483,
-  "reviewCount": 483,
-  "privateCount": 285,
+  "updatedAt": "2026-11-24T23:27:04.501Z",
+  "totalJobs": 297,
+  "publishedCount": 297,
+  "quarantinedCount": 424,
+  "reviewCount": 424,
+  "privateCount": 297,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -785,7 +785,7 @@
       "source": "ashby-vanta",
       "name": "Vanta",
       "kind": "ashby",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "ashby-vapi",
@@ -863,7 +863,7 @@
       "source": "gh-affirm",
       "name": "Affirm",
       "kind": "greenhouse",
-      "fetched": 28
+      "fetched": 29
     },
     {
       "source": "gh-affle",
@@ -1013,7 +1013,7 @@
       "source": "gh-coinbase",
       "name": "Coinbase",
       "kind": "greenhouse",
-      "fetched": 30
+      "fetched": 32
     },
     {
       "source": "gh-collibra",
@@ -1067,7 +1067,7 @@
       "source": "gh-dataiku",
       "name": "Dataiku",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "gh-descript",
@@ -1097,7 +1097,7 @@
       "source": "gh-dropbox",
       "name": "Dropbox",
       "kind": "greenhouse",
-      "fetched": 11
+      "fetched": 9
     },
     {
       "source": "gh-druva",
@@ -1241,7 +1241,7 @@
       "source": "gh-inmobi",
       "name": "InMobi",
       "kind": "greenhouse",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "gh-instacart",
@@ -1403,7 +1403,7 @@
       "source": "gh-planetscale",
       "name": "PlanetScale",
       "kind": "greenhouse",
-      "fetched": 3
+      "fetched": 2
     },
     {
       "source": "gh-postman",
@@ -1439,7 +1439,7 @@
       "source": "gh-qualtrics",
       "name": "Qualtrics",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 3
     },
     {
       "source": "gh-razorpay",
@@ -1523,7 +1523,7 @@
       "source": "gh-slice",
       "name": "Slice",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "gh-sofi",
@@ -1679,13 +1679,13 @@
       "source": "gh-yipitdata",
       "name": "YipitData",
       "kind": "greenhouse",
-      "fetched": 5
+      "fetched": 4
     },
     {
       "source": "gh-zoominfo",
       "name": "ZoomInfo",
       "kind": "greenhouse",
-      "fetched": 7
+      "fetched": 6
     },
     {
       "source": "gh-zscaler",
@@ -1697,7 +1697,8 @@
       "source": "govt-bpcl",
       "name": "BPCL",
       "kind": "govt",
-      "fetched": 19
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "govt-cdac",
@@ -1715,7 +1716,8 @@
       "source": "govt-ibps",
       "name": "IBPS",
       "kind": "govt",
-      "fetched": 9
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "govt-iocl",
@@ -1745,7 +1747,8 @@
       "source": "govt-sbi",
       "name": "SBI",
       "kind": "govt",
-      "fetched": 25
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "govt-upsc",
@@ -1818,7 +1821,7 @@
       "source": "keka-clickpost",
       "name": "ClickPost",
       "kind": "keka",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "keka-cloudesign",
@@ -2310,7 +2313,7 @@
       "source": "lever-entrata",
       "name": "Entrata",
       "kind": "lever",
-      "fetched": 5
+      "fetched": 4
     },
     {
       "source": "lever-everbridge",
@@ -2718,7 +2721,7 @@
       "source": "lever-weekdayworks",
       "name": "Weekday",
       "kind": "lever",
-      "fetched": 15
+      "fetched": 16
     },
     {
       "source": "lever-workwave",
@@ -2758,9 +2761,12 @@
     }
   ],
   "sitesSkippedByRobots": [
+    "BPCL",
+    "SBI",
+    "IBPS",
     "UPSC"
   ],
   "sitesWithErrors": [],
-  "prunedPages": 0,
+  "prunedPages": 1,
   "status": "healthy"
 }
