@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-24T01:33:31.749Z",
-  "totalJobs": 290,
-  "publishedCount": 290,
-  "quarantinedCount": 458,
-  "reviewCount": 458,
-  "privateCount": 290,
+  "updatedAt": "2026-11-24T12:12:03.430Z",
+  "totalJobs": 285,
+  "publishedCount": 285,
+  "quarantinedCount": 483,
+  "reviewCount": 483,
+  "privateCount": 285,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -731,7 +731,7 @@
       "source": "ashby-supabase",
       "name": "Supabase",
       "kind": "ashby",
-      "fetched": 26
+      "fetched": 25
     },
     {
       "source": "ashby-synctera",
@@ -767,7 +767,7 @@
       "source": "ashby-tilthq",
       "name": "Tilt",
       "kind": "ashby",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "ashby-unify",
@@ -851,7 +851,7 @@
       "source": "gh-6sense",
       "name": "6sense",
       "kind": "greenhouse",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "gh-adyen",
@@ -863,7 +863,7 @@
       "source": "gh-affirm",
       "name": "Affirm",
       "kind": "greenhouse",
-      "fetched": 29
+      "fetched": 28
     },
     {
       "source": "gh-affle",
@@ -875,7 +875,7 @@
       "source": "gh-airbnb",
       "name": "Airbnb",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "gh-airtable",
@@ -1571,13 +1571,13 @@
       "source": "gh-sumologic",
       "name": "Sumo Logic",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "gh-taboola",
       "name": "Taboola",
       "kind": "greenhouse",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "gh-tenstorrent",
@@ -1625,7 +1625,7 @@
       "source": "gh-twilio",
       "name": "Twilio",
       "kind": "greenhouse",
-      "fetched": 21
+      "fetched": 20
     },
     {
       "source": "gh-twitch",
@@ -1679,7 +1679,7 @@
       "source": "gh-yipitdata",
       "name": "YipitData",
       "kind": "greenhouse",
-      "fetched": 6
+      "fetched": 5
     },
     {
       "source": "gh-zoominfo",
@@ -1697,8 +1697,7 @@
       "source": "govt-bpcl",
       "name": "BPCL",
       "kind": "govt",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 19
     },
     {
       "source": "govt-cdac",
@@ -1722,8 +1721,7 @@
       "source": "govt-iocl",
       "name": "IOCL",
       "kind": "govt",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 0
     },
     {
       "source": "govt-lic",
@@ -1982,7 +1980,7 @@
       "source": "keka-niyo",
       "name": "Niyo",
       "kind": "keka",
-      "fetched": 2
+      "fetched": 3
     },
     {
       "source": "keka-occamsadvisory",
@@ -2312,7 +2310,7 @@
       "source": "lever-entrata",
       "name": "Entrata",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 5
     },
     {
       "source": "lever-everbridge",
@@ -2450,7 +2448,7 @@
       "source": "lever-meesho",
       "name": "Meesho",
       "kind": "lever",
-      "fetched": 2
+      "fetched": 1
     },
     {
       "source": "lever-mindtickle",
@@ -2534,7 +2532,7 @@
       "source": "lever-paytm",
       "name": "Paytm",
       "kind": "lever",
-      "fetched": 23
+      "fetched": 24
     },
     {
       "source": "lever-pigment",
@@ -2760,11 +2758,9 @@
     }
   ],
   "sitesSkippedByRobots": [
-    "BPCL",
-    "IOCL",
     "UPSC"
   ],
   "sitesWithErrors": [],
-  "prunedPages": 3,
+  "prunedPages": 0,
   "status": "healthy"
 }
