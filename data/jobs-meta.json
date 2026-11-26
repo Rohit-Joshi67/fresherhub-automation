@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-25T23:00:38.684Z",
-  "totalJobs": 289,
-  "publishedCount": 289,
-  "quarantinedCount": 449,
-  "reviewCount": 449,
-  "privateCount": 289,
+  "updatedAt": "2026-11-26T10:37:36.045Z",
+  "totalJobs": 277,
+  "publishedCount": 277,
+  "quarantinedCount": 424,
+  "reviewCount": 424,
+  "privateCount": 277,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -641,7 +641,7 @@
       "source": "ashby-runpod",
       "name": "RunPod",
       "kind": "ashby",
-      "fetched": 2
+      "fetched": 3
     },
     {
       "source": "ashby-runwayml",
@@ -731,7 +731,7 @@
       "source": "ashby-supabase",
       "name": "Supabase",
       "kind": "ashby",
-      "fetched": 25
+      "fetched": 24
     },
     {
       "source": "ashby-synctera",
@@ -1013,7 +1013,7 @@
       "source": "gh-coinbase",
       "name": "Coinbase",
       "kind": "greenhouse",
-      "fetched": 33
+      "fetched": 34
     },
     {
       "source": "gh-collibra",
@@ -1445,7 +1445,7 @@
       "source": "gh-razorpay",
       "name": "Razorpay",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "gh-reddit",
@@ -1625,7 +1625,7 @@
       "source": "gh-twilio",
       "name": "Twilio",
       "kind": "greenhouse",
-      "fetched": 18
+      "fetched": 19
     },
     {
       "source": "gh-twitch",
@@ -1704,7 +1704,8 @@
       "source": "govt-cdac",
       "name": "C-DAC",
       "kind": "govt",
-      "fetched": 16
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "govt-hpcl",
@@ -1716,7 +1717,7 @@
       "source": "govt-ibps",
       "name": "IBPS",
       "kind": "govt",
-      "fetched": 7
+      "fetched": 9
     },
     {
       "source": "govt-iocl",
@@ -1746,7 +1747,8 @@
       "source": "govt-sbi",
       "name": "SBI",
       "kind": "govt",
-      "fetched": 25
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "govt-upsc",
@@ -2131,7 +2133,7 @@
       "source": "keka-toddle",
       "name": "Toddle",
       "kind": "keka",
-      "fetched": 2
+      "fetched": 3
     },
     {
       "source": "keka-truagency",
@@ -2323,13 +2325,13 @@
       "source": "lever-extremenetworks",
       "name": "Extreme Networks",
       "kind": "lever",
-      "fetched": 9
+      "fetched": 0
     },
     {
       "source": "lever-fampay",
       "name": "FamPay",
       "kind": "lever",
-      "fetched": 4
+      "fetched": 5
     },
     {
       "source": "lever-fi",
@@ -2455,7 +2457,7 @@
       "source": "lever-mindtickle",
       "name": "Mindtickle",
       "kind": "lever",
-      "fetched": 4
+      "fetched": 3
     },
     {
       "source": "lever-mobileaction",
@@ -2749,7 +2751,7 @@
       "source": "lever-zeta",
       "name": "Zeta",
       "kind": "lever",
-      "fetched": 7
+      "fetched": 8
     },
     {
       "source": "lever-zoox",
@@ -2760,9 +2762,11 @@
   ],
   "sitesSkippedByRobots": [
     "BPCL",
+    "C-DAC",
+    "SBI",
     "UPSC"
   ],
   "sitesWithErrors": [],
-  "prunedPages": 9,
+  "prunedPages": 5,
   "status": "healthy"
 }

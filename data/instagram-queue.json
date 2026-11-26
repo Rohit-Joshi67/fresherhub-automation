@@ -1,78 +1,124 @@
 [
   {
-    "page": "/docs/jobs/fivetran-deal-desk-analyst.html",
-    "company": "Fivetran",
-    "title": "Deal Desk Analyst",
-    "apply_url": "https://www.fivetran.com/careers/job?gh_jid=8210772003",
-    "headline": "Deal Desk Analyst @ Fivetran",
-    "subheadline": "CRI - Remote | Internship",
+    "page": "/docs/jobs/razorpay-associate-business-operations.html",
+    "company": "Razorpay",
+    "title": "Associate, Business Operations",
+    "apply_url": "https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4757678005",
+    "headline": "Hiring: Associate - Business Operations",
+    "subheadline": "Bengaluru | 0-2 Years Experience",
     "key_points": [
-      "We’re proud that more organizations continue to leverage our technology every day to become truly data-driven.",
-      "Together, we support thousands of organizations as they build a trusted foundation for analytics, AI, and better business decisions.",
-      "The Deal Desk Analyst is a crucial member of the global Deal Desk team responsible for ensuring quotes and contracts adhere to company standards while helping to increase efficiencies and deal velocity.",
-      "Skill: Sales"
+      "Role: Associate, Business Operations",
+      "Focus: Customer Support & Success",
+      "Shifts: Rotational (9 AM - 9 PM)",
+      "Location: Bengaluru Office"
     ],
-    "cta": "Apply on the official page: https://www.fivetran.com/careers/job?gh_jid=8210772003",
-    "caption": "Hiring alert: Fivetran is looking for a Deal Desk Analyst (CRI - Remote).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- We’re proud that more organizations continue to leverage our technology every day to become truly data-driven.\n- Together, we support thousands of organizations as they build a trusted foundation for analytics, AI, and better business decisions.\n- The Deal Desk Analyst is a crucial member of the global Deal Desk team responsible for ensuring quotes and contracts adhere to company standards while helping to increase efficiencies and deal velocity.\n- Skill: Sales\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "cta": "Apply via the official link",
+    "caption": "Razorpay is looking for an Associate for their Business Operations team in Bengaluru. This role is ideal for individuals with 0-2 years of experience who are dedicated to customer success and effective problem-solving. You will manage customer inquiries and troubleshoot issues while working in a collaborative fintech environment.",
+    "hashtags": [
+      "#fresherjobs",
+      "#razorpay",
+      "#bengalurujobs",
+      "#hiring",
+      "#fintech",
+      "#customersupport"
+    ]
+  },
+  {
+    "page": "/docs/jobs/zeta-intern.html",
+    "company": "Zeta",
+    "title": "Intern",
+    "apply_url": "https://jobs.lever.co/zeta/331526ff-cb2d-4b93-a812-ff37ebb7edc2",
+    "headline": "Hiring Interns at Zeta",
+    "subheadline": "Bangalore | Internship",
+    "key_points": [
+      "Next-gen banking technology firm",
+      "Focus on cloud-native API platforms",
+      "Work with global fintech solutions",
+      "Based in Bangalore office"
+    ],
+    "cta": "Apply via the link in our bio",
+    "caption": "Zeta is hiring an Intern for their Bangalore location. Join a team focused on building modern, cloud-native banking infrastructure that powers financial institutions around the world.",
+    "hashtags": [
+      "#fresherjobs",
+      "#internship",
+      "#Zeta",
+      "#BangaloreJobs",
+      "#FintechJobs",
+      "#EngineeringIntern"
+    ]
+  },
+  {
+    "page": "/docs/jobs/fampay-backend-engineering-intern.html",
+    "company": "FamPay",
+    "title": "Backend Engineering Intern",
+    "apply_url": "https://jobs.lever.co/fampay/cf014ef0-218a-4041-a238-ff91c7b9a5bc",
+    "headline": "Backend Engineering Intern @ FamPay",
+    "subheadline": "Bengaluru | Internship",
+    "key_points": [
+      "We take our internship program very seriously and hope to get our future team members from among our interns.",
+      "We are looking for interns of the 1st order, those who get a rush from creating things from scratch and take pleasure in watching users try to tear it apart through sheer volume and strange, unthinkable use cases."
+    ],
+    "cta": "Apply on the official page: https://jobs.lever.co/fampay/cf014ef0-218a-4041-a238-ff91c7b9a5bc",
+    "caption": "Hiring alert: FamPay is looking for a Backend Engineering Intern (Bengaluru).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- We take our internship program very seriously and hope to get our future team members from among our interns.\n- We are looking for interns of the 1st order, those who get a rush from creating things from scratch and take pleasure in watching users try to tear it apart through sheer volume and strange, unthinkable use cases.\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
     "hashtags": [
       "#fresherjobs",
       "#freshershiring",
       "#entryleveljobs",
       "#hiringindia",
-      "#fivetranhiring",
-      "#criremotejobs"
+      "#fampayhiring",
+      "#bengalurujobs"
     ]
   },
   {
-    "page": "/docs/jobs/scale-ai-support-systems-specialist-zendesk-routing-analytic.html",
-    "company": "Scale AI",
-    "title": "Support Systems Specialist (Zendesk, Routing & Analytics)",
-    "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4684808005",
-    "headline": "Support Systems Specialist (Zendesk, Routing & Analytics) @ Scale AI",
-    "subheadline": "India | Internship",
+    "page": "/docs/jobs/twilio-software-engineer.html",
+    "company": "Twilio",
+    "title": "Software Engineer",
+    "apply_url": "https://job-boards.greenhouse.io/twilio/jobs/8258573",
+    "headline": "Software Engineer @ Twilio",
+    "subheadline": "Remote - Ireland | Internship",
     "key_points": [
-      "Scale is looking for a Support Systems &amp; Routing Specialist to own and optimize the core infrastructure powering our contributor support operations.",
-      "In this role, you will be responsible for configuring and maintaining systems like Zendesk, designing routing logic, and building scalable frameworks that ensure tickets are assigned accurately and efficiently.",
-      "You will be part of a highly detail-oriented and systems-driven team, where your work directly impacts operational efficiency and contributor experience.",
+      "Also, while we are a remote-first company, you may be asked to report in person on an ad-hoc basis for team gatherings, functional off-sites or customer meetings. .",
+      "About the job This position will be part of a team of talented engineers within our Commerce Platform Team, who build services and products that operate at a massive scale.",
+      "The engineer in this role will be part of a team that focuses on the control plane, billing experience and account lifecycle management.= The successful candidate will design, build, and operate core billing platform services that help transition our platform and our customers to the next generation architecture.",
+      "Skill: Python",
+      "Skill: Java",
+      "Skill: TypeScript"
+    ],
+    "cta": "Apply on the official page: https://job-boards.greenhouse.io/twilio/jobs/8258573",
+    "caption": "Hiring alert: Twilio is looking for a Software Engineer (Remote - Ireland).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Also, while we are a remote-first company, you may be asked to report in person on an ad-hoc basis for team gatherings, functional off-sites or customer meetings. .\n- About the job This position will be part of a team of talented engineers within our Commerce Platform Team, who build services and products that operate at a massive scale.\n- The engineer in this role will be part of a team that focuses on the control plane, billing experience and account lifecycle management.= The successful candidate will design, build, and operate core billing platform services that help transition our platform and our customers to the next generation architecture.\n- Skill: Python\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "hashtags": [
+      "#fresherjobs",
+      "#freshershiring",
+      "#entryleveljobs",
+      "#hiringindia",
+      "#twiliohiring",
+      "#remoteirelandjobs"
+    ]
+  },
+  {
+    "page": "/docs/jobs/runpod-software-engineer-full-stack-multiple-levels.html",
+    "company": "RunPod",
+    "title": "Software Engineer (Full-Stack) - Multiple Levels",
+    "apply_url": "https://jobs.ashbyhq.com/runpod/d7c53f7a-ce66-4ecb-91f6-75b1565d4d62",
+    "headline": "Software Engineer (Full-Stack) - Multiple Levels @ RunPod",
+    "subheadline": "Remote - USA | Internship",
+    "key_points": [
+      "Testing & Code Quality: Write clean, maintainable code with an emphasis on performance and scalability, following best practices for testing and continuous integration.",
+      "Requirements: Programming Skills: Some experience with Go Lang and/or Typescript, with a passion for growing in a full-stack role.",
+      "Communication Skills: Ability to clearly communicate technical concepts and collaborate with other developers and non-technical team members.",
       "Skill: Python",
       "Skill: JavaScript",
-      "Skill: SQL"
+      "Skill: TypeScript"
     ],
-    "cta": "Apply on the official page: https://job-boards.greenhouse.io/scaleai/jobs/4684808005",
-    "caption": "Hiring alert: Scale AI is looking for a Support Systems Specialist (Zendesk, Routing & Analytics) (India).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Scale is looking for a Support Systems &amp; Routing Specialist to own and optimize the core infrastructure powering our contributor support operations.\n- In this role, you will be responsible for configuring and maintaining systems like Zendesk, designing routing logic, and building scalable frameworks that ensure tickets are assigned accurately and efficiently.\n- You will be part of a highly detail-oriented and systems-driven team, where your work directly impacts operational efficiency and contributor experience.\n- Skill: Python\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "cta": "Apply on the official page: https://jobs.ashbyhq.com/runpod/d7c53f7a-ce66-4ecb-91f6-75b1565d4d62",
+    "caption": "Hiring alert: RunPod is looking for a Software Engineer (Full-Stack) - Multiple Levels (Remote - USA).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Testing & Code Quality: Write clean, maintainable code with an emphasis on performance and scalability, following best practices for testing and continuous integration.\n- Requirements: Programming Skills: Some experience with Go Lang and/or Typescript, with a passion for growing in a full-stack role.\n- Communication Skills: Ability to clearly communicate technical concepts and collaborate with other developers and non-technical team members.\n- Skill: Python\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
     "hashtags": [
       "#fresherjobs",
       "#freshershiring",
       "#entryleveljobs",
       "#hiringindia",
-      "#scaleaihiring",
-      "#indiajobs"
-    ]
-  },
-  {
-    "page": "/docs/jobs/render-software-engineer-cloud-infrastructure.html",
-    "company": "Render",
-    "title": "Software Engineer, Cloud Infrastructure",
-    "apply_url": "https://jobs.ashbyhq.com/render/a22230e6-803d-4e2e-82f8-ff5f500cdc3d",
-    "headline": "Software Engineer, Cloud Infrastructure @ Render",
-    "subheadline": "Remote: United States | Internship",
-    "key_points": [
-      "Our mission is to eliminate the tradeoff between the power of hyperscalers and the simplicity of developer-friendly platforms—so teams can ship fast, scale reliably, and focus on their product, not infrastructure.",
-      "Applying to Render We're seeking candidates who possess high integrity, humility, and an insatiable drive to learn.",
-      "We foster an environment of mutual trust and respect, empowering effective debate to achieve the best outcomes for our customers and team.",
-      "Skill: Python",
-      "Skill: Go",
-      "Skill: Kubernetes"
-    ],
-    "cta": "Apply on the official page: https://jobs.ashbyhq.com/render/a22230e6-803d-4e2e-82f8-ff5f500cdc3d",
-    "caption": "Hiring alert: Render is looking for a Software Engineer, Cloud Infrastructure (Remote: United States).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- Our mission is to eliminate the tradeoff between the power of hyperscalers and the simplicity of developer-friendly platforms—so teams can ship fast, scale reliably, and focus on their product, not infrastructure.\n- Applying to Render We're seeking candidates who possess high integrity, humility, and an insatiable drive to learn.\n- We foster an environment of mutual trust and respect, empowering effective debate to achieve the best outcomes for our customers and team.\n- Skill: Python\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
-    "hashtags": [
-      "#fresherjobs",
-      "#freshershiring",
-      "#entryleveljobs",
-      "#hiringindia",
-      "#renderhiring",
-      "#remoteunitedstatesjobs"
+      "#runpodhiring",
+      "#remoteusajobs"
     ]
   }
 ]
