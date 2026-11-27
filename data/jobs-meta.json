@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-27T10:41:00.553Z",
-  "totalJobs": 285,
-  "publishedCount": 285,
-  "quarantinedCount": 436,
-  "reviewCount": 436,
-  "privateCount": 285,
+  "updatedAt": "2026-11-27T22:34:33.466Z",
+  "totalJobs": 280,
+  "publishedCount": 280,
+  "quarantinedCount": 463,
+  "reviewCount": 463,
+  "privateCount": 280,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -665,7 +665,7 @@
       "source": "ashby-sarvam",
       "name": "Sarvam AI",
       "kind": "ashby",
-      "fetched": 3
+      "fetched": 2
     },
     {
       "source": "ashby-semgrep",
@@ -1001,7 +1001,7 @@
       "source": "gh-cloudsek",
       "name": "CloudSEK",
       "kind": "greenhouse",
-      "fetched": 6
+      "fetched": 8
     },
     {
       "source": "gh-cockroachlabs",
@@ -1319,7 +1319,7 @@
       "source": "gh-mongodb",
       "name": "MongoDB",
       "kind": "greenhouse",
-      "fetched": 11
+      "fetched": 10
     },
     {
       "source": "gh-monzo",
@@ -1505,7 +1505,7 @@
       "source": "gh-sezzle",
       "name": "Sezzle",
       "kind": "greenhouse",
-      "fetched": 31
+      "fetched": 26
     },
     {
       "source": "gh-shifttechnology",
@@ -1553,7 +1553,7 @@
       "source": "gh-stage",
       "name": "Stage",
       "kind": "greenhouse",
-      "fetched": 4
+      "fetched": 5
     },
     {
       "source": "gh-storyblok",
@@ -1697,14 +1697,13 @@
       "source": "govt-bpcl",
       "name": "BPCL",
       "kind": "govt",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 19
     },
     {
       "source": "govt-cdac",
       "name": "C-DAC",
       "kind": "govt",
-      "fetched": 0
+      "fetched": 16
     },
     {
       "source": "govt-hpcl",
@@ -1716,8 +1715,7 @@
       "source": "govt-ibps",
       "name": "IBPS",
       "kind": "govt",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 9
     },
     {
       "source": "govt-iocl",
@@ -1747,7 +1745,8 @@
       "source": "govt-sbi",
       "name": "SBI",
       "kind": "govt",
-      "fetched": 25
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "govt-upsc",
@@ -2258,7 +2257,7 @@
       "source": "lever-bluecatnetworks",
       "name": "BlueCat Networks",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 2
     },
     {
       "source": "lever-bluelightconsulting",
@@ -2432,7 +2431,7 @@
       "source": "lever-linkedin",
       "name": "LinkedIn",
       "kind": "lever",
-      "fetched": 4
+      "fetched": 3
     },
     {
       "source": "lever-lyrebirdstudio",
@@ -2450,7 +2449,7 @@
       "source": "lever-meesho",
       "name": "Meesho",
       "kind": "lever",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "lever-mindtickle",
@@ -2600,7 +2599,7 @@
       "source": "lever-revealtech",
       "name": "Reveal Group",
       "kind": "lever",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "lever-revefi",
@@ -2760,11 +2759,10 @@
     }
   ],
   "sitesSkippedByRobots": [
-    "BPCL",
-    "IBPS",
+    "SBI",
     "UPSC"
   ],
   "sitesWithErrors": [],
-  "prunedPages": 9,
+  "prunedPages": 47,
   "status": "healthy"
 }
