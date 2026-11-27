@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-26T22:54:38.805Z",
-  "totalJobs": 305,
-  "publishedCount": 305,
-  "quarantinedCount": 400,
-  "reviewCount": 400,
-  "privateCount": 305,
+  "updatedAt": "2026-11-27T10:41:00.553Z",
+  "totalJobs": 285,
+  "publishedCount": 285,
+  "quarantinedCount": 436,
+  "reviewCount": 436,
+  "privateCount": 285,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -731,7 +731,7 @@
       "source": "ashby-supabase",
       "name": "Supabase",
       "kind": "ashby",
-      "fetched": 24
+      "fetched": 23
     },
     {
       "source": "ashby-synctera",
@@ -1475,7 +1475,7 @@
       "source": "gh-roblox",
       "name": "Roblox",
       "kind": "greenhouse",
-      "fetched": 8
+      "fetched": 10
     },
     {
       "source": "gh-rti",
@@ -1625,7 +1625,7 @@
       "source": "gh-twilio",
       "name": "Twilio",
       "kind": "greenhouse",
-      "fetched": 19
+      "fetched": 21
     },
     {
       "source": "gh-twitch",
@@ -1747,8 +1747,7 @@
       "source": "govt-sbi",
       "name": "SBI",
       "kind": "govt",
-      "fetched": 0,
-      "skipped": "robots"
+      "fetched": 25
     },
     {
       "source": "govt-upsc",
@@ -1815,7 +1814,7 @@
       "source": "keka-brandstory",
       "name": "BrandStory",
       "kind": "keka",
-      "fetched": 7
+      "fetched": 8
     },
     {
       "source": "keka-clickpost",
@@ -2055,7 +2054,7 @@
       "source": "keka-saneforce",
       "name": "SANeForce",
       "kind": "keka",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "keka-signzy",
@@ -2115,7 +2114,7 @@
       "source": "keka-techdome",
       "name": "Techdome",
       "kind": "keka",
-      "fetched": 7
+      "fetched": 3
     },
     {
       "source": "keka-tekmindz",
@@ -2259,7 +2258,7 @@
       "source": "lever-bluecatnetworks",
       "name": "BlueCat Networks",
       "kind": "lever",
-      "fetched": 2
+      "fetched": 0
     },
     {
       "source": "lever-bluelightconsulting",
@@ -2499,7 +2498,7 @@
       "source": "lever-neuron7",
       "name": "Neuron7.ai",
       "kind": "lever",
-      "fetched": 1
+      "fetched": 2
     },
     {
       "source": "lever-octoenergy",
@@ -2721,7 +2720,7 @@
       "source": "lever-weekdayworks",
       "name": "Weekday",
       "kind": "lever",
-      "fetched": 16
+      "fetched": 15
     },
     {
       "source": "lever-workwave",
@@ -2762,11 +2761,10 @@
   ],
   "sitesSkippedByRobots": [
     "BPCL",
-    "SBI",
     "IBPS",
     "UPSC"
   ],
   "sitesWithErrors": [],
-  "prunedPages": 44,
+  "prunedPages": 9,
   "status": "healthy"
 }
