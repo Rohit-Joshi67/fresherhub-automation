@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-27T22:34:33.466Z",
-  "totalJobs": 280,
-  "publishedCount": 280,
-  "quarantinedCount": 463,
-  "reviewCount": 463,
-  "privateCount": 280,
+  "updatedAt": "2026-11-28T09:58:21.672Z",
+  "totalJobs": 279,
+  "publishedCount": 279,
+  "quarantinedCount": 433,
+  "reviewCount": 433,
+  "privateCount": 279,
   "govtCount": 0,
   "sourceCounts": [
     {
@@ -929,7 +929,7 @@
       "source": "gh-automatticcareers",
       "name": "Automattic",
       "kind": "greenhouse",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "gh-block",
@@ -1697,7 +1697,8 @@
       "source": "govt-bpcl",
       "name": "BPCL",
       "kind": "govt",
-      "fetched": 19
+      "fetched": 0,
+      "skipped": "robots"
     },
     {
       "source": "govt-cdac",
@@ -1715,7 +1716,7 @@
       "source": "govt-ibps",
       "name": "IBPS",
       "kind": "govt",
-      "fetched": 9
+      "fetched": 0
     },
     {
       "source": "govt-iocl",
@@ -2599,7 +2600,7 @@
       "source": "lever-revealtech",
       "name": "Reveal Group",
       "kind": "lever",
-      "fetched": 0
+      "fetched": 1
     },
     {
       "source": "lever-revefi",
@@ -2629,7 +2630,7 @@
       "source": "lever-soum",
       "name": "Soum",
       "kind": "lever",
-      "fetched": 1
+      "fetched": 0
     },
     {
       "source": "lever-spotify",
@@ -2731,7 +2732,7 @@
       "source": "lever-xsolla",
       "name": "Xsolla",
       "kind": "lever",
-      "fetched": 3
+      "fetched": 0
     },
     {
       "source": "lever-yuno",
@@ -2759,10 +2760,11 @@
     }
   ],
   "sitesSkippedByRobots": [
+    "BPCL",
     "SBI",
     "UPSC"
   ],
   "sitesWithErrors": [],
-  "prunedPages": 47,
+  "prunedPages": 26,
   "status": "healthy"
 }

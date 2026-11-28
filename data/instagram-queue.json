@@ -1,77 +1,24 @@
 [
   {
-    "page": "/docs/jobs/meesho-software-engineer-i-backend-kirana-club.html",
-    "company": "Meesho",
-    "title": "Software Engineer I - Backend (Kirana Club)",
-    "apply_url": "https://jobs.lever.co/meesho/73db1822-f3de-4f9f-a2b3-944ea0b03702",
-    "headline": "Hiring: Software Engineer I",
-    "subheadline": "Bangalore | Meesho | Kirana Club",
+    "page": "/docs/jobs/major-league-hacking-technical-content-streamer.html",
+    "company": "Major League Hacking",
+    "title": "Technical Content Streamer",
+    "apply_url": "https://careers.mlh.io/o/streamer-2025",
+    "headline": "Technical Content Streamer @ Major League Hacking",
+    "subheadline": "India | Students",
     "key_points": [
-      "Backend-leaning full-stack role",
-      "End-to-end feature ownership",
-      "High-volume learning environment",
-      "Production shipping from week one",
-      "Use of LLM-assisted coding tools"
+      "Responsibilities Work on the Technical Content Streamer scope described on the official Major League Hacking posting.",
+      "Requirements Experience: Fresher."
     ],
-    "cta": "Apply via the official link",
-    "caption": "Meesho is looking for a Software Engineer I for the Kirana Club team in Bangalore. This position offers the opportunity to own features from the data model through to the user interface. Candidates will work in a fast-paced engineering environment with a focus on judgment and code quality.",
-    "hashtags": [
-      "#fresherjobs",
-      "#softwareengineer",
-      "#bangalorejobs",
-      "#meesho",
-      "#backendengineering",
-      "#hiring"
-    ]
-  },
-  {
-    "page": "/docs/jobs/cloudsek-customer-threat-advisor-intern-offensive.html",
-    "company": "CloudSEK",
-    "title": "Customer Threat Advisor - Intern (Offensive)",
-    "apply_url": "https://job-boards.greenhouse.io/cloudsek/jobs/6272366004",
-    "headline": "Customer Threat Advisor - Intern (Offensive) @ CloudSEK",
-    "subheadline": "Bengaluru, Karnataka, India | Internship",
-    "key_points": [
-      "We believe that work and the workplace should be joyful and always buzzing with energy!",
-      "CloudSEK , one of India’s most trusted Cyber security product companies, is on a mission to build the world’s fastest and most reliable AI technology that identifies and resolves digital threats in real-time.",
-      "CloudSEK's BeVigil uses a combination of Mobile, Web, Network and Encryption Scanners to map and protect known and unknown assets.",
-      "Skill: Python",
-      "Skill: Go",
-      "Skill: AWS"
-    ],
-    "cta": "Apply on the official page: https://job-boards.greenhouse.io/cloudsek/jobs/6272366004",
-    "caption": "Hiring alert: CloudSEK is looking for a Customer Threat Advisor - Intern (Offensive) (Bengaluru, Karnataka, India).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- We believe that work and the workplace should be joyful and always buzzing with energy!\n- CloudSEK , one of India’s most trusted Cyber security product companies, is on a mission to build the world’s fastest and most reliable AI technology that identifies and resolves digital threats in real-time.\n- CloudSEK's BeVigil uses a combination of Mobile, Web, Network and Encryption Scanners to map and protect known and unknown assets.\n- Skill: Python\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
+    "cta": "Apply on the official page: https://careers.mlh.io/o/streamer-2025",
+    "caption": "Hiring alert: Major League Hacking is looking for a Technical Content Streamer (India).\n\nEligibility: Students.\nCompensation: check the official posting for details.\n- Responsibilities Work on the Technical Content Streamer scope described on the official Major League Hacking posting.\n- Requirements Experience: Fresher.\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
     "hashtags": [
       "#fresherjobs",
       "#freshershiring",
       "#entryleveljobs",
       "#hiringindia",
-      "#cloudsekhiring",
-      "#bengalurukarnatakaindiajobs"
-    ]
-  },
-  {
-    "page": "/docs/jobs/cloudsek-product-specialist-intern.html",
-    "company": "CloudSEK",
-    "title": "Product Specialist - Intern",
-    "apply_url": "https://job-boards.greenhouse.io/cloudsek/jobs/6272361004",
-    "headline": "Product Specialist - Intern @ CloudSEK",
-    "subheadline": "Bengaluru, Karnataka, India | Internship",
-    "key_points": [
-      "We believe that work and the workplace should be joyful and always buzzing with energy!",
-      "CloudSEK , one of India’s most trusted Cyber security product companies, is on a mission to build the world’s fastest and most reliable AI technology that identifies and resolves digital threats in real-time.",
-      "CloudSEK's BeVigil uses a combination of Mobile, Web, Network and Encryption Scanners to map and protect known and unknown assets.",
-      "Skill: Machine Learning"
-    ],
-    "cta": "Apply on the official page: https://job-boards.greenhouse.io/cloudsek/jobs/6272361004",
-    "caption": "Hiring alert: CloudSEK is looking for a Product Specialist - Intern (Bengaluru, Karnataka, India).\n\nEligibility: Internship.\nCompensation: check the official posting for details.\n- We believe that work and the workplace should be joyful and always buzzing with energy!\n- CloudSEK , one of India’s most trusted Cyber security product companies, is on a mission to build the world’s fastest and most reliable AI technology that identifies and resolves digital threats in real-time.\n- CloudSEK's BeVigil uses a combination of Mobile, Web, Network and Encryption Scanners to map and protect known and unknown assets.\n- Skill: Machine Learning\n\nApply via the official link in bio.\n\nFollow for daily verified fresher openings across India.",
-    "hashtags": [
-      "#fresherjobs",
-      "#freshershiring",
-      "#entryleveljobs",
-      "#hiringindia",
-      "#cloudsekhiring",
-      "#bengalurukarnatakaindiajobs"
+      "#majorleaguehackinghiring",
+      "#indiajobs"
     ]
   }
 ]
